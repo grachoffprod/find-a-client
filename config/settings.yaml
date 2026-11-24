@@ -2,7 +2,7 @@
 
 ai:
   provider: anthropic        # anthropic | openrouter
-  model: claude-haiku-5-5    # для openrouter, например: anthropic/claude-haiku-5.5 или бесплатная модель с ":free"
+  model: claude-haiku-5-5    # для openrouter — точное имя модели с openrouter.ai/models (бесплатные оканчиваются на ":free")
   max_per_run: 40            # не больше стольких заказов к ИИ за один запуск
   monthly_limit: 3000        # и не больше стольких запросов в месяц
 
