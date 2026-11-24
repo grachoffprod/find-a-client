@@ -1,5 +1,333 @@
 [
  {
+  "id": "flru:5530392",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530392/parser-wb--kaspi-s-sozdaniem-kartochek-avtoobnovleniem-tsen-i-ostatkov.html",
+  "title": "Парсер WB → Kaspi с созданием карточек, автообновлением цен и остатков",
+  "description": "Ищу разработчика, который создаст программу для переноса товаров в мой магазин Kaspi. Нужна программа для самостоятельной работы. Я вставляю ссылку на любую выбранную категорию...",
+  "budget": 20000.0,
+  "currency": "RUB",
+  "posted_at": "Tue, 24 Nov 2026 20:03:45 GMT",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "kwork:3275406",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275406",
+  "title": "Реалистичная генерация интерьеров по референсам в 4K",
+  "description": "Реалистичная генерация интерьеров по референсам в 4K \nПредоставляем референсы интерьеров, реальные фотографии материалов и, при наличии, готовые текстуры. \nНеобходимо максимально реалистично интегрировать фактуру в интерьер, сохранив её цвет, рисунок, масштаб и рельеф. Изображения предназначены для печати в каталогах, публикации на сайте и использования в презентациях. \n**Требования:** разрешение 4K и выше, фотореализм, высокая детализация, отсутствие AI-артефактов, корректная перспектива и освещение. \nПростая генерация в ChatGPT без проверки и доработки не интересует. Важно профессиональное владение нейросетями, понимание их возможностей и ограничений, умение выявлять и устранять ошибки генерации. Опыт работы с интерьерами необязателен. \nПервое задание — бесплатное тестовое, ориентировочно на 10–15 минут для опытного специалиста. Результат можно предоставить ссылкой на облачное хранилище в хорошем качестве. \n**Условия сотрудничества:** ищем постоянного подрядчика. Объём работы большой, много коллекций и артикулов. \nОриентировочная стоимость единичного изображения высокого качества — 1500–2000 руб. Стоимость пакетной генерации (60–100 изображений) обсуждается индивидуально с учётом объёма, сложности замены материалов, различий между фактурами и необходимости корректировки промптов. \nГотовы рассмотреть ваши расценки на Kwork с учётом объёма и сложности задач.",
+  "budget": 2000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-24 23:04:58",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 2,
+   "summary_ru": "Заказчик ищет постоянного подрядчика для пакетной AI-генерации фотореалистичных интерьеров с интеграцией референсных материалов в 4K. Это генерация изображений и дизайн-работа, а не разработка из списка услуг Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разработка какого-либо программного продукта (сайт, каталог с выбором материалов, интеграция с их системой), или речь только о генерации изображений?",
+    "Планируется ли автоматизация пакетной генерации, например скрипт или интеграция с API нейросети, которую можно разработать?"
+   ]
+  },
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "kwork:3265626",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3265626",
+  "title": "Поиск клиентов, лидов на разработку IT-продуктов",
+  "description": "Требуется специалист для поиска новых клиентов команде, занимающейся разработкой IT-решений. Ваша задача - находить организации, заинтересованные в создании сайтов, веб-приложений, онлайн-сервисов или программного обеспечения под индивидуальные задачи, и передавать нам контакты потенциальных заказчиков. В результате сотрудничества необходимо привлечь несколько заинтересованных клиентов. По каждому из них потребуется предоставить название организации, краткое описание необходимого проекта и контакт ответственного лица, которое выразило готовность обсудить разработку и дало согласие на передачу своих данных. Предоставление обычных баз компаний без предварительного подтверждения заинтересованности не подходит. Все последующие переговоры, уточнение требований, подготовку технического задания и выполнение разработки наша команда осуществляет самостоятельно. Бюджет на выполнение всего согласованного объёма составляет 60000 ₽. Вознаграждение выплачивается за качественно выполненную работу по установленным критериям и не зависит от заключения договора с найденным заказчиком. Оплата проводится через биржу. Срок выполнения задания 30 дней. При отклике расскажите о своём опыте поиска клиентов для IT-компаний и применяемых способах привлечения заказчиков.",
+  "budget": 60000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-24 22:55:55",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Заказчику нужен специалист по поиску клиентов (лидов) для команды разработки IT-продуктов: найти организации, которым нужны сайты или веб-приложения, и передать их контакты с согласия ответственных лиц. Оплата 60 000 ₽ за результат, срок 30 дней. Это продажи и лидогенерация, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой объём лидов и по каким критериям считается результат, который принимается и оплачивается?",
+    "Нужна ли разработка чего-либо со стороны исполнителя, или задача полностью связана с поиском и передачей контактов?"
+   ]
+  },
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "kwork:3252822",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3252822",
+  "title": "Первичная коммуникация с партнерами в вотсапе",
+  "description": "Предостaвим контaкты 100 пользовaтелей, которые соглaсились нa общение. Нужно вручную писaть от 10 до 15 людям в день, рaсскaзывaть о возможном сотрудничестве (по рекламе, ничего запрещенного), узнaвaть, интересно ли им предложение, и отвечaть нa вопросы с помощью нaших мaтериaлов (все скрипты для общения даются). \nИщем человекa, который пишет без ошибок, общaется вежливо и умеет вести деловую переписку.",
+  "budget": 1000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-24 22:48:37",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Заказчику нужен человек для ручной переписки в WhatsApp: писать 10–15 людям в день по готовым скриптам о рекламном сотрудничестве и отвечать на вопросы. Это не разработка, а ручной труд.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "kwork:2450552",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/2450552",
+  "title": "Рассылки в вотсап с личного аккаунта",
+  "description": "Нужно сделать рассылки вотсап по базе номеров \nРассылки с предложением о продвижении. База номеров и скрипт дается. От вас важно отправлять смс и отвечать по скрипту (скрипты тоже даются, ничего придумывать не надо) \nНомера сохранять не нужно в телефон, можно просто отправлять смс без занесения номера в контакты (это делается по ссылке, инструкция дается)",
+  "budget": 1500.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-24 22:48:19",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Заказчик хочет массовые рассылки предложений о продвижении в WhatsApp с личного аккаунта по готовой базе номеров с автоответами по скрипту и отправкой без сохранения контактов. Это спам-рассылка, а не разработка из наших услуг, и она рискует блокировкой аккаунта и нарушением закона о рекламе.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у получателей из базы явное согласие на получение рекламных сообщений?"
+   ]
+  },
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "kwork:2465781",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/2465781",
+  "title": "Рассылки вотсап с личного аккаунта",
+  "description": "Нужно сделать рассылки вотсап с личного аккаунта. Лучше всего с 2х аккаунтов работать. \nСкрипты для рассылок даются, ответы тоже даются. Нужно будет отправлять по 30-50 смс в день, чтобы аккаунты не заблокировали, так как важно принимать с них ответы и отвечать.",
+  "budget": 1500.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-24 22:48:18",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик хочет настроить массовые рассылки WhatsApp с личных аккаунтов (два аккаунта, 30–50 сообщений в день), чтобы обойти блокировку. Скрипты и ответы уже есть. Задача связана с обходом ограничений мессенджера и, вероятно, со спамом.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у получателей подтверждённое согласие на рассылку и откуда взяты их номера?",
+    "Какой именно функционал нужен от исполнителя: только скрипт или также поддержка работы с ответами?"
+   ]
+  },
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "kwork:2995896",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/2995896",
+  "title": "Рассылки WhatsApp с личного аккаунта",
+  "description": "Нужно сделать 150 рассылок с личного аккаунта в вотсапе, \n1. Скрипт для рассылки и ответы даются (рассылка на тему продажи услуг для предпринимателей) \n2. Номера для рассылки даются (не нужно сохранять номер в контакты, можно делать рассылки по ссылке) \n3. Отправлять 20 смс в день, так как важно на них принимать ответы \nВ отклике напишите: \n1. Сколько у вас есть аккаунтов в вотсапе \n2. Какую сумму хотите за 150 рассылок (после теста на 150 рассылок можем договориться на 500 рассылок)",
+  "budget": 1000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-24 22:48:17",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Заказчик хочет массовые рассылки в WhatsApp с личных аккаунтов по готовому скрипту, с номерами без сохранения в контакты и ответами на сообщения. Это спам-рассылка, которая нарушает правила WhatsApp и может привести к блокировке аккаунтов и юридическим рискам.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у получателей явное согласие на получение рассылки и как это подтверждается?",
+    "Понимает ли заказчик риск блокировки личных аккаунтов WhatsApp при таких объёмах?"
+   ]
+  },
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "freelancer:40834068",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-automation/Automation-System-Development-Workflow-40834068",
+  "title": "AI Automation System Development – Workflow & Integration",
+  "description": "### Project Overview\n\nWe are a small development team working on an AI automation project. We are looking for a reliable and experienced developer to collaborate with our team on designing, developing, and implementing AI-powered automation solutions.\n\nOur goal is to build intelligent software that automates repetitive tasks, improves workflows, and integrates AI technologies with existing platforms and services.\n\n### Responsibilities\n\n- Design and develop AI-powered automation systems.\n- Build intelligent workflows using AI models and automation tools.\n- Integrate AI APIs such as OpenAI and other LLM providers.\n- Develop backend services and API integrations using Python, Node.js, or similar technologies.\n- Implement automated data processing and task execution.\n- Develop and integrate AI agents for specific business processes.\n- Test, troubleshoot, and optimize automation workflows.\n- Collaborate with our development team on technical planning and implementation.\n- Maintain technical documentation and improve existing functionality.\n\n### Requirements\n\n- Experience with Python, JavaScript, Node.js, or similar programming languages.\n- Knowledge of AI technologies, LLMs, and API integrations.\n- Familiarity with automation platforms such as n8n, Make, or Zapier.\n- Understanding of backend development, databases, and REST APIs.\n- Ability to design and implement reliable automation workflows.\n- Good problem-solving and communication skills.\n- Previous experience developing AI automation applications or intelligent software solutions is a plus.\n\n### Working Arrangement\n\nWe are interested in establishing a long-term working relationship with a developer who can actively contribute to our technical projects.\n\nCompensation and collaboration terms will be discussed and agreed upon before work begins. We are open to discussing a performance-based compensation structure where appropriate.\n\n### How to Apply\n\nPlease introduce yourself, describe your relevant development experience, and share examples of AI automation projects or applications you have previously developed.\n\nWe would also appreciate information about the technologies you work with and how you would approach developing an AI-powered automation solution.\n\nWe look forward to collaborating with someone reliable, technically skilled, and interested in long-term cooperation.",
+  "budget": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-24T20:45:53+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "freelancer:40834067",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/artificial-intelligence/Developer-Build-Connected-Platform-for",
+  "title": "AI Developer to Build a Connected AI Platform for SME's",
+  "description": "We're Lamp, an AI department for service businesses in Egypt. We're starting with SMEs (clinics, real estate brokerages, academies and finance-related services) and we have clients waiting. This is a real project, not a test. The full scope is in the attached document.\n\nWhat we're building\nOne platform with the Executive Brain at the center, and modules that plug into it: Finance & Accounting, Reception, Sales, Marketing and People. Operations is designed per business. Nothing here works in isolation, and that's the point. Every module reads from and writes to one shared data layer, so they feed each other. Reception's conversations tell Marketing what customers actually ask. A closed deal in Sales triggers an invoice in Finance and a welcome message from Reception. Marketing knows which ad brought a paying customer, not just a click, and Finance turns that into the real cost per customer. That connection is the product.\n\nThe Executive Brain\nThe owner's branded app, installable on web and phone, and the hardest part of the build. Each module has its own chat, and a CEO chat queries all of them and returns one answer, in Egyptian Arabic or by voice note. Every number is calculated from real data, never generated by the model, and every answer cites its source. The dashboard shows a health score per department with drill-down from the whole company to a single customer, an Approval Center for one-tap approval of discounts, payments and budget changes, and an impact tracker against the client's baseline. Every module sends its notifications through the Brain, with priority levels, a daily cap and quiet hours.\n\nThe modules\nFinance & Accounting is our flagship. It connects to the client's existing accounting software, drafts invoices automatically, submits e-invoices and e-receipts to the Egyptian Tax Authority, matches payments across InstaPay, wallets, cards and bank transfers, and produces live financial statements, a 13-week cash forecast and what-if scenarios. Reception answers WhatsApp, social DMs and calls 24/7, manages bookings with a waitlist, recovers missed calls and hands chats to staff with a summary. Sales contacts every lead within a minute or two, qualifies and scores them, runs follow-ups that stop when the lead replies, and keeps the CRM updated from calls and chats. Marketing builds the content calendar from real customer conversations and ties ad performance to actual revenue. People gives staff an assistant that answers from company procedures, plus onboarding and leave requests on WhatsApp.\n\nQuality\nOur internal layer that watches every deployment. Every AI action is logged with what it did and why. Quality scores each module on a few KPIs, reviews samples plus anything flagged, catches wrong answers and frustrated customers, and every change is tested on saved real conversations before it goes live.\n\nGround rules\nThe AI never moves money. Numbers are calculated, not generated. Arabic comes first (Egyptian Arabic, Franco-Arabic and English, in text and voice). Access is least-privilege, and all accounts stay in the client's name.\n\nWho we're looking for\nA developer or small team with production experience in LLM agents and retrieval, the WhatsApp Business Platform, API integrations (CRM, accounting software, Meta and Google Ads), backend and databases, and an installable web/mobile app. Arabic NLP, voice AI or Egyptian Tax Authority e-invoicing experience is a strong plus.\n\nWhy work with us\nReal clients and real deployments. We launch in stages for each client, so the work keeps coming. If you deliver well, you become our go-to team for every client project after this one. This is long-term work, not a one-off.\n\nHow to apply\nStart your bid with the word \"Lamp\". Tell us which building blocks in the attached scope you've built before, with links or examples. Give a total estimate plus a breakdown by build stage, and tell us if you're solo or a team and who does what. Shortlisted candidates get an interview here on Freelancer, then a small paid milestone before the main build.",
+  "budget": 5000.0,
+  "currency": "USD",
+  "posted_at": "2026-11-24T20:45:32+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking",
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "freelancer:40834058",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/crm/Multi-User-Travel-CRM-Development",
+  "title": "Multi-User Travel CRM Development",
+  "description": "I need a Travel CRM designed to manage travel leads and customer details. The CRM should be user-friendly and suitable for multiple users.\n\nKey Features:\n- Secure login for multiple users\n- Dashboard to view and manage travel leads\n- Database to store and retrieve customer details\n- Search and filter options for easy data access\n- Role-based access control\n- Daywise Package & Itinerary Builder\n- PDF Proposals & Travel Vouchers\n- Quotation Management with Auto Calculations\n- Whatsapp Automation For Bookings & Reminders\n- Lead Source Integrations\n- Travel Calendar & Followup\n- Assets Library - Brochures, Guides, Documents\n- Click To Call Dialer, Click To Whatsapp\n- Invoice Management, Vendor Management\n- Reports & Analytics\n- Auto Populate Hotel & Flights\n- Client Portal\n- Possibility To Connect To My Whitelabel Website\n- Any fresh ideas are welcome\n- Suitable AI Features ( Optional )\n\nIdeal Skills and Experience:\n- Experience in CRM development\n- Strong knowledge of database management\n- UI/UX design skills\n- Ability to deliver within a month\n\nPlease include detailed project proposals in your application.",
+  "budget": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-24T20:38:13+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking",
+   "automation",
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "freelancer:40834060",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-integration/Mortgage-Lead-Gen-Platform-Pilot",
+  "title": "Mortgage Lead-Gen Platform Pilot Build",
+  "description": "I’m spinning up a proof-of-concept for KeepEasy Finance that lets Australian home buyers book a call with one of our brokers and, behind the scenes, creates a lead inside BrokerEngine using dummy data. The pilot will never touch production credentials—once the flow works, we’ll swap in live keys ourselves.\n\nHere’s the flow I want to see:\n• Prospect lands on a responsive page, enters basic contact details, then chooses a time slot that aligns with the broker’s Sydney schedule. \n• On submission, the system fires a test payload to BrokerEngine (or clearly logs the API call) so we can confirm the mapping. \n• Both prospect and broker receive confirmation emails. \n\nDeliverables:\n• Front-end landing page + form. \n• Calendar/booking integration (Calendly, Google Calendar API, or similar). \n• Backend script demonstrating the BrokerEngine link with dummy data. \n• Clear deploy notes and a short screen-share walkthrough. \n\nAcceptance criteria:\n1. A test lead appears in BrokerEngine’s sandbox or in a logged JSON object matching their schema. \n2. Email confirmations render correctly in AEST. \n3. Code is clean, commented, and can be redeployed with live keys in under an hour. \n\nI need at least three hours of overlap with Sydney business hours each day. Experience with Australian mortgage broking or BrokerEngine will earn extra points, but solid API integration work speaks for itself. Let me know the tech stack you’d choose and link me to a similar integration you’ve shipped.",
+  "budget": 750.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-24T20:36:48+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "landing",
+   "booking",
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "freelancer:40834017",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-developmet/Bespoke-API-Powered-Report-Builder",
+  "title": "Bespoke API-Powered Report Builder",
+  "description": "I am looking to develop a bespoke web-based application for my business that will allow me to create professional, customised reports by integrating data from multiple third-party websites and platforms via their APIs.\n\nThe application should have a flexible report-building interface, allowing me to design and customise my own report templates rather than relying on fixed, pre-designed formats.\n\nKey functionality required:\n\nAPI integrations: Ability to pull data automatically from several different third-party websites and platforms via their APIs and populate relevant sections of my reports.\n\nCustom text fields: Ability to create editable text boxes throughout the report, allowing me to add my own commentary, descriptions and professional opinions.\n\nDropdown menus: Customisable dropdown fields with predefined options to ensure consistency and speed up report completion.\n\nPhoto uploads: Dedicated sections where users can upload photographs, arrange them within the report and add descriptions or captions.\n\nCustom report templates: Ability to create, save and amend bespoke report templates, including different layouts and sections depending on the report type.\n\nDynamic content: The ability for information retrieved through APIs, dropdown selections and manual inputs to automatically populate the relevant sections of the report.\n\nReport generation: Ability to generate a final, professionally formatted report, ideally in PDF format, with consistent branding, layouts, headers and footers.\n\nUser management: Ideally, multiple users should be able to log in, access the platform and create reports, with appropriate permissions.\n\nThe overall objective is to build a flexible, scalable reporting platform that combines automated data retrieval with manual input, allowing us to produce our own bespoke reports efficiently.\n\nI am looking for a developer who can advise on the best technology and architecture for this project, assist with API integrations and deliver a fully functioning application with an intuitive, user-friendly interface.",
+  "budget": 5000.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-24T19:47:12+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "freelancer:40834016",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/compliance/Fintech-Crypto-Compliance-Framework",
+  "title": "Fintech Crypto Compliance Framework",
+  "description": "I run a digital-asset platform that is preparing to expand across the United States and Canada, and I need a specialist who can own our end-to-end compliance program. The mandate covers everything from drafting policies to hands-on AML operations, with immediate attention on:\n\n• Robust customer (KYC) and business (KYB) onboarding checks, including sanctions screening \n• Real-time transaction monitoring, alert review, investigation, and SAR preparation \n• Creation and periodic refresh of policies, partner due-diligence files, and staff training material \n\nWhat the day-to-day looks like \nYou will design and maintain the internal policy suite, implement screening and monitoring workflows, and act as the primary liaison when banking partners, payment processors, or regulators send RFIs or schedule periodic reviews. Close collaboration with engineering and product is essential so that compliance controls are embedded directly into our codebase and operational playbooks.\n\nKey success criteria \n— Up-to-date, regulator-ready AML / KYC / KYB policies aligned to U.S. FinCEN, OSC, and provincial guidance \n— Automated screening rules live in our chosen tools (e.g., Chainalysis, ComplyAdvantage, or similar) with clear escalation paths \n— Training deck and short quiz rolled out to every employee, with completion tracked \n— A complete audit trail for suspicious activity investigations, from initial alert through final filing \n\nIf you have a proven track record building crypto compliance programs, are comfortable navigating North American regulations, and can communicate complex requirements to both engineers and executives, I’d like to hear how you would tackle this engagement and your proposed timeline.",
+  "budget": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-24T19:45:22+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "calculator"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "calculator",
+   "score": 1,
+   "summary_ru": "Заказчик ищет специалиста по комплаенсу для крипто-платформы: разработка AML/KYC/KYB-политик, операционная работа с AML-мониторингом, SAR и коммуникация с банками и регуляторами в США и Канаде. Это не разработка ПО из списка услуг, а консалтинг и операционная compliance-работа.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разработка или интеграция ПО для скрининга и мониторинга, или основная задача — политики и операционный комплаенс?",
+    "Есть ли у вас уже выбранные инструменты (Chainalysis, ComplyAdvantage и т.п.), к которым нужна интеграция через API?"
+   ]
+  },
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
+  "id": "telegram:zakazy_freelance/82900",
+  "source": "telegram",
+  "url": "https://t.me/zakazy_freelance/82900",
+  "title": "Как перестать постоянно искать заказчиков?",
+  "description": "Как перестать постоянно искать заказчиков?\nВсе проще, чем кажется!\nПопробуйте бота, который каждый день отправляет вам новые заказы\n👇\nСсылка здесь — \nПЕРЕЙТИ К БОТУ \n🤖\nСсылка здесь — \nПЕРЕЙТИ К БОТУ \n🤖\nСсылка здесь — \nПЕРЕЙТИ К БОТУ \n🤖\nХештеги: \n#вакансия\n, \n#удалённо\n, \n#ищу\n, \n#tilda\n, \n#wordpress\nID: 1fae4150-e4d7-45c0-bb79-6f67a967e7ce",
+  "budget": null,
+  "currency": null,
+  "posted_at": "2026-11-24T19:48:55+00:00",
+  "lang": "ru",
+  "direct": true,
+  "topics": [
+   "landing",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Рекламное объявление бота, который якобы присылает заказы. Заказа на разработку сайта или лендинга нет, это спам с ссылками на бота.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-24T20:46:21+00:00"
+ },
+ {
   "id": "freelancer:40834005",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/graphic-design/Classic-Oil-Family-Portrait-Integration",
