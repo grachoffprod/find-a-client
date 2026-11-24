@@ -1,38 +1,42 @@
 # Темы и ключевые слова (ищутся в заголовке и описании заказа, без учёта регистра).
-# Слово может быть частью: "лендинг" найдёт и "лендинга".
+# Слово ищется с начала слова: "лендинг" найдёт и "лендинга", но "правк" не найдёт "отправка".
+# Короткие латинские слова (api, crm, mvp) ищутся только целиком.
+# Фильтр грубый и пропускает с запасом — окончательно решает ИИ.
 
 topics:
   landing:
-    [лендинг, landing, посадочн, одностраничн, сайт-визитк, сайт визитк, промо-страниц, one-page, onepage, single page, tilda, тильд]
+    [лендинг, landing page, landing, посадочн, одностраничн, сайт-визитк, сайт визитк, промо-страниц, one-page, onepage, single page website, tilda, тильд]
   shop:
-    [интернет-магазин, интернет магазин, магазин на, e-commerce, ecommerce, online store, shopify, woocommerce, каталог товар, корзин, opencart, bitrix]
+    [интернет-магазин, интернет магазин, магазин на, e-commerce, ecommerce, online store, shopify, woocommerce, корзин, opencart, bitrix]
   tg_bot:
-    [телеграм бот, телеграм-бот, телеграмм бот, telegram bot, tg bot, тг бот, тг-бот, чат-бот, чат бот, chatbot, aiogram, бот для]
+    [телеграм бот, телеграм-бот, телеграмм бот, телеграмм-бот, telegram bot, tg bot, тг бот, тг-бот, чат-бот, чат бот, chatbot, aiogram, бот для, бота для]
   mini_app:
     [mini app, miniapp, мини апп, мини-апп, мини приложен, мини-приложен, web app telegram, twa, telegram web app, webapp]
   crm:
-    [crm, срм, црм, учёт клиент, учет клиент, amocrm, битрикс24, bitrix24, воронк, админ-панел, admin panel, dashboard]
+    [crm, срм, црм, учёт клиент, учет клиент, amocrm, битрикс24, bitrix24, админ-панел, админк, admin panel]
   booking:
-    [онлайн-запис, онлайн запис, запись клиент, запись на, бронирован, booking, appointment, scheduling, calendar, расписани]
+    [онлайн-запис, онлайн запис, запись клиент, запись на прием, запись на приём, бронирован, booking system, booking website, booking, appointment]
   automation:
-    [автоматизац, automation, automate, парсер, parser, scraper, скрипт, script, n8n, make.com, zapier, google sheets, гугл таблиц]
+    [автоматизац, automation, парсер, парсинг, parser, scraper, scraping, скрипт, python script, n8n, make.com, zapier, google sheets, гугл таблиц, google apps script]
   api_integration:
-    [интеграци, integration, api, webhook, вебхук, rest, подключить оплат, платёжн, платежн, payment gateway, stripe, юkassa, юкасс]
+    [интеграци, integration, api, webhook, вебхук, rest api, подключить оплат, платёжн, платежн, payment gateway, stripe, юkassa, юкасс]
   saas:
-    [saas, сервис по подписк, subscription, веб-сервис, веб сервис, web service, web app, веб-приложен, веб приложен, платформ]
+    [saas, сервис по подписк, веб-сервис, веб сервис, web service, web app, веб-приложен, веб приложен, личный кабинет, dashboard app]
   calculator:
     [калькулятор, calculator, расчёт стоимост, расчет стоимост, quote form, cost estimator, квиз, quiz, конфигуратор, configurator]
   site_template:
-    [шаблон сайт, шаблон, template, тема для, theme, wordpress, вордпресс, html вёрстк, html верстк, вёрстк, верстк, figma to html, psd]
+    [шаблон сайт, website template, html template, wordpress theme, тема wordpress, wordpress, вордпресс, html вёрстк, html верстк, вёрстк, верстк, сверстать, figma to html, psd to html]
   extension:
-    [расширени, extension, chrome extension, плагин для браузер, browser extension, плагин, plugin, addon, add-on, userscript]
+    [расширени для браузер, расширение chrome, chrome extension, плагин для браузер, browser extension, firefox add-on, userscript, tampermonkey, расширение для хром]
   mvp:
-    [mvp, мвп, прототип, prototype, стартап, startup, proof of concept, poc, minimum viable, с нуля, from scratch]
+    [mvp, мвп, прототип, prototype, proof of concept, poc, minimum viable]
   fixes:
-    [доработ, исправ, починить, fix, bug, баг, ошибк, правк, поддержк сайт, support, modify, update existing, доделать]
+    [доработ, доработать сайт, исправить ошибк, исправить баг, починить, bug fix, fix bug, fix a bug, bugfix, баг, правк на сайт, правки на сайт, доделать]
 
 # Если в заказе есть стоп-слово — заказ отбрасывается.
 stop:
   [логотип, logo design, smm, копирайт, copywriting, рерайт, seo-текст, видеомонтаж, video editing, монтаж видео,
-   озвучк, voice over, перевод текст, translation of, дизайн визитк, illustrat, иллюстрац, data entry, ввод данных,
-   набор текст, транскрибац, ведение соцсет, таргет, контекстная реклам, seeking work]
+   монтажер, монтажёр, reels, озвучк, voice over, перевод текст, translation of, дизайн визитк, illustrat, иллюстрац,
+   data entry, ввод данных, набор текст, транскрибац, ведение соцсет, таргет, контекстная реклам, seeking work,
+   менеджер, маркетолог, рекрутер, заполня, заполнение, карточки товар, карточек товар, lead generation, outreach,
+   autocad, revit, solidworks, zbrush, 3d-модел, 3d model, отзыв на, объявлени на авито, ozon карточ]
