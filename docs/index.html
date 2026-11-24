@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Искатель заказов</title>
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --text: #1b1f24; --muted: #66707c; --line: #e3e6ea;
+    --accent: #2f6fde; --good: #1f8a4c; --warn: #b8730a; --bad: #b3261e; --chip: #eef1f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111418; --card: #1a1e24; --text: #e7eaee; --muted: #98a2ae; --line: #2a3038;
+            --accent: #6b9cff; --good: #4cc27f; --warn: #e3a440; --bad: #ff7b72; --chip: #252b33; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+  header { position: sticky; top: 0; z-index: 2; background: var(--bg); border-bottom: 1px solid var(--line); padding: 12px 16px; }
+  h1 { font-size: 18px; margin: 0 0 8px; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; }
+  h1 small { font-weight: 400; color: var(--muted); font-size: 13px; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; }
+  select, input[type=search] { background: var(--card); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; font: inherit; }
+  input[type=search] { flex: 1 1 180px; }
+  main { max-width: 900px; margin: 0 auto; padding: 16px; display: grid; gap: 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .card.done { opacity: .55; }
+  .top { display: flex; gap: 12px; justify-content: space-between; align-items: flex-start; }
+  .title { font-weight: 600; font-size: 16px; color: var(--text); text-decoration: none; }
+  .title:hover { text-decoration: underline; }
+  .score { flex: none; font-weight: 700; border-radius: 8px; padding: 2px 8px; font-variant-numeric: tabular-nums; }
+  .s-hi { color: var(--good); border: 1px solid var(--good); }
+  .s-mid { color: var(--warn); border: 1px solid var(--warn); }
+  .s-lo, .s-none { color: var(--muted); border: 1px solid var(--line); }
+  .meta { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; color: var(--muted); font-size: 13px; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 1px 8px; }
+  .summary { margin: 6px 0; }
+  details { margin-top: 8px; }
+  summary { cursor: pointer; color: var(--accent); }
+  .reply { white-space: pre-wrap; background: var(--chip); border-radius: 8px; padding: 10px; margin: 8px 0; }
+  .actions { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; align-items: center; }
+  button { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--card); color: var(--text); border-radius: 8px; padding: 4px 10px; cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .empty { text-align: center; color: var(--muted); padding: 48px 16px; }
+  .q { color: var(--muted); font-size: 13px; margin: 4px 0 0; padding-left: 18px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Искатель заказов <small id="count"></small></h1>
+  <div class="filters">
+    <input type="search" id="q" placeholder="Поиск по заказам">
+    <select id="topic"><option value="">Все темы</option></select>
+    <select id="source"><option value="">Все площадки</option></select>
+    <select id="score">
+      <option value="0">Любая оценка</option><option value="6" selected>Оценка от 6</option><option value="8">Оценка от 8</option>
+    </select>
+    <select id="status">
+      <option value="active" selected>Новые и в работе</option><option value="">Все статусы</option>
+      <option value="new">Новые</option><option value="replied">Откликнулся</option>
+      <option value="taken">Взял</option><option value="skipped">Пропустил</option>
+    </select>
+  </div>
+</header>
+<main id="list"><div class="empty">Загружаю…</div></main>
+
+<script>
+const SOURCES = { flru: "FL.ru", kwork: "Kwork", freelancer: "Freelancer.com", hn: "Hacker News", telegram: "Telegram",
+  freelance_ru: "Freelance.ru", pph: "PeoplePerHour", guru: "Guru" };
+const TOPICS = { landing: "Лендинг", shop: "Интернет-магазин", tg_bot: "Telegram-бот", mini_app: "Mini App", crm: "CRM",
+  booking: "Онлайн-запись", automation: "Автоматизация", api_integration: "Интеграция API", saas: "SaaS / веб-сервис",
+  calculator: "Калькулятор", site_template: "Шаблон / вёрстка", extension: "Расширение", mvp: "MVP", fixes: "Доработка" };
+const STATUS = { new: "Новый", replied: "Откликнулся", taken: "Взял", skipped: "Пропустил" };
+const KEY = "finder-status-v1";
+let jobs = [];
+let status = JSON.parse(localStorage.getItem(KEY) || "{}");
+const $ = (id) => document.getElementById(id);
+
+function el(tag, attrs = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k.startsWith("on")) e.addEventListener(k.slice(2), v); else e.setAttribute(k, v);
+  }
+  for (const k of kids) if (k != null) e.append(k);
+  return e;
+}
+const topicOf = (j) => (j.analysis && j.analysis.topic) || (j.topics || [])[0] || "";
+const scoreOf = (j) => (j.analysis ? j.analysis.score : null);
+const money = (j) => j.budget ? `${Math.round(j.budget).toLocaleString("ru-RU")} ${j.currency || ""}`.trim() : "бюджет не указан";
+const ago = (iso) => {
+  if (!iso) return "";
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 60) return `${m} мин назад`;
+  if (m < 1440) return `${Math.round(m / 60)} ч назад`;
+  return `${Math.round(m / 1440)} дн назад`;
+};
+
+function setStatus(id, s) {
+  if (s === "new") delete status[id]; else status[id] = s;
+  localStorage.setItem(KEY, JSON.stringify(status));
+  render();
+}
+
+function card(j) {
+  const a = j.analysis;
+  const sc = scoreOf(j);
+  const st = status[j.id] || "new";
+  const cls = sc == null ? "s-none" : sc >= 8 ? "s-hi" : sc >= 6 ? "s-mid" : "s-lo";
+  const reply = a && a.reply ? a.reply : "";
+  const copy = el("button", { onclick: async (e) => {
+    await navigator.clipboard.writeText(reply); e.target.textContent = "Скопировано ✓";
+    setTimeout(() => (e.target.textContent = "Скопировать отклик"), 1500);
+  } }, "Скопировать отклик");
+  const details = reply ? el("details", {},
+    el("summary", {}, "Отклик" + (j.lang !== "ru" && a.reply_ru && a.reply_ru !== reply ? " и перевод" : "")),
+    el("div", { class: "reply" }, reply),
+    j.lang !== "ru" && a.reply_ru && a.reply_ru !== reply ? el("div", { class: "reply" }, a.reply_ru) : null,
+    a.questions && a.questions.length ? el("ul", { class: "q" }, ...a.questions.map((q) => el("li", {}, q))) : null,
+  ) : el("details", {}, el("summary", {}, "Описание заказа"), el("div", { class: "reply" }, (j.description || "").slice(0, 3000)));
+  return el("article", { class: "card" + (st === "skipped" || st === "taken" ? " done" : "") },
+    el("div", { class: "top" },
+      el("a", { class: "title", href: j.url, target: "_blank", rel: "noopener" }, j.title),
+      el("span", { class: "score " + cls, title: "Оценка ИИ" }, sc == null ? "—" : `${sc}/10`)),
+    el("div", { class: "meta" },
+      el("span", { class: "chip" }, TOPICS[topicOf(j)] || topicOf(j) || "—"),
+      el("span", { class: "chip" }, SOURCES[j.source] || j.source),
+      j.direct ? el("span", { class: "chip" }, "прямой заказчик") : null,
+      el("span", {}, money(j)),
+      el("span", {}, "· " + ago(j.found_at))),
+    a && a.summary_ru ? el("p", { class: "summary" }, a.summary_ru) : !a ? el("p", { class: "summary" }, "⚠️ Отклик не сгенерирован") : null,
+    details,
+    el("div", { class: "actions" },
+      reply ? copy : null,
+      ...Object.entries(STATUS).map(([k, v]) => el("button", { class: st === k ? "on" : "", onclick: () => setStatus(j.id, k) }, v))),
+  );
+}
+
+function render() {
+  const q = $("q").value.trim().toLowerCase();
+  const topic = $("topic").value, source = $("source").value, min = +$("score").value, sf = $("status").value;
+  const shown = jobs.filter((j) => {
+    const st = status[j.id] || "new";
+    if (sf === "active" && (st === "skipped" || st === "taken")) return false;
+    if (sf && sf !== "active" && st !== sf) return false;
+    if (topic && topicOf(j) !== topic) return false;
+    if (source && j.source !== source) return false;
+    const sc = scoreOf(j);
+    if (min && sc != null && sc < min) return false;
+    if (q && !(j.title + " " + (j.description || "") + " " + (j.analysis?.summary_ru || "")).toLowerCase().includes(q)) return false;
+    return true;
+  });
+  $("count").textContent = `${shown.length} из ${jobs.length}`;
+  const list = $("list");
+  list.replaceChildren(...(shown.length ? shown.map(card)
+    : [el("div", { class: "empty" }, jobs.length ? "Под фильтры ничего не подходит." : "Заказов пока нет — искатель пришлёт их после следующих запусков.")]));
+}
+
+function fillSelect(id, values, names) {
+  const s = $(id);
+  for (const v of values) s.append(el("option", { value: v }, names[v] || v));
+}
+
+fetch("data/jobs.json", { cache: "no-store" })
+  .then((r) => r.json())
+  .then((data) => {
+    jobs = data;
+    fillSelect("topic", [...new Set(jobs.map(topicOf).filter(Boolean))], TOPICS);
+    fillSelect("source", [...new Set(jobs.map((j) => j.source))], SOURCES);
+    render();
+  })
+  .catch(() => { $("list").replaceChildren(el("div", { class: "empty" }, "Не удалось загрузить data/jobs.json")); });
+for (const id of ["q", "topic", "source", "score", "status"]) $(id).addEventListener("input", render);
+</script>
+</body>
+</html>
