@@ -21,5 +21,5 @@ health:
   fail_threshold: 3          # после стольких сбоев подряд — предупреждение в Telegram
 
 sources:
-  enabled: [flru, kwork, freelancer, hn, telegram, freelance_ru, pph, guru]
+  enabled: [flru, kwork, freelancer, hn, telegram, freelance_ru, pph]   # guru убран: отвечает 403 на автозапросы
   telegram_channels: [freelancetaverna, zakazy_freelance, freelancce, theyseeku, normrabota]
