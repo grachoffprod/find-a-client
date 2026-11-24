@@ -1,1 +1,30 @@
-[]
+[
+ {
+  "id": "freelancer:40834005",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/graphic-design/Classic-Oil-Family-Portrait-Integration",
+  "title": "1)Classic Oil Family Portrait Integration",
+  "description": "I'm looking to edit/integrate four photos into a family portrait. The base image is taken in the bed of an old pickup truck with 6 people. Here are the changes:\n1) add the father (now deceased) in the cab, looking over his shoulder at his family 2) substitute the aunt (in the truck bed) with the wife/mother 3) add son in law standing behind his wife to the right of the pickup 4) add the dog looking at the driver I have a wealth of photos to help you chose the correct positioning Could be changed to B&W or sepiatone if that would help with uniformity....",
+  "budget": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-24T19:29:15+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик хочет вручную отредактировать семейный портрет: добавить на фото умершего отца, заменить одного человека, добавить зятя и собаку, возможно, перевести изображение в ч/б или сепию. Это фотомонтаж, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь только ручная фотообработка без программной части?",
+    "Есть ли у заказчика какие-то требования к разработке, например, автоматизации или интеграции?"
+   ]
+  },
+  "found_at": "2026-11-24T19:34:41+00:00"
+ }
+]
