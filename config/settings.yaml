@@ -19,5 +19,5 @@ health:
   fail_threshold: 3          # после стольких сбоев подряд — предупреждение в Telegram
 
 sources:
-  enabled: [habr, flru, kwork, freelancer, hn, telegram, weblancer, freelance_ru, pph, guru]
-  telegram_channels: []      # заполняется при сборке (Task 2)
+  enabled: [flru, kwork, freelancer, hn, telegram, freelance_ru, pph, guru]
+  telegram_channels: [freelancetaverna, zakazy_freelance, freelancce, theyseeku, normrabota]
