@@ -74,7 +74,8 @@ const TOPICS = { landing: "Лендинг", shop: "Интернет-магази
 const STATUS = { new: "Новый", replied: "Откликнулся", taken: "Взял", skipped: "Пропустил" };
 const KEY = "finder-status-v1";
 let jobs = [];
-let status = JSON.parse(localStorage.getItem(KEY) || "{}");
+let status = {};
+try { status = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch { status = {}; }
 const $ = (id) => document.getElementById(id);
 
 function el(tag, attrs = {}, ...kids) {
@@ -120,7 +121,9 @@ function card(j) {
   ) : el("details", {}, el("summary", {}, "Описание заказа"), el("div", { class: "reply" }, (j.description || "").slice(0, 3000)));
   return el("article", { class: "card" + (st === "skipped" || st === "taken" ? " done" : "") },
     el("div", { class: "top" },
-      el("a", { class: "title", href: j.url, target: "_blank", rel: "noopener" }, j.title),
+      /^https?:\/\//i.test(j.url || "")
+        ? el("a", { class: "title", href: j.url, target: "_blank", rel: "noopener" }, j.title)
+        : el("span", { class: "title" }, j.title),
       el("span", { class: "score " + cls, title: "Оценка ИИ" }, sc == null ? "—" : `${sc}/10`)),
     el("div", { class: "meta" },
       el("span", { class: "chip" }, TOPICS[topicOf(j)] || topicOf(j) || "—"),

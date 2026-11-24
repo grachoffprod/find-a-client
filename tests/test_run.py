@@ -13,10 +13,11 @@ TOPICS = load_topics()
 PROFILE = load_profile()
 
 
-def settings(max_per_run=40, monthly=3000):
+def settings(max_per_run=40, monthly=3000, time_budget=600):
     return {
-        "ai": {"provider": "anthropic", "model": "m", "max_per_run": max_per_run, "monthly_limit": monthly},
-        "notify": {"min_score": 6}, "filter": {"min_budget": 0}, "history": {"max_items": 500},
+        "ai": {"provider": "anthropic", "model": "m", "max_per_run": max_per_run, "monthly_limit": monthly,
+               "time_budget_s": time_budget},
+        "notify": {"min_score": 6, "delay_s": 0}, "filter": {"min_budget": 0}, "history": {"max_items": 500},
         "health": {"fail_threshold": 3},
     }
 
@@ -43,6 +44,8 @@ def paths(tmp_path):
     seen = tmp_path / "state" / "seen.json"
     seen.parent.mkdir()
     seen.write_text('["init:0"]', encoding="utf-8")  # не первый запуск
+    known = {n: {"fails": 0, "last_count": 5} for n in ("kwork", "flru", "telegram")}
+    (seen.parent / "health.json").write_text(json.dumps(known), encoding="utf-8")  # источники уже работали
     return tmp_path / "state", tmp_path / "jobs.json"
 
 
@@ -159,3 +162,51 @@ def test_history_capped(tmp_path):
     append_history(p, [{"id": "new"}], max_items=5)
     data = json.loads(p.read_text(encoding="utf-8"))
     assert len(data) == 5 and data[0]["id"] == "new"
+
+
+# ---- fix pass after final review ----
+
+def test_state_saved_even_if_run_crashes(paths):
+    def boom_notify(text):
+        raise RuntimeError("telegram exploded")
+
+    with pytest.raises(RuntimeError):
+        run({"kwork": lambda: [bot_job(1)]}, settings(), TOPICS, PROFILE, boom_notify, good(), paths[0], paths[1])
+    seen = json.loads((paths[0] / "seen.json").read_text(encoding="utf-8"))
+    usage = json.loads((paths[0] / "usage.json").read_text(encoding="utf-8"))
+    assert "kwork:1" in seen and usage["count"] == 1
+
+
+def test_time_budget_stops_ai(paths):
+    calls = []
+    stats, box = go({"kwork": lambda: [bot_job(i) for i in range(5)]},
+                    lambda *a: calls.append(1) or Analysis(True, "tg_bot", 8, "s", "r", "r", []),
+                    paths, settings=settings(time_budget=0))
+    assert calls == [] and stats["sent"] == 5
+
+
+def test_source_first_success_is_baselined_silently(paths):
+    calls = []
+    stats, box = go({"guru": lambda: [bot_job(i, source="guru") for i in range(20)]},
+                    lambda *a: calls.append(1), paths)
+    assert box.msgs == [] and calls == []
+    stats2, box2 = go({"guru": lambda: [bot_job(i, source="guru") for i in range(21)]}, good(), paths)
+    assert stats2["new"] == 1 and len(box2.msgs) == 1
+
+
+def test_failed_send_is_counted(paths):
+    stats = run({"kwork": lambda: [bot_job(1)]}, settings(), TOPICS, PROFILE, lambda t: False, good(),
+                paths[0], paths[1])
+    assert stats["sent"] == 0 and stats["send_failed"] == 1
+
+
+def test_unknown_source_name_is_skipped():
+    from finder.run import build_sources
+    s = {"sources": {"enabled": ["kwork", "kworkk"], "telegram_channels": []}}
+    assert list(build_sources(s, client=None)) == ["kwork"]
+
+
+def test_non_http_url_is_dropped():
+    j = Job(id="flru:1", source="flru", url="javascript:alert(1)", title="t", description="")
+    assert j.url == ""
+    assert Job(id="a:1", source="a", url="https://ok", title="t", description="").url == "https://ok"

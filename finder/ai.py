@@ -30,6 +30,12 @@ class Analysis:
         return self.__dict__.copy()
 
 
+def _as_bool(v) -> bool:
+    if isinstance(v, str):
+        return v.strip().lower() in ("true", "yes", "1", "да")
+    return bool(v)
+
+
 def parse_analysis(text: str) -> Analysis:
     start = text.find("{")
     if start < 0:
@@ -44,7 +50,7 @@ def parse_analysis(text: str) -> Analysis:
         score = 1
     q = data.get("questions") or []
     return Analysis(
-        relevant=bool(data.get("relevant", False)),
+        relevant=_as_bool(data.get("relevant", False)),
         topic=str(data.get("topic") or ""),
         score=min(10, max(1, score)),
         summary_ru=str(data.get("summary_ru") or ""),
@@ -57,7 +63,7 @@ def parse_analysis(text: str) -> Analysis:
 def _call_anthropic(system: str, user: str, settings: dict) -> str:
     import anthropic
 
-    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"], timeout=30, max_retries=1)
     msg = client.messages.create(
         model=settings["ai"]["model"],
         max_tokens=MAX_TOKENS,
@@ -76,7 +82,7 @@ def _call_openrouter(system: str, user: str, settings: dict) -> str:
             "max_tokens": MAX_TOKENS,
             "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
         },
-        timeout=60,
+        timeout=30,
     )
     r.raise_for_status()
     return r.json()["choices"][0]["message"]["content"]

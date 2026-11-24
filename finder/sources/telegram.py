@@ -45,9 +45,16 @@ def parse(raw: str, channel: str = "") -> list[Job]:
 
 
 def fetch(client: httpx.Client, channels: list[str]) -> list[Job]:
-    jobs = []
+    """Сбой одного канала не мешает остальным; ошибка — только если не прочитался ни один."""
+    jobs, errors = [], []
     for ch in channels:
-        r = client.get(URL.format(channel=ch))
-        r.raise_for_status()
-        jobs.extend(parse(r.text, ch))
+        try:
+            r = client.get(URL.format(channel=ch))
+            r.raise_for_status()
+            jobs.extend(parse(r.text, ch))
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{ch}: {type(e).__name__}")
+            print(f"[telegram] канал {ch} не прочитан: {e}", flush=True)
+    if channels and len(errors) == len(channels):
+        raise RuntimeError("ни один Telegram-канал не прочитан: " + "; ".join(errors))
     return jobs

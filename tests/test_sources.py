@@ -84,3 +84,26 @@ def test_clean_text_strips_tags():
     assert out.startswith("Привет мир & ко")
     assert out.endswith("ок")
     assert "<" not in out
+
+
+def test_telegram_one_bad_channel_does_not_kill_others():
+    import httpx
+
+    good_html = read("telegram.html")
+
+    def handler(request):
+        if "dead" in str(request.url):
+            return httpx.Response(404)
+        return httpx.Response(200, text=good_html)
+
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+    jobs = telegram.fetch(client, ["dead", "freelancetaverna"])
+    assert len(jobs) >= 1
+
+
+def test_telegram_all_channels_failing_raises():
+    import httpx
+
+    client = httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(500)))
+    with pytest.raises(Exception):
+        telegram.fetch(client, ["a", "b"])

@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "tests/fixtures/freelance_ru.html"
+        ],
+        "createdAt": "2026-11-24T18:17:21.741Z",
+        "reason": "claude: saved third-party page used as a parser test fixture, not project design"
+      },
+      {
+        "rule": "skipped-heading",
+        "value": "*",
+        "files": [
+          "tests/fixtures/freelance_ru.html"
+        ],
+        "createdAt": "2026-11-24T18:17:22.000Z",
+        "reason": "claude: saved third-party page used as a parser test fixture, not project design"
+      }
+    ]
+  }
+}

@@ -84,3 +84,8 @@ def test_analyze_uses_injected_caller():
 def test_unknown_provider_raises():
     with pytest.raises(ValueError):
         analyze(job(), load_profile(), {"ai": {"provider": "nope", "model": "m"}}, [])
+
+
+def test_relevant_string_false_is_false():
+    assert parse_analysis('{"relevant": "false", "score": 7}').relevant is False
+    assert parse_analysis('{"relevant": "true", "score": 7}').relevant is True
