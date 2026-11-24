@@ -13,7 +13,7 @@ from finder.models import Job
 from finder.prompt import build_prompt
 from finder.state import read_json, write_json
 
-MAX_TOKENS = 1200
+MAX_TOKENS = 4000
 
 
 @dataclass
@@ -70,6 +70,8 @@ def _call_anthropic(system: str, user: str, settings: dict) -> str:
         system=system,
         messages=[{"role": "user", "content": user}],
     )
+    if msg.stop_reason == "max_tokens":
+        raise ValueError("truncated: max_tokens")
     return "".join(b.text for b in msg.content if getattr(b, "type", "") == "text")
 
 
@@ -85,7 +87,10 @@ def _call_openrouter(system: str, user: str, settings: dict) -> str:
         timeout=30,
     )
     r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"]
+    choice = r.json()["choices"][0]
+    if choice.get("finish_reason") == "length":
+        raise ValueError("truncated: length")
+    return choice["message"]["content"]
 
 
 PROVIDERS: dict[str, Callable[[str, str, dict], str]] = {

@@ -1,6 +1,8 @@
 import pytest
+import sys
+from types import SimpleNamespace
 
-from finder.ai import Analysis, UsageCounter, analyze, parse_analysis
+from finder.ai import Analysis, UsageCounter, _call_anthropic, analyze, parse_analysis
 from finder.config import load_profile
 from finder.models import Job
 from finder.prompt import build_prompt
@@ -20,6 +22,20 @@ def test_parse_plain_json():
 
 def test_parse_fenced_json():
     assert parse_analysis("Вот ответ:\n```json\n" + GOOD + "\n```").score == 8
+
+
+def test_anthropic_truncated_response_raises_clear_error(monkeypatch):
+    response = SimpleNamespace(content=[], stop_reason="max_tokens")
+    client = SimpleNamespace(messages=SimpleNamespace(create=lambda **kwargs: response))
+    monkeypatch.setitem(
+        sys.modules,
+        "anthropic",
+        SimpleNamespace(Anthropic=lambda **kwargs: client),
+    )
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test-key")
+
+    with pytest.raises(ValueError, match="truncated: max_tokens"):
+        _call_anthropic("system", "user", {"ai": {"model": "test-model"}})
 
 
 def test_parse_garbage_raises():
