@@ -1,0 +1,23 @@
+# Настройки искателя. Меняйте прямо здесь (на GitHub — значок карандаша).
+
+ai:
+  provider: anthropic        # anthropic | openrouter
+  model: claude-haiku-5-5    # для openrouter, например: anthropic/claude-haiku-5.5 или бесплатная модель с ":free"
+  max_per_run: 40            # не больше стольких заказов к ИИ за один запуск
+  monthly_limit: 3000        # и не больше стольких запросов в месяц
+
+notify:
+  min_score: 6               # в Telegram — только заказы с оценкой от 6 из 10
+
+filter:
+  min_budget: 0              # 0 = любые бюджеты; заказы без бюджета проходят всегда
+
+history:
+  max_items: 500             # сколько заказов хранить в веб-панели
+
+health:
+  fail_threshold: 3          # после стольких сбоев подряд — предупреждение в Telegram
+
+sources:
+  enabled: [habr, flru, kwork, freelancer, hn, telegram, weblancer, freelance_ru, pph, guru]
+  telegram_channels: []      # заполняется при сборке (Task 2)

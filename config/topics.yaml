@@ -1,0 +1,38 @@
+# Темы и ключевые слова (ищутся в заголовке и описании заказа, без учёта регистра).
+# Слово может быть частью: "лендинг" найдёт и "лендинга".
+
+topics:
+  landing:
+    [лендинг, landing, посадочн, одностраничн, сайт-визитк, сайт визитк, промо-страниц, one-page, onepage, single page, tilda, тильд]
+  shop:
+    [интернет-магазин, интернет магазин, магазин на, e-commerce, ecommerce, online store, shopify, woocommerce, каталог товар, корзин, opencart, bitrix]
+  tg_bot:
+    [телеграм бот, телеграм-бот, телеграмм бот, telegram bot, tg bot, тг бот, тг-бот, чат-бот, чат бот, chatbot, aiogram, бот для]
+  mini_app:
+    [mini app, miniapp, мини апп, мини-апп, мини приложен, мини-приложен, web app telegram, twa, telegram web app, webapp]
+  crm:
+    [crm, срм, црм, учёт клиент, учет клиент, amocrm, битрикс24, bitrix24, воронк, админ-панел, admin panel, dashboard]
+  booking:
+    [онлайн-запис, онлайн запис, запись клиент, запись на, бронирован, booking, appointment, scheduling, calendar, расписани]
+  automation:
+    [автоматизац, automation, automate, парсер, parser, scraper, скрипт, script, n8n, make.com, zapier, google sheets, гугл таблиц]
+  api_integration:
+    [интеграци, integration, api, webhook, вебхук, rest, подключить оплат, платёжн, платежн, payment gateway, stripe, юkassa, юкасс]
+  saas:
+    [saas, сервис по подписк, subscription, веб-сервис, веб сервис, web service, web app, веб-приложен, веб приложен, платформ]
+  calculator:
+    [калькулятор, calculator, расчёт стоимост, расчет стоимост, quote form, cost estimator, квиз, quiz, конфигуратор, configurator]
+  site_template:
+    [шаблон сайт, шаблон, template, тема для, theme, wordpress, вордпресс, html вёрстк, html верстк, вёрстк, верстк, figma to html, psd]
+  extension:
+    [расширени, extension, chrome extension, плагин для браузер, browser extension, плагин, plugin, addon, add-on, userscript]
+  mvp:
+    [mvp, мвп, прототип, prototype, стартап, startup, proof of concept, poc, minimum viable, с нуля, from scratch]
+  fixes:
+    [доработ, исправ, починить, fix, bug, баг, ошибк, правк, поддержк сайт, support, modify, update existing, доделать]
+
+# Если в заказе есть стоп-слово — заказ отбрасывается.
+stop:
+  [логотип, logo design, smm, копирайт, copywriting, рерайт, seo-текст, видеомонтаж, video editing, монтаж видео,
+   озвучк, voice over, перевод текст, translation of, дизайн визитк, illustrat, иллюстрац, data entry, ввод данных,
+   набор текст, транскрибац, ведение соцсет, таргет, контекстная реклам, seeking work]
