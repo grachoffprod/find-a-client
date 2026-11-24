@@ -1,0 +1,33 @@
+{
+ "flru": {
+  "fails": 0,
+  "last_count": 60
+ },
+ "kwork": {
+  "fails": 0,
+  "last_count": 12
+ },
+ "freelancer": {
+  "fails": 0,
+  "last_count": 50
+ },
+ "hn": {
+  "fails": 0,
+  "last_count": 17
+ },
+ "telegram": {
+  "fails": 0,
+  "last_count": 97
+ },
+ "freelance_ru": {
+  "fails": 0,
+  "last_count": 25
+ },
+ "pph": {
+  "fails": 0,
+  "last_count": 0
+ },
+ "guru": {
+  "fails": 1
+ }
+}
