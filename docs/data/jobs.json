@@ -1,5 +1,255 @@
 [
  {
+  "id": "kwork:3273378",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3273378",
+  "title": "Система обучения сотрудников",
+  "description": "Необходимо на базе Hermes Agent реализовать ИИ-специалиста по обучению кадров, который будет собирать в течение указанного периода обратную связь от сотрудников (вопросы, предложения, описания рабочих ситуаций по почте), определять категорию подходящего материала — статья, скрипт, семинар, видео-инструкция и т.д. Затем подготавливать и передавать этот материал на согласование руководителю для внедрения в систему обучения персонала. Выбран именно Hermes, так как в отличии от OpenClaw он заточен под самообучение.",
+  "budget": 120000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-24 23:59:06",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "kwork:3275416",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275416",
+  "title": "Парсинг данных с карты",
+  "description": "интересует парсинг яндекс карты на предмет составляения базы данных работающих предприятий торговли. нужна вся Россия, парсить можно по областям. \nКатегории: \n1. крупная сетевая розница \n2. сетевики второго эшелона \n3. алкомаркеты \n4. несетевая розница \nсобираем только название и локацию. контакты и тд - не нужно. \nзабираем в базу название, категорию, координаты \nи периодически эту базу обновляем в автоматическом режиме и в принудительном с возможностью указания определённой области. \nхочется обойтись без работы через API. \nзаписей будет прилично, >100k",
+  "budget": 3500.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-24 23:52:12",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834126",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-ads/Website-Sales-Growth-Marketing-Campaign",
+  "title": "Website Sales Growth Marketing Campaign",
+  "description": "I run an e-commerce site that ships physical products and need a coordinated push that turns traffic into confirmed orders. The first success metric is simple: an immediate uplift in completed online sales.\n\nWhat needs to happen: set up and optimise Google Search Ads that target high-intent keywords, build converting campaigns on the social platforms where my audience already scrolls, and re-energise my existing customer database with well-timed email sequences. If you have additional channels or tactics that can move the revenue needle, feel free to fold them in—the brief is intentionally open so the strategy can flex around what works.\n\nDeliverables I expect\n• Search and social campaign setup (ad copy, creative direction, tracking)\n• Email marketing calendar with segmented sends\n• Ongoing optimisation and weekly performance reporting focused on ROAS, CPA and total sales\n\nI will provide product feed access, past campaign data and my current mailing list so you can hit the ground running. Results-driven experimentation is welcome, but every change must be measurable and reported back clearly.\n\nhttps://dreamfinds-3.myshopify.com/?_cd=99f8882ee7ee7abc456261df270af4ce75b49ea188e01c91daaee6c5975dcf54&_uid=96937082946&preview_theme_id=148682342466&preview_token=9dpca8j3id2bvem3hy4b0t920zqwa5sc&pb=0",
+  "budget": 25.0,
+  "currency": "USD",
+  "posted_at": "2026-11-24T21:32:15+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчику с Shopify-магазином нужна маркетинговая кампания: настройка Google и соцсетей, email-рассылки и еженедельная отчётность по ROAS, CPA и продажам. Это работа маркетолога, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у заказчика задачи по разработке, например доработка магазина, интеграции с CRM или автоматизация выгрузки данных для отчётности?",
+    "Нужна ли только маркетинговая часть, или заказчик также ищет техническую поддержку для трекинга и подключения пикселей?"
+   ]
+  },
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834118",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/romanian-translator/Romanian-CSV-Catalog-Translation",
+  "title": "Romanian CSV Catalog Translation",
+  "description": "I need the full contents of a 24,608-item spare-parts catalog translated into clear, standard Romanian. Every product name, description, category and any other customer-facing text that appears in the CSV must be rendered accurately while preserving all SKU codes, leading zeros, brand names, model numbers and technical specifications exactly as they stand.\n\nI want standard Romanian technical terms, not mixed English phrasing, so please adapt industry vocabulary accordingly. No item can be skipped.\n\nWorkflow I expect\n• You receive the original UTF-8 CSV. \n• You translate all customer-visible fields, leaving non-textual data untouched. \n• You return a single UTF-8 CSV that can be imported directly into my existing WooCommerce setup. \n• Before we start, you provide a sample of 20 translated products so I can confirm style and terminology. \n• Along with your proposal, tell me your total price and realistic turnaround time for the entire file.\n\nQuality matters: translation must read naturally to Romanian buyers yet stay 100 % faithful to the original tech data.",
+  "budget": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-24T21:28:40+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчик просит перевести на румынский язык весь каталог запчастей из CSV на 24 608 позиций для импорта в WooCommerce. По сути это ручной переводческий труд с сохранением технических данных, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужен ли только перевод данных или заказчику также требуется настройка импорта в WooCommerce и проверка результата?",
+    "Есть ли у файла фиксированный набор полей, которые точно не нужно переводить, помимо SKU и технических характеристик?"
+   ]
+  },
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834115",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-video-editing/Automated-Video-Social-Posting",
+  "title": "Automated AI Video Social Posting",
+  "description": "I need a complete workflow that turns the text, images and basic offer information I provide into short, faceless videos with an AI voice-over, on-screen captions and royalty-free stock footage. Once rendered, each video must be published automatically to the major platforms I use:\n\n• Instagram, Facebook, TikTok \n• YouTube, LinkedIn, X (Twitter) \n• Pinterest, Snapchat, Telegram \n\nEvery video and its accompanying post should clearly surface my product or service details, price, brand story, customer benefits, current offer, website link and a direct call-to-action. Format, length, aspect ratio, thumbnails, captions and hashtags have to be adjusted so they look native on each channel.\n\nHere is what I expect as deliverables: \n1. A repeatable script, no-code scenario or lightweight app that accepts my inputs and produces the finished video. \n2. An integration layer (API, Zapier, Make.com or similar) that publishes the content to all nine channels, either instantly or on a schedule I can set. \n3. Simple documentation or a walk-through video so I can run the process myself after hand-over.\n\nThe solution can leverage tools such as OpenAI, Pictory, Synthesia, Runway, FFmpeg, Meta/YouTube APIs, etc. – I’m flexible as long as licensing is respected and the final flow is reliable and easy to maintain.\n\nPlease propose the tech stack you prefer, the steps you will automate and an estimated timeline for a first working version.",
+  "budget": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-24T21:27:14+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834099",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-development/Home-Health-Compliance-Platform",
+  "title": "AI Home Health Compliance Platform",
+  "description": "**Project Title: Custom AI-Powered Home Health Compliance & Operations Software**\n\nWe are seeking an experienced AI software developer or development team to build a comprehensive, web-based AI application for our Medicare-certified home health agency's **internal use only**.\n\nThe software should have a modern, professional dashboard with interactive charts, graphs, color-coded alerts, patient management, and automated AI-powered workflows.\n\n**Required Features & Modules:**\n\n1. **AI Referral & Intake Management** – Analyze referral documents, extract patient information, identify missing documentation, and assist with admission decisions.\n2. **AI Clinical Chart Review** – Automatically review OASIS assessments, physician orders, face-to-face encounters, Plan of Care (CMS-485), nursing notes, and therapy documentation.\n3. **OASIS Quality Assurance** – Detect incomplete assessments, inconsistencies, potential coding errors, and documentation deficiencies.\n4. **Intelligent Medical Coding** – AI-assisted ICD-10 diagnosis coding, sequencing, HCPCS review, and PDGM-related validation.\n5. **Medicare Compliance & RCD Review** – Evaluate homebound status, skilled necessity, medical necessity, physician certification, and pre-claim review readiness.\n6. **Recertification & Discharge Assistant** – Track certification periods, evaluate clinical documentation, and generate draft recertification justifications.\n7. **Authorization Management** – Review payer requirements, prepare authorization packets, identify missing records, and draft appeal letters.\n8. **Denial Prevention & Billing Readiness** – Cross-check orders, eligibility, documentation, and coding to identify potential claim denials.\n9. **Clinical Documentation Improvement** – Identify inconsistencies, missing signatures, incorrect orders, and weak clinical documentation.\n10. **AI Clinical Assistant** – Suggest patient-specific goals, interventions, patient education, and documentation improvements for clinician review.\n11. **Scheduling & Field Operations** – Assist with clinician assignments, scheduling, route optimization, and travel-time planning.\n12. **Analytics & Reporting Dashboard** – Display compliance scores, audit findings, patient status trends performance graphs downloadable reports.\n13. **Document & Patient Management** – Secure PDF uploads document classification organized patient charts AI-powered document search.\n14. **Security & Administration** – HIPAA-compliant architecture role-based access audit logs secure cloud storage data protection.\n\nAdditionally:\n- We are particularly interested in developers who have built similar platforms before and can showcase their work or provide a demo of relevant past projects to demonstrate their expertise in this domain.\n\n**Technical Requirements:**\n\n- Integration with an existing advanced AI model through API.\n- Ability to analyze multiple clinical documents together.\n- Findings supported by document/page references and applicable CMS guidance.\n- Human review and approval of clinical and coding recommendations.\n- Clean modern responsive interface scalable architecture for additional modules future EHR integration full ownership of source code database application.",
+  "budget": 1500.0,
+  "currency": "USD",
+  "posted_at": "2026-11-24T21:22:21+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834086",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/Email-Management-Assistant-Newcastle",
+  "title": "Email Management Assistant in Newcastle",
+  "description": "I need an email management assistant to work 5 hours per week. You must be located in Newcastle and able to start immediately. \n\nYour tasks will include:\n- Replying to customer emails using my guidelines\n- Sorting and organizing my inbox\n- Booking appointments and following up\n\nYou will primarily be corresponding with existing customers, suppliers, business partners, and a few potential new clients. For handling replies, you will send routine replies directly and consult me on unusual cases.\n\nIdeal skills and experience:\n- Prior experience in email management\n- Strong organizational skills\n- Excellent communication abilities\n- Ability to work independently and follow guidelines",
+  "budget": 750.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-24T21:05:38+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Заказчик ищет удалённого ассистента на 5 часов в неделю для управления почтой: ответы на письма клиентов по инструкциям, сортировка входящих и запись на встречи. Это не разработка, а работа ассистента, и она требует нахождения в Newcastle.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834087",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/cpa-services/CPA-Letter-Verifying-Expense-Ratio",
+  "title": "CPA Letter Verifying Expense Ratio",
+  "description": "I need a licensed CPA to review my business checking account statements for the last six months and issue a signed letter on firm letterhead confirming that my business expenses fall consistently between 20 % and 30 % of total bank deposits. The letter will be submitted with a loan-mortgage package, so it must follow standard lender compliance wording and include your license number and contact details for verification.\n\nOnce you receive the PDF statements, please perform a straightforward ratio analysis—no audit, just a professional review—and draft the letter accordingly. \n\nDeliverables (all in PDF): \n• One-page CPA letter on firm letterhead stating: “Based on my review of the client’s business bank statements for the period MM/YYYY–MM/YYYY, I confirm that total business expenses are between 20 % and 30 % of deposits.” \n• Your digital signature and CPA license information \n• A brief worksheet or summary you used to reach the percentage (for my records, not for the bank)\n\nTurnaround preferred today. \nIf anyone would be willing to do it without the review of statements that would be preferred in order to expedite process.",
+  "budget": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-24T21:03:53+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Заказчик просит лицензированного CPA подготовить подписанное письмо на бланке фирмы о соотношении расходов и депозитов (20–30%) для ипотечного пакета. Это не задача разработки, и запрос содержит признаки подложных финансовых документов: просят выдать письмо без проверки выписок.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какое отношение этот заказ имеет к разработке, если речь идёт о бухгалтерском заключении CPA?",
+    "Готов ли заказчик предоставить выписки и проводить проверку, а не получать письмо без анализа?"
+   ]
+  },
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834084",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Wordpress-Site-Revamp-40834084",
+  "title": "Wordpress Site Revamp",
+  "description": "I need an experienced WordPress designer to modernize and clean up my existing site.\n\nwebsite hypnomanchester.co.uk\nRequirements:\n- Update the Homepage and main pages\n- Revamp the Header, menu, and footer\n- Change Fonts, colours, and page layout for a cohesive modern look\n- Remove outdated service/product pages, gallery page, download brochure, and audio message\n\nIdeal Skills:\n- Strong portfolio in modern WordPress designs\n- Expertise in UX/UI principles\n- Proficient in customizing WordPress themes\n- Attention to detail and good communication skills\n\nPlease provide samples of previous work and a brief proposal.",
+  "budget": 750.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-24T21:01:29+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834076",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Full-Consultancy-Website-Build",
+  "title": "Full Consultancy Website Build",
+  "description": "I need a complete, ready-to-launch website that positions my business & management consultancy as the obvious choice for new clients. From registering the domain to publishing the final pages, you’ll handle every technical and creative step.\n\nCore purpose \nThe site’s single focus is to generate quality enquiries. Every page, call-to-action, and contact form should drive visitors to reach out.\n\nKey requirements \n• Domain purchase and hosting setup (advise on best registrar/plan and handle configuration). \n• Modern, mobile-first design that reflects a professional advisory brand. \n• Clear service pages outlining our business and management consulting offers. \n• Prominent enquiry form capturing the visitor’s business needs and preferred service—nothing more, nothing less. \n• Easy-to-use CMS (WordPress with Elementor, Webflow, or a similarly intuitive builder) so I can update copy without coding. \n• Basic on-page SEO, Google Analytics integration, and SSL. \n• Launch support and a quick walkthrough of the backend.\n\nAcceptance criteria \n1. Site loads in under 3 seconds on mobile (tested with PageSpeed Insights). \n2. Contact form submissions route to my email and are stored in the CMS. \n3. All pages render correctly on Chrome, Safari, and Firefox, desktop and mobile. \n4. I receive a zipped backup plus written handover notes.\n\nIf you have a portfolio of consultancy or professional-services sites, share the links so I can see your style. I’m ready to move fast once we agree on the approach and timeline.",
+  "budget": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-24T20:50:07+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834071",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android-app-development/Build-Criclive-Android-Cricket-App-40834071",
+  "title": "Build Criclive.in Android Cricket App",
+  "description": "Android App Development for Criclive.in\n\nI am looking for an experienced Android app developer to develop an Android application that closely matches my existing website, Criclive.in.\n\nThe app should replicate the website's design, functionality, features, and overall user experience while providing a smooth, modern, and high-performance mobile experience.\n\nProject Requirements:\n\n- Develop an Android application similar to my existing Criclive.in website.\n- Replicate the website's frontend design, layout, branding, and functionality.\n- Implement real-time cricket live scores, ball-by-ball updates, and live match commentary.\n- Include match schedules, fixtures, results, points tables, rankings, and detailed scorecards.\n- Integrate push notifications for live match updates, wickets, milestones, and match results.\n- Ensure fast loading, smooth navigation, and optimized performance.\n- Develop a secure and scalable backend with proper API integration.\n- Implement user-friendly features and a responsive mobile interface.\n- Optimize the application for different Android devices and screen sizes.\n- Ensure proper testing, bug fixing, and Google Play Store deployment.\n\nReference Website: https://criclive.in/\n\nExpected Outcome:\n\nI want an Android application that offers almost the same experience and functionality as my Criclive.in website, with consistent company branding, excellent performance, and a modern user interface.\n\nPlease share your relevant Android app development experience, portfolio, proposed technology stack, estimated timeline, and project cost.",
+  "budget": 1000000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-24T20:48:10+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "fixes"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
+  "id": "freelancer:40834070",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ui-design/Collectibles-Livestream-Marketplace-App",
+  "title": "Collectibles Livestream Marketplace App -- 2",
+  "description": "I'm looking to create an app similar to Whatnot, specifically focusing on trading cards and sports memorabilia. This app will allow sellers to livestream and sell collectibles.\n\nKey Features:\n- Livestream sales: Sellers can showcase and sell items in real-time.\n- Interactive buying: Buyers can place bids in live auctions, purchase items at fixed prices, and engage in chat with sellers and other viewers during the livestream.\n- Regular Sales: with live streaming as an option sellers should also be able to add sales post as a general sales method.\n- Payment system: To streamline transactions, payments will be released automatically after a set number of days post-sale after deducting platform commission.\n\nIdeal Skills and Experience:\n- Mobile app development (iOS and Android)\n- Experience with livestreaming integration\n- Strong understanding of auction mechanisms and payment processing\n- UI/UX design to create an engaging and user-friendly interface\n- Background in eCommerce platforms, especially in the collectibles market",
+  "budget": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-24T20:47:34+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-24T21:33:30+00:00"
+ },
+ {
   "id": "flru:5530392",
   "source": "flru",
   "url": "https://www.fl.ru/projects/5530392/parser-wb--kaspi-s-sozdaniem-kartochek-avtoobnovleniem-tsen-i-ostatkov.html",
