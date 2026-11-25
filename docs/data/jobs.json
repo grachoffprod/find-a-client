@@ -1,5 +1,188 @@
 [
  {
+  "id": "freelancer:40835670",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/embedded-systems/ESP-RGB-TFT-PCB-Upgrade",
+  "title": "ESP32-S3 RGB TFT PCB Upgrade urgent",
+  "description": "ESP32-S3 Raw TFT LCD Integration & PCB Modification – Urgent\n\nLooking for an experienced embedded hardware engineer to integrate a 4.3″ or 5″ raw RGB TFT display (40-pin FPC, 24-bit RGB) with an existing ESP32-S3-based PCB with limited available GPIOs.\n\nThe scope includes technical consultation, cost-effective display-driving solutions, existing PCB modification, touchscreen integration, and full UI/firmware updates through OTA.\n\nOnly applicants with relevant hands-on experience should apply. Please briefly explain your proposed solution, previous experience, cost, and delivery timeline.\n\nThis is an urgent project. Preference will be given to technically qualified applicants offering the lowest reasonable bid. Detailed specifications will be shared privately.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T17:33:39+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Срочный заказ на интеграцию 4.3–5\" RGB TFT-дисплея с ESP32-S3 через модификацию существующей платы, с сенсорным экраном и обновлением UI и прошивки по OTA. Основная часть работы — аппаратная разработка и изменение PCB, что не входит в услуги Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какая часть работы относится к программной (прошивка и UI), а какая к изменению самой платы?",
+    "Есть ли у вас схемы и сборочный чертёж текущей платы, и кто будет выполнять физическую доработку?"
+   ]
+  },
+  "found_at": "2026-11-25T23:41:50+00:00"
+ },
+ {
+  "id": "freelancer:40836039",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/facebook-ads/Optimize-Shopify-Campaigns",
+  "title": "Optimize Shopify Ad Campaigns",
+  "description": "E-commerce Digital Marketing & Sales Specialist\n\nI’m looking for an affordable, experienced digital marketing specialist to increase sales for my Shopify clothing store. I’m currently running Instagram ads but not generating enough sales.\n\nI need someone who can develop and manage an effective marketing strategy using Google Ads, Google Shopping, Facebook, Instagram, SEO, retargeting, and other relevant marketing channels.\n\nThe primary goal is to increase overall sales, attract new and returning customers, and maximize return on advertising spend while keeping costs low.\n\nPlease provide your rates, recommended strategy, and previous e-commerce results.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T23:34:35+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Клиент с магазином одежды на Shopify ищет маркетолога для настройки рекламы в Google Ads, Google Shopping, Facebook и Instagram, а также SEO и ретаргетинга. Бюджет 30 USD. Задача связана с маркетингом и ведением рекламы, а не с разработкой.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам техническая доработка самого магазина Shopify, например, подключение пикселей, интеграций или изменение шаблона?",
+    "Какой объём работ вы предполагаете за 30 USD: разовый аудит или постоянное ведение рекламы?"
+   ]
+  },
+  "found_at": "2026-11-25T23:41:50+00:00"
+ },
+ {
+  "id": "freelancer:40836033",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/sales/buscan-comerciales-para-Latinoam-rica-40836033",
+  "title": "Se buscan comerciales para Latinoamérica; el idioma materno debe ser el portugués o el español.",
+  "description": "Necesito apoyo para abrir mercado en Argentina, Brasil y Uruguay. El trabajo consiste en llamar a potenciales distribuidores o mayoristas, identificar al responsable de compras, conseguir sus datos directos y presentarles nuestro catálogo. Quiero conversaciones de calidad que siembren las bases de una relación comercial estable; no tengo prisa, prefiero resultados sólidos.\n\nTrabajo con un pequeño CRM online y hojas de cálculo compartidas, así que registrarás cada contacto y el resultado de la llamada allí mismo. Si dominas herramientas parecidas (HubSpot, Zoho, Salesforce o simplemente Google Sheets) mejor aún; lo importante es que todo quede documentado con claridad.\n\nEntrego briefing de la empresa, argumentarios y lista inicial de empresas. A partir de ahí podrás proponer nuevos leads que encajen con el perfil.\n\nEntrego:\n• Guía de presentación, lista inicial y acceso al CRM.\n\nEspero recibir de tu parte:\n• Lista de distribuidores/ mayoristas contactados con datos verificados.\n• Notas breves de cada llamada (fecha, persona, interés detectado).\n• Próximos pasos sugeridos para afianzar la colaboración.\n\nIdioma materno español o portugués indispensable para lograr una comunicación fluida con los decisores en la región.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T23:29:18+00:00",
+  "lang": "es",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Нужны коммерческие агенты для обзвона дистрибьюторов и оптовиков в Аргентине, Бразилии и Уругвае с поиском ЛПР, сбором контактов и презентацией каталога. Задача в основном продажная и связана с ручной работой, а использование CRM здесь вспомогательное.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Предполагается ли разработка или настройка CRM-системы под этот процесс, или нужен только человек для звонков и работы с готовой CRM?",
+    "Какой объём разовой работы и какая оплата за результат предусмотрены, чтобы понимать, насколько задача подходит для проектной работы?"
+   ]
+  },
+  "found_at": "2026-11-25T23:41:50+00:00"
+ },
+ {
+  "id": "freelancer:40836031",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Complete-Website-Development-40836031",
+  "title": "Complete Website Development",
+  "description": "I need an experienced web developer to plan, design, and build a clean, responsive website that represents my business professionally from day one. \n\nScope \n• Create a modern homepage and up to four interior pages that I can easily expand later. \n• Implement a user-friendly content management system (WordPress, Webflow, or a comparable platform) so I can update text and images on my own. \n• Ensure the site loads quickly, looks great on mobile, tablet, and desktop, and meets basic accessibility best practices. \n• Configure essential SEO settings and connect Google Analytics so performance is tracked from launch. \n• Provide brief hand-over documentation or a walkthrough video explaining how to edit pages, add posts, and manage plug-ins. \n\nNice-to-have (let me know what you can include): a contact form with map, a simple gallery to showcase work, or a payment/booking add-on that can be activated later without rebuilding the site. \n\nPlease share links to two or three live websites you’ve built that demonstrate clean design, solid performance, and straightforward navigation. If selected, we’ll start with a quick call to confirm brand colors, domain/hosting details, and timeline before you draft the initial wireframe.",
+  "budget": 50.0,
+  "budget_min": 25.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T23:29:13+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "booking",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Заказчик ищет разработчика для сайта-визитки: главная страница и до четырёх внутренних, адаптивная вёрстка, CMS для самостоятельного редактирования, базовое SEO, подключение Google Analytics и краткая инструкция. Бюджет низкий для такого объёма.",
+   "reply": "You need a five-page business site that you can edit yourself, that loads fast on every device, and that has SEO basics and Google Analytics set up from launch. I'd build it on a clean responsive layout with an editable CMS, so you can change text, images and posts without touching code, and finish with a short video walkthrough for handover. A contact form with a map is easy to add, and the booking/payment add-on can be prepared as a separate module that you activate later without changing the design. With the scope as described, I estimate about 5–7 days from the kickoff call to launch.\n\nTwo questions: do you already have a domain and hosting, or should I advise on that? And will you provide the texts and images, or do you need placeholders for the first version?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен сайт-визитка из пяти страниц, который вы сможете редактировать сами, который быстро загружается на любых устройствах и в котором с самого запуска настроены базовое SEO и Google Analytics. Я бы сделал адаптивную вёрстку с редактируемой CMS, чтобы вы меняли тексты, изображения и записи без работы с кодом, и завершил проект коротким видеоуроком для передачи. Форму обратной связи с картой добавить несложно, а модуль бронирования или оплаты можно подготовить отдельно, чтобы включить позже без переделки дизайна. По описанному объёму работ я оцениваю срок примерно в 5–7 дней от стартового звонка до запуска.\n\nДва вопроса: есть ли у вас уже домен и хостинг, или нужна консультация по этому? И будете ли вы предоставлять тексты и изображения, или для первой версии нужны заглушки?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у заказчика уже домен и хостинг или нужна консультация по их выбору?",
+    "Будут ли тексты и изображения предоставлены заказчиком или на первом этапе нужны заглушки?"
+   ]
+  },
+  "found_at": "2026-11-25T23:41:50+00:00"
+ },
+ {
+  "id": "freelancer:40835663",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/account-management/Indeed-Canada-Job-Bank-Job",
+  "title": "Indeed & Canada Job Bank Job Posting and Applicant Generation Specialist",
+  "description": "We are looking for an experienced freelancer who already has their own active Indeed and Canada Job Bank employer accounts in good standing and can independently post job advertisements and generate a high volume of genuine Canadian applicants.\n\nYou must have your own authorized employer accounts on both platforms. We are not looking for someone who only provides job posting services through our accounts.\n\nResponsibilities\n\nPublish and manage job advertisements using your own Indeed and Canada Job Bank employer accounts.\n\nEnsure your accounts are active, verified where required and in good standing.\n\nGenerate a high volume of genuine applicants from Canada.\n\nOptimize job titles, descriptions and locations to attract relevant applicants.\n\nCollect applicant information, including names, email addresses, phone numbers and resumes where available.\n\nMaintain an organized applicant database in Google Sheets or Excel.\n\nProvide regular updates on job posting status and applicant volume.\n\nEnsure applications are genuine, relevant and free from duplicates.\n\nRequirements\n\nMust have an existing Indeed employer account in good standing.\n\nMust have an existing Canada Job Bank employer account in good standing.\n\nProven experience posting jobs and generating Canadian applicants.\n\nAbility to publish jobs independently without using our employer accounts.\n\nExperience with Canadian recruitment platforms and job advertising.\n\nAbility to provide evidence of previous job posting experience.\n\nStrong communication and reporting skills.\n\nDeliverables\n\nJob advertisements published on both platforms using your own employer accounts.\n\nGenuine Canadian applicant information collected in an organized spreadsheet.\n\nRegular reports on the number of applicants received.\n\nA final report summarizing job posting performance and applicant volume.\n\nProject Details\n\nLocation: Canada\n\nPlatforms: Indeed and Canada Job Bank\n\nProject type: Fixed-price, with potential for ongoing work\n\nInitial budget: $50 for a pilot project\n\nFuture opportunities: Ongoing work for freelancers who demonstrate reliable results.\n\nHow to Apply\n\nPlease answer the following questions in your proposal:\n\nDo you currently have your own Indeed employer account in good standing?\n\nDo you currently have your own Canada Job Bank employer account in good standing?\n\nCan you independently publish job advertisements on both platforms?\n\nHow many genuine Canadian applicants have you generated through previous campaigns?\n\nPlease provide examples of your previous job posting experience.\n\nOnly freelancers who already have their own employer accounts and can independently publish job advertisements on both platforms should apply.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T17:27:41+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Заказчик ищет фрилансера с собственными работодательскими аккаунтами Indeed и Canada Job Bank, который будет публиковать вакансии и собирать канадских кандидатов в таблицу. Это рекрутинговая услуга, а не разработка ПО.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли заказчику автоматизация сбора откликов в Google Sheets, или требуется только ручная работа с аккаунтами?",
+    "Есть ли в задаче хотя бы один технический компонент, например интеграция с API или скрипт для выгрузки данных?"
+   ]
+  },
+  "found_at": "2026-11-25T23:41:50+00:00"
+ },
+ {
+  "id": "freelancer:40836012",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api/Eselt-WooCommerce-eBay-Setup",
+  "title": "Eselt WooCommerce eBay Setup",
+  "description": "I need an experienced hand to get my WooCommerce store talking smoothly with eBay through the Eselt plugin. The very first task is a clean installation of the plugin and a reliable connection to my site. Because I don’t yet have an eBay seller account, you’ll also walk me through creating and verifying one for eBay Australia, then link it to WooCommerce via Eselt’s API token.\n\nAfter the accounts are connected I want an initial synchronisation so every existing WooCommerce product is pushed live to eBay AU with accurate titles, categories, pricing, stock levels and shipping profiles. If any product fails to list or throws an error, please adjust the settings or mapping until it is accepted.\n\nDeliverables:\n• Eselt plugin installed, activated and fully configured in WooCommerce \n• New eBay Australia seller account created, verified and linked to Eselt \n• First full product sync completed with listings visible on eBay AU \n• Short hand-over note outlining the key steps for future listings and sync checks \n\nThat’s all—once the store is live and stable on eBay AU, the job is complete.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-25T23:00:04+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужно установить и настроить плагин Eselt в WooCommerce, создать и верифицировать продавца eBay Australia, подключить его через API-токен и синхронизировать все товары магазина на eBay AU с корректными данными. Бюджет 750 AUD.",
+   "reply": "You need the Eselt plugin installed and configured on your WooCommerce store, an eBay Australia seller account created and verified, and then every existing product synced to eBay AU with correct titles, categories, prices, stock and shipping. I'd start with a clean plugin install and a test connection to your site, then set up the eBay account with you and link it through the Eselt API token. After the first sync, I'd check each listing for errors and adjust category mapping, shipping profiles and pricing until everything is accepted, then write a short hand-over note. Expected timeline is about 3–5 days once the eBay account is verified, since that step depends on eBay's approval.\n\nTwo questions: roughly how many products are in the store, and do any of them use variations? Also, do you already have shipping rates and a returns policy in mind for eBay AU?\n\nYou can see live demos of my work here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно установить и настроить плагин Eselt в магазине WooCommerce, создать и верифицировать продавца eBay Australia, а затем синхронизировать все существующие товары с eBay AU с корректными названиями, категориями, ценами, остатками и доставкой. Я бы начал с чистой установки плагина и тестового подключения к сайту, затем вместе с вами настроил бы аккаунт eBay и связал его с Eselt через API-токен. После первой синхронизации я проверил бы каждое объявление на ошибки и подправил бы сопоставление категорий, профили доставки и цены, пока все товары не будут приняты, и затем написал бы короткую инструкцию для передачи. Ориентировочный срок — около 3–5 дней после верификации аккаунта eBay, так как этот этап зависит от одобрения eBay.\n\nДва вопроса: сколько примерно товаров в магазине и есть ли среди них товары с вариациями? Также, есть ли у вас уже понимание по тарифам доставки и политике возврата для eBay AU?\n\nЖивые демо моих работ можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Сколько примерно товаров в магазине и есть ли среди них товары с вариациями?",
+    "Есть ли у вас уже понимание по тарифам доставки и политике возврата для eBay AU?"
+   ]
+  },
+  "found_at": "2026-11-25T23:41:50+00:00"
+ },
+ {
   "id": "freelancer:40836002",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/customer-service/Indonesian-Phone-Support-Needed",
