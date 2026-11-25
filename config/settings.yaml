@@ -14,6 +14,15 @@ notify:
   priority_sources: [freelancer]   # these sources get a score bonus and are analyzed first
   priority_bonus: 3
 
+bid:                         # auto-bid on Freelancer.com (needs FREELANCER_TOKEN + FREELANCER_USER_ID secrets)
+  enabled: true
+  dry_run: true              # true = only report in Telegram; set false to really send bids
+  daily_limit: 3             # max bids per day
+  hourly_rate: 12            # USD/h for hourly projects
+  fixed_budget_share: 0.8    # fixed projects: bid = 80% of the client's max budget
+  period_days: 7
+  milestone_percentage: 100
+
 filter:
   min_budget: 0              # 0 = any budget; jobs with no listed budget always pass.
 

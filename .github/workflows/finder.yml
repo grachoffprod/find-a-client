@@ -34,6 +34,8 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          FREELANCER_TOKEN: ${{ secrets.FREELANCER_TOKEN }}
+          FREELANCER_USER_ID: ${{ secrets.FREELANCER_USER_ID }}
         run: python -m finder.run
 
       - name: Save state and history

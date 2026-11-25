@@ -13,6 +13,7 @@ class Job:
     currency: str | None = None
     posted_at: str | None = None
     lang: str = "ru"
+    project_type: str | None = None  # "fixed" | "hourly" (Freelancer.com)
     direct: bool = False  # Direct client (Telegram, HN); crypto payment may be possible.
 
     def __post_init__(self):

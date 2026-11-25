@@ -58,7 +58,8 @@ def _collect(sources: dict[str, Callable[[], list[Job]]], health: dict, threshol
 
 
 def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dict, profile: dict,
-        notifier: Callable[[str], bool], analyzer: Analyzer, state_dir: Path, history_path: Path) -> dict:
+        notifier: Callable[[str], bool], analyzer: Analyzer, state_dir: Path, history_path: Path,
+        bidder: Callable[[Job, Analysis], str] | None = None) -> dict:
     state_dir = Path(state_dir)
     stats = {"fetched": 0, "new": 0, "matched": 0, "analyzed": 0, "sent": 0, "send_failed": 0, "errors": 0}
     health = read_json(state_dir / "health.json", {})
@@ -134,7 +135,10 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
         for _, j, a in (candidates[:max_send] if max_send else candidates):
             if stats["sent"] or stats["send_failed"]:
                 time.sleep(delay)
-            if notifier(format_job(j, a)):
+            msg = format_job(j, a)
+            if a and bidder and j.source == "freelancer":
+                msg += "\n\n" + bidder(j, a)
+            if notifier(msg):
                 stats["sent"] += 1
             else:
                 stats["send_failed"] += 1
@@ -170,6 +174,35 @@ def _load_dotenv() -> None:
                 os.environ.setdefault(k.strip(), v.strip().strip('"'))
 
 
+def make_bidder(settings: dict, client, path: Path):
+    """Auto-bid on Freelancer.com. Off unless bid.enabled; dry_run (default) only reports."""
+    from finder.bidder import BidLog, place_bid
+
+    cfg = settings.get("bid") or {}
+    token, user = os.environ.get("FREELANCER_TOKEN"), os.environ.get("FREELANCER_USER_ID")
+    if not cfg.get("enabled") or not token or not user:
+        return None, None
+    log = BidLog(path)
+    dry = cfg.get("dry_run", True)
+
+    def bidder(job: Job, a: Analysis) -> str:
+        pid = job.id.split(":", 1)[1]
+        if not log.can_bid(pid, cfg.get("daily_limit", 3)):
+            return "🤖 Автоотклик: пропущен (дневной лимит или уже откликались)"
+        if dry:
+            return "🤖 Автоотклик (пробный режим, не отправлен)"
+        try:
+            ok, info = place_bid(client, token, int(user), job, a.reply, cfg)
+        except Exception as e:  # noqa: BLE001
+            ok, info = False, f"{type(e).__name__}: {e}"
+        if ok:
+            log.record(pid)
+            return f"🤖 Автоотклик отправлен на Freelancer.com: {info}"
+        return f"🤖 Автоотклик НЕ отправлен: {info}"
+
+    return bidder, log
+
+
 def main() -> int:
     from finder.http import make_client
     from finder.telegram_bot import send
@@ -198,8 +231,13 @@ def main() -> int:
     else:
         analyzer = analyze
 
-    stats = run(sources, settings, topics, profile, notifier, analyzer,
-                ROOT / "state", ROOT / "docs" / "data" / "jobs.json")
+    bidder, bid_log = make_bidder(settings, client, ROOT / "state" / "bids.json")
+    try:
+        stats = run(sources, settings, topics, profile, notifier, analyzer,
+                    ROOT / "state", ROOT / "docs" / "data" / "jobs.json", bidder)
+    finally:
+        if bid_log:
+            bid_log.save()
     _log(f"Summary: {stats}")
     return 0
 

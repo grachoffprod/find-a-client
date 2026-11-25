@@ -30,6 +30,7 @@ def parse(raw: str) -> list[Job]:
             currency=(p.get("currency") or {}).get("code"),
             posted_at=datetime.fromtimestamp(ts, timezone.utc).isoformat() if ts else None,
             lang=p.get("language") or "en",
+            project_type=(p.get("type") or "").lower() or None,
         ))
     return jobs
 
