@@ -1,5 +1,1309 @@
 [
  {
+  "id": "freelancer:40835380",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/graphic-design/Overhaul-Web-App-EST",
+  "title": "UI/UX Overhaul Web & App - 25/11/2026 09:28 EST",
+  "description": "I need a complete redesign of both my website and its companion mobile app so users can move through every screen without hesitation. Right now the core features are buried, flows feel disjointed, and drop-offs happen long before sign-up or checkout. The goal of this project is therefore simple: create an intuitive, friction-free experience that guides people naturally from their first tap or click to their final action.\n\nHere’s how I picture the process unfolding:\n\n• Audit & research – pinpoint the exact spots where users get lost, then map streamlined journeys for desktop, tablet, and mobile. \n• Visual refresh – craft a clean, modern interface that stays consistent across responsive web pages and the iOS/Android app, making smart use of current design patterns and accessibility guidelines. \n• High-fidelity delivery – provide developer-ready Figma (or equivalent) files, a reusable component library, and a concise style guide covering typography, colour, iconography, and spacing. A clickable prototype that mirrors real interactions will let us validate everything before hand-off. \n\nWhen we’re done, a brand-new visitor should know exactly where to go, how to complete tasks, and why they’ll want to return. If your portfolio shows you’ve transformed cluttered products into seamless experiences, share it along with a realistic timeline so we can get started.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T14:40:17+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Заказчику нужен полный редизайн сайта и мобильного приложения (iOS/Android) с аудитом пользовательских сценариев, визуальным обновлением, Figma-макетами, компонентной библиотекой, гайдом по стилю и кликабельным прототипом. Основная задача — UI/UX-дизайн, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли после дизайна также разработка изменений в коде сайта и приложения, или задача ограничивается макетами и прототипом?",
+    "Какие экраны и сценарии уже работают на платформе, и есть ли технический стек, который нужно учитывать?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelancer:40835393",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Long-Term-Full-Stack-Partner-40835393",
+  "title": "Long-Term AI Full-Stack Partner",
+  "description": "AI Full-Stack Developer for Multiple Projects\n\nJob Description\n\nI'm looking for an experienced AI Full-Stack Developer to collaborate on multiple software development projects across different platforms.\n\nProjects may include AI-powered applications, SaaS products, web and mobile apps, backend systems, APIs, automation tools, and third-party integrations.\n\nI'm looking for someone who can work independently, adapt to different technology stacks, understand existing codebases, and contribute to projects from development to deployment.\n\nThis is a long-term collaboration with ongoing work and multiple opportunities.\n\nRequirements\n- 3+ years of professional development experience.\n\nLocation Preference\nDevelopers based in the United States or Canada are strongly preferred.\n\nHow to Apply\n\nPlease share:\n1. Your experience and strongest technical skills.\n2. Portfolio, GitHub, or relevant project examples.\n3. Examples of AI-powered applications you've built.\n4. Your location, availability, and hourly rate.\n\nI'm looking for a reliable developer who can become a long-term technical partner and contribute to different products as projects evolve.",
+  "budget": 15.0,
+  "budget_min": 8.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T14:37:30+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 3,
+   "summary_ru": "Клиент ищет долгосрочного full-stack разработчика с ИИ-опытом для нескольких проектов: AI-приложений, SaaS, API, автоматизации и интеграций. Бюджет указан всего 15 USD, а требования (3+ года опыта, локация в США или Канаде) и формат оплаты не уточнены.",
+   "reply": "You're looking for a developer to join several product efforts over time: AI-powered apps, SaaS, APIs and integrations, taking each one from codebase onboarding through deployment. I'd start by getting familiar with one of your existing codebases and a single small task, so we can see how we work together before committing to more. I use modern stacks and AI assistants in development, which keeps turnaround quick on scoped tasks, and I can give a concrete estimate once I see the first piece of work.\n\nWhich project would come first, and what stack does it use? Also, is the 15 USD figure a fixed task budget or an hourly rate?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете разработчика, который будет со временем подключаться к нескольким продуктам: AI-приложениям, SaaS, API и интеграциям, и вести каждый из них от знакомства с кодовой базой до деплоя. Я бы начал с knowledge-transfer по одной из ваших существующих кодовых баз и небольшой задачи, чтобы мы посмотрели, как работаем вместе, прежде чем брать на себя больше. Я использую современный стек и ИИ-ассистенты в разработке, что ускоряет выполнение задач с понятным объёмом, а конкретную оценку смогу дать, когда увижу первую часть работы.\n\nКакой проект будет первым и на каком стеке он написан? Также подскажите, 15 USD это фиксированный бюджет на задачу или почасовая ставка?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой проект будет первым и на каком стеке он написан?",
+    "15 USD это фиксированный бюджет на задачу или почасовая ставка?",
+    "Какой объём работы вы ожидаете в первый месяц?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelancer:40835374",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Diamond-TCG-Branding-Commerce-Website",
+  "title": "Diamond TCG Branding & E-Commerce Website",
+  "description": "I’m launching Diamond TCG here in Australia and I need a creative partner who can handle both the visuals and the online storefront. The brand should feel premium and minimalist—clean lines, plenty of white space, and subtle collector-style accents that let the cards shine. \n\nThe work breaks into four clear deliverables: \n• Responsive website with full e-commerce flow (browse sets, search, add to cart, secure payment, order confirmation). \n• Professional logo that scales from favicon to storefront signage. \n• Attention-grabbing poster for shop fronts and social media. \n• Versatile flyer formatted for quick print or PDF download. \n\nOn the site, customers must be able to buy cards online with a shopping cart and payment gateway; browsing alone isn’t enough. I’ll supply initial card photos and copy, and I’m happy to discuss platform preferences—WordPress + WooCommerce, Shopify, or another solution you recommend—as long as it stays straightforward for me to maintain. \n\nI value clear communication and practical ideas that respect an emerging business budget, so please include: links to two or three relevant projects, the tools you plan to use, and a rough timeline with your price. \n\nIf your portfolio proves you can deliver that polished, trustworthy collector feel, let’s talk and make Diamond TCG the go-to spot for AFL, Pokémon and other trading cards.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-25T14:24:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент запускает бренд Diamond TCG в Австралии и просит логотип, постер, флаер и адаптивный интернет-магазин с корзиной и онлайн-оплатой для продажи карточек (AFL, Pokémon). Основная часть работы — дизайн брендинга, бюджет всего 30 AUD, что слишком мало для такого объёма.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой бюджет вы рассматриваете на весь проект, включая сайт, логотип, постер и флаер?",
+    "Нужен ли вам только интернет-магазин, или дизайн логотипа и печатных материалов вы планируете заказать отдельно?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelancer:40835372",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/chatgpt/Urgent-Corporate-Training-Delivery",
+  "title": "Urgent Corporate AI Training Delivery",
+  "description": "I need a seasoned AI trainer who can run two live, highly interactive 3-hour workshops next week for a mixed office audience—everyone from marketing and finance to ops and customer support. Most of them already dabble in ChatGPT or similar tools, so the material has to move quickly from fundamentals into hands-on practice.\n\nWhat I have ready:\n• A detailed course outline covering AI foundations, Generative AI tools, prompt engineering, AI agents, and real-world business applications. \n• Clear learning objective: by the end, participants should be able to design effective prompts and build simple, role-specific AI workflows they can deploy immediately.\n\nWhat I need from you:\n• Deliver both sessions live (virtual or in-person is fine—let me know your setup). \n• Adapt the outline to keep non-technical staff engaged while still challenging the more experienced users. \n• Provide slide deck, demo scripts, and at least one practical exercise per topic so everyone leaves with something tangible. \n• Recordings, quick-reference cheat sheet, and a short post-session quiz to reinforce learning.\n\nProven corporate training experience with Generative AI tools (ChatGPT, Gemini, Claude, Midjourney, etc.) is essential, along with strong facilitation skills that keep the energy high for three hours straight. If you’re available next week and can share a brief portfolio or sample deck, let’s lock this in today.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T14:21:37+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "calculator"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "calculator",
+   "score": 1,
+   "summary_ru": "Заказчик ищет тренера по ИИ для двух живых трёхчасовых воркшопов для сотрудников компании с материалами, слайдами, упражнениями и квизом. Это обучение, а не разработка, поэтому проект не подходит под услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelancer:40835359",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-development/Hosting-Provider-Technology-Partner",
+  "title": "AI Hosting Provider & Technology Partner Wanted – Kimi, Qwen, GLM or Similar LLMs",
+  "description": "# AI Hosting Provider & Technology Partner Wanted – Kimi, Qwen, GLM or Similar LLMs \n\nWe are looking for a reliable and cost-effective AI hosting provider or technology partner for our commercial dating and entertainment platforms. \n\nWe are developing our own multi-tenant CMS and initially plan to launch one platform, followed by several additional platforms. \n\n**Intended AI applications:** \n\n- Automated and proactive chat communication \n- Individual virtual personalities and personalized conversations \n- Flirtatious, romantic and erotic conversations \n- Sexually explicit text-based conversations for consenting adults, subject to legal and safety requirements \n- Conversation memory and context understanding \n- User behavior analysis, customer retention and commercial support \n- Integration with human moderation \n\n**Key requirements:** \n\n- Excellent German language capabilities \n- Natural, human-like conversations \n- Commercial permission for erotic adult communication \n- Customizable system prompts and model behavior \n- OpenAI-compatible API \n- EU hosting and GDPR-compliant data processing \n- Low setup and ongoing operating costs \n- Easy integration and minimal administration \n- Scalability and reliable technical support \n\n**Preferred AI models:** \n\nKimi, Qwen, GLM, DeepSeek or comparable alternative language models. \n\nDue to their content restrictions, Anthropic Claude is excluded. OpenAI/ChatGPT may only be considered for selected non-erotic tasks, but not as our primary AI solution. \n\nWe prefer an existing, fully managed hosting solution, API access or commercial licensing arrangement without having to operate our own GPU infrastructure. \n\n**Budget and cooperation:** \n\nWe have no fixed budget and welcome individual commercial proposals. Free or affordable API trial access is required before entering into a long-term agreement. \n\nWe are looking for a long-term technology partner, not necessarily a developer to build an entirely new AI infrastructure. \n\nPlease contact us with a brief description of your solution, available models and indicative pricing. \n\nA detailed project description and complete technical requirements will be provided to suitable candidates.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-25T14:06:00+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Клиент ищет поставщика хостинга или технологического партнёра для LLM-моделей (Kimi, Qwen, GLM, DeepSeek) с EU-хостингом, OpenAI-совместимым API и разрешением на эротические диалоги для коммерческих дейтинг-платформ. Это поиск подрядчика по инфраструктуре и лицензированию, а не разработка проекта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли клиенту разработка интеграции с платформой поверх API, или ему требуется только провайдер модели?",
+    "Как клиент планирует обеспечить соответствие требованиям к контенту и возрасту пользователей при эротических диалогах?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelancer:40835357",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/digital-marketing/Drive-Direct-Lonavala-Villa-Bookings",
+  "title": "Drive Direct Lonavala Villa Bookings",
+  "description": "My 4-bedroom villa in Lonavala is already listed online, but most enquiries still arrive scattered across different channels. I want to consolidate that flow so families and small groups message me straight on WhatsApp—or, if they prefer, call me— and lock in their dates quickly.\n\nHere’s what has to happen: \n• Shape a clear marketing funnel that ends in a WhatsApp chat or phone call, not a third-party site checkout. \n• Position the villa for “family getaways” and “small-group breaks” in every creative, caption, and audience filter to keep leads relevant. \n• Build & manage campaigns on Instagram and Facebook (and any other channel you believe will work) that push the “Send WhatsApp” or “Call Now” button. \n• Optimise my Google Business Profile so the same click-to-call or click-to-chat path shows up for people searching “Lonavala family villa”, “weekend bungalow”, etc. \n• Provide persuasive ad copy, family-friendly visuals, and a simple bookings script I can use once the chat starts. \n• Report weekly on reach, ad spend, cost per qualified enquiry, and confirmed bookings so we can fine-tune fast.\n\nI’ll supply current photos, rates, available dates, and past guest reviews. You’ll bring the paid-ads expertise, WhatsApp Business know-how, and performance tracking skills to turn that into steady, direct reservations. Let’s fill the calendar without relying on the big OTAs.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T14:05:22+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 2,
+   "summary_ru": "Заказчик хочет продвигать свою виллу в Лонавле через рекламу в Instagram и Facebook, оптимизировать Google Business Profile и вести отчётность, чтобы гости писали или звонили напрямую. Основная работа — маркетинг и реклама, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас уже сайт или страница бронирования, которую нужно доработать технически, или нужна только реклама?",
+    "Нужна ли интеграция WhatsApp Business с CRM или таблицей для учёта заявок?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelancer:40835356",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ios-development/Comprehensive-Pet-Care-App",
+  "title": "Comprehensive Pet Care App",
+  "description": "I need a native iOS and Android application, together with a responsive web portal, that keeps every aspect of a pet’s wellbeing in one place. The heart of the product is a health tracker where owners record meals, water intake, feeding times, vaccinations, medicines, vet appointments, walks, sleep, weight, and daily activity. Smart reminders, push notifications, and an at-a-glance analytics dashboard should make it easy to stay on top of each pet’s routine.\n\nBeyond tracking, the app must double as a service hub. Owners will be able to book grooming, vet, or training appointments and instantly connect with trusted pet sitters, walkers, and trainers through in-app chat and real-time booking. Those providers therefore need their own role-based accounts to publish profiles, set availability, accept or decline jobs, and manage a personal calendar.\n\nKey modules I have in mind \n• User & pet profiles with photo upload \n• Health log, analytics, and calendar with reminders \n• Role-based accounts for sitters/walkers/trainers \n• Service marketplace with booking flow and optional payment gateway \n• Admin panel for user and content management \n• Secure cloud API, authentication, and GDPR-compliant data handling \n\nDeliverables I expect \n1. Approved UX/UI mock-ups before development starts \n2. Production-ready iOS & Android apps (Swift/Kotlin, Flutter, or React Native) plus a web app (React, Vue, etc.) deployed to my hosting \n3. Full source code, database schema, and API documentation \n4. Short video walkthrough and a final hand-over session \n\nPlease outline the tech stack you prefer, estimated timeline with milestones, and any similar pet or health-tracking projects you’ve completed. Let’s build something pets—and their humans—will love!",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T14:04:54+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 3,
+   "summary_ru": "Заказчик хочет получить приложение для ухода за питомцами: трекер здоровья с напоминаниями и аналитикой, маркетплейс услуг с бронированием, роли для ситтеров и тренеров, чат, админ-панель, а также нативные iOS и Android приложения и веб-портал. Бюджет 750 USD явно не покрывает такой объём.",
+   "reply": "You're describing a pet health tracker combined with a service marketplace: owner and provider roles, booking calendars, reminders, in-app chat, and an admin panel. At 750 USD, the full scope with two native apps and a web portal won't fit, so I'd suggest a first phase as a responsive web app (a PWA that installs on phones). It would cover pet profiles, the health log with reminders, and provider accounts with availability and booking. I build with a modern stack and AI-assisted development, so that phase can be done in about 3–4 weeks. Native apps, chat, and the full admin panel could follow in later phases.\n\n1. Would a PWA work for the first release instead of store apps?\n2. Which features are must-have for launch, and which can wait?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете трекер здоровья для питомцев, совмещённый с маркетплейсом услуг: роли владельца и исполнителя, календари бронирования, напоминания, чат в приложении и админ-панель. При бюджете 750 USD полный объём с двумя нативными приложениями и веб-порталом не поместится, поэтому я предлагаю первый этап в виде адаптивного веб-приложения (PWA, которое устанавливается на телефон). Он покроет профили питомцев, журнал здоровья с напоминаниями и аккаунты исполнителей с расписанием и бронированием. Я работаю на современном стеке с помощью ИИ-ассистентов в разработке, поэтому этот этап займёт около 3–4 недель. Нативные приложения, чат и полноценная админ-панель могут быть сделаны на следующих этапах.\n\n1. Подойдёт ли PWA для первого релиза вместо приложений в сторах?\n2. Какие функции обязательны к запуску, а какие можно отложить?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Подойдёт ли PWA для первого релиза вместо приложений в App Store и Google Play?",
+    "Какие функции обязательны к запуску, а какие можно отложить на следующие этапы?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelancer:40835352",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/embedded-/ESP-Firmware-for-Smart-Irrigation",
+  "title": "ESP32 Firmware for Smart Irrigation",
+  "description": "ESP32 Embedded Firmware Engineer – Agricultural IoT Automation\n\nProject Overview:\nH&P Automations is developing IoT-based agricultural irrigation automation products. We are looking for an experienced freelance Embedded Firmware Engineer to develop and test firmware for our ESP32-based controllers.\n\nKey Responsibilities:\n- Develop ESP32-based firmware using Embedded C/C++.\n- Interface with sensors, relays and other hardware peripherals.\n- Implement Wi-Fi connectivity and MQTT communication.\n- Implement LoRa wireless communication (Point-to-Point / LoRaWAN).\n- Develop device monitoring, command handling and acknowledgements.\n- Implement watchdog timers, error handling and automatic reconnection.\n- Support hardware integration, debugging and testing.\n\nRequired Skills:\n- ESP32 firmware development.\n- Embedded C/C++ programming.\n- ESP-IDF or Arduino framework.\n- MQTT, Wi-Fi and LoRa communication.\n- GPIO, ADC, I2C, SPI and UART interfacing.\n- Hardware debugging and troubleshooting.\n\nPreferred Experience:\n- FreeRTOS and OTA firmware updates.\n- Industrial IoT and automation systems.\n- Sensor-based monitoring and relay control.\n\nProject Details:\n- Engagement: Freelance / Project-based.\n- Payment: Milestone-based.\n- Initial Scope: Pilot product firmware development.\n- Work Arrangement: Remote.\n- Long-term collaboration possible based on performance.\n\nApplication Requirements:\nPlease share your relevant ESP32/LoRa projects, technical experience, estimated project cost and delivery timeline.\n\nNote:\nWe are looking for a practical embedded firmware engineer with real hardware development experience, not just basic Arduino programming knowledge.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T14:03:05+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик ищет фриланс-инженера по встраиваемой прошивке для ESP32 под систему автоматизации полива: Wi-Fi и MQTT, LoRa, работа с датчиками и реле, FreeRTOS и OTA, а также отладка на реальном железе. Это разработка прошивки для микроконтроллеров, которая не входит в список услуг Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только прошивка ESP32, или также серверная часть и панель управления для MQTT-данных?",
+    "Планируется ли работа с LoRaWAN-шлюзом или с прямой LoRa-связью между устройствами?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelancer:40835350",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/mobile-app-testing/Vietnam-MoMo-Payment-Integration-Tester",
+  "title": "Vietnam MoMo Payment Integration Tester",
+  "description": "**MoMo E-Wallet Payment Testing — Vietnam-Based Tester**\n\nWe are looking for a tester based in Vietnam to validate our MoMo payment integration using a real MoMo wallet.\n\n**Requirements:**\n- Currently residing in Vietnam.\n- Have an active, verified MoMo wallet with at least 300,000 VND available.\n- Own a smartphone with the MoMo app and a laptop/desktop computer.\n- Able to communicate in English.\n- Able to record screens and follow detailed testing instructions.\n\n**Testing scope:**\n- One-time payments on desktop and mobile.\n- Subscription setup and recurring automatic payments.\n- Subscription cancellation and payment permissions.\n- Failed, declined, and abandoned payment scenarios.\n- Payment history and transaction verification.\n\n**Duration:** Most testing is completed on Day 0. The following 3 days require only brief checks of recurring payments and subscription status, plus a final 2-minute check on Day 5. No full-day commitment is required.\n\n**Deliverables:**\n- Completed test report (template provided).\n- Screen recordings of test scenarios, with sensitive information hidden.\n- Documentation of any issues encountered.\n\n**Important:** Testing involves real, low-value MoMo transactions. The expected total is approximately 156,200 VND. All test payments will be refunded by our team. Testing compensation is paid separately through Freelancer.com.\n\nDetailed step-by-step instructions will be provided to the selected tester. Previous QA experience is a plus but not required.",
+  "budget": 45.0,
+  "budget_min": 40.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T14:01:47+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Ручное тестирование платежей MoMo в Турции... нет, во Вьетнаме: нужен тестировщик-резидент Вьетнама с собственным кошельком MoMo, который проводит реальные платежи на небольшие суммы и записывает экраны. Это не разработка интеграции, а ручное QA-тестирование.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужен ли тестировщик именно с вьетнамским резидентством и кошельком MoMo, или можно протестировать интеграцию в sandbox-среде MoMo?",
+    "Есть ли у вас тестовый стенд или документация по API, которые позволят проверить интеграцию без реальных платежей?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "pph:4532268",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/e-commerce-cms-development/bespoke-cloud-based-auction-management-platform-4532268",
+  "title": "Bespoke Cloud-Based Auction Management Platform",
+  "description": "Gateway Auctions seeks an experienced developer to design and deliver a bespoke, secure, cloud-based auction management platform for UK and European operations. The system will manage the complete auction lifecycle, including inventory, catalogues, buyers, vendors, invoicing, settlements and reporting. Key requirements include ATG GAP Toolbox API integration, a secure vendor portal, VAT-aware financial workflows, payment reconciliation, audit controls and data portability. Proposals should outline architecture, delivery phases, costs, support and relevant experience. The modular platform should enable future integrations and potential migration to Gateway’s own auction marketplace.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Заказчик ищет разработчика для создания защищённой облачной платформы управления аукционами для Великобритании и Европы с интеграцией ATG GAP Toolbox API, порталом для продавцов, учётом НДС, сверкой расчётов и модульной архитектурой под будущую миграцию на собственный маркетплейс. Бюджет не указан, объём большой.",
+   "reply": "You're looking for a modular cloud auction platform covering inventory, catalogues, buyers, vendors, invoicing and settlements, with ATG GAP Toolbox integration, a secure vendor portal, and VAT-aware financial workflows. I'd start by reviewing the ATG GAP Toolbox API and your current data model, then propose a modular architecture with clear service boundaries so a future move to your own marketplace stays possible. Delivery would go in phases: discovery and architecture, then the core catalogue and vendor portal, then financial workflows, audit logging and reporting. I work with a modern stack and AI-assisted development, which keeps timelines short. For a scope this size, I'd estimate the first phase at about 3–4 weeks once I've seen the API docs. Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nCould you share access to the ATG GAP Toolbox API documentation and a sandbox environment? Which VAT regimes must the system support across the UK and EU countries?\n\nYakov",
+   "reply_ru": "Вам нужна модульная облачная платформа для аукционов, которая охватывает инвентарь, каталоги, покупателей, продавцов, счета и расчёты, с интеграцией ATG GAP Toolbox, защищённым порталом для продавцов и финансовыми процессами с учётом НДС. Я бы начал с изучения ATG GAP Toolbox API и вашей текущей модели данных, затем предложил бы модульную архитектуру с чёткими границами сервисов, чтобы в будущем можно было перейти на собственный маркетплейс. Разработка пройдёт в несколько этапов: анализ и архитектура, затем основной каталог и портал для продавцов, далее финансовые процессы, аудит и отчётность. Я работаю на современном стеке с ИИ-ассистентами в разработке, что позволяет держать сроки короткими. Для такого объёма я оцениваю первый этап примерно в 3–4 недели после знакомства с документацией API. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nМожете предоставить доступ к документации ATG GAP Toolbox API и песочнице? Какие схемы НДС система должна поддерживать в странах Великобритании и ЕС?\n\nYakov",
+   "questions": [
+    "Можете предоставить доступ к документации ATG GAP Toolbox API и тестовой среде?",
+    "Какие схемы НДС система должна поддерживать в странах Великобритании и ЕС?",
+    "Есть ли ориентировочный бюджет или предпочтительный порядок этапов запуска?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "pph:4532247",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/artificial-intelligence/artificial-intelligence-software-development/lovable-and-supabase-developer-to-complete-an-internal-web-a-4532247",
+  "title": "Lovable and Supabase developer to complete an internal web app",
+  "description": "We are a UK construction consultancy with an internal web app for estimating and quoting. The core is already built and heavily tested, with over 1,800 automated tests. We need an experienced senior developer to finish the remaining features, tighten security and fix known bugs, so we can take a real job from a CSV take-off through to an issued quote.\n\nThis isn't a new build or a small bug-fix job. A cheap or junior bid is likely to break the calculation logic. Please only apply if you've shipped production React, TypeScript and Supabase apps with row-level security and are comfortable in a large, already-tested codebase.\n\nTech stack\n\n- React, TypeScript and Tailwind, built in Lovable\n- Supabase: Postgres, authentication, row-level security and edge functions\n- Vitest, with over 1,800 tests that must stay green\n- GitHub with two-way Lovable sync (it will be connected before you start); all work is reviewed before it's accepted\n\nCurrent state\nThe estimating core exists: take-off import, cost building, a large catalogue, templates, a pricing matrix, supplier records, programme and preliminaries screens, a client portal, notes, and PDF and Excel export. Sign-up is already invite-only, and database access has been tightened. A full run of one real job and the remaining feature work are still outstanding.\n\nScope (fixed-price milestones)\nA written brief with acceptance checks will go to the shortlisted freelancer once an NDA and IP assignment are signed. In outline:\n\n1. Paid familiarisation, about one week: read the code, run the tests, and quote the milestones below.\n2. Forgiving data import: accept typical CSV and Excel take-off files, match rows safely, and ask for confirmation rather than silently picking the wrong item.\n3. One-click auto-build of preliminaries, including site costs generated from the programme.\n4. Programme-driven recalculation: preliminaries and other time-based costs update when the programme changes.\n5. Supplier enquiry and quote workflow: raise enquiries, record quotes, and keep unconfirmed prices out of the issued total.\n6. Senior review and sign-off: a hold-point before a quote can be sent to the client.\n7. Client portal: client project requests and a project tracker.\n8. Linked drawings: uploaded drawings linked to the relevant quote items.\n9. Security hardening: auth settings, storage and policy tidy-up, and validation so invalid quantities or costs can't quietly change a total.\n10. Mobile layout: the navigation currently covers the screen at phone width.\n11. Email delivery: invitations and status emails must reliably arrive.\n\nMilestones 2 to 6 are the priority for a first usable version. The rest follow in the order we agree after the familiarisation week. You won't be asked to invent commercial rates or judge whether a price is right; that stays with us.\n\nHow we work\n\n- An NDA and IP assignment are signed before the full brief or any code is shared, and everything you produce belongs to us.\n- All work is done in a test environment with sample data. You won't have access to live commercial data, and you don't publish or deploy.\n- Database changes are supplied as migration scripts for our review, never run against the live system.\n- All existing tests must pass at every milestone, and agreed benchmark totals must stay unchanged.\n- Fixed price per milestone, paid through PeoplePerHour.\n- You'll need to overlap with UK working hours. UK-based is preferred.\n\nTo apply, please tell us:\n\n1. Two Supabase projects you've worked on and what you built, especially anything with row-level security or a mature schema.\n2. Whether you've worked on a Lovable-generated codebase before.\n3. How you handle database changes on a system that's already in use.\n4. Your availability, your overlap with UK hours, and whether you're UK-based.\n5. How you'd break a job this size into milestones, and a ballpark price for the familiarisation week.\n\nApplications that don't answer these questions won't be considered.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 6,
+   "summary_ru": "Британская строительная консалтинговая компания ищет senior-разработчика, чтобы доработать внутреннее веб-приложение для смет и КП на React, TypeScript, Tailwind, Lovable и Supabase: завершить оставшиеся функции, усилить безопасность и исправить баги, не сломав более 1800 тестов. Оплата фиксированная по этапам, требуется ответить на 5 вопросов в заявке.",
+   "reply": "Your core estimating app is already built and well tested, so the job is to finish milestones 2 to 6 without changing the validated calculation logic. I'd start with the paid familiarisation week: run the Vitest suite, trace the take-off-to-quote path, and confirm the milestone estimates. For the first usable version I'd build the CSV/Excel import with explicit match confirmation, then the programme-driven preliminaries and the supplier-quote hold-point. Each step would come as a reviewable GitHub change with its tests and a migration script.\n\nOn your questions: [Supabase projects with RLS and what I built]; [Lovable experience, yes or no, with details]; database changes go in versioned migrations for your review, never run against live data; availability [hours per week]; UK overlap [hours]; UK-based [yes/no]. Familiarisation week: [price].\n\nSee live demos at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Ваше основное приложение для смет уже построено и хорошо покрыто тестами, поэтому задача — довести этапы 2–6 до конца, не меняя проверенную логику расчётов. Я бы начал с оплачиваемой недели ознакомления: запустил бы набор тестов Vitest, проследил путь от импорта обмера до КП и подтвердил оценки по этапам. Для первой рабочей версии я бы сделал импорт CSV/Excel с явным подтверждением сопоставления, затем автоматические предварительные затраты, связанные с графиком, и точку согласования для КП поставщиков. Каждый шаг пришёл бы как изменение в GitHub, которое можно проверить, с тестами и скриптом миграции.\n\nПо вашим вопросам: [проекты Supabase с RLS и что я в них построил]; [опыт работы с Lovable: да/нет и подробности]; изменения базы данных идут в версионированных миграциях на ваш просмотр и никогда не выполняются на боевых данных; доступность [часов в неделю]; пересечение с часами Великобритании [часов]; базируюсь в Великобритании [да/нет]. Ориентир за неделю ознакомления: [цена].\n\nЖивые демо: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Сколько часов в неделю вы ожидаете от подрядчика и какой часовой пояс считается основным для согласований?",
+    "Есть ли тестовая среда Supabase с обезличенными данными, которую можно будет использовать для миграций и проверок?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "kwork:3272656",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3272656",
+  "title": "Привлечение продавцов на маркетплейс Tepsey",
+  "description": "Описание: \nНужно подключить 5 продавцов на маркетплейс tepsey.com: производителей эко-продуктов, БАДов, косметики, фермеров, кондитеров и ремесленников. \nУсловия для продавцов и порядок подключения описаны здесь: https://tepsey.com/business \nЗадача: \nхолодные звонки по нашей базе (~N контактов), базу и скрипт даём после старта; \nдовести продавца до регистрации на сайте и заключения договора; \nполучить оптовый прайс и фото товаров, для БАДов — СГР; \nвести отчёт в таблице: контакт, дата, итог, следующий шаг. \nРезультат: 5 подключённых продавцов. Проверяем по кабинету. \nБюджет: 20 000 ₽ (4 000 ₽ за продавца). \nСрок: 10 дней. \nТребования: опыт холодных звонков или B2B-продаж. \nВ отклике напишите ваш опыт и сколько звонков в день делаете.",
+  "budget": 20000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 17:33:38",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Нужно привлечь 5 продавцов на маркетплейс Tepsey через холодные звонки по базе, довести их до регистрации и договора и вести отчёт в таблице. Это B2B-продажи, а не разработка, поэтому проект не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelance_ru:16418",
+  "source": "freelance_ru",
+  "url": "https://freelance.ru/task/view/16418",
+  "title": "Wildberries: составлять описание товаров - подработка, гибкий график",
+  "description": "Приглашаем Вас присоединиться к команде интернет-магазина одежды, специализирующегося на продаже качественной и стильной одежды. На требуется опытный человек для работы с платформой Wildberries, который будет заниматься составлением описаний товаров. Это простая и понятная работа, которая не требует...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "25.11.2026 17:15",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Подработка с гибким графиком: составление описаний товаров для одежды на Wildberries в интернет-магазине. Это копирайтинг, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли работа с самим кабинетом Wildberries или только написание текстов?",
+    "Какой объём описаний в неделю и какая оплата за одно описание?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "freelance_ru:16397",
+  "source": "freelance_ru",
+  "url": "https://freelance.ru/task/view/16397",
+  "title": "Аудит и доработка воронки Telegram-бота: офферы, тексты, цепочки автосообщений",
+  "description": "У нас VPN-сервис в Telegram, в базе сотни тысяч пользователей. Трафик есть, но воронка недожимает: люди смотрят тарифы и уходят, не все продлевают, многие пропадают после пробного периода.Что нужно сделать:— разобрать путь пользователя от первого сообщения до оплаты и продлен...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "25.11.2026 15:10",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 5,
+   "summary_ru": "Заказчик ведёт VPN-сервис в Telegram с базой в сотни тысяч пользователей и просит проанализировать воронку бота (от первого сообщения до продления), переработать офферы и тексты и настроить цепочки автоматических сообщений. Бюджет не указан.",
+   "reply": "Вы описали, что трафик есть, но пользователи теряются на этапе тарифов, продлений и после пробного периода. Сначала я бы прошёл весь путь в боте глазами пользователя и посмотрел логику переходов, точки обрыва и то, какие сообщения сейчас отправляются и когда. Затем предложил бы список правок: где сократить путь, какие автоматические цепочки добавить для пробного периода и напоминаний о продлении, и как сделать экран тарифов понятнее. Сами тексты и офферы я могу подготовить или доработать, а техническую часть реализую в боте. Аудит займёт несколько дней, а внедрение правок, по моей оценке, 1–2 недели в зависимости от объёма. Работы с ботом и автоматизацией можно посмотреть в портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nСколько сейчас цепочек сообщений и на каком сервисе или в каком коде работает бот? Есть ли у вас доступ к статистике переходов по шагам воронки?\n\nYakov",
+   "reply_ru": "Вы описали, что трафик есть, но пользователи теряются на этапе тарифов, продлений и после пробного периода. Сначала я бы прошёл весь путь в боте глазами пользователя и посмотрел логику переходов, точки обрыва и то, какие сообщения сейчас отправляются и когда. Затем предложил бы список правок: где сократить путь, какие автоматические цепочки добавить для пробного периода и напоминаний о продлении, и как сделать экран тарифов понятнее. Сами тексты и офферы я могу подготовить или доработать, а техническую часть реализую в боте. Аудит займёт несколько дней, а внедрение правок, по моей оценке, 1–2 недели в зависимости от объёма. Работы с ботом и автоматизацией можно посмотреть в портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nСколько сейчас цепочек сообщений и на каком сервисе или в каком коде работает бот? Есть ли у вас доступ к статистике переходов по шагам воронки?\n\nYakov",
+   "questions": [
+    "Сколько сейчас цепочек автосообщений в боте и на какой платформе или в каком коде он написан?",
+    "Есть ли доступ к статистике переходов по шагам воронки (от старта до оплаты и продления)?",
+    "Какой объём работ вы ожидаете: только аудит с рекомендациями или полное внедрение правок?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910764",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910764",
+  "title": "Розробка landing page для продукту з інтеграцією платіжної системи",
+  "description": "Розробка landing page для продукту з інтеграцією платіжної системи\n💰\n 500 PLN\n🛠\n#интеграция_платежных_систем\n#создание_сайта_под_ключ\nЩо потрібно зробити:  Розробити сучасний, преміальний та конверсійний landing page для 1 продукту.  Структура сторінки: презентація продукту, його переваги, інформація, блоки продажу та CTA.  Передбачити 3–4 додаткові сторінки/посилання (наприклад: About, Contact, FAQ, Privacy Policy, Terms &…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-25T12:49:51+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "landing",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 5,
+   "summary_ru": "Нужно сделать премиальный конверсионный лендинг для одного продукта с презентацией, преимуществами, блоками продаж и CTA, плюс 3–4 дополнительные страницы (About, Contact, FAQ, политика конфиденциальности, условия) и интеграция платежной системы. Бюджет 500 PLN, описание обрезано, детали не полные.",
+   "reply": "Вам нужен премиальный лендинг для одного продукта: презентация, преимущества, блоки продаж и CTA, плюс 3–4 дополнительные страницы (About, Contact, FAQ, политика конфиденциальности, условия) и подключение платежной системы. Сделаю на современном стеке с использованием ИИ-ассистентов, поэтому сроки быстрые: ориентировочно 5–7 дней после согласования дизайна и структуры. Оплату можно принять в USDT (TRC20 / TON) или другим удобным способом, обсудим.\n\nКакую платежную систему вы планируете использовать (LiqPay, Stripe или другую) и есть ли готовые тексты и визуалы для продукта?\n\nПосмотреть похожие работы с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен премиальный лендинг для одного продукта: презентация, преимущества, блоки продаж и CTA, плюс 3–4 дополнительные страницы (About, Contact, FAQ, политика конфиденциальности, условия) и подключение платежной системы. Сделаю на современном стеке с использованием ИИ-ассистентов, поэтому сроки быстрые: ориентировочно 5–7 дней после согласования дизайна и структуры. Оплату можно принять в USDT (TRC20 / TON) или другим удобным способом, обсудим.\n\nКакую платежную систему вы планируете использовать (LiqPay, Stripe или другую) и есть ли готовые тексты и визуалы для продукта?\n\nПосмотреть похожие работы с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какую платежную систему вы планируете использовать (LiqPay, Stripe или другую)?",
+    "Есть ли готовые тексты, визуалы и брендинг для продукта или их нужно подготовить?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910766",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910766",
+  "title": "Karibian.ua",
+  "description": "Karibian.ua\n — Етап 5 Кошик, оформлення замовлення, оплата, доставка, фіскалізація та робота із замов\n💰\n 18 000 UAH\n🛠\n#cms\nОпис:\nНалаштування та інтеграція функціоналу WooCommerce відповідно до погодженого ТЗ Етапу 5:  налаштування кошика, мінікошика та оформлення замовлення;  інтеграція LiqPay для повної онлайн-оплати та часткової передоплати 2 000 грн;  інтеграція Checkbox / ПРРО для автоматичної фіскалізації платежів…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-25T13:04:39+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 6,
+   "summary_ru": "Этап 5 проекта Karibian.ua на WooCommerce (WordPress): настройка корзины, мини-корзины и оформления заказа, интеграция LiqPay для полной онлайн-оплаты и предоплаты 2 000 грн, а также Checkbox/ПРРО для автоматической фискализации. Бюджет 18 000 грн, прямой клиент.",
+   "reply": "Задача понятна: довести корзину, мини-корзину и оформление заказа в WooCommerce, подключить LiqPay для полной оплаты и предоплаты 2 000 грн, а также Checkbox для автоматической фискализации платежей. Сделаю по согласованному ТЗ: сначала разберу текущую сборку и доступы, затем реализую корзину и чекаут, после этого интеграции оплаты и чеков с проверкой на тестовых данных. Ориентировочный срок — 7–10 рабочих дней. По оплате можно обсудить USDT (TRC20 / TON) или другой удобный вариант. Есть ли у вас тестовый доступ к LiqPay и Checkbox и входит ли в этот этап интеграция доставки? Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Задача понятна: довести корзину, мини-корзину и оформление заказа в WooCommerce, подключить LiqPay для полной оплаты и предоплаты 2 000 грн, а также Checkbox для автоматической фискализации платежей. Сделаю по согласованному ТЗ: сначала разберу текущую сборку и доступы, затем реализую корзину и чекаут, после этого интеграции оплаты и чеков с проверкой на тестовых данных. Ориентировочный срок — 7–10 рабочих дней. По оплате можно обсудить USDT (TRC20 / TON) или другой удобный вариант. Есть ли у вас тестовый доступ к LiqPay и Checkbox и входит ли в этот этап интеграция доставки? Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас тестовый доступ к LiqPay и аккаунт Checkbox для проверки интеграции?",
+    "Входит ли в этот этап интеграция службы доставки (например, Новой Почты) или только оформление заказа с выбором доставки?",
+    "Можете ли вы передать согласованное ТЗ Этапа 5 и доступ к текущей сборке WooCommerce?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910775",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910775",
+  "title": "Автоматичний імпорт та синхронізація товарів постачальників на OpenCart сайт",
+  "description": "Автоматичний імпорт та синхронізація товарів постачальників на OpenCart сайт\n💰\n 5000 UAH\n🛠\n#автоматизация_управления_предприятием\nАвтоматичний імпорт та синхронізація товарів постачальників з OpenCart Потрібно розробити модуль автоматичного імпорту та оновлення товарів з сайтів постачальників на інтернет-магазин OpenCart.\n1. Отримання інформації із сайту постачальника  Автоматична авторизація на сайті постачальника за логіном…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-25T14:38:43+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "shop",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 7,
+   "summary_ru": "Нужно разработать модуль для OpenCart, который автоматически заходит на сайт поставщика под логином, забирает товары и обновляет их на магазине. Бюджет 5000 UAH, заказчик пишет напрямую.",
+   "reply": "Нужно сделать модуль, который сам заходит на сайт поставщика под вашим логином, забирает товары, цены и остатки и обновляет каталог OpenCart по расписанию. Сначала разберу, как устроен сайт поставщика, и выберу способ сбора данных: парсер или API, если он есть. Затем напишу модуль для OpenCart с сопоставлением категорий и полей, логированием и защитой от дублей. Ориентировочно 1,5–2 недели на первую рабочую версию, плюс тестирование на вашем магазине. Бюджет 5000 UAH обсудим, оплатить можно и в USDT (TRC20 / TON), если удобно.\n\nПодскажите, пожалуйста: какая версия OpenCart используется и есть ли у поставщика API или выгрузка в XML/CSV? Как часто нужно обновлять товары?\n\nПример моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно сделать модуль, который сам заходит на сайт поставщика под вашим логином, забирает товары, цены и остатки и обновляет каталог OpenCart по расписанию. Сначала разберу, как устроен сайт поставщика, и выберу способ сбора данных: парсер или API, если он есть. Затем напишу модуль для OpenCart с сопоставлением категорий и полей, логированием и защитой от дублей. Ориентировочно 1,5–2 недели на первую рабочую версию, плюс тестирование на вашем магазине. Бюджет 5000 UAH обсудим, оплатить можно и в USDT (TRC20 / TON), если удобно.\n\nПодскажите, пожалуйста: какая версия OpenCart используется и есть ли у поставщика API или выгрузка в XML/CSV? Как часто нужно обновлять товары?\n\nПример моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какая версия OpenCart используется в магазине?",
+    "Есть ли у поставщика API или выгрузка в XML/CSV, или данные нужно забирать со страниц сайта?",
+    "Как часто нужно обновлять товары, цены и остатки?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreelanceBay/16831",
+  "source": "telegram",
+  "url": "https://t.me/FreelanceBay/16831",
+  "title": "Специалист на бот",
+  "description": "💬\n Специалист на бот\nИщем специалиста по созданию Telegram-ботов\nНужен человек, который умеет разрабатывать ботов с нуля и настраивать:\n— воронки продаж;\n— приём и обработку платежей;\n— интеграции с сервисами;\n— автоматизацию процессов.\nВажно: опыт и реальные кейсы.\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n📣\nРазместить вакансию\n / \nрекламу\n⚡️\n Получать больше вакансий быстрее: \n«Работодром PRO»",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-22T12:45:19+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 4,
+   "summary_ru": "Клиент ищет специалиста, который с нуля разработает Telegram-бота с воронкой продаж, приёмом платежей, интеграциями с сервисами и автоматизацией процессов. Бюджет и условия не указаны, а объявление размещено через job-агрегатор.",
+   "reply": "Вы ищете специалиста, который с нуля соберёт Telegram-бота с воронкой продаж, приёмом платежей и интеграциями с внешними сервисами. Я бы начал с описания сценария воронки и списка систем, которые нужно подключить (платёжка, CRM, таблицы), затем сделал рабочий прототип с основными шагами и подключил оплату и интеграции по API. Для разработки использую современный стек и ИИ-ассистентов, поэтому базовая версия бота обычно занимает около 1–2 недель, дальше всё зависит от объёма. По оплате можно обсудить USDT (TRC20 / TON) или другой удобный вариант.\n\nКакие платёжные системы и сервисы нужно подключить? И есть ли уже готовое ТЗ или сценарий воронки?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете специалиста, который с нуля соберёт Telegram-бота с воронкой продаж, приёмом платежей и интеграциями с внешними сервисами. Я бы начал с описания сценария воронки и списка систем, которые нужно подключить (платёжка, CRM, таблицы), затем сделал рабочий прототип с основными шагами и подключил оплату и интеграции по API. Для разработки использую современный стек и ИИ-ассистентов, поэтому базовая версия бота обычно занимает около 1–2 недель, дальше всё зависит от объёма. По оплате можно обсудить USDT (TRC20 / TON) или другой удобный вариант.\n\nКакие платёжные системы и сервисы нужно подключить? И есть ли уже готовое ТЗ или сценарий воронки?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Это разовый проект по разработке бота или постоянная позиция в штате?",
+    "Какие платёжные системы и внешние сервисы (CRM, таблицы, мессенджеры) нужно подключить?",
+    "Какой у проекта бюджет и желаемые сроки запуска?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreelanceBay/16837",
+  "source": "telegram",
+  "url": "https://t.me/FreelanceBay/16837",
+  "title": "Специалист на бот",
+  "description": "💬\n Специалист на бот\nИщу специалиста по настройке Telegram-бота для платного канала о стиле.\nНужно настроить приём оплаты и автоматическую выдачу доступа к каналу.\nЕсли есть опыт и проверенные кейсы, присылайте контакты и стоимость услуг.\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n📣\nРазместить вакансию\n / \nрекламу\n⚡️\n Получать больше вакансий быстрее: \n«Работодром PRO»",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-23T10:53:56+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 7,
+   "summary_ru": "Нужен специалист, который настроит Telegram-бота для платного канала о стиле: приём оплаты и автоматическая выдача доступа к каналу. Заказчик прямой, бюджет не указан.",
+   "reply": "Задача понятна: нужен бот для платного канала о стиле, который принимает оплату и сам выдаёт доступ к каналу. Я бы сделал связку бота с платёжным сервисом или криптооплатой: после оплаты бот автоматически отправляет инвайт-ссылку, а при окончании подписки может отзывать доступ. Ориентировочно базовая версия с тестированием займёт около недели. Какой способ оплаты вы планируете использовать и нужна ли подписка с продлением или разовый доступ? Оплату можно организовать в USDT (TRC20 / TON) или другим удобным способом, обсудим.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Задача понятна: нужен бот для платного канала о стиле, который принимает оплату и сам выдаёт доступ к каналу. Я бы сделал связку бота с платёжным сервисом или криптооплатой: после оплаты бот автоматически отправляет инвайт-ссылку, а при окончании подписки может отзывать доступ. Ориентировочно базовая версия с тестированием займёт около недели. Какой способ оплаты вы планируете использовать и нужна ли подписка с продлением или разовый доступ? Оплату можно организовать в USDT (TRC20 / TON) или другим удобным способом, обсудим.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой платёжный сервис или способ оплаты вы планируете использовать?",
+    "Нужна ли подписка с автоматическим продлением или разовый доступ к каналу?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreelanceBay/16839",
+  "source": "telegram",
+  "url": "https://t.me/FreelanceBay/16839",
+  "title": "Сценарист",
+  "description": "💬\n Сценарист\nИщем специалистов в гастрольный иллюзионный спектакль\nМы готовим авторский иллюзионный спектакль с последующими гастролями. На этапе подготовки проекта ищем в команду\nСценарист:\n— разработка драматургии спектакля: сюжет, структура номеров, связки между иллюзиями;\n— текст для актёров;\n— доработка сценария совместно с режиссёром на репетициях.\n📩\n Важно: в отклике сразу присылайте:\nопыт работы (портфолио)\nстоимость ваших услуг (за спектакль / за номер — в зависимости от роли).\nИщем единомышленников: тех, кто умеет и любит делать качественные сценические работы\n🔥\nТГ: \n@zzz_lesya_zzz\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n📣\nРазместить вакансию\n / \nрекламу\n⚡️\n Получать больше вакансий быстрее: \n«Работодром PRO»",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-23T16:03:43+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 1,
+   "summary_ru": "Вакансия сценариста для гастрольного иллюзионного спектакля: разработка драматургии, текстов для актёров и доработка сценария с режиссёром. Это творческая работа, а не разработка ПО.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreelanceBay/16843",
+  "source": "telegram",
+  "url": "https://t.me/FreelanceBay/16843",
+  "title": "Специалист на бот",
+  "description": "💬\nСпециалист на бот\nИщем исполнителя для выполнения двух задач на платформе SaleBot:\n1. Запись скринкаста — необходимо записать подробную видеоинструкцию (скринкаст) по загрузке документов в SaleBot с демонстрацией всех этапов процесса.\n2. Настройка чат-бота в MAX — требуется настроить меню чат-бота на платформе SaleBot, включая создание структуры меню и настройку соответствующих разделов и кнопок.\nЗаинтересованным специалистам просьба направить коммерческое предложение с указанием:\n• Стоимости выполнения каждой задачи отдельно.\n• Сроков выполнения.\n• Краткого описания предполагаемого объёма работ.\nРассмотрим предложения от специалистов с практическим опытом работы с SaleBot.\nПредложения присылайте в личные сообщения.\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n➖\n📣\nРазместить вакансию\n / \nрекламу\n⚡️\n Получать больше вакансий быстрее: \n«Работодром PRO»",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-24T09:22:43+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 4,
+   "summary_ru": "Нужно настроить структуру меню чат-бота в MAX на платформе SaleBot и, по тексту вакансии, записать видеоинструкцию по загрузке документов в SaleBot. Бюджет не указан, нужна стоимость каждой задачи отдельно.",
+   "reply": "Вы ищете исполнителя на настройку меню чат-бота в MAX на платформе SaleBot и на запись скринкаста по загрузке документов. Я взялся бы за настройку меню: продумаю структуру разделов и кнопок под вашу логику, соберу сценарии в SaleBot и проверю все переходы в тестовом диалоге. По срокам на меню это примерно 2–3 рабочих дня после того, как получу список разделов и доступ к аккаунту. Стоимость укажу отдельно по каждой задаче. Оплата возможна в USDT (TRC20 / TON) или другим удобным для вас способом.\n\nЕсть ли у вас готовый список разделов меню или структуру нужно предложить с нуля? Будет ли доступ к SaleBot и тестовому чату в MAX?\n\nПример моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете исполнителя на настройку меню чат-бота в MAX на платформе SaleBot и на запись скринкаста по загрузке документов. Я взялся бы за настройку меню: продумаю структуру разделов и кнопок под вашу логику, соберу сценарии в SaleBot и проверю все переходы в тестовом диалоге. По срокам на меню это примерно 2–3 рабочих дня после того, как получу список разделов и доступ к аккаунту. Стоимость укажу отдельно по каждой задаче. Оплата возможна в USDT (TRC20 / TON) или другим удобным для вас способом.\n\nЕсть ли у вас готовый список разделов меню или структуру нужно предложить с нуля? Будет ли доступ к SaleBot и тестовому чату в MAX?\n\nПример моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас готовый список разделов меню или структуру нужно предложить с нуля?",
+    "Будет ли доступ к аккаунту SaleBot и тестовому чату в MAX?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:itfreelancers/5334",
+  "source": "telegram",
+  "url": "https://t.me/itfreelancers/5334",
+  "title": "LOOKING FOR WORK: AI Automation Engineer (n8n / Make / Zapier)",
+  "description": "‼️\n‼️\n🆕\n🙋♀️\n#OpenToWork\n#AIAutomation\n#n8n\n#Make\n#Freelance\nLOOKING FOR WORK: AI Automation Engineer (n8n / Make / Zapier)\nI'm not hiring. I'm looking for freelance projects or a junior remote role.\n🛠\n What I build:\n• Telegram bots for bookings, reminders and schedules, with \"confirm / reschedule / cancel\" buttons\n• Website leads straight into CRM: AI sorts them into hot / warm / cold, follow-up emails go out automatically\n• AI sales assistants that qualify leads by budget, need and timeline, analyze calls and send weekly reports to the owner\n• Support automation: AI sorts requests by topic and urgency, tracks response time and flags stuck tickets\n• Call transcription with sentiment analysis, results in a spreadsheet\n• AI analysis of reviews, emails and feedback, broken down by topic and location\n• AI agents with tools and memory that read data, work with APIs and reply in chat\n✅\n Already done:\n• A paid Telegram bot for a gaming community: schedules, attendance polls, reminders\n• AI analysis of 5,744 Google Maps reviews across 132 stores of an electronics chain\n• A clinic booking bot with Google Calendar and reminders a day and 2 hours before\n• A merged pull request in an open-source AI project\n⚙️\n Stack:\n• Automation: n8n, Make, Zapier, webhooks, REST API\n• AI: OpenAI, Claude, Gemini, Groq, OpenRouter, AI agents with tool calling\n• Voice and data: AssemblyAI, scraping with Apify\n• CRM and marketing: Zoho CRM, Klaviyo, Airtable, Wix Forms\n• Google: Sheets, Docs, Drive, Gmail, Calendar\n• Messengers: Telegram Bot API, Slack\n• Data: PostgreSQL, Qdrant (vector search), n8n Data Tables\n• JavaScript in n8n Code nodes, Git / GitHub\n💡\n What I offer:\n• A free demo for your task in 2–3 days, before any payment\n• $20/hour or a fixed price per project\n📩\n If you need an automation for your business, message me:\nTelegram: \n@RimiMaeva\nEmail: mariiarimmal@gmail.com \n‼️\n‼️",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-10-19T06:44:05+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "tg_bot",
+   "crm",
+   "booking",
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Это не заказ, а объявление фрилансера, который сам ищет работу (n8n, Make, Telegram-боты, AI-автоматизация). Заказчика и задачи нет, поэтому откликаться не нужно.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в этом объявлении конкретная задача или проект, для которого нужен исполнитель?",
+    "Может быть, пост опубликован по ошибке или это ищет подрядчика сам автор?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:itfreelancers/5337",
+  "source": "telegram",
+  "url": "https://t.me/itfreelancers/5337",
+  "title": "Remote b2c",
+  "description": "‼️\n‼️\n🆕\n#Scala\n#vacancy\nRemote b2c \nMiddle/Senior Scala Engineer\nCompany: Comtek \nfor Caterpillar project \nLocation: Remote \nConditions: b2c contract \nType: Full- time\nVacation is unpaid \n9-months minimum contract. \n8 hours a day\n4 hours daily overlap with Chicago: 8 a.m. - 12 p.m.\nEnglish: B2+\n5400 - 6600 usd before taxes.\nScala Engineer is responsible for building and optimizing high-performance backend systems that power the data-driven applications. In this role, you will work with modern streaming technologies, distributed processing frameworks, and cloud-native architectures to deliver scalable, reliable, and high-availability solutions. \nQualifications:\n- Bachelor’s degree( photo of diploma must be presented at the stage of submitting application;\n- Strong experience in Java and API and service development;\n- 2+ years of professional Scala experience;\n- 2+ years working with Akka, especially for data streaming or distributed systems;\n- Experience with streaming/data pipeline frameworks such as Spark Streaming, Flink, Kafka, Kinesis, or similar technologies;\n-  Proficiency in building and consuming RESTful APIs;\n- AWS cloud services (serverless, compute, storage, or data services) and  familiarity with DevOps practices (we use Azure DevOps);\n- Working written/spoken English\n@RemoteITjob\n‼️\n‼️",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-10-20T07:57:39+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Вакансия на полный рабочий день (B2C-контракт через компанию Comtek) для Middle/Senior Scala-инженера в проект Caterpillar: высоконагруженные бэкенд-системы, Akka, Kafka/Flink, AWS. Это найм на работу, а не разработка проекта под ключ.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:itfreelancers/5341",
+  "source": "telegram",
+  "url": "https://t.me/itfreelancers/5341",
+  "title": "/Middleware",
+  "description": "‼️\n‼️\n🆕\n#remote\n#удаленно\n#Apigee\n#vacancy\n#вакансия\n#API\n#DevOps\n/Middleware \n#integration\n engineer \nRemote b2c\nAPI ( Apigee) Developer\nCompany: Comtek\nLocation: Remote \nConditions: b2c contract \nType: Full- time. \n9 months minimum contract. \n8 hours a day\n4 -8 hours daily overlap with team in Chicago\n8 a.m. - 12(17) p.m. CDT\nEnglish: B2+\n$5300 - 6600 gross\nRequirements:\n- Bachelor’s degree( photo of diploma must be presented at the stage of submitting apl.)\nMost of the below are a must have!\n- Strong RESTful API knowledge;\n- Apigee Edge experience is preferred, but familiarity with AWS API Gateway or Azure API Manager/Gateway is acceptable; \n- Understanding HTTP methods (POST, GET, etc.) and API design principles; \n- Swagger & Postman is a must, and linting tools like Spectral; \n- Nice to have: understanding of OAuth 2.0, TLS, and security standards;\n- Working written/spoken English is a must.\n@RemoteITjob\n‼️\n‼️",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-10-29T13:09:16+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Вакансия на полный рабочий день (B2C-контракт, 9 месяцев, 8 часов в день) для API-разработчика на Apigee в американской компании Comtek. Это найм на занятость, а не проектная разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у компании проектная задача по интеграции API через Apigee или API Gateway с оплатой за результат, а не постоянная занятость?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:itfreelancers/5344",
+  "source": "telegram",
+  "url": "https://t.me/itfreelancers/5344",
+  "title": "Senior Java Backend Engineer",
+  "description": "‼️\n‼️\n🆕\n Senior Java Backend Engineer\n*Location:* Remote\n---\n### About the Role\nWe are looking for a hands-on *Senior Java Backend Engineer* to design, build, and scale our core distributed systems and event-driven architecture. You will work closely with product and infrastructure teams to deliver high-performance microservices deployed on AWS, leveraging modern cloud-native tooling, real-time data streaming via Confluent Cloud, and robust automation testing practices.\n---\n### Key Responsibilities\n* *Design & Development:* Build scalable, resilient, and secure microservices using *Java and Spring Boot*.\n* *Event-Driven Architecture:* Implement real-time data streaming and asynchronous messaging pipelines using *Apache Kafka* and *Confluent Cloud*, alongside traditional message queues.\n* *Infrastructure & Deployment:* Manage cloud infrastructure on *AWS* using *Terraform* for Infrastructure as Code (IaC), including configuring Kubernetes manifests, environment variables, and *ConfigMaps*.\n* *Quality & Automation:* Drive engineering excellence by writing comprehensive automated test suites using *Cucumber (BDD)* and JUnit, ensuring high test coverage and reliability.\n* *Collaboration:* Participate in code reviews, system design discussions, and CI/CD pipeline optimization in an Agile environment.\n---\n### Required Skills & Qualifications\n* *Core Engineering:* 3+ years of robust software development experience with strong proficiency in *Java 17+* and the *Spring Boot* ecosystem.\n* *Streaming & Messaging:* Deep hands-on experience with *Apache Kafka, schema registries, consumer/producer tuning, and managed Kafka platforms like **Confluent Cloud*. Familiarity with other message queues (e.g., RabbitMQ, AWS SQS) is a strong plus.\n* *Cloud & DevOps:* Proven experience deploying and managing production workloads on *AWS* (ECS, EKS, RDS, IAM, S3).\n* *Infrastructure as Code:* Strong command over *Terraform, managing cloud resources, modular configurations, and Kubernetes **ConfigMaps* / secrets management.\n* *Testing:* Demonstrated experience building BDD-based automated test frameworks using *Cucumber* integrated into CI/CD pipelines.\n* *Mindset:* Strong first-principles problem-solving skills, attention to detail, and a focus on clean, maintainable code architecture.\nMy contact info: \n@overbearing_jerry\n‼️\n‼️",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-03T09:54:13+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Вакансия на постоянную удалённую позицию Senior Java Backend Engineer: микросервисы на Spring Boot, Kafka/Confluent Cloud, AWS, Terraform и BDD-тесты на Cucumber. Это поиск сотрудника, а не проектная работа на заказ.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли возможность работать как подрядчик по конкретному проекту, а не на штатной основе?",
+    "Какой объём работ и сроки предполагаются для первого этапа?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:itfreelancers/5346",
+  "source": "telegram",
+  "url": "https://t.me/itfreelancers/5346",
+  "title": "Remote Full-Stack Developer Needed – Freelance Project",
+  "description": "‼️\n‼️\n🆕\nRemote Full-Stack Developer Needed – Freelance Project\nI'm looking for an experienced Full-Stack Developer to work on an upcoming web application project.\nProject overview:\nBuilding and improving a modern web application with both frontend and backend functionality.\nMain tasks:\n- Develop responsive frontend interfaces using React / Next.js.\n- Build and maintain backend APIs using Node.js or Python.\n- Design and integrate database functionality.\n- Implement authentication and user management.\n- Integrate third-party APIs and services.\n- Debug existing functionality and improve application performance.\nRequirements:\n- Solid full-stack development experience.\n- Comfortable working with existing codebases.\n- Good problem-solving and communication skills.\n- Ability to work independently and deliver reliable results.\nDetails:\n- Fully remote.\n- Freelance / project-based.\n- Paid opportunity.\n- Compensation depends on experience and project scope.\nInterested developers can contact me with a short introduction, relevant experience, and portfolio or GitHub profile.\nContact:\n@ironfist012\n‼️\n‼️",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-12T09:42:30+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 4,
+   "summary_ru": "Клиент ищет full-stack разработчика для развития веб-приложения: фронтенд на React/Next.js, API на Node.js или Python, база данных, авторизация, интеграции и исправление багов. Бюджет не указан, задача описана общо, и вакансия больше похожа на поиск исполнителя в долгосрочную работу, чем на конкретный проект.",
+   "reply": "Вы ищете full-stack разработчика для веб-приложения: нужен адаптивный фронтенд на React/Next.js, API на Node.js или Python, работа с базой, авторизацией и сторонними сервисами, а также отладка и улучшение производительности уже существующего кода. Такие задачи мне близки: я работаю с современным стеком и использую ИИ-ассистенты в разработке, поэтому сроки обычно быстрые. Для старта предлагаю короткий аудит текущего кода и список задач с оценкой по времени, а затем работать по этапам. Оплату можно обсудить в USDT (TRC20 / TON) или другим удобным для вас способом.\n\nКакой стек используется в проекте и будет ли доступ к репозиторию? Какой объём работ планируете на первый этап?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете full-stack разработчика для веб-приложения: нужен адаптивный фронтенд на React/Next.js, API на Node.js или Python, работа с базой, авторизацией и сторонними сервисами, а также отладка и улучшение производительности уже существующего кода. Такие задачи мне близки: я работаю с современным стеком и использую ИИ-ассистенты в разработке, поэтому сроки обычно быстрые. Для старта предлагаю короткий аудит текущего кода и список задач с оценкой по времени, а затем работать по этапам. Оплату можно обсудить в USDT (TRC20 / TON) или другим удобным для вас способом.\n\nКакой стек используется в проекте и будет ли доступ к репозиторию? Какой объём работ планируете на первый этап?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой стек используется в текущем проекте и будет ли доступ к репозиторию?",
+    "Какой объём работ планируете на первый этап и какой примерный бюджет?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:itfreelancers/5351",
+  "source": "telegram",
+  "url": "https://t.me/itfreelancers/5351",
+  "title": "Looking for a Developer – WhatsApp Bulk Messaging Marketing System",
+  "description": "‼️\n‼️\n🆕\n🚀\n Looking for a Developer – WhatsApp Bulk Messaging Marketing System\nI'm looking for an experienced developer to build a custom WhatsApp marketing automation system for my business.\n⚙️\n Required Features:\n📱\n Import and manage contacts (Excel/CSV)\n💬\n Send bulk WhatsApp messages\n📝\n Create and manage message templates\n🎯\n Personalize messages with customer names and details\n⏰\n Schedule marketing campaigns\n📊\n Track message delivery and campaign statistics\n📥\n Manage incoming replies\n🖥\n Simple and user-friendly dashboard\n💻\n Requirements:\nExperience with WhatsApp Business Cloud API\nStrong backend and frontend development skills\nExperience building marketing automation systems\n🤝\n Interested?\nPlease contact me with your portfolio, relevant experience, estimated budget, and development timeline.\n📩\n Contact: \n@DanielGriffiths\n‼️\n‼️",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-17T11:40:21+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 7,
+   "summary_ru": "Клиент ищет разработчика для системы массовых рассылок в WhatsApp: импорт контактов из Excel/CSV, шаблоны с персонализацией, расписание кампаний, статистика доставки и управление входящими ответами в простом дашборде. Нужен опыт работы с WhatsApp Business Cloud API. Бюджет не указан.",
+   "reply": "Нужно сделать систему массовых рассылок в WhatsApp: импорт контактов из Excel/CSV, шаблоны с персонализацией, расписание кампаний, статистика доставки и входящие ответы в одном дашборде. Я бы строил это на WhatsApp Business Cloud API: бэкенд с очередью отправки с учётом лимитов Meta, вебхуки для статусов и входящих сообщений, простой веб-интерфейс для контактов, шаблонов и кампаний. Для MVP с основными функциями ориентировочный срок 3–5 недель, точнее скажу после уточнения задач. Оплату можно обсудить в USDT (TRC20/TON) или другим удобным способом.\n\nПара вопросов: сколько контактов и сообщений в месяц планируете отправлять? Есть ли уже подключённый WhatsApp Business аккаунт и одобренные шаблоны сообщений?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно сделать систему массовых рассылок в WhatsApp: импорт контактов из Excel/CSV, шаблоны с персонализацией, расписание кампаний, статистика доставки и входящие ответы в одном дашборде. Я бы строил это на WhatsApp Business Cloud API: бэкенд с очередью отправки с учётом лимитов Meta, вебхуки для статусов и входящих сообщений, простой веб-интерфейс для контактов, шаблонов и кампаний. Для MVP с основными функциями ориентировочный срок 3–5 недель, точнее скажу после уточнения задач. Оплату можно обсудить в USDT (TRC20/TON) или другим удобным способом.\n\nПара вопросов: сколько контактов и сообщений в месяц планируете отправлять? Есть ли уже подключённый WhatsApp Business аккаунт и одобренные шаблоны сообщений?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько контактов и сообщений в месяц планируется отправлять?",
+    "Есть ли уже подключённый WhatsApp Business аккаунт и одобренные шаблоны сообщений?",
+    "Какой у вас примерный бюджет и желаемые сроки запуска?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:itfreelancers/5352",
+  "source": "telegram",
+  "url": "https://t.me/itfreelancers/5352",
+  "title": "Seeking an Experienced Full-Stack Developer",
+  "description": "‼️\n‼️\n🆕\n🚀\nSeeking an Experienced Full-Stack Developer\nI'm looking to connect with a professional Full-Stack Developer for long-term collaboration on real-world software development projects.\nTechnical Requirements:\n- Strong experience with React, Next.js, and Node.js.\n- Good knowledge of REST APIs, databases, and integrations.\n- Experience building production-ready web applications.\n- Ability to work independently and deliver quality results.\nAdditional Requirements:\n- Excellent professional English communication.\n- Experience working with international clients.\n- Comfortable with Western business hours and remote collaboration.\n- Reliable, responsible, and interested in long-term cooperation.\nWhat I Offer:\n- Real commercial development opportunities.\n- Flexible remote working arrangements.\n- Additional income alongside your existing work.\n- Potential for ongoing projects and partnership.\nContact : \n@dev_calture\n‼️\n‼️",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-18T09:19:31+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 1,
+   "summary_ru": "Вакансия на долгосрочное сотрудничество Full-Stack разработчиком (React, Next.js, Node.js) с оплатой «как дополнительный доход» и требованием работы по западному времени. Это поиск исполнителя на постоянную занятость, а не конкретный проект, и формулировки похожи на сомнительное предложение.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это разовый проект с понятным ТЗ или постоянная занятость?",
+    "Какой формат оплаты и какой бюджет или ставка предполагаются?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:digitaltender/5626",
+  "source": "telegram",
+  "url": "https://t.me/digitaltender/5626",
+  "title": "Программист",
+  "description": "👔\nПрограммист\n💼\nТип работы:\n разовая\n👀\nЗадача:\n Работа с WordPress, кодом и нейроразработками\n💰\nОплата:\n по договорённости\n⏰\nСроки:\n по согласованию",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-13T07:30:00+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 3,
+   "summary_ru": "Разовая задача на программирование с WordPress, кодом и нейроразработками. Описание очень общее, бюджет и сроки не указаны.",
+   "reply": "Вы ищете программиста для разовой задачи: работа с WordPress, кодом и нейроразработками. Описание пока общее, поэтому сначала хочу понять, что именно нужно сделать: доработать существующий сайт на WordPress, написать свой функционал или подключить ИИ-модуль. Я работаю на современном стеке и использую ИИ-ассистенты в разработке, поэтому сроки обычно короткие. После уточнения задачи смогу назвать конкретный срок и стоимость. Оплату можно обсудить в USDT (TRC20 / TON) или другим удобным способом.\n\nКакой у вас сайт или проект сейчас и что должно получиться в итоге? Есть ли желаемые сроки запуска?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете программиста для разовой задачи: работа с WordPress, кодом и нейроразработками. Описание пока общее, поэтому сначала хочу понять, что именно нужно сделать: доработать существующий сайт на WordPress, написать свой функционал или подключить ИИ-модуль. Я работаю на современном стеке и использую ИИ-ассистенты в разработке, поэтому сроки обычно короткие. После уточнения задачи смогу назвать конкретный срок и стоимость. Оплату можно обсудить в USDT (TRC20 / TON) или другим удобным способом.\n\nКакой у вас сайт или проект сейчас и что должно получиться в итоге? Есть ли желаемые сроки запуска?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой сайт или проект на WordPress уже есть и что нужно в нём доработать или создать с нуля?",
+    "Что именно подразумевается под нейроразработками: интеграция ИИ-сервиса, чат-бот, генерация контента или что-то другое?",
+    "Какой у вас бюджет и желаемые сроки выполнения?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:digitaltender/5631",
+  "source": "telegram",
+  "url": "https://t.me/digitaltender/5631",
+  "title": "Графический дизайнер",
+  "description": "👔\nГрафический дизайнер\n💼\nТип работы:\n постоянная\n👀\nЗадача:\n Дизайн для собственных проектов: макеты лендингов и страниц сайта (Photoshop); оформление Telegram-канала и соцсетей — аватары, обложки, шаблоны постов; баннеры и креативы для рекламы; фирменный стиль. Требования: уверенная работа в Photoshop, портфолио (подойдут и учебные работы), чувство композиции и шрифтов, ответ в течение дня и соблюдение сроков. Условия: оплачиваемое тестовое задание — 1 000 ₽, оплата независимо от результата; далее постоянные заказы с оплатой за проект — 2000 ₽ за макет. Расчёт только по р/с ИП; если нет — поможем оформить. Удалённо, свободный график, главное — дедлайн и быть на связи.\n💰\nОплата:\n 60000",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-13T11:09:10+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Постоянная удалённая работа графическим дизайнером: макеты лендингов в Photoshop, оформление Telegram-канала и соцсетей, баннеры и фирменный стиль. Это дизайн, а не разработка, поэтому под услуги Yakov не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли также верстка или разработка сайта по этим макетам, или только дизайн?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:digitaltender/5636",
+  "source": "telegram",
+  "url": "https://t.me/digitaltender/5636",
+  "title": "Ведущий презентаций в школах",
+  "description": "👔\nВедущий презентаций в школах\n💼\nТип работы:\n постоянная\n👀\nЗадача:\n Выступать перед школьниками (20–30 человек), рассказывать, как готовиться к экзаменам и не сойти с ума. Скрипт готов, обучение с нуля. От тебя только харизма.\nПодойдёт, если ты:\n• кайфуешь от сцены и находишь общий язык с кем угодно\n• легко срываешься в новый город и любишь путешествовать\n• (плюс, но не обязательно) был в продажах, КВН или вожатым\nЗадачи:\n• договариваться со школами о презентациях\n• проводить выступления и отвечать на вопросы\n• собирать контакты и вести заявки в CRM\nУсловия: поездки по России и мастер-классы; обучение, тренер, скрипты.\n💰\nОплата:\n от 50 000 ₽ в первый месяц, в среднем 120 000 ₽, топы 200 000+",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-16T12:57:53+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "crm",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Постоянная работа ведущим презентаций в школах с выступлениями перед школьниками, поездками по России и ведением заявок в CRM. Это работа спикера, а не разработка проекта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/340",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/340",
+  "title": "IT-специалисты / Программисты - OutDept (Удаленная работа)",
+  "description": "🚀\nIT-специалисты / Программисты - OutDept (Удаленная работа)\nПо результатам собеседования.\nНа старте работаем по системе процентного вознаграждения от реализованных проектов. Размер выплат зависит от вашего вклада, ответственности и результата работы. При активной работе, успешной реализации проектов и росте компании потенциальный доход может составлять от $700 до $2 000+ в месяц.\n📄\nОписание вакансии:\nМы - OutDept, международная IT-компания, занимающаяся разработкой сайтов, веб-приложений, AI-решений и автоматизацией бизнес-процессов для клиентов из Европы, Азии и США.\nВ связи с расширением команды ищем IT-специалистов и программистов для работы над международными проектами.\nТребования:\n• Опыт коммерческой разработки.\n• Знание современных технологий и языков программирования.\n• Умение работать в команде.\n• Ответственный подход к работе.\n• Готовность быстро включаться в проекты.\n• Опыт работы с веб-разработкой, AI, автоматизацией или интеграциями будет преимуществом.\nМы предлагаем:\n✔\n Полностью удаленную работу.\n✔\n Международные проекты.\n✔\n Работу в сфере AI и автоматизации.\n✔\n Возможность профессионального и карьерного роста.\n✔\n Долгосрочное сотрудничество.\n✔\n Интересные и масштабные проекты.\nДля отклика отправьте:\n• Резюме или портфолио.\n• Ваш стек технологий.\n• Опыт работы.\n• Telegram для связи.\n• Когда готовы приступить к работе.\n📩\n Telegram для связи:\n@Yaroslav0507",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-07-25T15:09:11+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Компания OutDept ищет программистов в штат на удаленную работу с оплатой по проценту от проектов (ориентир $700–2000+ в месяц). Это предложение о трудоустройстве, а не разовый проект на фриланс.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/341",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/341",
+  "title": "Аналитик информационной безопасности senior",
+  "description": "Аналитик информационной безопасности senior\nЗарплата по результатам собеседования\nГород:\n Москва\nГрейд:\n Senior\nФормат работы: \nГибрид, 1 день в неделю в офисе.\nОформление:\n ТК (срочный), ГПХ/ИП/СМЗ.\nЗадачи:\n* \nSAST/DAST/SCA:\n Внедрение и настройка инструментов анализа в CI/CD, тюнинг правил.\n* \nSecurity code review:\n Проверка критичных модулей (аутентификация, транзакции, блокчейн).\n* \nThreat modeling & Архитектура:\n Моделирование угроз (\nSTRIDE\n, \nDREAD\n, \nPASTA\n), оценка рисков интеграций.\n* \nПроцессы DevSecOps:\n Обучение разработчиков, внедрение практик \nsecurity-by-design\n.\n* \nBug bounty:\n Триаж и валидация репортов.\n* \nДокументация:\n Разработка security-гайдлайнов.\nОжидания от кандидата:\n* \nОпыт:\n 3+ года в AppSec (из них 2+ года — самостоятельное ведение проектов), суммарный IT-стаж от 5 лет.\n* \nСтандарты и инструменты:\n OWASP Top 10 / ASVS; Burp Suite Pro, ZAP; SAST/DAST/SCA (\nSemgrep\n, \nCodeQL\n, \nSnyk\n); языки Java/Kotlin, Go, Python или C#.\n* \nИнфраструктура и процессы:\n Threat modeling, CI/CD (\nGitLab\n, \nJenkins\n, \nGitHub Actions\n), Docker, Kubernetes.\n* \nСети и протоколы:\n TCP/IP, TLS, OAuth2/OIDC, JWT. Английский Intermediate+ для чтения документации.\nБудет плюсом:\n* Опыт во финтехе, Web3 или криптографии (управление ключами, custody).\n* Аудит смарт-контрактов (\nSolidity\n) на типовые атаки (\nreentrancy\n, \nflash loans\n).\n* Сертификаты OSCP, WAPT, OSWE, CEH.\n* Построение DevSecOps «с нуля», знание PCI DSS / ISO 27001 / SOC 2.\n* IaC (\nTerraform\n) и сканирование конфигураций.\nПишите\n@juliaz_ksa",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-07-27T16:54:27+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Вакансия на постоянную позицию Senior-аналитика информационной безопасности в Москве (гибрид, ТК или ГПХ/ИП): SAST/DAST, security code review, threat modeling, DevSecOps и bug bounty. Это поиск сотрудника, а не разовый проект разработки.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Рассматриваете ли вы разовый проект или внедрение DevSecOps-процессов по договору, а не постоянную позицию?",
+    "Есть ли у компании конкретный стек CI/CD и репозиториев, который нужно интегрировать с SAST/DAST-инструментами?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/343",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/343",
+  "title": "Ищем интегратора по Bitrix24 — есть задача + перспектива долгосрочного сотрудничества",
+  "description": "🚀\n Ищем интегратора по Bitrix24 — есть задача + перспектива долгосрочного сотрудничества\nОплата договорная\nИщем подрядчика на \nконкретную задачу\n: интеграция \nInstagram Direct\n и \nсайта с лидами\n в \nBitrix24\n(без переписки в CRM, только передача заявок)\n📄\n Есть подготовленный бриф с описанием задачи и ограничениями — вышлю по запросу.\nЧто важно:\nУ нас в работе постоянно появляются новые задачи по автоматизации и доработке CRM, и мы открыты к \nдолгосрочному сотрудничеству\n с тем, кто хорошо покажет себя на этой задаче.\n❗️\nОткликаемся только на кандидатов с реальным опытом интеграций на Bitrix24.\nПришлите, пожалуйста:\nкейсы\nпримеры реализованных проектов\nБез подтверждённого опыта рассматривать не сможем.\n📩\nПишите в личку:\n@mariiink1",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-08-07T08:40:30+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "shop",
+   "crm",
+   "automation",
+   "api_integration",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужна интеграция Instagram Direct и сайта с Bitrix24, чтобы заявки передавались в CRM как лиды, без переписки. Бюджет не указан, заказчик ищет подрядчика с опытом интеграций на Bitrix24 и возможным долгосрочным сотрудничеством.",
+   "reply": "Вам нужно связать Instagram Direct и сайт с Bitrix24 так, чтобы заявки сразу создавались лидами, без переписки в CRM. Я бы сделал это через входящие вебхуки Bitrix24 (метод crm.lead.add): сайт и Direct-обработчик отправляют данные на один серверный скрипт, он проверяет заявку на дубли и создаёт лид в нужной воронке. Ориентировочный срок — 1–2 недели, точнее скажу после брифа. Честно: кейсов именно с Bitrix24 у меня в портфолио нет, поэтому предлагаю начать с небольшого тестового этапа на вашем портале. Какой доступ к Instagram уже есть (Meta Business или сторонний сервис) и удобно ли получить бриф в текстовом виде?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно связать Instagram Direct и сайт с Bitrix24 так, чтобы заявки сразу создавались лидами, без переписки в CRM. Я бы сделал это через входящие вебхуки Bitrix24 (метод crm.lead.add): сайт и Direct-обработчик отправляют данные на один серверный скрипт, он проверяет заявку на дубли и создаёт лид в нужной воронке. Ориентировочный срок — 1–2 недели, точнее скажу после брифа. Честно: кейсов именно с Bitrix24 у меня в портфолио нет, поэтому предлагаю начать с небольшого тестового этапа на вашем портале. Какой доступ к Instagram уже есть (Meta Business или сторонний сервис) и удобно ли получить бриф в текстовом виде?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой доступ к Instagram уже есть: аккаунт в Meta Business, бизнес-верификация или используется сторонний сервис для Direct?",
+    "Какие поля должны попадать в лид и в какую воронку или стадию Bitrix24 их направлять?",
+    "Можно ли получить бриф и ограничения заранее, чтобы точнее оценить срок и стоимость?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/344",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/344",
+  "title": "Data Scientist / ML Engineer",
+  "description": "Data Scientist / ML Engineer\n2500-4000$\nВсем привет!\nИщем сильного Data Scientist / ML Engineer в \nSCOPE.GG\n — аналитическую платформу для игроков CS2.\nНужен человек, который хорошо понимает CS2 и хочет превращать игровые механики, стратегии и поведение игроков в данные, метрики и ML-модели, напрямую влияющие на продукт для тысяч пользователей.\nУсловия:\n— удалённая работа;\n— 2500-4000$\n— гибкий график;\n— работа над продуктом для многотысячного сообщества игроков CS2;\n— небольшая команда без избыточной бюрократии;\n— сложные данные, исследовательские задачи и возможность влиять на продукт;\n— сильная команда, объединяющая любовь к играм и технологиям.\nЧто предстоит делать:\n— анализировать большие массивы игровых данных CS2 и находить закономерности в поведении игроков;\n— строить распределения, проводить статистический анализ и формулировать выводы на основе данных;\n— разрабатывать, обучать и валидировать ML-модели для игровых сценариев;\n— переводить игровые механики, стратегии и игровые ситуации в измеримые признаки и метрики;\n— проверять гипотезы и внедрять новые метрики, которые помогают игрокам лучше понимать свою игру;\n— участвовать в развитии аналитических и ML-инструментов продукта.\nЧто важно:\n— 2–3+ года опыта в роли Data Scientist / ML Engineer;\n— хорошее понимание CS2: игровых механик, ролей, экономики и стратегий;\n— опыт статистического анализа данных и машинного обучения;\n— умение выбирать подходящую модель под задачу и аргументировать свой выбор;\n— самостоятельность в постановке и решении аналитических задач;\n— интерес к CS2 и желание глубоко исследовать игру через данные.\nБудет плюсом:\n— опыт работы с MongoDB;\n— большой игровой опыт в CS2;\n— опыт разработки плагинов для CS2 и работы с игровыми парсерами;\n— умение объяснять выводы из данных нетехническим коллегам;\n— знание Go.\nЕсли ты или кто-то из твоего окружения подходит — напиши мне в личку: \n@Lobanov_Dmitrij",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-08-18T13:41:00+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Вакансия в штат на позицию Data Scientist / ML Engineer в аналитической платформе SCOPE.GG для игроков CS2, с зарплатой 2500–4000$ и требованием 2–3+ года опыта. Это найм сотрудника, а не проектная разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/345",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/345",
+  "title": "Node.js Backend-разработчик",
+  "description": "Node.js Backend-разработчик\nЗарплата по результатам собеседования\nЛокация: \nРФ\nОформление: \nСЗ/ИП/ГПХ/Срочный ТД\nСрок проекта:\n 2 месяца\nЗадачи:\nАудит и оптимизация:\n Поиск ошибок в кодовой базе сайта, их оперативное устранение и общая поддержка стабильности.\nИнтеграции:\n Создание и доработка API для связи с внешними веб-сервисами и информационной системой «1С».\nТехническая поддержка:\n Работа на 2–3 линии поддержки (реализация доработок, запуск небольших функциональных подпроектов).\nОжидания от кандидата:\nГрейд:\n Middle или Middle+.\nСтек:\n Отличное знание Node.js, опыт проектирования и разработки API.\nОпыт работы/разработки мобильных приложений (Kotlin/Swift)\nОпыт:\n Обязателен подтвержденный опыт работы в \nвысоконагруженных (highload) проектах\n на стороне бэкенда.\nбуду рада откликам и рекомендациям \n@juliaz_ksa",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-08-26T07:01:55+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "api_integration",
+   "saas",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Вакансия на позицию Node.js backend-разработчика (Middle/Middle+) на срок 2 месяца с оплатой по итогам собеседования: аудит кода, интеграции API с веб-сервисами и 1С, поддержка 2–3 линии. Это поиск сотрудника (СЗ/ИП/ГПХ/ТД), а не проект на разработку.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это предложение о трудоустройстве или можно рассмотреть разовый проект или подряд на отдельные задачи (например, интеграцию с 1С)?",
+    "Какой объём кодовой базы и какая у неё текущая архитектура, если нужен только аудит и исправление ошибок?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/349",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/349",
+  "title": "Разработчик бэкенда Python/Django — Яндекс",
+  "description": "Разработчик бэкенда Python/Django — Яндекс\nот 159 000 до 250 000 ₽ после налогов\nКомпания: Яндекс\nФормат работы: гибрид / удалённо\nГород и адрес офиса: Москва / Санкт - Петербург / Екатеринбург\nЗанятость: полная\nКоманда развивает платформу корпоративного обучения сотрудников. Предстоит перепроектировать личные кабинеты и систему ролей и доступов, развивать инструменты обучения и создать нагруженный сервис онлайн-расписаний для записи к тренерам и менторам.\nСтек: \nPython 3, Django, Django REST Framework, PostgreSQL, Celery, Redis. Для новых сервисов команда также внедряет Kotlin и Temporal.\nНужен коммерческий опыт разработки на Python, знание Django и DRF, опыт работы с PostgreSQL, Celery, Redis, REST API и Docker. Важны тестирование, code review и умение аргументировать технические решения. Опыт с Kotlin, Temporal или в EdTech/HRTech будет плюсом.\nУсловия\n: премии каждые полгода после успешного ревью, расширенный ДМС, обучение и менторство, оплата профильных конференций и частичная оплата языкового обучения.\nКонтакты: \n@alexandr_minus",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-09-25T13:46:06+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Вакансия на полную занятость в Яндексе: backend-разработчик Python/Django для платформы корпоративного обучения. Это наём в штат, а не фриланс-проект.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/351",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/351",
+  "title": "Разработчик SQL / DWH (Middle/Senior)",
+  "description": "Разработчик SQL / DWH (Middle/Senior)\nЗарплата по результатам собеседования\nКрупная частная группа компаний в Казахстане. Учет ведется в разрозненных, в том числе доработанных базах «1С:Бухгалтерия для Казахстана 3.0».\nОбязанности:\nНеобходимо построить отказоустойчивый и масштабируемый контур выгрузки данных из 1С во внешнее SQL/DWH-хранилище для последующей консолидации и аналитики.\nТребования:\n— Глубокие знания SQL, опыт оптимизации сложных запросов, проектирования реляционных моделей данных и хранилищ (DWH).\n— Уверенное владение инструментами и методами интеграции данных, построения контуров выгрузки (Data Pipelines) из учетных систем.\n—\n Понимание того, как хранятся данные 1С на уровне СУБД (MS SQL / PostgreSQL), как устроены ссылочные типы, таблицы документов и регистров, либо опыт интеграции с 1С через HTTP/REST API. (будет плюсом)\n—  Умение проектировать системы «с нуля», предусматривая обработку ошибок, логирование, контроль целостности и готовность архитектуры к масштабированию.\n— Наличие релевантных сертификатов\nУсловия:\n— Удаленная работа\n— Оплата за выполненную задачу\nбуду рада откликам и рекомендациям \n@juliaz_ksa",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-10-08T13:41:02+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "api_integration",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Заказчик ищет разработчика, который построит отказоустойчивый контур выгрузки данных из нескольких доработанных баз «1С:Бухгалтерия для Казахстана 3.0» во внешнее SQL/DWH-хранилище для консолидации и аналитики. Оплата за выполненную задачу, работа удалённая, бюджет не указан, а формулировка «Middle/Senior» и «зарплата по итогам собеседования» указывают на возможный найм.",
+   "reply": "Вы хотите выстроить выгрузку данных из нескольких доработанных баз 1С:Бухгалтерия для Казахстана 3.0 во внешнее SQL/DWH-хранилище для консолидации и аналитики. Я бы начал с анализа структуры 1С (справочники, документы, регистры, ссылочные типы) и различий между базами, затем спроектировал бы staging-слой и модель хранилища. Далее настроил бы инкрементальную выгрузку через HTTP-сервисы 1С или прямое чтение из СУБД с логированием, контролем целостности и повторными попытками при сбоях. Ориентировочно первая рабочая версия для одной базы займёт 2–3 недели, остальные подключим поэтапно. Живые демо моих интеграционных проектов: https://grachoffprod.github.io/portfolio/\n\nКакая СУБД используется (MS SQL или PostgreSQL) и есть ли доступ к серверам или HTTP-сервисам 1С? Подходит ли оплата по этапам, и можно ли оплатить в USDT (TRC20 / TON) или другим удобным способом?\n\nYakov",
+   "reply_ru": "Вы хотите выстроить выгрузку данных из нескольких доработанных баз 1С:Бухгалтерия для Казахстана 3.0 во внешнее SQL/DWH-хранилище для консолидации и аналитики. Я бы начал с анализа структуры 1С (справочники, документы, регистры, ссылочные типы) и различий между базами, затем спроектировал бы staging-слой и модель хранилища. Далее настроил бы инкрементальную выгрузку через HTTP-сервисы 1С или прямое чтение из СУБД с логированием, контролем целостности и повторными попытками при сбоях. Ориентировочно первая рабочая версия для одной базы займёт 2–3 недели, остальные подключим поэтапно. Живые демо моих интеграционных проектов: https://grachoffprod.github.io/portfolio/\n\nКакая СУБД используется (MS SQL или PostgreSQL) и есть ли доступ к серверам или HTTP-сервисам 1С? Подходит ли оплата по этапам, и можно ли оплатить в USDT (TRC20 / TON) или другим удобным способом?\n\nYakov",
+   "questions": [
+    "Какая СУБД используется в базах 1С (MS SQL или PostgreSQL) и есть ли доступ к серверам или HTTP-сервисам 1С?",
+    "Это разовый проект с оплатой за результат или найм в штат? Какой ориентировочный бюджет и сроки?",
+    "Подходит ли оплата по этапам и можно ли оплатить в USDT (TRC20 / TON) или другим удобным способом?"
+   ]
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/352",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/352",
+  "title": "Bi-инженер",
+  "description": "Bi-инженер\nот 171 000 до 190 000 рублей/мес на руки\nКомпания: \nMish продуктовая лаборатория\nФормат работы:\n удаленно (только из РФ)\nСрок привлечения:\n 3–6 месяцев (с возможностью продления).\nЗанятость: \nFull-time.\nМы в поиске BI-инженера, который готов вести отдельные стримы от этапа планирования до этапа предоставления финального результата заказчикам, разбираться с потребностями задач для бизнеса.\nОбязанности/задачи\nРазработка BI-отчетности\nСбор, обработка и парсинг \"сырых\" данных\nПоддержка и развитие хранилища данных, оптимизация работы БД\nОбщение с заказчиками\nТребования:\nУверенные знания SQL/оконные функции/CTE, процедурный язык PostgreSQL\nОпыт работы с BI-инструментами: Report Builder, PowerBI, QlikSense, Superset\nОпыт работы с PostgreSQL в качестве DE/DBA\nЗнание основных понятий и концепций из области Data Warehousing\nОпыт разработки витрин данных \nБудет плюсом:\nНаличие опыта разработки на Python\nОпыт проведения миграции между BI платформами\nПишите:\n@dshokurova",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-10-15T12:52:26+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Вакансия на полную занятость: BI-инженер в продуктовой лаборатории Mish с зарплатой 171–190 тыс. руб. на руки, удаленно из РФ, на срок 3–6 месяцев. Нужны SQL, PostgreSQL, BI-инструменты и разработка витрин данных. Это трудоустройство, а не проект.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:FreeVacanciesIT/356",
+  "source": "telegram",
+  "url": "https://t.me/FreeVacanciesIT/356",
+  "title": "Senior PHP Developer (Symfony) | AGIMA",
+  "description": "Senior PHP Developer (Symfony) | AGIMA \nдо 310 000 ₽ на руки\nФормат: Москва, гибрид, офис 2–3 дня в неделю\nЗанятость: full-time\nИщем опытного backend-разработчика на долгосрочный e-commerce-проект крупного digital-интегратора AGIMA.\nЗадачи:\n— Разработка и поддержка backend на PHP 8.x / Symfony;\n— Работа с PostgreSQL, REST API;\n— Интеграции с внешними системами, развитие существующего продукта.\nТребования:\n— Коммерческий опыт PHP от 5 лет;\n— Symfony — основной фреймворк;\n— PostgreSQL, REST API, GitLab CI/CD;\n— Плюсом будет опыт e-commerce, 1С-Битрикс, retailCRM.\nУсловия:\n— Москва, ул. Нагатинская, 5;\n— График 08:30–17:00;\n— Первые 3 месяца ГПХ, затем ТК РФ;\n— Техническое интервью с задачей и обязательный полиграф.\nОткликнуться:\nhttps://forms.gle/Vg46HKuSMRZ1uchF6",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-04T11:52:19+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Вакансия на постоянную full-time позицию Senior PHP-разработчика (Symfony) в Москве с гибридным графиком, а не проект на фриланс. Задачи связаны с e-commerce backend и интеграциями.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:Koteyka_Freelancer/8119",
+  "source": "telegram",
+  "url": "https://t.me/Koteyka_Freelancer/8119",
+  "title": "ИЩЕМ АССИСТЕНТОВ В КОМАНДУ ПРОДЮСЕРА",
+  "description": "-\n#вакансия\n#требуется\n#ищу\n#ассистент\n#продюсер\n🔥\nИЩЕМ АССИСТЕНТОВ В КОМАНДУ ПРОДЮСЕРА\nИщем активных и коммуникабельных людей для удалённой работы с блогерами и экспертами!\nЧто нужно делать:\n• Искать подходящих блогеров и экспертов по готовому ТЗ\n• Писать им и вести переписку\n• Заинтересовывать предложением о сотрудничестве\n• Договариваться о созвоне с нашей командой\nВажно:\n самостоятельно продавать, проводить созвоны и закрывать блогеров не нужно! Твоя задача — довести заинтересованного эксперта до встречи. Дальше мы всё берём на себя \n❤️\nУсловия:\n💸\n 5% от суммы состоявшегося запуска\n💰\n Например, запуск на 1 млн ₽ = 50 000 ₽ тебе\n🏠\n Полностью удалённая работа\n🎓\n Обучение, готовые скрипты и поддержка команды\n✨\n Можно без опыта, всему научим\nДля сотрудничества пиши \n@so_nyasmm\n «АССИСТЕНТ ПРОДЮСЕРА» \n💌",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-21T11:59:58+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:Koteyka_Freelancer/8120",
+  "source": "telegram",
+  "url": "https://t.me/Koteyka_Freelancer/8120",
+  "title": "-#резюме",
+  "description": "-#резюме\n#помогу\n#вебдизайнер\n💻\n Создаю и дорабатываю сайты под ключ\nОпыт работы с сайтами — более 10 лет.\n✅\n Создание сайтов и интернет-магазинов\n✅\n Доработка и редизайн существующих сайтов\n✅\n Наполнение контентом и товарами\n✅\n SEO-настройки, исправление ошибок\n✅\n Техническая поддержка и сопровождение.\nРаботаю с Tilda, WordPress, Shopify и другими платформами.\n🔗\nПортфолио: \nhttps://currant-online.com/\n📩\n По вопросам сотрудничества — пишите в личные сообщения: \n@Nastik51",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-21T13:59:58+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "landing",
+   "shop",
+   "site_template",
+   "fixes"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:Koteyka_Freelancer/8122",
+  "source": "telegram",
+  "url": "https://t.me/Koteyka_Freelancer/8122",
+  "title": "Выспался. Создал чат-бота. Заработал +17.000 рублей.",
+  "description": "Выспался. Создал чат-бота. Заработал +17.000 рублей.\nПока ты едешь на «любимую работу» к 8ч утра, другие запускают\n этого бота, \nследуют пошаговой инструкции и получают +17.000 рублей за несколько часов работы.\nЭти люди не программисты и у них даже нет высшего образования. Они просто научились создавать чат-ботов, где нет ничего сложного. И за это им готовы платить 200-250.000 рублей в месяц.\nНа старте новички зарабатывают 50-60.000 рублей, а ребята поопытнее от 200.000 рублей в месяц.\nВсе, что нужно для старта\n — запустить этот бот.\n Там уже рассказали, как с помощью чат-ботов и удаленки заработать несколько месячных зарплат и наконец уволиться из найма в 2026 году.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-23T11:10:59+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:Koteyka_Freelancer/8124",
+  "source": "telegram",
+  "url": "https://t.me/Koteyka_Freelancer/8124",
+  "title": "Срочно ищут людей для работы из дома:",
+  "description": "‼️\nСрочно ищут людей для работы из дома: \n• Переписать 2 страницы в Word другими словами – 7000₽.\nСмотреть задачу\n• Заполнить 3 карточки на WB – 1500₽.\nСмотреть задачу\n• Техподдержка телеграм-бота (без звонков) – 70.000₽/мес.\nСмотреть вакансию\nТаких предложений хоть отбавляй, вам остаётся только следить за ними \nздесь\n, \nспешите\nпока остались свободные вакансии",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-23T15:29:58+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
+  "id": "telegram:Koteyka_Freelancer/8128",
+  "source": "telegram",
+  "url": "https://t.me/Koteyka_Freelancer/8128",
+  "title": "Подработка с телефона",
+  "description": "-\n#вакансия\n#требуется\n#ищу\n#помощник\nПодработка с телефона\n📲\n: публикация готовых видео в Instagram\nМы выдаём аккаунт, корпоративный VPN, видео, обложки и текста. \n✅\nТы публикуешь 3 готовых рилса в день в согласованные окна и отвечаешь на комментарии. \nЗанятость на 10 минут в день на 1 аккаунт \n❌\nСнимать себя \n❌\nмонтировать и продавать в личных сообщениях не нужно\nОплата: $10 за ведение 1 аккаунта в неделю  + 10% от продаж клиентов, которых привёл твой аккаунт. Повторные покупки тоже твои, пока работаешь с нами.\nВсе отображается внутри CRM\nСначала 7 дней прогрева: $2 после его завершения и ещё $3 за первую реальную заявку. Во время прогрева нужно оформить профиль, сделать сторис и актуальные по инструкции. После прогрева сторис по желанию.\nНужны свой смартфон, интернет и возможность заходить утром, днём и вечером. \nВажно: на ваш телефон ставится последняя версия Instagram\nАккаунт и VPN оплачиваем мы.\nТематика: продвижение модели и её платного контента . Для Instagram выдаём материалы для открытой публикации. \nДля отклика:\n@HR_Experience_Merchantt",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-24T13:29:58+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "crm"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-25T14:45:39+00:00"
+ },
+ {
   "id": "freelancer:40835332",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/power-bi/Property-Finance-Power-Dashboard",

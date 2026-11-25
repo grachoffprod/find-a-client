@@ -1,6 +1,6 @@
 {
  "flru": {
-  "fails": 1,
+  "fails": 2,
   "last_count": 60
  },
  "kwork": {
@@ -17,7 +17,7 @@
  },
  "telegram": {
   "fails": 0,
-  "last_count": 96
+  "last_count": 208
  },
  "freelance_ru": {
   "fails": 0,
@@ -25,7 +25,7 @@
  },
  "pph": {
   "fails": 0,
-  "last_count": 0
+  "last_count": 20
  },
  "guru": {
   "fails": 5
