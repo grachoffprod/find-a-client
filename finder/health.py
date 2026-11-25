@@ -1,4 +1,4 @@
-"""Счётчик сбоев источников: одно предупреждение, когда площадка перестала читаться."""
+"""Track source failures and send one alert when a source stops working."""
 from html import escape
 
 from finder.telegram_bot import SOURCE_NAMES
@@ -12,7 +12,7 @@ def update_health(health: dict, source: str, ok: bool, threshold: int, error: st
     rec["fails"] += 1
     if rec["fails"] == threshold:
         name = SOURCE_NAMES.get(source, source)
-        why = f"\nОшибка: {escape(error[:300])}" if error else ""
-        return (f"⚠️ Площадка <b>{escape(name)}</b> не читается {threshold} запуска подряд."
-                f"{why}\nОстальные площадки работают. Возможно, сайт поменял вёрстку или закрыл доступ.")
+        why = f"\nError: {escape(error[:300])}" if error else ""
+        return (f"⚠️ Source <b>{escape(name)}</b> has failed for {threshold} consecutive runs."
+                f"{why}\nOther sources are still working. The site may have changed its layout or blocked access.")
     return None

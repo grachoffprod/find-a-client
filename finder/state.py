@@ -1,4 +1,4 @@
-"""Небольшие JSON-файлы состояния в папке state/ (коммитятся обратно в репозиторий)."""
+"""Small JSON state files in state/ (committed back to the repository)."""
 import json
 from pathlib import Path
 
@@ -19,7 +19,7 @@ def write_json(path: Path, data) -> None:
 
 
 class SeenStore:
-    """Какие заказы уже видели. Хранит последние max_items id в порядке добавления."""
+    """Track seen jobs, keeping the latest max_items IDs in insertion order."""
 
     def __init__(self, path: Path, max_items: int = 20000):
         self.path = Path(path)

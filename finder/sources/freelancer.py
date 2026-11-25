@@ -1,4 +1,4 @@
-"""Freelancer.com — открытое API активных проектов."""
+"""Freelancer.com public API for active projects."""
 import json
 from datetime import datetime, timezone
 

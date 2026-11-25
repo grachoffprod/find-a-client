@@ -1,4 +1,4 @@
-name: Искатель заказов
+name: Job Finder
 
 on:
   schedule:
@@ -25,10 +25,10 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - name: Установить зависимости
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Найти заказы
+      - name: Find jobs
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -36,15 +36,15 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python -m finder.run
 
-      - name: Сохранить состояние и историю
+      - name: Save state and history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state docs/data
           if git diff --cached --quiet; then
-            echo "Без изменений"
+            echo "No changes"
           else
-            git commit -m "data: обновление заказов"
+            git commit -m "data: update jobs"
             git pull --rebase
             git push
           fi

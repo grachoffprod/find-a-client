@@ -1,4 +1,4 @@
-"""Отбор заказов по темам до ИИ — главная защита от лишних трат."""
+"""Filter jobs by topic before AI analysis to control costs."""
 import re
 from functools import lru_cache
 
@@ -9,8 +9,7 @@ _L = "a-zа-яё0-9"
 
 @lru_cache(maxsize=4096)
 def _pattern(word: str) -> re.Pattern:
-    """Слово ищется с начала слова (лендинг → лендинга, но не «отправка» для «правк»).
-    Короткие латинские слова (api, crm, mvp) — ещё и до конца слова."""
+    """Match words from their start, with short Latin terms matched as whole words."""
     p = rf"(?<![{_L}]){re.escape(word)}"
     if len(word) <= 4 and re.fullmatch(r"[a-z0-9]+", word):
         p += rf"(?![{_L}])"

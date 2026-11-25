@@ -1,4 +1,4 @@
-"""PeoplePerHour — список заказов (HTML, классы с хешами, поэтому ищем по началу имени класса)."""
+"""PeoplePerHour job listings (hashed HTML classes are matched by class-name prefix)."""
 import re
 
 import httpx

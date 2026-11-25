@@ -13,10 +13,10 @@ class Job:
     currency: str | None = None
     posted_at: str | None = None
     lang: str = "ru"
-    direct: bool = False  # прямой заказчик (Telegram, HN) — возможна оплата криптой
+    direct: bool = False  # Direct client (Telegram, HN); crypto payment may be possible.
 
     def __post_init__(self):
-        # ссылки берутся с чужих сайтов: пропускаем только http(s), чтобы в панели не было javascript:-ссылок
+        # URLs come from external sites; allow only HTTP(S) to prevent javascript: links in the dashboard.
         if not re.match(r"^https?://", self.url or "", re.I):
             self.url = ""
 

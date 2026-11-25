@@ -1,190 +1,178 @@
-# Искатель заказов — дизайн
+# Job Finder — Design
 
-Дата: 2026-11-24 · Статус: черновик на утверждение
+Date: 2026-11-24 · Status: draft for approval
 
-## Зачем
+## Why
 
-Портфолио и отзывов пока нет, поэтому заказчики сами не придут, а самому писать
-холодным клиентам не хочется. Значит, клиент — это тот, кто **уже** выложил
-заказ: на бирже, в Telegram-канале, на Reddit. Искатель находит такие заказы по
-всему миру быстрее, чем их заметят другие, и сразу даёт готовый отклик, чтобы
-оставалось проверить текст и нажать «отправить».
+There is no portfolio or review history yet, so clients are unlikely to find the
+freelancer on their own, and cold outreach is unappealing. A potential client is
+someone who has **already** posted a project on a marketplace, a Telegram channel,
+or Reddit. The finder discovers projects worldwide before other freelancers notice
+them and prepares a proposal that only needs a quick review before sending.
 
-Успех: каждый день в Telegram приходят подходящие заказы с готовым откликом, и
-первые 3–5 заказов взяты ради отзывов и кейсов.
+Success means suitable jobs with draft proposals arrive in Telegram every day, and
+the first 3–5 projects are won to build reviews and case studies.
 
-## Цели
+## Goals
 
-- Собирать новые заказы со всех площадок, которые читаются автоматически.
-- Отбирать только заказы по 14 темам: лендинги, интернет-магазины,
-  Telegram-боты, mini apps, CRM-системы, онлайн-запись, автоматизация,
-  интеграции API, SaaS-сервисы, онлайн-калькуляторы, шаблоны сайтов,
-  расширения, MVP, доработки.
-- Любой бюджет, включая мелкие заказы (порог можно поднять в настройках).
-- Для каждого заказа: краткое описание на русском, оценка «насколько подходит»,
-  черновик отклика на языке заказчика и его русский перевод.
-- Присылать в Telegram-бот и показывать в веб-панели с историей.
-- Работать бесплатно в облаке, без включённого компьютера.
+- Collect new jobs from every source that can be read automatically.
+- Keep only jobs matching 14 topics: landing pages, online stores, Telegram bots,
+  mini apps, CRM systems, online booking, automation, API integrations, SaaS,
+  online calculators, website templates, extensions, MVPs, and improvements.
+- Accept any budget, including small projects; the minimum can be raised in settings.
+- For each job, provide a short Russian summary, a relevance score, a proposal in
+  the client's language, and its Russian translation.
+- Send jobs to a Telegram bot and display them with history in a web dashboard.
+- Run in the cloud for free, without keeping a computer on.
 
-## Не цели
+## Non-goals
 
-- Автоматически отправлять отклики. Биржи за это банят, отправляет человек.
-- Upwork: заказы закрыты от программ (лента убрана в 2024, страницы отвечают
-  403). Только вручную.
-- Закрытые Telegram-чаты через личный аккаунт: риск блокировки. Возможный
-  второй этап.
-- Портфолио: отдельный проект, обсуждаем после искателя.
+- Automatically send proposals. Marketplaces may ban accounts for this; a person sends them.
+- Upwork: its project feed was removed in 2024 and pages return 403. Use it manually only.
+- Read private Telegram chats through a personal account due to the account-ban risk;
+  this may be a later phase.
+- Build a portfolio; that is a separate project to discuss after the finder.
 
-## Анти-цели (провал, даже если «работает»)
+## Failure conditions
 
-- Спам из нерелевантных заказов: если в Telegram приходит мусор, искателем
-  перестанут пользоваться.
-- Отклики, которые обещают то, чего нет: выдуманные кейсы, годы опыта,
-  несуществующие отзывы.
-- Тихо сломавшийся источник: площадка перестала читаться, а никто не знает.
-- Неожиданный счёт за ИИ.
+- Irrelevant jobs flood Telegram and make the finder unusable.
+- Proposals invent experience, projects, or reviews.
+- A source silently stops working without anyone knowing.
+- An unexpected AI bill arrives.
 
-## Ограничения
+## Constraints
 
-- Работа делается с помощью ИИ, поэтому подходят почти любые задачи из 14 тем.
-- Английский — через переводчик: всё иностранное переводится на русский.
-- Оплата: на биржах их способами; с прямыми заказчиками (Telegram, Reddit) —
-  крипта. Отклик прямому заказчику может упомянуть оплату в USDT.
-- Подпись в откликах — имя пользователя (уточнить).
-- Бесплатный GitHub. Приватный репозиторий даёт 2000 минут Actions в месяц,
-  а запуск раз в 15 минут — это ~2900 запусков. GitHub Pages на бесплатном
-  тарифе работает только для публичных репозиториев.
-- Claude API: модель Haiku, бюджет — несколько долларов в месяц.
+- AI assistance makes most tasks in the 14 topics feasible.
+- English is handled through translation; foreign-language content is translated into Russian.
+- Marketplace payments use each platform's methods. Direct clients from Telegram or Reddit
+  may pay in crypto, and a proposal may mention USDT.
+- Proposals are signed with the user's name (to confirm).
+- GitHub's free plan provides 2,000 Actions minutes per month for private repositories,
+  while a 15-minute schedule runs about 2,900 times. Free GitHub Pages requires a public
+  repository.
+- Claude API uses the Haiku model and should cost a few dollars per month.
 
-## Подходы
+## Approaches
 
-| | Как | Плюсы | Минусы |
+| Option | Approach | Advantages | Drawbacks |
 |---|---|---|---|
-| **А — выбран** | Python-скрипт на GitHub Actions каждые ~15 мин, Claude Haiku, Telegram-бот, панель на GitHub Pages | $0 за хостинг, работает без ПК | Задержка 10–20 мин, только публичные TG-каналы |
-| Б | То же на VPS + чтение закрытых TG-чатов через свой аккаунт | Почти мгновенно, больше заказов | 300–500 ₽/мес, риск для аккаунта |
-| В | n8n / Make | Без кода | Малые бесплатные лимиты, Kwork и подобные сайты не читает |
+| **A — selected** | Python script on GitHub Actions every ~15 min, Claude Haiku, Telegram bot, GitHub Pages dashboard | $0 hosting, runs without a PC | 10–20 min delay; public Telegram channels only |
+| B | Same on a VPS, plus private Telegram chats through a personal account | Near real-time, more jobs | 300–500 RUB/month and account risk |
+| C | n8n / Make | No code | Low free limits; does not read Kwork and similar sites |
 
-Пользователь выбрал А: бесплатно и без риска для аккаунта. Переход на Б
-позже возможен без переписывания: меняется только место запуска.
+The user selected A for zero cost and no account risk. Moving to B later would only
+change where the script runs; no rewrite would be needed.
 
-## Как устроено
+## Architecture
 
-```
+```text
 GitHub Actions (cron */15)
   └─ run.py
-       1. Сбор:     sources/*  → общий формат «Заказ»
-       2. Новые:    отбросить уже виденные (state/seen.json)
-       3. Фильтр:   ключевые слова по 14 темам (RU + EN), бюджет ≥ порога
-       4. ИИ:       Claude Haiku → подходит? тема, оценка 1–10,
-                    кратко по-русски, отклик + перевод
-       5. Отправка: Telegram-бот (оценка ≥ порога)
-       6. История:  docs/data/jobs.json (последние 500)
-       7. Коммит    state + jobs.json обратно в репозиторий
-GitHub Pages (docs/) → панель читает jobs.json
+       1. Collect:  sources/* → shared Job format
+       2. New:      discard jobs already seen (state/seen.json)
+       3. Filter:   keywords from 14 topics (RU + EN), budget ≥ threshold
+       4. AI:       Claude Haiku → relevance, topic, score 1–10,
+                    short Russian summary, proposal + translation
+       5. Send:     Telegram bot (score ≥ threshold)
+       6. History:  docs/data/jobs.json (latest 500)
+       7. Commit    state + jobs.json back to the repository
+GitHub Pages (docs/) → dashboard reads jobs.json
 ```
 
-### Источники (проверено 2026-11-24 с домашнего IP)
+### Sources (checked 2026-11-24 from a home IP)
 
-| Площадка | Как читать | Статус |
+| Source | How it is read | Status |
 |---|---|---|
-| Habr Freelance | RSS `freelance.habr.com/tasks.rss` | 200, читается |
-| FL.ru | RSS `fl.ru/rss/all.xml` | 200, 60 заказов |
-| Kwork | JSON внутри страницы `kwork.ru/projects` (`window.stateData`, `wants`) | 200 |
-| Freelancer.com | Открытое API `/api/projects/0.1/projects/active/` | 200 |
-| Weblancer, Freelance.ru, PeoplePerHour, Guru | Разбор HTML-страниц | 200 |
-| Hacker News, ежемесячная ветка «Freelancer? Seeking Freelancer?» | Открытое API (Algolia), без ключа | замена Reddit |
-| Reddit (r/forhire и др.) | — | с конца 2025 ключ выдают только после ручного одобрения; в первой версии не делаем |
-| Telegram, публичные каналы с заказами | Веб-превью `t.me/s/<канал>` | работает для каналов; список каналов найти при сборке |
-| Upwork | — | закрыт (403) |
+| Habr Freelance | RSS `freelance.habr.com/tasks.rss` | 200, readable |
+| FL.ru | RSS `fl.ru/rss/all.xml` | 200, 60 jobs |
+| Kwork | JSON in `kwork.ru/projects` (`window.stateData`, `wants`) | 200 |
+| Freelancer.com | Public API `/api/projects/0.1/projects/active/` | 200 |
+| Weblancer, Freelance.ru, PeoplePerHour, Guru | Parse listing pages | 200 |
+| Hacker News monthly “Freelancer? Seeking Freelancer?” thread | Public Algolia API, no key | Reddit alternative |
+| Reddit (r/forhire, etc.) | — | Since late 2025, keys require manual approval; excluded from v1 |
+| Telegram public job channels | Web preview `t.me/s/<channel>` | Works; channel list must be found during implementation |
+| Upwork | — | Blocked (403) |
 
-Каждый источник — отдельный модуль. Ошибка одного не останавливает остальные.
-Если источник падает 3 запуска подряд, в Telegram приходит одно сообщение
-«площадка X перестала читаться».
+Each source is a separate module. A source failure does not stop the others. After
+three consecutive failures, Telegram receives one alert that the source stopped working.
 
-### Общий формат «Заказ»
+### Shared Job format
 
-`id` (источник + id на площадке), `source`, `url`, `title`, `description`,
-`budget` (число или пусто), `currency`, `posted_at`, `lang`, `direct`
-(прямой заказчик, т.е. Telegram/Reddit — тогда возможна крипта).
+`id` (source + native platform ID), `source`, `url`, `title`, `description`,
+`budget` (number or empty), `currency`, `posted_at`, `lang`, and `direct`
+(direct client, such as Telegram or Reddit, where crypto payment may be possible).
 
-### Фильтр до ИИ
+### Pre-AI filter
 
-Словарь ключевых слов по 14 темам на русском и английском (`config/topics.yaml`).
-Заказ без совпадений к ИИ не идёт: это главная защита от лишних трат.
-Плюс стоп-слова (например, «дизайн логотипа», «SMM», «копирайтинг»).
+`config/topics.yaml` contains Russian and English keywords for 14 topics. Jobs without
+a match are not sent to AI; this is the main cost control. Stop words also filter out
+work such as logo design, SMM, and copywriting.
 
-### ИИ (Claude Haiku)
+### AI (Claude Haiku)
 
-Один запрос на заказ, ответ строго JSON:
-`relevant`, `topic`, `score` (1–10), `summary_ru`, `reply` (на языке заказа),
-`reply_ru` (перевод), `questions` (что уточнить у заказчика).
+One request per job, with a strict JSON response:
+`relevant`, `topic`, `score` (1–10), `summary_ru`, `reply` (in the job's language),
+`reply_ru` (translation), and `questions` (what to clarify with the client).
 
-Профиль для промпта лежит в `config/profile.yaml`: имя, услуги, что
-делается быстро, ссылка на портфолио (пока пусто), оплата. Промпт запрещает
-выдумывать опыт, кейсы и отзывы. Отклик короткий: суть задачи своими
-словами, как будет сделано, срок, 1–2 вопроса.
+The prompt profile in `config/profile.yaml` contains the name, services, areas of
+quick delivery, portfolio URL (empty for now), and payment details. The prompt forbids
+inventing experience, case studies, and reviews. Proposals are concise: describe the
+task in your own words, explain the approach, give a timeline, and ask 1–2 questions.
 
-Предохранители: не больше 40 заказов к ИИ за запуск, месячный лимит запросов
-в `state/usage.json`; при достижении — заказы приходят без отклика, с
-пометкой.
+Safeguards: at most 40 jobs per run and a monthly request limit in `state/usage.json`.
+When a limit is reached, jobs still arrive without a proposal and with a marker.
 
 ### Telegram
 
-Своё сообщение на каждый заказ: тема, площадка, бюджет, оценка, кратко
-по-русски, ссылка; отклик и перевод — под спойлером/цитатой, чтобы
-копировать. Порог оценки для отправки — в настройках (по умолчанию 6).
+Send one message per job with its topic, source, budget, score, short Russian summary,
+and link. Put the proposal and translation in an expandable quote so they can be copied.
+The minimum score is configurable and defaults to 6.
 
-### Веб-панель
+### Web dashboard
 
-Одна статическая страница на GitHub Pages: список заказов из `jobs.json`,
-фильтры по теме, площадке, оценке, кнопка «скопировать отклик». Статусы
-«откликнулся / пропустил / взял» хранятся в браузере (localStorage) —
-серверная часть не нужна.
+A single static GitHub Pages page lists jobs from `jobs.json`, with filters for topic,
+source, and score, and a copy-proposal button. The “applied / skipped / taken” statuses
+are stored in the browser (`localStorage`); no server is needed.
 
-### Секреты (GitHub Secrets)
+### GitHub Secrets
 
-`ANTHROPIC_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`. Пользователь
-вносит их в GitHub Secrets сам; в коде и в файлах репозитория ключей нет.
-Для локальной проверки — файл `.env`, который в `.gitignore`.
+`ANTHROPIC_API_KEY`, `TELEGRAM_BOT_TOKEN`, and `TELEGRAM_CHAT_ID`. The user adds them
+to GitHub Secrets; no keys are stored in code or repository files. Local checks use a
+`.env` file listed in `.gitignore`.
 
-Провайдер ИИ выбирается в настройках: Claude API напрямую (по умолчанию) или
-OpenRouter (оплата криптой, есть бесплатные модели) — смена одной строкой.
+Choose the AI provider in settings: direct Claude API (default) or OpenRouter (crypto
+payments and some free models). Switching providers takes one line.
 
-## Решено пользователем
+## User decisions
 
-- Вариант А (облако, бесплатно).
-- Все площадки, какие получится читать.
-- Telegram-бот и веб-панель.
-- Отклики пишет Claude API.
-- Английский — через перевод.
-- Любой бюджет.
-- Оплата: крипта с прямыми заказчиками, на биржах их способами.
-- Выступать под своим именем.
+- Option A: free cloud hosting.
+- Use every source that can be read.
+- Telegram bot and web dashboard.
+- Claude API drafts proposals.
+- Translate English content.
+- Accept any budget.
+- Crypto for direct clients, platform payment methods for marketplaces.
+- Use the user's own name.
 
-## Мои решения (можно поправить)
+## Implementation choices (adjustable)
 
-- **Публичный репозиторий.** Иначе не хватит бесплатных минут Actions и не
-  будет бесплатной панели на Pages. Публичными станут найденные заказы и
-  черновики откликов (это и так открытые данные). Ключи лежат в Secrets и
-  не видны.
-- Python 3.12, библиотеки: `httpx`, `feedparser`, `selectolax`,
-  `anthropic`, `pyyaml`.
-- Порог отправки в Telegram — оценка 6 из 10.
-- Модель — `claude-haiku-5-5`.
+- **Public repository.** A private repository would not provide enough free Actions
+  minutes or a free Pages dashboard. Public data includes discovered jobs and proposal
+  drafts, which are already public. Secrets remain private.
+- Python 3.12 with `httpx`, `feedparser`, `selectolax`, `anthropic`, and `pyyaml`.
+- Telegram delivery threshold: score 6/10.
+- Model: `claude-haiku-5-5`.
 
-## Риски
+## Risks
 
-- Некоторые сайты могут не пускать IP-адреса GitHub (проверено только с
-  домашнего IP). Проверить первым же запуском; такие источники отключить
-  или вынести на второй этап.
-- Вёрстка площадок меняется — модуль сломается. Ловится оповещением
-  «площадка перестала читаться».
-- GitHub выполняет cron с задержкой, иногда 10–20 минут сверх расписания.
+- Some sites may block GitHub IP addresses; checks were only made from a home IP.
+  Verify on the first run and disable blocked sources or defer them to a later phase.
+- Site layouts change and can break a source module; alerts report when a source fails.
+- GitHub cron can run late, sometimes 10–20 minutes after its scheduled time.
 
-## На усмотрение сборщика
+## Open implementation choices
 
-- Точный список публичных Telegram-каналов с заказами (найти и проверить
-  5–15 живых каналов).
-- Список сабреддитов.
-- Формат сообщения в Telegram и вид панели.
-- Структура файлов внутри репозитория.
+- Exact public Telegram job channels; find and verify 5–15 active channels.
+- Which subreddits to use.
+- Telegram message format and dashboard appearance.
+- Repository file layout.

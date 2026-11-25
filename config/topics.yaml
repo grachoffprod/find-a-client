@@ -1,7 +1,7 @@
-# Темы и ключевые слова (ищутся в заголовке и описании заказа, без учёта регистра).
-# Слово ищется с начала слова: "лендинг" найдёт и "лендинга", но "правк" не найдёт "отправка".
-# Короткие латинские слова (api, crm, mvp) ищутся только целиком.
-# Фильтр грубый и пропускает с запасом — окончательно решает ИИ.
+# Topics and keywords (matched case-insensitively in the job title and description).
+# Words are matched from the start: "landing" matches "landings" but not "sending" for "end".
+# Short Latin terms (api, crm, mvp) are matched as whole words.
+# This filter is intentionally broad; AI makes the final decision.
 
 topics:
   landing:
@@ -33,7 +33,7 @@ topics:
   fixes:
     [доработ, доработать сайт, исправить ошибк, исправить баг, починить, bug fix, fix bug, fix a bug, bugfix, баг, правк на сайт, правки на сайт, доделать]
 
-# Если в заказе есть стоп-слово — заказ отбрасывается.
+# Jobs containing a stop word are discarded.
 stop:
   [логотип, logo design, smm, копирайт, copywriting, рерайт, seo-текст, видеомонтаж, video editing, монтаж видео,
    монтажер, монтажёр, reels, озвучк, voice over, перевод текст, translation of, дизайн визитк, illustrat, иллюстрац,

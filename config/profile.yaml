@@ -1,4 +1,4 @@
-# Профиль для откликов. ИИ пишет отклики только на основе этих фактов.
+# Proposal profile. AI writes proposals based only on these facts.
 
 name: Yakov
 
@@ -20,7 +20,7 @@ services:
 
 tools: "современный стек и ИИ-ассистенты в разработке, поэтому быстрые сроки"
 
-portfolio_url: "https://grachoffprod.github.io/resume/"
+portfolio_url: "https://grachoffprod.github.io/portfolio/"
 
 payment:
   direct: "USDT (TRC20 / TON) или другой удобный вариант — обсудим"

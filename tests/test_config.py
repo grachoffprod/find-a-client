@@ -24,7 +24,7 @@ def test_settings_defaults():
 
 
 def test_job_id_and_dict():
-    j = Job(id="kwork:1", source="kwork", url="https://kwork.ru/x", title="t", description="d")
+    j = Job(id="freelancer:1", source="freelancer", url="https://freelancer.com/x", title="t", description="d")
     d = j.to_dict()
-    assert d["id"] == "kwork:1"
+    assert d["id"] == "freelancer:1"
     assert d["budget"] is None

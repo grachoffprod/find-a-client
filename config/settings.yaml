@@ -1,25 +1,24 @@
-# Настройки искателя. Меняйте прямо здесь (на GitHub — значок карандаша).
+# Finder settings. Edit this file directly (on GitHub, use the pencil icon).
 
 ai:
   provider: anthropic        # anthropic | openrouter
-  model: claude-haiku-5-5    # для openrouter — точное имя модели с openrouter.ai/models (бесплатные оканчиваются на ":free")
-  max_per_run: 40            # не больше стольких заказов к ИИ за один запуск
-  monthly_limit: 3000        # и не больше стольких запросов в месяц
-  time_budget_s: 360         # и не дольше 6 минут на ИИ за запуск (остальные заказы придут без отклика)
+  model: claude-haiku-5-5    # For OpenRouter, use the exact model name from openrouter.ai/models (free models end in ":free").
+  max_per_run: 40            # Maximum jobs sent to AI per run.
+  monthly_limit: 3000        # Maximum AI requests per month.
+  time_budget_s: 360         # Maximum AI time per run; remaining jobs arrive without proposals.
 
 notify:
-  min_score: 6               # в Telegram — только заказы с оценкой от 6 из 10
-  delay_s: 1                 # пауза между сообщениями, чтобы Telegram не ограничивал
+  min_score: 6               # Send only jobs scored 6/10 or higher to Telegram.
+  delay_s: 1                 # Pause between messages to avoid Telegram rate limits.
 
 filter:
-  min_budget: 0              # 0 = любые бюджеты; заказы без бюджета проходят всегда
+  min_budget: 0              # 0 = any budget; jobs with no listed budget always pass.
 
 history:
-  max_items: 500             # сколько заказов хранить в веб-панели
+  max_items: 500             # Number of jobs to keep in the web dashboard.
 
 health:
-  fail_threshold: 3          # после стольких сбоев подряд — предупреждение в Telegram
+  fail_threshold: 3          # Send a Telegram alert after this many consecutive failures.
 
 sources:
-  enabled: [flru, kwork, freelancer, hn, telegram, freelance_ru, pph]   # guru убран: отвечает 403 на автозапросы
-  telegram_channels: [freelancetaverna, zakazy_freelance, freelancce, theyseeku, normrabota]
+  enabled: [freelancer, hn, pph]   # only international sites; Russian ones removed (no IBAN/crypto/EUR-card payouts)

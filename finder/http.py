@@ -22,7 +22,7 @@ _WS = re.compile(r"[ \t\r\f\v]+")
 
 
 def clean_text(raw: str | None) -> str:
-    """HTML → обычный текст: <br>/<p> в переносы, сущности раскрыты, лишние пробелы убраны."""
+    """Convert HTML to plain text, preserving breaks and decoding entities."""
     if not raw:
         return ""
     s = re.sub(r"(?i)<br\s*/?>|</p>|<p[^>]*>", "\n", raw)
@@ -33,7 +33,7 @@ def clean_text(raw: str | None) -> str:
 
 
 def parse_money(text: str | None) -> float | None:
-    """Первое число из строки вида '3 000 ₽', 'до 15000 руб', '$250'. Нет числа → None."""
+    """Return the first amount in a string such as '3 000 USD' or '$250', or None."""
     if not text:
         return None
     m = re.search(r"\d[\d\s .,]*", text)

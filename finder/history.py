@@ -1,4 +1,4 @@
-"""История заказов для веб-панели: docs/data/jobs.json, новые сверху."""
+"""Job history for the web dashboard, newest first in docs/data/jobs.json."""
 from pathlib import Path
 
 from finder.state import read_json, write_json

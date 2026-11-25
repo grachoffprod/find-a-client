@@ -15,7 +15,7 @@ def m(title: str, desc: str = "") -> list[str]:
 
 
 def test_bot_order_matches_tg_bot():
-    assert "tg_bot" in m("Нужен телеграм бот для записи")
+    assert "tg_bot" in m("Need a Telegram bot for bookings")
 
 
 def test_english_landing():
@@ -23,15 +23,15 @@ def test_english_landing():
 
 
 def test_stop_word_blocks():
-    assert m("Нарисовать логотип для лендинга") == []
+    assert m("Logo design for a landing page") == []
 
 
 def test_unrelated_is_empty():
-    assert m("Написать статью про садоводство", "Нужен текст 5000 знаков") == []
+    assert m("Write an article about gardening", "Need 5000 characters of copy") == []
 
 
 def test_short_keyword_needs_word_boundary():
-    # "api" не должно срабатывать внутри "capital", "rapid", "therapist"
+    # "api" should not match inside "capital", "rapid", or "therapist".
     assert m("Capital markets therapist", "rapid growth") == []
     assert "api_integration" in m("Connect Stripe API to the site")
 

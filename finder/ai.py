@@ -1,4 +1,4 @@
-"""Оценка заказа и черновик отклика через Claude API или OpenRouter."""
+"""Evaluate jobs and draft proposals with the Claude API or OpenRouter."""
 import json
 import os
 import re
@@ -32,7 +32,7 @@ class Analysis:
 
 def _as_bool(v) -> bool:
     if isinstance(v, str):
-        return v.strip().lower() in ("true", "yes", "1", "да")
+        return v.strip().lower() in ("true", "yes", "1")
     return bool(v)
 
 
@@ -111,7 +111,7 @@ def analyze(job: Job, profile: dict, settings: dict, topics: list[str],
 
 
 class UsageCounter:
-    """Сколько запросов к ИИ сделано в этом месяце; сбрасывается с новым месяцем."""
+    """Count AI requests this month; reset the count when the month changes."""
 
     def __init__(self, path: Path, limit: int, month: str | None = None):
         self.path = Path(path)

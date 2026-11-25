@@ -1,6 +1,6 @@
-"""Один запуск искателя: собрать → отобрать → ИИ → Telegram → история.
+"""One finder run: collect → filter → AI → Telegram → history.
 
-Запуск: python -m finder.run
+Run with: python -m finder.run
 """
 import os
 import sys
@@ -28,14 +28,14 @@ def _log(msg: str) -> None:
 
 def _collect(sources: dict[str, Callable[[], list[Job]]], health: dict, threshold: int,
              notifier: Callable[[str], bool], stats: dict) -> tuple[list[Job], set[str]]:
-    """Опросить источники. Возвращает заказы и имена источников, которые прочитались впервые."""
+    """Fetch sources and return jobs plus sources that succeeded for the first time."""
     jobs: list[Job] = []
     first_success: set[str] = set()
     for name, fetch in sources.items():
         error = ""
         try:
             got = fetch()
-        except Exception as e:  # noqa: BLE001 — любой сбой площадки
+        except Exception as e:  # noqa: BLE001 — catch failures from any source
             got, error = None, f"{type(e).__name__}: {e}"
             stats["errors"] += 1
             _log(f"[{name}] ERROR {error}")
@@ -43,7 +43,7 @@ def _collect(sources: dict[str, Callable[[], list[Job]]], health: dict, threshol
         ever_worked = "last_count" in rec
         ok = got is not None and (len(got) > 0 or not rec.get("last_count"))
         if got is not None and not ok:
-            error = "площадка вернула 0 заказов"
+            error = "source returned 0 jobs"
         if ok:
             rec["last_count"] = len(got)
             if not ever_worked and got:
@@ -52,7 +52,7 @@ def _collect(sources: dict[str, Callable[[], list[Job]]], health: dict, threshol
         if alert:
             notifier(alert)
         if got:
-            _log(f"[{name}] {len(got)} заказов")
+            _log(f"[{name}] {len(got)} jobs")
             jobs.extend(got)
     return jobs, first_success
 
@@ -70,23 +70,23 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
     stats["fetched"] = len(jobs)
     write_json(state_dir / "health.json", health)
 
-    # 1. Первый запуск: запоминаем всё, ничего не анализируем
+    # 1. First run: mark everything as seen without analyzing it.
     if first_run:
         if jobs:
             for j in jobs:
                 seen.add(j.id)
             seen.save()
-            notifier(f"✅ Искатель запущен. Заказов уже в базе: {len(jobs)}. Дальше присылаю только новые.")
+            notifier(f"✅ Finder started. Jobs already in the database: {len(jobs)}. Only new jobs will be sent.")
         return stats
 
-    # 2. Площадка, которая прочиталась впервые (например, раньше не пускала), — тоже молча запоминаем
+    # 2. Also mark jobs from newly available sources as seen without sending them.
     for j in jobs:
         if j.source in first_success:
             seen.add(j.id)
     if first_success:
-        _log(f"Впервые прочитаны: {', '.join(sorted(first_success))} — их текущие заказы запомнены без отправки")
+        _log(f"Available for the first time: {', '.join(sorted(first_success))} — current jobs marked as seen")
 
-    # 3. Новые и подходящие по темам
+    # 3. Find new jobs that match the topics.
     new = [j for j in jobs if seen.is_new(j.id)]
     stats["new"] = len(new)
     matched = []
@@ -98,7 +98,7 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
             seen.add(j.id)
     stats["matched"] = len(matched)
 
-    # 4. ИИ (с лимитами) и отправка. Состояние сохраняется, даже если запуск упадёт посередине.
+    # 4. Analyze within the limits and send. State is saved even if the run fails midway.
     ai = settings["ai"]
     usage = UsageCounter(state_dir / "usage.json", ai["monthly_limit"])
     deadline = time.monotonic() + ai.get("time_budget_s", 360)
@@ -115,7 +115,7 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
                 stats["analyzed"] += 1
                 try:
                     a = analyzer(j, profile, settings, t)
-                except Exception as e:  # noqa: BLE001 — заказ не теряем
+                except Exception as e:  # noqa: BLE001 — keep the job even if analysis fails
                     _log(f"[ai] ERROR {j.id}: {type(e).__name__}: {e}")
             history.append({**j.to_dict(), "topics": t, "analysis": a.to_dict() if a else None, "found_at": found_at})
             if a is None or (a.relevant and a.score >= min_score):
@@ -125,7 +125,7 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
                     stats["sent"] += 1
                 else:
                     stats["send_failed"] += 1
-                    _log(f"[telegram] не отправлено: {j.id} (есть в веб-панели)")
+                    _log(f"[telegram] not sent: {j.id} (available in the web dashboard)")
     finally:
         usage.save()
         seen.save()
@@ -135,19 +135,16 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
 
 
 def build_sources(settings: dict, client) -> dict[str, Callable[[], list[Job]]]:
-    """Источники из settings.yaml; неизвестное имя (опечатка) пропускается с предупреждением."""
+    """Build sources from settings.yaml, skipping unknown names with a warning."""
     from finder.sources import SOURCES
 
     sources = {}
     for name in settings["sources"]["enabled"]:
         fetch = SOURCES.get(name)
         if fetch is None:
-            _log(f"⚠️ Неизвестная площадка в settings.yaml: {name!r} — пропускаю. Доступны: {', '.join(SOURCES)}")
+            _log(f"⚠️ Unknown source in settings.yaml: {name!r} — skipping. Available: {', '.join(SOURCES)}")
             continue
-        if name == "telegram":
-            sources[name] = partial(fetch, client, settings["sources"].get("telegram_channels") or [])
-        else:
-            sources[name] = partial(fetch, client)
+        sources[name] = partial(fetch, client)
     return sources
 
 
@@ -173,7 +170,7 @@ def main() -> int:
     if token and chat:
         notifier = lambda text: send(text, token, chat, client)  # noqa: E731
     else:
-        _log("TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID не заданы — сообщения печатаются в консоль")
+        _log("TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID not set — messages will be printed to the console")
 
         def notifier(text: str) -> bool:
             _log("---- telegram ----\n" + text)
@@ -181,16 +178,16 @@ def main() -> int:
 
     key = {"anthropic": "ANTHROPIC_API_KEY", "openrouter": "OPENROUTER_API_KEY"}.get(settings["ai"]["provider"])
     if key and not os.environ.get(key):
-        _log(f"{key} не задан — заказы придут без откликов")
+        _log(f"{key} not set — jobs will arrive without generated replies")
 
         def analyzer(*_):
-            raise RuntimeError(f"{key} не задан")
+            raise RuntimeError(f"{key} not set")
     else:
         analyzer = analyze
 
     stats = run(sources, settings, topics, profile, notifier, analyzer,
                 ROOT / "state", ROOT / "docs" / "data" / "jobs.json")
-    _log(f"Итог: {stats}")
+    _log(f"Summary: {stats}")
     return 0
 
 

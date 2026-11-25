@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 
 from finder.http import clean_text, parse_money
-from finder.sources import flru, freelance_ru, freelancer, guru, hn, kwork, pph, telegram
+from finder.sources import freelancer, guru, hn, pph
 
 FIX = Path(__file__).parent / "fixtures"
 
@@ -13,12 +13,8 @@ def read(name: str) -> str:
 
 
 CASES = [
-    ("flru", lambda: flru.parse((FIX / "flru.xml").read_bytes())),
-    ("kwork", lambda: kwork.parse(read("kwork.html"))),
     ("freelancer", lambda: freelancer.parse(read("freelancer.json"))),
     ("hn", lambda: hn.parse(read("hn_item.json"))),
-    ("telegram", lambda: telegram.parse(read("telegram.html"), "freelancetaverna")),
-    ("freelance_ru", lambda: freelance_ru.parse(read("freelance_ru.html"))),
     ("pph", lambda: pph.parse(read("pph.html"))),
     ("guru", lambda: guru.parse(read("guru.html"))),
 ]
@@ -38,18 +34,6 @@ def test_source_parses_fixture(name, parse):
         assert j.budget is None or j.budget > 0
 
 
-def test_flru_budget_extracted_and_title_cleaned():
-    jobs = flru.parse((FIX / "flru.xml").read_bytes())
-    with_budget = [j for j in jobs if j.budget]
-    assert with_budget
-    assert all("Бюджет" not in j.title and "для всех" not in j.title for j in jobs)
-
-
-def test_budget_absent_is_none():
-    jobs = flru.parse((FIX / "flru.xml").read_bytes())
-    assert any(j.budget is None for j in jobs)
-
-
 def test_hn_keeps_only_contract_posts():
     jobs = hn.parse(read("hn_item.json"))
     assert all(hn._CONTRACT.search(j.title) for j in jobs)
@@ -60,50 +44,16 @@ def test_hn_latest_thread_is_who_is_hiring():
     assert hn.latest_thread_id(read("hn_search.json"))
 
 
-def test_telegram_jobs_are_direct():
-    jobs = telegram.parse(read("telegram.html"), "freelancetaverna")
-    assert all(j.direct for j in jobs)
-    assert all(j.url.startswith("https://t.me/freelancetaverna/") for j in jobs)
-
-
-def test_kwork_missing_state_raises():
-    with pytest.raises(ValueError):
-        kwork.parse("<html>изменили вёрстку</html>")
-
-
 @pytest.mark.parametrize("text,value", [
-    ("3 000 ₽", 3000), ("до 15000 руб", 15000), ("$250", 250), ("Under $250", 250),
-    ("25 000  ₽", 25000), ("договорная", None), ("", None), ("1.500", 1500),
+    ("3 000 USD", 3000), ("up to 15000 USD", 15000), ("$250", 250), ("Under $250", 250),
+    ("25 000 USD", 25000), ("negotiable", None), ("", None), ("1.500", 1500),
 ])
 def test_parse_money(text, value):
     assert parse_money(text) == value
 
 
 def test_clean_text_strips_tags():
-    out = clean_text("<p>Привет <b>мир</b> &amp; ко</p><br>ок")
-    assert out.startswith("Привет мир & ко")
-    assert out.endswith("ок")
+    out = clean_text("<p>Hello <b>world</b> &amp; all</p><br>okay")
+    assert out.startswith("Hello world & all")
+    assert out.endswith("okay")
     assert "<" not in out
-
-
-def test_telegram_one_bad_channel_does_not_kill_others():
-    import httpx
-
-    good_html = read("telegram.html")
-
-    def handler(request):
-        if "dead" in str(request.url):
-            return httpx.Response(404)
-        return httpx.Response(200, text=good_html)
-
-    client = httpx.Client(transport=httpx.MockTransport(handler))
-    jobs = telegram.fetch(client, ["dead", "freelancetaverna"])
-    assert len(jobs) >= 1
-
-
-def test_telegram_all_channels_failing_raises():
-    import httpx
-
-    client = httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(500)))
-    with pytest.raises(Exception):
-        telegram.fetch(client, ["a", "b"])

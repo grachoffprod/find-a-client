@@ -1,4 +1,4 @@
-"""Guru — список заказов (HTML)."""
+"""Guru job listings (HTML)."""
 import re
 
 import httpx
@@ -28,7 +28,7 @@ def parse(raw: str) -> list[Job]:
             source="guru",
             url=BASE + href,
             title=a.text(strip=True),
-            description=(desc.text(strip=True) if desc else "") + (f"\nБюджет: {budget_text}" if budget_text else ""),
+            description=(desc.text(strip=True) if desc else "") + (f"\nBudget: {budget_text}" if budget_text else ""),
             budget=budget,
             currency="USD" if budget else None,
             lang="en",

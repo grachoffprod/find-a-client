@@ -11,8 +11,8 @@ GOOD = ('{"relevant": true, "topic": "tg_bot", "score": 8, "summary_ru": "Бот
         '"reply": "Hi", "reply_ru": "Привет", "questions": ["Сроки?"]}')
 
 
-def job(desc="Нужен бот", lang="ru", direct=False):
-    return Job(id="x:1", source="x", url="https://x", title="Бот", description=desc, lang=lang, direct=direct)
+def job(desc="Need a bot", lang="ru", direct=False):
+    return Job(id="x:1", source="x", url="https://x", title="Bot", description=desc, lang=lang, direct=direct)
 
 
 def test_parse_plain_json():
@@ -21,7 +21,7 @@ def test_parse_plain_json():
 
 
 def test_parse_fenced_json():
-    assert parse_analysis("Вот ответ:\n```json\n" + GOOD + "\n```").score == 8
+    assert parse_analysis("Here is the response:\n```json\n" + GOOD + "\n```").score == 8
 
 
 def test_anthropic_truncated_response_raises_clear_error(monkeypatch):
@@ -40,7 +40,7 @@ def test_anthropic_truncated_response_raises_clear_error(monkeypatch):
 
 def test_parse_garbage_raises():
     with pytest.raises(ValueError):
-        parse_analysis("я не знаю")
+        parse_analysis("I don't know")
 
 
 def test_score_clamped():
@@ -54,14 +54,14 @@ def test_missing_fields_default():
 
 
 def test_prompt_truncates_description():
-    system, user = build_prompt(job("я" * 10000), load_profile(), ["tg_bot"])
-    assert user.count("я") <= 4000
+    system, user = build_prompt(job("§" * 10000), load_profile(), ["tg_bot"])
+    assert user.count("§") <= 4000
 
 
 def test_prompt_forbids_fake_experience_and_signs_yakov():
     system, _ = build_prompt(job(), load_profile(), ["tg_bot"])
     assert "Yakov" in system
-    assert "выдумыва" in system.lower()
+    assert "invent" in system.lower()
 
 
 def test_prompt_mentions_crypto_only_for_direct():

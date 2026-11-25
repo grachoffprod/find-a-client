@@ -1,90 +1,88 @@
-# Искатель заказов
+# Job Finder
 
-Каждые ~15 минут собирает новые заказы с фриланс-площадок, отбирает подходящие
-по вашим темам, пишет через ИИ черновик отклика и присылает в Telegram. Все
-найденные заказы видны в веб-панели.
+Every ~15 minutes, the finder collects new projects from freelance platforms,
+filters them by your topics, drafts a proposal with AI, and sends it to Telegram.
+All discovered jobs appear in the web dashboard.
 
-**Площадки:** FL.ru, Kwork, Freelancer.com, Freelance.ru, PeoplePerHour, Guru,
-Hacker News (ветка «Who is hiring?», только контракт/фриланс), публичные
-Telegram-каналы с заказами.
+**Sources:** Freelancer.com, PeoplePerHour, Guru, and Hacker News (the “Who is
+hiring?” thread; contract and freelance roles only).
 
-Откликаетесь вы сами: искатель только находит заказы и готовит текст.
+You review and send proposals yourself. The finder only discovers jobs and
+prepares draft text.
 
 ---
 
-## Запуск (один раз, ~15 минут)
+## Setup (~15 minutes, once)
 
-### 1. Telegram-бот
+### 1. Telegram bot
 
-1. В Telegram откройте **@BotFather** → `/newbot` → придумайте имя → получите **токен**.
-2. Откройте своего нового бота и нажмите **Start** (напишите ему что угодно).
-3. Узнайте свой **chat id**: откройте в браузере
-   `https://api.telegram.org/bot<ТОКЕН>/getUpdates` (вместо `<ТОКЕН>` — ваш токен)
-   и найдите `"chat":{"id": 123456789` — это число и есть chat id.
+1. Open **@BotFather** in Telegram, choose `/newbot`, enter a name, and copy the **token**.
+2. Open your new bot and press **Start** (send it any message).
+3. Find your **chat ID** by opening
+   `https://api.telegram.org/bot<TOKEN>/getUpdates` in a browser (replace `<TOKEN>`
+   with your token) and locating `"chat":{"id": 123456789` — that number is your chat ID.
 
-### 2. Ключ ИИ (один из двух)
+### 2. AI API key (choose one)
 
-- **Claude API:** console.anthropic.com → Settings → Billing (пополнить от $5) → API Keys → Create Key.
-- **OpenRouter:** openrouter.ai → Keys → Create Key. Тогда в `config/settings.yaml`
-  поставьте `provider: openrouter` и имя модели с openrouter.ai/models.
+- **Claude API:** console.anthropic.com → Settings → Billing (add at least $5) → API Keys → Create Key.
+- **OpenRouter:** openrouter.ai → Keys → Create Key. Then set `provider: openrouter`
+  in `config/settings.yaml` and choose a model from openrouter.ai/models.
 
-### 3. Репозиторий на GitHub
+### 3. GitHub repository
 
-1. github.com → **New repository** → имя, например `client-finder` → **Public** →
-   Create. (Публичный нужен, чтобы бесплатно хватило минут и работала веб-панель.
-   Ключи при этом никто не увидит — они хранятся в секретах.)
-2. Загрузите туда эту папку (кроме `.venv`).
+1. On github.com, choose **New repository**, enter a name such as `client-finder`,
+   select **Public**, and click **Create**. A public repository provides enough free
+   Actions minutes and enables the dashboard. Your keys stay private in repository secrets.
+2. Upload this folder, excluding `.venv`.
 
-### 4. Секреты
+### 4. Secrets
 
-Репозиторий → **Settings → Secrets and variables → Actions → New repository secret**.
-Добавьте:
+Go to **Settings → Secrets and variables → Actions → New repository secret** and add:
 
-| Имя | Значение |
+| Name | Value |
 |---|---|
-| `TELEGRAM_BOT_TOKEN` | токен от @BotFather |
-| `TELEGRAM_CHAT_ID` | число из шага 1.3 |
-| `ANTHROPIC_API_KEY` | ключ Claude (если выбрали Claude) |
-| `OPENROUTER_API_KEY` | ключ OpenRouter (если выбрали OpenRouter) |
+| `TELEGRAM_BOT_TOKEN` | Token from @BotFather |
+| `TELEGRAM_CHAT_ID` | Number from step 1.3 |
+| `ANTHROPIC_API_KEY` | Claude key, if you chose Claude |
+| `OPENROUTER_API_KEY` | OpenRouter key, if you chose OpenRouter |
 
-Ключи вставляйте только сюда — не в файлы и не в чаты.
+Store keys here only, not in files or chats.
 
-### 5. Включить
+### 5. Enable the workflow and dashboard
 
-1. **Settings → Actions → General → Workflow permissions → Read and write** → Save.
-2. **Actions** → «Искатель заказов» → **Run workflow**.
-   Первый запуск запоминает уже висящие заказы и присылает одно сообщение
-   «Искатель запущен». Дальше приходят только новые.
-3. **Settings → Pages → Source: Deploy from a branch → `main` / `/docs`** → Save.
-   Через пару минут панель будет по адресу `https://<ваш-логин>.github.io/<имя-репозитория>/`.
+1. Go to **Settings → Actions → General → Workflow permissions**, select **Read and write**, and save.
+2. Open **Actions → Job Finder → Run workflow**. The first run marks existing jobs
+   as seen and sends one “Finder started” message. Later runs send only new jobs.
+3. Go to **Settings → Pages → Source: Deploy from a branch → `main` / `/docs`** and save.
+   The dashboard will be available at `https://<your-user>.github.io/<repository-name>/`.
 
 ---
 
-## Настройки
+## Configuration
 
-Всё меняется в файлах папки `config/` (на GitHub — значок карандаша):
+Edit the files in `config/` (on GitHub, use the pencil icon):
 
-- `settings.yaml` — модель ИИ, порог оценки для Telegram (`min_score`), минимальный
-  бюджет, список площадок и Telegram-каналов.
-- `topics.yaml` — темы и ключевые слова; стоп-слова.
-- `profile.yaml` — имя, услуги, способ оплаты, ссылка на портфолио
-  (как появится — впишите в `portfolio_url`, и ИИ начнёт давать её в откликах).
+- `settings.yaml` — AI model, minimum Telegram score (`min_score`), minimum budget,
+  and enabled sources.
+- `topics.yaml` — topics, keywords, and stop words.
+- `profile.yaml` — your name, services, payment method, and portfolio URL. Add a URL
+  to `portfolio_url` when you have one, and AI will include it in proposals.
 
-## Если что-то не так
+## Troubleshooting
 
-- **Площадка перестала читаться** — придёт сообщение «⚠️ Площадка … не читается».
-  Её можно убрать из `sources.enabled` в `settings.yaml`.
-- **Заказы приходят без откликов** — проверьте ключ ИИ в секретах и баланс.
-- **Ничего не приходит** — Actions → последний запуск → лог: там видно, сколько
-  заказов нашлось на каждой площадке.
+- **A source stops working:** you will receive an alert. Remove it from
+  `sources.enabled` in `settings.yaml` if needed.
+- **Jobs arrive without proposals:** check the AI key in repository secrets and its balance.
+- **No jobs arrive:** open the latest run under **Actions** and check the log for
+  the number of jobs found on each source.
 
-## Для разработки
+## Development
 
-```
+```sh
 python -m venv .venv
 .venv/Scripts/pip install -r requirements.txt
 .venv/Scripts/python -m pytest
-.venv/Scripts/python -m finder.run     # без ключей сообщения печатаются в консоль
+.venv/Scripts/python -m finder.run  # without keys, messages are printed to the console
 ```
 
-Ключи для локального запуска — в файл `.env` (он не попадает в git).
+For local runs, store keys in `.env` (this file is not committed to git).

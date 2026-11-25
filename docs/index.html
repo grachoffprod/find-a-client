@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Искатель заказов</title>
+<title>Job Finder</title>
 <meta name="robots" content="noindex">
 <style>
   :root {
@@ -48,30 +48,29 @@
 </head>
 <body>
 <header>
-  <h1>Искатель заказов <small id="count"></small></h1>
+  <h1>Job Finder <small id="count"></small></h1>
   <div class="filters">
-    <input type="search" id="q" placeholder="Поиск по заказам">
-    <select id="topic"><option value="">Все темы</option></select>
-    <select id="source"><option value="">Все площадки</option></select>
+    <input type="search" id="q" placeholder="Search jobs">
+    <select id="topic"><option value="">All topics</option></select>
+    <select id="source"><option value="">All sources</option></select>
     <select id="score">
-      <option value="0">Любая оценка</option><option value="6" selected>Оценка от 6</option><option value="8">Оценка от 8</option>
+      <option value="0">Any score</option><option value="6" selected>Score 6+</option><option value="8">Score 8+</option>
     </select>
     <select id="status">
-      <option value="active" selected>Новые и в работе</option><option value="">Все статусы</option>
-      <option value="new">Новые</option><option value="replied">Откликнулся</option>
-      <option value="taken">Взял</option><option value="skipped">Пропустил</option>
+      <option value="active" selected>New and in progress</option><option value="">All statuses</option>
+      <option value="new">New</option><option value="replied">Applied</option>
+      <option value="taken">Taken</option><option value="skipped">Skipped</option>
     </select>
   </div>
 </header>
-<main id="list"><div class="empty">Загружаю…</div></main>
+<main id="list"><div class="empty">Loading…</div></main>
 
 <script>
-const SOURCES = { flru: "FL.ru", kwork: "Kwork", freelancer: "Freelancer.com", hn: "Hacker News", telegram: "Telegram",
-  freelance_ru: "Freelance.ru", pph: "PeoplePerHour", guru: "Guru" };
-const TOPICS = { landing: "Лендинг", shop: "Интернет-магазин", tg_bot: "Telegram-бот", mini_app: "Mini App", crm: "CRM",
-  booking: "Онлайн-запись", automation: "Автоматизация", api_integration: "Интеграция API", saas: "SaaS / веб-сервис",
-  calculator: "Калькулятор", site_template: "Шаблон / вёрстка", extension: "Расширение", mvp: "MVP", fixes: "Доработка" };
-const STATUS = { new: "Новый", replied: "Откликнулся", taken: "Взял", skipped: "Пропустил" };
+const SOURCES = { freelancer: "Freelancer.com", hn: "Hacker News", pph: "PeoplePerHour", guru: "Guru" };
+const TOPICS = { landing: "Landing page", shop: "Online store", tg_bot: "Telegram bot", mini_app: "Mini App", crm: "CRM",
+  booking: "Online booking", automation: "Automation", api_integration: "API integration", saas: "SaaS / web service",
+  calculator: "Calculator", site_template: "Template / layout", extension: "Extension", mvp: "MVP", fixes: "Improvements" };
+const STATUS = { new: "New", replied: "Applied", taken: "Taken", skipped: "Skipped" };
 const KEY = "finder-status-v1";
 let jobs = [];
 let status = {};
@@ -88,13 +87,13 @@ function el(tag, attrs = {}, ...kids) {
 }
 const topicOf = (j) => (j.analysis && j.analysis.topic) || (j.topics || [])[0] || "";
 const scoreOf = (j) => (j.analysis ? j.analysis.score : null);
-const money = (j) => j.budget ? `${Math.round(j.budget).toLocaleString("ru-RU")} ${j.currency || ""}`.trim() : "бюджет не указан";
+const money = (j) => j.budget ? `${Math.round(j.budget).toLocaleString("en-US")} ${j.currency || ""}`.trim() : "Budget not specified";
 const ago = (iso) => {
   if (!iso) return "";
   const m = Math.round((Date.now() - new Date(iso)) / 60000);
-  if (m < 60) return `${m} мин назад`;
-  if (m < 1440) return `${Math.round(m / 60)} ч назад`;
-  return `${Math.round(m / 1440)} дн назад`;
+  if (m < 60) return `${m} min ago`;
+  if (m < 1440) return `${Math.round(m / 60)} hr ago`;
+  return `${Math.round(m / 1440)} days ago`;
 };
 
 function setStatus(id, s) {
@@ -110,28 +109,28 @@ function card(j) {
   const cls = sc == null ? "s-none" : sc >= 8 ? "s-hi" : sc >= 6 ? "s-mid" : "s-lo";
   const reply = a && a.reply ? a.reply : "";
   const copy = el("button", { onclick: async (e) => {
-    await navigator.clipboard.writeText(reply); e.target.textContent = "Скопировано ✓";
-    setTimeout(() => (e.target.textContent = "Скопировать отклик"), 1500);
-  } }, "Скопировать отклик");
+    await navigator.clipboard.writeText(reply); e.target.textContent = "Copied ✓";
+    setTimeout(() => (e.target.textContent = "Copy proposal"), 1500);
+  } }, "Copy proposal");
   const details = reply ? el("details", {},
-    el("summary", {}, "Отклик" + (j.lang !== "ru" && a.reply_ru && a.reply_ru !== reply ? " и перевод" : "")),
+    el("summary", {}, "Proposal" + (j.lang !== "ru" && a.reply_ru && a.reply_ru !== reply ? " and translation" : "")),
     el("div", { class: "reply" }, reply),
     j.lang !== "ru" && a.reply_ru && a.reply_ru !== reply ? el("div", { class: "reply" }, a.reply_ru) : null,
     a.questions && a.questions.length ? el("ul", { class: "q" }, ...a.questions.map((q) => el("li", {}, q))) : null,
-  ) : el("details", {}, el("summary", {}, "Описание заказа"), el("div", { class: "reply" }, (j.description || "").slice(0, 3000)));
+  ) : el("details", {}, el("summary", {}, "Job description"), el("div", { class: "reply" }, (j.description || "").slice(0, 3000)));
   return el("article", { class: "card" + (st === "skipped" || st === "taken" ? " done" : "") },
     el("div", { class: "top" },
       /^https?:\/\//i.test(j.url || "")
         ? el("a", { class: "title", href: j.url, target: "_blank", rel: "noopener" }, j.title)
         : el("span", { class: "title" }, j.title),
-      el("span", { class: "score " + cls, title: "Оценка ИИ" }, sc == null ? "—" : `${sc}/10`)),
+      el("span", { class: "score " + cls, title: "AI score" }, sc == null ? "—" : `${sc}/10`)),
     el("div", { class: "meta" },
       el("span", { class: "chip" }, TOPICS[topicOf(j)] || topicOf(j) || "—"),
       el("span", { class: "chip" }, SOURCES[j.source] || j.source),
-      j.direct ? el("span", { class: "chip" }, "прямой заказчик") : null,
+      j.direct ? el("span", { class: "chip" }, "Direct client") : null,
       el("span", {}, money(j)),
       el("span", {}, "· " + ago(j.found_at))),
-    a && a.summary_ru ? el("p", { class: "summary" }, a.summary_ru) : !a ? el("p", { class: "summary" }, "⚠️ Отклик не сгенерирован") : null,
+    a && a.summary_ru ? el("p", { class: "summary" }, a.summary_ru) : !a ? el("p", { class: "summary" }, "⚠️ Proposal not generated") : null,
     details,
     el("div", { class: "actions" },
       reply ? copy : null,
@@ -153,10 +152,10 @@ function render() {
     if (q && !(j.title + " " + (j.description || "") + " " + (j.analysis?.summary_ru || "")).toLowerCase().includes(q)) return false;
     return true;
   });
-  $("count").textContent = `${shown.length} из ${jobs.length}`;
+  $("count").textContent = `${shown.length} of ${jobs.length}`;
   const list = $("list");
   list.replaceChildren(...(shown.length ? shown.map(card)
-    : [el("div", { class: "empty" }, jobs.length ? "Под фильтры ничего не подходит." : "Заказов пока нет — искатель пришлёт их после следующих запусков.")]));
+    : [el("div", { class: "empty" }, jobs.length ? "No jobs match these filters." : "No jobs yet. New ones will appear after the next runs.")]));
 }
 
 function fillSelect(id, values, names) {
@@ -172,7 +171,7 @@ fetch("data/jobs.json", { cache: "no-store" })
     fillSelect("source", [...new Set(jobs.map((j) => j.source))], SOURCES);
     render();
   })
-  .catch(() => { $("list").replaceChildren(el("div", { class: "empty" }, "Не удалось загрузить data/jobs.json")); });
+  .catch(() => { $("list").replaceChildren(el("div", { class: "empty" }, "Could not load data/jobs.json")); });
 for (const id of ["q", "topic", "source", "score", "status"]) $(id).addEventListener("input", render);
 </script>
 </body>

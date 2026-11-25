@@ -23,7 +23,7 @@ def settings(max_per_run=40, monthly=3000, time_budget=600):
 
 
 def bot_job(i: int, source="kwork") -> Job:
-    return Job(id=f"{source}:{i}", source=source, url=f"https://x/{i}", title=f"Нужен телеграм бот {i}", description="")
+    return Job(id=f"{source}:{i}", source=source, url=f"https://x/{i}", title=f"Need a Telegram bot {i}", description="")
 
 
 def good(score=8):
@@ -43,9 +43,9 @@ class Box:
 def paths(tmp_path):
     seen = tmp_path / "state" / "seen.json"
     seen.parent.mkdir()
-    seen.write_text('["init:0"]', encoding="utf-8")  # не первый запуск
-    known = {n: {"fails": 0, "last_count": 5} for n in ("kwork", "flru", "telegram")}
-    (seen.parent / "health.json").write_text(json.dumps(known), encoding="utf-8")  # источники уже работали
+    seen.write_text('["init:0"]', encoding="utf-8")  # Not the first run.
+    known = {n: {"fails": 0, "last_count": 5} for n in ("kwork", "source_b", "source_c")}
+    (seen.parent / "health.json").write_text(json.dumps(known), encoding="utf-8")  # Sources have worked before.
     return tmp_path / "state", tmp_path / "jobs.json"
 
 
@@ -76,7 +76,7 @@ def test_new_matching_job_is_analyzed_and_sent(paths):
 
 def test_unrelated_job_not_analyzed(paths):
     called = []
-    job = Job(id="kwork:9", source="kwork", url="https://x", title="Посадить огород", description="")
+    job = Job(id="kwork:9", source="kwork", url="https://x", title="Plant a garden", description="")
     stats, box = go({"kwork": lambda: [job]}, lambda *a: called.append(1), paths)
     assert called == [] and box.msgs == [] and stats["matched"] == 0
 
@@ -88,7 +88,7 @@ def test_ai_failure_still_notifies(paths):
     stats, box = go({"kwork": lambda: [bot_job(1)]}, boom, paths)
     assert stats["sent"] == 1 and "не сгенерирован" in box.msgs[0]
     stats2, _ = go({"kwork": lambda: [bot_job(1)]}, good(), paths)
-    assert stats2["new"] == 0  # заказ помечен виденным даже при сбое ИИ
+    assert stats2["new"] == 0  # The job is marked as seen even when AI analysis fails.
 
 
 def test_low_score_not_sent_but_in_history(paths):
@@ -107,7 +107,7 @@ def test_broken_source_does_not_stop_others(paths):
     def broken():
         raise RuntimeError("layout changed")
 
-    stats, box = go({"flru": broken, "kwork": lambda: [bot_job(1)]}, good(), paths)
+    stats, box = go({"broken": broken, "kwork": lambda: [bot_job(1)]}, good(), paths)
     assert stats["errors"] == 1 and stats["sent"] == 1
 
 
@@ -202,11 +202,11 @@ def test_failed_send_is_counted(paths):
 
 def test_unknown_source_name_is_skipped():
     from finder.run import build_sources
-    s = {"sources": {"enabled": ["kwork", "kworkk"], "telegram_channels": []}}
-    assert list(build_sources(s, client=None)) == ["kwork"]
+    s = {"sources": {"enabled": ["freelancer", "unknown"]}}
+    assert list(build_sources(s, client=None)) == ["freelancer"]
 
 
 def test_non_http_url_is_dropped():
-    j = Job(id="flru:1", source="flru", url="javascript:alert(1)", title="t", description="")
+    j = Job(id="test:1", source="test", url="javascript:alert(1)", title="t", description="")
     assert j.url == ""
     assert Job(id="a:1", source="a", url="https://ok", title="t", description="").url == "https://ok"

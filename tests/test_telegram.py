@@ -5,8 +5,8 @@ from finder.models import Job
 from finder.telegram_bot import MAX_LEN, format_job, send
 
 
-def job(title="Бот", desc="Описание", budget=None, lang="ru", source="kwork"):
-    return Job(id="kwork:1", source=source, url="https://kwork.ru/projects/1", title=title,
+def job(title="Бот", desc="Описание", budget=None, lang="ru", source="freelancer"):
+    return Job(id="freelancer:1", source=source, url="https://freelancer.com/projects/1", title=title,
                description=desc, budget=budget, currency="RUB" if budget else None, lang=lang)
 
 

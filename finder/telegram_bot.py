@@ -1,4 +1,4 @@
-"""Сообщения в Telegram (parse_mode=HTML)."""
+"""Format and send Telegram messages using HTML parse mode."""
 import time
 from html import escape
 
@@ -10,8 +10,7 @@ from finder.models import Job
 MAX_LEN = 4096
 
 SOURCE_NAMES = {
-    "flru": "FL.ru", "kwork": "Kwork", "freelancer": "Freelancer.com", "hn": "Hacker News",
-    "telegram": "Telegram", "freelance_ru": "Freelance.ru", "pph": "PeoplePerHour", "guru": "Guru",
+    "freelancer": "Freelancer.com", "hn": "Hacker News", "pph": "PeoplePerHour", "guru": "Guru",
 }
 TOPIC_NAMES = {
     "landing": "Лендинг", "shop": "Интернет-магазин", "tg_bot": "Telegram-бот", "mini_app": "Mini App",
@@ -32,7 +31,7 @@ def _money(job: Job) -> str:
 
 
 def format_job(job: Job, a: Analysis | None) -> str:
-    """Сообщение о заказе. Весь текст заказа и ИИ экранирован; итог ≤ 4096 символов."""
+    """Format a job message, escaping job and AI text and limiting output to 4096 characters."""
     topic = TOPIC_NAMES.get(a.topic, a.topic) if a and a.topic else "—"
     head = [
         f"<b>{escape(_cut(job.title, 300))}</b>",
@@ -42,7 +41,7 @@ def format_job(job: Job, a: Analysis | None) -> str:
     ]
     tail = f'\n\n🔗 <a href="{escape(job.url, quote=True)}">Открыть заказ</a>'
 
-    blocks: list[tuple[str, str, str]] = []  # (prefix, text, suffix) — text обрезается при нехватке места
+    blocks: list[tuple[str, str, str]] = []  # (prefix, text, suffix); trim text when space is limited.
     if a is None:
         head.append("⚠️ отклик не сгенерирован")
         blocks.append(("\n\n", job.description, ""))
@@ -58,7 +57,7 @@ def format_job(job: Job, a: Analysis | None) -> str:
 
     fixed = "\n".join(head) + tail + sum(len(p) + len(s) for p, _, s in blocks) * " "
     budget = MAX_LEN - len(fixed)
-    # делим оставшееся место поровну, остаток отдаём тем, кому не хватило
+    # Divide the remaining space evenly, then give spare space to blocks that need it.
     sizes = [len(escape(t)) for _, t, _ in blocks]
     share = [0] * len(blocks)
     left = budget
@@ -73,7 +72,7 @@ def format_job(job: Job, a: Analysis | None) -> str:
     for (prefix, text, suffix), room in zip(blocks, share):
         esc = escape(text)
         if len(esc) > room:
-            # режем исходный текст, чтобы не разорвать HTML-сущность
+            # Trim the original text without splitting an HTML entity.
             t = text
             while len(escape(t)) > room - 1 and t:
                 t = t[: int(len(t) * 0.9)]

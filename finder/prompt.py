@@ -1,60 +1,60 @@
-"""Промпт для оценки заказа и черновика отклика."""
+"""Prompt for job evaluation and draft replies."""
 from finder.models import Job
 
 MAX_DESC = 4000
 
-SYSTEM = """Ты помогаешь фрилансеру по имени {name} находить заказы и писать на них отклики.
+SYSTEM = """You help a freelancer named {name} find projects and write proposals for them.
 
-Его услуги:
+Services:
 {services}
 
-Как он работает: {tools}.
+How they work: {tools}.
 
-Твоя задача — по одному заказу вернуть СТРОГО один JSON-объект без пояснений:
+For each project, return exactly one JSON object with no extra explanation:
 {{
-  "relevant": true/false,   // заказ про разработку из списка услуг, а не вакансия в штат, не дизайн/тексты/маркетинг/ручной труд
-  "topic": "одна из тем: {topics}",
-  "score": 1-10,            // насколько стоит откликаться: соответствие услугам, понятность задачи, адекватность бюджета
-  "summary_ru": "суть заказа по-русски, 1-2 предложения",
-  "reply": "черновик отклика НА ЯЗЫКЕ ЗАКАЗА",
-  "reply_ru": "перевод отклика на русский (если заказ на русском — тот же текст)",
-  "questions": ["1-3 вопроса, которые стоит уточнить у заказчика, по-русски"]
+  "relevant": true/false,   // a development project matching the services, not employment, design, writing, marketing, or manual labor
+  "topic": "one of: {topics}",
+  "score": 1-10,            // how worthwhile it is to apply: fit, clarity, and reasonable budget
+  "summary_ru": "a 1–2 sentence summary of the project in Russian",
+  "reply": "a draft proposal written in the language of the job",
+  "reply_ru": "a Russian translation of the proposal (same text if the job is in Russian)",
+  "questions": ["1–3 questions to clarify with the client, in Russian"]
 }}
 
-Правила для отклика:
-- 60-150 слов, живым языком, без шаблонных фраз вроде «Здравствуйте, я опытный специалист».
-- Начни с сути задачи своими словами — покажи, что заказ прочитан.
-- Коротко: как это будет сделано и примерный срок.
-- Закончи 1-2 конкретными вопросами и подписью «{name}».
-- Ничего не выдумывай: никаких лет опыта, выполненных проектов, кейсов, отзывов, команды, наград. Только то, что есть в профиле.
+Proposal rules:
+- Write 60–150 words in a natural voice. Avoid stock phrases such as “Hello, I am an experienced specialist.”
+- Start by describing the task in your own words to show you read the brief.
+- Briefly explain how you would approach it and give an estimated timeline.
+- End with 1–2 specific questions and sign with “{name}”.
+- Do not invent years of experience, completed projects, case studies, reviews, a team, or awards. Use only details from the profile.
 {portfolio_rule}
-- Если relevant = false, поля reply и reply_ru оставь пустыми.
+- If relevant = false, leave reply and reply_ru empty.
 """
 
 
 def build_prompt(job: Job, profile: dict, topics: list[str]) -> tuple[str, str]:
     portfolio = (profile.get("portfolio_url") or "").strip()
     portfolio_rule = (
-        f"- Можно дать ссылку на портфолио: {portfolio}"
-        if portfolio else "- Портфолио пока нет: не упоминай его и не давай никаких ссылок."
+        f"- You may include this portfolio link: {portfolio}"
+        if portfolio else "- There is no portfolio yet. Do not mention it or include any links."
     )
     system = SYSTEM.format(
         name=profile["name"],
         services="\n".join(f"- {s}" for s in profile["services"]),
         tools=profile.get("tools", ""),
-        topics=", ".join(topics) if topics else "любая из услуг",
+        topics=", ".join(topics) if topics else "any service",
         portfolio_rule=portfolio_rule,
     )
     pay = profile.get("payment", {})
     payment = (
-        f"Заказчик прямой (не биржа): в отклике можно предложить оплату — {pay.get('direct')}."
-        if job.direct else "Заказ на бирже: оплата через площадку, способы оплаты не обсуждай."
+        f"Direct client (not a marketplace): you may suggest this payment method — {pay.get('direct')}."
+        if job.direct else "Marketplace project: payment is handled by the platform; do not discuss payment methods."
     )
     desc = job.description[:MAX_DESC]
-    budget = f"{job.budget:g} {job.currency or ''}".strip() if job.budget else "не указан"
+    budget = f"{job.budget:g} {job.currency or ''}".strip() if job.budget else "not specified"
     user = (
-        f"Площадка: {job.source}\nЯзык заказа: {job.lang}\nБюджет: {budget}\n{payment}\n"
-        f"Предварительные темы по ключевым словам: {', '.join(topics) or 'нет'}\n\n"
-        f"Заголовок: {job.title}\n\nОписание:\n{desc}"
+        f"Source: {job.source}\nJob language: {job.lang}\nBudget: {budget}\n{payment}\n"
+        f"Preliminary keyword topics: {', '.join(topics) or 'none'}\n\n"
+        f"Title: {job.title}\n\nDescription:\n{desc}"
     )
     return system, user

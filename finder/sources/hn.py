@@ -1,6 +1,6 @@
-"""Hacker News — свежая ветка «Who is hiring?»; берём только контракт/фриланс/частичную занятость.
+"""Hacker News “Who is hiring?” thread; keep contract, freelance, and part-time roles only.
 
-Ветка «Freelancer? Seeking Freelancer?» перестала выходить в октябре 2025.
+The “Freelancer? Seeking Freelancer?” thread stopped appearing in October 2025.
 """
 import json
 import re
