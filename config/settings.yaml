@@ -18,7 +18,7 @@ bid:                         # auto-bid on Freelancer.com (needs FREELANCER_TOKE
   enabled: true
   dry_run: true              # true = only report in Telegram; set false to really send bids
   daily_limit: 3             # max bids per day
-  hourly_rate: 12            # USD/h for hourly projects
+  hourly_rate: 15            # USD/h for hourly projects
   fixed_budget_share: 0.8    # fixed projects: bid = 80% of the client's max budget
   period_days: 7
   milestone_percentage: 100
