@@ -1,5 +1,222 @@
 [
  {
+  "id": "freelancer:40836002",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/Indonesian-Phone-Support-Needed",
+  "title": "Indonesian Phone Support Needed",
+  "description": "I’m looking for a reliable part-time specialist to handle customer service over the phone in Indonesian. Your task is to pick up inbound calls, return missed calls when necessary, and document each interaction in the simple CRM we provide. Clear, friendly communication and the ability to follow a brief call script are essential; everything is already prepared, so you won’t need to create new materials—just deliver helpful answers and escalate anything outside the script to me.\n\nThe workload averages three to four hours a day, Monday through Friday. You may choose the exact time block as long as it stays consistent week-to-week. I’ll set you up with our VoIP line; you only need a stable internet connection, a quiet environment, and a headset or smartphone with good audio quality.\n\nDeliverables\n• Daily call log exported from the CRM \n• Quick note on any escalations or unresolved issues \n\nFluent, natural Indonesian is a must, and previous phone‐based customer service experience is strongly preferred. If you enjoy talking to people, can stay calm under pressure, and are happy working independently, I’d love to hear from you.",
+  "budget": 15.0,
+  "budget_min": 8.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T22:37:09+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Нужен фрилансер на неполную занятость для телефонной поддержки клиентов на индонезийском языке: приём и обратные звонки, ведение журнала в простой CRM. Это работа оператора поддержки, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разработка или доработка самой CRM, или требуется только оператор для работы с уже готовой системой?",
+    "Какой уровень индонезийского нужен и есть ли требование к гражданству или месту проживания?"
+   ]
+  },
+  "found_at": "2026-11-25T22:45:30+00:00"
+ },
+ {
+  "id": "freelancer:40836001",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/saas-development/Build-Scalable-Multi-Tenant-SaaS",
+  "title": "Build Scalable Multi-Tenant SaaS Platform",
+  "description": "We are looking for a software engineer to design, build, and scale our cloud-hosted Software-as-a-Service (SaaS) platform. You will own end-to-end features across the application stack, enforce multi-tenant data isolation, and deliver reliable, zero-downtime releases for recurring subscription customers.\n\nResponsibilities\n\n• Multi-Tenant Architecture & Data Layer: Design and maintain backend services, APIs, and relational/real-time databases with strict tenant isolation and role-based access control (RBAC).\n• Auth, Billing & Subscriptions: Implement user onboarding, organization/workspace management, tiered subscription plans, usage metering, and billing webhook flows.\n• Frontend & User Workflows: Build responsive web interfaces, core product workflows, analytics views, and self-serve admin/account controls.\n• Integrations & Automation: Develop third-party API integrations, background jobs, and automated workflows to support customer operations.\n• Reliability, Security & CI/CD: Maintain automated test suites, CI/CD pipelines, monitoring/observability, data backups, and security/compliance controls.\n\nQualifications\n\n• Proven experience building and shipping production SaaS applications or cloud-native web platforms.\n• Strong command of modern backend and frontend technologies, relational databases, and API design.\n• Practical understanding of multi-tenancy, authentication/authorization, subscription billing flows, and cloud deployments.\n• Strong debugging, testing, and system design skills with a focus on reliability, security, and maintainability.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T22:35:50+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 3,
+   "summary_ru": "Заказчику нужен инженер, который спроектирует и будет развивать облачную мультитенантную SaaS-платформу: изоляцию данных между клиентами, RBAC, подписки с биллингом через вебхуки, интеграции и CI/CD с релизами без простоя. Бюджет 750 USD заметно меньше объёма работ.",
+   "reply": "You're looking for someone to build and keep scaling a multi-tenant SaaS: strict tenant isolation, RBAC, subscription billing with webhooks, and a CI/CD pipeline with zero-downtime releases. I'd start with the tenancy model and the auth layer, since everything else depends on them, then add billing and usage metering, followed by the core workflows and integrations. I work with a modern stack and AI assistants, so early milestones move quickly. A first working slice with auth, organizations, and one subscription plan could be ready in about 2–3 weeks. At 750 USD, the budget fits a well-defined first phase rather than the full platform, so I'd suggest we scope it that way. Two questions: which stack do you already use or prefer, and is the first milestone auth plus billing, or the core product features?\n\nSee live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен специалист, который построит и будет масштабировать мультитенантную SaaS-платформу: строгая изоляция данных между клиентами, RBAC, подписки с биллингом через вебхуки и CI/CD с релизами без простоя. Я бы начал с модели мультитенантности и слоя авторизации, так как от них зависит всё остальное, затем добавил бы биллинг и учёт использования, а потом основные пользовательские сценарии и интеграции. Я работаю с современным стеком и ИИ-ассистентами, поэтому ранние этапы идут быстро. Первая рабочая версия с авторизацией, организациями и одним тарифом может быть готова примерно за 2–3 недели. При бюджете 750 USD реалистично закрыть чётко описанную первую фазу, а не всю платформу, поэтому предлагаю сразу зафиксировать объём именно так. Два вопроса: какой стек вы уже используете или предпочитаете и что должно войти в первый этап, авторизация с биллингом или основной функционал продукта?\n\nПосмотреть рабочие демо можно в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой стек вы уже используете или предпочитаете для бэкенда, фронтенда и базы данных?",
+    "Что должно войти в первый этап: авторизация и биллинг или основной функционал продукта?"
+   ]
+  },
+  "found_at": "2026-11-25T22:45:30+00:00"
+ },
+ {
+  "id": "freelancer:40835977",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Professional-Business-Website-Build-40835977",
+  "title": "Professional Business Website Build",
+  "description": "I need a clean, modern business website for my brand, M maher mahendra. The site should load quickly, look polished on mobile and desktop, and be easy for me to update after launch. \n\nCore requirements \n• Home, About, Services, and Contact pages laid out with clear navigation \n• Responsive design that adapts smoothly to phones, tablets, and desktops \n• Simple content-management option—WordPress, Webflow, or a similarly user-friendly CMS is fine \n• Contact form routed to my email, with basic spam protection \n• On-page SEO best practices (semantic headings, meta tags, image optimisation) \n\nI have a logo, colour palette, and written copy ready to supply once we start. Stock images or basic icons can be sourced by you if needed. \n\nPlease outline your chosen tech stack, estimated timeline, and two or three live business sites you’ve recently delivered so I can gauge style and code quality.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T22:10:03+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 7,
+   "summary_ru": "Заказчик хочет современный адаптивный бизнес-сайт для бренда M maher mahendra: четыре страницы (главная, о нас, услуги, контакты), простое редактирование после запуска, форма обратной связи на email с защитой от спама и базовое SEO. Логотип, палитра и тексты будут предоставлены заказчиком.",
+   "reply": "You need a fast, polished four-page site for M maher mahendra that stays easy to update after launch, with a contact form routed to your email and solid on-page SEO. I would build it as a responsive site with a user-friendly CMS (Webflow or WordPress, depending on which you'll be comfortable editing), apply your logo, palette and copy, optimize images, set up semantic headings and meta tags, and add spam protection to the form. Since you already have the assets ready, I can start on the layout as soon as we begin, with a first draft in about a week and final delivery in roughly two weeks. You can see live demos in the portfolio: https://grachoffprod.github.io/portfolio/\n\nTwo questions: Do you prefer Webflow or WordPress for editing? Will you need a blog or only the four pages?\n\nYakov",
+   "reply_ru": "Вам нужен быстрый и аккуратный сайт из четырёх страниц для бренда M maher mahendra, который легко обновлять после запуска, с формой обратной связи на вашу почту и хорошей базовой SEO-оптимизацией. Я бы сделал адаптивный сайт на удобной CMS (Webflow или WordPress, в зависимости от того, с каким редактором вам комфортнее работать), применил ваш логотип, палитру и тексты, оптимизировал изображения, настроил семантические заголовки и мета-теги и добавил защиту формы от спама. Поскольку все материалы у вас готовы, могу начать с вёрстки сразу после старта: первый черновик примерно через неделю, финальная сдача примерно через две недели. Живые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: что вам удобнее для редактирования, Webflow или WordPress? Нужен ли блог или только четыре страницы?\n\nYakov",
+   "questions": [
+    "Что вам удобнее для редактирования сайта: Webflow или WordPress?",
+    "Нужен ли блог или только четыре страницы (главная, о нас, услуги, контакты)?"
+   ]
+  },
+  "found_at": "2026-11-25T22:45:30+00:00"
+ },
+ {
+  "id": "freelancer:40835975",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Full-Stack-React-Integration",
+  "title": "Full-Stack React/AI Integration",
+  "description": "I’m looking for a seasoned full-stack engineer who can both extend and maintain my private website (React frontend, Node.js backend) while adding a new layer of AI-driven automation. \n\nThe core goal is to let AI agents pick up routine work that currently ties up my time. Specifically, the agents should be able to ingest two streams of site data and act on them intelligently:\n\n• Forms, messages, and support requests \n• Content, reports, and analytics \n\nOnce the data is in hand, the agent must decide what action to take—updating records, triggering workflows, or pushing results back to the interface—without breaking existing functionality. You’ll need to wire these capabilities into the current codebase, expose any new endpoints, and keep the overall UX seamless.\n\nI handle deployments on a private Git repo and a VPS stack, so your pull requests should be clean, documented, and production-ready. Familiarity with OpenAI APIs, LangChain, or similar toolkits will help you move fast, but I’m open to the stack you’re most productive with as long as it slots smoothly into React and Node.\n\nIf this blend of feature development, refactoring, and AI integration sounds like your wheelhouse, message me with a brief outline of how you’d approach the first automation task.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T22:07:04+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 6,
+   "summary_ru": "Клиент ищет full-stack разработчика, который доработает его приватный сайт на React и Node.js и добавит AI-агентов для автоматической обработки форм, обращений в поддержку, контента и аналитики с последующими действиями в системе. Бюджет 750 USD, задача расплывчатая, но подходящая по стеку.",
+   "reply": "You want AI agents to take over routine handling of form submissions, support messages, and content/analytics data on your React + Node.js site, with results pushed back to the interface without breaking what already works. I'd start by mapping both data streams and the existing endpoints, then add an agent layer on the Node side (OpenAI API or LangChain, whichever fits your codebase) with clear handlers for record updates, workflow triggers, and UI feedback. Each step would come as a clean, documented PR you can review before it goes to your VPS. I'd begin with one automation task so you can check the approach early. Using modern tooling and AI-assisted development, I'd expect the first automation to take about 1–2 weeks, with the full scope confirmed after an initial code review.\n\nTwo questions: Which task should go first, support request triage or report generation? And do you have a staging environment on the VPS where I can test changes before production?\n\nSee live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы AI-агенты взяли на себя рутинную обработку заявок из форм, обращений в поддержку и данных контента и аналитики на вашем сайте на React + Node.js, а результаты возвращались в интерфейс без поломки существующего функционала. Я бы начал с анализа обоих потоков данных и текущих эндпоинтов, затем добавил бы слой агентов на стороне Node (OpenAI API или LangChain, в зависимости от вашей кодовой базы) с понятными обработчиками для обновления записей, запуска workflow и обратной связи в интерфейсе. Каждый этап оформлялся бы как чистый, задокументированный PR, который вы сможете проверить перед выкатом на VPS. Начну с одной автоматизации, чтобы вы заранее оценили подход. С современным инструментарием и AI-ассистентами в разработке первую автоматизацию я оцениваю примерно в 1–2 недели, а полный объём уточним после первичного разбора кода.\n\nДва вопроса: с какой задачи начать, с сортировки обращений в поддержку или с генерации отчётов? И есть ли у вас staging-окружение на VPS, где я смогу тестировать изменения до продакшена?\n\nЖивые демо смотрите в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "С какой задачи начать: сортировка обращений в поддержку или генерация отчётов?",
+    "Есть ли staging-окружение на VPS для тестирования изменений перед продакшеном?"
+   ]
+  },
+  "found_at": "2026-11-25T22:45:30+00:00"
+ },
+ {
+  "id": "freelancer:40835963",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/typescript/Complete-Bahamas-Ride-Hailing-Platform",
+  "title": "Complete Bahamas Ride-Hailing Platform",
+  "description": "Ride-hailing platform (web + mobile) — Bahamas market — ongoing contract, taking over from outgoing developer\n\nLooking for an experienced full-stack TypeScript developer to take over an in-progress ride-hailing app (think Uber/taxi dispatch) built for the Bahamas market. The outgoing contractor is stepping away for health reasons mid-engagement, so this is a handoff, not a greenfield build — you'd be picking up a real, partially-live codebase.\n\nOriginal scope (5 deliverables)\n1. Smooth car movement on the Passenger and Driver Web App.\n2. Build out the Android and iOS App using React Native, including smooth car movement.\n3. Ensure the Driver and Passenger apps are in sync across Web, iOS and Android.\n4. Correct the fare problem for Driver and Passenger on Web, iOS and Android.\n5. Relevant bug fixes and testing.\n\nTech stack\n- Monorepo (pnpm workspaces), TypeScript throughout\n- Web: React 19, Vite 7, Mapbox GL JS\n- API: Express 5, PostgreSQL, Drizzle ORM, WebSockets for real-time dispatch/tracking\n- Mobile: React Native / Expo (needs active development)\n- Hosted/deployed via Replit Deployments\n\nAcceptance criteria\nAll five deliverables completed and working on Web, iOS and Android, tested to the company's reasonable satisfaction. Access will be provided to the company's assigned repository, with a handover from the outgoing contractor's work to date.\n\nWhat you'll need\n- Strong TypeScript/React experience; React Native specifically for the mobile portion\n- Comfort with geospatial/mapping logic (Mapbox or similar) and real-time systems (WebSockets)\n- Able to work hands-on with live testing (booking flows, GPS/location edge cases), not just code review\n- You'll sign an NDA directly with the client before getting codebase access — this is contracted client work, not open source\n\nLogistics\n- Fixed-fee or ongoing SOW-based engagement (details shared directly with the client)\n- Remote, async-friendly",
+  "budget": 350.0,
+  "budget_min": 300.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T21:57:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "api_integration",
+   "saas",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 5,
+   "summary_ru": "Передача в работу незавершённой платформы для заказа такси (веб и мобильные приложения) на рынке Багамских островов. Нужно сделать плавное движение машин, синхронизировать приложения пассажира и водителя на веб, iOS и Android, исправить расчёт стоимости поездки и закрыть баги. Контракт долгосрочный, бюджет 350 USD.",
+   "reply": "You're taking over a partly live ride-hailing platform: smooth car movement on the web apps and in React Native, keeping passenger and driver views in sync across web, iOS and Android, fixing the fare calculation, and cleaning up bugs. I'd start by reading through the handed-over repo and the WebSocket dispatch flow to find where position updates and fare logic actually break, then fix them in order of impact, testing booking and GPS edge cases live on each platform. For a first pass covering the web fixes and fare logic, I'd estimate about 1–2 weeks, with the mobile work scheduled after that.\n\nTwo questions: Is the 350 USD budget for all five deliverables or only the first phase? And is there a staging environment where I can test real booking flows with location data?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы передаёте в работу частично работающую платформу для заказа такси: плавное движение машин в веб-приложениях и на React Native, синхронизацию видов пассажира и водителя на веб, iOS и Android, исправление расчёта стоимости поездки и закрытие багов. Я бы начал с изучения переданного репозитория и потока диспетчеризации через WebSocket, чтобы найти, где именно ломаются обновления позиций и логика тарифов, а затем исправил бы всё по степени влияния, тестируя сценарии бронирования и граничные случаи GPS вживую на каждой платформе. Для первого этапа, который покрывает веб-исправления и логику тарифов, я оцениваю около 1–2 недель, а мобильную часть можно запланировать после этого.\n\nДва вопроса: бюджет 350 USD относится ко всем пяти пунктам или только к первому этапу? И есть ли у вас тестовое окружение, где я могу проверить реальные сценарии бронирования с данными геолокации?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Бюджет 350 USD относится ко всем пяти пунктам или только к первому этапу?",
+    "Есть ли тестовое окружение (staging), где можно проверить реальные сценарии бронирования с данными геолокации?"
+   ]
+  },
+  "found_at": "2026-11-25T22:45:30+00:00"
+ },
+ {
+  "id": "kwork:1957086",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/1957086",
+  "title": "Найти 500 фирм по предоставлению визы",
+  "description": "Найти 500 имайлов/сайтов/тг ботов или иных сервисов визовых центров Испании, которые именно продают или оказывают рядом(турфирмы) услуги с этим. \nОтсортировать по языку сайта на котором общается получатель.",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 01:39:24",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "tg_bot",
+   "score": 1,
+   "summary_ru": "Заказчик просит собрать 500 контактов (email, сайты, Telegram-боты) визовых центров и турфирм в Испании и отсортировать их по языку сайта. По сути это ручной сбор лидов, а не разработка, бюджет 500 ₽.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужен ли результат в виде таблицы или вы ожидаете, что будет создан инструмент для автоматического сбора?",
+    "Какие именно языки сайтов нужно выделить и какие поля контактов нужны для каждой записи?"
+   ]
+  },
+  "found_at": "2026-11-25T22:45:30+00:00"
+ },
+ {
+  "id": "kwork:3275645",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275645",
+  "title": "Сверстать одностраничный сайт на Тильде",
+  "description": "Необходимо сверстать на тильде по макету в фигме небольшой одностраничный сайт. Макет предоставлю по запросу. Бюджет 500 руб.",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 01:23:20",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 4,
+   "summary_ru": "Нужно сверстать небольшой одностраничный сайт на Tilda по макету из Figma. Бюджет 500 рублей, макет будет предоставлен по запросу.",
+   "reply": "Вижу задачу: сверстать одностраничный сайт на Tilda по макету из Figma. Работаю с блоками Tilda и адаптирую вёрстку под мобильные экраны, чтобы страница выглядела аккуратно на всех устройствах. Сначала разберу макет и согласую структуру блоков, затем соберу страницу и отправлю ссылку на тестовый проект для проверки. Для небольшой страницы это займёт 1–2 дня. Сколько экранов в макете и нужна ли форма заявки? Если да, подскажите, куда отправлять заявки: на почту или в Telegram?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вижу задачу: сверстать одностраничный сайт на Tilda по макету из Figma. Работаю с блоками Tilda и адаптирую вёрстку под мобильные экраны, чтобы страница выглядела аккуратно на всех устройствах. Сначала разберу макет и согласую структуру блоков, затем соберу страницу и отправлю ссылку на тестовый проект для проверки. Для небольшой страницы это займёт 1–2 дня. Сколько экранов в макете и нужна ли форма заявки? Если да, подскажите, куда отправлять заявки: на почту или в Telegram?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько экранов (секций) в макете и есть ли у него адаптивная версия для мобильных?",
+    "Нужна ли на странице форма заявки и куда её отправлять: на почту или в Telegram?"
+   ]
+  },
+  "found_at": "2026-11-25T22:45:30+00:00"
+ },
+ {
   "id": "freelancer:40835925",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/documentation/Mobility-Scooter-FTO-Patentability",
