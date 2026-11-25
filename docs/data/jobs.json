@@ -1,5 +1,93 @@
 [
  {
+  "id": "freelancer:40835186",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/cardano/Cardano-Wallet-Analytics-Build",
+  "title": "Cardano Wallet Analytics Build",
+  "description": "I’m kicking off a focused analytics and research platform whose very first job is to let users track and deeply analyze individual Cardano wallets. On launch, the interface must surface for any given address:\n\n• current balance, full transaction history, and all token holdings \n• NFTs held, open DeFi positions, and a running profit-or-loss figure for the wallet\n\nNothing more, nothing less for this first milestone; staking metrics can wait until later iterations.\n\nYou’ll handle the full flow—from pulling raw chain data (Blockfrost, Koios, or a self-hosted cardano-node, whichever you prefer) through normalising it in a lightweight database, to presenting it in a clean dashboard that updates in near real-time. The maths behind P/L is on me; you just need to expose the data points so I can plug the formula in.\n\nKey expectations \n• Accurate parsing of on-chain transactions, multi-asset balances and metadata \n• Modular codebase so additional data views can slot in easily later \n• Clear hand-off: repo access, schema, endpoint docs, and a short Loom walkthrough\n\nIf you’ve built anything similar on Cardano—or another UTxO chain—let me see it and tell me how quickly you can have an MVP in my hands.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T12:01:47+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 3,
+   "summary_ru": "Заказчик хочет MVP аналитической платформы для Cardano: по адресу кошелька показать баланс, историю транзакций с метаданными, мультитокены, NFT, открытые DeFi-позиции и данные для расчёта P/L, с дашбордом почти в реальном времени. Бюджет 25 USD очень низкий для такого объёма.",
+   "reply": "You're building a Cardano wallet explorer MVP: for any address, a dashboard showing balance, full transaction history with parsed metadata, multi-asset holdings, NFTs, open DeFi positions, and the data points you need for your own P/L formula. I'd use Blockfrost or Koios for chain data, normalise it in a lightweight database, and expose it through a modular API so new views can be added later, with a dashboard that refreshes near real-time. For this scope, the first milestone would take about two weeks, including repo access, schema, endpoint docs and a Loom walkthrough. Two questions: do you have a preferred data provider, and should the first DeFi integrations cover specific protocols such as Minswap or Liqwid?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы создаёте MVP обозревателя кошельков Cardano: по любому адресу дашборд показывает баланс, полную историю транзакций с разобранными метаданными, мультитокены, NFT, открытые DeFi-позиции и данные, нужные для вашей формулы P/L. Я бы использовал Blockfrost или Koios для данных сети, нормализовал их в лёгкой базе данных и отдавал через модульный API, чтобы новые разделы легко добавлялись позже, а дашборд обновлялся почти в реальном времени. Для такого объёма первый этап займёт около двух недель, включая доступ к репозиторию, схему, документацию по эндпоинтам и видеообзор в Loom. Два вопроса: есть ли у вас предпочтительный провайдер данных и нужно ли в первую очередь покрыть конкретные протоколы, например Minswap или Liqwid?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас предпочтительный провайдер данных (Blockfrost, Koios или собственная нода)?",
+    "Какие DeFi-протоколы нужно покрыть в первую очередь, например Minswap или Liqwid?",
+    "Нужен ли вам доступ к данным по нескольким кошелькам одновременно или только по одному адресу за раз?"
+   ]
+  },
+  "found_at": "2026-11-25T12:02:21+00:00"
+ },
+ {
+  "id": "freelancer:40835181",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/vue-js/Vue-Chess-Multiplayer-Opponent",
+  "title": "Vue Chess Multiplayer & AI Opponent",
+  "description": "We’re looking for a Vue.js developer to build an interactive, web-based chess game for an upcoming deadline. We need a working MVP delivered by Saturday, 28 November.\n\nPlayers should be able to create a private room, share a link, and play a live game against another person. The game should also offer a VS Computer mode for individual play.\nFor the MVP, we need:\n\n1-A responsive chessboard with click-to-move interaction and clear turn indicators.\n2-Legal move validation, including castling, en passant, and pawn promotion.\n3-Check, checkmate, stalemate, and draw detection.\n4-Private room creation and joining by link, with moves synchronized between two players.\n5-A computer opponent with at least one playable difficulty level.\n6-A simple way to start a new game and clear messages when a player disconnects.\nUsing established libraries such as chess.js and a chess engine is welcome. A lightweight backend for multiplayer is also acceptable. Please include source code, setup instructions, and a working demo in the handover.\nOur priority is a stable, playable MVP. User accounts, rankings, chat, and advanced matchmaking can be considered later. Please share your proposed approach, fixed-price quote, and when you can deliver the first playable version.",
+  "budget": 35000.0,
+  "budget_min": 10000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T11:59:11+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 5,
+   "summary_ru": "Нужен MVP шахмат на Vue.js с приватными комнатами по ссылке, синхронизацией ходов между двумя игроками, режимом игры против компьютера и проверкой всех правил, включая рокировку, взятие на проходе и превращение пешки. Срок сдачи первой рабочей версии: суббота, 28 ноября. Бюджет 35000 INR.",
+   "reply": "You need a Vue chess MVP with private rooms, live two-player sync, full rule validation (castling, en passant, promotion, check, and draw detection), and a VS Computer mode, all ready by Saturday, 28 November. I would build the frontend in Vue 3 with chess.js for move validation and game state, and add a lightweight Node WebSocket server that holds each private room and relays moves between the two players. The computer opponent would use a simple search engine (minimax with alpha-beta pruning) with easy and medium levels. I plan to have a playable two-player version within three days, then add the AI mode, disconnect messages, and the handover package with source code, setup instructions, and a demo, so there is time for testing before the deadline. Would you prefer that I host the backend, or would you deploy it yourself? Do you already have a preferred chess engine?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен MVP шахмат на Vue с приватными комнатами, синхронизацией ходов между двумя игроками в реальном времени, полной проверкой правил (рокировка, взятие на проходе, превращение пешки, шах и определение ничьей) и режимом игры против компьютера. Все это должно быть готово к субботе, 28 ноября. Я бы сделал фронтенд на Vue 3 с chess.js для проверки ходов и состояния партии, а также добавил бы легкий WebSocket-сервер на Node, который хранит каждую приватную комнату и передает ходы между двумя игроками. Компьютерный соперник использовал бы простой поисковый алгоритм (minimax с альфа-бета отсечением) с уровнями легкий и средний. Я планирую сдать играбельную версию для двух игроков в течение трех дней, затем добавить режим против ИИ, сообщения об отключении и передачу проекта с исходным кодом, инструкцией по установке и демо, чтобы осталось время на тестирование до дедлайна. Вы предпочитаете, чтобы бэкенд разместил я или вы развернете его сами? Есть ли у вас предпочтительный шахматный движок?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Вы предпочитаете, чтобы бэкенд для мультиплеера развернул я или вы сами?",
+    "Есть ли у вас предпочтительный шахматный движок или библиотека для компьютерного соперника?"
+   ]
+  },
+  "found_at": "2026-11-25T12:02:21+00:00"
+ },
+ {
+  "id": "freelancer:40835163",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/b2b-marketing/Freelance-Sales-Closer-Crypto-Fintech",
+  "title": "Freelance B2B Sales Closer – Crypto, Fintech and Trading Technology",
+  "description": "Vertrix System is hiring a remote freelance B2B sales closer for crypto, fintech and trading software. We provide customer leads. Hourly rate: up to USD 15.\n\nRun discovery calls and software demos, handle objections, negotiate within approved terms, follow up and close deals. Keep the sales pipeline updated with clear next steps.\n\nWe are looking for 3–7 years of relevant B2B sales experience, evidence of personally closing deals, and strong English communication and negotiation skills. Experience selling fintech, crypto, trading technology or B2B SaaS is preferred. Worldwide remote. No travel.\n\nApply on Freelancer with relevant experience, an anonymized example of a deal you closed, your hourly rate, availability and time zone.\n\nMaxim Olga, Vertrix System",
+  "budget": 15.0,
+  "budget_min": 9.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T11:56:01+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 1,
+   "summary_ru": "Вакансия фриланс-продавца B2B (closer) для компаний в сфере крипто, финтеха и торговых технологий с оплатой до 15 USD в час. Задачи связаны с продажами, переговорами и ведением воронки, а не с разработкой.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T12:02:21+00:00"
+ },
+ {
   "id": "freelancer:40835173",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/web-design/Create-Three-Website-Banners",
