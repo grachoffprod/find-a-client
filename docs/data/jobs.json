@@ -1,5 +1,428 @@
 [
  {
+  "id": "kwork:3275484",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275484",
+  "title": "Сверстать книгу",
+  "description": "Сейчас я перевожу книгу, далее ее нужно будет сверстать для бумажной печати. В исходнике уже будет форматирование (названия, заголовки, цитаты, орнамент). Объем книги около 640 страниц (еще не точно). \nПрикладываю референс. Печать будет в Турции.",
+  "budget": 1500.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 12:08:35",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 2,
+   "summary_ru": "Заказчик переводит книгу (около 640 страниц) и просит сверстать её для бумажной печати в Турции с готовым форматированием и референсом. Это полиграфическая верстка, а не веб-разработка из списка услуг.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас онлайн-версия книги или сайт, которые нужно сделать вместе с печатной версией?",
+    "В каком формате вы планируете передать готовый макет в типографию и какие требования к печати у типографии в Турции?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "kwork:3275477",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275477",
+  "title": "Красивый персональный сайт психолога на Tilda",
+  "description": "Нужно создать небольшой, но красивый персональный сайт психолога на Tilda. \nНе нужен типовой продающий лендинг. Хочется чего-то авторского, стильного, с характером. \nНа сайте будет информация обо мне, моём профессиональном опыте, подходе, услугах и стоимости консультаций. В дальнейшем планирую добавить книги. \nТексты подготовлю сама. Аккаунт на Tilda есть. В выборе визуальной концепции готова предоставить дизайнеру достаточно много свободы. \nВозможно, именно вам сейчас нужен интересный проект для портфолио. Готова рассмотреть предложения как опытных, так и начинающих дизайнеров. \nРезультат работы — готовый одностраничный сайт с мобильной версией и возможностью дальнейшего самостоятельного редактирования. \nПрисылайте примеры своих работ, в том числе учебных.",
+  "budget": 5000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 11:57:59",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 6,
+   "summary_ru": "Нужен одностраничный авторский сайт-визитка психолога на Tilda с информацией о специалисте, подходом, услугами и ценами, с мобильной версией и возможностью самостоятельного редактирования. Тексты заказчик готовит сама, визуальную концепцию доверяет исполнителю.",
+   "reply": "Здравствуйте! Вам нужен одностраничный авторский сайт психолога на Tilda: о вас, опыт, подход, услуги с ценами и место под книги в будущем. Тексты вы подготовите сами, а визуальную концепцию предлагаете выбрать мне, и это интересная задача. Сделаю адаптивную версию и настрою аккаунт так, чтобы вы могли менять тексты и цены без меня. Ориентировочный срок — 5–7 дней после получения материалов. Примеры работ: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: есть ли сайты или цветовые ориентиры, которые вам нравятся? И сколько блоков примерно планируете на странице?\n\nYakov",
+   "reply_ru": "Здравствуйте! Вам нужен одностраничный авторский сайт психолога на Tilda: о вас, опыт, подход, услуги с ценами и место под книги в будущем. Тексты вы подготовите сами, а визуальную концепцию предлагаете выбрать мне, и это интересная задача. Сделаю адаптивную версию и настрою аккаунт так, чтобы вы могли менять тексты и цены без меня. Ориентировочный срок — 5–7 дней после получения материалов. Примеры работ: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: есть ли сайты или цветовые ориентиры, которые вам нравятся? И сколько блоков примерно планируете на странице?\n\nYakov",
+   "questions": [
+    "Есть ли сайты или цветовые ориентиры, которые вам нравятся по стилю?",
+    "Сколько блоков примерно планируете на странице: о вас, опыт, подход, услуги, цены, контакты?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "kwork:3264361",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3264361",
+  "title": "Поиск потенциальных клиентов на разработку ПО",
+  "description": "Ищем специалиста по поиску потенциальных клиентов для команды разработчиков. Задача: найти компании, которым нужна разработка сайта, веб-сервиса или индивидуального программного решения, и передать контакты заинтересованных представителей. Результат работы: несколько потенциальных клиентов. По каждому нужны название компании, краткое описание задачи и контакт представителя, который подтвердил интерес к обсуждению разработки и согласился на передачу контакта нашей команде. Простая база контактов без подтверждённого интереса не подходит. Переговоры, подготовку технического задания и разработку берём на себя. Оплата за весь указанный объём: 30000 ₽. Оплачиваем выполненную работу по согласованным критериям независимо от того, заключит ли клиент договор на разработку. Расчёты проводим через биржу. Срок: 30 дней. В отклике расскажите об опыте поиска клиентов для IT-услуг.",
+  "budget": 30000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 11:47:36",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Заказчик ищет специалиста по поиску потенциальных клиентов на разработку сайтов и ПО и просит передавать контакты заинтересованных компаний за 30 000 ₽. Это продажи и лидогенерация, а не разработка, и откликаться на такой заказ не стоит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у заказчика техническое задание или конкретный проект, который нужно разработать?",
+    "Нужна ли разработка, а не только поиск клиентов? Если да, какой стек и сроки?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834906",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/twilio/Twilio-text-email-reminders-plus",
+  "title": "Twilio text and email reminders, plus staff alerts, for a law firm portal",
+  "description": "TRUE Peak LLC, doing business as TRUE Peak Management Group, needs a text and email reminder system that plugs into our secure client portal for divorce and family law firms. Freelancers and agencies based in India are preferred.\n\nThe firm sets the reminder schedule (for example 3 days before a due date, on the date, and 2 days after). The system must:\n- Send texts through Twilio and email through a service we choose\n- Follow a schedule set per task or document request\n- Alert staff when a client uploads a document\n- Record what was sent, when, and whether it failed\n- Stop reminders when an item is complete, unless the firm turns them back on\n- Record each client's consent to texts, honor STOP and HELP replies, and respect quiet hours set by TRUE Peak\n- Keep each firm's messages, settings, and history separate from every other firm\n\nRegistration and deliverability\n- Help TRUE Peak complete Twilio A2P 10DLC registration (U.S. carrier approval for business texting) in TRUE Peak's own name. TRUE Peak submits it. Registration details ready by Wednesday December 2, because approval can take several business days. Until approval, test with Twilio test numbers and make sure email reminders work on their own.\n- Help set up SPF, DKIM, and DMARC (email sender checks) on TRUE Peak's domain, with the hosting specialist, so reminders reach inboxes.\n\nHow it fits the project\nThe main portal developer confirms the technology by November 30 (recommended: Node.js with TypeScript on Microsoft Azure, U.S. region). You build in that technology and the main developer connects your system to the portal. You do not build portal screens. The portal stores consent records and schedules and sends you events (item due, item completed, upload received); you send, enforce quiet hours (default 9 AM to 8 PM in the client's time zone), handle STOP, HELP, and START, and report delivery results back. Every call carries the firm ID and case ID.\n\nDeliverables\n- Working system in TRUE Peak's GitHub organization\n- Clean interface, sample events, integration notes\n- Setup notes for the Twilio and email accounts (accounts stay in TRUE Peak's name)\n- Test list: scheduled reminders, completed item stops reminders, failed send, STOP reply\n- Open-source license list\n\nTimeline\n- Start by November 30, 2026\n- Written interface spec by Wednesday December 2\n- Working system delivered by Monday December 7, connected in the staging (test) site by Thursday December 10\n- SPF, DKIM, and DMARC set up with the hosting specialist by Friday December 11\n- Security review December 8 to 12; be available to fix findings by Tuesday December 15\n- Whole portal complete Wednesday December 16, 2026; launch January 1, 2027\n\nPayment\nFixed price through Freelancer.com Milestone Payments, released only after TRUE Peak tests the system against the list above.\n\nRequired terms\n- Signed TRUE Peak NDA before any details, files, or access are shared.\n- TRUE Peak LLC owns all code, documentation, and work product from creation, by assignment.\n- Twilio, email, and all other accounts are in TRUE Peak's name with TRUE Peak's payment method; you get a separate limited login.\n- You may never disable, lock, or restrict the system, the portal, or any account for any reason. Disputes go through Freelancer.com only.\n- No real client data or real client phone numbers in testing.\n- Least necessary access, removed at handover.\n- No subcontracting or shared access without written approval.\n- No reuse or disclosure of confidential information.\n- List open-source components and licenses; no AGPL or GPL without approval.\n- Messages and data encrypted at rest and in transit. Document your work and hand over in a short recorded call.\n\nPlease apply with your fixed-price quote, delivery date, and similar work.",
+  "budget": 330.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T09:16:57+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужна система напоминаний по SMS (Twilio) и email для клиентского портала юридической фирмы: расписания по задачам, уведомления сотрудникам о загрузках, учёт согласий, обработка STOP/HELP/START, тихие часы и изоляция данных между фирмами. Бюджет 330 USD, сроки жёсткие (сдача 7 декабря), плюс A2P-регистрация и настройка SPF/DKIM/DMARC.",
+   "reply": "Hi, I read the spec. You need a reminder engine in Node.js/TypeScript that receives events from your portal, sends SMS through Twilio and email through a provider, and runs per-firm schedules with quiet hours, STOP/HELP/START handling, and full delivery logs. I would keep firm ID and case ID on every call and stop reminders automatically when an item completes. Email can be tested on its own while A2P approval is pending, and SMS can be tested with Twilio test numbers. I can deliver the working system by December 7 and connect it to staging by December 10, with the interface spec by December 2. I'll put my fixed price and delivery date in the bid form. Portfolio: https://grachoffprod.github.io/resume/\n\nTwo questions:\n1. Which email provider are you planning to use (SendGrid, Postmark, Amazon SES)?\n2. Will the portal send events by webhook or through a queue such as Azure Service Bus?\n\nYakov",
+   "reply_ru": "Здравствуйте, я прочитал спецификацию. Нужен движок напоминаний на Node.js/TypeScript, который получает события от портала, отправляет SMS через Twilio и email через провайдера, работает с расписаниями для каждой фирмы, учитывает тихие часы, обрабатывает STOP/HELP/START и ведёт полный журнал доставки. В каждом вызове я бы передавал ID фирмы и ID дела, а напоминания автоматически останавливались бы при завершении задачи. Email можно тестировать отдельно, пока идёт A2P-регистрация, а SMS тестировать на тестовых номерах Twilio. Могу сдать рабочую систему к 7 декабря и подключить к staging к 10 декабря, спецификацию интерфейса — к 2 декабря. Фиксированную цену и срок я укажу в форме отклика на бирже. Портфолио: https://grachoffprod.github.io/resume/\n\nДва вопроса:\n1. Какой email-провайдер планируете использовать (SendGrid, Postmark, Amazon SES)?\n2. Портал будет отправлять события через webhook или через очередь, например Azure Service Bus?\n\nYakov",
+   "questions": [
+    "Какой email-провайдер планирует использовать заказчик (SendGrid, Postmark, Amazon SES)?",
+    "Как портал будет отправлять события: через webhook или через очередь (например, Azure Service Bus)?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834899",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Full-Stack-Development-phone-photos",
+  "title": "Full Stack Development: phone photos to one searchable PDF for a law firm portal",
+  "description": "TRUE Peak LLC, doing business as TRUE Peak Management Group, needs a reusable module that turns client phone photos into one searchable PDF. It plugs into our secure client portal for divorce and family law firms. Freelancers and agencies based in India are preferred.\n\nA client may photograph a multi-page document in mixed lighting and out of order. The module must:\n- Accept phone photos and common image types\n- Keep every original photo, unaltered, alongside the PDF\n- Flag photos that are too dark or too blurry so the client can retake them\n- Use OCR (text recognition) to make the PDF searchable\n- Suggest page order from the content (page numbers, headings, continuing text) and let the client review and fix the order before saving\n- Return the PDF, the originals, the quality flags, and the suggested order in a clear format the portal can use\n\nHow it fits the project\n- The main portal developer confirms the technology by November 30 (recommended: Node.js with TypeScript on Microsoft Azure, U.S. region). You build in that technology and the main developer connects your module to the portal. You do not build portal screens.\n- Text recognition uses Azure Document Intelligence in TRUE Peak's Azure account unless you propose an alternative and TRUE Peak approves it in writing.\n- Accept JPG, PNG, HEIC, and PDF; up to 25 MB per file and 50 pages per submission. Every call carries the firm ID and case ID, and files stay in that firm's private storage path.\n- If the module would send images to any outside text recognition service, name it first. TRUE Peak must approve any outside service that would receive client documents.\n- Work with the many-firm design: the module must never mix files from different firms or cases.\n\nDeliverables\n- Working module in TRUE Peak's GitHub organization\n- Clean interface (API or well documented function), sample input photos and resulting PDF\n- Integration notes, a test list showing quality flags, page order suggestions, and search, and an open-source license list\n\nTimeline\n- Start by November 30, 2026\n- Written interface spec (how the portal calls the module and what it returns) by Wednesday December 2\n- Working module delivered by Monday December 7, connected in the staging (test) site December 8\n- Security review December 8 to 12; be available to fix findings by Tuesday December 15\n- Whole portal complete Wednesday December 16, 2026; launch January 1, 2027\n\nPayment\nFixed price through Freelancer.com Milestone Payments, released only after TRUE Peak tests the module against the list above.\n\nRequired terms\n- Signed TRUE Peak NDA before any details, files, or access are shared.\n- TRUE Peak LLC owns all code, designs, documentation, and work product from creation, by assignment.\n- All accounts and tools are in TRUE Peak's name; you get a separate limited login.\n- You may never disable, lock, or restrict the module, the portal, or any account for any reason. Disputes go through Freelancer.com only.\n- No real client data in testing; made-up documents only.\n- Least necessary access, removed at handover.\n- No subcontracting or shared access without written approval.\n- No reuse or disclosure of confidential information.\n- List open-source components and licenses; no AGPL or GPL without approval.\n- Files encrypted at rest and in transit. Document your work and hand over in a short recorded call.\n\nPlease apply with your fixed-price quote, delivery date, and similar work.",
+  "budget": 450.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T09:16:36+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужен переиспользуемый модуль на Node.js/TypeScript для Azure: он принимает фото документов с телефона (JPG, PNG, HEIC, PDF), сообщает о тёмных и размытых снимках, делает из них один PDF с возможностью поиска через OCR (Azure Document Intelligence), предлагает порядок страниц и встраивается в портал юридической фирмы. Бюджет 450 USD, срок очень короткий (старт 30.11, сдача модуля 07.12).",
+   "reply": "Hi, I read the brief: a reusable Node.js/TypeScript module that takes phone photos (JPG, PNG, HEIC, PDF), flags dark or blurry shots for retake, builds one searchable PDF via OCR, suggests page order from the content, and returns the PDF, untouched originals and flags, with strict firm and case isolation.\n\nMy approach: HEIC/JPG normalization with sharp, brightness and sharpness checks for the quality flags, Azure Document Intelligence in your Azure account (US region) for OCR, and pdf-lib to assemble the searchable PDF. I'll add tests for cross-firm and cross-case leakage. I'm happy to sign the NDA first and use synthetic documents only. Interface spec by December 2, working module by December 7, at a fixed $450.\n\nPortfolio: https://grachoffprod.github.io/resume/\n\nTwo questions: 1) Should the suggested page order be stored separately from the client's final order? 2) Is printed text the only target, or do you also need handwritten notes?\n\nYakov",
+   "reply_ru": "Здравствуйте, я изучил задачу: переиспользуемый модуль на Node.js/TypeScript, который принимает фото документов с телефона (JPG, PNG, HEIC, PDF), помечает тёмные и размытые снимки для повторной съёмки, делает из них один PDF с поиском через OCR, предлагает порядок страниц по содержимому и возвращает PDF, неизменённые оригиналы и метки качества, со строгим разделением по фирмам и делам.\n\nМой подход: нормализация HEIC/JPG через sharp, проверка яркости и резкости для меток качества, Azure Document Intelligence в вашем аккаунте Azure (регион US) для OCR, pdf-lib для сборки PDF с текстовым слоем. Добавлю тесты на отсутствие утечек между фирмами и делами. Готов сначала подписать NDA и использовать только синтетические документы. Спецификация интерфейса к 2 декабря, рабочий модуль к 7 декабря, фиксированная цена 450 USD.\n\nПортфолио: https://grachoffprod.github.io/resume/\n\nДва вопроса: 1) Нужно ли хранить предложенный порядок страниц отдельно от окончательного порядка клиента? 2) Нужен ли только печатный текст или также рукописные заметки?\n\nYakov",
+   "questions": [
+    "Нужно ли хранить предложенный порядок страниц отдельно от окончательного порядка, который подтвердил клиент?",
+    "Нужен ли распознавание только печатного текста или также рукописных заметок?",
+    "Подтверждаете ли вы, что сроки (спецификация 2 декабря, модуль 7 декабря) и бюджет 450 USD включают тестирование и устранение замечаний security review?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834927",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-developmet/Company-Canteen-App-Development",
+  "title": "Company Canteen App Development",
+  "description": "I’m looking for a developer who can turn our in-house canteen into a smooth, self-service experience. The app is strictly for our company canteen, so the audience is limited to employees and the kitchen staff who manage their orders and stock.\n\nCore needs\nEmployees must be able to open the app, check canteen “sheets” (our term for the daily meal breakdown) and completely fill in any required selections before they arrive at the counter. Think of it as a quick snapshot: what’s cooking, what’s left, and what I’ve already reserved. On the staff side the same data should update in real time so they know exactly what still has to be prepared or restocked.\n\nHow I picture the workflow\n• Staff publish the day’s menu and quantities from an admin panel. \n• Employees view that sheet, make their choices, and lock them in so nothing is over-promised. \n• Any change in those sheets—an item running low, an order cancelled—reflects instantly for both sides. \n\nA lightweight payment module or an easy gateway hook is a plus, but the immediate priority is getting the sheet-checking and full-fill process running flawlessly.\n\nDeliverables\n• Cross-platform mobile app (Android + iOS) and a small web dashboard. \n• Well-structured source code, database schema and installation guide. \n• Brief hand-off session so our IT team can maintain future menu uploads.\n\nIf you’ve built ordering or inventory tools before—especially with React Native, Flutter, or a modern web stack—let’s talk. I value clean code, clear documentation, and a quick turnaround.",
+  "budget": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T09:16:09+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 5,
+   "summary_ru": "Нужно внутреннее приложение для корпоративной столовой: администраторы публикуют меню и остатки, сотрудники выбирают и фиксируют блюда, а кухня видит изменения в реальном времени. Требуются мобильное приложение (Android и iOS) и веб-дашборд, с опциональной оплатой.",
+   "reply": "Hi, I read your brief. You need an internal canteen system where staff publish the daily menu and quantities, employees pick and lock their meals, and the kitchen sees every change live. I'd build the employee app in React Native (Expo), the staff dashboard in React, with a Node.js backend and PostgreSQL. Real-time updates would run over WebSockets, so a sold-out item or a cancelled order shows up on both sides instantly. The admin menu upload will be simple (form or CSV). You'll get the source code, schema, installation guide, and a short handover call for your IT team. Rough timeline for the MVP is 3–4 weeks. Two questions: is payment needed in the first version or can it wait? Will employees log in with company accounts (Google Workspace/SSO) or with email?\n\nYakov\nhttps://grachoffprod.github.io/resume/",
+   "reply_ru": "Здравствуйте, я прочитал ваше описание. Вам нужна внутренняя система для столовой: администраторы публикуют меню и количество блюд на день, сотрудники выбирают и фиксируют свои заказы, а кухня видит все изменения в реальном времени. Я бы сделал приложение для сотрудников на React Native (Expo), веб-панель для персонала на React, а серверную часть на Node.js с PostgreSQL. Обновления в реальном времени работали бы через WebSockets, поэтому блюдо, которое закончилось, или отменённый заказ сразу отображались бы у обеих сторон. Загрузка меню администратором будет простой (форма или CSV). На выходе вы получите исходный код, схему БД, инструкцию по установке и короткую передачу знаний для вашей IT-команды. Ориентировочный срок MVP — 3–4 недели. Два вопроса: нужна ли оплата в первой версии или её можно отложить? Будут ли сотрудники входить через корпоративные аккаунты (Google Workspace/SSO) или по email?\n\nYakov\nhttps://grachoffprod.github.io/resume/",
+   "questions": [
+    "Нужна ли оплата в первой версии или её можно добавить позже?",
+    "Будут ли сотрудники входить через корпоративные аккаунты (Google Workspace/SSO) или по email?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834943",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/flask/Python-API-Integration-Enhancement",
+  "title": "Python API Integration Enhancement",
+  "description": "I have a stable Python codebase and now need it to talk to a third-party service. Backend Python and Fronted React. The goal is to design and implement a clean integration layer that authenticates, consumes the external API, handles errors and rate limits gracefully, and surfaces the returned data through the project’s existing interfaces.\n\nThe stack you’ll touch is Python 3.11, Flask, Postgres, Docker and a CI pipeline that runs pytest. You’ll work inside our private Git repository, follow our branching strategy, and keep to PEP 8 and current project conventions.\n\nPlease outline your experience building production-ready API connections in Python, including any challenges you solved around pagination, OAuth, webhooks or asynchronous calls. No lengthy proposals needed—concise evidence of experience is what matters most.\n\nDeliverables\n• A self-contained Python module (or set of functions) that connects to the specified API and exposes the required endpoints or classes \n• Updated requirements / lock files and Dockerfile changes, if any \n• Unit and integration tests passing in our CI pipeline \n• README additions explaining configuration variables and run instructions \n\nAcceptance criteria: all tests green and successful data exchange in our staging environment. I’m ready to start as soon as we agree on scope and timeline.",
+  "budget": 1250.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T09:11:43+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужно добавить в существующий Flask-проект на Python слой интеграции с внешним API: аутентификация, получение данных, обработка ошибок и rate limits, вывод данных через React-фронтенд. Сопровождается тестами в CI, обновлением Docker и README. Бюджет низкий (1250 INR) для такого объёма работ.",
+   "reply": "Hi, I read the brief. You need a clean integration layer in your Flask app that handles authentication, pulls data from the third-party API, deals with rate limits and errors, and passes the results through to the React frontend, with tests running in CI and the Docker and README updates.\n\nMy approach: a separate client module with a thin wrapper per endpoint, retries with backoff for 429 and 5xx responses, pagination handled in one place, and configuration through env vars. I'd cover the logic with unit tests using mocked responses, then run integration checks against staging. Dependencies would be pinned and setup documented in the README.\n\nTimeline depends on the API's complexity, so I'd like to review its docs first. My portfolio: https://grachoffprod.github.io/resume/\n\nQuestions:\n1. Which API is it, and does it use OAuth, API keys, or webhooks?\n2. Does the frontend only need to read data, or do you also need write operations?\n\nYakov",
+   "reply_ru": "Здравствуйте, я прочитал задание. Нужен аккуратный слой интеграции в ваше Flask-приложение: авторизация, получение данных из стороннего API, обработка rate limits и ошибок, передача результатов во React-фронтенд, а также тесты в CI и обновление Docker и README.\n\nМой подход: отдельный модуль-клиент с тонкой обёрткой для каждого эндпоинта, повторные запросы с backoff при ответах 429 и 5xx, пагинация в одном месте, настройка через переменные окружения. Логику покрою юнит-тестами с мок-ответами, затем проверю обмен данными с staging. Зависимости будут зафиксированы, настройка описана в README.\n\nСроки зависят от сложности API, поэтому сначала хотелось бы посмотреть документацию. Портфолио: https://grachoffprod.github.io/resume/\n\nВопросы:\n1. Что это за API и используется ли OAuth, API-ключи или webhooks?\n2. Фронтенду нужно только читать данные или также отправлять их обратно?\n\nYakov",
+   "questions": [
+    "Какое именно стороннее API и какой тип авторизации используется (OAuth, API-ключ, webhooks)?",
+    "Фронтенду нужно только читать данные или также выполнять операции записи?",
+    "Укладывается ли бюджет 1250 INR в полный объём работ, включая изменения во фронтенде и настройку CI/Docker?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834939",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-video/Promo-Videos-Setup",
+  "title": "AI Promo Videos & Ad Setup",
+  "description": "I need five short, punchy promotional videos generated with AI, all centred on the same best-selling physical product from my store. Each clip should feel fresh—different hooks, angles, and aspect ratios—yet keep brand colours, logo and product benefits consistent so we can split-test effectively.\n\nOnce the creatives are ready, please load them into Meta (Facebook/Instagram) and TikTok Ads Manager, build conversion-focused campaigns and ad sets, and get everything live. My primary metric is website sales, so tracking pixels, events and custom audiences must be configured correctly before launch. \n\nDeliverables \n• 5 AI-generated videos (feed & story/reel sizes) \n• Fully set-up campaigns on Meta and TikTok, ready to spend \n• Working pixels/events with a quick screen-share or loom walkthrough proving they fire on add-to-cart and purchase \n\nIf you have a proven track record driving e-commerce conversions with short-form video and paid social, let’s do this.",
+  "budget": 250.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-25T09:08:48+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчику нужны 5 AI-видео для рекламы товара из его магазина, запуск кампаний в Meta и TikTok Ads и настройка пикселей и событий. Основная часть работы — видеопродакшн и performance-маркетинг, а не разработка из списка услуг.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только техническая настройка пикселей и событий add-to-cart и purchase на сайте, или заказчик ожидает ведение рекламных кампаний?",
+    "Есть ли уже доступ к магазину и рекламным кабинетам Meta и TikTok, и на какой платформе работает сайт?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834909",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/html/Modern-Flower-Farm-WordPress-Site",
+  "title": "Modern Flower Farm WordPress Site",
+  "description": "I run a flower farm that doubles as an agri-tourism destination and I’m ready for a WordPress site that feels as fresh and vibrant as the fields themselves. The primary purpose is to showcase the farm, the blooms, and—above all—the visitor experience.\n\nKey focus \nThe site must shine a spotlight on our farm tours, hands-on workshops, and any special events we host throughout the year. I envision an inviting events section where each tour or workshop has its own page featuring photos, descriptions, dates, and simple “Call / Email to Book” buttons. No online checkout is required; clear phone and email links are the only actions visitors need.\n\nWhat I need from you \n• A modern, mobile-first WordPress design that captures a rustic-elegant look and loads quickly. \n• An intuitive events area (custom post type or comparable solution) so I can add, edit, and archive tours or workshops in-house. \n• Home, About, Events, Gallery, and Contact pages, plus any support pages (Privacy, 404, etc.) that keep the build tidy. \n• Click-to-call and click-to-email functionality on every event page and in the header/footer so guests can reach us without hunting for details. \n• Basic on-page SEO and image optimization so the site is search-friendly from day one. \n• A short hand-off guide or screen-share so I’m comfortable updating copy, swapping photos, and posting new events once you’re done.\n\nAcceptance criteria \n1. Site is fully responsive across modern browsers and devices. \n2. Events can be added or edited from the WordPress dashboard without touching code. \n3. Phone and email links function correctly on all event pages. \n4. Final site passes Google PageSpeed Insights “Good” scores on both mobile and desktop.\n\nIf this sounds like the kind of build you enjoy—clean, visually engaging, and easy for non-tech staff to update—let’s talk timing and your approach.",
+  "budget": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T09:00:36+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Заказчик хочет адаптивный WordPress-сайт для фермы цветов и агротуризма с разделом мероприятий (туры, мастер-классы), где каждое событие имеет свою страницу с фото, датами и кнопками звонка и email. Нужна простая админка для управления событиями, SEO и хорошие показатели PageSpeed. Бюджет низкий (12500 INR) относительно объёма.",
+   "reply": "Your flower farm site is a good fit for me: a separate page for each tour and workshop with photos, dates and click-to-call/email buttons, plus an events section you can manage from the WordPress dashboard. My plan is a custom post type for events, a mobile-first rustic-elegant design, and image compression with lazy loading to hit the PageSpeed targets. I'll also record a short video walkthrough so your team can add and archive events on their own. A realistic timeline is 1–2 weeks, depending on the number of pages and photos. Portfolio: https://grachoffprod.github.io/resume/\n\nTwo questions: do you already have a domain and hosting, and roughly how many tours and workshops should be listed at launch?\n\nYakov",
+   "reply_ru": "Ваш сайт для фермы цветов мне подходит: отдельная страница для каждого тура и мастер-класса с фото, датами и кнопками звонка и email, плюс раздел мероприятий, которым можно управлять из админки WordPress. План такой: кастомный тип записей для мероприятий, адаптивный дизайн в стиле rustic-elegant, сжатие изображений и ленивая загрузка, чтобы попасть в целевые показатели PageSpeed. Также я запишу короткое видео-руководство, чтобы ваша команда могла сама добавлять и архивировать мероприятия. Реалистичный срок — 1–2 недели, в зависимости от количества страниц и фото. Портфолио: https://grachoffprod.github.io/resume/\n\nДва вопроса: есть ли у вас уже домен и хостинг и примерно сколько туров и мастер-классов нужно разместить к запуску?\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже домен и хостинг?",
+    "Сколько туров и мастер-классов нужно разместить при запуске?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834924",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/lead-generation/LinkedIn-Lead-Gen-Campaign-40834924",
+  "title": "LinkedIn Lead Gen Campaign",
+  "description": "( Not looking for agency, looking for indivdual only) I’m getting ready to roll out a LinkedIn Lead Gen Ads campaign whose single purpose is to fill my calendar with qualified sales calls and demos. The audience is narrow by design: I want to reach specific job roles inside one chosen industry (I’ll share the precise titles and sector once we start). \n\nYour work revolves around the full life-cycle of LinkedIn Lead Gen Ads:\n\n• Strategy & build-out – craft the campaign structure, audience filters, creative angles, and the native Lead Gen Form set to capture name, phone number, and each prospect’s preferred meeting time. Creative will be responsibility , Original, not generic template from Canva!\n• Launch & optimization – monitor performance, tune bids, rotate creative, and keep cost per booked call trending down. \n• Reporting – give me concise weekly updates showing impressions, leads, and booked-call metrics so we can decide next steps quickly.\n\nPlease highlight any past LinkedIn campaigns where you booked calls or demos for B2B offers specially CONSULTING , and mention the tools you lean on for audience research, creative testing, and call-booking hand-off. I’m ready to move as soon as I find the right specialist.",
+  "budget": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T08:57:30+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Заказчик ищет специалиста по ведению рекламной кампании LinkedIn Lead Gen Ads для сбора звонков и демо под B2B-консалтинг: стратегия, креативы, оптимизация и еженедельная отчётность. Это маркетинговая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам только настройка кампании или постоянное ведение с оптимизацией?",
+    "Требуется ли разработка каких-либо интеграций, например передача лидов в CRM или автоматическая запись на звонок?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834919",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Modern-Responsive-Website-Build-40834919",
+  "title": "Modern Responsive Website Build",
+  "description": "I’m looking for a developer who can take my brief and turn it into a clean, contemporary website that looks great and performs flawlessly on desktop, tablet, and mobile. The core structure is straightforward—Home, About Us, Services, and Contact—and I want each page to feel cohesive, fast, and easy to navigate.\n\nVisual appeal is key, so the UI needs to feel modern while remaining professional. I expect lightweight code, optimised images, and smart caching so pages load quickly even on slower connections. Please weave in the on-page SEO fundamentals—semantic headings, meta tags, alt text, and a tidy URL structure—so I can start ranking without extra work later.\n\nThe Contact page must host an enquiry form that feeds submissions directly to my email. I also need a click-to-chat WhatsApp button so visitors can reach me instantly if they prefer. Beyond that, I’d like basic analytics set up so I can track visits and form conversions from day one.\n\nDeliverables I’ll review and sign off:\n\n• High-fidelity mock-ups for all four pages \n• Fully responsive build (HTML5, CSS3, JavaScript or your preferred framework) \n• Integrated contact form with server-side handling and spam protection \n• WhatsApp click-to-chat integration \n• SEO-ready code and performance tuning (≤ 2 s load time on GTmetrix) \n• Deployment to my hosting plus a short hand-over walkthrough\n\nIf this scope fits your skill set and you can deliver a polished result without bloat, I’m ready to get started right away. Please share a couple of recent, similar sites and your estimated timeframe.",
+  "budget": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T08:54:19+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Нужен сайт-визитка из 4 страниц (Главная, О нас, Услуги, Контакты) с адаптивной вёрсткой, формой заявок на email, кнопкой чата в WhatsApp, базовой аналитикой и SEO, загрузкой до 2 секунд и деплоем на хостинг заказчика. Бюджет низкий для такого объёма.",
+   "reply": "Hi! Thanks for the detailed brief. You need a clean four-page site (Home, About Us, Services, Contact) that is fast and responsive, with an enquiry form sending submissions to your email, a WhatsApp click-to-chat button, analytics, and SEO basics. I would build it with semantic HTML5, CSS3 and vanilla JS (or a light framework), optimise images and caching to hit the 2 s GTmetrix target, and handle the form server-side with spam protection. Mockups for all pages come first, then the build, deployment and a short walkthrough. A realistic timeframe is about 5-7 days depending on feedback rounds. You can see my work here: https://grachoffprod.github.io/resume/\n\nTwo quick questions: do you already have brand colours, logo and copy, and which hosting do you use so I know what the form handler should run on?\n\nYakov",
+   "reply_ru": "Привет! Спасибо за подробное описание. Нужен чистый сайт из четырёх страниц (Главная, О нас, Услуги, Контакты), который быстро загружается и адаптивно выглядит на всех устройствах, с формой заявок на email, кнопкой чата в WhatsApp, аналитикой и базовым SEO. Я бы сделал его на семантическом HTML5, CSS3 и чистом JS (или на лёгком фреймворке), оптимизировал изображения и кэширование, чтобы уложиться в 2 секунды по GTmetrix, а форму обработал на сервере с защитой от спама. Сначала — макеты всех страниц, затем вёрстка, деплой и короткая передача проекта. Реальный срок — около 5-7 дней в зависимости от количества раундов правок. Мои работы здесь: https://grachoffprod.github.io/resume/\n\nДва быстрых вопроса: есть ли у вас уже фирменные цвета, логотип и тексты, и какой хостинг вы используете, чтобы понимать, где будет работать обработчик формы?\n\nYakov",
+   "questions": [
+    "Есть ли у заказчика готовые фирменные цвета, логотип и тексты для страниц или их нужно подготовить?",
+    "Какой хостинг используется и поддерживает ли он серверный код (например, Node.js или PHP) для обработки формы?",
+    "Нужна ли интеграция с конкретным email-сервисом или достаточно отправки на почту через SMTP?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834907",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/seo/Persuasive-Beauty-Product-Articles",
+  "title": "Persuasive Beauty Product Articles",
+  "description": "I need a writer who can turn our catalogue of hair-, skin-, and beauty-care items into magnetic, purchase-driving articles. Each piece should introduce the product in plain language, spotlight the everyday benefits that lead to healthier-looking hair or skin, and close with a natural call-to-action that nudges readers straight to the “Add to Cart” button on our e-commerce site. \n\nThe tone has to feel expert yet friendly—think salon-quality advice delivered by a trusted friend—so customers feel confident choosing our shampoo, conditioner, serums, moisturisers, or makeup for their daily routines. SEO keywords and product links must be woven in smoothly; I’m looking for articles that rank without sounding stuffed. Originality is non-negotiable, and facts or claims about ingredients should be verifiable. \n\nDeliverables \n• Compelling, purchase-focused articles (length appropriate to topic) covering a balanced mix of hair care, skin care, and beauty products \n• Clear, persuasive headlines and sub-heads, plus an enticing call-to-action for each piece \n• SEO meta title and meta description for every article \n• Proofread, publication-ready copy supplied in Word or Google Docs \n\nI’ll provide product details, benefits, and any promotional angles once we get started; you bring the engaging storytelling and conversion-minded structure.",
+  "budget": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T08:46:33+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчик ищет копирайтера для статей о товарах для волос, кожи и макияжа с SEO и призывами к покупке в интернет-магазине. Это написание текстов, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь разработка или доработка самого интернет-магазина, или заказчику нужны только тексты?",
+    "Планируется ли публикация статей прямо на сайте через CMS или интеграцию с каталогом, или тексты сдаются в Word/Google Docs?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834898",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-sheets/Spreadsheet-Proofreading-Duplicate",
+  "title": "Spreadsheet Proofreading & Duplicate Verification",
+  "description": "I have a set of Excel sheets that need a careful line-by-line pass for spelling accuracy. As you work through each column, please also keep an eye out for missing or duplicate entries. If you spot a possible duplicate, don’t delete it—simply flag the row so I can review it later.\n\nThe flow I imagine is straightforward: you correct any typos you see, run a quick consistency check on names and other text fields, and then add a clear marker (a colour fill or comment) wherever a record might be repeating. At the end I’d like the returned file to be fully proofread, with every potential duplicate visibly flagged and a brief note summarising what you changed or flagged.\n\nDeliverables \n• Cleaned spreadsheet with all spelling corrections applied \n• Duplicate rows clearly flagged, not removed \n• One-paragraph summary of corrections and flags\n\nI will provide the source workbook as soon as we start; you can use Excel, Google Sheets, or any comparable tool as long as formatting stays intact. Let me know if you need clarification on any column conventions before you begin.",
+  "budget": 1250.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T08:45:22+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик просит вручную вычитать Excel-таблицы на опечатки, проверить согласованность имён и отметить возможные дубликаты цветом или комментариями. Это ручная проверка данных, а не разработка из списка услуг Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужен ли только ручной разовый проверочный проход или заказчику важна повторяемая автоматическая проверка (например, скрипт для поиска дубликатов)?",
+    "Какой объём таблиц и сколько колонок с текстом нужно проверить?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "freelancer:40834881",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/New-Lead-Focused-Auto-Parts",
+  "title": "New Lead-Focused Auto Parts Website",
+  "description": "I need to replace my current ACS AUTO site, which is now plagued by technical issues (likely malware), with a clean, modern presence built purely to generate qualified spare-parts inquiries for American and US-market vehicles. I’m not interested in a full e-commerce catalogue—no endless product uploads—just a fast, professional automotive website that funnels visitors straight into a detailed request form.\n\nCore flow \n• Visitor lands on the site, sees our focus on US-spec parts and local stock highlights. \n• They open a single “Request Your Part” form where they can upload a photo or enter a VIN. \n• The form also asks for make, model, year, engine, VIN number and lets them attach an image of the needed part. \n• On submission the details arrive in my inbox and the customer instantly receives a confirmation email.\n\nKey objectives \n– Malware-free, secure build and hosting hand-over. \n– Responsive design that looks sharp on mobile (where most of my leads originate). \n– Streamlined navigation: company intro, request form, contact info, maybe a small blog/news section for SEO. \n– Simple back-end so I can update text or add photos without touching code.\n\nDeliverables \n1. Fully functional website meeting the flow above. \n2. Branded request form with validation and auto-reply email. \n3. Security hardening and basic launch deployment instructions. \n\nIf you have experience creating lead-generation sites for automotive or similar niches, let me know your approach and timeline.",
+  "budget": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T08:28:48+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 5,
+   "summary_ru": "Нужен новый лид-ориентированный сайт для продажи автозапчастей под американские авто: адаптивная мобильная версия, форма запроса детали (VIN, фото, данные авто) с валидацией и автоответом клиенту, безопасная сборка без вредоносного кода и простое редактирование контента. Бюджет 250 USD для такого объёма низкий.",
+   "reply": "Hi, I read your brief. You need a lean lead-generation site for US-spec auto parts: a fast mobile-first layout, a single 'Request Your Part' form (VIN or photo upload, make, model, year, engine) with validation, an instant confirmation email to the customer, and a clean, malware-free build handed over with a simple way to edit text and photos.\n\nMy approach: a modern lightweight stack with a simple content editor so you don't need code for updates, server-side validation and file checks on the form, transactional email for the auto-reply and your notifications, plus security hardening (headers, dependency audit, clean deployment with instructions). For the first version I estimate about 5-7 working days.\n\nPortfolio: https://grachoffprod.github.io/resume/\n\nTwo quick questions:\n1. Which hosting and domain do you use now, and can you give access so I can check and clean up the old site?\n2. Which email service should send the confirmations, or should I set one up?\n\nYakov",
+   "reply_ru": "Привет, я прочитал ваше описание. Нужен компактный сайт для генерации заявок на автозапчасти под американские авто: быстрая мобильная версия, одна форма «Request Your Part» (VIN или фото, марка, модель, год, двигатель) с валидацией, мгновенное подтверждение на email клиенту и чистая сборка без вредоносного кода, которую вы сможете сами редактировать (тексты и фото) без программиста.\n\nМой подход: современный легковесный стек с простым редактором контента, серверная валидация формы и проверка файлов, транзакционные письма для автоответа и уведомлений вам, а также усиление безопасности (заголовки, аудит зависимостей, чистый деплой с инструкцией). Для первой версии оцениваю примерно 5–7 рабочих дней.\n\nПортфолио: https://grachoffprod.github.io/resume/\n\nДва быстрых вопроса:\n1. Какой хостинг и домен используются сейчас, и можете ли дать доступ, чтобы я проверил и очистил старый сайт?\n2. Какой почтовый сервис отправляет подтверждения или его нужно настроить с нуля?\n\nYakov",
+   "questions": [
+    "Какой хостинг и домен используются сейчас и можно ли получить доступ для проверки и очистки старого сайта?",
+    "Какой почтовый сервис будет отправлять подтверждения клиентам или его нужно настроить с нуля?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
+  "id": "telegram:freelancce/16868",
+  "source": "telegram",
+  "url": "https://t.me/freelancce/16868",
+  "title": "Выспался. Создал чат-бота. Заработал +17.000 рублей.",
+  "description": "Выспался. Создал чат-бота. Заработал +17.000 рублей.\nПока ты едешь на «любимую работу» к 8ч утра, другие запускают\n этого бота, \nследуют пошаговой инструкции и получают +17.000 рублей за несколько часов работы.\nЭти люди не программисты и у них даже нет высшего образования. Они просто научились создавать чат-ботов, где нет ничего сложного. И за это им готовы платить 200-250.000 рублей в месяц.\nНа старте новички зарабатывают 50-60.000 рублей, а ребята поопытнее от 200.000 рублей в месяц.\nВсе, что нужно для старта\n — запустить этот бот.\n Там уже рассказали, как с помощью чат-ботов и удаленки заработать несколько месячных зарплат и наконец уволиться из найма в 2026 году.",
+  "budget": null,
+  "currency": null,
+  "posted_at": "2026-11-25T06:00:02+00:00",
+  "lang": "ru",
+  "direct": true,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "tg_bot",
+   "score": 1,
+   "summary_ru": "Рекламный пост о «заработке на чат-ботах» по пошаговой инструкции и курсу, без конкретного технического задания на разработку. Похоже на продвижение инфопродукта или схемы заработка, а не на заказ.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у автора конкретное техническое задание на разработку бота, или это только реклама курса?",
+    "Что именно предлагается: разработка под заказ или обучение и продажа готового бота?"
+   ]
+  },
+  "found_at": "2026-11-25T09:25:45+00:00"
+ },
+ {
   "id": "flru:5530411",
   "source": "flru",
   "url": "https://www.fl.ru/projects/5530411/otredaktirovat-statyu-na-vikipedii.html",
