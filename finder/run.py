@@ -59,7 +59,7 @@ def _collect(sources: dict[str, Callable[[], list[Job]]], health: dict, threshol
 
 def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dict, profile: dict,
         notifier: Callable[[str], bool], analyzer: Analyzer, state_dir: Path, history_path: Path,
-        bidder: Callable[[Job, Analysis], str] | None = None) -> dict:
+        bidder: Callable[[Job, Analysis], tuple[bool, str]] | None = None) -> dict:
     state_dir = Path(state_dir)
     stats = {"fetched": 0, "new": 0, "matched": 0, "analyzed": 0, "sent": 0, "send_failed": 0, "errors": 0}
     health = read_json(state_dir / "health.json", {})
@@ -132,12 +132,30 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
                 candidates.append((a.score + (bonus if j.source in priority else 0), j, a))
         # Send only the best jobs (all of them when max_per_run is 0).
         candidates.sort(key=lambda c: -c[0])
-        for _, j, a in (candidates[:max_send] if max_send else candidates):
+        chosen = candidates[:max_send] if max_send else candidates
+        notes: dict[str, str] = {}
+        if bidder:
+            # Try Freelancer.com jobs in score order; if a bid is refused (e.g. membership-only
+            # projects), fall through to the next one (max 3 attempts per run).
+            fl = [c for c in candidates if c[1].source == "freelancer" and c[2]]
+            tried = []
+            for c in fl[:3]:
+                ok, text = bidder(c[1], c[2])
+                notes[c[1].id] = text
+                tried.append(c)
+                if ok:
+                    chosen = [c]
+                    break
+            else:
+                if tried:
+                    chosen = tried[:1]
+                    notes[tried[0][1].id] = "\n".join(notes[c[1].id] for c in tried)
+        for _, j, a in chosen:
             if stats["sent"] or stats["send_failed"]:
                 time.sleep(delay)
             msg = format_job(j, a)
-            if a and bidder and j.source == "freelancer":
-                msg += "\n\n" + bidder(j, a)
+            if j.id in notes:
+                msg += "\n\n" + notes[j.id]
             if notifier(msg):
                 stats["sent"] += 1
             else:
@@ -185,12 +203,12 @@ def make_bidder(settings: dict, client, path: Path):
     log = BidLog(path)
     dry = cfg.get("dry_run", True)
 
-    def bidder(job: Job, a: Analysis) -> str:
+    def bidder(job: Job, a: Analysis) -> tuple[bool, str]:
         pid = job.id.split(":", 1)[1]
         if not log.can_bid(pid, cfg.get("daily_limit", 3)):
-            return "🤖 Автоотклик: пропущен (дневной лимит или уже откликались)"
+            return False, "🤖 Автоотклик: пропущен (дневной лимит или уже откликались)"
         if dry:
-            return "🤖 Автоотклик (пробный режим, не отправлен)"
+            return True, "🤖 Автоотклик (пробный режим, не отправлен)"
         try:
             ok, info = place_bid(client, token, int(user), job, a.reply, cfg)
         except Exception as e:  # noqa: BLE001
@@ -198,8 +216,8 @@ def make_bidder(settings: dict, client, path: Path):
         log.note(f"{job.id} ok={ok} {info}")
         if ok:
             log.record(pid)
-            return f"🤖 Автоотклик отправлен на Freelancer.com: {info}"
-        return f"🤖 Автоотклик НЕ отправлен: {info}"
+            return True, f"🤖 Автоотклик отправлен на Freelancer.com: {info}"
+        return False, f"🤖 Автоотклик НЕ отправлен ({job.title[:40]}): {info}"
 
     return bidder, log
 
