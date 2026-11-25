@@ -106,6 +106,13 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
     delay = settings["notify"].get("delay_s", 1)
     found_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     history = []
+    notify_cfg = settings["notify"]
+    priority = set(notify_cfg.get("priority_sources") or [])
+    bonus = notify_cfg.get("priority_bonus", 0)
+    max_send = notify_cfg.get("max_per_run") or 0  # 0 = no limit
+    candidates: list[tuple[float, Job, Analysis | None]] = []
+    # Priority sources are analyzed first so they get the AI budget before the others.
+    matched.sort(key=lambda m: m[0].source not in priority)
     try:
         for j, t in matched:
             seen.add(j.id)
@@ -118,14 +125,20 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
                 except Exception as e:  # noqa: BLE001 — keep the job even if analysis fails
                     _log(f"[ai] ERROR {j.id}: {type(e).__name__}: {e}")
             history.append({**j.to_dict(), "topics": t, "analysis": a.to_dict() if a else None, "found_at": found_at})
-            if a is None or (a.relevant and a.score >= min_score):
-                if stats["sent"] or stats["send_failed"]:
-                    time.sleep(delay)
-                if notifier(format_job(j, a)):
-                    stats["sent"] += 1
-                else:
-                    stats["send_failed"] += 1
-                    _log(f"[telegram] not sent: {j.id} (available in the web dashboard)")
+            if a is None:
+                candidates.append((-1, j, None))
+            elif a.relevant and a.score >= min_score:
+                candidates.append((a.score + (bonus if j.source in priority else 0), j, a))
+        # Send only the best jobs (all of them when max_per_run is 0).
+        candidates.sort(key=lambda c: -c[0])
+        for _, j, a in (candidates[:max_send] if max_send else candidates):
+            if stats["sent"] or stats["send_failed"]:
+                time.sleep(delay)
+            if notifier(format_job(j, a)):
+                stats["sent"] += 1
+            else:
+                stats["send_failed"] += 1
+                _log(f"[telegram] not sent: {j.id} (available in the web dashboard)")
     finally:
         usage.save()
         seen.save()

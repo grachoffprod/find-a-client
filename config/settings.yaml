@@ -10,6 +10,9 @@ ai:
 notify:
   min_score: 6               # Send only jobs scored 6/10 or higher to Telegram.
   delay_s: 1                 # Pause between messages to avoid Telegram rate limits.
+  max_per_run: 1            # send only the single best job per run (one per hour)
+  priority_sources: [freelancer]   # these sources get a score bonus and are analyzed first
+  priority_bonus: 3
 
 filter:
   min_budget: 0              # 0 = any budget; jobs with no listed budget always pass.

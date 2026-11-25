@@ -210,3 +210,17 @@ def test_non_http_url_is_dropped():
     j = Job(id="test:1", source="test", url="javascript:alert(1)", title="t", description="")
     assert j.url == ""
     assert Job(id="a:1", source="a", url="https://ok", title="t", description="").url == "https://ok"
+
+
+def test_only_best_job_sent_and_priority_source_wins(paths):
+    scores = {"kwork:1": 9, "freelancer:2": 7}
+    an = lambda job, profile, settings, topics: Analysis(True, "tg_bot", scores[job.id], "s", "r", "r", [])  # noqa: E731
+    st = settings()
+    st["notify"].update({"max_per_run": 1, "priority_sources": ["freelancer"], "priority_bonus": 3})
+    known = json.loads((paths[0] / "health.json").read_text(encoding="utf-8"))
+    known["freelancer"] = {"fails": 0, "last_count": 5}
+    (paths[0] / "health.json").write_text(json.dumps(known), encoding="utf-8")
+    stats, box = go({"kwork": lambda: [bot_job(1)], "freelancer": lambda: [bot_job(2, "freelancer")]}, an, paths,
+                    settings=st)
+    assert stats["sent"] == 1 and "freelancer" in box.msgs[0].lower() or "Freelancer.com" in box.msgs[0]
+    assert len(json.loads(paths[1].read_text(encoding="utf-8"))) == 2  # both still in the dashboard

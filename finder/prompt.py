@@ -35,7 +35,7 @@ Proposal rules:
 def build_prompt(job: Job, profile: dict, topics: list[str]) -> tuple[str, str]:
     portfolio = (profile.get("portfolio_url") or "").strip()
     portfolio_rule = (
-        f"- You may include this portfolio link: {portfolio}"
+        f"- Always end the reply (before the signature) with a short line pointing to the portfolio with live demos: {portfolio}"
         if portfolio else "- There is no portfolio yet. Do not mention it or include any links."
     )
     system = SYSTEM.format(
