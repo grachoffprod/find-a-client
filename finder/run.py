@@ -16,6 +16,7 @@ from finder.filter import match_topics, passes_budget
 from finder.health import update_health
 from finder.history import append_history
 from finder.models import Job
+from finder.payment import payment_flag
 from finder.state import SeenStore, read_json, write_json
 from finder.telegram_bot import format_job
 
@@ -129,7 +130,9 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
             if a is None:
                 candidates.append((-1, j, None))
             elif a.relevant and a.score >= min_score:
-                candidates.append((a.score + (bonus if j.source in priority else 0), j, a))
+                flag = payment_flag(j.title + "\n" + j.description)
+                penalty = 2 if flag == "risk" else 0
+                candidates.append((a.score - penalty + (bonus if j.source in priority else 0), j, a))
         # Send only the best jobs (all of them when max_per_run is 0).
         candidates.sort(key=lambda c: -c[0])
         chosen = candidates[:max_send] if max_send else candidates
@@ -159,6 +162,9 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
             if stats["sent"] or stats["send_failed"]:
                 time.sleep(delay)
             msg = format_job(j, a)
+            pf = payment_flag(j.title + "\n" + j.description)
+            if pf:
+                msg += "\n\n" + ("💳 Оплата: возможна крипта/EUR/UAH" if pf == "ok" else "⚠️ Оплата: похоже на верификацию или только РФ-вывод — проверь условия")
             if j.id in notes:
                 msg += "\n\n" + notes[j.id]
             if notifier(msg):
