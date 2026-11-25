@@ -1,5 +1,578 @@
 [
  {
+  "id": "flru:5530411",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530411/otredaktirovat-statyu-na-vikipedii.html",
+  "title": "Отредактировать статью на Википедии",
+  "description": "Требуется опытный редактор Википедии для доработки существующей статьи о российском публичном лице из культурной сферы.\nЧто нужно сделать:\n1. Проанализировать текущую версию...",
+  "budget": 20000.0,
+  "currency": "RUB",
+  "posted_at": "Tue, 24 Nov 2026 23:40:54 GMT",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 1,
+   "summary_ru": "Заказчик ищет редактора Википедии, чтобы доработать существующую статью о российском публичном деятеле из культурной сферы. Это редакторская работа с текстом и источниками, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только правка текста и источников или ещё и согласование правок с сообществом Википедии?",
+    "Есть ли у статьи текущие шаблоны или предупреждения о качестве, которые нужно снять?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "kwork:3275436",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275436",
+  "title": "ТГ бот экскусовод",
+  "description": "Хочу сделать альтернативу бота @istkvest_bot \nГде человек выбирает экскурсию из списка и пошагово её проходит самостоятельно.",
+  "budget": 4000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 05:17:48",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 6,
+   "summary_ru": "Заказчик хочет Telegram-бота-экскурсовода по образцу @istkvest_bot: пользователь выбирает экскурсию из списка и проходит её пошагово самостоятельно. Бюджет 4000 RUB невысокий для такой логики, объём контента пока не ясен.",
+   "reply": "Привет! Задача понятная: бот со списком экскурсий, где пользователь выбирает маршрут и проходит его пошагово, с текстом, фото и точками на каждом шаге. Сделаю на aiogram: каталог экскурсий, сохранение прогресса, чтобы человек мог вернуться туда, где остановился. Контент будет храниться в таблице или простой админке, так что новые маршруты можно добавлять без правок кода. Срок на базовую версию — 3–5 дней. Портфолио: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: сколько экскурсий планируете на старте и нужны ли геолокации на шагах или достаточно текстов с фото?\n\nYakov",
+   "reply_ru": "Привет! Задача понятная: бот со списком экскурсий, где пользователь выбирает маршрут и проходит его пошагово, с текстом, фото и точками на каждом шаге. Сделаю на aiogram: каталог экскурсий, сохранение прогресса, чтобы человек мог вернуться туда, где остановился. Контент будет храниться в таблице или простой админке, так что новые маршруты можно добавлять без правок кода. Срок на базовую версию — 3–5 дней. Портфолио: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: сколько экскурсий планируете на старте и нужны ли геолокации на шагах или достаточно текстов с фото?\n\nYakov",
+   "questions": [
+    "Сколько экскурсий планируется на старте и какой объём контента на каждую (текст, фото, видео)?",
+    "Нужны ли геолокации на шагах маршрута или достаточно текстовых и фото-подсказок?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "kwork:3275433",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275433",
+  "title": "ТГ бот рандомных бизнес встреч",
+  "description": "Хочу сделать аналог тг бота @true_random_RC_bot \nПод свои нужны и со своими критериями. Будет нацелен на 1 страну и свой ручная оплата для старта (перевел/скинул чек), админ подтвердил. Дабы уйти от спама )",
+  "budget": 10000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 05:06:42",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 6,
+   "summary_ru": "Нужен Telegram-бот для случайных деловых встреч по аналогу @true_random_RC_bot, с таргетингом на одну страну, собственными критериями подбора и ручным подтверждением доступа админом для защиты от спама. Бюджет 10 000 ₽.",
+   "reply": "Привет! Задача понятна: бот, который в одной стране случайно знакомит участников для деловых встреч, с собственными критериями подбора и подтверждением доступа админом, чтобы отсечь спам. Сделаю на aiogram (Python): регистрация с анкетой, алгоритм подбора пар по вашим критериям, админ-панель для подтверждения заявок и база участников. Базовая версия с подбором и админкой займёт примерно 2–3 недели, дальнейшие доработки добавим по этапам. Бюджет 10 000 ₽ подходит для MVP с ограниченным набором критериев. Портфолио: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: какие критерии подбора нужны (сфера, город, опыт, цели) и сколько участников ожидаете в первый месяц?\n\nYakov",
+   "reply_ru": "Привет! Задача понятна: бот, который в одной стране случайно знакомит участников для деловых встреч, с собственными критериями подбора и подтверждением доступа админом, чтобы отсечь спам. Сделаю на aiogram (Python): регистрация с анкетой, алгоритм подбора пар по вашим критериям, админ-панель для подтверждения заявок и база участников. Базовая версия с подбором и админкой займёт примерно 2–3 недели, дальнейшие доработки добавим по этапам. Бюджет 10 000 ₽ подходит для MVP с ограниченным набором критериев. Портфолио: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: какие критерии подбора нужны (сфера, город, опыт, цели) и сколько участников ожидаете в первый месяц?\n\nYakov",
+   "questions": [
+    "Какие критерии подбора нужны: сфера деятельности, город, опыт, цели знакомства?",
+    "Сколько участников ожидаете в первый месяц и нужна ли интеграция с календарём или CRM?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "kwork:3275431",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275431",
+  "title": "ТГ бот, с веб АПП",
+  "description": "Хочу сделать альтернативу тг бота @pavlintravel_bot, \nhttps://pavlintravel.ru/ но чисто по 1 стране, будет разделение по городам просто. Без рейтинга. Карты будут Амэп и Гугл.",
+  "budget": 10000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 04:55:35",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 6,
+   "summary_ru": "Нужен Telegram-бот с Mini App — аналог @pavlintravel_bot, но по одной стране с разделением по городам, без рейтинга и с картами (Amap и Google Maps). Бюджет 10 000 ₽ скромный, а объём данных и требования к картам пока не ясны.",
+   "reply": "Здравствуйте! Задача понятна: Telegram-бот с Mini App, где пользователь выбирает город внутри одной страны и смотрит объекты на карте. Без рейтингов, всё просто и аккуратно. Сделаю бота и веб-приложение, подключу карты и разделение по городам. Для старта хватит каталога с фильтром по городам и карточками объектов; админку для наполнения можно добавить отдельным этапом. Ориентировочный срок — 1–2 недели в зависимости от объёма данных. Портфолио: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: под «Амэп» вы имеете в виду Amap или, может, Яндекс.Карты? И откуда будут данные по объектам — есть готовая таблица или их нужно собирать?\n\nYakov",
+   "reply_ru": "Здравствуйте! Задача понятна: Telegram-бот с Mini App, где пользователь выбирает город внутри одной страны и смотрит объекты на карте. Без рейтингов, всё просто и аккуратно. Сделаю бота и веб-приложение, подключу карты и разделение по городам. Для старта хватит каталога с фильтром по городам и карточками объектов; админку для наполнения можно добавить отдельным этапом. Ориентировочный срок — 1–2 недели в зависимости от объёма данных. Портфолио: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: под «Амэп» вы имеете в виду Amap или, может, Яндекс.Карты? И откуда будут данные по объектам — есть готовая таблица или их нужно собирать?\n\nYakov",
+   "questions": [
+    "Что именно имеется в виду под «Амэп» — Amap (AMap) или Яндекс.Карты?",
+    "Откуда будут данные по объектам: есть готовая таблица или их нужно собирать и наполнять вручную?",
+    "Сколько примерно городов и объектов планируется на старте и нужна ли админка для редактирования контента?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "kwork:3275430",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275430",
+  "title": "Сделать Лендинг одностраничник",
+  "description": "1. Сделать Лендинг одностраничник \n2. По продаже всех видов профнастила \n3. Для заборов, для фасада, для кровли, для крыши домов \n4. Простой лендинг - как посадочная страница \n5. Рассмотрю любые предложения",
+  "budget": 1000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 04:43:06",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 5,
+   "summary_ru": "Нужен одностраничный лендинг (посадочная страница) для продажи профнастила для заборов, фасадов и кровли. Бюджет небольшой (1000 RUB), задача простая.",
+   "reply": "Здравствуйте! Нужен одностраничный лендинг для продажи профнастила: заборы, фасад, кровля. Задача понятная: посадочная страница, которая показывает ассортимент и собирает заявки. Сделаю адаптивную вёрстку под телефон, форму заявки с отправкой в Telegram или на почту. Срок — 2–3 дня с учётом ваших текстов и фото. Примеры работ: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: тексты, фото и прайс у вас уже есть или их нужно подготовить? И куда отправлять заявки: на почту, в Telegram или в CRM?\n\nYakov",
+   "reply_ru": "Здравствуйте! Нужен одностраничный лендинг для продажи профнастила: заборы, фасад, кровля. Задача понятная: посадочная страница, которая показывает ассортимент и собирает заявки. Сделаю адаптивную вёрстку под телефон, форму заявки с отправкой в Telegram или на почту. Срок — 2–3 дня с учётом ваших текстов и фото. Примеры работ: https://grachoffprod.github.io/resume/\n\nПодскажите, пожалуйста: тексты, фото и прайс у вас уже есть или их нужно подготовить? И куда отправлять заявки: на почту, в Telegram или в CRM?\n\nYakov",
+   "questions": [
+    "Есть ли у вас готовые тексты, фото продукции и прайс-лист, или их нужно подготовить?",
+    "Куда отправлять заявки с сайта: на почту, в Telegram или в CRM?",
+    "Нужен ли домен и хостинг, или они уже есть?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "kwork:3275424",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275424",
+  "title": "Проектирование корзины и заказа интернет магазина UX/UI",
+  "description": "Сайт https://rippo.ru/ \nТребуется разработает логику взаимодействия покупателя с корзиной и оформлением заказа, расположение блоков и внешний вид страниц для компьютера и телефона. \nЗадачи: \n- Проанализировать существующий интерфейс и предложить более понятный сценарий покупки. \n- Спроектировать корзину: товары, количество, удаление, скидки, промокод, итоговая сумма. \n- Спроектировать оформление: контакты, адрес, доставка СДЭК/Почтой России, оплата через Т‑Банк и при получении. \n- Предусмотреть подсказки, ошибки, ожидание расчёта доставки и подтверждение заказа. \n- Сделать прозрачными стоимость товаров, доставки, комиссии и суммы к оплате сейчас и при получении. \n- Сохранить стиль сайта и удобство мобильной версии. \nРезультат работы: \n- Краткий UX-аудит: 3–5 основных проблем. \n- Согласованные схемы корзины и оформления. \n- Редактируемые макеты в Figma для компьютера и телефона, включая основные состояния и ошибки. \n- Кликабельный прототип и краткое описание поведения элементов, полей и правил адаптации. \n- Исходник .fig и экспорт макетов в PDF. \nПрограммирование и внедрение не требуются. Техническую диагностику и реализацию выполняем самостоятельно. Проектируем для существующей CMS без изменения её ядра. Логику и внешний вид необходимо согласовать с заказчиком до подготовки окончательных макетов. \nОбязательное условие отклика — ссылка на действующий интернет-магазин с реализованной корзиной и оформлением заказа, над которыми вы работали. Одной ссылки на макет в Figma недостаточно.",
+  "budget": 3000.0,
+  "currency": "RUB",
+  "posted_at": "2026-11-25 01:32:38",
+  "lang": "ru",
+  "direct": false,
+  "topics": [
+   "shop",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Нужно спроектировать UX/UI корзины и оформления заказа для интернет-магазина rippo.ru: аудит, схемы, макеты в Figma для desktop и mobile, кликабельный прототип. Разработка и внедрение не требуются, заказчик просит только дизайн-проектирование.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у заказчика аналитика или жалобы покупателей, на основе которых нужно строить аудит корзины и оформления?",
+    "Кто будет внедрять согласованные макеты на сайте и нужна ли дальнейшая поддержка при реализации?",
+    "Какие сроки на согласование логики и внешнего вида до подготовки финальных макетов?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834407",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/blog-writing/Trust-Building-Business-Blog-Content",
+  "title": "Trust-Building Business Blog Content",
+  "description": "I need a dependable writer to craft a steady stream of blog posts that speak directly to small business owners about practical business and marketing topics. Each article should be genuinely helpful—offering clear, actionable insights rather than jargon—so that readers feel understood and start viewing my brand as a knowledgeable ally.\n\nHere’s what I’m looking for:\n\n• Posts of 800–1,200 words written in an engaging, conversational tone. \n• Well-researched guidance on marketing strategy, branding, customer retention, and other challenges small businesses face. \n• Natural SEO integration (headline, subheads, meta description) without keyword stuffing. \n• Original content only; every piece must pass plagiarism checks. \n• A brief takeaway section that reinforces key points and encourages further interaction with my site or newsletter.\n\nI’ll provide broad themes, brand voice notes, and any reference materials you might need. In return, I expect polished drafts, one revision round, and consistent delivery timelines. If you know how to balance authority with approachability and can translate complex marketing concepts into practical advice, I’d love to see samples of your work.",
+  "budget": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T03:05:48+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет копирайтера для регулярных блог-постов (800–1200 слов) о маркетинге и бизнесе для владельцев малого бизнеса. Это написание контента, а не разработка из списка услуг Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли вам только тексты для блога без технической части, например публикации на сайте или интеграции с CMS?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834403",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/seo/Fix-WordPress-Indexing-Errors",
+  "title": "Fix WordPress Indexing & Errors",
+  "description": "My WordPress site is suffering from search-engine visibility problems: critical pages never make it into the XML sitemap and Google Search Console keeps flagging them as “Discovered – currently not indexed.” Before anything else, I want this crawling and indexing issue resolved, then we can move on to the other technical faults already piling up.\n\nHere is the full scope of what I need:\n\n• Investigate and repair whatever is preventing those key pages from reaching the sitemap and being picked up by bots. This may include correcting robots.txt directives, tweaking Yoast/Rank Math settings, and regenerating a clean XML sitemap. \n• Run manual, database-level troubleshooting—phpMyAdmin or WP-CLI is fine—to track down orphaned records or mis-assigned post_status values that could be hiding pages from crawlers. \n• Eliminate 4xx errors, broken internal links, and rogue 3xx chains that dilute crawl budget. \n• Trim oversized CSS files, enable minification, and compress large images (WebP preferred) so page weight no longer slows down indexing. \n• Repair or redirect orphan pages and update internal linking so nothing valuable sits stranded. \n• Deliver a short report summarising every fix, the tools used (Search Console, Screaming Frog, WP-Optimize, etc.), and before/after evidence.\n\nAcceptance criteria \n– Search Console shows zero “Excluded by noindex” or “Discovered – not indexed” for target pages. \n– XML sitemap lists all required pages and submits successfully. \n– No 4xx or unnecessary 3xx responses on a fresh crawl. \n– Core Web Vitals improve or remain stable after optimisation work.\n\nPlease send a detailed project proposal explaining how you will tackle each bullet. Links to similar repair jobs or concise case studies are welcome; I care more about a clear action plan than a long résumé.",
+  "budget": 30.0,
+  "currency": "CAD",
+  "posted_at": "2026-11-25T02:59:03+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Нужно исправить индексацию WordPress-сайта: ключевые страницы не попадают в XML-карту сайта и висят в статусе «Discovered – not indexed». Также нужно убрать 4xx и лишние 3xx, оптимизировать CSS и изображения, восстановить орфан-страницы и сделать отчёт. Объём большой, а бюджет всего 30 CAD.",
+   "reply": "Hi, thanks for the detailed brief. The core problem seems to be that key pages aren't reaching crawlers, so I'd start there: check robots.txt, noindex flags and post_status values in the database, then fix the Yoast/Rank Math settings, regenerate a clean sitemap and resubmit it in Search Console. After that I'd crawl the site with Screaming Frog to find 4xx errors, redirect chains and orphan pages, then minify CSS and convert images to WebP to improve page speed. You'd get a short report with before/after evidence. The indexing fix can start within a day and should be done in about 3–4 days. Two questions: which pages are the critical ones, and will I have admin and hosting access?\n\nPortfolio: https://grachoffprod.github.io/resume/\n\nYakov",
+   "reply_ru": "Здравствуйте, спасибо за подробное описание. Основная проблема, похоже, в том, что ключевые страницы не доходят до поисковых роботов, поэтому я бы начал с них: проверил бы robots.txt, флаги noindex и значения post_status в базе данных, затем поправил бы настройки Yoast/Rank Math, пересоздал чистую карту сайта и отправил её повторно в Search Console. После этого я бы просканировал сайт в Screaming Frog, чтобы найти ошибки 4xx, цепочки редиректов и орфан-страницы, а затем минифицировал CSS и перевёл изображения в WebP для ускорения страниц. Вы получите короткий отчёт с доказательствами «до» и «после». Исправление индексации можно начать в течение дня, и обычно это занимает около 3–4 дней. Два вопроса: какие страницы являются критичными и будет ли у меня админ-доступ и доступ к хостингу?\n\nПортфолио: https://grachoffprod.github.io/resume/\n\nYakov",
+   "questions": [
+    "Какие страницы являются критичными для индексации и должны попасть в первый этап работ?",
+    "Будет ли у меня админ-доступ к WordPress, панели хостинга и Search Console?",
+    "Какой объём работ входит в бюджет 30 CAD, а какие пункты можно отложить на следующие этапы?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40830695",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/business-development/Business-Development-Executive-Sales-40830695",
+  "title": "Business Development Executive – B2B IT Sales | BI & Data Analytics Growth",
+  "description": "I head a growing Business Intelligence & Data Analytics consultancy and need a results-oriented sales partner who can open doors in the United States. Your mission is focused and results-driven: connect with small and mid-sized American companies—particularly in healthcare and financial services—that rely on spreadsheets, helping them step into their very first BI dashboards.\n\nKey responsibilities include handling the full sales cycle: prospecting, qualifying leads, presenting value propositions, negotiating terms, and closing deals. The aim is to secure paid pilot dashboard projects that can grow into full-scale consulting engagements covering data engineering, Power BI/Tableau solutions, and analytics.\n\nTo support you:\n- I will provide case studies, demo dashboards, and quick-start templates.\n- Together, we’ll create momentum in the US market before expanding operations to territories like the UK, Canada, Australia, UAE, and Europe.\n\nCompensation: This role offers a performance-based structure. Initially evaluated over three months, you’ll receive a base in the ₹10,000–₹20,000 range monthly plus additional commissions on every pilot project closed. With consistency in results, expect packages scaling up to ₹1.5L/month.\n\nKey performance indicators:\n- Number of qualified SMB leads generated (healthcare/finance focus).\n- Volume of paid dashboard pilot projects successfully closed.\n- Conversion rates from pilots to ongoing analytics engagements.\n- Accurate weekly updates on CRM activity and pipeline reports.\n\nApplicant requirements:\n- 2+ years of proven international B2B IT sales experience.\n- Strong ability to close deals with US-based clients.\n- High-level negotiation skills and tech solution selling background makes for an ideal match.\n\nWhat do you say? Let’s build this pipeline together!",
+  "budget": 20000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T02:58:57+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Заказчик ищет бизнес-development менеджера по продажам B2B IT-решений (BI и аналитика) на рынок США с окладом и комиссией. Это вакансия на sales-роль с продажами, а не разработка из списка услуг.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужен ли сотрудник на постоянной основе или разовый исполнитель под конкретный проект разработки?",
+    "Есть ли в задаче какая-либо техническая разработка (например, CRM или дашборды), или нужна только продажа услуг?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834342",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ios/iOS-App-Development-Swift-Creator",
+  "title": "Native iOS App Development – TikTok LIVE Creator Agency Platform | API Integration, Gamification & Analytics (Similar to Verticality Live Club)",
+  "description": "Here is a more concise, executive-ready version of your project brief:\n\nNative iOS Developer (Swift/SwiftUI) – TikTok LIVE Creator Community App\n\nProject Overview\n\nWe are an official TikTok LIVE Creator Network seeking an experienced iOS developer to build an exclusive community and gamification iPhone application for our creators. The app will enable creators to track performance metrics, unlock achievements, view leaderboards, and connect for collaborations.\n• Reference App: Live Club by Verticality\n• Existing Infrastructure: We currently operate a web platform that processes creator statistics from TikTok LIVE Backstage.\n\nCore Scope & Features\n\n1. Authentication & Creator Profiles\n• Secure login via Sign in with Apple, Google, and email.\n• Customizable profiles featuring TikTok handles, social links, and real-time performance stats.\n2. Gamification, Metrics & Leaderboards\n• Progress Tracking: Points/leveling system tracking daily, weekly, and monthly diamonds, streaming hours, and valid LIVE days.\n• Leaderboards: Automated daily, weekly, and monthly rankings synced with Backstage performance data.\n• Achievements: Milestone-based badges and unlockable rewards.\n3. Community & Engagement\n• Networking: Creator directory, direct messaging, collaboration requests, and a feed for sharing milestones.\n• Push Notifications: Alerts for level-ups, unlocked achievements, leaderboard shifts, collab requests, and agency announcements.\n4. TikTok LIVE Backstage Data Integration (Critical Requirement)\nWe require daily data synchronization that automatically updates creator stats, achievements, and leaderboard rankings. Please evaluate and recommend the most reliable architecture among the following options:\n• API integration with our existing web platform (preferred).\n• Direct integration with TikTok LIVE Backstage (if officially supported).\n• Automated report ingestion (via RPA/automation compliant with TikTok's Terms of Service).\n• Manual CSV/Excel upload via the admin panel as a fallback.\n5. Web Administration Panel\n• Manage creator accounts, gamification rules (points, levels, badges), community moderation, agency announcements, and data imports.\n\nTechnical Stack & Deliverables\n\n• Tech Stack: Swift / SwiftUI (iOS); Firebase, Node.js, or Laravel (Backend—to be aligned with our existing web platform).\n• Deliverables:\n • Custom UI/UX design (supporting Light & Dark modes).\n • Native iOS application & Web Admin Panel.\n • Automated Backstage data pipeline.\n • Full source code (Xcode project & backend) via GitHub/GitLab.\n • TestFlight deployment, App Store submission support, and post-launch bug-fix warranty.\n\nProposal Requirements\n\nTo be considered, please include the following in your application:\n1. Portfolio: Links to live iOS apps you have published on the Apple App Store.\n2. Technical Recommendation: Your proposed approach for automating the TikTok LIVE Backstage data integration.\n3. Timeline: Estimated project schedule and milestones.\n4. Cost Breakdown: Total estimated cost, itemized by UI/UX design, iOS development, backend/data integration, and the web admin panel.\nIf you'd like to refine this further, let me know:\n• The tech stack of your existing web platform (e.g., Laravel, Node.js, etc.)\n• Your target launch date or budget range\nI can adjust the brief to attract the right tier of developers.",
+  "budget": 1500.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T02:16:23+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "crm",
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Заказчик ищет iOS-разработчика на Swift/SwiftUI для нативного приложения сообщества TikTok LIVE-креаторов с геймификацией, лидербордами и сообщениями. Также нужны веб-админка и ежедневная синхронизация данных из TikTok LIVE Backstage. Заказ требует портфолио опубликованных в App Store приложений.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только веб-админка и пайплайн синхронизации данных Backstage, или нативное iOS-приложение обязательно именно на Swift/SwiftUI?",
+    "Подтверждено ли у заказчика, что сбор данных из Backstage будет через официальный API или через загрузку отчётов, а не через обход ToS?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834361",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/mobile-app-development/Content-Sharing-App-Website-Development",
+  "title": "Content Sharing App and Website Development",
+  "description": "I'm looking for an experienced developer to create both a mobile app and a website within a month. The platform will primarily be used for sharing information and content.\n\nKey Requirements:\n- User-friendly interface for content browsing\n- Secure user registration and login\n- Content upload, categorization, and search functionalities\n- Responsive design for both mobile and web\n- Integration with social media for content sharing\n\nIdeal Skills and Experience:\n- Proven experience in developing mobile apps and websites\n- Strong UI/UX design skills\n- Proficiency in relevant programming languages and frameworks\n- Experience with content management systems\n- Ability to meet deadlines and communicate effectively\n\nPlease provide a portfolio showcasing similar projects. Looking forward to your bids!",
+  "budget": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T02:11:42+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Заказчик ищет разработчика, который за месяц создаст мобильное приложение и сайт для обмена контентом: регистрация, загрузка и поиск контента, адаптивный дизайн, шеринг в соцсети. Бюджет 12500 INR при таком объёме скромный.",
+   "reply": "Hi, I read your brief: a content sharing platform with secure sign-up, content upload with categories and search, responsive design, and social sharing, delivered as both a mobile app and a website within a month.\n\nMy suggestion is to build the core as one responsive web app first (auth, uploads, categories, search, share buttons), so the website and mobile experience share a single codebase. That gets a working version live quickly, and native packaging can follow if you need it. A modern stack and AI-assisted development help keep the timeline realistic.\n\nPortfolio: https://grachoffprod.github.io/resume/\n\nTwo questions: do you need native iOS/Android apps, or is a mobile-friendly web app enough? And which social networks should sharing support?\n\nYakov",
+   "reply_ru": "Привет, я прочитал ваш бриф: платформа для обмена контентом с безопасной регистрацией, загрузкой контента с категориями и поиском, адаптивным дизайном и шерингом в соцсети. Нужно сделать и мобильное приложение, и сайт за месяц.\n\nМое предложение: сначала сделать основу как один адаптивный веб-приложение (авторизация, загрузка, категории, поиск, кнопки шеринга), чтобы сайт и мобильная версия использовали одну кодовую базу. Так быстро получится рабочая версия, а нативную упаковку можно добавить позже, если понадобится. Современный стек и разработка с ИИ-ассистентами помогают уложиться в сроки.\n\nПортфолио: https://grachoffprod.github.io/resume/\n\nДва вопроса: нужны ли нативные приложения для iOS/Android или достаточно мобильно-адаптированного веб-приложения? И в какие соцсети должен работать шеринг?\n\nYakov",
+   "questions": [
+    "Нужны ли нативные приложения для iOS/Android или достаточно адаптивного веб-приложения?",
+    "В какие соцсети должен работать шеринг контента?",
+    "Есть ли у бюджета 12500 INR запас, или объём функций нужно сократить под эту сумму?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834355",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Platform-Rekrutmen-Profesional-Global",
+  "title": "Platform Rekrutmen Profesional Global",
+  "description": "Saya ingin membangun platform berskala internasional yang mampu menghubungkan lebih dari 10 juta profesional dengan perusahaan yang mencari talenta untuk pekerjaan tetap maupun kontrak jangka panjang. Fokus utama situs ini adalah membantu individu menemukan lowongan terbaik sekaligus memudahkan perekrut menilai, menyaring, dan merekrut kandidat yang tepat. \n\nLingkup kerja yang saya butuhkan mencakup: \n• Perancangan arsitektur dan database yang dapat diskalakan untuk jutaan profil. \n• Fitur pencarian kandidat dan lowongan berbasis filter (keahlian, lokasi, pengalaman). \n• Halaman profil kandidat dengan résumé, keterampilan, dan riwayat kerja. \n• Dashboard perusahaan untuk mem-posting lowongan, melacak lamaran, dan berkomunikasi dengan kandidat melalui pesan langsung. \n• Sistem rekomendasi lowongan/kandidat sederhana agar pengalaman pengguna lebih relevan. \n• Antarmuka web responsif dan ramah seluler (React, Next.js, atau solusi setara). \n• Backend yang kokoh (Node.js, Django, atau stack serupa) lengkap dengan autentikasi aman, API REST/GraphQL, dan dokumentasi dasar. \n\nKriteria penerimaan: \n– Prototipe fungsional siap demo dengan set data pengujian. \n– Kode bersih, terdokumentasi, serta panduan singkat untuk deployment di cloud umum (AWS, GCP, atau Azure). \n– Kinerja pencarian responsif untuk minimal 1 juta entri uji. \n\nJika Anda berpengalaman membangun aplikasi berskala besar, memahami praktik keamanan data, dan mampu bekerja iteratif, mari diskusikan lebih lanjut.",
+  "budget": 25.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T02:05:01+00:00",
+  "lang": "id",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Заказчик хочет построить международную платформу рекрутмента на 10+ млн профилей: поиск по фильтрам, профили кандидатов, дашборд компаний с перепиской, простые рекомендации, backend с API и деплой в облако. Бюджет 25 USD явно не соответствует объёму работ.",
+   "reply": "Halo! Saya sudah membaca brief Anda: platform rekrutmen dengan profil kandidat, pencarian berbasis filter, dashboard perusahaan, dan pesan langsung. Bagian paling menantang di sini adalah pencarian yang responsif pada 1 juta+ entri dan arsitektur yang bisa diskalakan. Saya bisa mulai dengan prototipe fungsional: Next.js di frontend, Node.js dengan PostgreSQL di backend, indexing untuk pencarian, data uji, serta panduan deployment ke cloud. Dengan anggaran 25 USD cakupan penuh tidak realistis, jadi saya usulkan mulai dari satu modul inti (misalnya pencarian lowongan dan profil kandidat) dengan tahapan dan estimasi yang jelas. Portfolio: https://grachoffprod.github.io/resume/\n\nDua pertanyaan: anggaran 25 USD itu untuk tahap pertama atau untuk seluruh proyek? Dan apakah ada preferensi stack, Node.js atau Django?\n\nYakov",
+   "reply_ru": "Привет! Я прочитал ваш бриф: платформа рекрутмента с профилями кандидатов, поиском по фильтрам, дашбордом компаний и личными сообщениями. Самая сложная часть здесь — быстрый поиск по 1 млн+ записей и масштабируемая архитектура. Я могу начать с функционального прототипа: Next.js на фронтенде, Node.js с PostgreSQL на бэкенде, индексация для поиска, тестовые данные и инструкция по деплою в облако. При бюджете 25 USD полный объём нереалистичен, поэтому предлагаю начать с одного ключевого модуля (например, поиск вакансий и профили кандидатов) с понятными этапами и оценкой. Портфолио: https://grachoffprod.github.io/resume/\n\nДва вопроса: бюджет 25 USD на первый этап или на весь проект? И есть ли предпочтение по стеку, Node.js или Django?\n\nYakov",
+   "questions": []
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834337",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/debugging/Fix-WordPress-Blog-Posting-Error",
+  "title": "Fix WordPress Blog Posting Error | Experienced Troubleshooting Specialist Required",
+  "description": "We are seeking an experienced WordPress troubleshooting specialist with strong PHP, MySQL, and database debugging skills. We'd like this project completed within 24 hours.\n\nMAX Fixed Budget: $30.00 USD\n\nOur website uses Colibri Pro and GoDaddy hosting.\n\nWordPress pages can be created and published without any issues. However, new blog posts cannot be created or published.\n\nError message: \"Could not insert post into the database.\"\n\nWe’ve completed the following: Plugin testing, Troubleshooting Mode, and testing multiple administrator accounts did not resolve the issue.\n\nRequirements:\n\n1. Enable debug logging and identify the cause.\n2. Resolve the blog posting error.\n3. Confirm that blog posts and pages publish successfully.\n4. Disable debug logging and provide a brief explanation of the cause and fix.\n\nPreserve all existing content, design, and functionality.\n\nOnly apply if you have proven experience diagnosing and resolving complex WordPress errors.\n\nMAX Fixed Budget: $30.00 USD\n-",
+  "budget": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T01:44:04+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Заказчик на WordPress с темой Colibri Pro и хостингом GoDaddy не может публиковать новые записи: появляется ошибка «Could not insert post into the database», при этом страницы создаются нормально. Нужно найти причину, исправить её без потери контента и дизайна и отключить отладку. Бюджет $30, срок 24 часа.",
+   "reply": "Hi! The symptom points to the database layer rather than the theme: pages insert fine but posts fail, which often comes from a corrupted wp_posts table, an exhausted auto_increment counter, strict SQL mode, or a charset/row-size issue. I'd start with the debug log and the exact MySQL error behind the insert, then fix the root cause on your GoDaddy setup without touching Colibri Pro's design or existing content. I can work within your 24-hour window and will send a short summary of the cause and the fix, with debug logging switched off again.\n\nTwo quick questions: do you have hosting access (cPanel/phpMyAdmin or SSH), and does the error happen on every new post, including drafts?\n\nPortfolio: https://grachoffprod.github.io/resume/\n\nYakov",
+   "reply_ru": "Привет! Симптом указывает на уровень базы данных, а не на тему: страницы сохраняются, а записи нет. Обычно это связано с повреждённой таблицей wp_posts, исчерпанным счётчиком auto_increment, строгим режимом SQL или проблемой с кодировкой/размером строки. Я бы начал с лога отладки и точной ошибки MySQL при вставке, затем устранил бы причину на вашем хостинге GoDaddy, не трогая дизайн Colibri Pro и существующий контент. Могу уложиться в ваши 24 часа и пришлю короткое описание причины и исправления, а отладку снова выключу.\n\nДва быстрых вопроса: есть ли у вас доступ к хостингу (cPanel/phpMyAdmin или SSH) и возникает ли ошибка при каждой новой записи, включая черновики?\n\nПортфолио: https://grachoffprod.github.io/resume/\n\nYakov",
+   "questions": [
+    "Есть ли у заказчика доступ к хостингу GoDaddy (cPanel, phpMyAdmin или SSH)?",
+    "Ошибка возникает при каждой новой записи, включая черновики, или только при публикации?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834327",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ios/Wallet-Rewards-Card-PoC-Development",
+  "title": "Wallet Rewards Card PoC Development",
+  "description": "CONTRACT OPPORTUNITY / MOBILE DEVELOPMENT\n\nApple Wallet & Google Wallet developer\n\nWe’re looking for a mobile developer to build a proof of concept for a digital rewards card. A customer should be able to save the card to their phone, present it to a contactless reader, or use the same card to open a QR scanner in our app.\n\nThe customer experience\n\nA customer selects their rewards card in Wallet and holds their phone near a compatible reader. The reader receives a test member ID. At a location with only a printed QR code, or if the tap does not complete, the customer can choose “Scan QR code” and go straight to the app’s camera. The customer points the camera at the printed code and receives confirmation.\n\nOur preferred experience is one tap from the visible card to a camera-ready scanner, once camera permission has been granted. Tell us exactly which Wallet screen supports this on each platform, including what happens on iPhone when the customer double-clicks the side button, authenticates and sees “Hold Near Reader”.\n\nWhat you’ll build\n\nAn “Add to Apple Wallet” and “Add to Google Wallet” flow for a test rewards card, with contactless presentation on compatible readers.\n\nA wallet-to-app link that opens a working QR scanner on iPhone and Android. A small demo app and mock endpoint are sufficient.\n\nA reproducible demo, source code and setup instructions. Use placeholder branding, a test member ID and a sample printed QR code.\n\nWhat to include in your proposal\n\nShow one relevant pass you have shipped and describe your contribution. Identify your experience with Apple Value Added Services (VAS), Google Smart Tap and mobile deep linking. For each platform, give the proposed tap sequence and list the devices, reader hardware and issuer credentials you can test with.\n\nQuote the wallet-to-scanner feasibility test separately from the NFC build. Include your estimated cost, lead time, external approval dependencies and earliest start date.",
+  "budget": 1500.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-25T01:30:02+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 6,
+   "summary_ru": "Нужен PoC демо-приложения: тестовая rewards-карта в Apple Wallet и Google Wallet с бесконтактным предъявлением на ридере и переходом из карты в QR-сканер приложения. Требуются демо, исходники и инструкция по запуску. Заказ требует подтверждённого опыта с Apple VAS и Google Smart Tap, которого в моём профиле нет, а эти интеграции зависят от внешних одобрений.",
+   "reply": "Hi, the core ask is clear to me: a test rewards card in Apple and Google Wallet that can be presented at a reader, with a one-step fallback from the card to an in-app QR scanner. I can build the demo app, the mock member-ID endpoint, the wallet-to-scanner deep link, and a reproducible setup with instructions.\n\nI won't claim Apple VAS or Google Smart Tap experience I can't back up. I'd suggest splitting the work: a short feasibility test to confirm the entitlements and enrollment you'd need, then the NFC build. The QR path doesn't depend on those approvals, so I can start it right away. Portfolio: https://grachoffprod.github.io/resume/\n\nTwo questions:\n1. Do you already have Apple Developer and Google Smart Tap issuer access, or should we plan for that in the timeline?\n2. Which reader hardware will be used for testing?\n\nYakov",
+   "reply_ru": "Привет, основная задача понятна: тестовая rewards-карта в Apple Wallet и Google Wallet, которую можно предъявить на ридере, с переходом в один шаг из карты в QR-сканер приложения. Я могу сделать демо-приложение, мок-эндпоинт с member ID, deep link из кошелька в сканер и воспроизводимую настройку с инструкцией.\n\nНе буду заявлять опыт с Apple VAS или Google Smart Tap, который не могу подтвердить. Предлагаю разделить работу: короткий тест осуществимости, чтобы подтвердить нужные entitlements и регистрацию, а затем NFC-сборка. QR-путь не зависит от этих одобрений, поэтому можно начать сразу. Портфолио: https://grachoffprod.github.io/resume/\n\nДва вопроса:\n1. Есть ли уже доступ к Apple Developer и к Google Smart Tap issuer, или нужно закладывать это в сроки?\n2. Какой ридер будет использоваться для тестов?\n\nYakov",
+   "questions": [
+    "Есть ли у заказчика уже доступ к Apple Developer и Google Smart Tap issuer, или это нужно закладывать в сроки?",
+    "Какое оборудование (ридер) будет использоваться для тестирования NFC?",
+    "Достаточно ли для приёмки рабочего QR-сценария, если NFC-часть задержится из-за внешних одобрений?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834322",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/trucking/Bilingual-Amazon-Relay-Driver-Support",
+  "title": "Bilingual Amazon Relay Driver Support",
+  "description": "Bilingual Amazon Relay Driver Support Specialist\n\nWe are a growing U.S.-based trucking company specializing in Amazon Relay power-only operations. We are looking for a reliable bilingual professional with hands-on Amazon Relay experience to provide remote support to our drivers.\n\nResponsibilities:\n\n- Monitor active and upcoming trips and contract blocks.\n- Communicate with Spanish-speaking drivers.\n- Contact Amazon ROC and follow up on reported issues.\n- Handle delays, cancellations, breakdowns, and load issues.\n- Monitor driver HOS and trip status.\n- Document incidents and assist with performance disputes.\n- Coordinate roadside assistance when needed.\n\nRequirements:\n\n- Fluent English and Spanish, both spoken and written.\n- Previous experience with Amazon Relay.\n- Familiarity with R4C, R4D, ROC, and Relay performance metrics.\n- Understanding of U.S. trucking operations and HOS regulations.\n- Reliable internet connection and availability during agreed U.S. Eastern Time hours.\n\nExperience with Motive ELD is a plus.\n\nThe primary responsibility is driver support, not load booking or rate negotiation.\n\nPlease include your previous Amazon Relay experience, country of residence, availability, and expected hourly rate.",
+  "budget": 8.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T01:24:37+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Почасовая удалённая работа специалиста поддержки водителей Amazon Relay в американской автокомпании: двуязычная связь с водителями, эскалации в Amazon ROC, контроль HOS. Это операционная поддержка, а не разработка, и требуется опыт работы с Relay.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Заказ предполагает постоянную почасовую занятость на операционной поддержке, а не разовый проект разработки. Есть ли в нём какая-либо часть, связанная с программной реализацией (например, интеграция с Motive ELD или автоматизация отчётов)?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834321",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Business-Showcase-Website-Build-40834321",
+  "title": "Business Showcase Website Build",
+  "description": "I need a clean, responsive site that presents my business and its services clearly and persuasively. The site’s single, measurable goal is to prompt visitors to get in touch, so every page must make calling, emailing, or submitting a short contact form effortless on both desktop and mobile.\n\nHere is what I can give you right away: a logo, a handful of photos, and draft text for the main pages. I’d like you to refine what exists, source or design any missing visuals, and polish the copy so it reads professionally and supports basic on-page SEO.\n\nThe structure is straightforward—Home, About, Services, Testimonials, and Contact—but I’m open to your recommendations if something will improve user flow. WordPress with Elementor, Webflow, or another intuitive CMS is fine as long as I can update text and images myself after launch. The finished site should load quickly, follow modern accessibility practices, and include a spam-protected form plus clickable phone and email links.\n\nDeliverables\n• Fully deployed website on my domain and hosting \n• Optimised contact form with email notifications \n• All pages populated with finalised text and images \n• CMS credentials and short hand-off guide for edits \n• Two rounds of post-launch revisions to fix any issues\n\nOnce these items are ticked off, the project is complete.",
+  "budget": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T01:22:20+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Нужен адаптивный сайт-визитка из 5 страниц (Home, About, Services, Testimonials, Contact) с акцентом на звонки, письма и контактную форму. Заказчик даёт логотип, фото и черновики текстов, а после запуска хочет сам редактировать контент. Бюджет 12 500 INR, оплата через площадку.",
+   "reply": "Hi, I read your brief: a clean, responsive 5-page business site where every page makes it easy to call, email, or send a short form. I'd refine your logo and photos, source or design the missing visuals, and polish the draft copy with basic on-page SEO. I'd add a spam-protected form with email notifications, clickable phone and email links, and focus on fast loading and accessibility. I can build it in WordPress with Elementor or in Webflow, whichever you prefer, so you can edit text and images yourself after launch. AI-assisted tooling helps keep the timeline short. Portfolio: https://grachoffprod.github.io/resume/\n\nDo you already have a domain and hosting, or should I set them up? Which platform do you prefer: WordPress/Elementor or Webflow?\n\nYakov",
+   "reply_ru": "Здравствуйте! Я изучил ваше описание: чистый адаптивный сайт из 5 страниц, где на каждой странице легко позвонить, написать на почту или отправить короткую форму. Я доработаю ваш логотип и фото, подберу или нарисую недостающие визуалы и отполирую черновые тексты с базовым SEO на страницах. Добавлю форму с защитой от спама и уведомлениями на почту, кликабельные телефон и email, а также сделаю упор на быструю загрузку и доступность. Могу собрать сайт на WordPress с Elementor или на Webflow, как вам удобнее, чтобы после запуска вы сами редактировали тексты и картинки. ИИ-инструменты в работе помогают держать сроки короткими. Портфолио: https://grachoffprod.github.io/resume/\n\nУ вас уже есть домен и хостинг или их нужно подключить? Какая платформа вам больше подходит: WordPress/Elementor или Webflow?\n\nYakov",
+   "questions": [
+    "Есть ли у вас домен и хостинг, или их нужно подключить и настроить с нуля?",
+    "Какую платформу предпочитаете: WordPress с Elementor или Webflow?",
+    "Сколько примерно будет фото и видео, и нужна ли помощь с подбором стоковых изображений?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834320",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-integration/Compliant-Bulk-People-Search-Platform",
+  "title": "Compliant Bulk People Search Platform",
+  "description": "Bulk People Search & Data Management Application\nProject Overview\nI'm looking for an experienced Python or full-stack developer to build a professional web-based application that automates bulk people-search workflows using authorized data sources and approved integrations.\n\nFastPeopleSearch is my preferred reference source for this project.\n\nThe application should allow users to submit up to 500 records at once, process searches automatically, organize available results, and export the collected information into downloadable CSV files.\n\n1. Bulk Input System\nAccept up to 500 records per batch.\nAllow users to paste multiple names directly into the application.\nEach record should contain a person's name and city or state.\nSupport CSV file uploads.\nAutomatically validate entries and identify duplicates.\n2. FastPeopleSearch Integration\nEvaluate integration options with FastPeopleSearch.\nUse authorized access methods and permitted integrations.\nInvestigate whether automated searches are supported.\nIdentify available data fields and integration limitations.\nIf direct integration is unavailable, recommend a suitable authorized alternative.\nEnsure all integrations comply with applicable service terms and privacy requirements.\n3. Automated Search Processing\nProcess submitted records automatically.\nSupport background processing.\nDisplay real-time progress through a progress bar.\nShow completed, pending, and unsuccessful searches.\nInclude error handling and retry functionality.\nAllow users to monitor processing without refreshing the page.\n4. Search Results Dashboard\nDisplay results in an organized table.\nGroup results according to the original input records.\nDisplay available and authorized information.\nInclude source attribution and match confidence.\nAllow users to review individual search results.\n5. Data Export\nExport completed results into CSV format.\nAllow users to copy results directly from the dashboard.\nSupport downloading batch results.\nPreserve the relationship between submitted records and returned results.\n6. Application Interface\nClean, modern, user-friendly interface.\nSimple input and search workflow.\nLive processing status.\nSearch history.\nAbility to review previous batches.\n7. Technical Preferences\nPython with FastAPI for the backend.\nReact for the frontend.\nPostgreSQL or SQLite for data storage.\nPlaywright where permitted by the relevant service provider.\nBackground task processing for large batches.\nWindows-compatible deployment.\nDevelopers may suggest alternative technologies if they can provide a more reliable solution.\n\n8. Compliance Requirements\nAll integrations and automated data retrieval must comply with applicable privacy laws, data-provider terms, and authorization requirements.\n\nThe application must use approved access methods and must not circumvent CAPTCHA, Cloudflare, or other security and anti-automation protections.\n\n9. Expected Deliverables\nFully functional application prototype.\nComplete source code.\nBulk-processing functionality.\nFastPeopleSearch integration assessment.\nResults dashboard.\nCSV export functionality.\nInstallation and configuration instructions.\nTesting and bug fixes.\nFinal stable application ready for deployment.\n10. Developer Requirements\nPlease apply only if you have experience with Python, API integrations, database development, browser automation, and building bulk-processing applications.\n\nPlease include:\n\nExamples of similar applications you've developed.\nYour proposed technical approach.\nEstimated completion time.\nFixed-price development quotation.\nI'm interested in establishing a reliable long-term solution, not just a basic demonstration.",
+  "budget": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T01:21:34+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "mvp",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Заказчик хочет массовый автоматизированный поиск персональных данных людей по имени и городу на FastPeopleSearch с выгрузкой в CSV. По сути это сбор персональных данных с сайта-агрегатора, у которого нет публичного API, а обход защит и парсинг нарушают его условия. Такой проект несёт правовые риски (GDPR, CCPA, FCRA) и риск использования для слежки или преследования людей, поэтому откликаться не стоит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какая правовая основа обработки персональных данных и кто будет конечным пользователем выгрузок?",
+    "Есть ли у заказчика официальный договор или лицензия с провайдером данных, которые разрешают такой доступ?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834317",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/shopify-development/Shopify-Storefront-Setup-for-AMZX",
+  "title": "Shopify Storefront Setup for AMZX",
+  "description": "I’m preparing to launch Amazomix USA’s first Shopify store and need a tech-savvy student to get us over the finish line. The launch version must be able to sell our mix of functional-nutrition products and branded merchandise directly to customers, so every core storefront element has to be ready for real transactions, not just a mock-up.\n\nHere’s the scope you’ll own from start to finish:\n\n• Select and install an appropriate Shopify theme, then tailor it to our brand look and feel. \n• Build out product pages (images, variants, descriptions, nutrition panels, bundles). \n• Configure payments, shipping rates, and automated U.S. sales-tax calculations so check-out is seamless. \n• Add policy pages, email-signup capture, and the everyday store settings that keep things compliant. \n\nI’ll supply copy, product assets, and brand guidelines; you bring the Shopify know-how, a good design eye, and the willingness to iterate once or twice after my review. The work is 100 % remote, flat-fee, and perfect for a portfolio boost—once we’re live you can point future clients straight to the site.\n\nIf you’ve already tinkered with Shopify in class or on side projects and want a paid, real-world launch under your belt, let’s talk.",
+  "budget": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T01:20:38+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 6,
+   "summary_ru": "Запуск первого Shopify-магазина для Amazomix USA: подбор и кастомизация темы, страницы товаров с вариантами и наборами, настройка оплаты, доставки и автоматического расчёта налогов США, страницы политик и сбор email. Фиксированная оплата 750 USD, работа удалённо.",
+   "reply": "Hi! I read through the brief. You need a launch-ready Shopify store for Amazomix USA: theme customization, product pages with variants, nutrition panels and bundles, working payments, U.S. sales tax and shipping, plus policy pages and email capture. The scope is clear, and I can handle all of it.\n\nMy plan: choose a Shopify theme that suits functional nutrition and merch, adapt it to your brand guidelines, and build product templates where nutrition info is structured so it's easy to update. Then I'll set up payments, shipping zones and Shopify Tax for automated U.S. rates, and test the full checkout before handover. Realistic timeline is about 2-3 weeks, including your review rounds.\n\nTwo quick questions: roughly how many products and variants are we talking about? And do you already have a Shopify plan and domain set up?\n\nPortfolio: https://grachoffprod.github.io/resume/\n\nYakov",
+   "reply_ru": "Здравствуйте! Я внимательно прочитал описание. Вам нужен готовый к запуску Shopify-магазин для Amazomix USA: кастомизация темы, страницы товаров с вариантами, информацией о питании и наборами, работающая оплата, налоги США и доставка, а также страницы политик и сбор email. Задача понятна, и я могу взяться за всё это.\n\nМой план: выбрать тему Shopify, подходящую для функционального питания и мерча, адаптировать её под ваш брендбук и сделать шаблоны товаров, где информация о питании структурирована и легко обновляется. Затем настрою оплату, зоны доставки и Shopify Tax для автоматического расчёта налогов США, и перед передачей протестирую весь путь покупки. Ориентировочный срок — 2–3 недели с учётом ваших раундов проверки.\n\nДва коротких вопроса: примерно сколько товаров и вариантов будет? И есть ли у вас уже тариф Shopify и домен?\n\nПортфолио: https://grachoffprod.github.io/resume/\n\nYakov",
+   "questions": [
+    "Примерно сколько товаров и вариантов нужно загрузить на старте?",
+    "Есть ли уже тариф Shopify и подключённый домен, или их нужно оформить с нуля?",
+    "Какие платёжные и налоговые требования важны для штатов США, куда будете продавать (например, nexus по штатам)?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834307",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Modern-commerce-Website-Creation",
+  "title": "Modern E-commerce Website Creation",
+  "description": "I'm looking for an experienced web developer to create a modern and bold e-commerce website. \n\nThe site will need to include the following pages:\n- Home\n- Shop or Booking\n- Contact\n\nKey Requirements:\n- The website must be modern and bold in design.\n- It should have a user-friendly interface for selling products or accepting online bookings.\n- Must include a secure payment gateway.\n- Responsive design for mobile and tablet.\n- SEO-friendly structure.\n\nIdeal Skills & Experience:\n- Proven experience in developing e-commerce websites.\n- Strong portfolio showcasing modern and bold designs.\n- Expertise in SEO and mobile optimization.\n- Experience with secure payment integrations.\n\nPlease provide samples of your previous work and a brief outline of your proposed approach. Looking forward to your bids!",
+  "budget": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T01:06:15+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "shop",
+   "booking",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Заказчик ищет разработку современного и яркого интернет-магазина или сайта с онлайн-записью: страницы Home, Shop/Booking и Contact, адаптивная вёрстка, SEO-структура и безопасная оплата. Бюджет низкий (1500 INR) для такого объёма.",
+   "reply": "Hi, thanks for the detailed brief. You need a bold, mobile-friendly site with Home, Shop/Booking and Contact pages, built with a clean SEO-friendly structure. I'd build it on a modern stack and use AI-assisted development to move fast: a first version with the core pages in about 1–2 weeks, then refinements based on your feedback. You can see my work here: https://grachoffprod.github.io/resume/\n\nTwo quick questions: will you be selling physical products or taking bookings, and roughly how many products or services should the site include? Do you have any reference sites for the bold look you have in mind?\n\nYakov",
+   "reply_ru": "Здравствуйте, спасибо за подробное описание. Вам нужен яркий адаптивный сайт со страницами Home, Shop/Booking и Contact, с чистой SEO-friendly структурой. Я бы сделал его на современном стеке и использовал ИИ-ассистенты в разработке, чтобы двигаться быстро: первая версия с основными страницами примерно за 1–2 недели, затем доработки по вашей обратной связи. Мои работы здесь: https://grachoffprod.github.io/resume/\n\nДва быстрых вопроса: вы будете продавать физические товары или принимать записи, и примерно сколько товаров или услуг должно быть на сайте? Есть ли у вас референсы сайтов для того смелого стиля, который вы имеете в виду?\n\nYakov",
+   "questions": [
+    "Что вы будете продавать: физические товары или услуги/записи на бронирование?",
+    "Примерно сколько товаров или услуг должно быть на сайте?",
+    "Есть ли референсы сайтов с нужным стилем «bold»?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
+  "id": "freelancer:40834299",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/software-development/Senior-Desktop-App-Trial-Build",
+  "title": "Senior Desktop App Trial Build",
+  "description": "I’m planning a full-scale desktop application that helps users manage business tasks, customers, and internal records. All data will be entered manually within the program—no external spreadsheets or web services involved. \n\nBefore committing the entire project (budgeted at roughly one thousand dollars), I’d like to run a short paid trial. I’ll send you a small, self-contained feature, we’ll agree on its price and deadline, and that deliverable will let us confirm our working style and code quality.\n\nIf you’re interested, please share:\n• One link to a desktop app you’ve built or contributed to \n• A brief note on the specific components you created \n• When you could begin the trial task \n\nOnce the trial is successful, we’ll map out the remaining scope together to fit the overall budget and timeline. I look forward to seeing what you’ve built and hopefully collaborating on the full application.",
+  "budget": 1500.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T00:54:47+00:00",
+  "lang": "en",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 4,
+   "summary_ru": "Заказчик ищет разработчика полноценного десктопного приложения для управления задачами, клиентами и внутренними записями, без внешних сервисов. Сначала предлагает платный пробный модуль на небольшую функцию, а бюджет полного проекта ориентировочно около 1000 USD.",
+   "reply": "Hi, I read your brief: a desktop app for managing tasks, customers and internal records, with all data entered manually, and a short paid trial before the full build. A trial works for me. Most of my work is CRM-style admin panels and web apps, built with modern stacks and AI-assisted development, so I can keep the code clean and the timeline short. I haven't shipped a desktop app in my portfolio, so I want to be upfront about that. Portfolio: https://grachoffprod.github.io/resume/. Which platforms do you need (Windows, macOS, or cross-platform)? And is a local database like SQLite acceptable for storing the records?\n\nYakov",
+   "reply_ru": "Здравствуйте, я прочитал ваше описание: десктопное приложение для управления задачами, клиентами и внутренними записями, где все данные вводятся вручную, плюс короткий платный пробный модуль перед полной разработкой. Пробный формат меня устраивает. Большая часть моих работ — CRM-подобные админ-панели и веб-приложения на современном стеке с использованием ИИ-ассистентов в разработке, поэтому код будет аккуратным, а сроки короткими. Десктопных приложений в моём портфолио пока нет, и я хочу сразу об этом сказать. Портфолио: https://grachoffprod.github.io/resume/. Под какие платформы нужна сборка (Windows, macOS или кроссплатформенно)? И подходит ли для хранения записей локальная база данных, например SQLite?\n\nYakov",
+   "questions": [
+    "Под какие платформы нужно приложение: Windows, macOS или кроссплатформенно?",
+    "Допустимо ли локальное хранение данных, например в SQLite, или нужна другая схема?",
+    "Какой срок и стоимость пробного модуля заказчик предполагает?"
+   ]
+  },
+  "found_at": "2026-11-25T03:08:49+00:00"
+ },
+ {
   "id": "kwork:3273378",
   "source": "kwork",
   "url": "https://kwork.ru/projects/3273378",
