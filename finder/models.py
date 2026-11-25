@@ -10,6 +10,7 @@ class Job:
     title: str
     description: str
     budget: float | None = None
+    budget_min: float | None = None
     currency: str | None = None
     posted_at: str | None = None
     lang: str = "ru"

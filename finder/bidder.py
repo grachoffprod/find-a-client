@@ -37,6 +37,9 @@ class BidLog:
         self.data["count"] += 1
         self.data["projects"] = (self.data["projects"] + [project_id])[-500:]
 
+    def note(self, text: str) -> None:
+        self.data["last_result"] = text[:400]
+
     def save(self) -> None:
         self.path.write_text(json.dumps(self.data), encoding="utf-8")
 
@@ -47,7 +50,10 @@ def compute_amount(job: Job, cfg: dict) -> float | None:
         return float(cfg.get("hourly_rate", 12))
     if not job.budget:
         return None
-    return round(job.budget * float(cfg.get("fixed_budget_share", 0.8)), 2)
+    amount = job.budget * float(cfg.get("fixed_budget_share", 0.8))
+    # Freelancer rejects bids outside the client's budget range.
+    amount = max(amount, job.budget_min or 0)
+    return round(min(amount, job.budget), 2)
 
 
 def place_bid(client: httpx.Client, token: str, user_id: int, job: Job, text: str, cfg: dict) -> tuple[bool, str]:

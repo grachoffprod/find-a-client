@@ -195,6 +195,7 @@ def make_bidder(settings: dict, client, path: Path):
             ok, info = place_bid(client, token, int(user), job, a.reply, cfg)
         except Exception as e:  # noqa: BLE001
             ok, info = False, f"{type(e).__name__}: {e}"
+        log.note(f"{job.id} ok={ok} {info}")
         if ok:
             log.record(pid)
             return f"🤖 Автоотклик отправлен на Freelancer.com: {info}"

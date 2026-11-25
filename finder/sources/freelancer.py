@@ -27,6 +27,7 @@ def parse(raw: str) -> list[Job]:
             title=clean_text(p.get("title")),
             description=clean_text(p.get("description") or p.get("preview_description")),
             budget=float(budget) if budget else None,
+            budget_min=float(b["minimum"]) if b.get("minimum") else None,
             currency=(p.get("currency") or {}).get("code"),
             posted_at=datetime.fromtimestamp(ts, timezone.utc).isoformat() if ts else None,
             lang=p.get("language") or "en",
