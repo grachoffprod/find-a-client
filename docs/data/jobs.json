@@ -1,5 +1,162 @@
 [
  {
+  "id": "freelancer:40835925",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/documentation/Mobility-Scooter-FTO-Patentability",
+  "title": "Mobility Scooter FTO & Patentability",
+  "description": "I’m preparing to bring a new mobility-scooter frame to market and need a comprehensive patent search that covers both freedom to operate and the prospects of securing my own protection in China and the United States. The design introduces several novel elements—our folding or adjustable frame mechanism, suspension, joint connections, plus updated suspension, wheel and seat-mount structures—and I want clear visibility on two fronts:\nThe freelancer must be familiar with the Chinese patent filing process, including fluency in Mandarin and English.\n\nI need to know:\n• Whether the current version can be sold without infringing active Chinese or U.S. patents \n• Whether the same features appear sufficiently novel and non-obvious to support new patent filings\nYou’ll receive a full package of reference material (photos of the prototype, working drawings and a written description) the moment we start.\n\nDeliverables are:\n• Search strategy and databases used (CNIPA, USPTO, WIPO, Google Patents, etc.) \n• Spreadsheet or table listing relevant patents with publication numbers, priority dates, legal status and a short relevance note \n• Freedom-to-operate opinion that maps the key claims of any high-risk patents to our design, highlighting potential work-arounds \n• Patentability assessment that benchmarks each of the novel feature groups against the strongest prior art you locate \n• Concise summary report (PDF or Word) with your conclusions and next-step recommendations\n\nI will work closely with you and assist with the FTO evaluation, including the brief and search activities based on my prior searches. I’m aiming for a well-reasoned, evidence-backed analysis that a patent attorney could rely on for formal opinions and future filings, so depth of search and clarity of explanation are critical. Let me know how soon you can deliver the first draft report and what tools or methodologies you plan to apply.",
+  "budget": 30.0,
+  "budget_min": 20.0,
+  "currency": "NZD",
+  "posted_at": "2026-11-25T21:36:08+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Заказчик просит провести патентный поиск и подготовить заключение о свободе использования (FTO) и патентоспособности новой конструкции складной рамы для мобильного скутера в Китае и США, с таблицами патентов и итоговым отчётом. Это юридически-аналитическая работа, а не разработка, и бюджет всего 30 NZD.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам разработка какого-либо программного продукта или сервиса, связанного с этим проектом, или задача ограничивается только патентным анализом?",
+    "Готовы ли вы подтвердить, что итоговое заключение будет подготовлено патентным поверенным, а не разработчиком?"
+   ]
+  },
+  "found_at": "2026-11-25T21:49:23+00:00"
+ },
+ {
+  "id": "freelancer:40835911",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/react-native/Peer-Peer-Rental-App-MVP",
+  "title": "Peer-to-Peer Rental App MVP",
+  "description": "I’m ready to build the very first version of RentIt as a mobile app that serves both renters and equipment owners. For this initial release, I want the experience to feel effortless and trustworthy, so your priority will be rock-solid secure payments, refundable deposits, and a transparent user-review system. Think Stripe-powered escrow, automated deposit holds and releases, and clean, two-way rating screens that encourage good behaviour on both sides of every transaction.\n\nDiscovery happens through a map. When a renter opens the app, I want them to immediately see nearby drills, ladders, or other household tools plotted around their current location, with live availability and daily price right on the pin. Tapping a marker should reveal item photos, owner profile, deposit amount, and past reviews—then a single “Book & Pay” flow takes them from selection to confirmation.\n\nI’m open on the tech stack as long as we can deliver iOS and Android from one codebase (React Native, Flutter, or similar). A lean Firebase or Supabase backend that handles auth, real-time location queries, and push notifications makes sense, but I’m happy to hear your proposal. Design should follow Material or Cupertino guidelines so it feels native on both platforms.\n\nKey deliverables:\n• Fully functional mobile app (iOS + Android) with geolocation map browsing \n• Integrated payment gateway supporting card payments and refundable deposits \n• Two-sided rating and review module tied to completed rentals \n• Basic owner dashboard to add an item, set price, and accept or decline requests \n• Deployment to TestFlight and Google Play Internal Testing, plus clear hand-off of source code and documentation\n\nThe sooner we can get an MVP into Irish users’ hands, the faster we’ll validate demand and expand the feature set. If you’ve rolled out payment-heavy apps before and can move quickly without sacrificing security, let’s talk.",
+  "budget": 3000.0,
+  "budget_min": 1500.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-25T21:13:07+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 4,
+   "summary_ru": "Заказчик хочет MVP мобильного P2P-приложения для аренды инструментов (iOS и Android) с картой ближайших предложений, оплатой и залогом, двусторонними отзывами и панелью владельца. Бюджет 3000 EUR не соответствует объёму работ.",
+   "reply": "You want a first version of RentIt: a map where renters see nearby tools with live availability and daily prices, a booking flow with refundable deposits, two-way reviews, and a simple owner dashboard, all in one app for iOS and Android. I'd build it in React Native with Supabase for auth, location queries and push notifications, starting with the core rental loop so it works end to end early. Given the budget, I'd suggest keeping deposits and reviews in the first release and moving advanced owner tools to a later phase. For this core version I estimate about 5–6 weeks, including TestFlight and Play Internal Testing builds.\n\nIs 3000 EUR a fixed ceiling, and which features must be in the first release? Do you already have Apple Developer and Google Play accounts?\n\nYou can see live demos at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите первую версию RentIt: карту, где арендаторы видят ближайшие инструменты с актуальной доступностью и ценой за день, процесс бронирования с возвратным залогом, двусторонние отзывы и простую панель владельца, всё в одном приложении для iOS и Android. Я бы сделал его на React Native с Supabase для авторизации, геозапросов и push-уведомлений, начав с основного цикла аренды, чтобы он заработал от начала до конца как можно раньше. С учётом бюджета я бы предложил в первом релизе оставить залоги и отзывы, а расширенные инструменты владельца перенести на следующий этап. Для этой базовой версии я оцениваю около 5–6 недель, включая сборки для TestFlight и Play Internal Testing.\n\nБюджет 3000 EUR — это жёсткий потолок и какие функции обязательны в первом релизе? Есть ли у вас уже аккаунты Apple Developer и Google Play?\n\nЖивые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Бюджет 3000 EUR — это фиксированный потолок или можно обсудить его увеличение?",
+    "Какие функции обязательны в первом релизе, а что можно перенести на следующий этап?",
+    "Есть ли у вас уже аккаунты Apple Developer и Google Play?"
+   ]
+  },
+  "found_at": "2026-11-25T21:49:23+00:00"
+ },
+ {
+  "id": "freelancer:40835907",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/keyword-research/Lead-Driven-Landing-Page-SEO",
+  "title": "Lead-Driven Landing Page SEO for sign up clients and professionals",
+  "description": "Two landing pages—credit.domura.ai and pros.domura.ai—need a focused SEO overhaul so they consistently attract real estate professionals and agents and prompt them to fill out the on-page contact forms. \n\nThe work revolves around ranking for industry-specific terms, improving on-page relevance, and removing any technical friction that might keep search engines or users from engaging.\n\nDeliverables\n• Audience-specific keyword research matched to each page \n• Optimised titles, meta descriptions, headers, copy tweaks, image alt text and internal links \n• Technical checks and quick fixes (crawlability, speed, schema, index status) \n• A concise backlink or citation plan aimed at real-estate-centric outlets \n• Reporting that links changes to movement in rankings and growth in qualified form submissions \n\nResults are defined as higher visibility for the agreed keyword set and a measurable rise in contact-form completions from real estate professionals. Share similar lead-generation SEO wins and outline your proposed timeline so we can get started. Unlimited back pages, unlimited blog posts.\\nAnd I felt like there was a",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T21:09:43+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 3,
+   "summary_ru": "Заказчик просит SEO-доработку двух лендингов (credit.domura.ai и pros.domura.ai): подбор ключевых слов, правки текстов и мета-тегов, техническая проверка индексации и скорости, план ссылочного продвижения и отчётность по позициям и заявкам. Основная часть работы относится к SEO-маркетингу, а не к разработке.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли вам только технические правки на сайте (индексация, скорость, schema), или ожидаются также написание и переработка текстов, а также ссылочное продвижение?",
+    "Есть ли доступ к текущим сайтам и аналитике (Search Console, GA), и на каком стеке работают страницы?"
+   ]
+  },
+  "found_at": "2026-11-25T21:49:23+00:00"
+ },
+ {
+  "id": "freelancer:40835904",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/b2b-marketing/Build-Wholesale-Ordering-Portal",
+  "title": "Build B2B Wholesale Ordering Portal wordPress",
+  "description": "WordPress B2B Wholesale Ordering Portal (Phased Build)\n\nProject Summary:\nWe are upgrading an existing live WordPress site into a private, gated B2B wholesale ordering portal for a poultry and egg supplier in Southern Africa. Wholesale pricing and ordering must be restricted to verified business buyers, support local currency (NAD / N$) and 15% VAT rules, enable fast bulk ordering, and automate order alerts and back-office workflows across structured phases.\nAll client, business, pricing, and buyer details are strictly confidential. We are looking for quotes broken down clearly by phase so we can review scope, timelines, and milestones.\n\nPhase Breakdown:\n * Phase 1 — Gated B2B Portal, Bulk Ordering & Instant Alerts\n * Clone the live WordPress site to a private staging environment with zero downtime to the live site.\n * Build a B2B registration workflow capturing company details, business registration numbers, and VAT/tax IDs, with a manual admin approval step (pending vs. approved) that gates wholesale pricing and checkout.\n * Configure NAD / N$ currency, 15% VAT calculation, product listings (SKUs, pack sizes, stock status, and minimum order quantities), and a fast spreadsheet/matrix-style bulk order sheet.\n * Set up Direct Bank Transfer (EFT) checkout, automated order confirmation emails to buyers and internal office/accounts addresses, and real-time mobile/WhatsApp order notifications.\n * Structure product, customer, and order data cleanly so Phase 2 can plug in without refactoring the core setup.\n\n * Phase 2 — Warehouse Operations & Financial Document Automation\n * Generate consolidated picking and packing lists for warehouse/ground staff (sorted by product type and delivery route/schedule).\n * Auto-generate itemized driver delivery notes with delivery details and customer sign-off blocks.\n * Implement clear order status stages (e.g., Pending, Paid, Processing, Packed, Dispatched, Delivered).\n * Generate tax invoices for accounting and support credit notes (for adjustments such as weight or quantity variances).\n\n * Phase 3 — Online Payments & Scaling Enhancements\n * Integrate online card/local payment gateway options and support refund workflows alongside EFT.\n * Support future operational scaling (such as standing/recurring orders, catch-weight adjustments, or reorder tracking).\n\nHow to Quote:\n\nPlease include:\n * Separate cost estimates and estimated timelines for Phase 1, Phase 2, and Phase 3 (and note if you recommend milestone splits within each phase).\n * Relevant past work building gated B2B wholesale portals, bulk order forms, order alerts, and fulfillment/invoicing workflows.\n * Any clarifying questions before we share staging details under confidentiality.",
+  "budget": 250.0,
+  "budget_min": 20.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-25T21:07:13+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 4,
+   "summary_ru": "Клиент хочет превратить действующий сайт на WordPress в закрытый B2B-портал для оптовых заказов с ручным одобрением покупателей, валютой NAD, НДС 15%, быстрым заказом по матрице и мгновенными уведомлениями. Бюджет 250 GBP на три фазы выглядит недостаточным, поэтому имеет смысл браться только за первую фазу.",
+   "reply": "You want to turn your live WordPress site into a gated wholesale portal: buyers get approved before wholesale prices appear, prices are in NAD with 15% VAT, there's a bulk order grid, and the team gets instant order alerts. Later phases would add picking lists, invoices and extra automation. I'd start with Phase 1 only. The live site stays untouched while I clone it to staging, then I'd build the registration and approval flow, pricing rules, bulk order sheet and notifications on top of the existing setup. Phase 1 should take about 2 to 3 weeks, with milestones after staging and after the bulk order sheet.\n\nTwo questions: is the current store running on WooCommerce, and do you already have a WhatsApp Business API account, or would another alert channel work?\n\nFor similar work with live demos, see https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите превратить действующий сайт на WordPress в закрытый B2B-портал для оптовых заказов: оптовые цены будут видны только одобренным покупателям, цены в NAD с НДС 15%, будет таблица для массового заказа, а команда будет получать мгновенные уведомления о заказах. Следующие фазы добавят листы комплектации, накладные и дополнительную автоматизацию. Я бы начал только с первой фазы. Живой сайт останется нетронутым: сначала я склонирую его на staging, затем построю регистрацию с одобрением, правила ценообразования, таблицу массового заказа и уведомления на основе текущей настройки. Первая фаза займёт примерно 2–3 недели, с промежуточными этапами после staging и после таблицы массового заказа.\n\nДва вопроса: работает ли текущий магазин на WooCommerce и есть ли у вас аккаунт WhatsApp Business API, или подойдёт другой канал для уведомлений?\n\nПримеры похожих работ с живыми демо смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Работает ли текущий сайт на WooCommerce или на другом решении, и какая версия WordPress установлена?",
+    "Есть ли у вас аккаунт WhatsApp Business API, или подойдёт другой канал для уведомлений о заказах (Telegram, email, SMS)?",
+    "Нужно ли, чтобы Фаза 1 включала только регистрацию с одобрением и массовый заказ, или также уведомления для бухгалтерии?"
+   ]
+  },
+  "found_at": "2026-11-25T21:49:23+00:00"
+ },
+ {
+  "id": "freelancer:40835901",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/chatbot-development/Hybrid-Chatbot-Live-Support-Setup",
+  "title": "Hybrid Chatbot & Live Support Setup",
+  "description": "I want a smart, sales-oriented messaging system that blends automation with the personal touch of a live agent. The core functions are broad: it must respond to routine questions, guide visitors toward purchases, and handle leads or bookings smoothly—essentially everything from first contact through follow-up. \n\nMy audience talks to us primarily through Instagram/Facebook DMs, WhatsApp, and Telegram, so the solution has to work seamlessly on those channels. A well-trained bot should carry the conversation most of the time, but I need an easy way for a human operator to step in whenever the discussion becomes complex or high-value.\n\nI expect you to design, build, and deploy the chatbot, wire it into the chosen social platforms, and set up whatever hand-off workflow keeps the experience frictionless. If you have preferred frameworks—Dialogflow, ManyChat, BotPress, Twilio, etc.—feel free to recommend the best fit; scalability and clear analytics are priorities.\n\nDeliverables: \n• Conversational flow diagrams and copy tailored for support, promotion, and lead capture. \n• A fully configured bot that runs on Instagram/Facebook Messenger plus WhatsApp and Telegram. \n• Agent-takeover mechanism with alerts and an interface my team can use instantly. \n• Short onboarding guide or video so staff know when and how to jump in. \n\nI will review the project once the system can: \n1. Resolve common FAQs without human help. \n2. Push at least one promotional offer in a natural way during each relevant chat. \n3. Transfer to a live agent within 10 seconds when the bot is asked to. \n\nIf this sounds like your kind of build, let’s talk timeline and get started.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T21:04:02+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "booking",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 3,
+   "summary_ru": "Нужен гибридный чат-бот для продаж и поддержки в Instagram/Facebook, WhatsApp и Telegram: бот отвечает на частые вопросы, предлагает акции, а при необходимости передаёт диалог живому оператору за 10 секунд. Объём работ большой, а бюджет всего 25 USD, поэтому проект подходит только для поэтапного старта.",
+   "reply": "You want one sales-focused assistant that answers FAQs, promotes offers, and hands the conversation to a human operator within 10 seconds on Instagram/Facebook, WhatsApp, and Telegram. I'd build a single bot core with intent routing, a shared operator inbox with takeover, and alerts. Telegram is the simplest channel to ship first, so I'd start there to validate the flows and handoff, then connect WhatsApp and Meta through their official APIs. A realistic first milestone (FAQ handling, offer logic, Telegram handoff) would take about 1–2 weeks, with the other channels as separate phases. Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nWhich channel matters most to you right now? Do you already have a Meta Business account and WhatsApp Business API access?\n\nYakov",
+   "reply_ru": "Вам нужен один ассистент для продаж, который отвечает на частые вопросы, продвигает предложения и передаёт диалог живому оператору за 10 секунд в Instagram/Facebook, WhatsApp и Telegram. Я бы сделал единое ядро бота с маршрутизацией намерений, общий инбокс для операторов с возможностью перехвата диалога и уведомления. Telegram проще всего запустить первым, поэтому начал бы с него, чтобы проверить сценарии и передачу оператору, а затем подключил бы WhatsApp и Meta через официальные API. Первый этап (ответы на FAQ, логика предложений, передача оператору в Telegram) займёт примерно 1–2 недели, остальные каналы будут отдельными этапами. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакой канал для вас сейчас важнее всего? Есть ли у вас уже аккаунт Meta Business и доступ к WhatsApp Business API?\n\nYakov",
+   "questions": [
+    "Какой канал для вас сейчас важнее всего: Telegram, WhatsApp или Instagram/Facebook?",
+    "Есть ли у вас уже аккаунт Meta Business и доступ к WhatsApp Business API?"
+   ]
+  },
+  "found_at": "2026-11-25T21:49:23+00:00"
+ },
+ {
   "id": "freelancer:40835884",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/customer-service/Remote-New-Zealand-Tour-Consultant",
