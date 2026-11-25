@@ -35,4 +35,4 @@ health:
 
 sources:
   enabled: [freelancer, hn, pph, flru, kwork, freelance_ru, telegram]   # Russian sources are send-only (no auto-bid)
-  telegram_channels: [freelancetaverna, zakazy_freelance, freelancce, theyseeku, normrabota]
+  telegram_channels: [FreelancehuntProjects, freelancebay, itfreelancers, digitaltender, FreeVacanciesIT, Koteyka_Freelancer, freelancetaverna, zakazy_freelance, freelancce, theyseeku, normrabota]
