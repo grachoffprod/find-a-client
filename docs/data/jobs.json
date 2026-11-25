@@ -1,5 +1,368 @@
 [
  {
+  "id": "freelancer:40835332",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/power-bi/Property-Finance-Power-Dashboard",
+  "title": "Property Finance Power BI Dashboard",
+  "description": "I want a single, well-structured Power BI dashboard that lets me review our overall property-management income and expenses at a glance. All source data will arrive as Excel or CSV files that I can refresh weekly, so please design the model and queries with that workflow in mind—no direct connections to online systems are needed.\n\nThe dashboard must surface property profit, cash flow, and budget-versus-actual performance for each building in my portfolio. I should be able to slice the visuals by property, period, and expense or revenue category, then drill down to the underlying transaction lines when I spot a variance.\n\nKey deliverables:\n• Clean, documented Power Query steps that import and transform the raw spreadsheets. \n• A star-schema data model with measures for profit, operating cash flow, and budget variance. \n• An interactive report page (or pages) in a .pbix file that includes dynamic cards, waterfall or column charts, and a summary table, all formatted to our corporate colours. \n• A short PDF or video walkthrough showing how to refresh the data and extend the model with new properties.\n\nI will provide sample Excel exports and a field dictionary once we start. If something in the source layout needs tweaking for automation, flag it early so we can adjust.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T13:46:02+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 5,
+   "summary_ru": "Нужен Power BI-дашборд для портфеля недвижимости с еженедельной загрузкой Excel/CSV: прибыль, денежный поток и отклонение от бюджета по каждому объекту, с детализацией до транзакций. Включает Power Query, звездообразную модель, DAX-меры и PDF/видео-инструкцию.",
+   "reply": "You want one Power BI report that takes weekly Excel/CSV exports and shows profit, operating cash flow and budget variance per building, with drill-through to the transaction lines. I would start with the Power Query layer, documented step by step so each refresh is a single click. Then I would build the star-schema model and DAX measures for profit, cash flow and variance, and finally the report pages with slicers for property, period and category. With a modern stack and AI-assisted development, I can deliver the core .pbix in about 5–7 days, with the walkthrough video after that. Two questions: how are budgets stored (monthly by category, or annual totals), and do you have a corporate colour palette or brand guide?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен один отчёт в Power BI, который принимает еженедельные выгрузки в Excel/CSV и показывает прибыль, операционный денежный поток и отклонение от бюджета по каждому объекту, с детализацией до строк транзакций. Я бы начал с уровня Power Query, задокументировав шаги так, чтобы каждое обновление запускалось в один клик. Затем построил бы звездообразную модель и DAX-меры для прибыли, денежного потока и отклонений, а в конце — страницы отчёта с фильтрами по объекту, периоду и категории. На современном стеке с ИИ-ассистентами в разработке я могу сдать основной .pbix примерно за 5–7 дней, видео-инструкция — после этого. Два вопроса: как хранятся бюджеты (помесячно по категориям или годовыми суммами) и есть ли у вас фирменная палитра или брендбук?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Как хранятся бюджеты: помесячно по категориям расходов и доходов или годовыми суммами по объекту?",
+    "Есть ли у вас фирменная цветовая палитра или брендбук для оформления отчёта?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835326",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/account-management/Technical-Account-Manager-for-SaaS",
+  "title": "Technical Account Manager for SaaS",
+  "description": "About the role\nWe're hiring a Technical Account Manager to own our customer relationships so our engineers can stay focused on building. Our engineering team handles the technology. You'll be the person customers trust day to day, and the person engineers rely on to bring them clear, prioritized, well-scoped customer needs.\nYou'll sit between customers and engineering. You translate business problems into technical requests, keep accounts healthy and growing, and shield the team from ad-hoc interruptions without hiding what customers really need.\nLocation: [Remote / Hybrid / City] · Reports to: [Head of Engineering / CEO] · Type: Full-time\nWhat you'll do\nOwn the customer relationship\nBe the main point of contact for a portfolio of customer accounts, from onboarding through renewal.\nRun regular check-ins and quarterly business reviews to understand goals, usage and risks.\nBuild trust with stakeholders on the customer side, from day-to-day users to executive sponsors.\nBe the bridge to engineering\nTurn customer requests, bugs and feedback into clear, well-scoped tickets that engineers can act on without a follow-up meeting.\nTriage incoming issues: resolve what you can, escalate what you can't, and set honest expectations on timelines.\nJoin technical calls with engineers when needed, and keep customers informed during incidents.\nShare themes from across accounts with engineering and product to shape the roadmap.\nKeep accounts healthy and growing\nTrack account health and spot churn risk early.\nDrive adoption of features customers already pay for.\nIdentify expansion opportunities and support renewals and upsells.\nBuild the process\nSet up how customer requests flow to engineering, including intake, prioritization and status updates.\nMaintain account notes, documentation and a help-center or FAQ so the same questions don't reach engineers twice.\nWhat you'll bring\n3+ years in account management, customer success or a similar customer-facing role at a software or SaaS company.\nEnough technical fluency to follow an engineering conversation, read an API doc or log, and write a bug report an engineer can reproduce. You don't need to write code.\nClear, calm communication, in writing and on calls, including when the news is bad.\nSound judgment on what to escalate, what to handle yourself, and what to push back on.\nStrong organization: you can juggle many accounts and requests without dropping threads.\nComfort with tools like a CRM (HubSpot, Salesforce), a ticketing system (Jira, Linear) and shared docs.\nNice to have\nExperience as a Technical Account Manager, Solutions Engineer or Support Engineer.\nBackground in our industry or with customers like ours: [industry].\nFamiliarity with APIs, integrations, SQL or cloud platforms.\nExperience building customer-success processes at an early-stage company.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T13:45:16+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Полная штатная позиция Technical Account Manager в SaaS-компании: управление отношениями с клиентами и связь с инженерами. Это не разработка проекта, поэтому откликаться не нужно.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835321",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Lead-Generating-Business-Website-Build-40835321",
+  "title": "Lead-Generating Business Website Build",
+  "description": "I need a clean, fast, fully responsive website that turns visitors into genuine customer enquiries. The entire layout, copy hierarchy and user flow should guide people toward a single action: filling out a short contact form that sends an email notification to me and stores the lead in the site’s backend.\n\nKey notes \n• Design style – professional yet friendly, with plenty of white-space, clear headlines and trust-building elements such as testimonials and service overviews. \n• Tech – feel free to use WordPress, Webflow, or a lightweight custom build; what matters is mobile-first performance, SEO-ready code, and easy content editing. \n• Functionality – the contact form must be prominent on every page, spam-protected and lightning-quick. No other contact method is required. \n• Turnaround – please outline realistic milestones from initial wireframe to launch on my hosting.\n\nWhen you reply, show examples of past work that demonstrate similar lead-generation sites you have built. No formal proposal needed at this stage—screenshots or live links speak louder.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T13:43:35+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Нужен быстрый адаптивный сайт для бизнеса, на каждой странице которого главное действие — короткая форма заявки с отправкой email и сохранением лида в бэкенде. Бюджет 750 USD, заказчик просит примеры похожих лендингов и сроки запуска на его хостинге.",
+   "reply": "Hi, I read your brief: a fast, mobile-first business website where every page guides visitors to one action, a short contact form that emails you and stores the lead. I'd build it as a lightweight custom site, or in WordPress if you want the easiest content editing. The form would be sticky and prominent on every page, protected against spam with a honeypot and captcha, and the markup and meta setup would be SEO-ready. Rough timeline: wireframes in 2–3 days, design and layout in about a week, build and content integration in another week, then testing and launch on your hosting in 2–3 days, roughly 3 weeks total depending on page count. Two quick questions: how many pages do you need, and do you already have copy and brand assets? You can see live demos of my work here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте, я изучил ваше описание: быстрый адаптивный сайт для бизнеса, где каждая страница ведёт посетителя к одному действию — короткой форме заявки, которая отправляет вам email и сохраняет лид. Я бы сделал его на лёгком кастомном стеке или на WordPress, если важнее удобное редактирование контента. Форма была бы заметной и «липкой» на каждой странице, защищённой от спама (honeypot и капча), а разметка и мета-теги были бы подготовлены для SEO. Ориентировочные сроки: макеты за 2–3 дня, дизайн и вёрстка примерно за неделю, сборка и наполнение контентом ещё неделя, затем тестирование и запуск на вашем хостинге за 2–3 дня; в итоге около 3 недель в зависимости от количества страниц. Два вопроса: сколько страниц нужно и есть ли у вас готовые тексты и брендовые материалы? Живые демо моих работ здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько страниц должно быть на сайте и какие разделы нужны?",
+    "Есть ли у вас готовые тексты, фото и брендовые материалы или их нужно подготовить?",
+    "Какой хостинг вы используете и нужна ли интеграция с конкретным сервисом для хранения лидов или почтой?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835318",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/ASAP-Business-Information-Website",
+  "title": "ASAP Business Information Website",
+  "description": "I’m ready to launch a clean, modern website that simply explains who we are, what we do, and how potential clients can reach us. The site’s sole purpose is to present information about our business and services, so the focus is on clarity, quick navigation, and a professional look that works smoothly on desktop and mobile.\n\nSpeed matters: I’d like everything live as soon as possible. If you can build in WordPress, Webflow, or another CMS that lets me update text and images myself later, that’s ideal. I already have hosting and a domain; you’ll get immediate access once we agree to start.\n\nDeliverables I expect:\n• A fully responsive, information-driven website (about 4–5 core pages) \n• Basic on-page SEO and a contact form that routes to my email \n• Clean hand-off with admin credentials and a short guide so I can edit content on my own\n\nIf you’ve turned around similar projects on tight timelines, I’d love to see a link or two. Let’s get this online quickly.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T13:37:49+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 5,
+   "summary_ru": "Заказчик хочет быстро запустить современный адаптивный сайт-визитку на 4–5 страниц с описанием бизнеса и услуг, базовым SEO, формой обратной связи на email и CMS, чтобы самостоятельно редактировать контент. Бюджет низкий (30 USD), но задача ясная.",
+   "reply": "You need a clean 4–5 page business website that explains who you are, what you offer, and how clients can reach you, with fast mobile-friendly navigation, basic SEO, a contact form forwarded to your email, and an editable CMS so you can update text and images yourself. Since speed is the priority, I'd use AI-assisted development on a modern stack and build it in WordPress or Webflow, depending on what fits your existing hosting. I'd structure the pages around your core messages, set up on-page SEO and form routing, and hand over admin access with a short editing guide. A realistic timeline is 3–5 days once I have your copy and images. You can see live demos here: https://grachoffprod.github.io/portfolio/\n\nTwo quick questions: do you already have the page text, logo, and images ready, and does your hosting support WordPress?\n\nYakov",
+   "reply_ru": "Вам нужен аккуратный бизнес-сайт на 4–5 страниц, который объясняет, кто вы, что предлагаете и как с вами связаться. Нужны быстрая навигация для мобильных, базовое SEO, форма обратной связи с отправкой на email и CMS, чтобы вы сами меняли тексты и изображения. Так как главный приоритет — скорость, я бы использовал разработку с ИИ-ассистентами на современном стеке и собрал сайт в WordPress или Webflow, в зависимости от вашего хостинга. Я бы выстроил страницы вокруг ключевых сообщений, настроил SEO и маршрутизацию формы и передал доступ к админке с коротким руководством по редактированию. Реалистичный срок — 3–5 дней, когда у меня будут тексты и изображения. Живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nДва быстрых вопроса: готовы ли у вас тексты страниц, логотип и изображения, и поддерживает ли ваш хостинг WordPress?\n\nYakov",
+   "questions": [
+    "Уже есть готовые тексты страниц, логотип и изображения, или их нужно будет подготовить?",
+    "Поддерживает ли ваш текущий хостинг WordPress, или предпочтительнее Webflow?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835296",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Apple-Fortune-Dashboard",
+  "title": "Apple of Fortune Dashboard",
+  "description": "I run sessions of the “Apple of Fortune” game on 1xBet and need a lightweight script that lets me feed in each new outcome—either by typing the result or pasting data pulled from a quick screenshot—and immediately displays a clean, chronological history of recent results on screen.\n\nKey points I need covered: \n• Input flexibility: I will either enter the symbols/colours manually or copy them from a screenshot; whichever is faster in the moment. \n• Simple, clear interface: as soon as I add a new entry it should appear at the top of the list, pushing older results down so I can glance at the latest streak. \n• No betting automation, no fancy analytics—just the rolling history so I can track patterns myself.\n\nThe script can be web-based (HTML/CSS/JavaScript) or a small desktop tool—whichever you are most comfortable delivering quickly. All I need back is the functioning code with a short read-me explaining how to add results and reset the log.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T13:22:19+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 4,
+   "summary_ru": "Клиент просит простой веб-инструмент (HTML/CSS/JS или небольшая desktop-утилита), в который можно вводить или вставлять результаты игры «Apple of Fortune» на 1xBet. Записи должны сразу появляться сверху в хронологическом списке, с возможностью сброса журнала. Автоматизации ставок не нужно. Бюджет 25 USD.",
+   "reply": "I read your brief: you want a lightweight tool where each new Apple of Fortune result goes in, either typed or pasted from a screenshot, and appears at the top of a chronological log, with a reset option and no betting logic. I would build it as a single-page HTML/CSS/JavaScript app that stores history in localStorage, so the log survives page reloads. The input would take quick keyboard entry plus a paste box for copied text, with newest-first rendering, a clear button, and a short README. Realistic timeline: about one day for a working first version, then one round of tweaks. Two questions: what format do the results come in (symbols, colours, or both), and do you need the history to persist between browser sessions or is a per-session log enough?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Я изучил ваше описание: вам нужен простой инструмент, куда можно быстро добавлять каждый новый результат Apple of Fortune, вводя его вручную или вставляя из скриншота. Новые записи должны появляться сверху хронологического списка, при этом нужна возможность сброса журнала. Логики ставок не требуется. Я бы сделал одностраничное приложение на HTML/CSS/JavaScript, которое хранит историю в localStorage, чтобы журнал сохранялся после перезагрузки страницы. Ввод будет поддерживать быстрый набор с клавиатуры и поле для вставки скопированного текста, список будет показывать новые записи первыми, также будут кнопка очистки и короткий README. Реалистичный срок: около одного дня на рабочую первую версию, затем один раунд доработок. Два вопроса: в каком формате приходят результаты (символы, цвета или и то и другое), и нужно ли сохранять историю между браузерными сессиями или достаточно журнала на одну сессию?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "В каком формате приходят результаты: символы, цвета или и то и другое?",
+    "Нужно ли сохранять историю между браузерными сессиями или достаточно журнала на одну сессию?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835293",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-website-optimizer/SEO-Focused-Hog-Roast-Website",
+  "title": "SEO-Focused Hog Roast Website",
+  "description": "I posted a project the other day that wasn't quite right. So I am reposting the job and this is more my situation.\n\nThis site: www.classichogroastcatering.co.uk , was ranking 1st page for quite a lot of pages, such as \"hog roast colne\", \"hog roast ripon\" etc etc.\n\nBut now these pages have disappeared; these are VERY small towns in the UK, and normally I can create a website, create a landing page, index it, and it appears within 5 minutes on page 1.\n\nSo something is wrong.\n\nI also have a mobile BBQ page for the same town. The mobile BBQ pages generally are all on page 1 and on a lot, number 1 position.\n\nMy thinking is that somehow the BBQ page might be affecting the hog roast page?\n\nI have had a technical person adjust my site and strengthen the pages across Yorkshire and Lancashire over the last 3 months, but the site is going backwards.\n\nMy goal is for all pages to be show up in searches, but the hog roast ones are more important than the BBQ ones.\n\nI wish to be relevant for wedding and party catering across the areas mentioned on my site\n\nMy budget is £100 a month. This is my maximum budget, ones higher than this will be erased.\n\nPlease reply with non AI replies. \nThanks",
+  "budget": 250.0,
+  "budget_min": 20.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-25T13:19:12+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 2,
+   "summary_ru": "Клиент из Великобритании жалуется на падение позиций сайта кейтеринга hog roast в поисковой выдаче. Ему нужен SEO-аудит и исправление проблем с ранжированием страниц по небольшим городам, при бюджете до £100 в месяц. Основная задача связана с SEO-продвижением, а не с разработкой.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас доступ к сайту и к Google Search Console для проверки индексации?",
+    "Какие технические изменения сейчас вносятся на сайте и на чём он сделан?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835286",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Build-Bilingual-Borrowing-Marketplace",
+  "title": "Build Bilingual Borrowing Marketplace App",
+  "description": "I need an experienced full-stack developer to build BORROWING, a complete marketplace application where users can borrow, rent, exchange, or give away items.\n\nThe application must include a modern responsive design (Arabic and English), secure user registration and login, user profiles, product listings with images, search, categories, filters, favorites, request management, notifications, and a powerful Super Admin dashboard.\n\nThe system must have a real backend, secure APIs, and a properly connected database. All features must work correctly, including booking management, preventing overlapping reservations, and controlling user permissions.\n\nI require a fully functional, tested, production-ready application, not just a frontend or demo.\n\nOwnership is mandatory: I must own 100% of the custom-developed source code and intellectual property, and have full control over the domain, hosting, database, GitHub repository, credentials, and Super Admin account. Complete source code and documentation must be delivered. No hidden access or developer-controlled accounts.\n\nPlease provide your technology stack, timeline, total cost, milestones, and post-delivery support.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T13:14:54+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 4,
+   "summary_ru": "Клиент ищет разработку двуязычного (арабский/английский) маркетплейса для аренды, обмена и передачи вещей с бронированием без пересечений, избранным, заявками, уведомлениями и админ-панелью Super Admin. Бюджет 750 USD для такого объёма очень ограничен.",
+   "reply": "You need a bilingual (Arabic/English) borrowing marketplace with listings, search and filters, favorites, request handling, notifications, a booking system that blocks overlapping reservations, and a Super Admin panel, delivered as production-ready code that you fully own. I would build the frontend in React with RTL support for Arabic, a Node.js backend with PostgreSQL, and role-based permissions. The booking engine would check date conflicts inside a database transaction so double reservations can't happen. Images would go to object storage, and I'd hand over the repository, domain, hosting and credentials in your name with full documentation.\n\nRealistic timeline: about 4–5 weeks, split into milestones: auth and profiles, listings and search, booking and requests, admin panel, then testing and deployment.\n\nTwo questions: Which features are must-have for launch and which can come later? Does the 750 USD budget cover the full scope or only the first phase?\n\nLive demos of my work: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен двуязычный (арабский/английский) маркетплейс для аренды, обмена и передачи вещей с объявлениями, поиском и фильтрами, избранным, обработкой заявок, уведомлениями, системой бронирования без пересечений и админ-панелью Super Admin. Всё это должно быть готовым к продакшену кодом, которым вы полностью владеете. Я бы сделал фронтенд на React с поддержкой RTL для арабского, бэкенд на Node.js с PostgreSQL и разграничение прав по ролям. Движок бронирования проверял бы конфликты дат внутри транзакции БД, чтобы исключить двойные брони. Изображения хранились бы в объектном хранилище, а репозиторий, домен, хостинг и доступы я бы передал на ваше имя с полной документацией.\n\nРеалистичные сроки: около 4–5 недель, разбивка по этапам: авторизация и профили, объявления и поиск, бронирование и заявки, админ-панель, затем тестирование и деплой.\n\nДва вопроса: какие функции обязательны к запуску, а какие могут подождать? Покрывает ли бюджет 750 USD весь объём или только первый этап?\n\nЖивые демо моих работ: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие функции обязательны к запуску, а какие можно сделать на следующем этапе?",
+    "Покрывает ли бюджет 750 USD весь объём работ или только первый этап?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835280",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-ads/Digital-Ads-Specialist-Spanish",
+  "title": "Digital Ads Specialist Spanish",
+  "description": "I manage several local-service brands in health, home and beauty and need a Spanish-speaking specialist who can take full ownership of our paid traffic on Meta, Google Ads and TikTok. Most accounts live or die by the volume and cost of leads generated through forms, calls and direct messages, so every action you take must move the CPL needle.\n\nYou will jump straight into live campaigns, audit pixel setups, deploy Conversions API when servers allow it, map custom events, build audiences and iterate creatives until the funnel converts reliably. If you already handle standard and custom events inside Meta Business Manager and GA4, you’ll feel right at home; if you have only touched Meta and Google so far but grasp the fundamentals, I’ll mentor you on TikTok.\n\nDay to day you will write and launch ads in native Spanish, optimise budgets, split-test hooks, monitor performance and report concise insights in English or Spanish, whichever is clearer for the data story. Most clients are brick-and-mortar or service businesses—think dental clinics, beauty salons, plumbers—so an instinct for geo-targeting and offer positioning is crucial.\n\nDeliverables I expect from you each month:\n• A channel-by-channel media plan with forecasted lead volumes\n• Clean tracking (pixels, CAPI, URL parameters) verified in Events Manager and Tag Manager\n• Weekly optimisation logs outlining bid, budget and creative changes\n• End-of-month summary deck with actions for the next sprint\n\nSuccess is accepted when tracking is lossless, cost per lead trends down or stays within target, and insights are delivered on time.\n\nReply with the platforms you have already mastered and the campaign types you’ve run so we can schedule a quick Spanish call and get started.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-25T13:10:56+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет испаноязычного специалиста по платной рекламе (Meta, Google Ads, TikTok) для ведения кампаний локальных сервисных бизнесов, оптимизации CPL и отчётности. Это маркетинговая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли в проекте техническая часть, например внедрение Conversions API или интеграция трекинга на сервере?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835277",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/image-recognition/Photo-Based-Product-Matching-Feature",
+  "title": "AI Photo-Based Product Matching Feature",
+  "description": "Our in-house application is ready for its first AI upgrade: when a user snaps or uploads a product photo, the system must immediately identify the item and suggest similar products drawn only from our own catalog. \n\nThat means building an image-recognition pipeline that can:\n• analyse a photo, guess the product with high confidence, \n• query our catalog for visually or semantically similar items, \n• return a ranked list the user can tap to continue shopping.\n\nI will supply the full product database, sample images, and API access to the existing app; you handle model selection or training (e.g., TensorFlow, PyTorch, OpenCV, or a cloud vision service), catalog-matching logic, and the integration hooks.\n\nDeliverables\n1. Trained or configured model packaged for production. \n2. Endpoint or library wired into the current codebase with clear documentation. \n3. Brief test plan proving that a new photo yields relevant suggestions from the catalog in under two seconds.\n\nAcceptance criteria\n• Top-3 suggestion accuracy above 80 % on our validation set. \n• No external data sources queried—only the internal catalog. \n• Code understandable by our team and ready for future feature additions.\n\nOnce the feature passes the tests, we will move straight to deployment.",
+  "budget": 25000.0,
+  "budget_min": 20000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T13:09:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужна функция распознавания товара по фото: модель определяет продукт и выдаёт ранжированный список похожих товаров только из внутреннего каталога клиента менее чем за 2 секунды. Бюджет невысокий для объёма работ по ML-пайплайну и интеграции.",
+   "reply": "You need a photo-to-catalog pipeline: the model identifies the product in a user's image and returns a ranked list of similar items from your own database, in under two seconds, with nothing pulled from outside sources. My plan is to compute image embeddings with a pretrained vision model (CLIP-style, or a fine-tuned CNN if your catalog needs it), index your product images in a vector store, and wrap the search in a single API endpoint the app can call. I'd measure top-3 accuracy on your validation set early, so we know whether fine-tuning is needed before building the full integration. Rough timeline: about 2 weeks for the pipeline, endpoint, and test plan, depending on catalog size.\n\nCould you share roughly how many products and images you have, and what stack the current app runs on?\n\nSee my portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен пайплайн «фото → каталог»: модель определяет товар на фото пользователя и возвращает ранжированный список похожих позиций из вашей базы менее чем за две секунды, без внешних источников данных. Я планирую получать эмбеддинги изображений с помощью предобученной модели компьютерного зрения (в стиле CLIP или дообученной CNN, если каталог того потребует), индексировать изображения товаров в векторном хранилище и обернуть поиск в один API-эндпоинт, который сможет вызывать приложение. Точность top-3 я сразу измерю на вашем валидационном наборе, чтобы понять, нужно ли дообучение, ещё до сборки полной интеграции. Ориентировочные сроки: около 2 недель на пайплайн, эндпоинт и план тестирования, в зависимости от размера каталога.\n\nНе могли бы вы примерно сказать, сколько у вас товаров и изображений и на каком стеке работает текущее приложение?\n\nПосмотреть портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько примерно товаров и изображений в каталоге?",
+    "На каком стеке работает текущее приложение и где должен размещаться новый эндпоинт?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835269",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/frontend-development/Urgent-Frontend-Bug-Fix",
+  "title": "Urgent Frontend Bug Fix",
+  "description": "I’m running into a stubborn issue on the frontend of my web app and need it resolved quickly. The UI misbehaves in production while everything looks fine locally, so I’m looking for a sharp pair of eyes to step in, isolate the root cause, and ship a solid fix.\n\nThe stack is React (functional components with hooks), Tailwind CSS, Vite, and the site is deployed on Netlify. You’ll receive access to the GitHub repo and a live staging link where the problem can be reproduced.\n\nDeliverables \n• A clear explanation of what went wrong and where (file + line references) \n• A clean code patch submitted via pull request, following existing lint rules \n• Verification that the affected page works smoothly on the latest Chrome, Firefox, Edge, and mobile Safari \n• A concise write-up of the testing steps you used so I can repeat them\n\nAcceptance criteria: zero new console errors, no layout shifts during interaction, and the current Lighthouse performance score must remain unchanged or better.\n\nIf you’re comfortable debugging React apps with browser DevTools and can turn this around fast, let’s get started.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T13:09:10+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 7,
+   "summary_ru": "Нужно найти и исправить баг интерфейса React-приложения, который проявляется только в продакшене (Netlify), хотя локально всё работает. Требуются объяснение причины, PR с патчем и проверка в четырёх браузерах при сохранении показателей Lighthouse и отсутствии новых ошибок в консоли.",
+   "reply": "Your UI works locally but breaks in production on Netlify, so the first step is reproducing it on the staging link and comparing the production build with the local dev setup. I'd check environment variables, differences between build and dev behavior, Tailwind classes that may be missing from the production CSS, and effect timing or state updates in the hooks. Once I've isolated the root cause, I'd send a write-up with file and line references, a PR that follows your lint rules, and a repeatable test checklist covering Chrome, Firefox, Edge, and mobile Safari, including console errors, layout shifts, and Lighthouse. For a bug like this, I'd expect initial findings within a day and the full fix within 2–3 days. Which page or interaction breaks, and did it start after a specific deploy? Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Ваше приложение работает локально, но ломается в продакшене на Netlify, поэтому первым делом я бы воспроизвёл проблему на staging-ссылке и сравнил продакшен-сборку с локальной средой разработки. Я бы проверил переменные окружения, различия в поведении сборки и dev-режима, Tailwind-классы, которые могли не попасть в продакшен-CSS, а также порядок эффектов и обновлений состояния в хуках. Когда причина будет найдена, я пришлю объяснение со ссылками на файлы и строки, PR, соответствующий вашим правилам линтера, и повторяемый чек-лист тестирования для Chrome, Firefox, Edge и мобильного Safari, включая ошибки в консоли, сдвиги вёрстки и Lighthouse. Для такого бага ориентировочно первые результаты будут в течение дня, полное исправление за 2–3 дня. Какая страница или взаимодействие ломается и не началось ли это после конкретного деплоя? Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какая именно страница или взаимодействие ломается в продакшене?",
+    "Появилась ли проблема после конкретного деплоя или изменения в зависимостях?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40834264",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-hw-sw/Build-Amazon-Walmart-Product-Research",
+  "title": "Build AI Amazon or Walmart Product Research MVP - Ai Agent",
+  "description": "Summary of the Freelancer job post: AI Amazon Product Research Agent (MVP)\n*********Please see the attached files for the complete project ********************\n\nWhat the client wants: A Python agent that finds Amazon products suitable for importing from China. It builds candidate lists, scores products, checks Google Trends, finds Alibaba suppliers, and calculates profit under normal and stressed conditions. It runs on a Linux cloud VPS on a schedule, and it only recommends. A human approves every purchase, supplier contact, and listing.\n\nHard rules:\n\nNo scraping Amazon. Use licensed sources only: Keepa, Jungle Scout or Helium 10, and Amazon SP-API.\n\nProduction runs on a Linux VPS, not a personal computer or shared hosting.\n\nThe developer builds everything from scratch in a new repository. The reference files are not a codebase to build on and do not override the post.\n\nTimeline: 2 weeks (10 working days)\n\nBudget: Pricing is based on the bidder’s proposed amount. Bidders should not ask for the client’s budget.\n\nStages: 0. Access and server setup (Days 1–2): Provision and harden the VPS, test each data source from the server, and document access.\n\nCandidate list builder (Days 2–5): Pull the top 100 items per category for 5 categories, deduplicate by ASIN, and group into niches. Deliverable: candidates.csv.\n\nFilters and scoring (Days 2–5): Apply hard exclusions, score products on weighted metrics, and rank them with source and date for every metric. Deliverable: ranked_products.xlsx.\n\nGoogle Trends (Days 7–8): Analyze the top 10 finalists for slope and seasonality, with charts. Deliverables: trend_scores.csv, trends_report.xlsx, charts/.\n\nSupplier finder (Days 7–8): Collect the top 3 Alibaba suppliers per finalist and flag risks. Deliverable: suppliers.csv.\n\nProfit calculator (Days 6–7, re-run after Stage 4): Calculate landed cost, fees, and net profit, with four stress scenarios. Deliverable: profit_model.xlsx.\n\nTesting (Days 8–9): Unit, error-handling, and hand-checked tests, run inside Docker on the VPS. Deliverables: tests/, test_report.md.\n\nDeployment and handover (Days 9–10): Deploy with Docker and cron, complete documentation, run the demo, and hold a 60-minute recorded walkthrough.\n\nDeployment requirements: Ubuntu 24.04 LTS (or current LTS), at least 2 vCPU, 4 GB RAM, and 40 GB SSD. SSH key login only, a firewall, automatic security updates, secrets kept out of Git, log rotation, a documented time zone, and a tested backup and restore.\n\nAcceptance: Every check is pass/fail against a specific file or observable result. A stage is complete only when all its checks pass. Sign-off requires all checks to pass, a completed demo run on the VPS, and the handover session.\n\nOut of scope (Phase 2): Monitoring and alerts, PDF reports, 1688 integration unless approved in week 1, automatic ordering or listing, and a web dashboard.\n\nBidders must provide: Confirmation of a from-scratch build, stage-by-stage pricing, stage estimates, experience with the named APIs and Linux/Docker deployment, a recommended VPS with monthly cost, a testing approach, any extra access needed, and availability.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "CAD",
+  "posted_at": "2026-11-25T13:03:08+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "calculator",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 5,
+   "summary_ru": "Нужен Python-агент для Linux VPS, который по расписанию собирает кандидатов из Amazon через лицензированные источники (Keepa, Jungle Scout/Helium 10, SP-API), скорит товары, проверяет Google Trends, находит поставщиков на Alibaba и считает прибыль в стресс-сценариях. Агент только рекомендует, решения принимает человек. Срок 2 недели, бюджет 750 CAD.",
+   "reply": "You want a Python agent that runs on a Linux VPS, pulls candidate Amazon products from licensed sources (Keepa, Jungle Scout or Helium 10, SP-API), scores them, checks Google Trends, finds Alibaba suppliers and models profit under stress scenarios, while leaving every decision to a human. I'd build it from scratch in a new repo: data-source clients first, then scoring and the profit calculator as plain Python with CSV/XLSX outputs, Docker for runtime and tests, and cron on an Ubuntu 24.04 VPS with hardening and a tested backup. I'd start the VPS and data-source checks on day one so any access problems surface early. I can price each stage separately and fit the plan into the 10 working days.\n\nDo you already have active Keepa and Jungle Scout or Helium 10 subscriptions, and can you provide SP-API access?\n\nSee my portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен Python-агент на Linux VPS, который собирает кандидатов из Amazon через лицензированные источники (Keepa, Jungle Scout или Helium 10, SP-API), скорит их, проверяет Google Trends, находит поставщиков на Alibaba и считает прибыль в стресс-сценариях, оставляя решения за человеком. Я бы строил всё с нуля в новом репозитории: сначала клиенты для источников данных, затем скоринг и калькулятор прибыли на обычном Python с выгрузкой в CSV/XLSX, Docker для запуска и тестов, а также cron на Ubuntu 24.04 VPS с харденингом и проверенным бэкапом. Проверку VPS и источников данных я начал бы в первый день, чтобы проблемы с доступом выявились сразу. Могу оценить каждый этап отдельно и уложиться в 10 рабочих дней.\n\nЕсть ли у вас уже активные подписки на Keepa и Jungle Scout или Helium 10, и можете ли вы предоставить доступ к SP-API?\n\nПосмотрите моё портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже активные подписки на Keepa и Jungle Scout или Helium 10?",
+    "Можете ли вы предоставить доступ к SP-API (учётная запись продавца или credentials)?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
+  "id": "freelancer:40835260",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-sheets/Spreadsheet-Data-Cleaning-Formatting",
+  "title": "Spreadsheet Data Cleaning & Formatting",
+  "description": "My sales and operations teams rely on several large Excel and Google Sheets files, but the data has drifted out of sync. I need someone who can jump in, sift through every row, and return clean, standardized spreadsheets that are easy to review and ready for analysis.\n\nHere’s the situation:\n• The bulk of the work is inside spreadsheet files (Excel and Google Sheets). \n• My primary goal is to clean and standardize the existing data—not just add new rows. \n• Key issues to fix include removing duplicate or repeated entries, filling in missing or incomplete information, and correcting inconsistent names, dates, numbers, or formatting.\n\nDeliverables I expect:\n1. A fully cleaned master spreadsheet for each file I provide, with no duplicates and uniform formatting throughout. \n2. A brief change log or comments sheet summarizing major fixes, assumptions made, and any records that still need clarification. \n3. A simple folder structure (or shared-drive layout) so anyone on my team can locate and review the updated documents quickly.\n\nAcceptance criteria:\n• Every duplicate is either removed or merged logically. \n• All mandatory fields are complete, or flagged if information truly cannot be located. \n• Dates, numbers, and text follow one consistent format across the workbook. \n• No formulas are broken; pivot tables and references still function after cleanup. \n• Work is delivered by the agreed deadline.\n\nYou can use any combination of Excel, Google Sheets, or data-cleaning add-ins—whatever lets you work fastest and most accurately. If you have questions about edge cases, ask before proceeding so we keep revisions minimal.\n\nOnce the spreadsheets are in shape, I’ll confirm everything line-by-line; prompt communication and meticulous attention to detail will make this smooth for both of us.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T13:00:29+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Клиент просит вручную очистить и стандартизировать большие Excel- и Google Sheets-файлы: убрать дубликаты, заполнить пропуски, привести даты, числа и текст к единому формату, а также оформить журнал изменений. Бюджет 25 USD, и работа предполагает построчную проверку, то есть в основном ручной труд.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Сколько строк и файлов нужно обработать и какие поля обязательны к заполнению?",
+    "Есть ли правила, по которым дубликаты нужно объединять, или их можно удалять без подтверждения?"
+   ]
+  },
+  "found_at": "2026-11-25T13:48:37+00:00"
+ },
+ {
   "id": "freelancer:40835186",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/cardano/Cardano-Wallet-Analytics-Build",
