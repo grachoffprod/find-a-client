@@ -1,5 +1,212 @@
 [
  {
+  "id": "freelancer:40835036",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Restaurant-Website-with-Online",
+  "title": "Restaurant Website with Online Reservations",
+  "description": "I am opening small restuarant soon and need someone can start this week, still have so many things to arrange.\nI don’t know technical things, so please explain simple and help me choose something easy to manage.\nLooking for one freelancer who can do both website design and building, with experience in restaurant websites.\nMaybe five pages is enough: home, menu, reservations, offers and contact, also must look good on phone.\nCustomers need choose date, time and guest number, receive email confirmation, and I need manage bookings without taking more guests than we have tables.\nPlease use an existing booking service and show me how to change menu prices and photos myself.\n\nMy starting budget is US$500-$1,500 fixed price for a simple website using a ready-made design, please send your full quote with payment stages.\nFor advertising, I need opening promotions, social media links and basic visitor tracking, please quote any paid advertising setup or management separately.\nOh also, list domain, hosting, booking subscription and advertising spend separately so I can understand ongoing costs.\nI hope first preview can be ready within one week and website live in 2-3 weeks after I provide menu, photos and business details.\nBefore finishing please test reservations on phone, give me ownership of all accounts and include 14 days of bug fixes after launch.\nSend two similar websites you made and earliest starting date, please quick responce because opening preparation already very busy.",
+  "budget": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T10:17:38+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 7,
+   "summary_ru": "Клиент открывает небольшой ресторан и хочет сайт из 5 страниц с адаптивным дизайном и онлайн-бронированием: выбор даты, времени и количества гостей, email-подтверждение и контроль заполненности столов. Нужна простая в управлении система, в которой владелец сам меняет меню, цены и фото. Бюджет 500–1500 USD, первый вариант нужен за неделю.",
+   "reply": "You need a five-page restaurant site that works well on phones, with an online booking form that sends email confirmations and stops accepting reservations once tables are full. I would start from a clean ready-made template so the first preview can be ready within a week. Then I would connect an existing booking service with table and seat limits, and set up the menu, prices and photos so you can edit them yourself. I would give you a short walkthrough, test reservations on several phones before launch, and include 14 days of bug fixes after release. Once I have your menu, photos and business details, the site can go live in 2–3 weeks.\n\nTwo questions: do you already have a booking service in mind, and how many tables or seats should the system limit per time slot?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен пятистраничный сайт ресторана, который хорошо работает на телефонах, с формой онлайн-бронирования: она отправляет email-подтверждения и перестаёт принимать заявки, когда столы заняты. Я бы начал с чистого готового шаблона, чтобы первый вариант был готов в течение недели. Затем я подключил бы существующий сервис бронирования с ограничением по столам и местам, а также настроил меню, цены и фото так, чтобы вы могли менять их сами. Я дам короткую инструкцию, протестирую бронирование на нескольких телефонах перед запуском и включу 14 дней исправления ошибок после релиза. Как только я получу меню, фото и данные о бизнесе, сайт можно запустить за 2–3 недели.\n\nДва вопроса: есть ли у вас уже выбранный сервис бронирования и сколько столов или мест система должна учитывать в каждом временном слоте?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже выбранный сервис бронирования или нужно подобрать подходящий простой вариант?",
+    "Сколько столов или мест система должна учитывать в каждом временном слоте?"
+   ]
+  },
+  "found_at": "2026-11-25T10:25:27+00:00"
+ },
+ {
+  "id": "freelancer:40835012",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-sheets/Extract-PDF-Data-Google-Sheets",
+  "title": "Extract PDF Data to Google Sheets",
+  "description": "I have a batch of PDFs and a few image files containing tabular information that needs to end up in a single, well-structured Google Sheet. The task is straightforward: open each PDF or image, copy the data exactly as shown (including any numbers, dates, or special characters), and paste it into the correct columns of the Sheet I will share with you.\n\nAccuracy matters more than speed—columns must line up perfectly and every value must match the source. Feel free to use OCR tools if that speeds you up, but double-check every entry manually before marking it complete.\n\nDeliverables: \n• A Google Sheets file populated with 100 % of the data from the supplied PDFs/images, formatted exactly like the sample tab I’ll provide. \n• A brief note in a separate tab listing any illegible entries or anomalies you encounter.\n\nI’ll send you the files and a link to the Sheet as soon as we start.",
+  "budget": 1250.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T10:16:29+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Клиент хочет перенести табличные данные из набора PDF и изображений в одну Google Sheets вручную, с полной сверкой каждого значения. Задача ближе к ручному вводу данных, чем к разработке, а бюджет низкий (1250 INR).",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Сколько всего файлов и примерно сколько строк данных нужно перенести?",
+    "Одинаковую ли структуру таблиц имеют все PDF и изображения, или есть несколько разных форматов?"
+   ]
+  },
+  "found_at": "2026-11-25T10:25:27+00:00"
+ },
+ {
+  "id": "freelancer:40835031",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-sheets/Live-Multi-City-Inventory-Dashboard",
+  "title": "Live Multi City Inventory Dashboard",
+  "description": "I keep all warehouse inventory in a single Google Sheet and want that data to flow into a cloud-based dashboard that updates the moment the sheet changes. The goal is simple: everyone—from employees on the floor to management and resellers—should be able to see what is in stock without touching the spreadsheet.\n\nThe dashboard must display multiple-warehouse visibility, brand- and product-level views, SKU snapshots, and a combined total that can still be broken down to show ready stock in Delhi and Mumbai. Customers will log in to view only the quantities reserved for them, while staff and management enjoy broader access. Every report needs an “Export to Excel” button, and the entire interface has to be mobile-friendly for quick checks on phones.\n\nI am open to the tool you prefer—Google Looker Studio, Power BI, Tableau, or a lightweight custom web app—provided it reads directly from the Google Sheet and refreshes instantly when I change a cell. Authentication can be Google sign-in or a simple role-based password system; whichever is fastest to manage.\n\nDeliverables \n• Live dashboard URL with employee, reseller, customer, and management roles pre-configured \n• Automated sync script or connector tied to the Google Sheet (no manual refresh) \n• Excel download option on each report view \n• Short handover guide covering user management and basic layout edits \n\nAcceptance: during a quick screen-share I will edit a value in the Google Sheet and watch it update on all relevant dashboard tiles—including the combined total and individual Delhi/Mumbai figures—within seconds.",
+  "budget": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T10:12:20+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 5,
+   "summary_ru": "Облачный дашборд складских остатков, который читает данные из одной Google-таблицы и обновляется сразу после изменений. Нужны роли (сотрудники, реселлеры, клиенты, менеджмент), разбивка по Дели и Мумбаи, экспорт в Excel и мобильная версия.",
+   "reply": "You want warehouse stock from one Google Sheet to appear on a live dashboard for staff, resellers, customers and management, with per-city totals for Delhi and Mumbai, Excel export, and a phone-friendly layout. I'd build a lightweight custom web app rather than a BI tool, because per-customer reserved quantities and role-based views are easier to control that way. The sheet would connect through the Google Sheets API with a service account, and an Apps Script edit trigger would push changes to the backend so every tile refreshes within seconds. Login would use Google sign-in or role-based passwords, whichever you prefer. I estimate about 10–14 days for a working version, including the handover guide.\n\nLive demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nCould you share the column layout of the sheet (warehouse, brand, SKU, reserved-for-customer)? And do you need Google sign-in, or are role-based passwords fine?\n\nYakov",
+   "reply_ru": "Вам нужно, чтобы остатки со склада из одной Google-таблицы появлялись на живом дашборде для сотрудников, реселлеров, клиентов и менеджмента, с итогами по Дели и Мумбаи, экспортом в Excel и удобной версией для телефона. Я бы сделал легковесное собственное веб-приложение, а не BI-инструмент, потому что резервы по каждому клиенту и представления по ролям так легче контролировать. Таблица подключалась бы через Google Sheets API с сервисным аккаунтом, а триггер Apps Script при каждом изменении отправлял бы данные на бэкенд, чтобы все плитки обновлялись в течение нескольких секунд. Вход можно сделать через Google или по паролям для каждой роли, на ваш выбор. Оценка: около 10–14 дней на рабочую версию, включая гайд по передаче.\n\nЖивые демо есть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nМожете показать структуру колонок таблицы (склад, бренд, SKU, резерв для клиента)? И нужен ли вход через Google или достаточно паролей по ролям?\n\nYakov",
+   "questions": [
+    "Какова структура таблицы: какие колонки отвечают за склад, бренд, SKU и резерв для клиента?",
+    "Нужен ли вход через Google, или достаточно логина и пароля по ролям?"
+   ]
+  },
+  "found_at": "2026-11-25T10:25:27+00:00"
+ },
+ {
+  "id": "freelancer:40834995",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/anaplan/Anaplan-Planning-Model",
+  "title": "Anaplan P&L Planning Model",
+  "description": "I need an experienced \"Anaplan Model Builder/Solution Architect\" (Certified Anaplan Solution Architect) to stand up the first pillar of our new financial-planning workspace: an end-to-end Profit & Loss statement planning model. The goal is to let our finance team create annual budgets and rolling forecasts directly in Anaplan, with driver-based calculations, version control, and intuitive dashboards.\n\nScope\n• Design the model schema, lists, and modules focused on P&L planning, tying naturally into future cash-flow and balance-sheet builds. \n• Configure data integrations for historical actuals (CSV/extracts from our ERP) and upload templates that business users can maintain. \n• Build calculation logic for revenue, COGS, OPEX, and EBITDA to support both annual budget and monthly forecast versions. \n• Create role-based UX pages so executives see a clean summary while analysts can drill into the underlying formulas. \n• Validate performance, run concurrency tests, and document the model structure so my team can own it after hand-off.\n\nAcceptance criteria\n1. P&L plan calculates correctly against a supplied test dataset. \n2. All input and reporting dashboards load in <5 seconds with 25 concurrent users. \n3. Documentation (model map + user guide) delivered in editable format. \n4. Knowledge-transfer session recorded.\n\nIf you’ve launched similar finance models and can start soon, let’s talk about timelines and milestones.",
+  "budget": 2500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T10:03:49+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет сертифицированного Anaplan-архитектора для построения модели планирования P&L (бюджеты, прогнозы, дашборды, интеграция с ERP-выгрузками) с бюджетом 2500 INR. Задача выполняется на платформе Anaplan и требует её сертификации, а не разработки на нашем стеке, и бюджет несопоставим с объёмом работ.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у заказчика уже развернутый Anaplan-воркспейс и лицензии, или их нужно подключать с нуля?",
+    "Каков реалистичный бюджет на весь объём работ, включая документацию и передачу знаний?"
+   ]
+  },
+  "found_at": "2026-11-25T10:25:27+00:00"
+ },
+ {
+  "id": "freelancer:40835007",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/nodejs/Build-Secure-Multi-Firm-Client",
+  "title": "Build a Secure Multi-Firm Client Portal for Divorce Law Firms (Azure + React + PostgreSQL)",
+  "description": "TRUE Peak LLC is hiring ONE company to build, host, test, and document Release 1 of a secure multi-firm client portal for divorce and family law firms. Agencies based in India are preferred. An independent company does the security review (priced separately, $1,500 to $1,800); you fix every finding it raises. The attached specification has full detail and overrides this post.\n\nWhy\nFirms and clients lose time and retainer money on back-and-forth emails about status and documents. The portal gives clear status and easy phone uploads.\n\nWho it's for\nU.S. divorce and family law firms, their attorneys and staff, and stressed clients, mostly on phones.\n\nWhat you deliver\n- Two-step login, 5 roles, cases, document checklists\n- Phone photos to one searchable PDF (quality flags, page order, HEIC)\n- Twilio text and email reminders (consent, STOP, HELP, quiet hours)\n- Staff alerts, timers, calendar, client timeline, physical records (disc, USB drive, mail/courier), access logs, import, export\n- Firm separation: firm_id on every row, PostgreSQL row-level security (RLS), two-firm tests\n- Azure hosting, backups, restore test, monitoring, launch\n- Phone and computer QA by people who didn't build each feature\n- Staff Training Manual, Client Guide, 14 training videos (MP4, captions, 2 to 8 min) for staff, admins, attorneys, clients\nNot included: payments, e-signature, e-filing, integrations, app store apps, chat.\n\nRequired skills\n- Multi-tenant SaaS shipped to production; TypeScript, React, Next.js, Node.js, REST APIs, PostgreSQL RLS\n- OAuth 2.0, OpenID Connect, MFA\n- Azure only, U.S. regions: App Service, Functions, PostgreSQL, Blob Storage, Key Vault, Application Insights, Communication Services; Bicep or Terraform; GitHub Actions\n- Image processing, PDF, Azure Document Intelligence; Twilio, A2P 10DLC, SPF, DKIM, DMARC\n- Playwright, Jest or Vitest, manual QA, writing, screen video\nNice to have: legal or healthcare portals, AZ-104 or AZ-305, ISTQB CTFL.\n\nCompany we want\nNamed roles (lead, developers, Azure engineer, QA, writer), live SaaS proof, clear English, honest dates.\n\nTimeline (target dates; flexible case by case if agreed in writing first)\nStart by Nov 30; mockups Dec 2.\n1. $1,800, Fri Dec 4: login, roles, firm separation, cases, checklists\n2. $1,700, Tue Dec 8: staging, photo-to-PDF, staff alerts, import\n3. $1,500, Fri Dec 11: remaining features, reminders, backups, monitoring\n4. $1,500, Wed Dec 16: security and QA fixes, production, handover\nScaled down if the total is lower. Dec 17 to 23: fixes-only buffer. Manual and videos: drafts Dec 18, final Dec 23. Milestone 4 is paid only after the security review is complete and all findings are fixed and re-checked. No one is paid in full until the security team has checked everything out. Training Dec 28 to 30. Launch Jan 1, 2027.\n\nHow we work\nOne lead. Daily written update by 9 AM Central; 2 hours overlap. Demos twice weekly. Changes priced in writing first. Milestones paid after TRUE Peak tests them.\n\nWarranty\nFree glitch fixes for 30 days after launch (Jan 1 to 31, 2027, including launch day).\n\nOpportunity\nFor the right team, temporary to permanent work: maintenance and new features as firms join.\n\nTerms\n- Signed NDA first (sent to shortlisted bidders before they propose). TRUE Peak LLC owns all work by assignment; all code and accounts in its name.\n- Never disable, lock, or shut down the portal or any account. Disputes via Freelancer.com only.\n- Made-up data only. No subcontracting, AGPL, or GPL without approval. You may not do the security review.\n\nProposal must include\n1. Stack and firm separation method\n2. Team names and roles\n3. Live SaaS link or demo, code sample, guide or video\n4. Quote per milestone, total $5,500 to $6,500, for the full Release 1 scope in the spec. Build labor only: TRUE Peak pays Azure, Twilio, and Document Intelligence charges directly.\n5. Confirm dates and warranty\n\nProposals over $6,500, or that cannot target December 16, 2026, will not be considered.",
+  "budget": 6500.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T10:01:00+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 3,
+   "summary_ru": "Заказчик ищет команду для разработки Release 1 мультифирменного клиентского портала для юридических фирм по разводам: двухфакторный вход, 5 ролей, изоляция данных между фирмами через PostgreSQL RLS, фото в PDF, напоминания через Twilio, хостинг в Azure, а также 14 обучающих видео и руководства. Бюджет до 6500 USD, срок до 16 декабря 2026 г. Объём работ очень большой для такого бюджета и срока.",
+   "reply": "You need a multi-firm client portal for divorce firms: two-step login, five roles, firm separation enforced with PostgreSQL RLS, phone photo-to-PDF, Twilio reminders, and Azure hosting. I would start with the foundation (auth, roles, firm_id on every table with RLS and two-firm tests), since everything else depends on it. Then I would move to staging, photo-to-PDF, and alerts, and finish with reminders, backups, and launch. I would build it with React, TypeScript, Node.js, and PostgreSQL, using AI-assisted development to keep the pace up. Milestone 1 by Dec 4 is realistic for me. The full scope by Dec 16 is tight, so I would like to agree on which parts can move past launch. Quote: M1 $1,800, M2 $1,700, M3 $1,500, M4 $1,500 (total $6,500). Live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен мультифирменный клиентский портал для фирм по разводам: двухфакторный вход, пять ролей, изоляция данных между фирмами через PostgreSQL RLS, перевод фото в PDF, напоминания через Twilio и хостинг в Azure. Я бы начал с основы (аутентификация, роли, firm_id в каждой таблице с RLS и тестами на две фирмы), так как от неё зависит всё остальное. Затем перешёл бы к стейджингу, фото в PDF и оповещениям, а завершил бы напоминаниями, бэкапами и запуском. Собирал бы на React, TypeScript, Node.js и PostgreSQL, используя разработку с ИИ-ассистентами, чтобы держать темп. Милестоун 1 к 4 декабря для меня реалистичен. Полный объём к 16 декабря — очень жёсткий срок, поэтому хотел бы согласовать, какие части могут уйти после запуска. Стоимость: M1 $1,800, M2 $1,700, M3 $1,500, M4 $1,500 (итого $6,500). Живые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Уже подана регистрация A2P 10DLC для Twilio, и кто будет владеть доступом к подписке Azure?",
+    "Какие части Release 1 нужны к 16 декабря обязательно, а что можно перенести после запуска, например видео и руководства?"
+   ]
+  },
+  "found_at": "2026-11-25T10:25:27+00:00"
+ },
+ {
+  "id": "freelancer:40835011",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/penetration-testing/Independent-security-penetration-review",
+  "title": "Independent security and penetration review of a multi-firm law client portal (Azure)",
+  "description": "TRUE Peak LLC, doing business as TRUE Peak Management Group, needs an independent security and penetration review of our multi-firm client portal before launch. The portal is sold to divorce and family law firms and stores sensitive case documents. Reviewers based in India are preferred.\n\nIndependence\nOne build company builds, hosts, and tests the portal, and must fix every finding you raise. You re-check every fix. You must not be connected to, employed by, or subcontracted by that company or anyone working on this project. Confirm this in your proposal.\n\nWhat you are testing\nNext.js and Node.js (TypeScript) on Microsoft Azure U.S. regions: App Service, Azure Functions, Azure Database for PostgreSQL flexible server with row-level security, Blob Storage with signed links, Key Vault, sign-in through Microsoft Entra External ID or Auth0, Twilio texts, Azure Communication Services email.\n\nScope (hands-on, not only an automated scan; made-up data only)\n- Login, two-step verification, sessions\n- Roles: firm admin, attorney, staff, client see only what they should\n- Firm separation: with two made-up firms, no cross-firm access, even by changing IDs or links\n- File upload and storage, signed link expiry\n- Encryption in transit and at rest; access logs\n- Azure setup: storage access, nothing public, backups not reachable\n- Text and email webhooks and opt-out handling\n- OWASP Top 10 risks that could expose or change client files\n\nRequired skills\n- Manual web app testing to the OWASP Web Security Testing Guide, ASVS, and Top 10\n- Multi-tenant authorization testing (ID changes, role escalation, cross-firm access)\n- Burp Suite Professional\n- OAuth 2.0, OpenID Connect, and MFA testing\n- File upload testing and Azure configuration review\n- Clear reports with CVSS severity\nNice to have: OSCP or OSWE (OffSec), Burp Suite Certified Practitioner (PortSwigger), CREST Registered Penetration Tester (CRT).\nProof: a redacted sample report you wrote, plus certification IDs if held.\n\nDeliverables\n- Plain-language report, findings ranked by severity, steps to reproduce, clear fixes\n- One-page summary for a non-technical owner\n- Re-check of every fix, with written pass or fail per finding\n- Written sign-off once every finding is fixed and re-checked (the build company's final payment waits for it)\n- Written confirmation that access is returned and copies deleted\n\nTimeline (confirm you can meet these)\n- Test plan by December 2; NDA and access before December 8\n- Staging ready Tuesday December 8 with two made-up firms and logins for every role\n- December 8 to 10: core areas first; report critical findings the same day; interim findings Thursday December 10\n- Every feature in staging Friday December 11; full report Saturday December 12\n- Retest of critical and high fixes Tuesday December 15 to Wednesday December 16, written pass or fail\n- December 17 to 23 is a buffer for fixes only; re-check remaining fixes and give final sign-off by Wednesday December 23. Training December 28 to 30; launch January 1, 2027\n\nPayment\nFixed price, $1,500 to $1,800, through Freelancer.com Milestone Payments: report, then retest and final sign-off.\n\nRequired terms\n- Signed TRUE Peak NDA before any details, files, or access are shared.\n- TRUE Peak LLC owns the report, scripts, and notes from creation, by assignment.\n- Invitation-only access to staging and accounts TRUE Peak owns; separate limited login; least necessary access, removed at the end.\n- You may never disable, lock, or restrict the portal or any account, and no tests that take staging down without written approval. Disputes go through Freelancer.com only.\n- No real client data. If you see what looks like real client data, stop and tell us at once.\n- No subcontracting or shared access without written approval. No reuse or disclosure of confidential information. Do not copy data to personal devices.\n\nPlease apply with your fixed-price quote, dates, and the proof above.",
+  "budget": 1800.0,
+  "currency": "USD",
+  "posted_at": "2026-11-25T09:58:07+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Заказчик ищет независимого специалиста по безопасности для проведения ручного пентеста и аудита многофирменного клиентского портала для юридических компаний на Azure, с перепроверкой исправлений и сертификатами OSCP/CREST/Burp. Это услуга по безопасности, а не разработка, поэтому она не входит в список услуг Яков��.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только проверка и отчёт, или также исправление найденных уязвимостей?",
+    "Рассматриваете ли вы фрилансера без сертификатов OSCP, OSWE или CRT, если есть подтверждённый опыт тестирования многопользовательской авторизации?"
+   ]
+  },
+  "found_at": "2026-11-25T10:25:27+00:00"
+ },
+ {
+  "id": "freelancer:40834976",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Coaching-websites",
+  "title": "Coaching websites",
+  "description": "To get accurate bids and avoid scope creep on a freelancer platform, organize your post around **segmented tracks** (Olympiads, Class 6–10 Foundation, NEET, and IIT JEE) and **core functional modules** (live classes, recordings, notes, payments, student dashboard, test dashboard, and admin controls).\n\nA complete project brief you can copy and paste into your freelancer job post follows below, along with practical tips for hiring and structuring milestones.\n\n---\n\n## Ready-to-Post Freelancer Project Brief\n\n> **Project Title:** Multi-Track Online Coaching & Test Series Website (Olympiads, Class 6–10 Foundation, NEET & IIT JEE)\n> **Overview:**\n> I am looking for an experienced full-stack web developer or agency to build a responsive online coaching and test platform for four distinct academic verticals: **Olympiads**, **Basic Foundation (Classes 6–10)**, **NEET**, and **IIT JEE**. Each vertical must operate as a clearly separated learning track with its own courses, batches, schedules, study materials, and tests, while sharing a unified user account and payment system.\n> **1. Four Separated Academic Verticals**\n> * **Olympiads Track:** Subject/exam-wise batches and practice resources.\n> * **Foundation Track (Classes 6–10):** Class-wise and subject-wise batches aligned with school fundamentals.\n> * **NEET Track:** Physics, Chemistry, and Biology batches, test series, and revision modules.\n> * **IIT JEE Track:** Physics, Chemistry, and Mathematics batches (Main/Advanced structure), test series, and practice sets.\n> * Students must be able to filter by vertical, class/target year, and batch, and only access content unlocked by their active enrollment.\n> \n> \n> **2. Live Classes & Recorded Lectures**\n> * **Live Lectures:** Batch-wise class schedule/timetable, join-class links or embedded live stream integration (e.g., Zoom/YouTube Live/Vimeo/WebRTC/streaming SDK), attendance or join tracking, and real-time or scheduled doubt support.\n> * **Recorded Lectures:** Auto-archived or uploaded class recordings organized by vertical, batch, subject, and chapter, with playback speed controls, quality options, watch-progress tracking, and basic screen-recording/piracy deterrents (such as dynamic user watermarking and restricted direct downloads).\n> \n> \n> **3. Notes & Study Material Access**\n> * Chapter-wise PDF notes, class slides, DPPs (Daily Practice Problems), and assignments mapped to each batch.\n> * In-browser PDF viewer with controlled download permissions (downloadable vs. view-only based on course settings).\n> \n> \n> **4. Payment Gateway & Enrollment**\n> * Checkout supporting UPI, cards, net banking, and wallets (e.g., Razorpay/Stripe/Cashfree as appropriate for your region), plus coupon/discount codes, course validity dates, automatic access activation upon successful payment, and downloadable/viewable payment receipts.\n> \n> \n> **5. Student Dashboard**\n> * Enrolled batches across verticals, upcoming live classes, recently watched recordings, bookmarked notes/questions, course expiry/validity status, profile settings, and overall progress summary.\n> \n> \n> **6. Test Dashboard & Assessment Engine**\n> * Support for full-length mocks, part/chapter tests, and practice tests with configurable timers, negative marking rules, question palettes (answered, unanswered, marked for review), auto-submit on timeout, and a post-test analytics report (score, accuracy, time per question, topic-wise strengths/weaknesses, and rank/percentile comparison where applicable).\n> * Support for math and science notation (such as LaTeX/MathJax) and diagrams in questions and solutions.\n> \n> \n> **7. Admin / Teacher Panel (Essential for Running the Site)**\n> * Create and manage verticals, classes/batches, subjects, chapters, live class schedules, video/PDF uploads, pricing/coupons, test papers/question banks, and student enrollments/refunds.\n> \n> \n> **8. Technical & Delivery Expectations**\n> * Mobile-responsive design (since many students study on phones and tablets), clean UI/UX, role-based access control (Student, Teacher/Admin), deployment to live hosting/cloud, source code handover, and brief documentation/walkthrough.\n> * Please include in your proposal: (a) recommended tech stack, (b) how you handle video hosting/security and test timers, (c) estimated timeline and cost broken down by milestones, and (d) links to relevant past work.",
+  "budget": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-25T09:31:39+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Заказчик ищет разработчика для многотрековой платформы онлайн-коучинга и тестов (олимпиады, 6–10 классы, NEET, IIT JEE) с живыми занятиями, записями, тестовым движком, личными кабинетами и админ-панелью. Бюджет 37 500 INR явно не покрывает полный объём.",
+   "reply": "You're building a multi-track coaching platform: four separate verticals (Olympiads, Foundation 6–10, NEET, IIT JEE) on one shared account system, with live classes, recordings, notes, a timed test engine with analytics, and an admin panel. At 37,500 INR the full scope is a lot, so I'd split it into milestones: first accounts, the vertical and batch catalog, enrollment-gated content and a basic admin panel; then the test engine with analytics; then live-class and recording features. I'd build on a modern stack and use AI-assisted development, which keeps the first milestone to roughly 3–4 weeks. Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nIs the 37,500 INR budget for the full scope or only the first milestone? Which live streaming provider do you plan to use (Zoom, YouTube Live, or WebRTC)?\n\nYakov",
+   "reply_ru": "Вы создаёте платформу онлайн-коучинга с несколькими направлениями: четыре отдельных трека (олимпиады, фундамент 6–10 классы, NEET, IIT JEE) на общей системе аккаунтов, с живыми занятиями, записями, конспектами, тестовым движком с аналитикой и админ-панелью. При бюджете 37 500 INR полный объём большой, поэтому я бы разбил работу на этапы: сначала аккаунты, каталог направлений и групп, контент с доступом по записи и базовая админ-панель; затем тестовый движок с аналитикой; потом функции для живых занятий и записей. Я бы работал на современном стеке с помощью ИИ-ассистентов в разработке, что позволяет уложить первый этап примерно в 3–4 недели. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nБюджет 37 500 INR рассчитан на полный объём или только на первый этап? Какой сервис для живых трансляций вы планируете использовать (Zoom, YouTube Live или WebRTC)?\n\nЯков",
+   "questions": [
+    "Бюджет 37 500 INR рассчитан на полный объём или только на первый этап?",
+    "Какой сервис для живых трансляций вы планируете использовать (Zoom, YouTube Live или WebRTC)?"
+   ]
+  },
+  "found_at": "2026-11-25T10:25:27+00:00"
+ },
+ {
   "id": "kwork:3275484",
   "source": "kwork",
   "url": "https://kwork.ru/projects/3275484",
