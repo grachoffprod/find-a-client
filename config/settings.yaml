@@ -13,6 +13,7 @@ notify:
   max_per_run: 1            # send only the single best job per run (one per hour)
   priority_sources: [freelancer]   # these sources get a score bonus and are analyzed first
   priority_bonus: 3
+  max_other_per_run: 2       # plus up to 2 best jobs from other sources (Telegram, Russian sites), send-only
 
 bid:                         # auto-bid on Freelancer.com (needs FREELANCER_TOKEN + FREELANCER_USER_ID secrets)
   enabled: true
@@ -33,4 +34,5 @@ health:
   fail_threshold: 3          # Send a Telegram alert after this many consecutive failures.
 
 sources:
-  enabled: [freelancer, hn, pph]   # only international sites; Russian ones removed (no IBAN/crypto/EUR-card payouts)
+  enabled: [freelancer, hn, pph, flru, kwork, freelance_ru, telegram]   # Russian sources are send-only (no auto-bid)
+  telegram_channels: [freelancetaverna, zakazy_freelance, freelancce, theyseeku, normrabota]

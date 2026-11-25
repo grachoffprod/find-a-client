@@ -150,6 +150,11 @@ def run(sources: dict[str, Callable[[], list[Job]]], settings: dict, topics: dic
                 if tried:
                     chosen = tried[:1]
                     notes[tried[0][1].id] = "\n".join(notes[c[1].id] for c in tried)
+        # Russian-language / other sources: send-only (no auto-bid), best N per run on top.
+        extra_n = notify_cfg.get("max_other_per_run", 0)
+        if bidder and extra_n:
+            others = [c for c in candidates if c[1].source != "freelancer" and c not in chosen]
+            chosen = chosen + others[:extra_n]
         for _, j, a in chosen:
             if stats["sent"] or stats["send_failed"]:
                 time.sleep(delay)
@@ -179,7 +184,10 @@ def build_sources(settings: dict, client) -> dict[str, Callable[[], list[Job]]]:
         if fetch is None:
             _log(f"⚠️ Unknown source in settings.yaml: {name!r} — skipping. Available: {', '.join(SOURCES)}")
             continue
-        sources[name] = partial(fetch, client)
+        if name == "telegram":
+            sources[name] = partial(fetch, client, settings["sources"].get("telegram_channels") or [])
+        else:
+            sources[name] = partial(fetch, client)
     return sources
 
 
