@@ -1,5 +1,278 @@
 [
  {
+  "id": "freelancer:40837491",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ios/Dual-Side-Service-Booking-App",
+  "title": "Dual-Side Service Booking App",
+  "description": "I need a mobile application that lets customers and service providers interact around three core workflows: booking, task tracking, and schedule management. Customers should be able to browse a marketplace of providers, see real-time availability, reserve a slot, pay, rate the service, and share their experience through a light social feed. On the other side, providers must have a dashboard to accept or decline bookings, create internal tasks, and view their staff roster in a calendar view.\n\nThe app must keep both roles in a single code-base (iOS and Android) with a secure login, push notifications, and a clean admin panel where I can edit listings, adjust working hours, and moderate ratings or social posts. \n\nAcceptance criteria – once installed, a new user can: \n• sign up as customer or provider \n• search or list services in the marketplace \n• complete a booking with confirmation and payment stub \n• open a personal task list and mark items done \n• view or publish ratings that become visible instantly \n• post a photo or short update in the social channel \n• receive a push notification for every status change \n\nSource code, database schema, and brief build instructions are part of the final hand-off so I can continue maintenance in-house.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T18:20:51+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 4,
+   "summary_ru": "Заказчик хочет одно кроссплатформенное мобильное приложение для iOS и Android, где клиенты бронируют услуги у провайдеров, а провайдеры управляют заявками, задачами и расписанием персонала. В задачу входят ратинги, социальная лента, push-уведомления и админ-панель для модерации.",
+   "reply": "You need a single cross-platform app where customers book services and providers manage bookings, tasks and staff schedules, plus ratings, a social feed, push notifications and an admin panel. I'd build it as one codebase for iOS and Android, starting with the core flows: role-based sign-up, provider listings with live slot availability, booking with confirmation, and push notifications for every status change. Ratings, the feed and moderation tools would follow in the same sprint structure. With a modern stack and AI-assisted development, I could deliver a first working version in about 4–6 weeks, with source code, database schema and build instructions handed over. The scope is large for the budget, so I'd suggest keeping the first release to your acceptance criteria and moving the rest to a second phase. Do you already have a preferred cross-platform framework, and is the social feed required in the first release? You can see my live demos at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно одно кроссплатформенное приложение, где клиенты бронируют услуги, а провайдеры управляют заявками, задачами и расписанием персонала, плюс ратинги, социальная лента, push-уведомления и админ-панель. Я бы сделал одну кодовую базу для iOS и Android, начав с основных сценариев: регистрация с выбором роли, карточки провайдеров с актуальной доступностью слотов, бронирование с подтверждением и push-уведомления о каждом изменении статуса. Ратинги, лента и инструменты модерации пойдут следующими спринтами. С современным стеком и разработкой с помощью ИИ-ассистентов я могу сдать первую рабочую версию примерно за 4–6 недель, с исходным кодом, схемой базы данных и инструкцией по сборке. Объём большой для бюджета, поэтому предлагаю ограничить первый релиз вашими критериями приемки, а остальное вынести во второй этап. У вас уже есть предпочитаемый кроссплатформенный фреймворк и нужна ли социальная лента в первом релизе? Мои живые демо здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас предпочитаемый кроссплатформенный фреймворк (например, React Native или Flutter), или выбор технологии за мной?",
+    "Социальная лента и модерация отзывов обязательны в первом релизе или их можно вынести во второй этап?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
+  "id": "freelancer:40837484",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/accounting/Excel-Invoice-Recording-Reconciliation-40837484",
+  "title": "Excel Invoice Recording & Reconciliation - 26/11/2026 13:08 EST",
+  "description": "My income, expense, and invoice data lives in a set of Excel/Google Sheets files, but the information has outgrown the simple tabs I created. I need a detail-oriented bookkeeper to bring structure to these sheets by accurately recording every transaction, matching each sale to its corresponding payment, and ensuring all outstanding invoices have a clear status. \n\nThe core of the assignment is two-fold: first, capture and organise the raw numbers so every line item is entered consistently; second, reconcile the sales, invoice, and payment records so that each figure ties back without discrepancies. Once the cleanup is complete, I want a concise reconciliation summary that I can reference quickly for month-end reviews. \n\nDeliverables \n• Updated Excel/Google Sheets workbook with all income, expenses, and invoices recorded and cross-checked \n• Reconciliation tab or report showing matched payments vs. sales and any variances clearly flagged \n• Brief overview outlining issues found, actions taken, and recommendations for keeping the data current going forward \n\nAccuracy and clarity are key. If you have a reliable workflow for handling large Excel datasets and a sharp eye for resolving mismatches, I’m ready to get started right away.",
+  "budget": 50.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T18:20:46+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Клиент просит навести порядок в таблицах Excel/Google Sheets с доходами, расходами и счетами: вручную внести все операции, сверить продажи с платежами и подготовить сводку для закрытия месяца. Это бухгалтерская работа по ручному вводу и сверке данных, а не разработка, поэтому проект не подходит под услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разовая ручная сверка данных или вы хотите регулярную автоматическую синхронизацию между таблицами и платежной системой?",
+    "Из каких источников приходят платежи (банк, платежная система, CRM) и есть ли у них выгрузки или API?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
+  "id": "freelancer:40837479",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/accounting/Excel-Invoice-Recording-Reconciliation",
+  "title": "Excel Invoice Recording & Reconciliation",
+  "description": "My income, expense, and invoice data lives in a set of Excel/Google Sheets files, but the information has outgrown the simple tabs I created. I need a detail-oriented bookkeeper to bring structure to these sheets by accurately recording every transaction, matching each sale to its corresponding payment, and ensuring all outstanding invoices have a clear status. \n\nThe core of the assignment is two-fold: first, capture and organise the raw numbers so every line item is entered consistently; second, reconcile the sales, invoice, and payment records so that each figure ties back without discrepancies. Once the cleanup is complete, I want a concise reconciliation summary that I can reference quickly for month-end reviews. \n\nDeliverables \n• Updated Excel/Google Sheets workbook with all income, expenses, and invoices recorded and cross-checked \n• Reconciliation tab or report showing matched payments vs. sales and any variances clearly flagged \n• Brief overview outlining issues found, actions taken, and recommendations for keeping the data current going forward \n\nAccuracy and clarity are key. If you have a reliable workflow for handling large Excel datasets and a sharp eye for resolving mismatches, I’m ready to get started right away.",
+  "budget": 50.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T18:19:16+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Клиент просит вручную привести в порядок таблицы Excel/Google Sheets с доходами, расходами и счетами: внести все операции, сверить продажи с платежами и подготовить сводку по расхождениям. Это бухгалтерская ручная работа с данными, а не разработка, поэтому проект не подходит под услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам разовая очистка таблиц или регулярная автоматическая синхронизация данных с платёжной системой или банком?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
+  "id": "freelancer:40837481",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/InkSoft-Private-Store-Setup",
+  "title": "InkSoft Private Store Setup",
+  "description": "Proposal for InkSoft Private Stores Setup\n\nHello,\n\nI am interested in working on your InkSoft Private Stores Setup project.\n\nI am passionate about design and e-commerce, and I am eager to help create clean, professional, and user-friendly private online stores.\n\nI am committed to:\n\n* Creating attractive and professional store designs.\n* Organizing products and images.\n* Helping configure private store access.\n* Ensuring a user-friendly experience across devices.\n* Following your project requirements carefully.\n\nI am reliable, dedicated, and ready to discuss your project requirements.\n\nThank you for considering my proposal.\n\nBest regards",
+  "budget": 100000.0,
+  "budget_min": 100000.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T18:04:30+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчик ищет исполнителя для настройки приватных магазинов на платформе InkSoft: дизайн витрины, загрузка и организация товаров и изображений, настройка доступа. Это работа на готовой no-code платформе, без разработки собственного функционала.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли кастомная разработка сверх стандартных возможностей InkSoft, или задача ограничивается настройкой готового магазина?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
+  "id": "freelancer:40837402",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-hw-sw/Ops-Virtual-Assistant-Needed",
+  "title": "AI Ops Virtual Assistant Needed",
+  "description": "I need an organised, tech-savvy virtual assistant who can harness AI tools to bring order to my projects. Right now every to-do lives in scattered spreadsheets, loose notes, and long email threads; nothing is centralised and deadlines slip through the cracks. Your main job will be to capture every task, assign or confirm realistic due dates, and keep me on track with timely reminders.\n\nWhenever you spot an item without a clear deadline you will ask me to set one, then log it so nothing stalls. While the focus is daily organisation, feel free to suggest automations—whether that’s ChatGPT prompts, Zapier zaps, or integrations with Trello, Asana, ClickUp, or Google Workspace—so the system runs itself as much as possible.\n\nDeliverables\n• A consolidated task board (tool of your choice) populated from my current spreadsheets, notes, and emails \n• Daily digest of upcoming deadlines and overdue items sent to my inbox \n• Weekly progress summary highlighting wins, bottlenecks, and any tasks awaiting my input on dates \n• On-demand quick check-ins whenever you need clarification so decisions never block progress\n\nClear, concise communication, a knack for proactive follow-up, and demonstrated experience setting up AI-driven task workflows will make us a great fit.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T17:53:49+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 3,
+   "summary_ru": "Клиент ищет виртуального ассистента на постоянную работу: собрать задачи из таблиц, заметок и писем в одну доску, присылать ежедневные дайджесты и еженедельные отчёты, а также при необходимости предлагать автоматизации (ChatGPT, Zapier, Trello/Asana/ClickUp). Основная часть — ручная организационная работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли постоянная ассистентская работа или разовая настройка автоматизации (доска задач, Zapier-сценарии, ежедневный дайджест)?",
+    "Какие инструменты уже используются (Google Workspace, Trello, Asana, ClickUp) и есть ли готовые API-доступы?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
+  "id": "freelancer:40837475",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-developmet/Busy-ERP-Automatic-Data-Sync",
+  "title": "Busy ERP Automatic Data Sync",
+  "description": "I need a seamless link that pushes data from my existing ERP straight into Busy the moment it is created or updated. The sync must cover three record groups—sales invoices with customer details, purchase bills with supplier details, and all stock items with their current quantities—so that Busy is always holding the same information my own system shows in real-time. \n\nMy ERP is fully accessible through REST endpoints, and I expect you to use Busy’s API, SDK, or any other officially supported method so the transfer remains reliable and update-safe. Once set up, no manual clicks should be required; the integration should watch for new or modified records and post the corresponding JSON (or XML, if Busy prefers) instantly. \n\nDeliverables: \n• A deployable integration service or module with configurable credentials and endpoints \n• Clear installation and configuration instructions for my IT team \n• A short test plan plus evidence that data is flowing correctly for all three record types \n\nIf you have previous experience with Busy integrations, inventory modules, or high-volume API automation, you’ll jump right to the top of my list.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T17:52:50+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Клиент хочет автоматическую синхронизацию данных из своей ERP в Busy: счета на продажу, счета поставщиков и остатки товаров должны передаваться сразу при создании или изменении записи, без ручных действий. Нужны сервис с настраиваемыми учетными данными, инструкция по установке и тест-план.",
+   "reply": "You need ERP records (sales invoices, purchase bills, stock items) pushed into Busy as soon as they change, with no manual steps. I would build a small service that listens to your ERP's REST endpoints (webhooks if available, otherwise short-interval polling based on change timestamps), maps each record group to the format Busy's import interface accepts, and posts it with retries and a log of every transfer. Credentials and endpoints would sit in a config file, and the test plan would check all three record types end to end. A first working version covering all three groups would take roughly 2–3 weeks, depending on how Busy's import is set up.\n\nTwo questions: do your ERP endpoints support webhooks or change timestamps, and which Busy version and edition do you run?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно, чтобы записи из ERP (счета на продажу, счета поставщиков, товарные остатки) сразу передавались в Busy при создании или изменении, без ручных действий. Я бы сделал небольшой сервис, который отслеживает REST-эндпоинты вашей ERP (если есть вебхуки, то их, иначе опрос с коротким интервалом по меткам времени изменений), приводит каждую группу записей к формату, который принимает импорт Busy, и отправляет их с повторными попытками и журналом каждой передачи. Учетные данные и эндпоинты будут в конфигурационном файле, а тест-план проверит все три типа записей от начала до конца. Первая рабочая версия со всеми тремя группами займет примерно 2–3 недели, в зависимости от того, как настроен импорт в Busy.\n\nДва вопроса: поддерживают ли эндпоинты вашей ERP вебхуки или метки времени изменений, и какую версию и редакцию Busy вы используете?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Поддерживают ли REST-эндпоинты вашей ERP вебхуки или фильтрацию по времени изменения записей?",
+    "Какую версию и редакцию Busy вы используете и есть ли у вас доступ к его API или импорту XML/JSON?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
+  "id": "freelancer:40837466",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Fastener-Quote-Request-WordPress-Site",
+  "title": "Fastener Quote Request WordPress Site",
+  "description": "I need a WordPress expert to build a modern, mobile-friendly site for TFO FASTENER that helps visitors request quotes quickly and easily. The core function is a streamlined form that captures product type, quantity and contact details; everything on the site should guide users toward that action.\n\nThe layout will highlight our most in-demand groups—bolts, nuts and washers—on the home page and in a dedicated products section, with clean imagery and concise specs so customers can identify what they need before filling in the form. I already have branding elements and product photos ready for you.\n\nPlease set the site up on WordPress with a responsive theme, intuitive navigation and basic on-page SEO. Once complete, I expect:\n• A live, fully responsive site hosted on our server \n• The custom quote-request form integrated and tested (email notifications included) \n• Pages for Home, Products, About, Contact/Request a Quote, plus any supporting legal pages \n• Clear instructions for updating product details in the future\n\nIf you can bring strong UX insight, fast turnaround and clean code, let’s get started.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T17:45:43+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Нужен адаптивный сайт на WordPress для производителя крепежа TFO FASTENER с формой запроса коммерческого предложения (тип товара, количество, контакты) и уведомлениями на email. Также требуются разделы с продукцией (болты, гайки, шайбы), юридические страницы и инструкция по обновлению товаров. Бюджет 12 500 INR.",
+   "reply": "You need a mobile-friendly WordPress site for TFO Fastener where the main goal is a quick quote request, with bolts, nuts and washers front and center on the home page. I would set up a responsive theme with simple navigation, a products section with your photos and short specs, basic on-page SEO, and a quote form that captures product type, quantity and contacts, tested with email notifications. I'd also add the Home, Products, About, Contact and legal pages, plus a short guide for updating products. Working with a modern stack and AI-assisted development, I can deliver a first full version in about 5–7 days, then adjust after your review. Do you already have a preferred WordPress theme or should I choose one? And will the site need more than one language?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен адаптивный сайт на WordPress для TFO Fastener, главная задача которого — быстро получить запрос коммерческого предложения. На главной странице болты, гайки и шайбы будут на первом месте. Я настрою адаптивную тему с простой навигацией, раздел с продукцией с вашими фото и короткими характеристиками, базовое SEO для страниц и форму запроса, которая собирает тип товара, количество и контакты, с проверенными email-уведомлениями. Также добавлю страницы «Главная», «Продукция», «О компании», «Контакты» и юридические страницы, а также короткую инструкцию по обновлению товаров. Работая с современным стеком и разработкой с помощью ИИ-ассистентов, могу сделать первую полную версию примерно за 5–7 дней, а затем доработать по вашему ревью. У вас уже есть предпочитаемая тема WordPress или её нужно подобрать? И понадобится ли сайт более чем на одном языке?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже выбранная тема WordPress или её нужно подобрать?",
+    "Нужен ли сайт на нескольких языках?",
+    "Какой хостинг или сервер будет использоваться и есть ли доступ к нему?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
+  "id": "kwork:3271725",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3271725",
+  "title": "Поиск заказчиков на разработку сайтов",
+  "description": "Нужно привлечение заказчиков, которым нужна разработка сайтов: лендинги, многостраничники, интернет-магазины. \nЯ фронтенд-разработчик, делаю сайты. Нужен человек, который будет находить заказчиков на разработку сайтов и передавать мне заинтересованных заказчиков для заключения договора о выполнении работы. \nЧто входит в работу: \n— поиск потенциальных заказчиков, которым нужен сайт \n— выход на контакт и выявление интереса к разработке \n— передача мне заинтересованного заказчика для заключения договора",
+  "budget": 20000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 21:24:15",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Заказчик ищет исполнителя для поиска клиентов на разработку сайтов (лендинги, многостраничники, интернет-магазины): выход на контакт, выявление интереса и передача заинтересованных лидов фронтенд-разработчику. Это задача по продажам и лидогенерации, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какие каналы поиска клиентов вы предполагаете использовать: холодные обращения, Telegram, соцсети или что-то другое?",
+    "Задача разовая или нужен постоянный поток лидов?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910849",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910849",
+  "title": "Налаштування та ведення гугл реклами сайту/гугл точка/інстаграм/фейсбук",
+  "description": "Налаштування та ведення гугл реклами сайту/гугл точка/інстаграм/фейсбук\n🛠\n#контекстная_реклама\n#реклама_в_социальных_медиа\nПотрібен професіонал своєї справи який може відповідати за результат, треба якісна реклама по багатьом групам товару, за адекватний бюджет.\nСайт для ознайомлення  \nhttp://kozaksteel.com.ua/\nРекламний кабінет є, готовий до роботи",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T18:04:18+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 2,
+   "summary_ru": "Клиент ищет специалиста по настройке и ведению рекламы в Google Ads, Google Точка, Instagram и Facebook для сайта kozaksteel.com.ua по нескольким группам товаров. Рекламный кабинет уже есть. Это рекламное ведение, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какие группы товаров нужно продвигать в первую очередь?",
+    "Какой ежемесячный рекламный бюджет вы рассматриваете?"
+   ]
+  },
+  "found_at": "2026-11-26T18:37:13+00:00"
+ },
+ {
   "id": "freelancer:40837459",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/web-design/Full-Website-Revamp-Payments-Integration",
