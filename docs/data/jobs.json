@@ -1,5 +1,281 @@
 [
  {
+  "id": "freelancer:40837459",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Full-Website-Revamp-Payments-Integration",
+  "title": "Full Website Revamp & Payments Integration",
+  "description": "I need my existing site overhauled from top to bottom and live again within 48 hours. The priority is a fresh, mobile-first look—new layout, updated copy, optimised images, faster load times—across every page, not just the home screen. \n\nOnce the visual side is locked, the site must start taking payments. I have not finalised the gateway, so please be ready to wire in Stripe, PayPal or Razorpay as soon as I confirm the choice. Build the checkout flow with clean, modular code so a swap is painless if I ever change providers.\n\nFor hand-off I will check that:\n• The redesigned pages render perfectly on desktop, tablet and mobile.\n• All navigation, forms and calls-to-action work end-to-end.\n• Test transactions succeed in both sandbox and live modes.\n• Code is clearly commented for my in-house team.\n\nSpeed is everything on this job—only bid if you can start immediately and deliver the full redesign plus gateway integration inside two days. Share one or two recent full-site revamps that included payment processing so I can see your style, and let’s get moving.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "CAD",
+  "posted_at": "2026-11-26T17:39:01+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Клиент хочет за 48 часов полностью переработать существующий сайт (мобильная адаптивность, новый дизайн, текст, оптимизация изображений и скорости на всех страницах) и подключить оплату через платёжный шлюз с модульным чекаутом. Бюджет 250 CAD при таком объёме и сроке выглядит занижено.",
+   "reply": "You want the existing site rebuilt from top to bottom, with a mobile-first layout, updated copy, optimised images and faster load times on every page, plus a modular checkout flow that can be switched to your gateway once you confirm it. I'd start by auditing the current pages and code, then rebuild the layout and shared components on a modern stack, using AI-assisted development to keep the pace up. Two days is tight for a full redesign plus checkout, so my estimate is that the core pages and the payment flow would be ready within 48 hours, with the remaining pages following right after. I'd confirm the exact split once I've seen the site. You can see live demos at https://grachoffprod.github.io/portfolio/\n\nHow many pages does the site have, and what platform or stack is it built on? Can you give me repo or hosting access from day one?\n\nYakov",
+   "reply_ru": "Вам нужен полный редизайн существующего сайта: адаптивная мобильная верстка, обновлённые тексты, оптимизированные изображения и более быстрая загрузка на всех страницах, а также модульный чекаут, который можно будет переключить на ваш платёжный шлюз после подтверждения. Я бы начал с аудита текущих страниц и кода, затем переработал бы макет и общие компоненты на современном стеке, используя разработку с ИИ-ассистентами, чтобы держать темп. Двух дней мало для полного редизайна и чекаута, поэтому моя оценка такая: основные страницы и платёжный поток будут готовы в течение 48 часов, остальные страницы выйдут сразу после. Точное распределение подтвержу, когда увижу сайт. Живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nСколько страниц на сайте и на какой платформе или стеке он сделан? Можете дать доступ к репозиторию или хостингу с первого дня?\n\nYakov",
+   "questions": [
+    "Сколько страниц на сайте и на какой платформе или стеке он построен?",
+    "Можете ли вы дать доступ к репозиторию или хостингу с первого дня работы?",
+    "Реалистичен ли для вас срок, если основные страницы и платёжный поток будут готовы за 48 часов, а остальные страницы — сразу после них?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
+  "id": "freelancer:40837449",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/3d-cad/Intricate-Pendant-CAD-Ganesha-Idol",
+  "title": "Intricate 12.7 mm Pendant CAD - Ganesha Idol",
+  "description": "I have a single, clear front-facing reference image and I need it transformed into a miniature pendant only 12.7 mm across. Every nuance in that image matters to me—I do not want any simplification, omission, or smoothing of fine elements. \n\nHere is the vision:\n\n• Front: fully detailed relief that mirrors the artwork exactly. \n• Back: kept mostly flat so the overall thickness stays wearable. \n• Look: the end goal is a darkened antique silver finish, though I’m open to your advice on alloy choice and any plating or patination steps that will intensify those shadows.\n\nWhat I need from you\n1. Precision 3D sculpting/CAD that captures the tiniest textures at this scale. \n2. A high-resolution resin or wax print so I can inspect the piece in hand before casting. \n3. A digital preview (renders at several angles) for approval prior to printing. \n4. Optional production support for casting the final piece in silver or a compatible metal.\n\nWhen you reply, please confirm whether the level of detail is achievable at ½-inch, note which technologies (e.g., DLP/SLA resin printing, direct metal printing, lost-wax casting) you would use, and break down your pricing for: \n• CAD design \n• Prototype print \n• Final cast pendant \n\nI can share the artwork immediately for a quick feasibility check. I look forward to hearing how you would bring this miniature masterpiece to life.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T17:33:41+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Заказчик хочет получить 3D-модель миниатюрного кулона 12,7 мм (Ганеша) по референсу, печать прототипа в смоле или воске и литьё в серебре. Это ювелирное CAD-моделирование и производство, а не разработка программного продукта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой формат референсного изображения вы можете предоставить и какое разрешение у него?",
+    "Нужен ли только дизайн и прототип, или литьё в серебро тоже входит в задачу?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
+  "id": "freelancer:40837445",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Mobile-Detailing-CRM-Setup",
+  "title": "Mobile Detailing CRM Setup",
+  "description": "I run a mobile detailing service and I’m ready to replace my spreadsheets and calendar apps with a single CRM that lets my office staff stay on top of every job. \nThe first capability I need is straightforward: staff must be able to create a booking, choose the service package, select the date, time, and the customer’s location, then see that job automatically appear on a master schedule. No self-service portal for customers—only our in-house team should touch the booking screen.\n\nCore workflow I’m aiming for \n• A staff member enters a new or returning customer. \n• They pick the detailing package, date, time, and address. \n• The system confirms availability, reserves the slot, and drops the job onto a calendar that the whole team can see in real time. \n• Automatic email/SMS confirmations to the customer would be great, but the calendar accuracy is the non-negotiable piece.\n\nBeyond the calendar view, I want quick access to each customer’s history and job status (scheduled, in progress, completed). If the platform you recommend can later add quoting or invoicing modules, that’s a plus, but it does not have to be part of this first release.\n\nWebsite touch-point \nMy current website already collects basic enquiry forms. I’d like those submissions to land directly in the CRM as new leads so staff can convert them to bookings without retyping. A simple form embed or webhook is fine; I don’t need full customer self-booking at this stage.\n\nPlease outline: \n• The CRM or tech stack you propose (e.g., Zoho, HubSpot, Monday.com, custom build, etc.). \n• How you’ll handle the booking-to-calendar flow and the website lead capture. \n• Timeframe to deliver a working, tested system my team can start using.\n\nIf you have past experience setting up service-industry CRMs with route-based scheduling, let me know. I’m ready to move quickly once I see a solid plan.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T17:31:09+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 4,
+   "summary_ru": "Нужна внутренняя CRM для мобильного детейлинга: сотрудники создают запись (клиент, пакет, дата, время, адрес), система проверяет доступность и показывает заказ в общем календаре в реальном времени. Также нужно, чтобы заявки с сайта автоматически попадали в CRM как лиды. Бюджет очень ограничен (25 USD) для такого объёма.",
+   "reply": "You need a staff-only booking screen that takes the customer, package, date, time and address, checks availability, reserves the slot and shows the job on a shared live calendar, with website enquiries flowing in as leads. I would build this as a lightweight custom web app (React frontend with a small Node or Supabase backend) rather than stack a generic CRM, so the slot locking and calendar behave exactly as described and route-based scheduling can be added later. The first milestone would be the booking-to-calendar flow plus the form-to-lead webhook, tested with your team; email/SMS confirmations would follow. For a first working version I estimate about 1–2 weeks, depending on scope. Two questions: how many staff will use the calendar at the same time, and does your website support sending webhooks, or would a form embed be easier?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен экран бронирования только для сотрудников: он принимает клиента, пакет, дату, время и адрес, проверяет доступность, резервирует слот и показывает заказ в общем календаре в реальном времени. Заявки с сайта должны автоматически попадать в CRM как лиды. Я бы сделал это как легковесное веб-приложение на заказ (фронтенд на React, небольшой бэкенд на Node или Supabase), а не подключал готовую CRM, чтобы блокировка слотов и календарь работали именно так, как описано, а маршрутное планирование можно было добавить позже. Первым этапом будут поток «бронирование → календарь» и вебхук «форма → лид», протестированные вместе с вашей командой; подтверждения по email/SMS пойдут следом. По оценке, первая рабочая версия займёт примерно 1–2 недели в зависимости от объёма. Два вопроса: сколько сотрудников будут одновременно работать с календарём и поддерживает ли ваш сайт отправку вебхуков, или проще будет встроить форму?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько сотрудников будут одновременно работать с календарём?",
+    "Поддерживает ли ваш сайт отправку вебхуков или проще встроить форму?",
+    "Какой бюджет и объём первой версии: только календарь и лиды или ещё подтверждения по email/SMS?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
+  "id": "freelancer:40837431",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/Spanish-Remote-Customer-Support",
+  "title": "Spanish Remote Customer Support Specialist",
+  "description": "Remote Customer Support Agent – Spanish Speaking\n\nWe are looking for reliable and responsible remote customer support professionals for an ongoing collaboration.\n\nMain responsibilities\n\n* Customer service by phone and online.\n* Managing customer conversations through WhatsApp.\n* Using professional WhatsApp API platforms.\n* Handling incoming and outgoing calls through a virtual phone system.\n* Answering customer inquiries and providing assistance.\n* Following up on customer conversations.\n* Organizing and managing customer requests.\n\nRequirements\n\n* Fluent Spanish is essential (spoken and written).\n* French language skills are highly valued.\n* English language skills are also an advantage.\n* Own computer or laptop.\n* Stable and reliable internet connection.\n* Good communication skills.\n* Previous experience in customer service or call centers is preferred.\n* Comfortable using WhatsApp, online platforms and virtual phone systems.\n* Responsible, organized and professional attitude.\n\nWorking arrangements\n\nWe are considering two availability options:\n\n* Part-time: Indicative monthly budget of $150.\n* Full-time: Indicative monthly budget of $300.\n\nWorking hours and availability will be agreed according to the selected arrangement.\n\nPosition\n\n* Fully remote.\n* Ongoing collaboration.\n* Possibility of recruiting two support agents.\n* Initially, one person may be selected, with the possibility of expanding the team.\n\nHow to apply\n\nPlease introduce yourself and provide the following information:\n\n* Your level of Spanish.\n* Whether you speak French or English.\n* Your previous customer service experience.\n* Your computer and internet availability.\n* Your daily availability.\n\nWe are looking for motivated people interested in a stable, long-term collaboration.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T17:16:25+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Вакансия на удалённого специалиста поддержки клиентов со знанием испанского языка: работа с клиентами по телефону и в WhatsApp, ведение заявок. Это операционная работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в этой работе задачи по настройке или разработке интеграций с WhatsApp API или телефонией, или это только операторская работа?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
+  "id": "freelancer:40837398",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/embedded-systems/Miniaturize-ESP-laundry-sensor-into",
+  "title": "Miniaturize an ESP32 laundry sensor into an AirTag-sized puck (5 prototype units)",
+  "description": "We are building a small magnetic puck, about the size of an Apple AirTag, that sticks to the outside of any washer or dryer, senses when vibration stops, and triggers a text message when the load is done. The sensing approach is proven by an open-source project (see below). We need an experienced hardware engineer to miniaturize it into a polished, pocket-sized product and build 5 working prototype units for a two-week user test.\n\nWorking title: Smart Laundry Alert. No brand name is locked yet.\n\nStarting point (reference build)\nGitHub: https://github.com/boscacci/laundry-done\nAn ESP32 laundry-finished detector for apartment washer/dryer stacks. ESP32 DevKit board + LSM6DS3 or LIS3DH accelerometer breakout, in a small project box, powered by a USB battery bank. It sticks to the outside of the machine, watches vibration, and sends a phone notification when the machine has been quiet long enough to count as done. Use this firmware and approach as your starting point. Do not reinvent the sensing.\n\nScope of work\n1. Prove the sensing first (required, before miniaturizing). On a dev board, demonstrate the puck reliably telling a running machine from a done one on a real washer and dryer. Confirm the done rule: 4 minutes of quiet after running counts as done. Report the false-alarm rate. Do not skip this step.\n2. Miniaturize to AirTag size. Custom PCB, about 32 mm diameter, slightly thicker than an AirTag to fit the battery. ESP32 (C3 or S3), accelerometer (LSM6DS3, LIS3DH, or equivalent), small rechargeable LiPo battery with USB-C charging, one small LED (green = load done), magnet mount with a grippy silicone ring on the base.\n3. Firmware. Wi-Fi, vibration sampling, done detection, and a signed HTTP POST to a configurable HTTPS endpoint when a load finishes. The cloud service and SMS sending are a separate job and NOT in this scope. The puck only needs to report to the endpoint.\n4. Enclosure. Small, matte black, clean and pocketable. 3D-printed is fine for the prototype batch.\n5. Build and ship 5 working units to the client (US address provided on hire), each tested on a real washer and dryer before shipping.\n\nWhat you need\n- Proven experience with ESP32, battery-powered devices, and compact or wearable PCB design. Show examples of similar completed boards, especially small or wearable devices.\n- Experience with low-power design and 3D-printed enclosures is a plus.\n- US-based is preferred for shipping speed and communication, not required.\n\nWhat we provide\n- A one-page product sketch (idea, how it works, test plan, competition).\n- Design renders of the target puck.\n- The GitHub reference repo above.\n\nBudget\n$650-900 all-inclusive for design, parts, fabrication, assembly, and shipping of 5 assembled prototype units. Comparable miniaturize-ESP32 design jobs on this platform have averaged around $500-600 for design alone; this budget covers the full prototype batch.\n\nHow bids are evaluated\n- Every bid must include an itemized cost breakdown: design, parts, fabrication, assembly, and shipping, each on its own line. Bids without a breakdown will not be considered.\n- Bids at the top of the $650-900 budget will be scrutinized closely. The budget is a ceiling, not a target. Show us what each dollar is for, and where you found savings.\n\nTimeline\n3-4 weeks from hire to 5 tested units shipped.\n\nTo apply\n- Examples of similar completed PCB designs (especially compact or wearable devices).\n- Your estimated timeline and an itemized cost breakdown (design, parts, fabrication, assembly, shipping).\n- Any questions about the scope before you bid.",
+  "budget": 900.0,
+  "budget_min": 650.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T17:10:29+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Заказчик ищет инженера по железу, который уменьшит ESP32-датчик вибрации для стирки/сушки до размера AirTag: разработка кастомной платы, прошивка с отправкой HTTP POST, корпус и изготовление 5 прототипов. Основная часть работы — проектирование печатных плат и сборка устройств, что выходит за рамки услуг фрилансера.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли заказчику только прошивка и серверная часть или обязательно изготовление и сборка платы с корпусом?",
+    "Есть ли у заказчика уже проверенная схема и бюджет на производство плат, или это полностью новая разработка?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
+  "id": "freelancer:40837423",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/technical-writing/API-Documentation-Restructure",
+  "title": "API Documentation Restructure & Enhancement",
+  "description": "I need my existing software/API documentation reshaped into a fuller, better-structured reference that speaks directly to fellow developers. Right now the content is fragmented—some sections are missing context, others repeat themselves, and the navigation is awkward. Your job is to take what I have, spot the gaps, reorganize the flow, and deliver a single, cohesive set of docs that feels complete, consistent, and easy to scan.\n\nThe audience is technical, so clear code samples, precise terminology, and logical sectioning matter more than marketing polish. I am happy with Markdown, reStructuredText, or any developer-friendly format you prefer; the key is that the final file can drop straight into our repository.\n\nI’d like the work turned around in six days. To keep both of us on track, we can do a quick check-in once the new outline is ready, then move to the full rewrite.\n\nDeliverables \n• Revised outline showing the new structure \n• Fully rewritten documentation with missing pieces filled in and redundant parts removed \n• Proper formatting (headings, tables, code blocks) ready for immediate use \n\nIf you’ve tightened API docs before and can demonstrate an eye for developer-centric clarity, I’d be glad to hand this over to you.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T17:03:29+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Нужно переструктурировать, дополнить и переписать существующую API-документацию для разработчиков в формате Markdown или reStructuredText с примерами кода. Срок 6 дней, бюджет 1250 INR.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой API и на каком стеке он написан, и есть ли у вас доступ к работающему окружению для проверки примеров кода?",
+    "Какой формат документации нужен в репозитории: Markdown, reStructuredText или генератор вроде MkDocs/Sphinx?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
+  "id": "freelancer:40837410",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/parkside-cafe",
+  "title": "parkside cafe",
+  "description": "I want to launch a full-service online presence for my restaurant that goes live with a complete website and companion mobile app at the same time. Customers must be able to browse the menu, place both pickup and delivery orders, and pay online with cards or digital wallets right from day one.\n\nBeyond the ordering flow, I also need you to create and hand over a Meta Business / Ads account and a Google AdSense account so I can start running promotions as soon as we open. Please include basic pixel or tag integration on the site and in the app so campaign tracking is ready.\n\nKey deliverables I’m expecting:\n• Responsive restaurant website with secure ordering, menu management, and real-time order dashboard \n• iOS and Android apps that mirror the website’s ordering experience and sync all data \n• Payment gateway setup for online card and wallet transactions only \n• Pickup-or-delivery toggle with address validation for delivery orders \n• Meta Business Suite setup, initial ad account configuration, and pixel installed \n• Google AdSense account creation and code placed on informational pages \n• Admin access and brief hand-off guide so my staff can manage content, orders, and ads\n\nI’m open to the tech stack you prefer—WordPress + WooCommerce, Laravel, React Native, Flutter, or another solid solution—as long as it delivers a smooth user experience and can scale. Let me know the framework you recommend, your timeline, and any similar projects you have shipped.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T16:59:43+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Заказчик хочет запустить сайт ресторана и iOS/Android приложения с меню, самовывозом и доставкой, онлайн-оплатой картами и кошельками, а также создать рекламные кабинеты Meta и Google AdSense с пикселем и тегами. Бюджет 1500 USD явно не покрывает такой объём работ.",
+   "reply": "You want a restaurant website plus iOS and Android apps with a menu, pickup and delivery ordering, online payments, and ad accounts ready at launch. Two native apps and a delivery flow are a lot for 1500 USD, so I'd suggest one responsive web app that also installs on phones like an app, with the same ordering flow and a staff dashboard for orders and menu edits. I'd build it on a modern stack, add address validation for delivery, and connect live order updates, then add native apps later if you need them. The core ordering flow would take about 3–4 weeks. The Meta and Google ad accounts should be registered under your business details, and I can install the pixel and AdSense code once they're set up. Roughly how many menu items do you have, and which delivery area do you need to cover?\n\nSee live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен сайт ресторана и приложения для iOS и Android с меню, самовывозом и доставкой, онлайн-оплатой и готовыми рекламными кабинетами к запуску. Два нативных приложения и логистика доставки за 1500 USD — это много, поэтому я предлагаю один адаптивный веб-сервис, который также можно установить на телефон как приложение. Он будет иметь тот же сценарий заказа и панель для персонала с заказами и редактированием меню. Я бы построил его на современном стеке, добавил проверку адреса для доставки и обновление заказов в реальном времени, а нативные приложения можно сделать позже, если понадобятся. Основной сценарий заказа займёт примерно 3–4 недели. Рекламные кабинеты Meta и Google лучше регистрировать на данные вашего бизнеса; пиксель и код AdSense я смогу установить, как только они будут созданы. Сколько примерно позиций в меню и на какую зону нужна доставка?\n\nПосмотреть живые демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько примерно позиций в меню и нужны ли модификаторы блюд (размеры, добавки)?",
+    "В каком районе или городе нужна доставка и нужна ли зона доставки с расчётом по расстоянию?",
+    "Готовы ли вы зарегистрировать рекламные кабинеты Meta и Google на данные своего бизнеса, а не на нас?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
+  "id": "freelancer:40837391",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/html/Nike-Inspired-Fashion-Commerce-Build",
+  "title": "Nike-Inspired Fashion E-Commerce Build",
+  "description": "I want a slick, Nike-style online store built with pure HTML, CSS and JavaScript. The look has to be clean, modern and fast, with subtle animations that feel premium rather than flashy. \n\nCore pages and sections \n• A striking, scroll-friendly homepage that immediately showcases the brand vibe. \n• A stylish, sticky navigation bar that stays intuitive on desktop, tablet and mobile. \n• Product collection pages focused on sportswear and sneakers, each with interactive galleries (zoom, colour swap, slide-through thumbnails). \n• “Try the Look” blocks where full outfits appear on a model and individual items link straight to their detail pages. \n\nShopping experience \nVisitors need to browse items, view detailed descriptions, then add products to a cart and place an order in a friction-free flow. I’m open to whichever lightweight cart logic you prefer as long as it feels seamless and keeps the tech stack to HTML/CSS/JS. \n\nVisual & performance expectations \nSmooth transitions between sections, micro-animations on buttons or image hovers, and responsive layouts that adapt perfectly from widescreen down to small phones. Code should be clean, well-commented and optimised so pages load quickly even on mobile data.\n\nDeliverables \n- Full front-end source code with clear folder structure \n- Sample product JSON (or similar) ready for easy data swap-out \n- Brief setup/readme so I can run and update the site locally \n\nIf you have recent e-commerce examples—especially sports or fashion—send links so I can gauge fit. Looking forward to seeing how you’d bring this concept to life.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T16:44:26+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 5,
+   "summary_ru": "Заказчик хочет премиальный интернет-магазин спортивной одежды и кроссовок в стиле Nike на чистом HTML, CSS и JS, с интерактивными галереями, блоками «Try the Look», корзиной и JSON-каталогом товаров. Бюджет небольшой для такого объёма, поэтому стоит заранее согласовать приоритеты.",
+   "reply": "You want a premium, Nike-style storefront in plain HTML, CSS and JS: a scroll-driven homepage, a sticky responsive nav, sneaker and sportswear collections with zoomable galleries and colour swaps, \"Try the Look\" outfit blocks linking to product pages, and a lightweight cart with a friction-free order flow. Since there's no framework, I'd build static pages that render from a JSON product catalogue, so you can swap data without touching the markup. Animations would be CSS transitions with IntersectionObserver, kept light so mobile pages load fast. Given the budget, I'd deliver the homepage, one collection page, the product page and the cart first, then polish the rest. Estimated timeline is about a week for the full set. Two questions: how many products and colour variants do you expect at launch, and do you have photos ready or should I use placeholders? You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен премиальный магазин в стиле Nike на чистом HTML, CSS и JS: главная страница с анимациями при прокрутке, адаптивная закреплённая навигация, коллекции кроссовок и спортивной одежды с галереями с зумом и сменой цвета, блоки «Try the Look» со ссылками на карточки товаров и лёгкая корзина с простым процессом заказа. Так как фреймворка нет, я бы сделал статические страницы, которые строятся из JSON-каталога товаров, чтобы данные можно было менять без правки верстки. Анимации выполнил бы через CSS-переходы и IntersectionObserver, оставив их лёгкими, чтобы страницы быстро открывались на мобильном интернете. С учётом бюджета сначала сделал бы главную, одну страницу коллекции, карточку товара и корзину, а потом доработал остальное. Ориентировочный срок на весь объём — около недели. Два вопроса: сколько товаров и вариантов цвета планируется к запуску и есть ли готовые фото или использовать заглушки? Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько товаров и вариантов цвета планируется к запуску?",
+    "Есть ли готовые фотографии товаров и образов или использовать заглушки?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
+  "id": "telegram:normrabota/9512",
+  "source": "telegram",
+  "url": "https://t.me/normrabota/9512",
+  "title": "Карьеру до сих пор часто представляют в виде лестницы: пришел младшим специалистом, стал старшим, потом руководителем. Хотя по себе замечаю, что двигался вбок чаще, чем вверх. И в итоге этот опыт тоже",
+  "description": "Карьеру до сих пор часто представляют в виде лестницы: пришел младшим специалистом, стал старшим, потом руководителем. Хотя по себе замечаю, что двигался вбок чаще, чем вверх. И в итоге этот опыт тоже оказался полезным.\nОказывается, это уже полноценный тренд. На форуме «Коммерсанта» директор по организационному развитию и автоматизации HR-процессов Т2 Ольга Финоченко рассказала, что линейную карьеру постепенно сменяет портфельная. Это не только движение вверх, но и горизонтальные переходы, смена функций и участие в проектах с другими командами.\nЕщё один тренд: сотрудники хотят лучше понимать, какие возможности для профессионального и карьерного развития есть в компании именно для них. Им важно, чтобы работодатель помог найти подходящее направление с учётом их интересов, опыта и запросов, а не предлагал универсальные решения. Поэтому растёт спрос на профориентационные консультации.\nВ Т2 уже запустили проект карьерного консультирования. Каждый сотрудник может посетить несколько сессий в год. Эксперты помогают разобраться в накопленном опыте и вместе с сотрудником составляют индивидуальный план достижения карьерных целей.\nМне бы такая возможность в свое время пригодилась. В общем, карьера — это не только про должность. Иногда шаг в сторону дает гораздо больше, чем шаг вверх.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T17:00:10+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Текст статьи или поста о трендах карьерного развития: горизонтальная «портфельная» карьера и карьерное консультирование в компании Т2. Это не запрос на разработку.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в этом тексте задача по разработке, которую нужно реализовать?"
+   ]
+  },
+  "found_at": "2026-11-26T17:40:54+00:00"
+ },
+ {
   "id": "freelancer:40837380",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/cold-calling/Cold-Caller-Appointment-Setter-Business",
