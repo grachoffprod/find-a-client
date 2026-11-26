@@ -1,5 +1,492 @@
 [
  {
+  "id": "freelancer:40837244",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot/Claude-Chatbot-for-Product-Queries",
+  "title": "Claude Chatbot for Product Queries",
+  "description": "I want to embed a Claude-powered chat widget on my e-commerce site so visitors can instantly ask about any item we sell and get accurate, conversational answers. The bot’s focus is product and delivery questions—no cart or payment handling—so its scope is tightly defined.\n\nHere’s what I need it to do: \n• Load the product list I’ll supply (CSV or Google Sheet) and use it as the single source of truth. \n• From that data, return ingredients, materials, or technical specifications whenever a shopper asks. \n• When customers ask “When will this arrive?” or “Which shipping option is fastest?” the bot should surface delivery choices and ETA rules I’ll provide. \n• Run on Anthropic’s Claude via API, wrapped in either a lightweight Node.js or Python backend, and appear on the site as a floating chat bubble that matches our brand colors. \n• Update itself automatically whenever I replace the spreadsheet, without requiring code changes.\n\nAcceptance criteria \n— Chat widget loads on my staging site and answers at least 95 % of test questions correctly using only the spreadsheet content. \n— Responses stay under Claude’s token limit and never reveal internal prompts or keys. \n— Clear README covering local setup, environment variables, and how to swap in a new product sheet.\n\nIf this sounds straightforward, let’s get it running.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T15:34:19+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop",
+   "tg_bot",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Заказчик хочет встроить на интернет-магазин чат-виджет на базе Claude API, который отвечает на вопросы о товарах (состав, материалы, характеристики) и доставке, используя только данные из таблицы CSV или Google Sheets. Таблица должна обновляться без изменения кода. Бюджет низкий (25 USD), а требование к точности ответов 95% довольно строгое.",
+   "reply": "You want a floating chat bubble on your store that answers product, ingredient, spec, and delivery questions strictly from a spreadsheet you can swap out without code changes. I'd build a small Node.js (or Python) backend that loads the CSV or Google Sheet, passes only the relevant rows to Claude, and uses a system prompt that keeps answers grounded in that data while hiding internal instructions and keys. The widget would be a lightweight script styled with your brand colors. Expect about 3–4 days for a working staging version with a README. Two questions: should the sheet be fetched on every request or cached with a refresh interval, and are the delivery rules in a sheet tab or a separate document?\n\nSee live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите плавающий чат-виджет в магазине, который отвечает на вопросы о товарах, составе, характеристиках и доставке строго по таблице, которую можно заменить без изменения кода. Я бы сделал небольшой бэкенд на Node.js (или Python), который загружает CSV или Google Sheets, передаёт Claude только релевантные строки и использует системный промпт, чтобы ответы опирались на эти данные, а внутренние инструкции и ключи оставались скрытыми. Виджет будет лёгким скриптом в цветах вашего бренда. Ориентировочный срок — 3–4 дня до рабочей версии на staging вместе с README. Два вопроса: таблицу нужно запрашивать при каждом обращении или кэшировать с интервалом обновления, и правила доставки находятся на отдельном листе таблицы или в отдельном документе?\n\nЖивые демо смотрите в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Таблицу нужно запрашивать при каждом обращении к боту или кэшировать с интервалом обновления (например, раз в 5–10 минут)?",
+    "Правила доставки и сроки (ETA) находятся на отдельном листе таблицы или в отдельном документе?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837256",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/Remote-French-Customer-Support",
+  "title": "Remote French Customer Support",
+  "description": "I’m looking for a reliable online customer-support professional who can take full ownership of our French-language inboxes and live chat. You’ll be the first point of contact for our users: greeting them, answering product questions, solving straightforward issues, and escalating anything complex that needs a specialist.\n\nDay-to-day you will log in through our help-desk tools (we currently use Zendesk and Intercom), respond to tickets, chat sessions, and the occasional social-media DM, then note any recurring problems so the rest of the team can address root causes. A clear, friendly writing style in French is essential, and I value fast turnaround times—ideally all new messages are acknowledged within a couple of business hours.\n\nDeliverables & acceptance criteria \n• Inbox, chat, and DM responses handled in fluent, professional French \n• Basic troubleshooting or order-status checks completed without supervision \n• Issues tagged and escalated correctly when outside your scope \n• End-of-day summary highlighting volume handled and any common themes\n\nIf you have previous experience with e-commerce support, SaaS onboarding, or community management, please mention it along with the tools you’re comfortable with. I’ll start with a brief paid trial so we can settle on workflows, then shift to an ongoing arrangement once we’re both confident.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T15:24:09+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Заказчик ищет удалённого специалиста поддержки для ведения входящих, чата и личных сообщений на французском языке через Zendesk и Intercom. Это операционная работа по поддержке клиентов, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разработка или интеграция, например, автоматизация тикетов или подключение Zendesk/Intercom к другим системам?",
+    "Предполагается ли только ручная работа оператора поддержки без программирования?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837257",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development",
+  "title": "Telegram FAQ Chatbot Development",
+  "description": "I want a Telegram-based chatbot that can step in as our first-line support and instantly answer the everyday questions customers send us. Once it is live, users should be able to type their query in any wording and receive a clear, accurate reply pulled from the knowledge base I will supply. If the bot cannot find a confident match, it should politely acknowledge the question and forward it to a human operator (or a designated Telegram group) so no request is left hanging.\n\nKey expectations \n• Built on the official Telegram Bot API with clean, well-commented code. \n• AI-driven matching—OpenAI GPT, Dialogflow, Rasa, LangChain or a comparable NLP solution is fine as long as responses remain fast and costs are predictable. \n• Admin commands inside Telegram to refresh the FAQ set, turn maintenance mode on/off, and view simple usage stats. \n• Logs of unanswered questions captured to a CSV or Google Sheet so I can expand the knowledge base over time. \n• A short hand-off guide covering deployment (Docker, serverless, or plain VPS—whichever you choose), environment variables, and how to update the model or intents.\n\nI will provide the curated FAQ content as soon as we start; you focus on wiring it to the AI engine, testing edge cases, and ensuring smooth handover to a human when necessary. A demo bot hosted on your infrastructure is fine during development; final delivery should include source code, install steps, and a quick screen-share walkthrough.",
+  "budget": 5000000.0,
+  "budget_min": 5000000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T15:15:50+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 9,
+   "summary_ru": "Нужен Telegram-бот первой линии поддержки, который отвечает на свободные вопросы клиентов по базе знаний заказчика и передаёт неясные запросы оператору. Также нужны админ-команды, логирование неотвеченных вопросов в CSV или Google Sheets и документация по развёртыванию.",
+   "reply": "You want a Telegram support bot that understands free-form customer questions, answers from your FAQ, and hands off to a human whenever it isn't confident, with admin commands and logging of unanswered questions. I'd build it on the official Bot API with an LLM-based retrieval layer: embed your FAQ entries, match incoming messages by meaning, and reply only when the match clears a confidence threshold. Otherwise the bot acknowledges the message and forwards it to your operator group. Unanswered questions go to a CSV or Google Sheet, and admin commands handle FAQ refresh, maintenance mode, and basic stats. Deployment will be Docker-based with a short setup guide. A first working version with your FAQ could be ready in about 2–3 weeks, followed by testing and handover. Live demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nHow many FAQ entries do you expect, and which languages should the bot support?\n\nYakov",
+   "reply_ru": "Вам нужен Telegram-бот поддержки, который понимает свободные вопросы клиентов, отвечает по вашей базе FAQ и передаёт человеку всё, в чём он не уверен, плюс админ-команды и логирование неотвеченных вопросов. Я бы сделал его на официальном Bot API с слоем поиска на основе LLM: эмбеддинги записей FAQ, сопоставление входящих сообщений по смыслу и ответ только при достаточно высокой уверенности. Иначе бот подтверждает получение вопроса и пересылает его в группу операторов. Неотвеченные вопросы попадают в CSV или Google Sheets, а админ-команды управляют обновлением FAQ, режимом обслуживания и базовой статистикой. Развёртывание будет на Docker с короткой инструкцией по установке. Первая рабочая версия с вашим FAQ может быть готова примерно за 2–3 недели, после чего идут тестирование и передача проекта. Живые демо есть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nСколько записей FAQ вы ожидаете и на каких языках должен отвечать бот?\n\nYakov",
+   "questions": [
+    "Сколько примерно записей будет в FAQ и на каких языках должен отвечать бот?",
+    "Операторы будут работать в одной группе или нужна маршрутизация вопросов по темам?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837017",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/graphic-design/Frontend-Website-Development",
+  "title": "Frontend Website Development",
+  "description": "You need a frontend developer to create a complete website with features like wallet balance, deposit, and withdrawal functionalities. This includes the frontend design and admin panel but excludes backend payment integration. The timeline for completion is 5 days.",
+  "budget": 2000.0,
+  "budget_min": 1000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T15:12:06+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 4,
+   "summary_ru": "Нужен фронтенд сайта с кошельком (баланс, пополнение, вывод) и админ-панелью. Бэкенд с платежами не входит в задачу, срок 5 дней, бюджет 2000 INR.",
+   "reply": "You need a frontend for a wallet-style site: a balance view, deposit and withdrawal screens, and an admin panel, with the payment backend handled separately. I would build it as a responsive single-page app on a modern stack, with the wallet and admin screens connected to your API through a mocked data layer, so the UI can be tested before the backend is ready. For the 5-day window, I would start with the core wallet flow and admin tables on days 1–2, add the deposit and withdrawal forms with status states on days 3–4, and finish with responsive polish and handover on day 5. AI-assisted development helps me keep this on schedule. Two quick questions: do you have Figma designs, or should I work from a reference? Will the backend provide documented endpoints for balance, transactions, and admin actions?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужен фронтенд для сайта в формате кошелька: экран баланса, формы пополнения и вывода, а также админ-панель. Бэкенд с платежами отдельный и в задачу не входит. Я бы сделал адаптивное одностраничное приложение на современном стеке и подключил экраны кошелька и админки к вашему API через mock-слой данных, чтобы интерфейс можно было проверить до готовности бэкенда. Под 5 дней: в первые 1–2 дня основной поток кошелька и таблицы админки, в дни 3–4 формы пополнения и вывода с состояниями статусов, на 5-й день адаптивная доработка и передача проекта. ИИ-ассистенты в разработке помогают держать такие сроки. Два быстрых вопроса: есть ли у вас макеты в Figma или ориентироваться на референс? Будет ли у бэкенда документированное API для баланса, транзакций и действий админа?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас готовые макеты в Figma или нужно ориентироваться на референс?",
+    "Будет ли у бэкенда документированное API для баланса, транзакций и действий администратора?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837246",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Bilingual-Web-App-Performance-Audit",
+  "title": "Bilingual Web App Performance Audit",
+  "description": "I need a fluent English-Spanish full-stack consultant to audit our dual-language web application. Please start with speed and reliability: profile load times, server response, caching, and any backend or front-end bottlenecks. Once performance is charted, move on to code quality, scalability, and finally the localization layer.\n\nThe most visible problem is that, after a user switches languages mid-session, some pages or features continue to display the wrong language. I want a clear diagnosis of why this happens and concrete guidance on making the entire experience stay consistently bilingual.\n\nDeliverables \n• A written audit covering performance metrics, architecture review, and the current i18n implementation \n• A prioritized, step-by-step roadmap of fixes and improvements, separating quick wins from deeper refactors \n• A follow-up call to discuss findings and next actions\n\nYou are free to use Lighthouse, Chrome DevTools, WebPageTest, profiling tools, or any preferred i18n debuggers—as long as the final report is clear and actionable. I will provide repository access, staging credentials, and feature documentation once we begin. Let’s make this platform fast, reliable, and flawlessly bilingual.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T15:07:14+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 6,
+   "summary_ru": "Клиент просит провести аудит производительности и архитектуры двуязычного веб-приложения, а также диагностировать, почему после смены языка в середине сессии часть страниц остаётся на прежнем языке. Результат нужен в виде письменного отчёта, приоритизированного плана исправлений и созвона.",
+   "reply": "You want a full performance and architecture audit of your bilingual app, with a focus on why some pages keep the previous language after a mid-session switch. I'd start with Lighthouse, Chrome DevTools and WebPageTest runs to get baseline numbers for load time, server response and caching. Then I'd trace the language switch itself: where the locale is stored, whether components re-render with the new translations, and which routes or cached responses hold onto the old language. You'd receive a written report with metrics, an architecture review and an i18n assessment, a prioritized roadmap separating quick wins from deeper refactors, and a follow-up call. Estimated timeline is about 5–7 working days after I get repository and staging access.\n\nTwo questions: which framework and i18n library are you using, and does the staging environment hold production-like data?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите полный аудит производительности и архитектуры двуязычного приложения, с акцентом на то, почему после смены языка в середине сессии часть страниц остаётся на предыдущем языке. Я бы начал с замеров Lighthouse, Chrome DevTools и WebPageTest, чтобы получить базовые показатели времени загрузки, ответа сервера и кеширования. Затем проследил бы сам процесс смены языка: где хранится локаль, перерисовываются ли компоненты с новыми переводами и какие маршруты или закешированные ответы сохраняют старый язык. На выходе вы получите письменный отчёт с метриками, обзор архитектуры и оценку i18n, приоритизированный план с разделением на быстрые исправления и более глубокие рефакторинги, а также созвон для обсуждения. Ориентировочный срок — около 5–7 рабочих дней после получения доступа к репозиторию и staging-среде.\n\nДва вопроса: какой фреймворк и библиотеку для i18n вы используете и содержит ли staging-среда данные, близкие к продакшену?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой фреймворк и библиотеку для интернационализации вы используете?",
+    "Содержит ли staging-среда данные, близкие к продакшену?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837227",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api/project-40837227",
+  "title": "搭建 支付宝 自动 回调 收银 系统",
+  "description": "我需要一套完整的支付宝收银解决方案。客户在我的页面点击“去付款”后，应被跳转到支付宝的“转账到银行卡”界面完成付款。系统必须做到以下几点：\n\n• 生成付款订单并自动跳转到支付宝转账页面 \n• 以设定间隔定时查询支付宝交易状态，确认成功或失败后自动回调 \n• 在系统后台展示每笔交易的实时状态，并通过 API 向我指定的服务发送结果通知（成功 / 失败） \n• 记录查询与回调日志，方便排查 \n• 基本后台界面：订单列表、状态筛选、手动重查、通知记录 \n• 部署与配置文档，含支付宝开放平台参数获取说明\n\n技术选型不限，PHP、Node.js、Java 等皆可，只要能稳定调用支付宝开放接口并易于后期维护。代码需结构清晰，包含必要注释与错误处理。完成后，请在测试环境演示完整付款 → 查询 → 回调流程，并提交全部源代码、SQL 脚本及安装指南。",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T14:55:20+00:00",
+  "lang": "zh",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 7,
+   "summary_ru": "Нужно построить систему приёма платежей через Alipay: создание заказа и переход на страницу оплаты, периодическая проверка статуса транзакции, уведомления о результате через API, а также простая админка с логами и ручной повторной проверкой. Бюджет 1500 USD, для тестовой среды нужна демонстрация полного цикла.",
+   "reply": "You need a working Alipay checkout flow: create orders and redirect customers to the payment page, poll transaction status at set intervals, then send success or failure results to your service via API. You also want an admin panel with order list, status filters, manual re-check, notification history, and logs. I would build this on Node.js with a job queue for scheduled polling and retries, store orders, queries, and callbacks in a database, and deliver the SQL scripts, deployment guide, and Alipay setup instructions. With modern tooling and AI-assisted development, I estimate about 10–14 working days, including a demo of the full payment → query → callback cycle on a test environment.\n\nQuestions:\n1. Is your Alipay Open Platform app already created with the required API permissions, and who will provide the sandbox keys?\n2. What endpoint and payload format do you expect for result notifications, and do they need to be signed?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен рабочий процесс оплаты через Alipay: создание заказов и переход клиента на страницу оплаты, периодическая проверка статуса транзакции и отправка результата (успех или ошибка) в ваш сервис через API. Также нужна админка со списком заказов, фильтрами по статусу, ручной повторной проверкой, историей уведомлений и логами. Я бы сделал это на Node.js с очередью задач для регулярных проверок и повторных попыток, сохранял заказы, запросы и callback-уведомления в базе данных и передал SQL-скрипты, документацию по развёртыванию и инструкцию по получению параметров Alipay. С современным стеком и разработкой с помощью ИИ-ассистентов оцениваю срок примерно в 10–14 рабочих дней, включая демонстрацию полного цикла оплаты → проверки → уведомления в тестовой среде.\n\nВопросы:\n1. Создано ли у вас приложение в Открытой платформе Alipay с нужными правами на API и кто предоставит ключи для песочницы?\n2. Какой адрес и формат данных ожидаются для уведомлений о результате и нужна ли подпись запросов?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": []
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837230",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ui-design/Ayurvedic-Physician-Appointment-Website",
+  "title": "Ayurvedic Physician Appointment Website -- 2",
+  "description": "I need a professional website to facilitate appointment bookings for my Ayurvedic practice. \n\nEssential Features:\n- User-friendly interface for patients to book appointments\n- Calendar integration to manage availability\n- Secure payment gateway for booking fees\n- Mobile-responsive design\n- SEO optimization to enhance visibility\n\nIdeal Skills and Experience:\n- Proven experience in developing appointment booking websites\n- Strong portfolio showcasing relevant past work\n- Expertise in UI/UX design\n- Knowledge of SEO best practices\n\nPlease include past work in your application, particularly in appointment booking systems.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T14:55:18+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 6,
+   "summary_ru": "Нужен сайт для записи пациентов к врачу аюрведы: удобный выбор времени, управление расписанием через календарь, адаптивный дизайн и SEO. Бюджет небольшой (37 500 INR), но задача понятная и подходит под онлайн-запись.",
+   "reply": "You need a mobile-friendly site where patients can see open slots and book an appointment, while you manage your availability from a calendar, plus basic SEO so local patients can find the practice. I would build it on a modern stack with a booking flow that checks availability in real time, a simple admin view for your schedule, and responsive pages with clean UX. AI-assisted development lets me move quickly, so a first version with the core booking flow could be ready in about 1–2 weeks, followed by SEO and content polish. You can see live demos of booking projects here: https://grachoffprod.github.io/portfolio/\n\nTwo questions: do you need sync with Google Calendar or another external calendar, and how many practitioners will take bookings through the site?\n\nYakov",
+   "reply_ru": "Вам нужен удобный для мобильных устройств сайт, где пациенты смогут видеть свободные слоты и записываться на приём, а вы будете управлять доступностью через календарь. Также нужна базовая SEO-оптимизация, чтобы местные пациенты находили практику. Я бы сделал это на современном стеке: запись с проверкой доступности в реальном времени, простая админ-панель для расписания и адаптивные страницы с понятным UX. Благодаря разработке с ИИ-ассистентами я работаю быстро: первая версия с основным сценарием записи может быть готова примерно за 1–2 недели, затем SEO и доработка контента. Живые демо проектов с онлайн-записью можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: нужна ли синхронизация с Google Calendar или другим внешним календарём и сколько специалистов будут принимать записи через сайт?\n\nYakov",
+   "questions": [
+    "Нужна ли синхронизация с Google Calendar или другим внешним календарём?",
+    "Сколько специалистов будут принимать записи через сайт?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837228",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Ayurvedic-Physician-Appointment-Website",
+  "title": "Ayurvedic Physician Appointment Website",
+  "description": "I need a professional website to facilitate appointment bookings for my Ayurvedic practice. \n\nEssential Features:\n- User-friendly interface for patients to book appointments\n- Calendar integration to manage availability\n- Secure payment gateway for booking fees\n- Mobile-responsive design\n- SEO optimization to enhance visibility\n\nIdeal Skills and Experience:\n- Proven experience in developing appointment booking websites\n- Strong portfolio showcasing relevant past work\n- Expertise in UI/UX design\n- Knowledge of SEO best practices\n\nPlease include past work in your application, particularly in appointment booking systems.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T14:55:18+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 6,
+   "summary_ru": "Нужен сайт для записи пациентов в аюрведическую практику с удобным интерфейсом, управлением доступностью через календарь, адаптивным дизайном и SEO-оптимизацией. Бюджет 37 500 INR.",
+   "reply": "You need a patient-friendly booking site for your Ayurvedic practice: clear service and practitioner pages, a calendar that shows real availability, a mobile-first layout, and basic SEO so local patients can find you. I would build it on a modern stack, with a booking flow that checks free slots in real time, sends confirmations, and syncs with your calendar. AI-assisted development helps keep the timeline short. A realistic estimate is 2–3 weeks for the core site and booking flow, including SEO setup and testing. To scope it accurately, how many practitioners need separate calendars, and which calendar tool do you use now (Google Calendar, Calendly, or something else)?\n\nYou can see live demos of booking and other work here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен удобный для пациентов сайт записи для аюрведической практики: понятные страницы услуг и врачей, календарь с реальной доступностью, адаптивный дизайн для телефонов и базовое SEO, чтобы местные пациенты могли вас найти. Я бы сделал это на современном стеке: форма записи проверяет свободные слоты в реальном времени, отправляет подтверждения и синхронизируется с вашим календарём. ИИ-ассистенты в разработке помогают держать сроки короткими. Ориентировочно 2–3 недели на основной сайт и процесс записи, включая настройку SEO и тестирование. Чтобы точнее оценить объём работ: сколько врачей нужны отдельные календари и каким инструментом вы пользуетесь сейчас (Google Calendar, Calendly или другим)?\n\nЖивые демо записи и других работ можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Сколько врачей или специалистов должны иметь отдельные календари записи?",
+    "Каким календарным инструментом вы пользуетесь сейчас (Google Calendar, Calendly или другим)?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837225",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Shopify-Brand-Showcase-Site",
+  "title": "Shopify Brand Showcase Site",
+  "description": "I'm looking for an experienced Shopify developer to create a website that will effectively showcase my local service business and allow visitors to contact me or request a quote.\n\nKey requirements:\n- Professional design that reflects my brand\n- Easy-to-navigate layout for visitors\n- Contact/request a quote functionality\n\nIdeal skills and experience:\n- Expertise in Shopify platform\n- Strong design skills\n- Experience with local service business websites",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T14:52:44+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Нужен сайт-визитка на Shopify для локального сервисного бизнеса с брендовым дизайном, понятной навигацией и формой запроса КП или связи. Бюджет очень низкий (1500 INR).",
+   "reply": "You need a clean, branded site for your local service business where visitors can quickly see what you offer and request a quote. I would build a multi-section showcase with services, a short about block, reviews or past work, and a quote request form that sends submissions straight to your email or messenger. The design would follow your brand colors and fonts, with a mobile-first layout and fast loading. Timeline: about 3 to 5 days after I receive your brand materials and service list. Could you share your logo, brand colors, and the services you want featured? Is Shopify a must for this site, or would another platform work for you? You can see live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен аккуратный брендированный сайт для локального сервисного бизнеса, где посетители быстро увидят предложения и смогут запросить расчет. Я бы сделал многосекционную витрину: услуги, блок «о компании», отзывы или примеры работ и форму запроса КП, которая отправляет заявки сразу на вашу почту или в мессенджер. Дизайн будет соответствовать вашим цветам и шрифтам, с адаптивной версткой для телефонов и быстрой загрузкой. Срок: примерно 3–5 дней после получения брендовых материалов и списка услуг. Не могли бы вы прислать логотип, фирменные цвета и список услуг, которые нужно показать? Обязателен ли для этого сайта Shopify или подойдет другая платформа? Живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Обязательно ли использовать именно Shopify или подойдет другая платформа?",
+    "Есть ли у заказчика логотип, фирменные цвета и тексты для сайта?",
+    "Какие услуги нужно вывести на сайт и как должна работать форма запроса КП?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelancer:40837224",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-integration/Senior-Salesforce-Developer-Freelancer",
+  "title": "Senior Salesforce Developer (Freelancer)",
+  "description": "We are looking for a seasoned Salesforce Developer with approximately 6+ years of hands-on experience to design, develop, and maintain complex workflows and integrations. You will be responsible for the full development lifecycle, from technical requirements gathering to deployment, ensuring that our Salesforce instance remains scalable, efficient, and aligned with business goals.\n\nKey Responsibilities:\n\n• Custom Development: Design and develop high-quality, scalable solutions using Apex (Triggers, Classes, Async), Lightning Web Components (LWC), and Aura.\n\n• Declarative Automation: Build complex automation using Flow Builder, ensuring a \"Clicks before Code\" approach where appropriate.\n\n• System Integration: Design and implement REST/SOAP APIs to connect Salesforce with third-party systems and middleware.\n\n• Technical Architecture: Contribute to architectural discussions, providing input on data modeling, security (Role Hierarchy, Sharing Rules), and system performance.\n\n• Testing & QA: Write comprehensive Apex Test Classes (maintaining >85% coverage) and perform unit testing to ensure code quality and stability.\n\n• Maintenance & Support: Debug complex technical issues, manage deployments using CI/CD tools, and provide technical guidance to junior developers.\n\nRequired Technical Skills:\n\n• Core Development: Strong proficiency in Apex, LWC, JavaScript, and SOQL/SOSL.\n\n• Salesforce Clouds: Deep experience with Sales Cloud and Service Cloud (Experience Cloud or Financial Services Cloud is a plus).\n\n• Integrations: Proven track record of handling API integrations and managing authentication (OAuth).\n\n•Tools: Experience with Salesforce CLI, VS Code, and Version Control (Git/GitHub/Bitbucket).\n\n• DevOps: Familiarity with deployment tools like Copado, Gearset, or Azure DevOps.\n\nSoft Skills & Qualifications:\n\n• Problem Solving: Ability to translate abstract business requirements into concrete technical solutions.\n\n• Communication: Strong verbal and written communication skills for collaborating with stakeholders and cross-functional teams\n\nCertifications:\n\n• Required: Salesforce Certified Platform Developer I.\n\n• Preferred: Platform Developer II, App Builder, or Administrator.\n\n• Education: Bachelor’s degree in Computer Science, Information Technology, or a related field.\n\nWhat We Offer:\n\n• Opportunity to lead technical workstreams on high-impact projects.\n\n• Access to the latest Salesforce features and continuous learning opportunities.\n\n• Competitive salary and comprehensive benefits package.",
+  "budget": 150000.0,
+  "budget_min": 75000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T14:51:21+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Вакансия на постоянную позицию Senior Salesforce Developer с требованием 6+ лет опыта, сертификатов Salesforce и степени бакалавра, с упоминанием зарплаты и社会ных льгот. Это найм сотрудника, а не разовый проект, и Salesforce (Apex, LWC, Flow) не входит в список услуг.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это разовый проект по контракту или постоянная работа в штате компании?",
+    "Есть ли конкретная задача для разработки или интеграции, которую нужно сделать, а не набор требований к кандидату?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "flru:5530672",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530672/napisanie-teksta-s-seo-dlya-sayta.html",
+  "title": "Написание текста с СЕО для сайта",
+  "description": "Здравствуйте! Необходимо написать текста для интернет магазина .\nТематика: одежда и обувь\nтекста для сео продвижения. В ТЗ все расписано",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 15:39:02 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Заказчик ищет копирайтера, который напишет SEO-тексты для интернет-магазина одежды и обуви по готовому ТЗ. Это текстовая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли вам также правки или технические SEO-доработки самого сайта, или только тексты?",
+    "Сколько текстов и какого объёма требуется по ТЗ?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "flru:5530660",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530660/ruchnoe-testirovanie-android-prilojeniya-po-gotovomu-chek-listu.html",
+  "title": "Ручное тестирование Android-приложения по готовому чек-листу",
+  "description": "Ищем тестировщика, чтобы прогнать готовый smoke-тест Android-приложения родительского контроля.\n\nО приложении. Одно приложение работает в двух ролях:\n- телефон ребёнка: привязка к семье, фоновый сервис, блокировка приложений, расписания, дневные лимиты, геозоны;\n- телефон родителя: консоль управления.\n\nОбязательные требования:\n- Минимум два своих Android-телефона, оба с Google Play:\n-- один из них — Xiaomi, Redmi или POCO на HyperOS / MIUI;\n-- второй — Android 13 или новее.\n\nБудет плюсом:\n- больше двух телефонов, особенно бюджетные Redmi A / Redmi C, realme, Tecno, Infinix;\n\nЧто сделать:\n- Установить приложение из Google Play по ссылке на тестирование.\n- Пройти чек-лист из 26 шагов (28 кейсов) в заданном порядке. По нашей оценке это 4,5–5 часов.\n- Отметить в чек-листе статус каждого шага.\n- Оформить найденные баги в файле по нашему шаблону: шаги, ожидаемый и фактический результат, скриншот или видео, логи adb logcat.\n- Сдать архив: итоговый отчёт по шаблону, заполненный чек-лист, файл с багами, вложения.\n\nЕсли всё устроит, планируем дальнейшее сотрудничество.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 13:30:25 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 2,
+   "summary_ru": "Ручное тестирование Android-приложения родительского контроля по готовому чек-листу из 26 шагов на собственных телефонах заказчика (Xiaomi/Redmi/POCO и Android 13+). Это QA-работа, а не разработка, и она не входит в услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужен ли вам также исправленный код, если тестирование выявит баги?",
+    "Рассматриваете ли вы разовую разработку или доработку отдельных функций приложения?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "kwork:3275042",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275042",
+  "title": "Сбор сообщений с сайт-объявлений-номер-один в срм",
+  "description": "Сбор сообщений с моего аккаунт с сайта-объявлений-номер-один в срм и ответ на них из срм. \nСрм самописная (питон, постгрес), сейчас туда собираются сообщения из вк. \nИнтервал сбора - час в наше рабочее время, 3 часа во внерабочее. Время лучше рандомное или по сигналу с обозревателя. \nВнимание! Сбор через оф.апи - невозможен! \nСразу учитывайте это, без всякого \"аа---тк-тут-апи-нужен\"! \nУстановка лучше на наш физический компьютер (работает круглосуточно). \nПока без исторического сбора (он обсуждается отдельно). \nНужна гарантия.",
+  "budget": 5000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 18:10:39",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 3,
+   "summary_ru": "Нужно собирать сообщения с площадки объявлений без официального API в самописную CRM на Python и Postgres и отвечать на них прямо из CRM. Установка на физический компьютер, интервалы сбора 1 час в рабочее время и 3 часа вне его, история пока не нужна.",
+   "reply": "Вы хотите, чтобы переписка с площадки объявлений подтягивалась в вашу CRM на Python и Postgres, а ответы отправлялись прямо из неё, при этом всё работало на вашем компьютере. Понимаю, что официального API нет, поэтому работать буду через веб-интерфейс аккаунта: сборщик с сохранением в Postgres, модуль отправки ответов из CRM и планировщик с вашими интервалами для рабочего и нерабочего времени. Гарантировать работу при изменениях на площадке или блокировках аккаунта не могу, но могу добавить автоматическое восстановление после сбоев и подробное логирование. Ориентировочно 1–2 недели на первую версию. Какой у вас сейчас стек CRM и как устроена отправка ответов из неё? Сбор нужен только для одного аккаунта или для нескольких?\n\nСм. живые демо в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы переписка с площадки объявлений подтягивалась в вашу CRM на Python и Postgres, а ответы отправлялись прямо из неё, при этом всё работало на вашем компьютере. Понимаю, что официального API нет, поэтому работать буду через веб-интерфейс аккаунта: сборщик с сохранением в Postgres, модуль отправки ответов из CRM и планировщик с вашими интервалами для рабочего и нерабочего времени. Гарантировать работу при изменениях на площадке или блокировках аккаунта не могу, но могу добавить автоматическое восстановление после сбоев и подробное логирование. Ориентировочно 1–2 недели на первую версию. Какой у вас сейчас стек CRM и как устроена отправка ответов из неё? Сбор нужен только для одного аккаунта или для нескольких?\n\nСм. живые демо в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой у вас сейчас стек CRM и как устроена отправка ответов из неё?",
+    "Сбор нужен только для одного аккаунта или для нескольких?",
+    "Как вы планируете обрабатывать ситуации, если площадка изменит интерфейс или ограничит доступ к аккаунту?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "kwork:3275511",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275511",
+  "title": "Ищем инженера-схемотехника/PCB-дизайнера",
+  "description": "О проекте: \nЕсть рабочий прототип электронного прибора (схема и плата выполнены в EasyEDA, спецификация в виде базового списка с компонентами/ссылками). Прибор полностью рабочий, но текущий уровень документации любительский. Нам нужен профессиональный аудит и адаптация проекта под серийный монтаж (ориентируемся на экосистему jlcpcb/LCSC). \nЗадачи для специалиста: \nАудит схемы (Schematic Review): проверка цепей питания, добавление базовой защиты (от статики, переполюсовки, скачков напряжения). \nНормализация BOM: перевод текущего списка компонентов на промышленные рельсы: подбор реальных MPN и кодов компонентов из каталога LCSC (с учетом доступности и аналогов). \nКорректировка топологии (PCB Layout): оптимизация разводки под требования DFM (Design for Manufacturing) автоматических линий монтажа (SMT/DIP). \nПодготовка пакета КД: генерация корректных Gerber-файлов, BOM и файла координат (CPL) для запуска на фабрике. \nТестирование: рекомендации или добавление контрольных точек (Test Points) для базовой проверки плат. \nЧто ждем от кандидата: \nОпыт успешной разработки и доводки плат до серийного производства. \nУверенное владение EasyEDA (или готовность работать с этим форматом). \nПонимание правил трассировки, целостности сигналов и требований контрактных производств (преимущественно в Китае). \nПортфолио с примерами реальных серийных плат. \nСм. приложенный файл.",
+  "budget": 3000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 18:08:34",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Нужен инженер-схемотехник или PCB-дизайнер для аудита схемы готового электронного прибора, нормализации BOM под LCSC/JLCPCB, доработки разводки и подготовки пакета КД (Gerber, BOM, CPL) для серийного производства. Это аппаратная разработка, а не программные услуги из списка Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам только разработка платы и документации, или также прошивка микроконтроллера и программная часть прибора?",
+    "Какой объём серии планируется и есть ли требования по сертификации (CE, EMC) для готового изделия?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelance_ru:16514",
+  "source": "freelance_ru",
+  "url": "https://freelance.ru/task/view/16514",
+  "title": "Написание текста с СЕО для сайта",
+  "description": "Необходимо написать текста для интернет магазина . тематика: одежда и обувьтекста для сео продвижения. В ТЗ все расписано",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "26.11.2026 18:37",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Заказчик ищет копирайтера для написания SEO-текстов для интернет-магазина одежды и обуви по готовому ТЗ. Это написание текстов, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли какие-то технические доработки сайта, например, вывод SEO-блоков или правка шаблонов категорий?",
+    "Сколько текстов и какого объёма требуется?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
+  "id": "freelance_ru:16511",
+  "source": "freelance_ru",
+  "url": "https://freelance.ru/task/view/16511",
+  "title": "Создание сайта аренда спецтехники",
+  "description": "нужен сайт на вордпресс. Под продвижение директ и сео. 20 страниц по разным направлениям техники. Возможно долгосрочное сотрудничество с СЕО специалистами.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "26.11.2026 18:02",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Нужен сайт на WordPress с 20 страницами по разным направлениям аренды спецтехники, оптимизированный под SEO и контекстную рекламу (Директ). Возможно долгосрочное сотрудничество с SEO-специалистами.",
+   "reply": "Вам нужен сайт на WordPress с 20 страницами под разные виды спецтехники, рассчитанный на продвижение через Директ и SEO. Я бы сделал структуру из главной страницы, раздела каталога и отдельных посадочных страниц под каждое направление: с понятными заголовками, мета-данными, микроразметкой и быстрой загрузкой, а также с формой заявки на каждой странице. Ориентировочно на весь объём с адаптивным дизайном и подготовкой к работе с SEO-специалистами уйдёт 2–3 недели. Есть ли у вас уже тексты и фото техники, и нужна ли интеграция формы с CRM или почтой?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен сайт на WordPress с 20 страницами под разные виды спецтехники, рассчитанный на продвижение через Директ и SEO. Я бы сделал структуру из главной страницы, раздела каталога и отдельных посадочных страниц под каждое направление: с понятными заголовками, мета-данными, микроразметкой и быстрой загрузкой, а также с формой заявки на каждой странице. Ориентировочно на весь объём с адаптивным дизайном и подготовкой к работе с SEO-специалистами уйдёт 2–3 недели. Есть ли у вас уже тексты и фото техники, и нужна ли интеграция формы с CRM или почтой?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли уже тексты и фотографии техники или их нужно готовить с нуля?",
+    "Нужна ли интеграция формы заявок с CRM, почтой или мессенджером?"
+   ]
+  },
+  "found_at": "2026-11-26T15:46:29+00:00"
+ },
+ {
   "id": "freelancer:40837221",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/administrative-support/Flexible-Virtual-Assistant-Support-40837221",
