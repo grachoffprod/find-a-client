@@ -1,5 +1,248 @@
 [
  {
+  "id": "freelancer:40837565",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/php/Full-Stack-Web-App-Build-40837565",
+  "title": "Full-Stack Web App Build urgently",
+  "description": "I already have a web application that I quickly created using ChatGPT. However, many things in the existing application still need to be done manually. I want you to rebuild it using custom coding and automate everything as much as possible.\n\nI'll share the existing application along with the login credentials so you can review it and understand how everything works. I want the new application to have the same functionality, but please make the layout and frontend design more attractive, modern, and professional.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "NZD",
+  "posted_at": "2026-11-26T19:29:35+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 4,
+   "summary_ru": "Клиент хочет переписать созданное через ChatGPT веб-приложение на нормальном коде с сохранением текущего функционала, более современным и профессиональным интерфейсом и максимальной автоматизацией ручных операций. Срочно, бюджет 250 NZD, объём работ пока не определён.",
+   "reply": "You want your ChatGPT-built app rebuilt with proper custom code, keeping the current features but with a more modern, professional frontend and as much of the manual work automated as possible. My approach: first I'd review the existing app and its workflows, map every feature and the steps you currently do by hand, then rebuild on a clean modern stack with a proper backend, database, and automation for the repetitive parts, plus a refreshed UI. Since you need it urgently, I can deliver a working version of the core features first and continue with the rest in stages. Rough estimate for the core is 1–2 weeks, depending on scope. Which features are the highest priority for the first release, and which manual tasks take up the most of your time?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите переписать созданное через ChatGPT веб-приложение на нормальном коде, сохранив текущий функционал, но с более современным и профессиональным фронтендом и максимальной автоматизацией ручной работы. Мой подход: сначала я изучу существующее приложение и его сценарии, опишу каждую функцию и шаги, которые вы сейчас делаете вручную, затем перестрою проект на современном стеке с нормальным бэкендом, базой данных и автоматизацией повторяющихся действий, а также обновлю интерфейс. Поскольку вам нужно срочно, я могу сначала сделать рабочую версию основных функций, а остальное выпустить поэтапно. Ориентировочный срок на основное ядро — 1–2 недели в зависимости от объёма. Какие функции важнее всего для первого релиза и на какие ручные задачи уходит больше всего времени?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие функции важнее всего для первого релиза, а что можно выпустить на следующем этапе?",
+    "Какие ручные операции сейчас отнимают больше всего времени и что именно нужно автоматизировать?"
+   ]
+  },
+  "found_at": "2026-11-26T19:33:26+00:00"
+ },
+ {
+  "id": "freelancer:40837564",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/figma/iOS-App-Figma-Design",
+  "title": "iOS App Figma Design",
+  "description": "We have a live iOS app in production (~50 or more screens but all share same layout). We need it recreated in Figma as a structured, component-based design system, not flat screen copies. A change made once to a component or variable must update every screen where it's used. Developers will build from the file using Figma Dev Mode and the Figma MCP server.\n\nRequirements:\n\nUse the live app (App Store / TestFlight access) and our screenshots as the reference.\nSet up Figma Variables for colour, spacing, radius and typography (primitive → semantic), with Light / Dark modes, plus text styles.\nBuild reusable components with variants and properties covering all states (default, pressed, disabled, loading, empty, error): buttons, inputs, cards, list rows, nav bar, tab bar, sheets and dialogs.\nBuild every screen pixel-accurately from library components only: no detached instances, no hard-coded values.\nUse Auto Layout everywhere, respecting iOS safe areas and Dynamic Type.\nUse clear, code-friendly names (color/surface/primary, space/16, Button/Primary/Large).\nOrganise pages as Foundations / Components / Screens by flow, and publish the components as a library.\nBuild a clickable prototype of the main flows, and mark screens \"Ready for dev\".\n\nDeliverables: editable Figma file transferred to our account, exported icons and assets (SVG, PNG @1x–3x), and a list of tokens and components.\n\nProcess: a paid first milestone (foundations, core components and 5 screens). We'll review it before the rest.\n\nIn your bid: start with \"AUTO LAYOUT\", show a past Figma design system (variables + component variants), and give your price and timeline.",
+  "budget": 850.0,
+  "budget_min": 470.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T19:28:57+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Клиент хочет получить компонентную дизайн-систему в Figma для существующего iOS-приложения: переменные, компоненты с вариантами, экраны и прототип. Это дизайнерская работа, а бюджет составляет всего 850 INR.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разработка функционала приложения, или требуется только дизайн-система в Figma?",
+    "Есть ли у вас доступ к исходникам или дизайн-файлам приложения, которые можно использовать как основу?"
+   ]
+  },
+  "found_at": "2026-11-26T19:33:26+00:00"
+ },
+ {
+  "id": "freelancer:40837551",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-app-development/Virtual-Companion-App-Development",
+  "title": "AI Virtual Companion App Development",
+  "description": "# Experienced AI Application Developer Required – iOS, Android & Web\n\nWe are looking for an experienced freelance developer or professional development team to build an advanced AI-powered virtual companion app, similar to VILO AI but with more sophisticated, realistic features.\n\nThe project involves:\n\n- AI-powered conversational characters and personalized roleplay.\n- Real-time, photorealistic AI avatar interactions.\n- Natural voice communication and facial expressions.\n- AI image and video generation with facial identity consistency.\n- Mobile and web application development.\n- Subscription-based access and payment integration.\n- Advanced user privacy, security, and data protection.\n\n**Required Experience:**\n\n- AI and Generative AI application development.\n- Real-time AI avatars and digital human technology.\n- Mobile and web application development.\n- AI model and API integrations.\n- Secure and scalable backend development.\n\nInterested applicants should share their portfolio, relevant AI development experience, technical expertise, and demonstrations of similar projects.\n\nWe are looking for a long-term development partner with strong technical knowledge, innovative thinking, and professional commitment.\n\nWe will discuss the complete project concept, functional requirements, technical blueprint, budget, and development milestones with shortlisted candidates under an NDA.",
+  "budget": 15.0,
+  "budget_min": 8.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T19:20:57+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Заказчик ищет разработчика или команду для создания AI-приложения-компаньона (как VILO AI) с персонажами и ролевым общением, фотореалистичными аватарами в реальном времени, голосом, генерацией изображений и видео, подпиской и работой на iOS, Android и в вебе. Объём очень большой, а бюджет всего 15 USD.",
+   "reply": "You're looking for a partner to build an AI companion app with character roleplay, realistic real-time avatars, voice, subscriptions, and apps for iOS, Android, and web. The full scope is large, so I'd suggest starting with a focused first milestone: a chat backend with character personalities, user accounts, a subscription flow, and a web client, connected to existing LLM and voice APIs. I'd use a modern stack and AI-assisted development to move quickly, then plan the avatar and image/video features as separate phases once the core is tested. A realistic first milestone would take about 2–3 weeks, with the remaining phases estimated after a technical blueprint. Which part matters most to you right now, and does the budget cover only the first phase?\n\nFull portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете партнёра для создания AI-приложения-компаньона с ролевыми персонажами, фотореалистичными аватарами в реальном времени, голосом, подпиской и приложениями для iOS, Android и веба. Объём работ большой, поэтому я бы предложил начать с первого, ограниченного этапа: бэкенд чата с личностями персонажей, учётные записи пользователей, поток оформления подписки и веб-клиент, подключённые к существующим LLM- и голосовым API. Я бы использовал современный стек и разработку с помощью ИИ-ассистентов, чтобы двигаться быстро, а функции аватаров и генерации изображений и видео запланировал отдельными этапами после тестирования основы. Реалистичный срок первого этапа — около 2–3 недель, остальные этапы оценим после технического блюпринта. Какая часть для вас сейчас важнее всего и покрывает ли бюджет только первый этап?\n\nПолное портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Покрывает ли бюджет 15 USD только первый этап работ или весь проект целиком?",
+    "Какая функция важнее всего на старте: чат с персонажами, голос, подписка или аватары?",
+    "Планируете ли вы мобильные приложения сразу или сначала достаточно веб-версии?"
+   ]
+  },
+  "found_at": "2026-11-26T19:33:26+00:00"
+ },
+ {
+  "id": "freelancer:40837538",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android/Best-Singles-App",
+  "title": "Best Singles App",
+  "description": "I need a straightforward mobile app that I can launch on both the Apple App Store and Google Play Store. The sole purpose of the app is to let me push real-time trading signals to my subscribers for just three instruments—US30, BTC, and Gold. \n\nFunctionality\n• From my side, I simply pick the instrument, select Buy or Sell, fill in entry price, stop loss, and take profit, then hit send. \n• Users receive the signal instantly as a push notification; nothing else clutters their screen. \n• A clean history tab inside the app can show the list of past alerts so subscribers can review previous calls at any time.\n\nSubscription flow\nNew users get a 15-day free trial the moment they install the app. After that, access should switch to an in-app paid subscription (monthly or yearly options work; please wire it into Apple and Google billing so everything is handled automatically).\n\nDeliverables\n• iOS and Android source code \n• Publishing-ready builds and store listing assistance \n• Simple backend or admin panel that lets me create and send signals in seconds \n• Documentation for future updates \n\nIf you have experience with push notifications, in-app subscriptions, and fast-loading UIs, this project should be very direct. Let’s keep it lightweight, reliable, and easy for traders to use on the go.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T19:20:11+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Заказчик хочет простое мобильное приложение для iOS и Android, через которое он будет рассылать торговые сигналы (US30, BTC, Gold) подписчикам push-уведомлениями, с историей сигналов, 15-дневным пробным периодом и подпиской. Нужны также админ-панель для отправки сигналов и публикация в сторах. Бюджет 30 USD явно не соответствует объему работ.",
+   "reply": "You need a lightweight mobile app for iOS and Android where you can send trading signals for US30, BTC and Gold. Subscribers get them instantly as push notifications, can browse past alerts in a history tab, and start with a 15-day trial before a subscription. I'd begin with a simple admin panel and backend so you can create and send a signal in seconds, then build the mobile client with push and history on one cross-platform codebase, and prepare builds and store listings for both stores. For a first version I estimate about 3–4 weeks. Given the scope, would you consider starting with a smaller first release at this budget? Also, do you already have developer accounts on Apple and Google?\n\nSee my portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно легкое мобильное приложение для iOS и Android, через которое можно отправлять торговые сигналы по US30, BTC и Gold. Подписчики получают их мгновенно push-уведомлениями, могут смотреть прошлые сигналы во вкладке истории и начинают с 15-дневного пробного периода, после которого включается подписка. Я бы начал с простой админ-панели и бэкенда, чтобы сигнал можно было создать и отправить за секунды, затем сделал мобильный клиент с push-уведомлениями и историей на одной кроссплатформенной кодовой базе и подготовил сборки и карточки для обоих сторов. Для первой версии оцениваю примерно в 3–4 недели. С учетом объема работ, рассматриваете ли вы более компактный первый релиз в рамках этого бюджета? И есть ли у вас уже аккаунты разработчика в Apple и Google?\n\nПосмотреть портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Рассматриваете ли вы более компактный первый релиз (MVP) в рамках бюджета 30 USD?",
+    "Есть ли у вас уже аккаунты разработчика в Apple Developer и Google Play Console?"
+   ]
+  },
+  "found_at": "2026-11-26T19:33:26+00:00"
+ },
+ {
+  "id": "freelancer:40837513",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/point-of-sale/business-management-system",
+  "title": "business-management-system",
+  "description": "The platform centralizes store operations by connecting frontline checkout processing with inventory control, staff permissions, and automated end-of-day financial reporting. Visitors can jump straight to the Shop Online storefront, open the Dashboard, or Sign in to their business account.\n\nCore Platform Features\nPoint of Sale (POS) Cashier Terminal: Enables fast sales processing with barcode/instant search, quantity adjustments, customer loyalty attachment, and receipt generation.\n\nVerified Catalog & Zero-Stock Alerts: Organizes products by category, tracks cost-to-retail profit margins, and automatically labels items as 'EMPTY' as soon as inventory reaches zero.\n\nManagerial Delegation & Approvals: Allows co-managers to add products and manage daily workflows while automatically alerting the store owner to any changes.\n\nAudit Logs & Notification Bell: Provides a real-time notification center in the admin header to filter co-manager activity, inspect detailed audit logs, and clear logs as needed.\n\nAutomated Daily Reconciliation: Eliminates manual spreadsheet tallying by automatically calculating closing numbers across four key metrics:\n\nGross Daily Sales: Exact revenue from verified POS orders.\n\nSales Volume: Total units sold and deducted per category.\n\nInventory Status: Remaining stock levels and empty-item alerts.\n\nPayment Breakdown: Revenue split across Cash, Card, and Mobile payments.\n\nMulti-Currency & Business Settings: Admin-level controls configured for Ethiopian Birr (ETB) by default, alongside support for USD, EUR, and GBP, plus store contact details and an English (EN) language toggle.\n\nStaff Hierarchy & Permissions\nThe system enforces role-based access control across three tiers:\n\nStore Administrator (Store Owner & Executive Manager)\n\nPermissions: Full control over the business profile, currency settings, end-of-day financial reconciliation reports, real-time co-manager notifications, and activity audit logs (including report deletion).\n\nAccess: Full Store Dashboard & Admin Console.\n\nCo-Manager (Floor Supervisor & Shift Manager)\n\nPermissions: Can add products, set prices, register customers directly, and approve catalog modification requests submitted by cashiers. All actions are logged and trigger automatic notifications to the admin.\n\nAccess: Catalog, Sales, Approvals & Personal Profile.\n\nEmployee / Cashier (Frontline Staff)\n\nPermissions: Operates the POS checkout terminal and looks up or registers customers. Any product or price changes they submit are held pending managerial approval.\n\nAccess: POS Station, Customer Roster & Assigned Workspace.\n\nPage Navigation & Actions\nHeader & Hero: Features quick links to Shop Online and the Dashboard, alongside theme (light/dark mode) and language (GB EN) toggles.\n\nBased on its architecture—specifically high-speed barcode checkout, zero-stock (EMPTY) alerts, profit margin tracking, multi-tier staff permissions, and automated end-of-day cash/card/mobile reconciliation—this system is built for high-turnover, inventory-based retail businesses where daily stock tracking and cashier accountability are critical.\n\nWhile the page explicitly mentions retail stores, supermarkets, and enterprise merchants (with branding for Lexi Electronics and Yoni Mini Market), it is well-suited for the following types of businesses:\n\nSupermarkets & Mini-Markets: Ideal for fast-moving consumer goods (FMCG) with high daily transaction volumes, barcode scanning, and instant EMPTY alerts when shelf stock runs out.\n\nElectronics & Mobile Phone Shops: Fits stores selling high-value items where cost-to-retail profit margin tracking, strict co-manager approval rules for price changes, and detailed audit logs prevent unauthorized discounting or stock loss.\n\nPharmacies & Drugstores: Works well for tracking medicine stock levels, preventing out-of-stock surprises on essential items, and separating pharmacist/manager catalog control from frontline cashier checkout.\n\nCosmetics, Beauty & Boutique Retail: Useful for managing categorized product catalogs, customer loyalty registration at checkout, and multi-currency pricing (ETB, USD, EUR, GBP).\n\nHardware, Auto Parts & Building Supply Stores: Helps manage large, categorized inventories with varying unit quantities and daily sales volume breakdowns per category.\n\nWholesale & Distribution Outlets: Supports bulk quantity adjustments at checkout, profit-margin monitoring, and end-of-day financial reconciliation across multiple payment methods.\n\nFooter & Portal Links: Provides direct navigation to Features, Staff Roles, Daily Reports, the Staff Portal, and Register Store.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T19:03:54+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Заказчик описывает систему управления магазином: POS-касса со сканированием штрихкодов, учёт остатков с метками EMPTY, маржа, три роли сотрудников с согласованием изменений, журнал аудита и ежедневная сверка по наличным, картам и мобильным платежам с поддержкой ETB, USD, EUR и GBP. Бюджет 25 USD явно не покрывает объём работ.",
+   "reply": "Hi, I read the brief. You need a store management system that combines a POS cashier terminal, inventory with automatic EMPTY alerts and margin tracking, three-tier staff roles with approval flows, an audit log with notifications, and an end-of-day report that splits cash, card and mobile payments with ETB, USD, EUR and GBP support. The full scope is much larger than the $25 budget, so I'd suggest a focused first stage: the POS terminal, the catalog with stock levels and EMPTY labels, and the daily sales report. I'd build it on a modern stack and use AI-assisted development to keep it fast. The first stage would take about 1–2 weeks.\n\nYou can see live demos of my work here: https://grachoffprod.github.io/portfolio/\n\nWhich features matter most for the first stage? Is this a new build or a rework of an existing system?\n\nYakov",
+   "reply_ru": "Здравствуйте, я изучил описание. Вам нужна система управления магазином, которая объединяет POS-кассу, учёт остатков с автоматическими метками EMPTY и отслеживанием маржи, трёхуровневые роли сотрудников с процессом согласования, журнал аудита с уведомлениями и ежедневный отчёт, который разделяет платежи наличными, картой и мобильными с поддержкой ETB, USD, EUR и GBP. Полный объём работ заметно больше бюджета в 25 USD, поэтому я предлагаю сфокусированный первый этап: POS-терминал, каталог с остатками и метками EMPTY и ежедневный отчёт по продажам. Я бы сделал это на современном стеке с использованием ИИ-ассистентов в разработке, чтобы ускорить работу. Первый этап занял бы примерно 1–2 недели.\n\nЖивые демо моих работ здесь: https://grachoffprod.github.io/portfolio/\n\nКакие функции важнее всего для первого этапа? Это новый проект или доработка существующей системы?\n\nYakov",
+   "questions": [
+    "Какие функции важнее всего включить в первый этап?",
+    "Это новый проект или доработка существующей системы?"
+   ]
+  },
+  "found_at": "2026-11-26T19:33:26+00:00"
+ },
+ {
+  "id": "freelancer:40837499",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/3d-cad/polythene",
+  "title": "A polythene",
+  "description": "I need a practical, waterproof phone holder that will keep a medium-sized smartphone (roughly 5–6 inches) fully protected during heavy rain. The goal is to allow the user to operate the screen, see notifications clearly, and keep every port, button, and speaker safe from water ingress without adding excess bulk.\n\nDeliverables\n• Concept sketches that show overall shape, mounting/attachment method, and sealing approach \n• Production-ready 3D CAD files (STEP or STL) for the main shell, transparent window, seals, and any locking parts \n• A brief bill of materials highlighting suitable water-resistant plastics, gasket materials, and finishing methods \n• Assembly instructions or an exploded view so a manufacturer can prototype the unit quickly\n\nAcceptance Criteria\n• Must pass an IPX4 rain simulation (steady spray from all directions) for at least 10 minutes with no moisture inside \n• Accommodates phones measuring 70–80 mm wide and up to 160 mm tall \n• Allows full touchscreen usability through a clear front panel \n• All buttons remain operable or externally duplicated\n\nIf you have experience with waterproof enclosures, gasket design, or outdoor accessory engineering, I’d love to see examples of similar work when you submit your bid.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T18:40:10+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Заказчик хочет разработать физический водонепроницаемый держатель для смартфона 5–6 дюймов с концептами, 3D CAD-файлами, спецификацией материалов и проверкой по IPX4. Это инженерный дизайн изделия, а не разработка ПО, поэтому не подходит под услуги Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только концептуальная модель и CAD, или также изготовление и физическое тестирование прототипа?",
+    "Есть ли у вас уже требования к материалам или производственный процесс (например, 3D-печать или литье)?"
+   ]
+  },
+  "found_at": "2026-11-26T19:33:26+00:00"
+ },
+ {
+  "id": "kwork:3275822",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275822",
+  "title": "Поднять БД из файлов MySQL и развернуть на WordPress",
+  "description": "техническое задание \nЗадача: Поднять БД из сырых бинарных файлов MySQL и развернуть под ключ два сайта на WordPress («Изол» и «Окожушка») на новом хостинге Sprinthost. \nИсходники (архив с прошлого VPS): \n1.Папки public_html обоих сайтов. \n2.Бинарные файлы MySQL/InnoDB из /var/lib/mysql (папки баз, системная mysql, ibdata1, ib_logfile0, ib_buffer_pool, mysql_upgrade_info). \nЧто нужно сделать (под ключ): \n1.Восстановление БД и перенос: Поднять совместимую версию MySQL/MariaDB из сырых файлов, снять чистые SQL-дампы, импортировать в новые БД на Sprinthost и прописать доступы в wp-config.php. \n2.Домены, SSL и редиректы: Привязать домены к Sprinthost (A-записи и почтовые MX, SPF, DKIM), выпустить SSL-сертификаты и настроить 301-редирект с http на https. \n3.Настройка окружения и ссылки: Подобрать совместимую версию PHP без ошибок в логах. Настроить .htaccess и ЧПУ (после переноса с VPS все внутренние страницы должны открываться без ошибок 404). \n4.Почта и проверка: Создать доменные ящики / настроить SMTP в WordPress, проверить отправку заявок с форм и калькуляторов, убедиться в работоспособности админок и базовой чистоте файлов от шеллов с прошлого сервера. \nТребование: Опыт восстановления баз из сырых файлов /var/lib/mysql обязателен. Доступы к Sprinthost и ссылку на архив скину после согласования.",
+  "budget": 3000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 22:07:39",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "calculator",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 2,
+   "summary_ru": "Восстановление MySQL/InnoDB из сырых файлов /var/lib/mysql, перенос двух сайтов на WordPress на новый хостинг Sprinthost, настройка доменов, SSL, почты и безопасности. Это в первую очередь администрирование и миграция сервера, а не разработка, и бюджет 3000 ₽ для такого объёма работ низкий.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какая версия MySQL/MariaDB использовалась на старом VPS и есть ли у вас резервные дампы, которые можно использовать вместо восстановления из сырых файлов?",
+    "Нужны ли доработки самих сайтов или только перенос, и есть ли у заказчика доступы к текущему и новому хостингу?"
+   ]
+  },
+  "found_at": "2026-11-26T19:33:26+00:00"
+ },
+ {
+  "id": "freelance_ru:16528",
+  "source": "freelance_ru",
+  "url": "https://freelance.ru/task/view/16528",
+  "title": "Вёрстка газеты в стиле жёлтой прессы 90-х и 2000-х годов",
+  "description": "Ищу дизайнера-верстальщика для создания персональной газеты в подарок на Новый год.Задача: сверстать газету в стиле старой жёлтой прессы — с громкими заголовками, фотографиями, скандальными статьями, интервью, газетными вырезками, рекламными блоками и другими характерными элементами....",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "26.11.2026 21:52",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 1,
+   "summary_ru": "Заказчик ищет дизайнера-верстальщика, который сверстает персональную газету в стиле жёлтой прессы 90-х и 2000-х в подарок на Новый год. Это печатная полиграфическая верстка, а не веб-разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Газета нужна в печатном виде или в цифровом (PDF или веб-версия)?",
+    "Нужен ли интерактив, например прокрутка или переходы между страницами?"
+   ]
+  },
+  "found_at": "2026-11-26T19:33:26+00:00"
+ },
+ {
   "id": "freelancer:40837491",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/ios/Dual-Side-Service-Booking-App",
