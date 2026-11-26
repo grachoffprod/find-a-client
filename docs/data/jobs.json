@@ -1,5 +1,313 @@
 [
  {
+  "id": "freelancer:40837657",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/blockchain/USDT-Payment-Exchange-Platform",
+  "title": "USDT Payment & Exchange Platform",
+  "description": "I want to launch a full-cycle USDT platform that lets a new user land on the site, verify their identity with a phone-number OTP flow, and immediately:\n\n• buy USDT with either a bank card or a manual bank transfer \n• send and receive USDT internally between user wallets in real time \n• swap that USDT for the major coins people expect—Bitcoin, Ethereum, Solana, XRP, BNB—and any additional assets I later whitelist through an admin panel\n\nThe build needs native USDT wallet management, KYC/AML hooks during the phone verification step, and secure payment-card acquiring. A clean, mobile-first web interface is enough for the MVP; REST or GraphQL endpoints should sit underneath so we can expand to mobile apps later.\n\nPlease use well-established libraries for on-chain calls, custody, and rate sourcing, and structure the code so fees, limits, and new trading pairs can be added from the dashboard without redeploying. \n\nDeliverables:\n1. Deployed web app (production ready) \n2. Source code with clear README and environment variables template \n3. Database schema + migration scripts \n4. API documentation (Postman or Swagger) \n5. Admin panel for user, wallet, and pair management \n6. Brief hand-over session walking me through server setup and future scaling steps\n\nIf you have previous work with USDT, fiat on-ramps, or phone-based KYC, that will stand out.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T21:21:25+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "api_integration",
+   "saas",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 3,
+   "summary_ru": "Заказчик хочет запустить полноценную USDT-платформу: вход по OTP на телефон с KYC/AML, покупка USDT картой или банковским переводом, внутренние переводы и обмен на BTC, ETH, SOL, XRP, BNB, а также админ-панель для комиссий и торговых пар. Бюджет 250 USD явно не покрывает такой объём, а часть функций (кастоди, эквайринг, обмен) требует лицензированных провайдеров.",
+   "reply": "You're describing a full USDT platform: phone OTP onboarding with KYC hooks, card and bank on-ramp, internal wallet transfers, swaps into BTC, ETH, SOL, XRP and BNB, and an admin panel for fees and pairs. At $250, the full scope won't fit, so I'd suggest a first phase: phone OTP sign-up with a KYC hook, an internal USDT ledger with real-time transfers, and an admin panel for limits, fees and pairs. For custody, card acquiring and live rates, I'd connect established providers through their APIs rather than build those parts, so the regulated pieces stay with partners. I can deliver this phase in about two weeks, with a README, environment template and Swagger docs. Which KYC provider do you plan to use, and is the first release meant for testnet or live funds?\n\nSee my portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете полноценную платформу для USDT: регистрацию по OTP на телефон с KYC-хуками, покупку через карту или банковский перевод, внутренние переводы между кошельками и обмен на BTC, ETH, SOL, XRP и BNB, а также админ-панель для комиссий и торговых пар. При бюджете 250 USD полный объём не поместится, поэтому я предлагаю первый этап: вход по OTP с KYC-хуком, внутренний леджер USDT с переводами в реальном времени и админ-панель для лимитов, комиссий и пар. Кастодиальные функции, эквайринг карт и курсы я бы подключал через API проверенных провайдеров, а не писал с нуля, чтобы регулируемые части оставались у партнёров. Я могу сдать этот этап примерно за две недели, включая README, шаблон переменных окружения и документацию Swagger. Какого KYC-провайдера вы планируете использовать и предназначен ли первый релиз для тестовой сети или для реальных средств?\n\nПосмотреть портфолио с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какого KYC-провайдера вы планируете использовать и кто будет лицензированным партнёром для карточных платежей и хранения USDT?",
+    "Первый релиз запускается на тестовой сети или с реальными средствами?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "freelancer:40837656",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot/Telegram-Support-Chatbot-40837656",
+  "title": "Telegram AI Support Chatbot",
+  "description": "I need an AI-driven Telegram bot that can step in as the first line of support, triaging and resolving customer requests or complaints around the clock. The bot should recognise the user’s intent, pull the right answer from our existing knowledge base, and only escalate to a human agent when it cannot solve the issue confidently. Speed is critical—I’d like to see a usable version live as soon as possible.\n\nFrom a technical perspective, I’m open to the stack you prefer (Python, Node.js, Go, etc.) as long as you make full use of the Telegram Bot API and proven NLP tooling such as OpenAI models, Dialogflow, Rasa, or comparable frameworks. The end result must be easy for me to update with new FAQs, log all conversations for review, and run reliably on a cloud host of your choice.\n\nPlease highlight relevant experience building Telegram or customer-service chatbots and any live examples I can test. \n\nDeliverables \n• Production-ready Telegram bot with source code \n• Simple admin method for updating responses / hand-off rules \n• Deployment guide and hand-over call \n\nAcceptance criteria \n• Bot answers at least 80 % of test queries correctly without human intervention \n• Smooth escalation path to a live agent within the same chat thread \n• Deployed and validated on my Telegram account within the agreed timeline \n\nI’m eager to choose someone who can hit the ground running, so let me know how fast you can realistically deliver the first working build.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T21:20:23+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 4,
+   "summary_ru": "Клиент ищет Telegram-бота с ИИ для первой линии поддержки: он должен отвечать 24/7 по существующей базе знаний, определять намерение пользователя и передавать диалог живому оператору в том же чате, когда не уверен в ответе. Нужны админка для обновления FAQ и правил эскалации, логирование диалогов, деплой и передача проекта; бюджет 25 USD, срок горящий.",
+   "reply": "You need a Telegram bot that handles customer questions around the clock from your existing knowledge base, recognises intent, and hands the chat to a live agent in the same thread when it isn't confident. I'd build it in Python with aiogram for the Telegram side and OpenAI models for intent detection, with answers grounded in your FAQ via simple retrieval. Conversations would be logged to SQLite or Postgres, and FAQs and escalation rules would live in an editable file or sheet so you can update them without touching code. A first working version with FAQ answers and escalation should take about 3–5 days, followed by deployment and a handover call. Live demos: https://grachoffprod.github.io/portfolio/\n\nHow is your knowledge base stored now (docs, spreadsheet, help-desk export), and roughly how many entries does it have?\nWhere should handoff go: a group where your agents reply, or a specific operator account?\n\nYakov",
+   "reply_ru": "Вам нужен Telegram-бот, который круглосуточно отвечает на вопросы клиентов по вашей существующей базе знаний, определяет намерение пользователя и передает диалог живому оператору в том же чате, если не уверен в ответе. Я бы сделал его на Python с aiogram для работы с Telegram и моделями OpenAI для определения намерения, а ответы строились бы по вашим FAQ с помощью простого поиска по базе. Логи диалогов хранились бы в SQLite или Postgres, а FAQ и правила передачи оператору находились бы в редактируемом файле или таблице, чтобы вы могли обновлять их без правок кода. Первая рабочая версия с ответами по FAQ и передачей оператору займет около 3–5 дней, после этого деплой и созвон для передачи проекта. Живые демо: https://grachoffprod.github.io/portfolio/\n\nКак сейчас хранится база знаний (документы, таблица, экспорт из help-desk) и примерно сколько в ней записей?\nКуда передавать диалог: в группу, где отвечают ваши операторы, или на конкретный аккаунт оператора?\n\nYakov",
+   "questions": [
+    "Как сейчас хранится база знаний (документы, таблица, экспорт из help-desk) и примерно сколько в ней записей?",
+    "Куда передавать диалог при эскалации: в группу, где отвечают операторы, или на конкретный аккаунт?",
+    "Входит ли в бюджет 25 USD только MVP с ответами по FAQ и передачей оператору, или нужны дополнительные функции?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "freelancer:40837648",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/shopify-site/Montaje-Tienda-Moda",
+  "title": "Montaje Tienda B2B Moda",
+  "description": "Busco que me configuren por completo una tienda online B2B de moda y complementos antes de la campaña de Navidad y Reyes. Aún no he decidido si alojarla en Shopify o WooCommerce; elegiré la plataforma que me resulte más sencilla de manejar, por lo que necesito que me expliques las ventajas de cada opción y luego la implementes.\n\nAlcance esencial\n• Estructura inicial con varias categorías, variantes de tallas y colores. \n• Precios visibles solo tras iniciar sesión como empresa. \n• Formulario de alta que solicite datos de empresa y número de identificación fiscal antes de otorgar acceso. \n• Condición de compra mínima: a partir de 5-10 unidades por referencia. \n• Catálogo y stock cargados desde un archivo CSV del proveedor; la actualización la haré de forma manual subiendo el CSV cuando corresponda, así que déjalo preparado para ello. \n• Sitio en español e inglés, con opción a que después yo mismo amplíe los textos. \n\nLo que espero recibir\n1. Elección y configuración básica de la plataforma (tema ligero, pasarela de pago, impuestos, gastos de envío por tramos). \n2. Carga inicial del CSV de ejemplo para que vea todo funcionando. \n3. Breve guía en video o PDF donde me enseñes cómo subir futuros CSV, cambiar precios y traducir textos. \n\nTrabajo ideal para alguien que domine el español, conozca bien Shopify y/o WooCommerce y pueda ajustarse a un presupuesto limitado. Indica en tu propuesta un monto realista y el plazo estimado.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-26T21:15:13+00:00",
+  "lang": "es",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 6,
+   "summary_ru": "Клиент хочет запустить B2B-магазин модной одежды и аксессуаров на Shopify или WooCommerce к Рождеству: вход только для компаний, цены после авторизации, минимальный заказ от 5–10 единиц, загрузка каталога из CSV и сайт на испанском и английском. Бюджет 250 EUR, платформа ещё не выбрана.",
+   "reply": "Hola. Entiendo que necesitas una tienda B2B de moda con acceso solo para empresas: alta con datos fiscales, precios visibles tras iniciar sesión, pedido mínimo por referencia y catálogo cargado desde CSV, en español e inglés. Antes de montarla te explicaré en pocas líneas las ventajas de Shopify y WooCommerce según cómo vas a gestionarla, y después la implemento con un tema ligero, categorías, variantes de tallas y colores y una plantilla de CSV reutilizable. Con 250 EUR es realista cubrir la configuración base, la carga inicial y una guía corta en PDF o vídeo para subir archivos, cambiar precios y traducir textos. Calculo unos 10–14 días laborables para tenerla lista antes de la campaña de Navidad. Puedes ver demos en vivo en https://grachoffprod.github.io/portfolio/ ¿Cuántas referencias aproximadas tiene el catálogo y el proveedor entrega el CSV con un formato fijo?\n\nYakov",
+   "reply_ru": "Hola. Entiendo que необходим B2B-магазин модной одежды с доступом только для компаний: регистрация с налоговыми данными, цены видны после входа, минимальный заказ по позиции, каталог из CSV и сайт на испанском и английском. Перед запуском кратко объясню преимущества Shopify и WooCommerce с учётом того, как вы будете вести магазин, а затем сделаю его на лёгком теме с категориями, вариантами размеров и цветов и шаблоном CSV для повторного использования. С бюджетом 250 EUR реально закрыть базовую настройку, первичную загрузку и короткое руководство в PDF или видео по загрузке файлов, смене цен и переводу текстов. Оценочный срок — 10–14 рабочих дней, чтобы успеть к рождественской кампании. Живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/ Сколько примерно позиций в каталоге и даёт ли поставщик CSV в фиксированном формате?\n\nYakov",
+   "questions": [
+    "Сколько примерно позиций в каталоге и есть ли у поставщика CSV в фиксированном формате?",
+    "Домен и выбор платформы уже определены или вы хотите, чтобы я сначала сравнил варианты?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "freelancer:40837646",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/adobe-xd/Polished-Website-Redesign",
+  "title": "Polished B2B Website Redesign",
+  "description": "I’ve finished building the core pages for a new B2B marketing site in Claude, but the visual layer is painfully dull. Because our target clients are professional web developers, every pixel must signal competence and value the moment the page loads. \n\nHere’s what I need from you: a complete visual redesign that feels premium and corporate—think generous white space balanced with an executive colour palette, refined typography, and subtle graphic flourishes that guide attention to our value proposition. Every key page matters, so the home page, product overviews, pricing, and contact flow should all share one cohesive, polished aesthetic. \n\nYou must use our brand colors and logo. The product screenshots on the current site are placeholders. You are not responsible for creating the real images.\n\nWhen visitors land on any page, they should instantly sense a clear, valuable solution to their business challenges, not just a pretty façade. Clean hierarchy, easily scannable messaging blocks, purposeful imagery, and on-brand iconography will be essential. Feel free to work in Figma, Sketch, Adobe XD, or straight HTML/CSS—whatever lets you translate the vision sharply. \n\nDeliverable:\n\n• High-fidelity mock-ups (PDF or static HTML) of each existing page \n\nI’ll provide access to the current Claude-generated pages and content copy right after kickoff. No back-end coding or CMS integration is required; I’m focused exclusively on the look and feel. If your design convinces professional web developers that we “get it,” we’re golden.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T21:11:46+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Клиент просит полностью переработать визуальный стиль B2B-сайта: создать высокоточные макеты всех существующих страниц в премиальном корпоративном стиле с фирменными цветами и логотипом. Задача касается только дизайна, без разработки и CMS-интеграции.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли вам только статичные макеты (PDF или HTML), или также верстка и перенос дизайна на сайт?",
+    "Сколько страниц входит в объём работ и есть ли готовые брендбук и палитра?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "freelancer:40837625",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/react-js/Bug-Fix-the-Frontend",
+  "title": "Bug Fix in the Frontend",
+  "description": "There are some bugs in the frontend. I hope to fix them.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T21:02:48+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 5,
+   "summary_ru": "Клиент хочет исправить несколько багов во фронтенде своего проекта, но описание очень общее и не уточняет стек, объём и список проблем.",
+   "reply": "Hi, from your brief I understand you have an existing frontend with several bugs you'd like fixed. To scope this properly, I'd start by reproducing each issue, then fix them in priority order and test the main user flows so nothing regresses. Using modern tooling and AI-assisted development, I can usually work through a list like this quickly. For a typical set of 5–10 issues I'd estimate about 3–5 working days, and I'll confirm that after reviewing the code. Could you share the repository or staging access along with a list of the bugs and steps to reproduce them? Also, which browsers and devices matter most to you?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! Из описания я понял, что у вас есть существующий фронтенд с несколькими багами, которые нужно исправить. Чтобы точно оценить объём, я сначала воспроизведу каждую проблему, затем исправлю их по приоритету и проверю основные пользовательские сценарии, чтобы ничего не сломалось. С современными инструментами и ИИ-ассистентами в разработке такой список обычно закрывается быстро. Для типичного набора из 5–10 багов я бы оценил работу примерно в 3–5 рабочих дней, но уточню это после просмотра кода. Пришлите, пожалуйста, репозиторий или доступ к staging-версии и список багов с шагами воспроизведения. Также подскажите, какие браузеры и устройства для вас важнее всего?\n\nЖивые демо моих работ можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Какой стек используется во фронтенде (React, Vue, чистый JS и т.д.) и есть ли доступ к репозиторию или staging-версии?",
+    "Есть ли у вас список багов с шагами воспроизведения, и какие браузеры и устройства важнее всего поддерживать?",
+    "Нужно ли затрагивать бэкенд или интеграции, или работа ограничивается только фронтендом?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "freelancer:40837641",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/game-design/Build-Scalable-Real-Money-Ludo",
+  "title": "Build a Scalable Real-Money Ludo Platform",
+  "description": "Experienced iGaming Development Studio Wanted – Real Money Multiplayer Ludo & Gaming Platform\n\nPROJECT OVERVIEW\n\nWe are seeking an established game development studio or a highly experienced multidisciplinary software engineering team to design, develop, deploy and maintain a proprietary real-money gaming platform built around Ludo.\n\nOur objective is to create a premium, secure and internationally scalable gaming ecosystem combining multiplayer board games, standalone chance-based games, private gaming rooms and competitive tournaments.\n\nThis is not a conventional mobile game development project. It is a comprehensive iGaming platform combining game development, financial technology, real-time multiplayer infrastructure and regulatory compliance.\n\nWe are looking for a long-term technology partner with proven capabilities in these areas.\n\n1. MULTIPLAYER GAMING ENGINE\n\n- Traditional 4-player online Ludo.\n- 2, 3, 4 and 6-player variations.\n- Random online matchmaking.\n- Private gaming rooms.\n- Team-based game modes.\n- Fast and express game modes.\n- Multiplayer tournaments and championships.\n- Real-time gameplay synchronization.\n- Automatic reconnection and game recovery.\n- Game history and replay.\n- Anti-cheating and anti-collusion systems.\n\n2. PROPRIETARY CHANCE-BASED GAMES\n\nThe platform will feature a catalogue of independent real-money games inspired by Ludo, dice games and other chance-based gaming mechanics.\n\nThe architecture must support the continuous integration of new proprietary games without requiring a complete redevelopment of the platform.\n\nDetailed game mechanics, mathematical models and confidential specifications will be disclosed to shortlisted candidates under an NDA.\n\n3. REAL MONEY GAMING & FINANCIAL INFRASTRUCTURE\n\n- Secure integrated player wallet.\n- Deposits and withdrawals.\n- Mobile Money integration, particularly for African markets.\n- International payment gateway integration, subject to provider approval.\n- Secure stake management and game settlement.\n- Automated winnings distribution.\n- Commission management.\n- Double-entry financial ledger.\n- Financial reconciliation and reporting.\n- Segregation of player and operator funds.\n- Transaction monitoring.\n- Fraud prevention.\n- KYC and AML integration.\n- Responsible gaming controls.\n\n4. RNG & GAME INTEGRITY\n\n- Secure server-side Random Number Generator.\n- Auditable and independent game outcomes.\n- Gaming mathematics and probability management.\n- RTP calculation and verification.\n- Protection against outcome manipulation.\n- Architecture suitable for independent gaming certification, including applicable GLI standards.\n- Comprehensive audit trails.\n\n5. CENTRALIZED ADMINISTRATION PLATFORM\n\nA professional back-office system covering:\n\n- Executive dashboard.\n- Player management.\n- Live gaming operations.\n- Game catalogue management.\n- Financial operations and treasury.\n- Deposit and withdrawal supervision.\n- Tournament administration.\n- Gaming statistics and business intelligence.\n- Fraud and risk management.\n- KYC and AML compliance.\n- Responsible gaming management.\n- Customer support.\n- Regulatory reporting.\n- Security and audit management.\n- Role-based access control.\n- System configuration and monitoring.\n\n6. TECHNICAL REQUIREMENTS\n\nThe solution must support:\n\n- iOS.\n- Android.\n- Responsive web application.\n- Progressive Web App (PWA).\n- High-concurrency multiplayer infrastructure.\n- Scalable cloud architecture.\n- Modular gaming engine.\n- Secure and documented APIs.\n- Multi-language capabilities.\n- Multi-currency architecture.\n- Country-specific regulatory configurations.\n- Automated testing and deployment.\n- Disaster recovery and business continuity.\n- Production monitoring and cybersecurity.\n\nThe technology stack should be proposed and justified by the development team.\n\nReal-money operations will only be activated following the required regulatory authorizations, independent testing and payment provider approvals.\n\n7. REQUIRED TEAM EXPERTISE\n\nWe expect the selected development partner to provide multidisciplinary expertise covering:\n\n- iGaming software architecture.\n- Senior game development.\n- Real-time multiplayer networking.\n- Frontend and backend engineering.\n- Financial technology and payment integration.\n- Database architecture.\n- Gaming mathematics and RNG.\n- UI/UX design.\n- Cybersecurity.\n- DevOps and cloud infrastructure.\n- Quality assurance and software testing.\n- Technical project management.\n\nPrevious experience developing production-ready real-money gaming platforms is essential.\n\nExperience with online casinos, poker platforms, multiplayer betting games or regulated gaming systems will be highly valued.\n\n8. PROJECT DELIVERABLES\n\n- Complete functional and technical specifications.\n- Software architecture documentation.\n- Premium UI/UX design.\n- Fully functional gaming applications.\n- Proprietary multiplayer gaming engine.\n- Standalone gaming modules.\n- Secure financial infrastructure.\n- Comprehensive administration platform.\n- Complete custom-developed source code.\n- Database schemas and documentation.\n- API documentation.\n- Automated test suites.\n- Security and performance testing reports.\n- Production deployment.\n- Technical knowledge transfer.\n- Maintenance and technical support plan.\n\n9. INTELLECTUAL PROPERTY & OWNERSHIP\n\nAll project-specific developments must become the exclusive property of our company upon payment of the corresponding milestones.\n\nThis includes custom-developed:\n\n- Source code.\n- Gaming engines.\n- Software components.\n- UI/UX designs.\n- Database structures.\n- Technical documentation.\n- Gaming mathematics and proprietary game mechanics.\n\nAll pre-existing and third-party components, together with their licensing conditions, must be disclosed in advance.\n\nSource code must be maintained in repositories controlled by our company throughout the development process.\n\nWe will not accept undisclosed white-label solutions, proprietary vendor lock-in or dependency on the developer for continued operation of the platform.\n\nAn NDA and intellectual property agreement will be mandatory.\n\n10. DEVELOPMENT & CONTRACTUAL APPROACH\n\nThe project will be organized through clearly defined development milestones, including:\n\n1. Discovery and technical architecture.\n2. Game design and mathematical specifications.\n3. UI/UX design and prototyping.\n4. Core multiplayer gaming engine.\n5. Financial infrastructure.\n6. Standalone gaming modules.\n7. Administration platform.\n8. System integration.\n9. Security, performance and quality assurance.\n10. Regulatory certification readiness and deployment.\n11. Post-launch maintenance and continuous development.\n\nEach milestone must include clearly defined deliverables, acceptance criteria and demonstrable results.\n\n11. APPLICATION REQUIREMENTS\n\nInterested development studios must provide:\n\n- Company profile and location.\n- Years of experience in gaming development.\n- Portfolio of completed iGaming projects.\n- Links to live real-money gaming platforms previously developed.\n- Description of their involvement in each referenced project.\n- Proposed team composition.\n- Relevant technical qualifications.\n- Recommended technology stack.\n- Preliminary architectural approach.\n- Estimated development timeline.\n- Detailed budget and milestone breakdown.\n- Maintenance and support capabilities.\n- Experience with gaming certification and regulated markets.\n\nPlease clearly indicate whether your development team is in-house or subcontracted.\n\nGeneric, automated or unsupported proposals will not be considered.\n\n12. LONG-TERM PARTNERSHIP\n\nWe are not looking for a one-time freelancer.\n\nWe are looking for a reliable technology partner capable of supporting the long-term development, maintenance, security, scalability and international expansion of our gaming ecosystem.\n\nThe initial platform represents the foundation of a broader proprietary iGaming business, with additional games, markets and business opportunities planned.\n\nProject type: Full-scale custom iGaming platform.\n\nEngagement: Long-term technology partnership.\n\nBudget: Open to qualified and detailed commercial proposals.\n\nPayment structure: Milestone-based.\n\nPreferred candidates: Established iGaming development studios and experienced multidisciplinary software engineering teams.",
+  "budget": 10000.0,
+  "budget_min": 2500.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T21:01:52+00:00",
+  "lang": "fr",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 3,
+   "summary_ru": "Заказчик ищет студию для разработки многопользовательской платформы real-money игр в стиле Ludo с кошельком игрока, RNG на сервере, интеграциями платежей (Mobile Money, международные шлюзы, KYC/AML) и полноценной админ-панелью. Бюджет 10 000 USD, но объём работ очень большой, а часть требований относится к лицензированию и сертификации.",
+   "reply": "You describe a multiplayer Ludo platform with a player wallet, a server-side RNG, a full back-office, and payment integrations (Mobile Money, international gateways, KYC/AML). I would approach it in phases: first the real-time game engine (private rooms, reconnection, history), then the wallet and double-entry ledger, then the back-office, all on a modular architecture so new games can be added without rewriting the platform. For a first phase I would estimate about 6 to 8 weeks, to be refined after reviewing the full specification. Which countries and currencies should the first version support, and which Mobile Money providers do you already work with? You can see my live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете многопользовательскую платформу в стиле Ludo с кошельком игрока, серверным RNG, полноценной админ-панелью и интеграциями платежей (Mobile Money, международные шлюзы, KYC/AML). Я бы подошёл к работе поэтапно: сначала игровой движок в реальном времени (приватные комнаты, переподключение, история), затем кошелёк и бухгалтерский реестр с двойной записью, потом админ-панель, и всё на модульной архитектуре, чтобы новые игры добавлялись без переписывания платформы. Для первого этапа я оцениваю срок примерно в 6–8 недель, который уточню после изучения полного технического задания. Какие страны и валюты должна поддерживать первая версия и с какими провайдерами Mobile Money вы уже работаете? Мои живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие страны и валюты должна поддерживать первая версия?",
+    "С какими провайдерами Mobile Money и платёжными шлюзами вы уже работаете или планируете работать?",
+    "Есть ли уже лицензия или юридический статус, и на каком этапе находится проект?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "freelancer:40837622",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/telephone-handling/Argentina-English-Support-Sales",
+  "title": "Argentina English Support & Sales",
+  "description": "I’m expanding my customer-facing team and want colleagues who already live in Argentina to take care of our English-speaking customers. Your day will revolve around answering questions, guiding prospects through the buying process, and making sure every interaction ends with a satisfied, loyal customer.\n\nYou’ll be handling customer support and sales activities in English. Most conversations arrive through the usual channels—phone, email, live chat, and occasionally social media—so you should feel comfortable switching between them as needed. A friendly tone, clear written English, and the confidence to nudge a prospect toward purchase are essential.\n\nDeliverables I’ll rely on:\n• Prompt, accurate replies to incoming enquiries \n• Thoughtful follow-ups that convert interested leads into paying customers \n• Clean, up-to-date notes in our CRM so the rest of the team stays in the loop \n\nIf you’re based in Argentina, speak fluent English, and enjoy the mix of support and sales, let’s talk.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T20:39:56+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Найм человека в Аргентине для поддержки и продаж на английском языке (ответы клиентам, ведение лидов, заметки в CRM). Это вакансия на работу, а не разработка проекта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "freelancer:40837621",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/wix/Premium-Wix-Jewelry-Store-Design",
+  "title": "Premium Wix Jewelry Store Design",
+  "description": "Create a professional, premium jewelry e-commerce store on Wix targeting the United States market. Design a sophisticated, authentic, and conversion-focused online store that feels like a genuine, established jewelry brand in the US.\n\nUse a minimalist luxury aesthetic with ivory, white, beige, and subtle gold tones, elegant typography, premium product photography, and a seamless mobile shopping experience.\n\nInclude a professional homepage, product catalog, collections, detailed product pages, shopping cart, secure checkout, About Us, Contact, FAQs, shipping and return policies, customer reviews, and SEO optimization.\n\nOrganize collections for rings, engagement jewelry, diamonds, emeralds, gemstones, necklaces, earrings, bracelets, and custom jewelry. Integrate USD pricing, US-friendly payment options, email marketing, and essential Wix e-commerce functionality.\n\nThe website must look premium, trustworthy, modern, and commercially ready, designed to build customer confidence and generate sales among US buyers. Avoid generic templates and fake business claims.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T20:30:04+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент ищет дизайнера для премиального интернет-магазина украшений на Wix с ориентацией на рынок США: минималистичный люкс-дизайн, каталог, страницы товаров, корзина, оформление заказа и SEO. Бюджет очень низкий (12 500 INR, около $150), а основная часть работы — визуальный дизайн и контент на конструкторе Wix, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только визуальная настройка готового шаблона Wix или также кастомная разработка функционала?",
+    "Кто будет предоставлять фотографии товаров, тексты и отзывы?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "kwork:3230908",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3230908",
+  "title": "Разработка комплексной системы упаковки сообщества ВК",
+  "description": "Требуется разработать комплексную систему упаковки сообщества, автоматизации продаж и взаимодействия с клиентами. \nПроект включает: \n•разработку визуального оформления сообщества(обложка, меню, карточки услуг и другие графические элементы); \n•создание лендинга, логичной структуры сообщества и проработку описания его блоков; \n•разработку продуктовой воронки; \n•подготовку четырёх цифровых продуктов c 0(видеошаги+интерактив в мини-приложении, после каждого шага «Сделал» зеленая галочка и открывается следующий шаг, PDF-как шпаргалка; \n•настройку чат-бота с сегментацией пользователей в VK и ТG; \n•создание автоматизированных рассылок; \n•автоматизацию процесса оформления заказа, оплаты и выдачи материалов. \nВсе элементы должны работать как единая система, обеспечивающая последовательное сопровождение пользователя на всех этапах взаимодействия-от первого знакомства с сообществом до получения приобретенного продукта. \nПроект не предполагает привлечение отдельных специалистов под каждую задачу. Требуется универсальный специалист с подтверждённым опытом реализации аналогичных комплексных проектов, способный самостоятельно спроектировать, разработать, интегрировать и объединить все элементы в единую систему. Необходимо владеть практическими навыками создания цифровых продуктов в приложении Mini Apps и построением продуктовых воронок, уметь работать с автоматизацией(n8n-развернуть на моём сервере, либо скриптами на Python прямо на моём VPS), чат-ботами, сервисами рассылок, графическими редакторами.",
+  "budget": 9000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-27 00:00:45",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "tg_bot",
+   "mini_app",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mini_app",
+   "score": 2,
+   "summary_ru": "Комплексная система для сообщества ВК: оформление и лендинг, продуктовая воронка, четыре цифровых продукта в виде мини-приложения с пошаговыми видео и PDF-шпаргалками, чат-боты с сегментацией в VK и Telegram, рассылки и автоматизация заказа, оплаты и выдачи материалов. Бюджет 9000 ₽ явно не соответствует объёму.",
+   "reply": "Вы описываете связку из нескольких частей: мини-приложение с пошаговыми видеоуроками и отметками выполнения, чат-бот с сегментацией в VK и Telegram, рассылки и автоматизацию от заказа до выдачи материалов. Я бы разбил работу на этапы: сначала мини-приложение с прогрессом шагов и PDF-шпаргалки, затем бот и воронка, после этого автоматизация через n8n на вашем сервере. Графику и оформление сообщества я бы вел отдельно, сам беру техническую часть. Первый этап, мини-приложение и бот, займет примерно 2–3 недели. Примеры живых демо смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nКакие видеоматериалы уже готовы? Согласны ли вы разбить проект на этапы, учитывая бюджет?\n\nYakov",
+   "reply_ru": "Вы описываете связку из нескольких частей: мини-приложение с пошаговыми видеоуроками и отметками выполнения, чат-бот с сегментацией в VK и Telegram, рассылки и автоматизацию от заказа до выдачи материалов. Я бы разбил работу на этапы: сначала мини-приложение с прогрессом шагов и PDF-шпаргалки, затем бот и воронка, после этого автоматизация через n8n на вашем сервере. Графику и оформление сообщества я бы вел отдельно, сам беру техническую часть. Первый этап, мини-приложение и бот, займет примерно 2–3 недели. Примеры живых демо смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nКакие видеоматериалы уже готовы? Согласны ли вы разбить проект на этапы, учитывая бюджет?\n\nYakov",
+   "questions": [
+    "Какие видеоматериалы и тексты для четырёх продуктов уже готовы?",
+    "Согласны ли вы разбить проект на этапы, учитывая бюджет 9000 ₽?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910856",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910856",
+  "title": "Створення сайту для одного товару в Shopify",
+  "description": "Створення сайту для одного товару в Shopify\n💰\n 150 PLN\n🛠\n#интернет_магазины_и_электронная_коммерция\nШукаю спеціаліста для створення сучасного інтернет-магазину на Shopify для продажу одного товару за системою дропшипінгу.\nПриклад сайту, який мені подобається:\nhttps://meltmoments.com/products/melting-fondue-cup\nПотрібно створити сайт з індивідуальним дизайном, але зі схожим функціоналом:  Продаюча…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T20:42:01+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Заказчик ищет специалиста, который создаст индивидуальный интернет-магазин на Shopify для продажи одного товара по дропшипингу, с функционалом, похожим на пример meltmoments.com. Бюджет 150 PLN, что довольно мало для такого проекта.",
+   "reply": "Добрий день! Вам потрібен інтернет-магазин на Shopify для одного товару з дропшипінгом: з індивідуальним дизайном і функціоналом, як у прикладі, який ви надіслали, тобто продаючий блок, галерея, варіанти товару та просте оформлення замовлення. Я б зробив кастомну тему на Shopify з чистою версткою та адаптивним дизайном, а також підключив оплату через Shopify Payments або інший доступний шлюз. Орієнтовно перша версія займе 3–5 робочих днів разом із підключенням до постачальника та базовою аналітикою. Для точної оцінки уточніть, будь ласка: чи є у вас готові фото й тексти, і чи потрібна інтеграція з конкретним дропшип-сервісом (наприклад, CJ або Spocket)? Для оплати також можна розглянути USDT (TRC20/TON). Портфоліо з живими демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Добрый день! Вам нужен интернет-магазин на Shopify для одного товара с дропшиппингом: с индивидуальным дизайном и функционалом, как в примере, который вы прислали, то есть продающий блок, галерея, варианты товара и простое оформление заказа. Я бы сделал кастомную тему на Shopify с чистой вёрсткой и адаптивным дизайном, а также подключил оплату через Shopify Payments или другой доступный шлюз. Ориентировочно первая версия займёт 3–5 рабочих дней вместе с подключением к поставщику и базовой аналитикой. Для точной оценки уточните, пожалуйста: есть ли у вас готовые фото и тексты и нужна ли интеграция с конкретным дропшип-сервисом (например, CJ или Spocket)? Для оплаты также можно рассмотреть USDT (TRC20/TON). Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас готовые фото товара и тексты для карточки, или их нужно подготовить?",
+    "Нужна ли интеграция с конкретным дропшип-сервисом (например, CJ или Spocket) и какой у вас бюджет и срок запуска?"
+   ]
+  },
+  "found_at": "2026-11-26T21:25:59+00:00"
+ },
+ {
   "id": "freelancer:40837612",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF",
