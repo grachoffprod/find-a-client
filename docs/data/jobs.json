@@ -1,5 +1,425 @@
 [
  {
+  "id": "freelancer:40837380",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/cold-calling/Cold-Caller-Appointment-Setter-Business",
+  "title": "Cold Caller / Appointment Setter - US Business Owners (100% Commission)",
+  "description": "Cold Caller / Appointment Setter - US Business Owners (Remote, 100% Commission)\n\nPaps Automation builds custom AI systems for owner-run service businesses in the US (HVAC, plumbing, electrical). We save owners hours every week on quotes, invoices and scheduling.\n\nWhat you do:\n- Cold call US business owners on their cell, from home.\n- Book a free 30-minute AI Growth Session with one of our specialists. No product pitch, no price talk.\n- Log every call in our CRM. We give you the leads, a US phone number, the dialer, the script and daily feedback.\n\nPay: 100% commission, no base salary. 7% of the setup fee + 7% of the client's first 3 monthly payments on every deal that closes from a meeting you booked. About USD 575 per closed deal. No cap. Not a fit if you need a fixed salary.\n\nSchedule: US Eastern business hours (8 AM to 6 PM ET).\n\nWe need: natural spoken English for US owners, cold calling or appointment setting experience, coachable, resilient with rejection, stable internet and a headset.\n\nTo apply: send us a message here with one line on your cold calling experience, and we will reply with where to send your CV. Short video interview with a role-play, then kickoff and a one-week trial.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "CAD",
+  "posted_at": "2026-11-26T16:33:15+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Вакансия на удалённую позицию холодного обзвона и назначения встреч для владельцев бизнеса в США. Оплата только комиссионная (100%), без базового оклада. Это не проект разработки.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "freelancer:40837367",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/shopify-development/Shopify-App-developer-40837367",
+  "title": "Shopify App developer",
+  "description": "I need a custom Shopify app that keeps a constant eye on my stock levels and tells me—instantly—when any item is running low or hits zero. The app’s core job is two-fold: (1) fire off low- and out-of-stock alerts, and (2) generate clear, scheduled reports on overall store activity so I can act before problems snowball.\n\nWorkflow I’m after \n• Real-time monitoring of every SKU via the Admin API and webhooks. \n• Adjustable thresholds per product (bulk edit welcomed). \n• Alerts delivered by email first; Slack or in-app notifications are a nice bonus if they’re straightforward to wire up. \n• A lightweight dashboard inside Shopify (Polaris-styled) summarising current low-stock items, recent alert history, and a quick sales / inventory snapshot. \n• Daily and weekly summary reports sent automatically—CSV export optional but appreciated.\n\nTech notes \nA private app is fine; no need for public-app review. Build in Node.js or Ruby—whichever you’re fastest with—and structure it so I can host on Heroku or any standard VPS. Clean, well-commented code is important; I’ll be maintaining it after hand-off.\n\nDeliverables \n• Full source code with README covering setup, environment variables, and deployment. \n• Step-by-step installation guide plus a brief user manual (thresholds, scheduling, adding notification channels). \n• One live demo on my dev store proving alerts and reports work as described.\n\nAcceptance criteria: changing a product’s threshold triggers the correct alert, the dashboard loads error-free in the admin, and scheduled emails land on time. If you know Shopify APIs, webhooks, and Polaris, this should be a straightforward build—let’s get started.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T16:26:53+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Заказчику нужно приватное приложение для Shopify, которое отслеживает остатки каждого SKU через Admin API и вебхуки, отправляет уведомления о низком запасе и нулевом остатке (email, опционально Slack), показывает дашборд в стиле Polaris и присылает ежедневные и еженедельные отчёты. Бюджет очень низкий для такого объёма работ.",
+   "reply": "You need a private Shopify app that watches stock for every SKU through the Admin API and webhooks, sends low and out-of-stock alerts by email (with Slack optional), adds a Polaris dashboard, and schedules daily and weekly reports. I would build it in Node.js with a small job scheduler and a lightweight database for thresholds and alert history, structured for Heroku or a VPS, with a README and a user manual. A first version with threshold alerts and email could be ready in about a week, and the dashboard and reports would follow in roughly another week. Two questions: how many SKUs and locations does your store have, and should Slack be part of the first milestone?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно приватное приложение для Shopify, которое отслеживает остатки каждого SKU через Admin API и вебхуки, отправляет уведомления о низком запасе и нулевом остатке по email (Slack опционально), добавляет дашборд в стиле Polaris и планирует ежедневные и еженедельные отчёты. Я бы сделал его на Node.js с простым планировщиком задач и легковесной базой для порогов и истории уведомлений, с расчётом на Heroku или VPS, с README и пользовательской инструкцией. Первую версию с уведомлениями по порогам и email можно сделать примерно за неделю, дашборд и отчёты добавятся примерно ещё за неделю. Два вопроса: сколько у вас SKU и локаций и нужен ли Slack в первом этапе?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько у вас SKU и складских локаций и какой тарифный план Shopify?",
+    "Нужен ли Slack уже в первом этапе или достаточно email-уведомлений?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "freelancer:40837357",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/malware-removal/Limpiar-malware-recuperar-WordPress",
+  "title": "Limpiar malware y recuperar WordPress",
+  "description": "he recibido el siguiente ensaje y mi web no funciona:Hola:\nNuestros sistemas de seguridad han detectado contenido malicioso dentro del archivo wp-config.php de tu página web dintelobras.es, que utiliza el gestor de contenido WordPress.\nEste archivo es uno de los más sensibles de la instalación, ya que contiene los datos de conexión a la base de datos (nombre, usuario, contraseña y servidor) y las claves de seguridad y \"salts\" que WordPress emplea para cifrar las sesiones. Al haber quedado expuesto su contenido, un atacante podría conectarse directamente a tu base de datos, crear usuarios administradores, añadir o modificar contenido sin tu autorización, mantener sesiones válidas suplantando a tus usuarios y comprometer los datos de tus visitantes.\nTe escribo para informarte de esta situación y ayudarte a proteger tu sitio lo antes posible. Quiero aclararte que tu página web sigue operativa como siempre, pero te aconsejo que actúes rápido por tu seguridad y la de tus usuarios. Para solucionar esto, te recomiendo realizar las siguientes tareas:\n1. Cambiar la contraseña de la base de datos: modifícala de inmediato desde tu Panel de Control y recuerda actualizar ese mismo cambio en el archivo wp-config.php para que tu web siga funcionando.\n2. Regenerar las claves de seguridad (salts): sustituye los valores de las claves AUTH_KEY, SECURE_AUTH_KEY, LOGGED_IN_KEY, NONCE_KEY y sus correspondientes \"salts\" en wp-config.php. Puedes generar valores nuevos desde https://api.wordpress.org/secret-key/1.1/salt/. Esto invalidará todas las sesiones abiertas, incluidas las del atacante.\n3. Cambiar las contraseñas: modifica la clave de todos los usuarios administradores de WordPress, así como las de tus accesos FTP y del propio Panel de Control.\n4. Revisar los usuarios administradores: elimina todos los usuarios que no reconozcas o que no correspondan a personas de tu confianza.\n5. Actualizar WordPress: instala la última versión disponible del CMS, así como de todos los plugins y temas que tengas activos, ya que una vulnerabilidad en alguno de ellos suele ser la vía por la que se llega a leer este archivo.\n6. Proteger el archivo wp-config.php: comprueba que sus permisos sean restrictivos (640 o 644) y que no sea accesible desde el navegador. También puedes bloquear su acceso desde el archivo .htaccess.\n7. Instalar un plugin especializado en seguridad: puedes utilizar una herramienta de confianza como, por ejemplo, WordFence, y lanzar un análisis completo de archivos.\n8. Revisar el contenido: examina las tablas de tu base de datos y los archivos de tu espacio web (especialmente los ficheros PHP modificados recientemente) para asegurarte de no dejar rastro del malware.\nTe envío este aviso únicamente a título informativo para que puedas tomar las medidas preventivas oportunas y mantener a salvo tu proyecto.\nsegundo:Hola:\nNuestros sistemas de seguridad han detectado un comportamiento anómalo en las visitas a tu hosting dintelobras.es, y creemos que tiene un agujero de seguridad en el código. Hemos detectado, entre otras, estas URL que sospechamos que están infectadas con malware:\n/srv/vhost/dintelobras.es/home/html/wp-config.php\nPara tu información, el WordPress que usas en tu web tiene estos componentes que no están en la última versión. Te recomendamos mantener siempre actualizado el core, los plugin y los temas para evitar potenciales problemas de seguridad:\n********************************************************\n\nWordPress: (Ver: 6.2.2)\nRuta instalación: /html/nuevawebold\n\ncore => wordpress v6.2.2\nplugin => addons-for-elementor v7.7.1\nplugin => contact-form-7 v5.7.7\nplugin => elementor-pro v3.13.2\nplugin => elementor v3.13.4\nplugin => google-site-kit v1.102.0\nplugin => ht-contactform v1.1.6\nplugin => really-simple-ssl v7.0.3\nplugin => theme-demo-import v1.1.1\nplugin => wordpress-seo v20.8\n\n********************************************************\nPor tu seguridad y la de tus usuarios, hemos tomado estas medidas:\n• Renombrar los ficheros con malware. Si un archivo se llamaba, por ejemplo, formulario_web.php ahora se llamará formulario_web.php._malware. Así, minimizamos el daño que pueda hacerte a ti y a tus clientes.\n• Limitar páginas con formularios. Hemos deshabilitado en tu hosting las peticiones http de tipo POST, que son las que utilizan las páginas que contienen un formulario (apartado de contacto, página de alta de clientes, etc.). Ahora, solo se pueden completar los formularios desde direcciones IP de España.\nEl resto de funcionalidades de tu hosting siguen 100% operativas.\nTe recomendamos que actúes porque, aunque tu página web siga funcionando sin formularios ahora, tiene un problema de seguridad que puede comprometer tus datos y los de tus usuarios.\nEs importante que realices las siguientes tareas en el menor tiempo posible:\n• Actualiza y verifica todos los plugins que consideres necesarios para el correcto funcionamiento de tu Web.\n• Revisa el contenido de tu sitio web y asegúrate de no dejar rastro del malware.\n• Adicionalmente te sugiero que, si haces uso de formularios de envío de correo, incluyas códigos captcha para evitar ataques de robots.\nCuando hayas realizado todas las tareas , envíanos un mensaje desde el apartado Contacto de tu Área de Cliente, y restableceremos el uso normal de los formularios de tu web. \ntercer correo:Hola:\nEn relación con tu consulta sobre el estado de dintelobras.es, te informamos de que el incidente detectado corresponde a una infección por malware / inyección de código malicioso en la aplicación alojada.\nDesde el departamento de soporte no realizamos tareas de limpieza, desinfección ni recuperación de sitios web, ya que el mantenimiento y seguridad del contenido alojado corresponde exclusivamente al titular del servicio (o a su equipo técnico/desarrollador). Por tanto, deberás encargarte tú mismo de tomar las medidas oportunas para limpiar y asegurar el alojamiento.\nUna vez hayas llevado a cabo dichas acciones, por favor respóndenos directamente al correo electrónico en el que te informamos de la detección del malware detallando las medidas tomadas. En cuanto recibamos tu respuesta, analizaremos de nuevo el sitio web y, si verificamos que todo está correcto, eliminaremos las restricciones impuestas.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T16:15:14+00:00",
+  "lang": "es",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Клиент получил уведомления о вредоносном коде в wp-config.php и подозрительных файлах на хостинге сайта dintelobras.es на WordPress 6.2.2 с Elementor и несколькими плагинами. Нужно очистить сайт, закрыть уязвимости и обновить компоненты. Бюджет 250 USD.",
+   "reply": "Entiendo que su web dintelobras.es (WordPress 6.2.2 con Elementor Pro y varios plugins) presenta código malicioso en wp-config.php y rutas sospechosas en el hosting. Mi plan: primero una copia de seguridad completa de archivos y base de datos; después revisar wp-config.php, .htaccess, los archivos PHP modificados recientemente y las tablas de la base de datos; eliminar el código inyectado; cambiar credenciales (BD, FTP, salts y contraseñas de administradores); actualizar el core, Elementor, Yoast y el resto de plugins; y terminar con un escaneo final. Calculo unos 2–3 días laborables para la limpieza y una verificación posterior. Puede ver ejemplos de mis proyectos con demos en vivo aquí: https://grachoffprod.github.io/portfolio/",
+   "reply_ru": "Понимаю, что ваш сайт dintelobras.es (WordPress 6.2.2 с Elementor Pro и несколькими плагинами) содержит вредоносный код в wp-config.php и подозрительные пути на хостинге. Мой план: сначала полная резервная копия файлов и базы данных; затем проверка wp-config.php, .htaccess, недавно изменённых PHP-файлов и таблиц базы данных; удаление внедрённого кода; смена учётных данных (БД, FTP, salts и пароли администраторов); обновление ядра, Elementor, Yoast и остальных плагинов; финальное сканирование. Оцениваю очистку и последующую проверку в 2–3 рабочих дня. Примеры моих проектов с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/",
+   "questions": [
+    "Есть ли у вас доступ к хостингу (FTP/SSH и панель управления), и можно ли временно создать резервную копию?",
+    "Нужно ли сохранить все текущие плагины и тему, или можно заменить некоторые из них на более безопасные аналоги?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "freelancer:40837346",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Build-Streaming-Wagering-MVP",
+  "title": "Build Streaming and P2P Wagering MVP",
+  "description": "Looking for a full-stack developer to build the MVP and core platform for ATA Global Entertainment (ABOUT THAT ACTION LLC), combining live pay-per-view (PPV), live TV and on-demand streaming, and 1-on-1 peer-to-peer (P2P) sports wagering.\n\nReference landing page: https://ataglobalentertainment.netlify.app\n\nCore Requirements:\n- Streaming & PPV: Live event streams, PPV access/ticketing, live TV channels, and on-demand video library with user accounts and role-based access.\n- 1-on-1 Peer-to-Peer Sports Betting: User-to-user matchup creation, wager locking/escrow logic, settlement workflows, and automated 3% host fee calculation on net winnings.\n- Visual Identity & UX: Dark-mode UI featuring onyx black backgrounds with electric gold, crimson, and ocean blue accents, mobile-responsive layout, and clean navigation between media and sports wagering modules.\n- Backend & Security: Scalable API, database schema, authentication, payment/wallet architecture, and compliance-ready hooks/moderation controls.\n\nPlease include in your proposal:\n- Relevant experience building streaming/media platforms, real-time apps, or sports/wagering/fintech systems\n- Recommended tech stack and architecture approach\n- Milestone breakdown, estimated timeline, and fixed/milestone budget",
+  "budget": 100000.0,
+  "budget_min": 50000.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T16:07:25+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "freelancer:40837344",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/react-native/One-One-Mobile-App",
+  "title": "One-to-One Mobile App",
+  "description": "I need an application built around a simple idea: every interaction happens strictly between two people. The core concept is clear, yet I’m open about the exact feature mix—whether that turns into private text and photo exchange, voice or video calling, or even appointment-style sessions will depend on what you and I determine is best after an initial technical discussion.\n\nCross-platform delivery is important to me. I expect ready-to-install builds for iOS and Android, with the possibility of adding a lightweight web version if the framework we choose (React Native, Flutter, or a similarly efficient toolset) makes that practical without bloating the schedule.\n\nSecurity, smooth onboarding, and a clean, modern UI are non-negotiable. I also want straightforward deployment and handover so updates remain manageable once the project is complete.\n\nDeliverables\n• Clickable prototype and final UI assets \n• Full source code with clear documentation \n• Backend setup (user auth, real-time or REST APIs, secure data storage) \n• Test flight / APK releases and store-ready builds \n• Post-launch bug-fix window\n\nLet me know your preferred tech stack, estimated timeline, and any questions you need answered before you can lock down scope and milestones.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T16:06:08+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "booking",
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Заказчик хочет мобильное приложение для приватного общения один на один (текст, фото, возможно звонки или запись) с версиями для iOS и Android, авторизацией, безопасным хранением данных и публикацией в сторах. Бюджет 25 USD явно не соответствует объёму работ, а функционал пока не определён.",
+   "reply": "You're describing a private, two-person app with iOS and Android builds, secure auth, and store-ready releases. Since the feature set is still open, I'd start with a short discovery step to lock down one core flow, such as private chat with photos, then build it in React Native or Flutter with a lightweight backend so you get a testable build early. With modern tooling and AI-assisted development, a first working MVP with TestFlight and APK builds could be ready in about 2–3 weeks, with store submission after that. At 25 USD, the budget would only cover a very small first milestone, so we'd need to agree on what that includes. Which features are must-haves for launch, and do you already have a preferred backend or hosting?\n\nSee live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете приватное приложение для общения двух людей с сборками под iOS и Android, безопасной авторизацией и готовностью к публикации в сторах. Поскольку набор функций ещё открыт, я бы начал с короткого этапа обсуждения, чтобы зафиксировать одну основную функцию, например приватный чат с фото, а затем сделал бы её на React Native или Flutter с простым бэкендом, чтобы вы быстро получили рабочую сборку для тестирования. С современным стеком и разработкой с помощью ИИ-ассистентов первый рабочий MVP с билдами для TestFlight и APK может быть готов примерно за 2–3 недели, а отправка в сторы — после этого. При бюджете 25 USD его хватит только на очень небольшой первый этап, поэтому нам нужно согласовать, что он включает. Какие функции обязательны для запуска и есть ли у вас предпочтительный бэкенд или хостинг?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие функции обязательны для первого запуска: только текст и фото или также звонки и запись?",
+    "Есть ли у вас предпочтительный бэкенд, хостинг или уже существующая инфраструктура?",
+    "Какой бюджет вы закладываете на весь проект, а не только на первый этап?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "freelancer:40837334",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Online-Store-Development-for-Physical",
+  "title": "Online Store Development for Physical Products",
+  "description": "I'm looking for an experienced developer to create an online store specifically for selling physical products. The store should be user-friendly and feature-rich to enhance the shopping experience.\n\nKey requirements include:\n- Product search and filters\n- Online payments\n- Customer accounts and order tracking\n- Delivery options for both shipping and local pickup\n\nIdeal Skills and Experience:\n- Proven experience in developing e-commerce websites\n- Strong knowledge of payment gateways and secure online transactions\n- Ability to implement comprehensive product search and filtering systems\n- Experience with customer account management and order tracking systems\n- Familiarity with setting up both shipping and local pickup options",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T16:04:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 5,
+   "summary_ru": "Заказчик ищет разработчика для интернет-магазина физических товаров с поиском и фильтрами, личными кабинетами с отслеживанием заказов и вариантами доставки, включая самовывоз. Бюджет 750 USD, требования объёмные для такой суммы.",
+   "reply": "You need a store for physical goods with search and filters, customer accounts with order tracking, and both shipping and local pickup. I would build it on a modern stack and use AI-assisted development to move quickly on the catalog, filtering, and account flows, then add delivery options as a separate configurable module so pickup and shipping can be managed independently. A realistic first version with the core features would take about 3 to 4 weeks, with a staging build for your review partway through.\n\nTwo questions: Do you already have a product catalog (CSV or an existing system) that needs to be imported? And for shipping, do you need live carrier rates or flat rules by region?\n\nYou can see live demos of my work here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен магазин физических товаров с поиском и фильтрами, личными кабинетами с отслеживанием заказов и двумя вариантами доставки: курьерской и самовывозом. Я бы сделал его на современном стеке и использовал ИИ-ассистентов в разработке, чтобы быстро собрать каталог, фильтры и логику аккаунтов. Доставку вынес бы в отдельный настраиваемый модуль, чтобы самовывоз и отправка управлялись независимо. Реалистичный первый вариант с основными функциями займёт около 3–4 недель, а промежуточную тестовую версию вы сможете посмотреть на полпути.\n\nДва вопроса: есть ли у вас уже каталог товаров (CSV или существующая система), который нужно импортировать? И для доставки нужны расчёты перевозчиков в реальном времени или фиксированные тарифы по регионам?\n\nЖивые демо моих работ здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже каталог товаров (CSV или существующая система), который нужно импортировать?",
+    "Для доставки нужны расчёты перевозчиков в реальном времени или фиксированные тарифы по регионам?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "freelancer:40837321",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-integration/Bet-Style-Sports-Betting-Platform",
+  "title": "Bet365-Style Sports Betting Platform",
+  "description": "I’m ready to build the first release of a Bet365-inspired website focused solely on sports betting with real-time odds. At launch I need football, basketball, tennis and cricket fully covered, and the odds and live scores must flow in automatically from a reputable sports-data provider rather than being entered by hand.\n\nThe core work involves:\n\n• Integrating an API that delivers continuous odds and match updates for those four sports. \n• Designing a clean, mobile-friendly interface that mirrors the smooth in-play experience users expect. \n• Implementing secure account creation, wallet management and common payment gateways. \n• Providing an admin panel where I can monitor bets, manage users and view live liabilities.\n\nCode quality, data accuracy and site responsiveness are top priorities. If you have previous experience building similar gambling platforms and can demonstrate integrations with live-data feeds, I’d like to see it. Let’s discuss which API, tech stack and deployment pipeline you recommend so we can move quickly toward a rock-solid MVP.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T16:01:22+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 3,
+   "summary_ru": "Заказчик хочет сделать MVP букмекерской платформы в стиле Bet365 для футбола, баскетбола, тенниса и крикета с live-коэффициентами из спортивного API, адаптивным интерфейсом, кошельком, платёжными шлюзами и админ-панелью. Бюджет 1500 USD явно не покрывает такой объём.",
+   "reply": "You're looking for a sports betting MVP covering football, basketball, tennis and cricket, with odds and live scores pulled automatically from a sports-data API, a mobile-friendly in-play interface, and an admin panel for bets, users and liabilities. I'd build it on a modern stack with a clear split between the feed-ingestion layer, the odds and bet service, and the frontend, so live updates stay reliable. For the first release I'd focus on the feed integration, the betting flow and the admin panel, and keep wallet logic minimal until the scope is confirmed. A realistic first phase is about 3–4 weeks; the full scope with wallet and payments would need more time and budget.\n\nTwo questions: Which jurisdiction will you operate in, since it determines the wallet and compliance requirements? And have you chosen a data provider yet? Their subscription is usually separate from the project budget.\n\nYou can see live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен MVP букмекерской платформы с футболом, баскетболом, теннисом и крикетом, где коэффициенты и live-счёт автоматически поступают из спортивного API, есть адаптивный интерфейс для ставок в лайве и админ-панель для ставок, пользователей и лайабилити. Я бы строил это на современном стеке с чётким разделением на слой приёма данных, сервис коэффициентов и ставок и фронтенд, чтобы live-обновления оставались надёжными. Для первого релиза я бы сосредоточился на интеграции с данными, потоке ставок и админ-панели, а логику кошелька оставил минимальной, пока не согласован объём. Реалистичный срок первого этапа — около 3–4 недель; полный объём с кошельком и платежами потребует больше времени и бюджета.\n\nДва вопроса: в какой юрисдикции вы планируете работать, так как от этого зависят требования к кошельку и соответствию нормативам? И выбран ли уже провайдер данных? Его подписка обычно оплачивается отдельно от бюджета проекта.\n\nЖивые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "В какой юрисдикции планируется работа платформы? От этого зависят требования к кошельку и соответствию законодательству.",
+    "Выбран ли уже провайдер спортивных данных? Его подписка обычно оплачивается отдельно от бюджета проекта."
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "freelancer:40837320",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Full-Stack-Freelance-Platform",
+  "title": "Full-Stack Freelance Platform Development -- 2",
+  "description": "I need a modern, responsive web application built with React.js + TypeScript on the front end and Node.js + Express.js on the back end, tied to either PostgreSQL, MySQL, or MongoDB—whichever you prefer and can justify. \n\nThe core idea is simple: a place “for earning” where people engage in freelancing focused on Web, app, and software development services. The platform must therefore support account creation, secure authentication, protected routes, and the usual CRUD flows for posting jobs, bidding, messaging, and managing profiles. Expect additional needs such as media or file uploads (e.g., portfolios, briefs) and solid error handling throughout.\n\nWhat I expect from you \n• Component-based UI with clean state management and full mobile responsiveness \n• Well-structured REST APIs that expose every critical function \n• Role-based access so only authorised users hit protected areas \n• Complete environment setup with clear, developer-friendly documentation \n• One-click (or as close as possible) deployment to a mainstream host—Vercel, Render, AWS, or a comparable alternative\n\nWhen you reply, please share: \n1. Links to at least two similar full-stack projects you’ve shipped \n2. Your estimated timeline with key milestones \n3. Your cost breakdown \n\nI’m ready to move forward as soon as we align on scope and schedule.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T15:59:02+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Заказчик хочет создать фриланс-платформу для веб-, мобильной и software-разработки на React + TypeScript, Node.js/Express и одной из баз данных (PostgreSQL, MySQL или MongoDB). Нужны аутентификация, роли, CRUD для вакансий, откликов, сообщений и профилей, загрузка файлов, документация и деплой. Бюджет 1250 INR очень мал для такого объёма.",
+   "reply": "You're looking to build a freelancing platform for web, app, and software work: a React + TypeScript front end, an Express API, and a database of your choice, with secure auth, role-based access, jobs, bids, messaging, profiles, file uploads, documentation, and deployment. I'd start with the data model and auth, then build the job and bid flows, messaging, and uploads, and finish with docs and deployment to Render or Vercel. With a modern stack and AI-assisted development, I can move fast. A realistic first milestone (auth, jobs, and bidding) is about one to two weeks, and the full scope depends on how deep messaging and file handling need to go. Since the budget is tight for this scope, I'd suggest starting with a focused MVP and expanding from there. Two questions: Do you need real-time messaging (WebSockets) or is polling enough? Do you have a database preference, or should I choose and justify one?\n\nFor live demos of my work, see https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите создать фриланс-платформу для веб-, мобильной и software-разработки: фронтенд на React + TypeScript, API на Express, база данных на ваш выбор, с безопасной аутентификацией, ролевым доступом, вакансиями, откликами, сообщениями, профилями, загрузкой файлов, документацией и деплоем. Я бы начал с модели данных и аутентификации, затем сделал бы потоки вакансий и откликов, сообщения и загрузку файлов, а в конце добавил бы документацию и деплой на Render или Vercel. Благодаря современному стеку и разработке с помощью ИИ-ассистентов я могу работать быстро. Реалистичный первый этап (аутентификация, вакансии и отклики) занимает примерно одну-две недели, а полный объём зависит от того, насколько глубоко нужны сообщения и работа с файлами. Поскольку бюджет для такого объёма ограничен, я предлагаю начать с сфокусированного MVP и расширять его дальше. Два вопроса: нужны ли сообщения в реальном времени (WebSockets) или достаточно опроса сервера? Есть ли предпочтение по базе данных или её выбор стоит оставить мне с обоснованием?\n\nЖивые демо моих работ смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Нужны ли сообщения в реальном времени (WebSockets) или достаточно периодического обновления?",
+    "Есть ли предпочтение по базе данных (PostgreSQL, MySQL, MongoDB) или выбрать и обосновать её должен разработчик?",
+    "Какие функции входят в первый релиз, а какие можно отложить на следующие этапы при текущем бюджете?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "freelancer:40837318",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/product-management/Commerce-Product-Management",
+  "title": "E-Commerce Product Management",
+  "description": "I need help adding , updating products , listing on Meesho and Flipkart stores. \n\nTasks include:\n- Adding and updating product photos, titles, and descriptions\n- Adjusting prices, stock levels, and product options\n- Organizing categories, tags, and search keywords\n\nIdeal skills and experience:\n- Experience with Meesho and Flipkart\n- Strong attention to detail\n- Proficient in product data management\n- Good organizational skills\n\nORDERS GROWTH",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T15:58:08+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент ищет исполнителя для ручного ведения товарных карточек на маркетплейсах Meesho и Flipkart: загрузка фото, описаний, цен, остатков и категорий. Это операционная работа с данными, а не разработка, и в требованиях указан опыт работы с этими площадками.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разовая загрузка каталога или постоянная поддержка карточек?",
+    "Есть ли возможность автоматизировать обновление цен и остатков через API площадок или выгрузку из таблиц?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "flru:5530677",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530677/lending-s-ii-dizaynom.html",
+  "title": "Лендинг с ИИ дизайном",
+  "description": "Создать красивый лендинг (ИИ типа Lovable) для продажи услуг по настройке яндекс директ. Есть полное ТЗ (промпт) - прикрепил.",
+  "budget": 1800.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "Thu, 26 Nov 2026 16:36:45 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 5,
+   "summary_ru": "Нужно создать красивый лендинг для продажи услуг по настройке Яндекс Директ, используя ИИ-подход (вроде Lovable). Полное ТЗ в виде промпта уже есть. Бюджет небольшой, 1800 ₽.",
+   "reply": "Вижу задачу: лендинг для продажи услуг по настройке Яндекс Директ, а структуру и дизайн берём из вашего промпта-ТЗ. Сделаю адаптивную одностраничную версию на современном стеке с помощью ИИ-ассистентов, поэтому сборка идёт быстро. Ориентировочно 2–3 рабочих дня на первую версию и одну итерацию правок. Блоки оффера, кейсов, FAQ и формы заявки реализую строго по ТЗ, без лишних функций. Чтобы оценить объём точнее, уточню:\n1. Куда отправлять заявки из формы: в Telegram, на почту или в CRM?\n2. Есть ли готовые тексты, фото и логотип или их нужно подготовить?\n\nПосмотреть живые демо можно в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вижу задачу: лендинг для продажи услуг по настройке Яндекс Директ, а структуру и дизайн берём из вашего промпта-ТЗ. Сделаю адаптивную одностраничную версию на современном стеке с помощью ИИ-ассистентов, поэтому сборка идёт быстро. Ориентировочно 2–3 рабочих дня на первую версию и одну итерацию правок. Блоки оффера, кейсов, FAQ и формы заявки реализую строго по ТЗ, без лишних функций. Чтобы оценить объём точнее, уточню:\n1. Куда отправлять заявки из формы: в Telegram, на почту или в CRM?\n2. Есть ли готовые тексты, фото и логотип или их нужно подготовить?\n\nПосмотреть живые демо можно в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Куда отправлять заявки из формы: в Telegram, на почту или в CRM?",
+    "Есть ли готовые тексты, фото и логотип или их нужно подготовить?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "kwork:3275781",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275781",
+  "title": "HTML5-листалка из PDF (150 стр., 279 МБ → 40–70 МБ)",
+  "description": "Задача: оптимизировать PDF (150 стр. + обложка, ~279 МБ) до 40–70 МБ и установить на сайт guitarworld-kaluga.ru как адаптивную HTML5-листалку (flipbook). \nТребования: \nДаунсэмплинг изображений до 120–150 DPI, удаление метаданных, без потери читаемости текста и качества фото. \nРеалистичное перелистывание, свайпы на смартфонах (iOS/Android). \nLazy loading — книга не должна зависать на мобильных. \nПредпочтительно локальный плагин (DearFlip / dFlip / Real3D Flipbook), файл на нашем хостинге. \nФункционал: зум, полноэкранный режим, опционально скачивание PDF, работа оглавления (если есть гиперссылки). \nБез водяных знаков, без Flash, только HTML5/WebGL. \nЕсли облачный сервис — аккаунт на почту заказчика, без лимитов по времени/просмотрам. \nПорядок работ: \nТест на 10 страницах — согласование качества и скорости. \nОбработка всего файла и установка на сайт. \nПроверка на ПК и смартфоне. \nПередача доступов, файлов плагина, инструкции по замене PDF. \nCMS: [указать или «стандартная, доступ к админке предоставлю»]. \nОбязательно ответьте в отклике: \nКакими инструментами оптимизируете PDF на 279 МБ? (конкретика) \nКакой плагин/сервис предложите и почему? \nБудет ли lazy loading? \nПришлите 1–2 ссылки на работы с тяжёлыми PDF, быстро открывающимися на мобильном. \nОтклики без ответов на эти вопросы или с шаблонными фразами не рассматриваются.",
+  "budget": 3000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 19:42:57",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 5,
+   "summary_ru": "Нужно сжать PDF на 150 страниц (279 МБ) до 40–70 МБ и встроить его на сайт guitarworld-kaluga.ru как адаптивную HTML5-листалку с перелистыванием, свайпами и зумом. Бюджет небольшой, а работа состоит из обработки файла и интеграции плагина.",
+   "reply": "Нужно сжать PDF на 150 страниц (279 МБ) до 40–70 МБ и вывести его на сайт guitarworld-kaluga.ru как адаптивную листалку с реалистичным перелистыванием, свайпами и зумом. Сначала пересожму изображения через Ghostscript до 120–150 DPI, метаданные уберу через exiftool и qpdf, а читаемость текста и качество фото проверю на выборке страниц. Для листалки предлагаю dFlip: он работает локально на HTML5, без Flash, поддерживает свайпы и зум. Ленивую подгрузку страниц сделаю и проверю на тестовых 10 страницах с замером на смартфоне. Тест займёт около дня, обработка всего файла и установка на сайт ещё 2–3 дня. Есть ли у вас оглавление с гиперссылками и какая CMS стоит на сайте?\n\nПример работ: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно сжать PDF на 150 страниц (279 МБ) до 40–70 МБ и вывести его на сайт guitarworld-kaluga.ru как адаптивную листалку с реалистичным перелистыванием, свайпами и зумом. Сначала пересожму изображения через Ghostscript до 120–150 DPI, метаданные уберу через exiftool и qpdf, а читаемость текста и качество фото проверю на выборке страниц. Для листалки предлагаю dFlip: он работает локально на HTML5, без Flash, поддерживает свайпы и зум. Ленивую подгрузку страниц сделаю и проверю на тестовых 10 страницах с замером на смартфоне. Тест займёт около дня, обработка всего файла и установка на сайт ещё 2–3 дня. Есть ли у вас оглавление с гиперссылками и какая CMS стоит на сайте?\n\nПример работ: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какая CMS стоит на сайте guitarworld-kaluga.ru и есть ли доступ к админке или к файлам для установки плагина?",
+    "Есть ли в PDF оглавление с гиперссылками, которое нужно сохранить в листалке?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "kwork:3262922",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3262922",
+  "title": "Создать Магазин приложений типа rustore.ru",
+  "description": "БЕЗ описания ЧТО сделаете И ЗА сколько-ИГНОР.Зачем нужен \nПлатформа решает несколько задач: \n* даёт пользователям доступ к приложениям, в том числе к тем, которых нет в зарубежных сторах (например, к банковским и государственным сервисам); \n* служит альтернативным каналом дистрибуции для разработчиков; \n* поддерживает российские платёжные инструменты — можно оплачивать подписки и покупки внутри приложений с российских карт. \nпредставлено свыше 100 тысяч приложений. Среди них: \n* мобильные банки («СберБанк Онлайн», «ВТБ Онлайн» и др.); \n* государственные сервисы («Госуслуги», «Мой налог», «Госключ» и т. п.); \n* маркетплейсы и сервисы доставки (Ozon, Wildberries, «Самокат» и др.); \n* соцсети и развлекательные сервисы («ВКонтакте», «Одноклассники», онлайн‑кинотеатры); \n* игры и утилиты \nОсновные функции для пользователей \nПоиск, скачивание и обновление приложений.** Можно искать по категориям или через строку поиска, устанавливать и обновлять софт. \n Платежи и подписки. Поддерживаются локальные способы оплаты, есть возможность привязки карты. \nПодборки и рекомендации. В разделе «Интересное» — редакционные подборки, новинки и популярное. \nАвторизация.Можно войти через VK ID, Sber ID, Tinkoff ID или Yandex ID либо пользоваться магазином без аккаунта (если не нужны платные покупки). \nВозможности для разработчиков",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 19:40:17",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Заказчик хочет создать магазин приложений по образцу RuStore с каталогом, поиском, подборками, авторизацией через VK ID, Sber ID, Tinkoff ID и Yandex ID и возможностями для разработчиков. Описание большое и похоже на описание готового сервиса, а бюджет 500 ₽ несоизмеримо мал.",
+   "reply": "Вижу задачу так: нужен магазин приложений по образцу RuStore с каталогом, поиском по категориям, подборками и личным кабинетом разработчика для загрузки и обновления приложений. Бюджета 500 ₽ хватит только на небольшой пилот, поэтому предлагаю сначала выделить MVP: каталог, поиск, страницу приложения и загрузку версий. Подключение внешних ID-провайдеров и платёжный модуль можно вынести во второй этап. Работаю на современном стеке с ИИ-ассистентами, поэтому MVP такого объёма реально сделать примерно за 2–4 недели, точнее скажу после уточнения задачи.\n\nКакие функции должны войти в первый этап и готовы ли вы обсудить бюджет под выбранный объём?\n\nДемо моих работ: https://grachoffprod.github.io/portfolio/\nYakov",
+   "reply_ru": "Вижу задачу так: нужен магазин приложений по образцу RuStore с каталогом, поиском по категориям, подборками и личным кабинетом разработчика для загрузки и обновления приложений. Бюджета 500 ₽ хватит только на небольшой пилот, поэтому предлагаю сначала выделить MVP: каталог, поиск, страницу приложения и загрузку версий. Подключение внешних ID-провайдеров и платёжный модуль можно вынести во второй этап. Работаю на современном стеке с ИИ-ассистентами, поэтому MVP такого объёма реально сделать примерно за 2–4 недели, точнее скажу после уточнения задачи.\n\nКакие функции должны войти в первый этап и готовы ли вы обсудить бюджет под выбранный объём?\n\nДемо моих работ: https://grachoffprod.github.io/portfolio/\nYakov",
+   "questions": [
+    "Какие функции должны войти в первый этап: только каталог и загрузка приложений или также авторизация и подборки?",
+    "Готовы ли вы обсудить бюджет под выбранный объём работ, так как 500 ₽ покрывают только небольшой пилот?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "kwork:3258367",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3258367",
+  "title": "Создать видеомедиаплатфорформа",
+  "description": "Без описания и цены предложения в корзину. Видеомедиаплатформа — это онлайн‑сервис, где пользователи могут размещать, просматривать, делиться и иногда монетизировать видеоконтент. Это одновременно и хранилище видео, и инструмент доставки контента зрителю, и (часто) среда для взаимодействия — с комментариями, подписками, рекомендациями и т. д.",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 19:39:53",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчик хочет создать видеомедиаплатформу: сервис для загрузки, просмотра и распространения видео с возможностью монетизации, комментариями, подписками и рекомендациями. Описание расплывчатое, а бюджет в 500 ₽ far меньше объёма такой работы.",
+   "reply": "Вы хотите сделать видеоплатформу, где пользователи загружают, смотрят и делятся роликами, с комментариями и подписками. Для старта я бы выделил MVP: загрузку и хранение видео в облачном хранилище, плеер, страницы каналов, комментарии и простую ленту. Монетизацию и рекомендации лучше вынести во второй этап. Базовая версия займёт около 3–4 недель. Бюджет 500 ₽ покроет только небольшой этап, поэтому сначала стоит согласовать объём работ. Какие функции критичны для первого релиза? И какой примерно объём видео и аудитория вы ожидаете? Работы с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\nYakov",
+   "reply_ru": "Вы хотите сделать видеоплатформу, где пользователи загружают, смотрят и делятся роликами, с комментариями и подписками. Для старта я бы выделил MVP: загрузку и хранение видео в облачном хранилище, плеер, страницы каналов, комментарии и простую ленту. Монетизацию и рекомендации лучше вынести во второй этап. Базовая версия займёт около 3–4 недель. Бюджет 500 ₽ покроет только небольшой этап, поэтому сначала стоит согласовать объём работ. Какие функции критичны для первого релиза? И какой примерно объём видео и аудитория вы ожидаете? Работы с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\nYakov",
+   "questions": [
+    "Какие функции критичны для первого релиза: загрузка видео, комментарии, подписки, рекомендации?",
+    "Какой примерно объём видео и количество пользователей вы ожидаете на старте?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
+  "id": "kwork:3210602",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3210602",
+  "title": "Создать мессенджер с публикацией в Google Play",
+  "description": "БЕЗ описания ЧТО сделаете И ЗА сколько-ИГНОР. \nПримерный функционал: \n- Регистрацию и авторизацию пользователей. \n- Личные и групповые чаты. \n- Отправку текста, изображений, документов, голосовых сообщений и видео. \n- Push-уведомления. \n- Поиск пользователей и переписок. \n- Статусы сообщений (отправлено, доставлено, прочитано). \n- Создание каналов и сообществ. \n- Административную панель для управления пользователями и модерации. \n- Приложения для Android и iOS, а также веб-версию. \nДополнительно можно реализовать: \n- Аудио- и видеозвонки. \n- Сквозное шифрование сообщений. \n- Облачное хранение файлов. \n- Ботов и API для интеграций. \n- Монетизацию (подписки, премиум-функции). \n- Стикеры, реакции, истории и другие современные возможности. \nВаши предложения то же рассмотрю.",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 19:38:18",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Заказчик хочет получить полноценный мессенджер с чатами, медиа, push-уведомлениями, админ-панелью, приложениями для Android и iOS и веб-версией, но указывает бюджет всего 500 ₽.",
+   "reply": "You describe a full messenger: chats, media, push notifications, an admin panel, Android and iOS apps, and a web version. That scope won't fit into 500 RUB, so I suggest starting with an MVP: registration and authorization, personal chats in real time over WebSocket, text and image sending, and a web version. After that, the project can be wrapped as an Android app and prepared for Google Play. The MVP would take roughly 2–3 weeks, and we can estimate the rest once the scope is agreed.\n\nWhat budget can you allocate for the first stage? Do you need a native iOS app, or is a web version plus an Android app enough?\n\nLive demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете полноценный мессенджер: чаты, медиа, push-уведомления, админ-панель, приложения для Android и iOS и веб-версию. Такой объём не уложится в 500 ₽, поэтому предлагаю начать с MVP: регистрация и авторизация, личные чаты в реальном времени через WebSocket, отправка текста и изображений, веб-версия. Затем проект можно обернуть в Android-приложение и подготовить к публикации в Google Play. MVP займёт ориентировочно 2–3 недели, остальное оценим после согласования объёма.\n\nКакой бюджет вы готовы выделить на первый этап? Нужна ли нативная iOS-версия или достаточно веб-версии и Android-приложения?\n\nЖивые демо смотрите в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой бюджет вы готовы выделить на первый этап разработки?",
+    "Нужна ли нативная iOS-версия или достаточно веб-версии и Android-приложения?"
+   ]
+  },
+  "found_at": "2026-11-26T16:43:35+00:00"
+ },
+ {
   "id": "freelancer:40837244",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/ai-chatbot/Claude-Chatbot-for-Product-Queries",
