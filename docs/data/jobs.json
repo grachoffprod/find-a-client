@@ -1,5 +1,576 @@
 [
  {
+  "id": "freelancer:40836637",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/telemarketing/Student-Reminder-Telecalling-Support",
+  "title": "Student Reminder Telecalling Support Needed",
+  "description": "I have a list of enrolled students that must be contacted daily to keep them on track. Your job is to place short, friendly reminder calls that cover three points: \n• Upcoming classes or sessions they are scheduled to attend \n• Any pending document submission or application update they still owe us \n• A quick confirmation of their location so we know they can reach the venue on time \n\nAfter each call you will open our shared spreadsheet (Google Sheet) and log the outcome. For every student, I need two fields completed: \n1. Call status with a clear “confirmed / not confirmed / no answer” note \n2. If they are not attending or did not pick up, the reason they gave (or “no response” if silent)\n\nAccuracy in the sheet is critical because we rely on it for daily attendance figures, so please double-check entries before you move to the next number. All numbers, sheet access, and a short calling script will be provided once we start. \n\nFluency in clear spoken English (Hindi is a plus), a calm phone manner, and the ability to finish calls within the agreed slot each day will make this run smoothly. If you have experience with Google Sheets or similar CRMs, mention it when you reply so we can get you started right away.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T08:02:25+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Клиент ищет исполнителя для ежедневных звонков студентам с напоминаниями о занятиях и документах и для занесения результатов в Google Sheets. Это телефонная работа, а не разработка, поэтому проект не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь какая-либо разработка, например автоматизация записи звонков или синхронизация с таблицей, или требуется только ручная работа по телефону?",
+    "Предусмотрен ли вариант с автоматическими голосовыми напоминаниями и выгрузкой статусов в таблицу?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836633",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/flutter/Build-Paid-Voice-Video-Calling",
+  "title": "Build Paid Voice Video Calling MVP",
+  "description": "Hiring: Freelance App Developer / Small Development Team\n\nI'm looking for an experienced freelance developer or a small development team to build an Android-based Paid Voice & Video Calling Platform, similar to a host-based voice/video calling application.\n\nI have a reference document outlining the required platform and features. The goal is to develop a functional MVP with all essential features while keeping the development process as cost-effective as possible.\n\n1. Customer Android App\n\nUser registration and login\n\nUser profiles\n\nHost listing and profile viewing\n\nOnline/offline host availability\n\nWallet balance and recharge\n\nPaid voice and video calling\n\nCall history and transaction history\n\nRatings and reporting system\n\n2. Host App / Interface\n\nHost login with assigned credentials\n\nHost profile management\n\nOnline/offline/busy status\n\nIncoming voice/video call notifications\n\nAccept/reject calls\n\nCall history\n\nEarnings and wallet details\n\n3. Admin Web Dashboard\n\nCustomer and host management\n\nHost verification and approval\n\nWallet and transaction management\n\nCall rate and commission management\n\nHost payout management\n\nReports and analytics\n\nComplaints and user management\n\n4. Preferred Technology Stack\n\nMobile App: Flutter\n\nBackend: ASP.NET Core Web API (.NET)\n\nDatabase: MongoDB\n\nAdmin Dashboard: React.js\n\nVoice/Video Calling: Agora SDK or LiveKit\n\nReal-time Communication: SignalR\n\nPush Notifications: Firebase FCM\n\nPayment Gateway: Razorpay\n\nCloud Hosting: Google Cloud Platform (GCP)\n\nDevelopers can also suggest alternative technologies if they can deliver the same functionality with lower development and maintenance costs.\n\n5. Important Requirements\n\nAndroid application only for the initial phase.\n\nFocus on essential MVP features.\n\nCost-effective development approach.\n\nClean, simple and user-friendly UI.\n\nSecure wallet and payment processing.\n\nProper server-side call duration and billing calculation.\n\nScalable backend architecture.\n\nComplete source code and ownership handover.\n\nDeployment and basic technical documentation.\n\n6. What I'm Looking For\n\nPlease share the following details:\n\nYour previous app development experience.\n\nPortfolio or links to previously developed applications.\n\nExperience with Flutter, .NET and voice/video calling SDKs.\n\nYour suggested technology stack.\n\nYour lowest possible quotation with a feature-wise cost breakdown.\n\nEstimated development timeline.\n\nPost-development support details.\n\nPreference: Individual freelancers or small development teams who can deliver a reliable, fully functional product with minimum development and maintenance costs.\n\nPlease apply only if you have relevant experience in mobile app development and real-time voice/video calling integration.",
+  "budget": 75000.0,
+  "budget_min": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:59:15+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 4,
+   "summary_ru": "Нужен MVP платформы платных голосовых и видеозвонков с хостами: Android-приложение для клиентов, приложение для хостов, админ-панель, кошелёк, серверный биллинг и звонки через Agora или LiveKit. Бюджет 75 000 INR при таком объёме функций ограничен.",
+   "reply": "You want a paid host-based voice and video calling MVP: a customer Android app, a host app, and an admin dashboard, with wallet top-ups, server-side call billing, and real-time calls through Agora or LiveKit. To fit the budget, I would build the core flow first: registration, host listing, online status, wallet, and per-minute billing calculated on the backend. The admin dashboard would start as a basic version. I would use ASP.NET Core with SignalR for presence and call signalling, MongoDB for data, and FCM for incoming call alerts. A first working build could be ready in about 6 to 8 weeks, with the remaining features in later phases. Which features must be in the launch version, and do you need host verification in the MVP or can it be handled manually at first?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен MVP платформы платных голосовых и видеозвонков с хостами: Android-приложение для клиентов, приложение для хостов и админ-панель, с пополнением кошелька, серверным биллингом звонков и звонками через Agora или LiveKit. Чтобы уложиться в бюджет, я бы сначала сделал основной сценарий: регистрацию, список хостов, статус онлайн, кошелёк и поминутный биллинг, который считается на бэкенде. Админ-панель начнётся с базовой версии. Для бэкенда я бы использовал ASP.NET Core с SignalR для статусов и сигнализации звонков, MongoDB для данных и FCM для уведомлений о входящих звонках. Первая рабочая версия может быть готова примерно за 6–8 недель, остальные функции пойдут в следующих этапах. Какие функции обязательны для первого релиза и нужна ли верификация хостов в MVP или на старте её можно делать вручную?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие функции обязательны для первого релиза, а какие можно отложить на следующие этапы?",
+    "Нужна ли верификация хостов в MVP или на старте её можно делать вручную через админ-панель?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836618",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/PHP-Bug-Fixing-Screenshare-Collaboration",
+  "title": "PHP Bug Fixing Screenshare Collaboration",
+  "description": "Looking for strong Php developer who will work with me to resolve bugs and work with me while doing screenshare.\nlooking for freelancer developer only and companies/ manager please excuse me",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:51:12+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 4,
+   "summary_ru": "Клиент ищет PHP-разработчика, который исправит набор багов в его проекте и будет работать вместе с ним через демонстрацию экрана. Описание краткое, детали проекта не указаны, бюджет небольшой (1500 INR).",
+   "reply": "You need a PHP developer to fix a set of bugs in your project while working together over a screen share, so you can see each fix as it happens. I work with a modern stack and AI-assisted development, so I can move through issues quickly and explain each change as we go. My plan: we start with the bug list and reproduce the issues on a live call, then I fix them one by one, test each fix, and commit the changes with short notes. For a small batch of bugs, I'd expect to start the same day and finish within a few days, depending on how many issues there are and how complex they are. Could you share the bug list or repository access, and tell me which PHP version and framework you're using? You can see examples of my work with live demos at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен PHP-разработчик, который исправит набор багов в вашем проекте и будет работать вместе с вами через демонстрацию экрана, чтобы вы видели каждое исправление в процессе. Я работаю с современным стеком и использую ИИ-ассистенты в разработке, поэтому могу быстро проходить задачи и объяснять каждое изменение по ходу работы. План такой: сначала разбираем список багов и воспроизводим их на живом созвоне, затем я исправляю их по одному, тестирую каждое исправление и сохраняю изменения с короткими комментариями. Для небольшого набора багов я бы начал в тот же день и закончил в течение нескольких дней, в зависимости от количества и сложности проблем. Не могли бы вы прислать список багов или доступ к репозиторию и сказать, какую версию PHP и какой фреймворк вы используете? Примеры моих работ с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой у вас проект (фреймворк, версия PHP) и есть ли доступ к репозиторию?",
+    "Сколько примерно багов нужно исправить и есть ли их список?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836396",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/air-conditioning/Mosquito-proof-Cooler-Retrofit",
+  "title": "Mosquito-proof Cooler Retrofit",
+  "description": "I need a retrofit extension for my portable evaporative air cooler to prevent mosquito breeding. The solution should stop mosquitoes from entering the water tank.\n\nCurrent entry points:\n- Water-filling opening\n- Air vents or cooling pads\n\nIdeal Skills and Experience:\n- Experience with HVAC or cooler modifications\n- Knowledge of mosquito prevention methods\n- Problem-solving skills to seal entry points effectively\nThe design logic\n\nThere are two ways to stop the mosquito. Keep her out of the tank, and make the tank useless if she gets in anyway. Then go one step further and use the cooler to remove mosquitoes from the area. Each part covers one of these jobs, and all of them follow your five rules: block egg-laying, fit any cooler as a retrofit, keep cooling the same, use no chemicals, and keep refilling easy.\n\n1. Seal tray\n\nWhy: In a desert cooler, the tank is an open box under the pads. Mosquitoes fly in through the gaps around the pads and land on the wet walls. To keep them out, you have to close the tank without blocking the airflow, and the airflow is in the pad area, not the tank. So the seal goes between the two.\n\nDesign:\n\nIt's a flat panel that rests on the tank rim, with a soft foam strip around the edge. An adult Aedes is only a few millimetres long, so even a small gap lets her in. The foam presses into uneven rims and fills those gaps.\nIt slopes slightly toward the U-bend. This matters a lot. If water sat in puddles on the tray, the tray itself would become a new place to breed. With the slope, every drop drains away.\nIt's cut-to-fit, in 2–3 standard sizes, which is what makes it work across cooler brands.\nFor the prototype it's acrylic, because a laser cutter makes it quick and accurate. A real product would be injection-moulded polypropylene, which is cheap, survives sunlight and won't crack.\n\nTrade-off: it needs about 1–1.5 cm of space between the tank rim and the pad frame. Some very compact coolers may not have that room.\n\n2. U-bend drain\n\nWhy: The water that drips off the pads has to get back into the tank, so the tank can never be fully closed. The question is how to let water through without letting insects through. Sinks solved this a long time ago with a trap: a bend that always holds some water. Water can flow through it, but air and insects can't get past the water.\n\nDesign:\n\nIt's made from ½\" PVC elbows, which are cheap and available at any hardware shop, and wide enough for the amount of water dripping off the pads.\nThe water in the bend should be 3–4 cm deep, so a mosquito can't simply cross it.\nThe outlet points straight down into the tank, so the drip doesn't splash onto the tank walls and wet them.\n\nTrade-off: if the cooler sits switched off for weeks, the water in the bend can evaporate and leave the path open. In your testing, measure how long the water stays in the bend. For the final version, a small floating ball valve could close it automatically.\n\n3. Refill funnel with flap\n\nWhy: People refill coolers with a bucket every day. If refilling gets harder, they'll take the lid off and leave it off, and the whole design fails. So the opening has to be easy to use and still close by itself.\n\nDesign:\n\nA rubber flap hangs under the funnel. The weight of the water pushes it open, and it falls shut by gravity when you stop pouring. No springs, and nothing for the user to remember.\nWhy not just a mesh over the opening? A wet mesh holds a thin film of water, which is exactly the kind of damp surface Aedes like to lay eggs on. A flap has no such surface.\nThe funnel's sides are steep, so no water is left sitting in it.\n\nTrade-off: dirt can stop the flap from closing fully. It needs a quick wipe now and then.\n\n4. Pipe grommet\n\nWhy: The pump pipe has to pass through the tray. Any loose hole there would be a way in.\n\nDesign: a rubber grommet, which is a ring with a cut in it. It grips the pipe tightly and still fits slightly different pipe sizes.\n\n5. Hex float tiles\n\nWhy: This is the backup layer. If a mosquito gets in through a gap or while the lid is open, she still shouldn't be able to breed. Aedes need two things: a wet edge just above the water to lay eggs on, and a calm, open surface where the larvae can breathe. Covering the water takes away both.\n\nDesign:\n\nWhy hexagons rather than balls? Round balls always leave gaps between them. Hexagons fit together edge to edge, the same way honeycomb does, so they cover far more of the surface.\nThey float. As water evaporates or gets refilled, the cover rises and falls with it, so the waterline is always covered. A fixed cover can't do this.\nThey're about 6 cm across: big enough to stay away from the pump, and small enough to pour in through the funnel.\nTo make them float, print them in PETG with closed top and bottom layers so air stays trapped inside. Test a few in a bucket before printing the full set.\nBonus: covering the water reduces evaporation from the tank, so it needs refilling less often. Cooling isn't affected, because the cooling comes from the pads, not the tank.\n\nTrade-off: water splashing off the drain can push tiles out of place. Pointing the U-bend outlet straight down keeps the surface calm.\n\n6. Pump mesh basket\n\nWhy: If a tile gets sucked onto the pump's intake, the pump runs without water and the cooling stops.\n\nDesign: a coarse steel or nylon mesh around the pump. The holes are much smaller than a tile but large enough that water flows freely. It also keeps leaves and dust out of the pump.\n\n7. Decoy trap cup\n\nWhy: Sealing the tank only stops the cooler from becoming a breeding site. The mosquito still lays her eggs somewhere else. The trap gives her a place to lay them that kills her offspring, so every cooler with the kit helps reduce the mosquito population nearby. This is what makes the project more than just \"a lid\".\n\nDesign:\n\nDark felt strip at the waterline: Aedes prefer dark, rough, damp surfaces for laying eggs, so the cup is made to be more attractive than anywhere else around.\nMesh funnel inside: larvae swim down through the funnel. When they turn into adults, they can't find the narrow opening to get back up, so they drown.\nFed by a drip line from the pump: the water keeps getting topped up and stays fresh, so the cup never dries out and doesn't need the user to fill it.\nAn overflow hole covered with fine mesh: extra water can drain out, but larvae can't escape.\nIt's on the outside of the cooler: the cup stays visible and easy to remove, and nothing in it is near the tank.\n\nTrade-off: if the mesh tears, the trap becomes a breeding site itself. The fix is to empty and check the cup once a week. It's a ten-second job and much easier than cleaning the whole tank.\n\nHow it all fits the brief\nPrevent egg-laying: the tray, U-bend and flap keep mosquitoes out, and the tiles make the water useless to them if they do get in.\nRetrofit: the tray is cut-to-fit with a foam edge, the U-bend and funnel are standard parts, and the tiles fit any tank.\nCooling preserved: none of the parts touch the pads, the fan or the airflow.\nNo chemicals: everything works physically, by using mosquito behaviour against them.\nEasy to use: you refill the same way as before, and the only upkeep is emptying the trap cup once a week.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:47:52+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Клиент хочет физическую доработку переносного испарительного кулера, чтобы комары не попадали в бак: уплотнение крышки, U-образный слив, клапан для заливки и сетчатый барьер. Это проектирование и изготовление оборудования, а не разработка программного продукта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли в этом проекте какая-либо программная часть, например датчик уровня воды с уведомлениями или приложение?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836611",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Build-Community-Group-Buying-Marketplace",
+  "title": "Build Community Group Buying Marketplace",
+  "description": "Project: CommunityBuy – Community Group Buying Marketplace\n\nWe are looking for an experienced full-stack developer or development team to build CommunityBuy, a community-based group purchasing e-commerce platform.\n\nBusiness Objective\n\nBuild a scalable marketplace that allows customers in residential communities, apartments and neighbourhoods to purchase household products together and receive volume-based discounts.\n\nPlatforms\n\n* Android application\n* iOS application\n* Responsive web application\n* Super Admin dashboard\n* Vendor dashboard\n* Community Admin dashboard\n\nCore Features\n\n* Customer registration and authentication\n* Community creation and joining\n* Product catalogue and search\n* Group purchasing functionality\n* Quantity-based discount engine\n* Order and payment management\n* Vendor onboarding and product management\n* Delivery tracking\n* Notifications and referral system\n* Admin reporting and analytics\n\nPreferred Technology\n\nReact Native, Next.js, Node.js/NestJS, PostgreSQL, Redis and AWS.\n\nTarget Markets\n\nIndia initially, with Malaysia support and multi-country scalability.\n\nExpected Deliverables\n\nComplete UI/UX design, application source code, backend APIs, database, dashboards, payment integrations, deployment and technical documentation.\n\nFreelancer Proposal Requirements\n\nPlease provide:\n\n1. Previous e-commerce or marketplace projects.\n2. Proposed architecture and technology stack.\n3. Estimated development cost.\n4. Project delivery timeline.\n5. Team composition.\n6. Maintenance and support charges.\n7. Source-code ownership confirmation.\n\nWe prefer milestone-based development with complete source-code ownership and project access.\n\nPlease share your detailed proposal and quotation.",
+  "budget": 75000.0,
+  "budget_min": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:46:07+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Заказчик ищет команду для создания маркетплейса групповых закупок для жителей ЖК и районов с объемными скидками: приложения для Android и iOS, адаптивный веб, а также три админ-панели (супер-админ, продавец, админ сообщества). Бюджет 75 000 INR явно не покрывает такой объем работ.",
+   "reply": "You're looking for a group-buying marketplace where residents pool orders to unlock volume discounts, with Android and iOS apps, a responsive web app, and three admin dashboards. That's a large scope for the budget, so I'd suggest starting with a first milestone: the responsive web app covering registration, communities, catalogue, group purchasing with quantity-based discounts, and the community admin panel. I'd build it with Next.js, NestJS, PostgreSQL and Redis, using a modern stack and AI-assisted development to keep delivery fast. The mobile apps and the vendor and super admin dashboards could follow in later milestones. I'd estimate about 5–6 weeks for the first milestone. Two questions: Is the 75,000 INR budget for the full scope or just the first milestone? Do you already have UI/UX designs, or should design be included?\n\nSee my live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете маркетплейс групповых закупок, где жители объединяют заказы, чтобы получить объемные скидки, с приложениями для Android и iOS, адаптивным веб-сайтом и тремя админ-панелями. Это большой объем работ для указанного бюджета, поэтому я предлагаю начать с первого этапа: адаптивное веб-приложение с регистрацией, сообществами, каталогом, групповыми закупками со скидками за количество и панелью администратора сообщества. Я бы разрабатывал его на Next.js, NestJS, PostgreSQL и Redis, используя современный стек и ИИ-ассистенты в разработке, чтобы сохранить быстрые сроки. Мобильные приложения и панели продавца и супер-админа можно сделать на следующих этапах. Оценочный срок первого этапа — около 5–6 недель. Два вопроса: бюджет 75 000 INR относится ко всему объему или только к первому этапу? Есть ли у вас готовый UI/UX-дизайн, или его нужно включить в работу?\n\nПосмотреть рабочие демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Бюджет 75 000 INR относится ко всему объему работ или только к первому этапу?",
+    "Есть ли у вас готовый UI/UX-дизайн или его нужно включить в работу?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836607",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-content-creation/Long-Term-Collaboration-Partner",
+  "title": "Long-Term AI Collaboration Partner",
+  "description": "I’d like to team up with someone dependable and curious so we can learn and test AI ideas together. We’ll start by creating a small tool that generates or improves written content—think of a lightweight writing assistant that taps an API such as OpenAI or Claude, takes a prompt, and returns polished copy.\n\nFirst milestone \n• A working prototype (CLI, web, or plugin—your choice) that accepts text, calls an AI model, and returns an improved version. \n• Clean, well-commented code with a brief README explaining setup, usage, and possible next tweaks.\n\nFrom there we can iterate on new experiments, explore additional AI tools, and gradually build out a suite of mini-projects. What matters to me is clear, timely communication, honesty about any blockers, and a genuine interest in growing skill-sets together—not deep expertise from day one.\n\nIf this sounds like the kind of collaborative learning environment you’d enjoy, drop me a short message telling me a bit about yourself, your time zone, and one AI idea you’re excited to try. Looking forward to meeting you!",
+  "budget": 50.0,
+  "budget_min": 25.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T07:43:01+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Клиент ищет долгосрочного партнёра для совместных AI-экспериментов. Первый этап: прототип инструмента для улучшения текста, который принимает текст, отправляет его в API OpenAI или Claude и возвращает отредактированную версию, с понятным кодом и README. Бюджет небольшой (50 USD), а часть описания касается общения, а не конкретного результата.",
+   "reply": "You're looking for a lightweight writing assistant: a prototype that takes text, sends it to an AI model like OpenAI or Claude, and returns a polished version, with clean code and a short README. I'd build it as a small web app or CLI on a modern stack, keep the API key server-side, add a simple prompt template with tone options, and comment the code throughout. With AI-assisted development I can usually get a working first version within 2–3 days, then move on to your next experiments. Two quick questions: do you prefer a web page or a CLI for the first version, and which model provider do you already have access to? You can see my work with live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен лёгкий ассистент для написания текстов: прототип, который принимает текст, отправляет его в AI-модель вроде OpenAI или Claude и возвращает отредактированную версию, с чистым кодом и коротким README. Я бы сделал небольшое веб-приложение или CLI на современном стеке, хранил API-ключ на сервере, добавил простой шаблон промпта с вариантами тона и подробно прокомментировал код. С помощью AI-ассистентов в разработке первую рабочую версию обычно получается сделать за 2–3 дня, после чего можно переходить к следующим экспериментам. Два быстрых вопроса: что вы предпочитаете для первой версии, веб-страницу или CLI, и к какому провайдеру модели у вас уже есть доступ? Мои работы с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Что вы предпочитаете для первой версии: веб-страницу или CLI?",
+    "К какому провайдеру AI-модели (OpenAI, Claude или другой) у вас уже есть доступ?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836604",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/automation/PEB-STAAD-Pro-Model-Validation",
+  "title": "PEB STAAD.Pro Model Validation Expert",
+  "description": "# Freelance PEB Structural Design Engineer – STAAD.Pro Model Validation\n\n**About NirmanIQ**\n\nNirmanIQ is building an AI-powered engineering automation platform for the construction industry. We are developing automation workflows for Pre-Engineered Buildings (PEB), covering parametric inputs, structural model generation, STAAD.Pro analysis and design optimisation, and proposal-stage engineering outputs.\n\n**What we need**\n\nWe are looking for an experienced freelance PEB structural engineer to help validate generated engineering models and outputs, identify gaps, and provide practical guidance to improve our automation workflows.\n\n**Scope of work**\n- Review STAAD.Pro models generated by our platform against approved project baselines.\n- Validate structural modelling assumptions, loading, load combinations, bracing and member design.\n- Review steel design outputs with reference to IS 800 and relevant applicable design standards.\n- Identify discrepancies and explain the engineering reasons behind them.\n- Recommend corrections to structural modelling and automation logic.\n- Provide technical guidance to our development team when engineering questions arise.\n\n**Required experience**\n- 8+ years of hands-on PEB / industrial steel structure design experience.\n- Strong working knowledge of STAAD.Pro.\n- Practical experience with IS 800 steel design.\n- Experience with portal frames, bracing systems, purlins, girts and industrial buildings.\n- Ability to independently review engineering outputs and explain design decisions.\n\n**Engagement model**\n- Freelance, assignment-based engagement.\n- Initial paid evaluation assignment using one completed PEB project.\n- Potential for continued technical consulting and validation assignments based on mutual fit.\n\n**To apply, please share**\n- Relevant PEB project experience.\n- Your experience with STAAD.Pro and IS 800.\n- Types of structures you have designed.\n- Your expected hourly or project-based rate.",
+  "budget": 250000.0,
+  "budget_min": 150000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:40:05+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Клиент ищет фрилансера-инженера-конструктора PEB с 8+ годами опыта в STAAD.Pro и IS 800 для валидации моделей, которые генерирует их платформа автоматизации. Задача требует инженерной экспертизы в строительном проектировании, а не разработки ПО.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам разработка или доработка самой платформы автоматизации (например, интеграция с STAAD.Pro через API или скрипты генерации моделей), или только инженерная экспертиза?",
+    "Есть ли у вас техническое задание на интерфейс обмена данными между вашей платформой и STAAD.Pro?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836601",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/unreal-engine/Fighter-Teaser-Prototype",
+  "title": "UE5 1v1 Fighter Teaser Prototype",
+  "description": "I need a short-run Unreal Engine 5 prototype that can carry a trailer on its own. Think Bloody Roar: two default mannequins—Wolf and Lion—duking it out in a dark, gritty underground arena until a filled power meter lets each one erupt into beast form. The most polish must go into those dramatic transformations and the supporting visual effects; every particle, shader flash, camera shake and light flicker should scream “fund this game” when cut into the teaser.\n\nScope and timeframe \n• One arena styled like an illicit fight pit: grimy materials, harsh spotlights, smoky atmosphere \n• Core combat loop in local 1 v 1: combos, throws, guard, health bars, and a simple CPU opponent \n• Mid-match power-meter system that, once full, triggers the cinematic human-to-beast transformation (no meter, no morph) \n• Strong cinematic camera scripting so hits read powerfully and the arena feels alive \n• All animation and rigging may stay on the stock UE5 mannequins—this is a teaser, not final art\n\nDeliverable package \n1. Playable Windows build and the complete UE 5 project \n2. Short capture sequence (or instructions) showing off beast transformations for the trailer \n3. Basic documentation on controls, blueprints/C++ modules, and how to swap assets if we decide to move beyond mannequins\n\nAcceptance criteria \n– Transformations fire only when the meter is full and always complete without clipping \n– Visual effects layer cleanly across Epic’s base mannequin materials \n– 60 fps on a mid-range PC at 1080p \n– No critical crashes in a five-round test loop\n\nWhen you reply, please link any UE 5 action or fighting prototypes you’ve built and confirm you are comfortable working entirely with mannequins for this teaser phase.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T07:36:59+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Заказчик ищет прототип файтинга на Unreal Engine 5 (1 на 1, Wolf и Lion на стандартных манекенах) для тизер-трейлера с акцентом на трансформации в зверей и визуальные эффекты. Игровой движок UE5 не входит в услуги Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас опыт работы с Unreal Engine 5 или хотя бы демо-проекты на нём?",
+    "Нужна ли сборка под Windows как единственный формат поставки, или допускаются веб-версии?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836599",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/website-design/commerce-Website-Development-40836599",
+  "title": "E-commerce Website Development",
+  "description": "#MAGITHI – Complete E-commerce Website Development\n\nWe are looking for an experienced Full-Stack Developer to develop a professional, secure and mobile-responsive E-commerce website for our organic and traditional food products brand, MAGITHI.\n\n**Project Budget:** ₹8,000 Maximum (Fixed Budget)\n\n### 1. Technology Requirements\n- Frontend: React.js / Next.js\n- Backend: Next.js API / Node.js\n- Database: MySQL (Preferred) / SQL Server (Acceptable)\n- Mobile, Tablet and Desktop Responsive.\n\n### 2. Website Design & UI/UX\n- Premium, clean and professional organic brand design.\n- White/Cream background with Forest Green and Black theme.\n- Use our existing MAGITHI logo without modification.\n- Professional homepage, banners, product categories and product suggestions.\n- Responsive product listing and detailed product pages.\n\n### 3. Product & Inventory Management\n- Initially 20 products, expandable to 50+.\n- Product categories and multiple images.\n- Pack-size variations (50g, 100g, 250g, 500g, 1kg).\n- Individual pricing, SKU and stock management.\n- Product descriptions, ingredients and details.\n- Discounted pricing and stock availability.\n\n### 4. Customer Features\n- Registration, login and guest checkout.\n- Customer profile and delivery addresses.\n- Shopping cart and Buy Now.\n- Order history and order tracking.\n\n### 5. Online Payment Integration\n- UPI, Debit/Credit Cards and Net Banking.\n- Razorpay / Cashfree or suitable Indian payment gateway.\n- Secure server-side payment verification.\n- Payment confirmation and failure handling.\n- **ONLINE PAYMENT ONLY – COD NOT AVAILABLE.**\n\n### 6. Shipping & Free Shipping\n- India-wide shipping support.\n- Configurable shipping charges.\n- Initial Free Shipping offer: Orders above ₹800.\n- Green FREE SHIPPING badges on eligible product pages.\n- Dynamic cart message: \"Add ₹XXX more to unlock FREE SHIPPING!\"\n- Automatic shipping charge calculation.\n- Free Shipping message and ₹0 shipping at checkout.\n- Admin control to manually change shipping charges and free-shipping threshold.\n- PIN code checking only if required.\n\n### 7. Admin Dashboard\n- Product, category and inventory management.\n- Order and customer management.\n- Payment status and transaction details.\n- Shipping charge and Free Shipping configuration.\n- Coupons and promotional offers.\n- Sales and inventory reports.\n\n### 8. Other Important Features\n- WhatsApp customer support and order notifications.\n- Email notifications where feasible.\n- Order receipts and PDF invoices.\n- Future GST compatibility.\n- SEO-friendly website.\n- Google Analytics, Search Console and Meta Pixel.\n- SSL security, database backup and customer data protection.\n\n### 9. Source Code & Ownership\n- Complete frontend and backend source code.\n- Complete database and backup.\n- Deployment on our hosting.\n- Admin credentials and documentation.\n- Post-launch bug-fix support.\n- Complete project ownership and handover.\n\n### 10. Budget & Important Conditions\n\nMaximum development budget: **₹8,000 Fixed.**\n\n- Prefer MySQL and open-source technologies to minimize recurring costs.\n- Domain and hosting will be provided by us.\n- No unnecessary paid plugins or subscriptions.\n- All additional and recurring costs must be disclosed before development.\n- No extra development charges without our prior written approval.\n\n### IMPORTANT – READ BEFORE SUBMITTING YOUR PROPOSAL\n\n**A detailed PDF containing the complete website development requirements, technical specifications, functional features, design guidelines, shipping rules, payment requirements, deliverables, testing criteria and commercial conditions is attached to this project.**\n\nPlease download and carefully review the attached PDF before submitting your quotation.\n\nYour proposal must clearly mention:\n1. Which features are fully included.\n2. Which features are partially included or excluded.\n3. Any additional or recurring costs.\n4. Estimated delivery time and milestones.\n5. Post-launch support period.\n6. Confirmation that complete source code and database will be handed over.\n\n**Important:** All requirements in the attached PDF must be reviewed and agreed upon before development begins. Features already specified in the PDF must not later be treated as additional scope. Any extra charges or scope changes require our written approval before implementation.\n\nWe are looking for a reliable developer who can deliver quality work with transparent pricing and proper communication.\n\n**MAGITHI – Grow Naturally Everyday.**",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:35:52+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Нужен адаптивный интернет-магазин для бренда органических продуктов MAGITHI: каталог с фасовками, личные кабинеты, корзина и оформление заказа, админ-панель, правила доставки с бесплатной доставкой от порога, уведомления в WhatsApp и на email. Стек: React/Next.js и MySQL. Бюджет заявлен как 8 000 ₹ (в объявлении также указано 12 500 ₹), а объём работ большой.",
+   "reply": "You need a responsive online store for MAGITHI: a catalog with pack-size variants and stock tracking, customer accounts, cart and checkout, an admin panel, shipping rules with a free-shipping threshold, and WhatsApp and email notifications, built on Next.js with a MySQL database. I would start with the catalog, cart and admin panel, then add checkout, notifications and reports, using open-source components to keep recurring costs low. The core store should fit the budget. Extras from the PDF, such as full analytics setup, coupons or GST-ready invoicing, may need to be marked partial or excluded, and I would list every recurring cost in the quote. My estimate is about 3 weeks for the first version, with milestones after each stage and a short post-launch bug-fix period. Live demos are at https://grachoffprod.github.io/portfolio/\n\nCould you confirm whether the 8,000 or 12,500 figure is the final budget? Also, will the PDF scope be shared before I submit the quote?\n\nYakov",
+   "reply_ru": "Вам нужен адаптивный интернет-магазин для MAGITHI: каталог с фасовками и учётом остатков, личные кабинеты, корзина и оформление заказа, админ-панель, правила доставки с порогом бесплатной доставки, уведомления в WhatsApp и на email. Фронтенд и бэкенд — на Next.js, база — MySQL. Я бы начал с каталога, корзины и админ-панели, затем добавил оформление заказа, уведомления и отчёты, используя open-source компоненты, чтобы снизить регулярные расходы. Основной функционал магазина должен уложиться в бюджет. Дополнительные пункты из PDF, например полная настройка аналитики, купоны или счета с учётом GST, возможно, придётся отметить как частично включённые или исключённые, а все регулярные расходы я бы перечислил в смете. Оценка: примерно 3 недели на первую версию, с контрольными точками после каждого этапа и коротким периодом исправления ошибок после запуска. Живые демо: https://grachoffprod.github.io/portfolio/\n\nПодскажите, 8 000 или 12 500 ₹ — итоговый бюджет? И пришлёте ли вы PDF с описанием объёма работ до подачи сметы?\n\nYakov",
+   "questions": [
+    "Какой бюджет окончательный: 8 000 ₹ (как в описании) или 12 500 ₹ (как указано в карточке проекта)?",
+    "Будет ли PDF с техническим заданием доступен до подачи предложения?",
+    "Какой хостинг и база MySQL будут использоваться для развёртывания?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836574",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/administrative-support/Appointment-Scheduling-Call-Assistant",
+  "title": "Appointment Scheduling Call Assistant",
+  "description": "I need a reliable virtual assistant to take incoming support calls that are strictly focused on booking appointments and sending the follow-up texts that confirm the date and time. When a client phones in, you’ll gather the required details, check my calendar, and lock in the slot. A quick, friendly confirmation text goes out right after we hang up so the client has everything in writing.\n\nFor now the scope is limited to scheduling brand-new appointments; however, if you’re comfortable rescheduling or cancelling in the future, let me know—it may become part of the workflow. Everything happens by phone and SMS, so solid spoken English, a clear phone presence, and fast, accurate texting are essential.\n\nI’ll provide: \n• Call-handling script and FAQ \n• Access to my online calendar and text platform \n• Daily window of availability when you should pick up or return calls \n\nYou’ll provide: \n• Each confirmed appointment entered correctly in the calendar \n• A matching confirmation text sent to the client \n• A concise call log at the end of each shift \n\nIf this sounds like a routine you can own with minimal supervision, I’m ready to get you onboard quickly.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:32:47+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Заказчик ищет виртуального ассистента, который будет принимать входящие звонки, записывать клиентов на приём в календарь и отправлять SMS-подтверждения. Это работа по приёму звонков и текстовой поддержке, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40835264",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android/Transfer-App",
+  "title": "P2P Transfer App",
+  "description": "I need a complete Android and iOS application that lets users in the United States, Canada, and Mexico send money quickly and securely. At checkout they must be able to fund a transfer from a linked bank account, any major debit or credit card, or a digital wallet such as Apple Pay or Google Pay. On the receiving end, the funds should land either straight into the recipient’s bank account or be available for cash pickup through partner locations.\n\nCore expectations \n• Fully native or high-performance cross-platform builds for both stores \n• Intuitive onboarding with KYC flow (photo ID, selfie, and address verification) \n• Real-time FX quoting, fee breakdown, and transfer tracking \n• PCI-compliant card handling and encrypted bank connections (Plaid, Yodlee, or similar) \n• Admin console to monitor transactions, flag suspicious activity, and release payouts \n• Clear audit logs and basic reporting (CSV export) \n• Push and e-mail notifications at each transfer milestone \n• Deployable staging and production back ends (Node, Django, or comparable stack)\n\nMilestones will be split across design hand-off, core transfer engine, integrations, and final store submission so everything fits into the three-week window I’ve budgeted for. Clean, well-documented code and a short Loom walkthrough are the final acceptance criteria. If you have shipped a payments or remittance app before and can start immediately, let’s talk.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T07:32:44+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Заказчик хочет получить полноценное мобильное приложение для iOS и Android для P2P-переводов между США, Канадой и Мексикой. Нужны KYC, расчёт курса и комиссий, отслеживание переводов, админ-консоль и выплаты на банковский счёт или в пункты наличных. Бюджет 250 USD, срок три недели, а объём работ очень большой.",
+   "reply": "You need a P2P transfer app for iOS and Android covering KYC, FX quoting, transfer tracking, an admin console and payouts to bank accounts or cash pickup, all within three weeks. I would follow the milestones you outlined: a cross-platform mobile client (React Native or Flutter), a Node.js back end with the transfer engine and audit log, then integrations for KYC, bank linking and FX rates, and finally the admin console and store submission. Modern tooling and AI-assisted development let me keep the pace for the core flow. Because money transmission carries licensing and KYC/AML obligations, I suggest we agree on a reduced first release that fits the budget and timeline. Which features must be in the first release, and which can wait for a second phase?\n\nSee my live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно приложение для P2P-переводов для iOS и Android с KYC, расчётом курса, отслеживанием переводов, админ-консолью и выплатами на банковский счёт или в пункты наличных, и всё это за три недели. Я бы шёл по этапам, которые вы описали: кроссплатформенный мобильный клиент (React Native или Flutter), бэкенд на Node.js с движком переводов и журналом аудита, затем интеграции для KYC, подключения банков и курсов валют, и в конце админ-консоль и публикация в сторах. Современные инструменты и разработка с ИИ-ассистентами позволяют держать нужный темп для основного сценария. Поскольку переводы денег требуют лицензирования и соблюдения KYC/AML, предлагаю согласовать сокращённый первый релиз, который уложится в бюджет и сроки. Какие функции обязательны для первого релиза, а какие можно перенести на второй этап?\n\nПосмотреть живые демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие функции обязательны для первого релиза, а какие можно перенести на второй этап при бюджете 250 USD и трёх неделях?",
+    "Есть ли у вас уже лицензия на перевод денег или партнёр, который её предоставляет, и кто будет отвечать за KYC/AML?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836596",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Replicate-Canva-Business-Card-into",
+  "title": "Replicate Canva Business Card into a One-Page Website",
+  "description": "I already have an AI-designed card in Canva that captures my brand’s colours, fonts, and overall vibe. I now need that look translated into a clean, single-scroll web page whose primary purpose is to explain what the business does. \n\nHere is what I’m after: \n• Keep the exact colour palette, logo placement, and general styling from the card, but lay it out in a web-friendly, responsive format. \n• Place the business name prominently, followed by 5–10 short text lines or bullet points that clearly state the proposition. \n• Show an email address and a simple contact form (name, email, message) so visitors can reach out without leaving the page. \n• Smooth scrolling, tidy spacing, and fast load times on both desktop and mobile. \n\nI will supply the Canva file/brand template, logo assets, and final text. You handle the build—HTML/CSS or a lightweight builder is fine as long as it stays faithful to the design, looks sharp across devices, and is easy for me to edit later if I tweak the copy. \n\nWhen you’re done, I’d like the finished page files and any instructions needed to upload to my hosting.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T07:32:41+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 7,
+   "summary_ru": "Клиент хочет перенести дизайн визитки из Canva (цвета, логотип, шрифты, стиль) в одностраничный адаптивный сайт, который объясняет суть бизнеса, с email и простой формой обратной связи. Бюджет 250 USD, бриф понятный.",
+   "reply": "You want the palette, logo placement and overall feel of your Canva card carried over into a single responsive page that explains what the business does, with a visible email and a contact form. I would build it in plain HTML and CSS with a little JavaScript. Your exact colours and fonts would live in CSS variables so future copy and style tweaks stay easy. The logo and images would be optimised for fast loading, smooth scrolling would be added, and the form would send submissions to your inbox. Expect a first version in about 2–3 days, followed by one round of revisions. Could you share the Canva export (PDF or PNG) along with the font files, and tell me where form submissions should go, such as email, Telegram, or a form service?\n\nLive demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите перенести палитру, размещение логотипа и общий стиль визитки из Canva на один адаптивный сайт, который объясняет, чем занимается бизнес, с видимым email и формой обратной связи. Я бы сделал это на чистом HTML и CSS с небольшим количеством JavaScript. Точные цвета и шрифты хранились бы в CSS-переменных, чтобы последующие правки текста и стиля были простыми. Логотип и изображения были бы оптимизированы для быстрой загрузки, добавлена плавная прокрутка, а заявки из формы отправлялись бы на вашу почту. Первая версия будет готова примерно за 2–3 дня, затем один раунд правок. Не могли бы вы прислать экспорт из Canva (PDF или PNG) вместе с файлами шрифтов и сказать, куда отправлять заявки из формы: на email, в Telegram или через сервис форм?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие файлы вы можете предоставить: экспорт визитки из Canva (PDF или PNG), логотип в векторе и файлы шрифтов?",
+    "Куда отправлять заявки из формы: на email, в Telegram или через сервис вроде Formspree?",
+    "Какой у вас хостинг и есть ли доступ к панели управления или FTP?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836585",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/project-management/Website-Workflow-Assistant",
+  "title": "Website QA & Workflow Assistant",
+  "description": "I handle all client communication for the websites I build, but I need a reliable assistant working quietly in the background to keep each project running smoothly.\n\nYour first priority will be to open every draft site on both desktop and mobile and give it a thorough pre-client check. I want absolute confidence that links, forms, and other basic functions behave exactly as expected. Buttons, menus, and page-to-page links must be clicked, tapped, and tested until nothing breaks.\n\nBeyond that immediate QA pass, you will:\n\n• Turn my meeting notes and client feedback into clear, actionable tasks for the designer, writer, and developer. \n• Keep logos, brand guidelines, images, and copy in a tidy, version-controlled folder structure so the team can always grab the latest approved file. \n• Track deadlines and revision rounds, flagging any missing assets, blockers, or unanswered questions so I can raise them with the client quickly. \n• Send me concise status snapshots that highlight what’s ready for review and where I need to step in.\n\nDeliverables for each website:\n\n1. A QA report confirming every link, form, button, menu, and critical function passes on both desktop and mobile. \n2. A task board (Trello, Asana, or similar) populated with next-step items for the team. \n3. A neatly organized asset folder, clearly labeled and dated. \n4. A one-page weekly summary outlining progress, blockers, and upcoming deadlines.\n\nIf you enjoy methodically spotting issues before clients ever see them and can keep a fast-moving project organized from first mock-up to final launch, we’ll work well together.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T07:32:21+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 2,
+   "summary_ru": "Заказчик ищет ассистента для постоянной работы: ручное QA-тестирование черновиков сайтов на desktop и mobile, постановка задач команде, ведение папок с ассетами, Trello/Asana и еженедельные сводки. Это операционная и административная роль, а не разработка проекта, поэтому совпадение с услугами низкое.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это разовый проект или постоянная работа на регулярной основе, и на какой срок рассчитан бюджет в 750 USD?",
+    "Нужна ли вам техническая разработка или исправления на сайтах, или задача ограничивается ручным тестированием и организацией процессов?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40830850",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/blog-writing/Article-Remote-Collaboration-Tools",
+  "title": "Article on Remote Collaboration Tools",
+  "description": "I’d like a polished, engaging blog post that helps remote employees and freelancers choose and use the best communication and teamwork tools. Drawing on the broader theme of how distributed work is reshaping productivity, the piece should spotlight specific platforms—chat, video conferencing, project management, and cloud-based document sharing—showing readers how each one fits into a seamless workflow.\n\nThe tone needs to be friendly yet authoritative, around 1,200–1,600 words, written in clear, accessible English that speaks directly to people who split their days between home offices, co-working spaces, and coffee shops. Please weave in practical guidance such as setup tips, common pitfalls, and quick-start ideas so readers can act immediately after finishing the article. \n\nSEO is important but keyword use must feel natural; think phrases like “remote collaboration software,” “virtual team communication,” and “productivity apps for freelancers.”\n\n**Ideal Freelancer:** \n- Experience writing tech or SaaS content.\n- Ability to write in an engaging and easy-to-read tone.\n- Knowledge of SEO basics to optimize the article.\n\nDeliverables: \n• Final article in Google Docs (with editing rights enabled). \n• A short meta description (155 characters max). \n• Five tweet-length promotional snippets.\n\nI’ll review for accuracy, flow, and actionable takeaways before sign-off.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:23:20+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Заказчик ищет автора для статьи в блоге (1200–1600 слов) о инструментах удалённой коммуникации и командной работы: чаты, видеосвязь, управление проектами и облачные документы. Это написание контента, а не разработка продукта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам только статья, или вы также рассматриваете разработку собственного SaaS-сервиса или веб-приложения для удалённых команд?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "freelancer:40836577",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-developmet/Build-Autonomous-Kalshi-Trading-Bot",
+  "title": "Build Autonomous Kalshi Trading Bot",
+  "description": "Project Title: Fully Automated Kalshi Trading Bot Development\n\nI am looking for an experienced Python developer or quantitative trading engineer to develop a fully autonomous, real-time trading bot integrated with Kalshi's live trading API.\n\nThe objective is to create a reliable system that continuously monitors prediction markets, identifies qualifying trading opportunities based on predefined criteria, and automatically executes real-money trades without manual intervention.\n\nCore Functional Requirements\n\n- Live API Integration: Connect directly to Kalshi's production environment for real-time market data, account balances, order execution, and portfolio management.\n- Automated Market Scanning: Continuously monitor available markets and identify outcomes with a market-implied probability of 70% or higher.\n- Automatic Trade Execution: Execute real-money trades without requiring manual authorization.\n- Position Sizing: Allocate up to $100 per qualifying trade, with configurable allocation amounts.\n- Concurrent Trading: Support multiple active positions simultaneously, subject to available capital.\n- Duplicate Prevention: Prevent unintended duplicate trades on the same event.\n- Capital Management: Automatically verify available funds before executing trades.\n- Risk Management: Implement configurable daily loss limits, maximum capital exposure, and automatic trading suspension thresholds.\n- Settlement Tracking: Automatically identify settled markets and calculate net profits and losses, including transaction fees.\n- Profit Management: Track daily, weekly, monthly, and cumulative profitability.\n- SMS Notifications: Provide notifications for executed trades, settlements, profits, losses, and system failures.\n- Dashboard: Provide visibility into account balances, active positions, trading history, performance metrics, and system status.\n- Emergency Shutdown: Include a manual kill switch that immediately suspends trading.\n- Continuous Operation: Support uninterrupted 24/7 operation with automatic recovery from API failures, connectivity issues, and system restarts.\n- Configurable Parameters: Allow trading criteria, allocation amounts, risk limits, and scanning frequency to be modified without rewriting the source code.\n\nRequired Developer Experience\n\n- Advanced Python development\n- Kalshi API or comparable prediction-market API integration\n- Automated trading systems\n- REST APIs and WebSockets\n- Real-time data processing\n- Financial order management systems\n- Database management\n- Cloud deployment and cybersecurity\n- Backtesting and performance analysis\n\nExisting Infrastructure\n\nI already have a Python environment established, successful Kalshi demo API authentication, market-scanning functionality, historical data collection, and preliminary simulation and backtesting scripts. The developer should evaluate the existing infrastructure and determine what can be retained or improved.\n\nExpected Deliverables\n\n- Fully functional automated trading bot\n- Successful demo and live-environment validation\n- Trading and performance dashboard\n- Complete source code and ownership\n- Installation and configuration documentation\n- Deployment instructions\n- Error-handling and recovery mechanisms\n- Secure API credential management\n\nThe final product must be a production-ready, independently operating trading system—not simply a market scanner, alert system, or paper-trading simulator. Manual intervention should only be necessary when modifying trading parameters, performing maintenance, or suspending operations.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T07:23:08+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Заказчик хочет автономного Python-бота для работы 24/7 с боевым API Kalshi: поиск рынков с вероятностью от 70%, автоматические сделки до $100, лимиты риска, учёт расчётов и комиссий, SMS-уведомления, дашборд и аварийное отключение. Бюджет $250 очень мал для такого объёма работ.",
+   "reply": "You want a Python bot that runs 24/7 against Kalshi's production API. It scans markets for outcomes priced at 70% or higher, places orders of up to $100 automatically, enforces loss limits and exposure caps, tracks settlements and fees, sends SMS alerts, and includes a dashboard and kill switch. I would reuse your existing authentication and scanning code, refactor it into a service with an external config file, add persistent order and position storage, and wrap the REST and WebSocket layers with retry and reconnect logic. Everything would be validated on the demo environment before switching to live. Given the scope, I estimate 3–4 weeks for the full system. Two questions: is the $250 budget for the full scope or for a first phase, and do you have a preferred SMS provider?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен Python-бот, который работает 24/7 с боевым API Kalshi. Он ищет рынки с вероятностью исхода от 70% и выше, автоматически открывает позиции до $100, соблюдает лимиты убытков и максимальную экспозицию, учитывает расчёты и комиссии, отправляет SMS-уведомления, а также включает дашборд и кнопку аварийной остановки. Я бы использовал вашу существующую авторизацию и код сканирования, переработал бы всё в сервис с внешним конфигурационным файлом, добавил бы постоянное хранение ордеров и позиций и обернул слои REST и WebSocket логикой повторных попыток и переподключения. Всё проверялось бы на демо-среде до перехода на боевую. С учётом объёма я оцениваю работу в 3–4 недели. Два вопроса: $250 — это бюджет на весь объём или только на первый этап, и есть ли у вас предпочтительный SMS-провайдер?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Бюджет $250 рассчитан на весь объём работ или только на первый этап?",
+    "Есть ли предпочтительный SMS-провайдер для уведомлений?",
+    "Нужен ли запуск на сервере заказчика или достаточно инструкции по развёртыванию?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "kwork:3275684",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275684",
+  "title": "Устранить ошибки синхронизации 1С с сайтом на Bitrix",
+  "description": "1С:Предприятие 8.3 (8.3.24.1691) Управление торговлей, редакция 11 (11.5.17.185) \nВерсия модуля обмена 7.0.2.19 \n1С-Битрикс: Управление сайтом 25.100.400 Аспро максимум 2.3.4 \n1. В карточке Заказа в 1С есть поле \"Метод опл:\" (способы оплаты). Соответствие полей в модуле обмена 1с и Битрикса по данному полю осуществлено. Выгрузка с сайта в 1С значений этого поля происходит. Но из 1С после радактирования на сайт выгружается пустым. \n2. В карточке Заказа в 1С есть поле \"Стутус зак пок:\" (статусы заказов). Соответствие полей в модуле обмена 1с и Битрикса по данному полю осуществлено. Выгрузка с сайта в 1С и наоборот значений этого поля происходит. Но при выгрузке из 1С статуса заказа \"Выполняется\" поле \"Способ оплаты\" на стороне сайта очищается. Этого не должно быть. \nВ остальном с синхронизацией товаров и заказов проблем нет, всё работает правильно.",
+  "budget": 2000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 11:08:32",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Нужно устранить две ошибки синхронизации заказов между 1С:Управление торговлей и сайтом на 1С-Битрикс: поле «Метод опл» из 1С приходит на сайт пустым, а при статусе «Выполняется» способ оплаты на сайте очищается. Остальная синхронизация товаров и заказов работает.",
+   "reply": "Вы описали две ошибки в обмене заказами между 1С и Битрикс: поле «Метод опл» после редактирования в 1С попадает на сайт пустым, а при смене статуса на «Выполняется» сайт очищает способ оплаты. Скорее всего, проблема в обработчиках импорта заказов модуля обмена: значение либо не передаётся при обратной выгрузке, либо статус запускает перезапись полей заказа. Я бы проверил логику импорта на тестовой копии, нашёл место, где затирается значение, и поправил его так, чтобы синхронизация товаров и остальных полей не пострадала. На диагностику и исправление обычно уходит 1–2 дня. Есть ли у вас тестовая копия сайта и доступ к файлам модуля обмена? Дорабатывался ли он раньше? Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описали две ошибки в обмене заказами между 1С и Битрикс: поле «Метод опл» после редактирования в 1С попадает на сайт пустым, а при смене статуса на «Выполняется» сайт очищает способ оплаты. Скорее всего, проблема в обработчиках импорта заказов модуля обмена: значение либо не передаётся при обратной выгрузке, либо статус запускает перезапись полей заказа. Я бы проверил логику импорта на тестовой копии, нашёл место, где затирается значение, и поправил его так, чтобы синхронизация товаров и остальных полей не пострадала. На диагностику и исправление обычно уходит 1–2 дня. Есть ли у вас тестовая копия сайта и доступ к файлам модуля обмена? Дорабатывался ли он раньше? Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас тестовая копия сайта и 1С, на которой можно воспроизвести ошибку?",
+    "Дорабатывались ли обработчики модуля обмена (файлы в папке модуля или init.php) под ваш проект?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "kwork:3275678",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275678",
+  "title": "Прозвонить базу",
+  "description": "требуется прозвонить базу , провести краткую презентацию по скрипту, в случае интеерса записать имя и емейл. план 200 наборов-внимание ! Набор номера не = диалог!!!! (обычно это работа на 4 часа) . минимум 10 лидов. база свежая . много мобильных номеров собственников. через что звонить даем, обязательно наличие почты на гугле.",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 10:54:12",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик ищет исполнителя, который вручную обзвонит 200 номеров из свежей базы (в основном мобильные номера собственников), проведёт краткую презентацию по скрипту и соберёт имя и email заинтересованных, минимум 10 лидов. Это ручная работа по обзвону, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли какая-то разработка, например автоматизация набора или CRM для учёта лидов, или требуется только ручной обзвон?",
+    "Какой формат презентации и скрипта вы ожидаете и будет ли у меня доступ к телефонии для звонков?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "kwork:3274490",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3274490",
+  "title": "Разработка стратегии продвижения услуг парсинга",
+  "description": "Мы занимаемся автоматическим сбором данных с сайтов и сбором данных для бизнеса. \nИщем маркетинговое агентство, которое поможет выстроить стратегию развития этого направления. Важно: нам нужна не просто настройка SEO или рекламы, а комплексный маркетинг. Подробно расскажем о продукте, текущей ситуации и задачах после подписания NDA. \nЧто хотим получить — стратегию и конкретный план действий. Нужно определить, на каких сегментах клиентов сосредоточиться, какие услуги им предлагать, через какие каналы привлекать клиентов и в каком порядке проверять эти гипотезы. В плане хотим видеть приоритеты, первые шаги, ориентиры по бюджету и критерии, по которым сможем оценить результат. \nОсобенно ценим практический опыт продаж парсинга или смежных B2B IT-услуг. \nНа первом этапе нужна разработка стратегии. Участие в реализации обсудим отдельно. \nВ отклике пришлите один-два релевантных кейса. Расскажите, кому и что вы продавали, за какую часть работы отвечали и каких результатов добились. Также укажите ориентировочные сроки и стоимость подготовки стратегии.",
+  "budget": 100000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 10:36:44",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Компания, которая занимается парсингом и сбором данных для бизнеса, ищет маркетинговое агентство для разработки комплексной стратегии продвижения: сегменты клиентов, услуги, каналы и план действий. Это маркетинговая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам также техническая разработка, например, сервиса или личного кабинета для парсинга, или задача только в стратегии и маркетинге?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
+  "id": "telegram:itfreelancers/5356",
+  "source": "telegram",
+  "url": "https://t.me/itfreelancers/5356",
+  "title": "ProxyZen — Персональные прокси-серверы HTTPS / SOCKS5",
+  "description": "⚡️\n ProxyZen — Персональные прокси-серверы HTTPS / SOCKS5\n🌐\n IPv4 — личный IP в одни руки, 50+ стран · от $0.60\n🌍\n IPv6 — дёшево и много · от $0.05\n🏠\n Резидентские — 90M+ IP, 140+ стран · $1.59/ГБ\n📱\n Мобильные 4G/5G · $2.40/ГБ\n▪️\n 90M+ IP в 140+ странах\n▪️\n 99.9% успешных подключений, выдача сразу после оплаты\n▪️\n HTTP(S) + SOCKS5 одновременно, логин и пароль\n▪️\n Ротация на каждом запросе или один IP на нужное время\n▪️\n Страна, город и оператор прямо в логине\n▪️\n Продление того же IP в 1 клик, трафик не сгорает\n🛠\n Для разработчиков и реселлеров: REST API и бесплатный open-source бот-магазин для Telegram. Запустите свой прокси-шоп за 5 минут и зарабатывайте на наценке.\n🎁\n Партнёрка 25% пожизненно\n👉\nproxyzen.net\n · \n🤖\n@proxyzen_app\n · \n💬\n@proxyzen_agent",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T07:27:40+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Рекламное сообщение сервиса ProxyZen, который продаёт прокси-серверы (IPv4, IPv6, резидентские и мобильные) и предлагает REST API и бот-магазин для перепродажи. Это не заказ на разработку, а реклама готового продукта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам разработка интеграции с их REST API или это просто реклама готового сервиса?"
+   ]
+  },
+  "found_at": "2026-11-26T08:11:17+00:00"
+ },
+ {
   "id": "freelancer:40836564",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/dns/Urgent-Website-Proxy-Error-Fix",
