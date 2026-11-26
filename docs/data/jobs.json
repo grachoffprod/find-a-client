@@ -1,5 +1,400 @@
 [
  {
+  "id": "freelancer:40836492",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Build-Entrepreneur-Social-Funding",
+  "title": "Build Entrepreneur Social Funding Platform",
+  "description": "Project Description: CrazyNaters Entrepreneur Network\n\nProject Overview\n\nCreate a social networking platform designed for entrepreneurs, startup founders, investors, and people who want to build businesses together.\n\nThe website will allow users to connect with entrepreneurs in their industries, find business partners, create startups, collaborate on ideas, raise money through crowdsourcing, and potentially become partial owners of businesses they help fund.\n\nThe goal is to bring people together to combine their skills, ideas, resources, and investments to build businesses as a community.\n\nThe platform should integrate with the existing CrazyNaters websites:\n\n- https://crazynaters.com\n- https://chat.crazynaters.com\n\nCrazyNaters will provide social networking and real-time communication, while the new platform focuses on entrepreneurship, startup creation, business collaboration, crowdfunding, and ownership opportunities.\n\n1. User Registration and Profiles\n\nBuild a complete account system with:\n\n- User registration, sign-in, and secure authentication.\n- Personal profiles with pictures, biographies, and interests.\n- Professional backgrounds, skills, experience, and industries.\n- Business interests and areas of expertise.\n- Location and networking preferences.\n- Activity feeds and profile updates.\n- Ability to showcase businesses, projects, and accomplishments.\n- Privacy and account settings.\n\nUsers should be able to create professional profiles and connect with people who have complementary skills and business interests.\n\n2. Social Networking and Friends\n\nThe website should function like a professional social network for entrepreneurs.\n\nFeatures should include:\n\n- Add friends and send connection requests.\n- Follow entrepreneurs and businesses.\n- Private messaging and group conversations.\n- Posts, comments, likes, and sharing.\n- Activity feeds and business announcements.\n- Discover entrepreneurs by industry, skills, and location.\n- Find potential business partners and co-founders.\n\n3. Entrepreneur Networks\n\nAllow users to join specialized networks based on industries and interests, including technology, software, artificial intelligence, gaming, real estate, retail, healthcare, marketing, manufacturing, finance, food, and renewable energy.\n\nEach network should have discussion areas, member directories, business opportunities, collaboration tools, and community activity.\n\nUsers should also be able to create their own networks and invite others.\n\n4. Create a Business or Startup\n\nRegistered users should be able to create business profiles directly on the website.\n\nEach business profile should include:\n\n- Business name, logo, and description.\n- Industry and business category.\n- Founders and team members.\n- Business mission and goals.\n- Products and services.\n- Business development progress.\n- Funding goals and financial information.\n- Business updates and announcements.\n- Ownership information.\n- Discussion and collaboration areas.\n- Crowdfunding and investment opportunities.\n\nBusiness creators should be able to invite entrepreneurs to join their teams and help develop their companies. A business can begin with one founder and grow into a team of contributors, partners, and investors.\n\n5. Crowdsourcing and Business Funding\n\nAllow businesses to raise funds from the community through dedicated funding campaigns.\n\nBusiness owners should be able to explain:\n\n- What their business does and what they want to build.\n- How much funding they need.\n- How the money will be used.\n- Business goals and milestones.\n- What contributors or investors may receive.\n- Whether the opportunity involves donations, rewards, or equity.\n\nUsers should be able to browse businesses seeking funding, review opportunities, and participate where eligible.\n\nSupport community contributions, reward-based crowdfunding, business sponsorships, and legally permitted equity investments.\n\n6. Business Ownership and Equity Investment\n\nAllow eligible users to invest in businesses and potentially become partial owners.\n\nFor example, a startup could offer a percentage of its ownership in exchange for funding.\n\nThe platform should support:\n\n- Founders establishing business ownership structures.\n- Businesses defining the percentage of equity available.\n- Investors reviewing business opportunities and offering details.\n- Eligible investors purchasing available ownership interests.\n- Recording ownership percentages and allocations.\n- Investor dashboards showing documented ownership.\n- Business financial and operational updates.\n- Ownership and transaction history.\n\nFor example, a startup might offer 20% of its equity for a specified funding amount. Multiple eligible investors could participate, with each person's ownership recorded according to the offering terms.\n\nClearly distinguish donations, rewards, and actual equity ownership. Making a contribution must not automatically make someone an owner.\n\n7. Owner Participation and Business Guidance\n\nPeople with ownership or other defined participation rights should have ways to help guide the businesses they support.\n\nBusiness owner and stakeholder areas should include:\n\n- Company updates and announcements.\n- Business discussions.\n- Suggestions and recommendations.\n- Product and service feedback.\n- Scheduled meetings.\n- Business milestone tracking.\n- Professional guidance and collaboration.\n- Voting on company matters when ownership or governance agreements provide voting rights.\n- Opportunities to participate in strategic decisions.\n\nThe goal is to create a collaborative business environment where founders, investors, and participating owners work together.\n\nDecision-making authority must follow each company's ownership agreements and governance structure. Not every investor automatically has control over daily operations.\n\n8. Entrepreneur Collaboration and Startup Teams\n\nHelp users find people who want to start or grow businesses together.\n\nUsers should be able to post opportunities such as:\n\n- Looking for a co-founder or business partner.\n- Seeking developers, designers, or marketing specialists.\n- Looking for investors or manufacturing partners.\n- Building a new product.\n- Starting a company in a specific industry.\n\nEntrepreneurs should be able to create teams, assign roles, share project information, and collaborate on business development.\n\n9. CrazyNaters Chat Integration\n\nIntegrate the platform with:\n\n- https://crazynaters.com\n- https://chat.crazynaters.com\n\nUse the existing CrazyNaters chat platform for real-time communication between entrepreneurs, founders, investors, and business teams.\n\nFeatures should include:\n\n- Secure account integration or single sign-on where possible.\n- Private messaging and group chats.\n- Business-specific chat rooms.\n- Private investor and stakeholder rooms.\n- Startup team communication.\n- Public entrepreneur networking rooms.\n- Voice chat.\n- Community discussions.\n- Notifications and announcements.\n\nEach business should have its own communication space for founders, team members, and eligible stakeholders. Both platforms should feel like one connected community.\n\n10. Business and Administration Dashboards\n\nEach business should have a dashboard where authorized users can manage:\n\n- Business profiles and teams.\n- Funding campaigns.\n- Investment and ownership records.\n- Stakeholder communications.\n- Business announcements and progress.\n- Document storage and meeting scheduling.\n- Governance and voting tools where applicable.\n- Financial reports and transaction history.\n\nA separate administrator dashboard should manage users, businesses, networks, reports, moderation, and platform activity.\n\n11. Payments, Investments, and Security\n\nSupport secure payments and funding transactions, including user payments, crowdfunding contributions, business funding campaigns, and investment transactions where legally permitted.\n\nMaintain transaction histories, receipts, ownership records, and funding confirmations.\n\nBecause equity investment involves financial and securities regulations, the platform must include appropriate legal and compliance requirements. These may include identity verification, investor eligibility checks, offering disclosures, investment limits, escrow arrangements, and working with properly registered funding portals or broker-dealers where required.\n\nDo not advertise or process equity sales until the offering and transaction structure are legally approved for the applicable jurisdiction.\n\nSecurity should include encrypted communications, secure authentication, access controls, audit logs, and protection of sensitive business and financial information.\n\n12. Overall Vision\n\nBuild a social network where entrepreneurs can do much more than simply connect and communicate.\n\nUsers should be able to:\n\n1. Create accounts and professional profiles.\n2. Find entrepreneurs in their industries.\n3. Join networks and communities.\n4. Meet potential business partners and co-founders.\n5. Create businesses and startup teams.\n6. Raise funds through community crowdfunding.\n7. Offer eligible investors documented business ownership.\n8. Allow owners and stakeholders to participate in discussions and governance according to their rights.\n9. Use CrazyNaters chat and voice communication to collaborate in real time.\n10. Build, grow, and participate in businesses together.\n\nThe Big Idea: A social network where entrepreneurs meet, build companies, bring communities together, and create opportunities for shared business ownership.\n\nThe website should have a modern, professional design that works on desktop and mobile. It should combine a professional social network, startup incubator, crowdfunding platform, and business collaboration community, all connected to the CrazyNaters ecosystem.\n\nTagline: Connect. Collaborate. Build. Own.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T06:16:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Заказчик хочет создать социальную платформу для предпринимателей с профилями, сетями по отраслям, страницами бизнеса, краудфандингом и инвестициями с долей в бизнесе, интегрированную с существующими сайтами CrazyNaters. Объём очень большой, а бюджет 1500 USD и юридическая часть про долевые инвестиции делают проект рискованным.",
+   "reply": "You're building a social network for entrepreneurs with profiles, industry networks, business pages, crowdfunding and equity investment, all connected to the existing crazynaters.com and chat.crazynaters.com. I'd start with a scoped MVP: authentication, profiles, friends, messaging and business pages, then add funding campaigns and the integration with your CrazyNaters sites through their APIs. With a modern stack and AI-assisted development, I can deliver the MVP in about 4–6 weeks, and treat the investment module as a second phase since it will need legal review. Which features must be in the first release, and do you have API docs or access for the two CrazyNaters sites? You can see my work with live demos here: https://grachoffprod.github.io/portfolio/\nYakov",
+   "reply_ru": "Вы создаёте социальную сеть для предпринимателей с профилями, отраслевыми сетями, страницами бизнеса, краудфандингом и инвестициями с долей в бизнесе, всё это связано с существующими сайтами crazynaters.com и chat.crazynaters.com. Я бы начал с ограниченного MVP: авторизация, профили, друзья, сообщения и страницы бизнеса, затем добавил бы кампании по сбору средств и интеграцию с сайтами CrazyNaters через их API. С современным стеком и разработкой с помощью ИИ-ассистентов я могу сдать MVP примерно за 4–6 недель, а модуль инвестиций вынести во второй этап, так как ему потребуется юридическая проверка. Какие функции должны быть в первом релизе, и есть ли у вас документация или доступ к API обоих сайтов CrazyNaters? Мои работы с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\nYakov",
+   "questions": [
+    "Какие функции обязательны для первого релиза, а какие можно вынести на следующие этапы?",
+    "Есть ли у вас документация или доступ к API сайтов crazynaters.com и chat.crazynaters.com?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "freelancer:40836485",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/digital-marketing/Fix-Meta-Ads-Purchase-Tracking",
+  "title": "Fix Meta Ads Purchase Tracking",
+  "description": "I run a D2C supplement brand that has already invested ₹41,000 in Meta Ads across four months. The campaigns generate healthy interest—137 people have added products to cart—but once they hit checkout, they usually stall and never complete payment. UPI, card, and cash-on-delivery options are all visible, yet Meta still records zero purchases.\n\nI need an expert who has solved this exact “Add-to-Cart but no Purchase” puzzle before. Your first task will be to audit every link in the chain: the events fired by the pixel, the campaign objectives, and the landing-page flow. Pinpoint where tracking or conversion friction actually occurs, repair it, and then restructure the account so new campaigns run cleanly and profitably.\n\nDeliverables I expect:\n• Clear diagnostic showing why ATCs aren’t converting or being tracked \n• Corrected pixel and event setup, tested end-to-end \n• Revamped campaign structure and creatives ready to scale \n• Ongoing optimisation during the first growth phase\n\nTiming is critical; I’d like to see the audit and first fixes rolled out ASAP. I’m flexible on payment—milestones, commission on verified sales, or another structure we both agree makes sense once purchases start showing up.\n\nWhen you reply, briefly outline:\n1. The most common reasons you’ve seen for ATC without purchase events.\n2. What you would inspect first in this case and why.\n3. How you plan to confirm the fix is working within the first few days.\n\nIf your experience lines up, let’s get conversions flowing.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T06:10:52+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 3,
+   "summary_ru": "Заказчик продаёт БАДы по модели D2C и хочет исправить трекинг покупок в Meta Ads: люди добавляют товары в корзину, но покупки не фиксируются. Нужны аудит, настройка пикселя, перестройка рекламных кампаний, креативы и оптимизация. Основная часть работы относится к рекламному менеджменту и маркетингу, а бюджет небольшой (12 500 INR).",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какая у вас платформа для сайта и как устроен чекаут: отдельная страница оплаты или переход на сторонний сервис?",
+    "Есть ли доступ к админке сайта и Meta Business Manager, и подключён ли Conversions API?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "freelancer:40836459",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/kubernetes/Senior-Kubernetes-Platform-Engineer",
+  "title": "Senior Kubernetes Platform Engineer",
+  "description": "Job Title\nSenior Platform Engineer - Kubernetes, GoLang & Linux\n\nRoles & Responsibilities\nRole\n\nDesign, build, and maintain platform services used by application teams.\nDevelop reusable Terraform modules, Helm charts, deployment templates, and automation.\nBuild and improve CI/CD pipelines with automated testing, security checks, and approval controls.\nManage Kubernetes-based environments and improve their availability, security, and scalability.\nCreate self-service capabilities that reduce dependency on platform and SRE teams.\nDefine platform standards and recommended deployment patterns.\nWork with development teams to onboard applications onto the platform.\nImplement monitoring, logging, tracing, dashboards, and actionable alerts.\nDefine service-level indicators, service-level objectives, and error budgets.\nParticipate in on-call support and help resolve production incidents.\nLead or contribute to blameless post-incident reviews.\nImprove runbooks, operational documentation, and disaster-recovery procedures.\nIdentify recurring operational work and automate it.\nPerform proofs of concept and convert successful ideas into production-ready solutions.\nWork with security and compliance teams to embed controls into the platform.\nMentor engineers and promote good platform-engineering and SRE practices.\nCommunicate progress, risks, dependencies, and technical decisions to stakeholders.",
+  "budget": 150000.0,
+  "budget_min": 75000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T05:59:09+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Вакансия на должность Senior Platform Engineer (Kubernetes, GoLang, Linux) с ежедневными обязанностями: Terraform, Helm, CI/CD, дежурства on-call, менторство и работа с инцидентами. По сути это поиск штатного сотрудника, а не разовый проект, и бюджет 150 000 INR для такой роли выглядит низким.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это разовый проект с конкретным результатом или поиск штатного сотрудника / постоянного контракта с дежурствами?",
+    "Какой объём работ ожидается на первом этапе и какие сроки вы рассматриваете?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "freelancer:40836456",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/business-development/Seeking-Long-Term-Business-Development-40836456",
+  "title": "Seeking a Long-Term Business Development Partner – Software Development",
+  "description": "I'm an experienced software developer looking to establish a long-term professional partnership with someone interested in building an additional income stream through online business and technology services.\n\n### About the opportunity\n\nI specialize in software development and can independently handle technical aspects of various projects, including web applications, backend systems, API integrations, and other custom software solutions.\n\nI'm looking for someone interested in the business development side of the process, particularly finding potential clients, managing business relationships, and coordinating project opportunities.\n\n### Proposed responsibilities\n\n**My responsibilities:**\n- Software development and technical implementation.\n- Project execution and delivery.\n- Technical communication and progress updates.\n- Maintaining development quality.\n\n**Your potential responsibilities:**\n- Identifying business opportunities.\n- Client acquisition and relationship management.\n- Initial project discussions and coordination.\n- Helping establish a consistent project pipeline.\n\n### What I'm looking for\n\n- Someone interested in a long-term collaboration.\n- Good communication and reliability.\n- An interest in online freelancing or technology services.\n- Previous experience with client acquisition, project management, or digital business is an advantage.\n\n### Compensation\n\nWe can discuss a mutually beneficial compensation structure based on responsibilities, project revenue, and the amount of work contributed by each party.\n\n### Important\n\nThis is intended to be a genuine professional partnership, not a short-term arrangement. All project responsibilities, client representation, platform permissions, and payment arrangements will be agreed upon transparently before starting.\n\nIf you're interested, please send me a brief introduction explaining your experience, current activities, and what kind of collaboration you're looking for.\n\nI'm particularly interested in building something sustainable rather than completing just one project.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T05:58:10+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Клиент ищет долгосрочного партнёра для развития бизнеса: поиск клиентов, ведение переговоров и координация проектов, а разработку он будет вести сам. Конкретной задачи на разработку ПО в описании нет, оплата предполагается по договорённости о доле.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас конкретный проект или техническая задача, которую нужно реализовать?",
+    "Какой объём работ и какой формат оплаты вы предлагаете на начальном этапе?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "freelancer:40836445",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/facebook-ads/Meta-Ads-Campaign-Management-commerce",
+  "title": "Meta Ads Campaign Management & E-commerce Sales Growth for Hangiing Scents",
+  "description": "I own Hangiing Scents, a premium car fragrance brand in India.\n\nWebsite: https://hangiingscents.in\n\nWe sell premium hanging air fresheners infused with 100% perfume-grade oils, featuring multiple fragrances inspired by popular designer perfumes.\n\nI am looking for an experienced Meta Ads specialist who can create, launch and manage Facebook and Instagram advertising campaigns focused on generating actual website purchases.\n\nMy requirements:\n\n1. Develop a complete Meta Ads strategy for our brand.\n2. Create and manage Sales campaigns optimized for Purchase events.\n3. Identify high-converting audiences across India.\n4. Analyze and optimize our existing Meta Pixel and Conversions API setup.\n5. Test different ad creatives, video hooks and advertising angles.\n6. Optimize campaigns to achieve profitable ROAS and reduce cost per purchase.\n7. Monitor campaign performance and provide regular reports.\n8. Recommend improvements to increase website conversion rates.\n\nOur current setup:\n- Active WooCommerce website.\n- Meta Pixel installed.\n- Purchase and other conversion events configured.\n- Product catalogue available.\n- Product photos and video creatives available.\n\nWe are looking for someone with proven e-commerce advertising experience, preferably with D2C brands in India.\n\nOur primary goal is to generate consistent and profitable website sales, not just traffic, likes or engagement.\n\nPlease share your previous campaign results, case studies, proposed strategy and management fees.\n\nWe prefer a long-term working relationship based on performance.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T05:50:35+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Клиент из Индии ищет специалиста по Meta Ads для ведения рекламных кампаний Facebook и Instagram под продажи на WooCommerce-сайте премиальных ароматизаторов для автомобилей. Это маркетинговая работа по рекламе, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли в проекте какие-либо доработки сайта или интеграций, например настройки Pixel/Conversions API через код или кастомная интеграция с WooCommerce?",
+    "Рассматривает ли клиент разовые технические задачи, а не долгосрочное ведение рекламы по результатам?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "freelancer:40836434",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-content-creation/Create-Training-Practice-Materials",
+  "title": "Create AI Training Practice Materials",
+  "description": "Description:\n\nI'm building a beginner's training guide for people who want to get into AI training and evaluation work, with a focus on writing and editing roles. I'm looking for someone who has done this kind of work before, for example on Handshake AI, Snorkel AI, Mercor, AfterQuery, DataAnnotation or similar platforms. You'll help me create original practice materials that show beginners what the work involves.\n\nWhat you'll deliver\n\n-15 original practice exercises in the style of AI training tasks. Examples: rate two chatbot responses side by side and explain your choice, rewrite a weak AI answer, or spot factual and grammar errors in a response.\n-A model answer and short scoring notes for each exercise.\n-A 1–2 page guide with practical tips: how to approach qualification-style tests, common mistakes beginners make, and how to write clear, well-reasoned feedback.\n\nImportant\n\nAll materials must be your own original work. Please do not copy or share real tasks, guidelines, test questions or any content covered by a platform's confidentiality agreement.\n\nWho I'm looking for\n\n-Hands-on experience with AI training, data annotation, or response evaluation work\n-Excellent written English and editing skills\n-Ability to explain your reasoning clearly for a beginner audience\n\nNo prior technical experience required for roles that accept beginners",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T05:43:06+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "tg_bot",
+   "score": 1,
+   "summary_ru": "Заказчик хочет получить учебные материалы для новичков в сфере AI-тренинга и оценки ответов ИИ: 15 практических упражнений, эталонные ответы и краткое руководство. Это написание и редактирование контента, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь какая-либо разработка, например интерактивная платформа или бот для выполнения упражнений, или требуется только текстовый контент?",
+    "Какой формат итогового файла ожидается: документ, PDF или что-то другое?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "freelancer:40836421",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Startup-One-Page-WordPress-Site",
+  "title": "AI Startup One-Page WordPress Site",
+  "description": "I’m ready to turn our existing copy and domain into a single-page WordPress site that instantly signals innovation and reliability to investors and strategic partners. The aesthetic I have in mind is sleek and futuristic—clean typography, dark-light contrasts, tasteful neon accents, and subtle micro-interactions that feel “AI-powered” without being gimmicky. Every element must scale flawlessly on mobile, tablet, and desktop, and the page should stay lightning-fast even with the smooth animations I’d like to showcase.\n\nPrimary goal \nThe whole experience should guide visitors toward one clear action: submitting an investment or partnership enquiry. I’ll need a form that captures name, company, email, investment interest, and message, then routes each submission to my inbox (and optionally to a CRM if you recommend a lightweight plugin).\n\nCore sections to build \n• Home / Hero \n• About Our Company \n• Vision & Mission \n• AI Services – with AI automation and business process solutions taking center stage \n• Why Choose Us \n• Investor & Strategic Partners \n• Contact / Enquiry\n\nTechnical expectations \n• Built on WordPress with a modern page builder or lightweight custom theme—your call, as long as updates remain straightforward. \n• Responsive design tested across major browsers and devices. \n• Optimized images, minified assets, and lazy-loading to keep performance scores high. \n• SEO-friendly structure (semantic headings, meta tags ready for my keywords). \n• Clean, documented code so future iterations are painless.\n\nTimeline & hand-off \nI need the finished, polished site live within 7 days. On completion, please provide: \n1. A fully configured WordPress install on my host \n2. Source files / theme export \n3. Quick walkthrough or loom video explaining how to update content\n\nIf you have a portfolio of similarly styled sites—especially tech or SaaS brands—share it so I can move quickly on awarding the project.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T05:39:09+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "landing",
+   "crm",
+   "automation",
+   "saas",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 4,
+   "summary_ru": "Нужен одностраничный сайт на WordPress для AI-стартапа на готовом домене и с существующими текстами. Главная цель — форма заявки для инвесторов и партнёров с отправкой на почту и, возможно, в CRM. Бюджет низкий (1250 INR), срок 7 дней, а объём работ большой.",
+   "reply": "Hi, I read your brief. You want a single-page WordPress site on your existing domain, using your current copy, with a sleek dark/light look, light AI-style micro-interactions, and one main goal: an investor/partner enquiry form that sends submissions to your inbox. I'd build it on a lightweight theme or page builder so future edits stay simple, with optimized images, lazy loading, semantic headings and meta tags for your keywords, and a documented handoff. Using modern tooling and AI-assisted development, I can deliver the core sections within your 7-day window, provided the copy and brand assets are ready from day one. Two quick questions: do you already have WordPress hosting I can access, and which CRM, if any, should receive the leads?\n\nSee live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте, я изучил ваше описание. Нужен одностраничный сайт на WordPress на вашем существующем домене с вашими текстами. Визуально — современный стиль с контрастом тёмного и светлого, лёгкие микроанимации в духе AI, а главная цель — форма заявки для инвесторов и партнёров с отправкой на вашу почту. Я бы собрал его на облегчённой теме или конструкторе страниц, чтобы дальнейшие правки были простыми: оптимизированные изображения, ленивая загрузка, семантические заголовки и мета-теги под ваши ключевые слова, а также задокументированная передача проекта. Используя современные инструменты и разработку с помощью ИИ-ассистентов, я могу уложиться в ваши 7 дней, если тексты и брендовые материалы будут готовы с первого дня. Два вопроса: есть ли у вас хостинг WordPress, к которому я могу получить доступ, и в какую CRM, если она нужна, отправлять заявки?\n\nЖивые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже хостинг WordPress и доступ к нему, или его нужно настроить с нуля?",
+    "В какую CRM, если она нужна, отправлять заявки из формы, или достаточно письма на почту?",
+    "Тексты и логотип с брендбуком уже готовы или их нужно дополнительно подготовить?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "freelancer:40836389",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/mailchimp/Mail-PDF-Letter-via-USPS",
+  "title": "Mail PDF Letter via USPS",
+  "description": "I already have the final one-page PDF ready. Once I send you the file and the full Indian mailing address, I just need you to:\n\n• Print the document on standard letter-size paper.\n• Slip it into a plain envelope.\n• Ship it from inside the United States using the standard Priority Mail International option. \n – Please copy the recipient’s address exactly as I provide it. \n – Leave the return-address space blank.\n\nAfter you hand the envelope to USPS, send me:\n\n1. The tracking number.\n2. A quick photo or scan of the mailing receipt and the addressed envelope.\n\nPerson should be from US only, as it has to be sent from there.\n\nNo edits, no signatures—simply print, pack, post, and share proof of shipment so I can follow the delivery progress.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T05:35:30+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Клиент хочет, чтобы в США распечатали готовый однostраничный PDF, вложили в конверт и отправили через USPS Priority Mail International в Индию, с передачей трек-номера и фото чека. Это физическая почтовая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь какая-либо разработка или это только печать и отправка документа?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "freelancer:40836411",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-app-development/Lovable-Mobile-Apps",
+  "title": "Lovable AI Mobile Apps",
+  "description": "We are looking for an experienced freelancer/agency specialising in Lovable AI mobile app development.\n\nWe have already developed two mobile applications and one web application using Lovable, GitHub and Supabase. All three are integrated into a single project and are currently in the final stage of development.\n\nWe are looking for someone to take over the existing applications, complete the final refinements, testing and launch Version 1 on Google Play Store and Apple App Store.\n\nWe prefer candidates who have successfully developed and launched at least a couple of mobile app projects using Lovable, including publishing and ongoing maintenance.\n\nPlease share your relevant experience and live project examples.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T05:33:34+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 4,
+   "summary_ru": "Клиент ищет исполнителя, который примет три связанных проекта (два мобильных приложения и веб-приложение на Lovable, GitHub и Supabase), доведёт их до версии V1, протестирует и опубликует в Google Play и App Store. Бюджет низкий, а клиент просит опыт публикации мобильных приложений на Lovable.",
+   "reply": "You have three connected pieces (two mobile apps and a web app built on Lovable, GitHub and Supabase) that need to be taken over, finished, tested and shipped as V1 to Google Play and the App Store. My approach would be to start with an audit of the codebase and Supabase setup: auth, database policies, environment config and anything that blocks a release. Then I'd close the remaining refinements, run a test pass on real devices, and prepare the builds and store listings for both platforms. I work with a modern stack and AI-assisted development, so the pace is fast. A realistic estimate for audit, fixes and submission is about 1–2 weeks, depending on how stable the current builds are. I haven't yet taken a Lovable mobile app through store publication myself, so I want to be upfront about that.\n\nTwo questions: which wrapper or framework are the mobile apps currently built with, and do you already have Google Play and Apple developer accounts?\n\nFor live demos, see https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "У вас есть три связанных проекта (два мобильных приложения и веб-приложение на Lovable, GitHub и Supabase), которые нужно принять, доделать, протестировать и выпустить в версии V1 в Google Play и App Store. Я бы начал с аудита кодовой базы и настройки Supabase: авторизация, политики доступа к базе, конфигурация окружений и всё, что мешает релизу. Затем закрыл бы оставшиеся доработки, провёл тестирование на реальных устройствах и подготовил сборки и карточки приложений для обеих платформ. Я работаю на современном стеке с помощью ИИ-ассистентов, поэтому темп высокий. Ориентировочный срок на аудит, исправления и отправку на публикацию — около 1–2 недель, в зависимости от стабильности текущих сборок. Я пока не проводил приложение на Lovable через публикацию в сторах самостоятельно, и хочу быть с вами честным об этом.\n\nДва вопроса: на каком обёрточном решении или фреймворке сейчас построены мобильные приложения и есть ли у вас уже аккаунты разработчика Google Play и Apple?\n\nЖивые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На каком фреймворке или обёрточном решении сейчас построены мобильные приложения?",
+    "Есть ли у вас уже аккаунты разработчика Google Play и Apple?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "flru:5530607",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530607/excel-raschetyi.html",
+  "title": "Excel расчеты",
+  "description": "Уже есть таблица Excel по просчетам, только её нужно доработать до конца, со всеми корректировками, которые будут. Таблица Excel расчеты. Если работа будет сделана на совесть и...",
+  "budget": 2500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "Thu, 26 Nov 2026 06:06:04 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 2,
+   "summary_ru": "Нужно доработать уже существующую Excel-таблицу для расчётов с учётом будущих корректировок. Это работа со таблицей, а не разработка программного продукта, бюджет небольшой (2500 ₽).",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какие именно расчёты и корректировки нужно добавить в таблицу?",
+    "Нужна ли автоматизация, например macros или связь с другими источниками данных, или достаточно доработки формул?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "kwork:3275663",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275663",
+  "title": "Найти 2 клиентов на лендинг за 5 дней",
+  "description": "Мы веб-студия Ключ.digital, делаем сайты для малого бизнеса. Нужен человек, который за 5 дней найдёт нам двух клиентов на простой лендинг. \nЧто продаёте: \nЛендинг под ключ за 4 000 ₽. В эту цену входит: \nдизайн и вёрстка, сайт работает на телефоне и компьютере \nразмещение на нашем сервере \nподключение Яндекс Метрики \nбазовая SEO-оптимизация, чтобы сайт находили в поиске \nЧем зацепить клиента: концепт сайта мы делаем бесплатно. Клиент смотрит готовый вариант и платит, только если он ему понравился. Риска для клиента нет. \nКому предлагать: малый бизнес без своего сайта. Это салоны и мастера красоты, кафе, ремонт, автосервисы, репетиторы, частные специалисты. Таких легко найти в Яндекс Картах. \nВаша задача: \nНайти бизнесы без сайта. \nСвязаться с ними: позвонить или написать в мессенджер. Массовые рассылки не допускаются. \nПредложить бесплатный концепт лендинга. \nПередать нам заявку: название, ниша, имя и телефон контактного лица, что клиенту важно на сайте. \nКонцепт, обсуждение деталей и разработку дальше ведём мы. \nОплата после заказа от клиента \n1000 ₽ за каждого клиента \nза двух клиентов 2000 ₽ \nклиент засчитывается после подтверждённого заказа, то есть когда он одобрил концепт и оплатил сайт \nзаявки без оплаты не оплачиваются \nСрок: 5 дней с начала работы. \nНужен опыт холодных звонков или продаж. В отклике кратко напишите, как будете искать клиентов.",
+  "budget": 2000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 08:37:46",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 2,
+   "summary_ru": "Студия Ключ.digital ищет исполнителя, который за 5 дней найдёт двух клиентов на лендинг: будет обзванивать и писать малому бизнесу без сайта и получать 1000 ₽ за каждую оплаченную заявку. Это поиск клиентов и холодные продажи, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Входит ли в задачу разработка или вёрстка сайта, или исполнитель отвечает только за поиск и передачу заявок?",
+    "Сколько заявок в день ожидается и есть ли ограничения по нишам или способам связи, кроме массовых рассылок?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "kwork:3275593",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275593",
+  "title": "Перенос сайта с Webasyst на 1С-Битрикс (Лайтшоп)",
+  "description": "Планируем переезд действующего интернет-магазина comfort-center.com (сейчас на CMS Webasyst Shop-Script) на 1С-Битрикс с установкой готового решения «Лайтшоп». Лицензия 1С-Битрикс уже куплена. \nИщем опытного специалиста (строго не новичка) для запуска проекта под ключ. На текущем этапе нам нужно определиться с исполнителем, понять точный бюджет и сроки, чтобы заложить их в план. \nЗадачи, которые нужно оценить (желательно по отдельности): \n1. Установка и базовая настройка 1С-Битрикс и шаблона «Лайтшоп» на хостинг/сервер. \n2. Миграция текущего сайта comfort-center.com. \n3. Перенос каталога товаров, категорий, характеристик и цен (рассмотрим предложенные вами оптимальные способы переноса). \n4. Оценка сроков реализации по каждому этапу. \nЧто ждём в отклике: \n1. Примеры ваших реальных проектов на 1С-Битрикс (особенно на готовых решениях). \n2. Предварительную вилку цен и сроков по пунктам 1–3. \n3. Ваш бриф или список уточняющих вопросов (по количеству товаров, модификациям, хостингу и т.д.), которые нужны для точного расчёта. \nБюджет в объявлении указан условно — ориентируемся на ваши реальные оценки. Готовы оперативно заполнить бриф и обсудить детали.",
+  "budget": 50000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 08:35:27",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Перенос действующего интернет-магазина comfort-center.com с Webasyst Shop-Script на 1С-Битрикс «Лайтшоп»: установка и настройка, миграция сайта, перенос каталога, категорий, характеристик и цен. Нужна оценка бюджета и сроков по этапам, исполнитель должен иметь опыт с Битриксом.",
+   "reply": "Вы планируете переехать с Webasyst Shop-Script на 1С-Битрикс «Лайтшоп»: установка и настройка, миграция сайта и перенос каталога с категориями, характеристиками и ценами. Честно скажу: мой основной стек современный, а опыта с 1С-Битрикс в профиле нет, поэтому для точной оценки важен объём. Сначала я бы провёл аудит структуры Webasyst и выгрузку данных, затем написал скрипт переноса в формат Битрикса и сделал тестовый импорт с проверкой цен и характеристик. Ориентировочно это 2–3 недели при каталоге до нескольких тысяч позиций, точнее скажу после брифа. Подскажите, пожалуйста: сколько товаров и модификаций и есть ли доступ к текущей базе Webasyst и серверу под Битрикс?\n\nЖивые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы планируете переехать с Webasyst Shop-Script на 1С-Битрикс «Лайтшоп»: установка и настройка, миграция сайта и перенос каталога с категориями, характеристиками и ценами. Честно скажу: мой основной стек современный, а опыта с 1С-Битрикс в профиле нет, поэтому для точной оценки важен объём. Сначала я бы провёл аудит структуры Webasyst и выгрузку данных, затем написал скрипт переноса в формат Битрикса и сделал тестовый импорт с проверкой цен и характеристик. Ориентировочно это 2–3 недели при каталоге до нескольких тысяч позиций, точнее скажу после брифа. Подскажите, пожалуйста: сколько товаров и модификаций и есть ли доступ к текущей базе Webasyst и серверу под Битрикс?\n\nЖивые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько товаров, категорий и модификаций нужно перенести и есть ли у каталога сложные характеристики или несколько типов цен?",
+    "Есть ли у вас доступ к текущей базе Webasyst и к хостингу или серверу, где будет развёрнут Битрикс?",
+    "Нужно ли переносить историю заказов, клиентов и SEO-URL, или достаточно каталога и контента?"
+   ]
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
+  "id": "telegram:theyseeku/40807",
+  "source": "telegram",
+  "url": "https://t.me/theyseeku/40807",
+  "title": "Выспался. Создал чат-бота. Заработал +17.000 рублей.",
+  "description": "Выспался. Создал чат-бота. Заработал +17.000 рублей.\nПока ты едешь на «любимую работу» к 8ч утра, другие запускают\n этого бота, \nследуют пошаговой инструкции и получают +17.000 рублей за несколько часов работы.\nЭти люди не программисты и у них даже нет высшего образования. Они просто научились создавать чат-ботов, где нет ничего сложного. И за это им готовы платить 200-250.000 рублей в месяц.\nНа старте новички зарабатывают 50-60.000 рублей, а ребята поопытнее от 200.000 рублей в месяц.\nВсе, что нужно для старта\n — запустить этот бот.\n Там уже рассказали, как с помощью чат-ботов и удаленки заработать несколько месячных зарплат и наконец уволиться из найма в 2026 году.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T06:01:10+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "tg_bot",
+   "score": 1,
+   "summary_ru": "Рекламное объявление курса или схемы заработка на «чат-ботах» с обещаниями 17 000 и 200 000 рублей в месяц. Это не заказ на разработку: заказчика и ТЗ нет, а речь идёт о продаже обучения или бота-воронки.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T06:17:29+00:00"
+ },
+ {
   "id": "freelancer:40836378",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/supabase/WeWeb-Supabase-developer-for-API",

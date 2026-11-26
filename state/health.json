@@ -17,14 +17,14 @@
  },
  "telegram": {
   "fails": 0,
-  "last_count": 210
+  "last_count": 209
  },
  "freelance_ru": {
   "fails": 0,
   "last_count": 25
  },
  "pph": {
-  "fails": 5,
+  "fails": 6,
   "last_count": 20
  },
  "guru": {
