@@ -1,6 +1,6 @@
 {
  "flru": {
-  "fails": 1,
+  "fails": 2,
   "last_count": 59
  },
  "kwork": {
@@ -24,7 +24,7 @@
   "last_count": 25
  },
  "pph": {
-  "fails": 7,
+  "fails": 0,
   "last_count": 20
  },
  "guru": {
