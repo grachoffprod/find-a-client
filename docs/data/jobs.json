@@ -1,5 +1,340 @@
 [
  {
+  "id": "freelancer:40837714",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/pine-script/Pine-Script-Alert-Integration",
+  "title": "Pine Script Alert Integration",
+  "description": "I need a concise Pine Script add-on that lets me set a specific price level inside my current AlgoTest Live Trading setup. Whenever live price touches or crosses that level, the script must trigger an in-platform AlgoTest notification—nothing more. No buy/sell signals and absolutely no automated order placement; the sole purpose is to alert me in real time while my strategy is running.\n\nYou’ll supply a clean, well-commented Pine Script (v5 preferred) and show me the exact steps or API hooks required to connect the alert to AlgoTest’s notification system so it fires reliably during live sessions. A quick screen share or short walkthrough document is enough for hand-off; once I can reproduce the alert on my end, the job is complete.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T22:13:58+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Клиенту нужен простой Pine Script, который отправляет уведомление в AlgoTest, когда живая цена касается или пересекает заданный уровень во время работы стратегии. Торговых сигналов и автоматических ордеров не нужно. Бюджет небольшой (12 500 INR), а способ передачи уведомлений в AlgoTest пока не ясен.",
+   "reply": "You want a lightweight Pine Script that fires a single alert when the live price touches or crosses a set level during your AlgoTest Live Trading session, with no trade signals or order logic. I'd write a clean v5 script with a configurable level and crossing condition, documented inline, and connect it to AlgoTest through the notification route the platform supports. Since AlgoTest's external alert intake is the key unknown, I'd verify that path first, then test the full chain on a live session and record a short walkthrough. Estimated timeline: 2–3 days. Two questions: which symbol and timeframe will the level sit on, and does AlgoTest accept incoming webhooks, or only its own built-in alerts?\nhttps://grachoffprod.github.io/portfolio/\nYakov",
+   "reply_ru": "Вам нужен лёгкий Pine Script, который отправляет одно уведомление, когда живая цена касается или пересекает заданный уровень во время сессии AlgoTest Live Trading. Торговых сигналов и логики ордеров не будет. Я напишу чистый скрипт на v5 с настраиваемым уровнем и условием пересечения, с комментариями в коде, и подключу его к AlgoTest через поддерживаемый платформой канал уведомлений. Поскольку способ приёма внешних уведомлений в AlgoTest пока неясен, сначала проверю этот путь, затем протестирую всю цепочку на живой сессии и запишу короткую инструкцию. Ориентировочный срок: 2–3 дня. Два вопроса: на каком символе и таймфрейме будет стоять уровень и принимает ли AlgoTest входящие вебхуки или только собственные встроенные алерты?\nhttps://grachoffprod.github.io/portfolio/\nYakov",
+   "questions": [
+    "На каком символе и таймфрейме должен стоять уровень?",
+    "Принимает ли AlgoTest входящие вебхуки или работает только со своими встроенными алертами?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "freelancer:40837711",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/twilio/Update-Twilio-WhatsApp-Alert-Messages",
+  "title": "Update Twilio WhatsApp Alert Messages",
+  "description": "I am looking for someone who can help me update a few existing WhatsApp alert messages in Twilio today.\n\nThe task involves making some small text and formatting adjustments:\n\n1. Update alert titles and emojis\n\nFor example, I want to change the current alerts titles and add emoji to it.\n\n2. Shorten address information\n\nEach alert currently includes the vehicle's location/address. However, the address is too long because it includes the street, city, country, etc.\n\nI want to shorten the address format to display only the relevant location information.\n\nRequirements:\n\nExperience with Twilio and WhatsApp integrations.\n\nAbility to identify and modify the existing alert templates or message formatting.\n\nMust be available to complete the work today.\n\nAvoid changing anything else in the existing integration.\n\nPlease let me know your availability and estimated cost.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T22:13:14+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Нужно обновить несколько WhatsApp-уведомлений в Twilio: поменять заголовки и добавить эмодзи, а также сократить адрес местонахождения автомобиля до релевантной части. Задача небольшая, но срочная, и затрагивать другие части интеграции нельзя.",
+   "reply": "You need a few WhatsApp alert messages in Twilio updated today: new titles with emojis, and vehicle addresses trimmed to just the relevant location instead of the full street, city, and country string. I'd start by locating where the templates and address formatting are defined (Twilio Content templates or the sending code), then make the changes in isolation so nothing else in the integration is touched. I can start today, and once I have access I expect it to take a few hours, including a test send to WhatsApp. Could you share where the templates or code live, and which parts of the address should stay (for example, city and district only)?\n\nFull portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно сегодня обновить несколько WhatsApp-уведомлений в Twilio: новые заголовки с эмодзи и сокращение адреса автомобиля до релевантной части вместо полной строки с улицей, городом и страной. Я бы начал с поиска того, где задаются шаблоны и форматирование адреса (Twilio Content templates или код отправки), и внес изменения точечно, не трогая остальную интеграцию. Могу начать сегодня: после получения доступа, думаю, работа займет несколько часов, включая тестовую отправку в WhatsApp. Подскажите, где находятся шаблоны или код и какие части адреса нужно оставить (например, только город и район)?\n\nПолное портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Где сейчас хранятся шаблоны уведомлений: в Twilio Content Editor или в коде приложения?",
+    "Какие именно части адреса нужно оставлять (например, только город и район) и есть ли у вас пример текущего и желаемого вида сообщения?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "freelancer:40837710",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/css/Custom-Unifi-Captive-Portal-Integration",
+  "title": "Custom Unifi Captive Portal Integration",
+  "description": "I already have a working Unifi network, a cPanel hosting account, and an HTML landing page with a separate Terms & Conditions file. What I need is the glue that turns these assets into a fully-functional External Portal Server for Unifi.\n\nScenario \n• When a guest joins the WiFi they must see my branded splash page with links/Logos to Instagram/Facebook & Google Reviews. \n• They simply tick “I accept the terms and conditions” (no forms, no vouchers). \n• Once the terms are accepted, the portal should hand authentication back to the Unifi controller and immediately redirect the guest to our chosen social-media page.\n\nYour task \n • Adapt my existing HTML (landing + T&C) so it meets Unifi’s External Captive Portal requirements: proper form fields, required POST/GET variables, redirect handling, and success state. \n• Deploy the finished code on my cPanel space and confirm it communicates correctly with the Unifi controller (USG / UDM firmware current). \n• Provide any controller-side settings I must enter (portal URL, redirect URL, guest control options) so I can reproduce the setup later.\n\nAcceptance \n1. Guests connect, see the splash, accept, and are online in one click. \n2. Browser is redirected to the specified social-media URL. \n3. No certificate warnings or mixed-content errors appear. \n4. Source files and any instructions are delivered in a tidy folder.\n\nHTML, CSS, PHP (or lightweight Python) solutions are fine as long as they run on standard cPanel hosting.",
+  "budget": 250.0,
+  "budget_min": 20.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-26T22:12:00+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 7,
+   "summary_ru": "Клиент хочет превратить свой HTML-лендинг и страницу условий в рабочий External Captive Portal для UniFi: гость принимает условия одним кликом, получает доступ к сети и перенаправляется на страницу в соцсетях. Размещение нужно на cPanel с корректной работой с контроллером UniFi.",
+   "reply": "Your splash page and T&C need to become a working UniFi External Portal: guests tick the terms, get authorized by the controller and land on your chosen social page. I'd adapt the HTML to the required POST/GET flow and redirect handling, deploy it on cPanel over HTTPS to avoid certificate or mixed-content warnings, then test it against your current USG/UDM firmware. You'd get the source in an organized folder plus a setup guide with the exact portal URL, redirect URL and guest control settings. Timeline: about 3–4 days. Which UniFi controller model are you running, and is an SSL certificate already active on your cPanel domain?\n\nLive demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вашу страницу-заставку и условия нужно превратить в рабочий External Portal для UniFi: гость ставит галочку, контроллер его авторизует, и он попадает на нужную страницу в соцсетях. Я адаптирую HTML под требуемый обмен POST/GET и обработку редиректов, размещу на cPanel по HTTPS, чтобы не было предупреждений о сертификате и смешанного контента, а затем протестирую с вашей текущей прошивкой USG/UDM. Вы получите исходники в аккуратной папке и инструкцию с точными адресами портала и редиректа, а также настройками гостевого контроля. Срок: около 3–4 дней. Какая модель контроллера UniFi у вас используется и есть ли уже активный SSL-сертификат на домене cPanel?\n\nЖивые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какая модель контроллера UniFi используется (Cloud Key, UDM, self-hosted)?",
+    "Есть ли уже активный SSL-сертификат на домене, привязанном к cPanel?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "freelancer:40837709",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/embedded-systems/Industrial-Data-Diode-Development",
+  "title": "Industrial Data Diode Development",
+  "description": "Needed is a purpose-built data diode that can move live sensor information from operational technology (OT) networks to an IT-side monitoring zone without allowing a single bit of traffic back. The stream will carry data coming simultaneously from factory machines, power-water infrastructure, and building-automation sensors, so the solution has to tolerate mixed industrial protocols and a steady, continuous throughput. Some optical technology or another suitable suggested & approved by us may be used.\n\nCore expectations \n• One-way hardware or hardened appliance that physically enforces the TX-only path \n• Interface options for common field protocols (Ethernet/ip, Profinet-iso tcp, with future pluggable protocol modules anticipated) so we can integrate each equipment class easily \n• Configuration utilities or scripts to map multiple sensor, tags, channels, validate packet integrity, and log transfer status on the receive side \n• Latency low enough for near-real-time dashboards; no backchannel acknowledgments permitted \n• Complete build documentation (KiCad, MS Word): schematic, Gerber files, bill of materials, firmware or , enclosure layout, and an operator guide focusing on installation , user, maintenance editable manuals. A anti-tempering device for the enclosure will be included. 24VDC power in controlled environment.\nThe attachment provides a better visual picture of our needs.\nThe orange section of the attached presentation covers hardware.\nGreen section of the presentation covers OS agnostic software. Embedded webserver for status, diags, configuration desirable with secure log in.\nBlue section is not in your scope and will only be used for testing.\nInitial testing can be performed on a test system from you; final testing will be with our SCADA and PLC systems (blue section).\nAcceptance criteria :\nThe final unit must pass a loop-break test that proves zero reverse connectivity, successfully forward at least 10 Mbps of mixed sensor traffic for eight consecutive hours, and survive a 48-hour temperature-and-vibration soak aligned with standard industrial tolerances. Pentesting tools will be used & provided. Include a single HW unit for you & 1 for us during collateral testing. The unit you will use will be sent to us before the milestone 2 is released. \n\nPlease outline your proposed architecture, any previous experience with unidirectional gateways, technology used with justification or critical-infrastructure security.\nAny software tools used will be included in your bid & will become our sole property (with the rest of the solution) with no encumbrances or strings attached. Use of subscription services is discouraged.\nThe budget given is placeholder only, your bid must be final with amount & delivery time.\nNo upfront. A 1st milestone will be created after a acceptable remote demo is shown. 50% payment for milestone 1 after acceptable solution is delivered. 25% after job done. Final 25% payment will be after system delivery is with us for 2 months evaluation without any issues. Payment made only after all source code & support docs are delivered to us & approved for that milestone.\nRespond only after reading full JD. Submit questions, changes, ideas with 1st response only. No changes allowed to your response till after award acceptance. The person responding will be the person doing the job. Any submissions must be done after full testing by you. Include items not tested & known issues. Only 1 testing session will be done by us before a final test by our team. Do not use any AI or BOT assistance in your communications with us. Those will be treated as fake, go in your disfavor & action taken. Please save yours & our time - do not bid, if you do not like our terms.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T22:11:53+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик ищет аппаратный однонаправленный шлюз (data diode) для передачи данных с промышленных сетей OT в IT-зону без обратного трафика. Нужны схемотехника, Gerber-файлы, корпус, испытания на вибрацию и температуру, а также ПО для конфигурации и веб-интерфейса.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Рассматривает ли заказчик разработку только программной части (конфигурация, веб-интерфейс, протокольные модули) с готовым сторонним аппаратным шлюзом?",
+    "Какой объём опыта с промышленными протоколами (EtherNet/IP, PROFINET) и сертификацией аппаратуры ожидается от исполнителя?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "freelancer:40837694",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/pattern-making/Medium-Soft-Leather-Weekend-Bag",
+  "title": "Medium Soft Leather Weekend Bag Design",
+  "description": "I'm looking for an experienced leather designer and craftsman to create a medium-sized, soft leather weekend travel bag. The bag will be primarily used for casual weekend trips.\n\nKey Requirements:\n- Designed for 2-3 day trips\n- High-quality, durable, and soft leather\n- Stylish and functional design\n- Comfortable carrying options (e.g., handles, shoulder strap)\n\nIdeal Skills and Experience:\n- Expertise in leather goods design and manufacturing\n- Strong portfolio of similar products\n- Attention to detail and craftsmanship\n- Ability to provide prototypes and samples\n\nPlease include your portfolio and relevant experience in your bids.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T22:03:23+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Заказчик ищет кожевенного дизайнера и мастера для создания мягкой кожаной дорожной сумки среднего размера для коротких поездок. Это физическое изделие, а не разработка ПО.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь какая-либо программная часть, например онлайн-конфигуратор или сайт для заказа сумок?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "freelancer:40837676",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-development/Development-Partner-Wanted-Build-Grow",
+  "title": "AI Development Partner Wanted – Build and Grow New AI Products Together",
+  "description": "AI Development Partner Wanted – Build and Grow New AI Products Together\n\nAbout Us\n\nWe're a growing AI startup called Algility, backed by a small but experienced engineering team of eight. We've already built and deployed production-ready AI models, and now we're looking to take the next step by developing a new range of AI products focused on data analysis, predictive analytics, and intelligent insights.\n\nWe're looking for a talented freelancer or small development team who shares our interest in AI and would be open to building something together.\n\nWhat We're Looking For\n\nThis isn't a typical client-and-freelancer arrangement. We'd like to find someone who is interested in becoming a genuine long-term partner.\n\nThe idea is to work together from the early planning stages, share ideas, decide what to build, and gradually turn those ideas into products that people actually want to use.\n\nOur engineering team already handles much of the core technical work, including:\n\nAI and machine learning research\n\nBackend development and API integration\n\nPython, PyTorch, and TensorFlow\n\nDocker and Kubernetes\n\nAWS and Google Cloud infrastructure\n\nWe're hoping to connect with someone who can bring additional strengths to the table. This could be experience in frontend development, UI/UX design, data science, business strategy, product development, marketing, or another area that could help us build and grow successful AI products.\n\nMost importantly, we're looking for someone who takes their work seriously, communicates openly, and has a track record of following through on commitments.\n\nHow We'd Work Together\n\nWe want to build this as a team, not simply assign tasks and exchange payments.\n\nWe would share ideas, discuss product opportunities, divide responsibilities based on each person's strengths, and work toward regular releases and improvements.\n\nOnce we find the right person, we'll sit down together and work out:\n\nThe first product idea and its overall direction.\n\nThe technical approach and development responsibilities.\n\nMVP features, milestones, and testing.\n\nHow ownership and responsibilities will be shared.\n\nProduct launch, marketing, pricing, and future growth.\n\nWe're open to discussing a fair ownership arrangement based on each partner's contribution and responsibilities.\n\nWho Would Be a Good Fit?\n\nSomeone who enjoys building new things, thinks beyond individual tasks, and is interested in being part of something that can grow over time.\n\nPrevious experience with AI products, SaaS platforms, data analytics, or software startups would be a plus, but we're also interested in people who bring valuable complementary skills and fresh ideas.\n\nLet's Talk\n\nYou don't need to prepare a lengthy proposal or a formal business presentation.\n\nJust tell us a little about yourself, what you've worked on, and what you think you could bring to a project like this.\n\nIf we feel there's a good fit, we can arrange a conversation, exchange ideas, and explore what we could build together.\n\nWe're not looking for a quick one-off project. We'd much rather find someone reliable who shares our vision and is interested in building a lasting partnership.\n\nLet's create something valuable together and share in what we build.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T21:38:54+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Стартап Algility ищет долгосрочного партнёра для совместной разработки новых AI-продуктов по анализу данных и прогнозной аналитике с возможной долей владения. Конкретного технического задания нет, бюджет указан 25 USD, и это скорее предложение о партнёрстве, а не проект на разработку.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "freelancer:40837663",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/website-development/WordPress-Clone-Visual-Refresh",
+  "title": "WordPress Clone & Visual Refresh",
+  "description": "I have an existing WordPress site and need it duplicated onto a new domain. Every page, post, product, plugin, theme setting and piece of content must carry over so the new installation works exactly like the original. \n\nOnce the clone is live, I’d like a light facelift: fresher colours, modern fonts and button styles, plus new high-quality hero images and banners on the homepage. No text or page structure changes—just a cleaner, more professional look.\n\nPlease manage the full migration (files, database, SSL, DNS if needed) and confirm that all plugins, contact forms, e-commerce functions and SEO settings perform exactly as before. The updated design should remain mobile-friendly and fast-loading.\n\nDeliverables \n• Fully functional clone on the new domain, served over HTTPS \n• Site-wide colour, font and button updates applied \n• Replaced homepage hero images and banners (images provided) \n• Post-launch testing report and admin credentials\n\nThe project is complete when the new site mirrors the original in content and functionality while showcasing the refreshed visuals.",
+  "budget": 30.0,
+  "budget_min": 8.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-26T21:29:00+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 3,
+   "summary_ru": "Нужно клонировать существующий сайт на WordPress на новый домен со всем контентом, плагинами и SEO-настройками, а затем обновить визуал: цвета, шрифты, стили кнопок и изображения главной страницы без изменения текста и структуры. Бюджет 30 EUR для такого объёма низкий.",
+   "reply": "You need your WordPress site cloned to a new domain with all pages, products, plugins, settings and SEO carried over, and then a visual refresh with new colours, fonts, button styles and homepage hero images, while the text and page structure stay the same. I would start with the migration (files, database, HTTPS, DNS), then check forms, e-commerce and SEO against the original. The styling would go into a child theme so it's easy to review and revert. The migration and testing should take about 2 days, and the design updates and image swap about 1–2 more. The scope looks larger than the budget, so I'd like to know which part is the priority. Could you share access to the current site and confirm whether the shop runs on WooCommerce?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно клонировать ваш сайт на WordPress на новый домен со всеми страницами, товарами, плагинами, настройками и SEO, а затем обновить визуал: новые цвета, шрифты, стили кнопок и изображения главной страницы, при этом текст и структура страниц остаются прежними. Я бы начал с миграции (файлы, база данных, HTTPS, DNS), затем проверил бы формы, e-commerce и SEO по сравнению с оригиналом. Стили я вынесу в дочернюю тему, чтобы их было легко проверить и откатить. Миграция и тестирование займут около 2 дней, обновление дизайна и замена изображений ещё 1–2 дня. Объём работ выглядит больше бюджета, поэтому хотелось бы понять, что для вас в приоритете. Можете предоставить доступ к текущему сайту и подтвердить, работает ли магазин на WooCommerce?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можете ли вы предоставить доступ к текущему сайту и хостингу и подтвердить, работает ли магазин на WooCommerce?",
+    "Что важнее, если бюджет не покрывает всю работу: миграция на новый домен или визуальное обновление?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "flru:5530696",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530696/telegram-bot-po-gadaniyam-s-platejkoy.html",
+  "title": "Телеграм бот по Гаданиям с платежкой",
+  "description": "Всем привет! Нужно создать бота по гаданиям таро на основе нейросети, прикрепить платежку юмани и добавить оплату за тг звезды, сделать возможность создавать рассылки. Сделать...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 20:06:53 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 7,
+   "summary_ru": "Нужно создать Telegram-бота для гаданий на таро с трактовками от нейросети и функцией рассылок. В описании также упоминаются оплата и доступ к платным функциям, но детали по ним в объявлении не раскрыты.",
+   "reply": "Правильно понимаю, что нужен Telegram-бот, который по запросу делает расклад таро с трактовкой от нейросети, и есть рассылки для пользователей. Я бы сделал бота на aiogram: сценарии раскладов, генерация трактовок через API языковой модели с промптами под таро, админка для рассылок с сегментацией и очередью отправки. Ориентировочно базовая версия с раскладами и рассылками займёт 2–3 недели, с ИИ-ассистентами в разработке это укладывается в сроки.\n\nУточните, пожалуйста: нейросеть должна быть готовой (через API) или нужна собственная модель с дообучением? И какие типы раскладов планируются, только карты или что-то ещё?\n\nПосмотреть живые демо моих работ можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Правильно понимаю, что нужен Telegram-бот, который по запросу делает расклад таро с трактовкой от нейросети, и есть рассылки для пользователей. Я бы сделал бота на aiogram: сценарии раскладов, генерация трактовок через API языковой модели с промптами под таро, админка для рассылок с сегментацией и очередью отправки. Ориентировочно базовая версия с раскладами и рассылками займёт 2–3 недели, с ИИ-ассистентами в разработке это укладывается в сроки.\n\nУточните, пожалуйста: нейросеть должна быть готовой (через API) или нужна собственная модель с дообучением? И какие типы раскладов планируются, только карты или что-то ещё?\n\nПосмотреть живые демо моих работ можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Нейросеть должна быть готовой (через API) или нужна собственная модель с дообучением?",
+    "Какие типы раскладов планируются: только карты таро или что-то ещё?",
+    "Какой объём рассылок ожидается и нужна ли сегментация аудитории?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "flru:5530698",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530698/dorabotka-sayta-internet-magazina-na-webasyst--shop-script.html",
+  "title": "Доработка сайта интернет-магазина на WebAsyst + Shop-Script",
+  "description": "Условия заказа\n\nПривет! Нужно доработать лендинг, чтобы выросло количество заявок. Сейчас конверсия низкая: люди доходят до формы, но не отправляют.\n\nЧто надо сделать:...",
+  "budget": 10000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "Thu, 26 Nov 2026 20:04:38 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "shop",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 4,
+   "summary_ru": "Нужно доработать существующий лендинг на WebAsyst + Shop-Script, чтобы повысить конверсию: посетители доходят до формы, но не отправляют её. Бюджет 10 000 ₽, описание обрезано, поэтому задачи пока не до конца ясны.",
+   "reply": "Судя по описанию, нужно поднять конверсию лендинга: люди доходят до формы, но не отправляют её. Обычно причина в самой форме: лишних полях, неясном призыве к действию, отсутствии доверия или ошибках на мобильных. Я бы начал с короткого аудита страницы и формы, затем внёс правки: упростил поля, сделал понятный текст на кнопке, проверил отправку и уведомления. Ориентировочно на аудит и доработку уйдёт 2–4 дня, точнее скажу после согласования объёма. Какой пункт из «Что надо сделать» самый важный и есть ли доступ к админке Shop-Script и аналитике?\n\nПримеры похожих работ с живыми демо смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Судя по описанию, нужно поднять конверсию лендинга: люди доходят до формы, но не отправляют её. Обычно причина в самой форме: лишних полях, неясном призыве к действию, отсутствии доверия или ошибках на мобильных. Я бы начал с короткого аудита страницы и формы, затем внёс правки: упростил поля, сделал понятный текст на кнопке, проверил отправку и уведомления. Ориентировочно на аудит и доработку уйдёт 2–4 дня, точнее скажу после согласования объёма. Какой пункт из «Что надо сделать» самый важный и есть ли доступ к админке Shop-Script и аналитике?\n\nПримеры похожих работ с живыми демо смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой пункт из «Что надо сделать» самый важный и что именно сейчас мешает отправке формы?",
+    "Есть ли доступ к админке Shop-Script и к аналитике (например, Метрика), чтобы увидеть, на каком шаге пользователи уходят?",
+    "Нужно ли сохранить текущий дизайн или можно вносить правки в вёрстку и структуру страницы?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "kwork:3265462",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3265462",
+  "title": "Поиск потенциальных клиентов на разработку IT-продуктов",
+  "description": "Ищем специалиста по привлечению потенциальных заказчиков для команды разработчиков. Основная задача находить компании, которым требуется создание сайта, веб-сервиса или разработка индивидуального программного обеспечения, и передавать контакты заинтересованных лиц. Ожидаемый результат несколько потенциальных клиентов. По каждому необходимо предоставить название компании, краткую информацию о потребности в разработке и контакт представителя, который подтвердил заинтересованность в обсуждении проекта и согласился на передачу данных. Обычные списки контактов без подтверждённого интереса не принимаются. Дальнейшее общение с заказчиками, согласование деталей, составление технического задания и реализацию проектов берём на себя. Вознаграждение за весь согласованный объём работы составляет 50000 ₽. Оплата производится за выполненную работу независимо от того, будет ли заключён договор с привлечённым клиентом. Все расчёты осуществляются через биржу. Срок выполнения 30 дней. В отклике просим кратко описать ваш опыт привлечения клиентов в IT-сфере.",
+  "budget": 50000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-27 00:37:07",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 1,
+   "summary_ru": "Заказчик ищет исполнителя для поиска компаний, которым нужна разработка сайтов, веб-сервисов или ПО, и передачи контактов заинтересованных лиц за 50 000 ₽. Это задача по лидогенерации и продажам, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас проект по самой разработке, например сайт или веб-сервис, если поиск клиентов не требуется?",
+    "Вы ищете именно лидогенерацию для вашей команды, или нужен исполнитель, который будет вести клиентов до реализации проекта?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910859",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910859",
+  "title": "Створення сайту",
+  "description": "Створення сайту\n🛠\n#создание_сайта_под_ключ\nстворення багатосторінкового сайту з просуванням. Напрямок енергоефективне освітлення. Надаю посилання на сайт з розробником. Цікавить вартість, терміни та що входить в вартість",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T22:02:20+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 5,
+   "summary_ru": "Клиент ищет разработчика для создания многостраничного сайта под ключ для компании, которая продаёт энергоэффективное освещение, с последующим продвижением. Он хочет узнать стоимость, сроки и состав работ. Бюджет не указан, а клиент ссылается на сайт-образец.",
+   "reply": "Вам нужен многостраничный сайт под ключ для компании по энергоэффективному освещению, с последующим продвижением. Я могу сделать адаптивную структуру страниц, дизайн, формы заявок и базовую SEO-настройку (мета-теги, скорость, индексация). Полноценное продвижение — отдельная услуга, которую можно обсудить. Стоимость зависит от количества страниц и функций, поэтому после короткого созвона пришлю смету с подробным перечнем работ. Ориентировочный срок для сайта среднего объёма — 1–2 недели. Оплатить можно в USDT (TRC20 / TON) или удобным для вас способом.\n\nСколько примерно страниц нужно и понадобится ли каталог товаров? Можно ли посмотреть сайт, на который вы ссылаетесь?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен многостраничный сайт под ключ для компании по энергоэффективному освещению, с последующим продвижением. Я могу сделать адаптивную структуру страниц, дизайн, формы заявок и базовую SEO-настройку (мета-теги, скорость, индексация). Полноценное продвижение — отдельная услуга, которую можно обсудить. Стоимость зависит от количества страниц и функций, поэтому после короткого созвона пришлю смету с подробным перечнем работ. Ориентировочный срок для сайта среднего объёма — 1–2 недели. Оплатить можно в USDT (TRC20 / TON) или удобным для вас способом.\n\nСколько примерно страниц нужно и понадобится ли каталог товаров? Можно ли посмотреть сайт, на который вы ссылаетесь?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько примерно страниц нужно и нужен ли каталог товаров или только информационные страницы?",
+    "Какой сайт вы имели в виду как образец — можно ли посмотреть его ссылку и что в нём понравилось?",
+    "Какой у вас ориентировочный бюджет и когда нужно запустить сайт?"
+   ]
+  },
+  "found_at": "2026-11-26T22:22:36+00:00"
+ },
+ {
   "id": "freelancer:40837657",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/blockchain/USDT-Payment-Exchange-Platform",
