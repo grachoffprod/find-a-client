@@ -1,5 +1,421 @@
 [
  {
+  "id": "freelancer:40836812",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ui-design/Online-Education-Supplies-Store-Setup",
+  "title": "Online Education Supplies Store Setup",
+  "description": "I'm looking to set up a comprehensive online store dedicated to selling a wide range of educational supplies. Our primary clientele will be schools and businesses. \n\nThe store should feature:\n- Categories for school stationery, teaching aids, lab equipment, and larger school items\n- User-friendly navigation and robust search functionality\n- Secure payment gateway integration\n- Inventory management system\n- Responsive design for mobile and tablet access\n\nIdeal Skills & Experience:\n- E-commerce development experience\n- Familiarity with inventory management systems\n- Strong UI/UX design skills\n- Experience with secure payment integrations",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-26T10:02:58+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 6,
+   "summary_ru": "Клиент хочет создать интернет-магазин учебных принадлежностей для школ и компаний с категориями канцелярии, наглядных пособий, лабораторного оборудования и крупногабаритных товаров, быстрым поиском, управлением складом и адаптивным дизайном. Бюджет 750 GBP.",
+   "reply": "You're looking for a responsive online store for schools and businesses, with clear categories (stationery, teaching aids, lab equipment, and bulky school items), fast search, and inventory management behind it. I'd build it on a modern stack, with a catalog structure that handles bulk and large items well, filterable category pages, and an admin panel where your team can update stock and product data without touching code. With AI-assisted development, I can deliver a first working version in about 2–3 weeks, followed by a round of fixes after your review. Two things to confirm: roughly how many products will be in the initial catalog, and do you need inventory synced with an existing system (such as a spreadsheet or ERP), or is tracking inside the store enough?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен адаптивный интернет-магазин для школ и компаний с понятными категориями (канцелярия, наглядные пособия, лабораторное оборудование и крупногабаритные школьные товары), быстрым поиском и системой управления складом. Я бы сделал его на современном стеке, со структурой каталога, которая удобно работает с большими объёмами и крупными товарами, фильтруемыми страницами категорий и админ-панелью, где ваша команда сможет обновлять остатки и данные о товарах без участия разработчика. С помощью ИИ-ассистентов в разработке я могу выпустить первую рабочую версию примерно за 2–3 недели, а после вашей проверки внести правки. Уточню два момента: сколько товаров будет в начальном каталоге и нужна ли синхронизация остатков с существующей системой (таблицей или ERP), или достаточно учёта внутри магазина?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько товаров планируется в начальном каталоге?",
+    "Нужна ли синхронизация остатков с существующей системой (таблицей, ERP или 1С), или достаточно учёта внутри магазина?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "freelancer:40836787",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/data-analysis/Analysis-Top-Revenue-Products",
+  "title": "AI Analysis: Top Revenue Products",
+  "description": "I need a data-driven breakdown of which of our products and services bring in the most money. You’ll receive three raw inputs from me—detailed sales records, invoice/payment files, and monthly accounting income reports. Your task is to consolidate these sources, clean any inconsistencies, and run an AI-assisted aggregation so every product or service is credited with its full revenue, even when it shows up under slightly different names across the files.\n\nOnce the numbers are reconciled, present the outcome in a single, easy-to-navigate spreadsheet. The sheet must rank each product or service by total income and include percentage contribution and grand totals. A cover tab with a short explanation of your method and any data gaps you found will help us follow your logic.\n\nFeel free to use Python (pandas, NumPy), Power Query, or any other analytics tool you prefer—the only non-negotiable is that the final deliverable is the ranked spreadsheet (Excel or Google Sheets). Let me know your estimated turnaround time and any clarifying questions you have so we can get started right away.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T09:46:07+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 7,
+   "summary_ru": "Клиенту нужна сводка, которая объединит данные о продажах, инвойсах и месячных бухгалтерских отчетах, приведет названия продуктов к единому виду и покажет рейтинг по выручке с процентами и итогами в одной таблице Excel или Google Sheets.",
+   "reply": "You need the three sources (sales records, invoices/payments, and monthly accounting reports) merged into one view, with product names normalized so each item gets its full revenue, then ranked in a clean spreadsheet with percentages and totals. I would handle this with a Python pipeline (pandas): load and validate each file, run a name-matching step that groups near-duplicate product names and flags uncertain matches for your review, reconcile totals against the accounting reports, and export an Excel workbook with a cover tab covering method and data gaps, plus a ranked sheet using formulas for shares and grand totals. Estimated turnaround is about 3–5 working days after I receive the files. Could you share sample rows from each source? Also, do the accounting reports break revenue down by product, or only by month?\n\nSee the portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно объединить три источника (записи о продажах, инвойсы/платежи и месячные бухгалтерские отчеты) в единое представление, привести названия продуктов к единому виду, чтобы каждый получил полную выручку, и затем свести всё в аккуратную таблицу с рейтингом, процентами и итогами. Я бы сделал это на Python (pandas): загрузка и проверка каждого файла, сопоставление названий с группировкой похожих вариантов и пометкой спорных совпадений для вашей проверки, сверка итогов с бухгалтерскими отчетами, и экспорт в Excel: вкладка с описанием метода и пробелами в данных, а также лист с рейтингом, где доли и итоги считаются формулами. Ориентировочный срок составляет 3–5 рабочих дней после получения файлов. Не могли бы вы прислать примеры строк из каждого источника? И еще: разбивают ли бухгалтерские отчеты выручку по продуктам или только по месяцам?\n\nПосмотреть портфолио с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можете прислать примеры строк из каждого источника (продажи, инвойсы, бухгалтерские отчеты)?",
+    "Бухгалтерские отчеты разбивают выручку по продуктам или только по месяцам?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "freelancer:40836734",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/digital-marketing/Digital-Marketing-Agency-for-SaaS",
+  "title": "Digital Marketing Agency for AI SaaS Product",
+  "description": "We are looking for an experienced digital marketing agency to manage and grow our AI-SaaS Product.\n\nScope of Work:\n- SEO and organic growth\n- Google Ads, Meta Ads and LinkedIn Ads\n- Content and social media marketing",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T09:32:37+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 1,
+   "summary_ru": "Клиент ищет digital-маркетинговое агентство для продвижения AI SaaS-продукта: SEO, рекламные кампании в Google, Meta и LinkedIn, контент и SMM. Это маркетинговая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "freelancer:40836765",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/cpanel/Zero-Downtime-WordPress-Host-Migration",
+  "title": "Zero-Downtime WordPress Host Migration",
+  "description": "I need my entire WordPress environment moved to a new hosting account without visitors noticing the change. That means every file, database table, theme, plugin, upload, and setting must be cloned, spun up on the new server, fully tested, and then put live only when we both agree everything works. \n\nEmail is part of the job: every mailbox, message, folder, contact and existing configuration has to come over intact so users open their clients on Monday and see the same inbox they closed on Friday. \n\nThe current host uses cPanel and gives SSH access; the destination host offers the same. Feel free to use WP-CLI, phpMyAdmin, rsync, imapsync or any other tool you trust, as long as the result is reliable. \n\nKey steps I expect: \n• Create a temporary/staging copy on the new host and replicate the database and file system. \n• Copy all email accounts and historical mail, preserving folder structure and passwords. \n• Verify SSL, permalinks, forms, cron jobs and any third-party API calls. \n• Perform the final DNS cut-over during a low-traffic window once we agree the staging site passes tests. \n\nDeliverables accepted when: \n1. The site loads from the new server with no broken links, images or 404s. \n2. Admin login, plugin pages, and the front-end all function normally. \n3. All mailboxes authenticate and display historical mail on both webmail and IMAP clients. \n4. A brief hand-off note lists any credentials changed and points any residual DNS TTLs. \n\nIf you have a proven process for zero-downtime WordPress migrations and email transfers, I’m ready to get this scheduled right away.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T09:29:33+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 2,
+   "summary_ru": "Клиент просит перенести WordPress-сайт на новый хостинг без простоя вместе с почтовыми ящиками и историей писем (IMAP, webmail), с тестированием и переключением DNS. По сути это работа системного администрирования и миграции хостинга, а не разработка, поэтому под услуги Yakov она плохо подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой объём почты и писем нужно перенести, и есть ли ограничения по времени переключения?",
+    "Есть ли на сайте кастомные плагины или интеграции, которые потребуют доработки после переноса?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "freelancer:40836764",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/reddit-marketing/Reddit-Comment-Posting-Specialist",
+  "title": "Reddit Comment Posting Specialist",
+  "description": "I run IMP Marketing, an eCommerce-focused agency, and I regularly need approved comments placed on carefully chosen Reddit threads. I’ll supply everything—subreddit links, the exact copy to paste, and the wording that transparently discloses your connection to IMP Marketing—so your task is pure execution.\n\nUsing your own well-established Reddit account, you’ll post the comment in the right spot, double-checking that you stay within Reddit’s overall rules as well as any subreddit-specific guidelines. Right after you hit “comment,” send me the direct URL so I can verify it’s live. That link is the only proof I need.\n\nThe flow is simple:\n• I send you a batch of threads plus text. \n• You post, confirm compliance, and share the live links. \n• I release payment—starting at $3 per successful comment. \n\nThere are dozens of comments to be placed every month, and I’m interested in keeping the collaboration going as long as you deliver promptly and communicate quickly (email or Discord work best).\n\nWhen you respond, include:\n• The age and karma level of your Reddit account \n• One or two public comment examples, if possible \n• Your preferred per-comment rate if different from the starting figure \n\nIf you’re an experienced Redditor who understands the platform’s culture and can deliver on tight timelines, let’s get started.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T09:26:14+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Заказчик ищет исполнителя, который будет публиковать оплачиваемые комментарии с его текстом на Reddit от собственного аккаунта, по $3 за комментарий. Это не разработка, поэтому под услуги Yakov не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "freelancer:40836763",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/power-automate/Power-Apps-Form-Word-Automation",
+  "title": "Power Apps Form-to-Word Automation",
+  "description": "I'm looking for an experienced Microsoft Power Apps / Power Automate developer to build a simple, user-friendly electronic form that automatically generates a professionally formatted Microsoft Word document.\n\nThe application is intended to streamline the preparation of standardised assessment reports in an administrative environment.\n\nCurrently, staff manually complete Word templates. I want to replace this with an electronic form where users enter the required information into designated fields, select relevant options and click Generate to produce a completed, editable Word document.\n\nRequired Features\n\n1. Electronic Form\n\nText fields for name, address, employee number, position, school, dates and reference numbers.\n\nDropdown menus and checkboxes for notifications and assessment categories.\n\nOptional fields for relevant demographic information.\n\nLarger text boxes for Summary, Allegations, Witnesses, Intelligence, Physical Material and Conclusion/Recommendation.\n\nAbility to add multiple witnesses and document reference numbers.\n\nConditional fields depending on selected options.\n\n2. Word Document Generation\n\nGenerate an editable Microsoft Word document (.docx) from the completed form.\n\nAutomatically populate an existing professional Word template.\n\nMaintain consistent headings, tables, fonts, margins and page numbering.\n\nAutomatically handle longer text without disrupting the formatting.\n\nAllow users to save, edit and print the generated document.\n\n3. Two Document Types\n\nThe application should generate either:\n\nFull Assessment Report, including all sections.\n\nCondensed Notification Record, for matters requiring only limited documentation.\n\nThe appropriate fields should appear depending on the document type selected.\n\nPreferred Technology\n\nMicrosoft Power Apps, Power Automate and Word templates, or an equivalent solution compatible with Microsoft 365 and SharePoint.\n\nThe application should be straightforward to maintain, with the ability to update fields or Word templates without requiring extensive programming knowledge.\n\nDeliverables\n\nFully functioning prototype using fictional information.\n\nUser-friendly electronic form.\n\nTwo professionally formatted Word document outputs.\n\nAll editable source files and templates.\n\nBasic instructions for modifying and maintaining the application.\n\nDemonstration of the complete process from entering information to generating the document.\n\nImportant\n\nThis is initially a standalone proof of concept. No connection to government systems, confidential records or external databases is required.\n\nThe developer must use fictional test information only.\n\nPlease provide examples of similar projects, your recommended approach, anticipated completion time, any ongoing Microsoft licensing requirements and a fixed-price quote.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-26T09:25:01+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 4,
+   "summary_ru": "Клиент хочет электронную форму (Power Apps / Power Automate или аналог в экосистеме Microsoft 365), которая заполняет существующий шаблон Word и создаёт два типа отчётов: полный отчёт об оценке и краткую запись об уведомлении. Это прототип на тестовых данных с повторяемыми полями, условными полями и инструкцией по поддержке. Бюджет 250 AUD заметно ниже объёма работ, а Power Apps не входит в мой стек.",
+   "reply": "You need a form that fills your existing Word assessment template, producing either a full report or a condensed notification record from fictional test data. It should support repeatable witness entries, conditional fields, and long text that wraps cleanly without breaking headings, tables, or page numbering. I'd build a lightweight browser-based form that populates a .docx template, so layout changes stay in Word and don't require code. The prototype would include both document types, editable source files, and a short maintenance guide. Power Apps isn't my main stack, so I'd propose an equivalent solution that works alongside Microsoft 365. I estimate about 5–7 days for the prototype.\n\nTwo questions:\n- Would a browser-based app that outputs .docx work instead of Power Apps?\n- Can you share the current Word template so I can check its structure?\n\nSee live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужна форма, которая заполняет существующий шаблон Word и создаёт либо полный отчёт, либо краткую запись об уведомлении, используя вымышленные тестовые данные. Она должна поддерживать повторяемые записи свидетелей, условные поля и длинный текст, который переносится без нарушения заголовков, таблиц и нумерации страниц. Я бы сделал лёгкое веб-приложение, которое заполняет шаблон .docx, чтобы изменения макета вносились в Word и не требовали программирования. Прототип включал бы оба типа документов, редактируемые исходники и короткое руководство по поддержке. Power Apps не является моим основным стеком, поэтому я предлагаю эквивалентное решение, которое работает вместе с Microsoft 365. Оценка срока для прототипа: примерно 5–7 дней.\n\nДва вопроса:\n- Подойдёт ли вместо Power Apps браузерное приложение, которое формирует .docx?\n- Можете ли вы прислать текущий шаблон Word, чтобы я проверил его структуру?\n\nЖивые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Подойдёт ли вместо Power Apps браузерное приложение, которое формирует .docx?",
+    "Можете ли вы прислать текущий шаблон Word, чтобы проверить его структуру?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "freelancer:40836749",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-workflow-automation/Automate-Routine-Business-Tasks",
+  "title": "Automate Routine Business Tasks",
+  "description": "I need an AI-driven workflow that removes as much manual effort as possible from my day-to-day operations. The first priority is to automate the repeated tasks I currently juggle between Google Sheets, Gmail, and Google Drive.\n\nHere’s what the system must accomplish:\n• Move data seamlessly between my Google Sheets and any connected Drive folders so every record stays in sync. \n• Trigger and send reminder, update, or follow-up emails from Gmail when specific sheet events or dates occur. \n• Generate clear, shareable reports from the business data stored in those sheets and deliver them automatically to a designated Drive location—or straight to my inbox.\n\nI’m open to the best approach—whether that’s Apps Script, Zapier, Make, Python, or a combination—so long as the final result is reliable, easy for me to extend, and requires minimal ongoing upkeep.\n\nAcceptance criteria:\n• End-to-end demo showing data moving, emails sending, and reports generating with no manual intervention. \n• Well-commented code or well-documented no-code workflows handed over in a shared Drive folder. \n• Quick reference guide so I can adjust triggers, email templates, and report parameters myself.\n\nIf you’ve built similar Google-centric automations, I’d love to see a brief example and hear your proposed timeline.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T09:15:40+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 5,
+   "summary_ru": "Нужна автоматизация рутинных задач на базе Google Sheets, Gmail и Drive: синхронизация данных между таблицами и папками, письма по событиям и датам, автоматические отчёты в Drive или на почту. Бюджет небольшой для такого объёма работ.",
+   "reply": "You need a Google Sheets, Gmail and Drive workflow that keeps records in sync, sends emails when dates or statuses change, and delivers scheduled reports to Drive or your inbox, with no manual steps in between. I'd build it mainly in Google Apps Script, since it runs natively in your Google account and needs no extra subscriptions. Sheets stays the source of truth, triggers are time-based or edit-based, email templates live in a config sheet you can edit, and reports are generated as Google Docs or PDFs and saved to your chosen Drive folder. The code will be commented, and I'll include a short guide for changing triggers, templates and report parameters. With AI-assisted development, I expect a first working version with an end-to-end demo in about 1–2 weeks. For live demos, see https://grachoffprod.github.io/portfolio/\n\nWhich sheets and Drive folders are involved, and roughly how many records do you process per day?\n\nYakov",
+   "reply_ru": "Вам нужен рабочий процесс на базе Google Sheets, Gmail и Drive, который будет синхронизировать записи, отправлять письма при изменении дат или статусов и доставлять плановые отчёты в Drive или на почту без ручных шагов. Я бы построил его в основном на Google Apps Script: он работает прямо в вашем аккаунте Google и не требует дополнительных подписок. Таблица остаётся источником данных, триггеры настраиваются по времени или по изменениям, шаблоны писем хранятся в редактируемом листе настроек, а отчёты формируются в Google Docs или PDF и сохраняются в выбранную папку Drive. Код будет с комментариями, а также я добавлю краткое руководство по изменению триггеров, шаблонов и параметров отчётов. С помощью ИИ-ассистентов в разработке я ожидаю первую рабочую версию с демонстрацией от начала до конца примерно через 1–2 недели. Живые демо: https://grachoffprod.github.io/portfolio/\n\nКакие таблицы и папки Drive задействованы и сколько записей вы обрабатываете примерно в день?\n\nYakov",
+   "questions": [
+    "Какие именно таблицы Google Sheets и папки Drive участвуют в процессе?",
+    "Сколько записей примерно обрабатывается в день и как часто нужны отчёты?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "freelancer:40836753",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/financial-analysis/Craft-Investor-Package-for-Travel",
+  "title": "Craft Investor Package for Travel Company seeking funding",
+  "description": "I’m the founder of Home To Africa Tours and Travel. We already operate with regular sales and an established team, and now I’m gearing up to court external investors. To do that convincingly, I need a seasoned partner who can shape our story and numbers into a complete, polished investment package.\n\nThe support I’m looking for spans three core areas: \n• Creating a compelling pitch deck and refreshed company profile that captures our traction, market positioning, and growth vision. \n• Preparing detailed financial forecasts that outline funding needs, revenue drivers, and realistic returns. \n• Organizing all company, legal, and KYC documentation so due-diligence is smooth and fast.\n\nMy expectation is a collaborative process—sharing existing data, refining narrative and design in PowerPoint or Google Slides, stress-testing assumptions in Excel or Google Sheets, and packaging everything into files we can circulate with confidence. If you’ve guided travel or consumer-service businesses through fundraising before, that experience will be a plus.\n\nOnce we agree on scope and timeline, I’ll provide our current financials, operational metrics, and brand assets so we can move quickly toward an investor-ready suite of documents. I’m eager to hear how you would approach this journey with us.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T09:15:19+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Клиент, основатель туристической компании Home To Africa Tours and Travel, ищет партнёра для подготовки инвестиционного пакета: питч-дека, финансовых прогнозов в Excel или Google Sheets и комплекта юридических и KYC-документов. Это консалтинг и подготовка презентаций, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "kwork:3275709",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275709",
+  "title": "Выгрузка информации из CRM на сайт через API",
+  "description": "На сайте есть карточки врачей с информацией (ФИО, стаж и тд), в CRM есть график работы каждого врача. Необходимо настроить через API, чтобы на сайте, в информации о враче, отображалось ближайшее свободное время для записи к нему и филиалы в которых он работает.",
+  "budget": 10000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 12:56:21",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "crm",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Нужно настроить выгрузку данных из CRM через API на сайт, чтобы в карточках врачей отображались ближайшее свободное время для записи и филиалы, где работает каждый врач. Бюджет 10 000 ₽.",
+   "reply": "Вам нужно связать карточки врачей на сайте с графиком работы в CRM: показывать ближайшие свободные слоты для записи и филиалы, где работает каждый врач. Сделаю это через API CRM: сайт будет получать расписание и список филиалов, я учту занятость и часовые пояса и выведу данные в карточку врача. Чтобы не нагружать CRM, добавлю кеширование с периодическим обновлением. По срокам ориентировочно 3–5 дней после получения доступа к API и тестовой среде. Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая CRM используется и есть ли документация API или тестовый доступ? Нужно ли показывать слоты только на ближайшие 7 дней?\n\nYakov",
+   "reply_ru": "Вам нужно связать карточки врачей на сайте с графиком работы в CRM: показывать ближайшие свободные слоты для записи и филиалы, где работает каждый врач. Сделаю это через API CRM: сайт будет получать расписание и список филиалов, я учту занятость и часовые пояса и выведу данные в карточку врача. Чтобы не нагружать CRM, добавлю кеширование с периодическим обновлением. По срокам ориентировочно 3–5 дней после получения доступа к API и тестовой среде. Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая CRM используется и есть ли документация API или тестовый доступ? Нужно ли показывать слоты только на ближайшие 7 дней?\n\nYakov",
+   "questions": [
+    "Какая CRM используется и есть ли документация API или тестовый доступ?",
+    "Нужно ли показывать слоты только на ближайшие 7 дней или на более длительный период?",
+    "Как часто должны обновляться свободные слоты на сайте: в реальном времени или достаточно раз в несколько минут?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "kwork:3275704",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275704",
+  "title": "Исправление ошибки в WordPress",
+  "description": "Сейчас сайт работает на PHP 7.4, при обновлении версии PHP на более новую на сайте возникает критическая ошибка и он перестает работать. При сканировании плагином PHP Compatibility Scanner выявлено несколько элементов не поддерживающих более новые версии PHP. Необходимо исправить данные элементы для работы сайта на PHP 8+",
+  "budget": 10000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 12:53:21",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Сайт на WordPress перестаёт работать при переходе с PHP 7.4 на PHP 8+. Сканер PHP Compatibility нашёл несколько несовместимых элементов, которые нужно исправить.",
+   "reply": "Сайт на WordPress падает после перехода с PHP 7.4 на 8+, а сканер совместимости нашёл несколько проблемных мест. Я бы сначала воспроизвёл ошибку на копии сайта, сверил лог ошибок с отчётом сканера и поправил конкретные конструкции: устаревшие функции, deprecated-вызовы, несовместимые типы и обращения к несуществующим индексам. Затем проверю основные страницы и админку на PHP 8.x, чтобы убедиться, что ничего не сломалось. На такую задачу обычно уходит 1–2 дня, точнее станет ясно после изучения логов.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Сайт на WordPress падает после перехода с PHP 7.4 на 8+, а сканер совместимости нашёл несколько проблемных мест. Я бы сначала воспроизвёл ошибку на копии сайта, сверил лог ошибок с отчётом сканера и поправил конкретные конструкции: устаревшие функции, deprecated-вызовы, несовместимые типы и обращения к несуществующим индексам. Затем проверю основные страницы и админку на PHP 8.x, чтобы убедиться, что ничего не сломалось. На такую задачу обычно уходит 1–2 дня, точнее станет ясно после изучения логов.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли доступ к хостингу или копии сайта для тестов и какую версию PHP 8 нужно использовать?",
+    "Проблемные элементы находятся в основной теме или в сторонних плагинах?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "kwork:3267934",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3267934",
+  "title": "Разработка сложного парсера",
+  "description": "Требуется разработать скрипт для Парсинга данных с сайта который использует Cloudflare и hCaptcha. \nСкрипт должен работать только на HTTP запросах, поддерживать многопоточную работу с прокси, txt списками. \nПредоставлю все необходимые материалы для работы. Ищу исполнителя только с опытом работы с похожими задачами и пониманием, как работать с парсингом сайта на запросах, который стоит за Cloudflare. С аккаунтами с 0 заказов не работаю.",
+  "budget": 15000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 12:42:58",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 5,
+   "summary_ru": "Нужен скрипт для сбора данных с сайта под защитой Cloudflare и hCaptcha. Он должен работать только на HTTP-запросах и поддерживать многопоточность с прокси из txt-списков. Заказчик просит исполнителя с опытом похожих задач.",
+   "reply": "Вы хотите получить скрипт, который собирает данные с сайта за Cloudflare и hCaptcha, работает только на HTTP-запросах и ведёт многопоточную работу через прокси из txt-списков. Я бы начал с анализа сетевых запросов и структуры ответов, затем сделал бы модуль прокси и пул потоков, а после них сбор и сохранение данных с логированием ошибок. Для защиты от ботов нужно понять, как именно она настроена и какие решения допустимы. Ориентировочный срок базовой версии — 5–7 дней после получения материалов.\n\nКакие данные нужно собирать и с какой частотой? Есть ли у вас разрешение владельца сайта на сбор данных?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите получить скрипт, который собирает данные с сайта за Cloudflare и hCaptcha, работает только на HTTP-запросах и ведёт многопоточную работу через прокси из txt-списков. Я бы начал с анализа сетевых запросов и структуры ответов, затем сделал бы модуль прокси и пул потоков, а после них сбор и сохранение данных с логированием ошибок. Для защиты от ботов нужно понять, как именно она настроена и какие решения допустимы. Ориентировочный срок базовой версии — 5–7 дней после получения материалов.\n\nКакие данные нужно собирать и с какой частотой? Есть ли у вас разрешение владельца сайта на сбор данных?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие именно данные нужно собирать и с какой частотой?",
+    "Есть ли у вас разрешение владельца сайта на сбор данных?",
+    "Какие материалы вы предоставите: примеры запросов, список прокси, структуру результата?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910806",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910806",
+  "title": "Шукаємо партнерів для онлайн-школи Skillity | До 2000 грн за клієнта",
+  "description": "Шукаємо партнерів для онлайн-школи Skillity | До 2000 грн за клієнта\n💰\n 10 000 UAH\n🛠\n#продажи_и_генерация_лидов\n#управление_клиентами_и_crm\nВітаємо! \nМи — Skillity, українська онлайн-школа програмування для дітей та підлітків віком від 10 до 18 років.\n Наш сайт: \nhttps://skillity.com.ua/\nЗараз активно розвиваємо школу та шукаємо партнерів для довгострокової співпраці.\n Кого шукаємо?\nРозглядаємо різні варіанти співпраці:  Блогерів та…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T09:23:06+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Онлайн-школа программирования Skillity для детей 10–18 лет ищет партнёров (блогеров и других) для долгосрочного сотрудничества с оплатой до 2000 грн за клиента. Это партнёрские продажи и генерация лидов, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам какая-либо разработка (сайт, CRM, интеграции), или речь только о партнёрской программе?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910807",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910807",
+  "title": "Відновлення сайту.На сервері Netx. Cайт на  Opencart",
+  "description": "Відновлення сайту.На сервері Netx. Cайт на  Opencart\n🛠\n#веб_программирование\n#сопровождение_сайтов\nВідновлення сайту.\nНа сервері сайт на Opencart\nПісля обістрілів сервер ліг, і після відновлення серверів сайт не відновився.\nНа фото є відповідь",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T09:28:32+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 7,
+   "summary_ru": "Клиент просит восстановить интернет-магазин на OpenCart, который не поднялся после отключения сервера на хостинге Netx. Нужно найти причину сбоя и вернуть сайт в рабочее состояние. Бюджет не указан.",
+   "reply": "Вітаю! Розумію задачу так: після відключення сервера на Netx сайт на OpenCart не піднімається, потрібно знайти причину і повернути магазин у робочий стан. Спочатку перевірю логи, config.php, підключення до бази та права на файли, потім відновлю файли й базу з бекапу або виправлю пошкодження. Орієнтовно діагностика займе день, відновлення ще 1–2 дні залежно від обсягу. Оплату можна зробити в USDT (TRC20/TON) або іншим зручним способом. Щоб оцінити точніше, уточніть, будь ласка: що зараз показує сайт (помилка, біла сторінка, помилка бази) і чи є у вас доступ до хостингу та актуальний бекап файлів і бази?\n\nПортфоліо з живими демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! Понимаю задачу так: после отключения сервера на Netx сайт на OpenCart не поднимается, нужно найти причину и вернуть магазин в рабочее состояние. Сначала проверю логи, config.php, подключение к базе и права на файлы, затем восстановлю файлы и базу из бекапа или исправлю повреждения. Ориентировочно диагностика займёт день, восстановление ещё 1–2 дня в зависимости от объёма. Оплату можно сделать в USDT (TRC20/TON) или другим удобным способом. Чтобы оценить точнее, уточните, пожалуйста: что сейчас показывает сайт (ошибка, белая страница, ошибка базы) и есть ли у вас доступ к хостингу и актуальный бекап файлов и базы?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Что сейчас показывает сайт: текст ошибки, белую страницу или ошибку подключения к базе данных?",
+    "Есть ли у вас доступ к хостингу Netx и актуальный бекап файлов и базы данных магазина?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910809",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910809",
+  "title": "Налаштувати моніторинг цін конкурентів і навчити (разово)",
+  "description": "Налаштувати моніторинг цін конкурентів і навчити (разово)\n💰\n 2000 UAH\n🛠\n#bi_и_аналитика_данных\n#парсинг_данных\nІнтернет-магазин \nсантехнікиPlasmir.com.ua\n, на етапі запуску проєкту потрібно знати реальні ціни в Україні (Google Shopping та інтернет-магазини) на той самий товар: та сама модель, колір і комплектація. 5 постачальників загальна кількість близька 40000 тис товарів Що зробити: Підібрати інструмент…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T09:51:44+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 4,
+   "summary_ru": "Нужно настроить регулярный мониторинг цен конкурентов в Украине (Google Shopping и интернет-магазины) на одинаковые товары примерно по 40 000 позиям от 5 поставщиков для интернет-магазина сантехники, плюс разовое обучение. Бюджет 2000 UAH.",
+   "reply": "Потрібно налаштувати систему, яка регулярно збирає ціни на однакові товари (та сама модель, колір, комплектація) з Google Shopping та інтернет-магазинів України і порівнює їх із вашими постачальниками, приблизно 40 000 позицій. Я б пройшов такі етапи: спочатку вибрати інструмент (парсер на Python із розкладом або готовий сервіс, якщо він покриває ваші джерела), потім налаштувати збір даних із нормалізацією назв і зіставленням моделей, вивести результат у таблицю або простий дашборд і провести навчання. Орієнтовно 5–7 робочих днів на перший варіант, залежно від того, наскільки стабільно сайти віддають дані. Оплату можна провести через USDT (TRC20 / TON) або інший зручний спосіб, обговоримо.\n\nПитання: які постачальники та магазини для вас у пріоритеті і в якому форматі зручніше бачити результат, у Google Таблиці чи в окремому сервісі?\n\nПортфоліо з живими демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно настроить систему, которая регулярно собирает цены на одинаковые товары (та же модель, цвет, комплектация) с Google Shopping и интернет-магазинов Украины и сравнивает их с вашими поставщиками, примерно 40 000 позиций. Я бы прошел такие этапы: сначала выбрать инструмент (парсер на Python с расписанием или готовый сервис, если он покрывает ваши источники), затем настроить сбор данных с нормализацией названий и сопоставлением моделей, вывести результат в таблицу или простой дашборд и провести обучение. Ориентировочно 5–7 рабочих дней на первый вариант, в зависимости от того, насколько стабильно сайты отдают данные. Оплату можно провести через USDT (TRC20 / TON) или другой удобный способ, обсудим.\n\nВопрос: какие поставщики и магазины для вас в приоритете и в каком формате удобнее видеть результат, в Google Таблице или в отдельном сервисе?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие поставщики и магазины для вас в приоритете, и нужно ли мониторить все 5 поставщиков сразу?",
+    "В каком формате удобнее получать результат: Google Таблица, отдельный веб-интерфейс или уведомления в Telegram?"
+   ]
+  },
+  "found_at": "2026-11-26T10:05:17+00:00"
+ },
+ {
   "id": "freelancer:40836706",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/blockchain/Blockchain-Integration-Architect-Needed",
