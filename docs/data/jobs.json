@@ -1,5 +1,489 @@
 [
  {
+  "id": "freelancer:40837150",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-developmet/VisaNet-Onboarding-API-Setup",
+  "title": "VisaNet Onboarding & API Setup",
+  "description": "I want to get my new Web POS platform live on Visa as quickly as possible. The first step is opening a fully functional VisaNet account, followed by activating Visa Cloud Connect so that I can route transactions securely through the cloud. Once credentials are issued, I also need ready-to-use payment APIs that plug straight into my existing web application.\n\nHere’s exactly what I expect from you: \n• Guide me through the VisaNet application, including any compliance or KYC paperwork that Visa typically requests. \n• Coordinate the technical configuration in Visa Cloud Connect and obtain the production keys. \n• Deliver REST-based payment APIs (JSON over HTTPS) with clear documentation and a small sample app that runs a test sale from my Web POS. \n• Prove the flow end-to-end in the Visa sandbox, then walk me through the steps to switch to live processing.\n\nThe job is complete when the VisaNet account is approved, Cloud Connect is active, and I can successfully run a real authorization and capture from my Web POS dashboard.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T13:51:50+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Клиент хочет подключить свой веб-POS к Visa: открыть аккаунт VisaNet с прохождением KYC, настроить Visa Cloud Connect, получить продакшн-ключи и получить REST-API для платежей с примером приложения и тестовой продажей в сэндбоксе. Бюджет 250 USD мал для такого объёма, а одобрение аккаунта зависит от Visa и не контролируется разработчиком.",
+   "reply": "You want your Web POS live on Visa: account setup, Cloud Connect configuration, and REST payment APIs with a sample app that runs a sale end to end. I'd split this into two tracks. First, I'd build the API layer against the Visa sandbox: authorization, capture, refund and status endpoints in JSON over HTTPS, with clear documentation and a small demo app wired to your POS dashboard. Second, I'd help you assemble the KYC package and configure Cloud Connect once credentials are issued, then switch the keys to production. The API and sandbox part is roughly 1–2 weeks. Visa's approval timeline is outside my control, so I can commit to the technical deliverables but not to the date of account approval.\n\nTwo questions: do you already have an acquiring bank or processor partner, and which stack is your Web POS built on?\n\nLive demos are here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите запустить ваш веб-POS на Visa: настройка аккаунта, конфигурация Cloud Connect и REST-API для платежей с примером приложения, которое проводит продажу от начала до конца. Я бы разделил работу на два направления. Сначала построил бы слой API в сэндбоксе Visa: эндпоинты авторизации, захвата, возврата и проверки статуса в формате JSON поверх HTTPS, с понятной документацией и небольшим демо-приложением, подключённым к дашборду вашего POS. Затем помог бы собрать пакет KYC и настроить Cloud Connect, как только будут выданы учётные данные, и переключил бы ключи на продакшн. Часть с API и сэндбоксом займёт примерно 1–2 недели. Сроки одобрения аккаунта Visa от меня не зависят, поэтому я могу взять на себя технические результаты, но не дату одобрения.\n\nДва вопроса: есть ли у вас уже банк-эквайер или партнёр-процессор, и на каком стеке построен ваш веб-POS?\n\nЖивые демо здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже банк-эквайер или партнёр-процессор для подключения к VisaNet?",
+    "На каком стеке построен ваш веб-POS (фреймворк, бэкенд, база данных)?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837124",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/app-development/Freelance-Income-Finder-App",
+  "title": "Freelance Income Finder App -- 2",
+  "description": "“Happy and Money” will become a streamlined platform—either a responsive web app or a cross-platform mobile app—where users can quickly discover legitimate freelance and remote work opportunities tailored to their skills. The core idea is simple: help people boost their income by surfacing the best gigs in one place and guiding them from profile creation to job application.\n\nI need the full product cycle covered: UX/UI design that feels upbeat and motivational, solid backend logic to pull or aggregate listings, and a lightweight admin area so I can flag featured jobs and manage content without touching code. Smart filtering, keyword search, and basic push / email alerts should keep users engaged, while a clean onboarding flow will capture their skills and preferred hourly rates to drive personalized recommendations.\n\nKey deliverables:\n• Interactive high-fidelity designs (Figma or similar) \n• Fully functional web app or React Native/Flutter build, ready for store deployment \n• Secure authentication, user profiles, and job-matching algorithm \n• Simple admin dashboard and deployment documentation \n\nClean code, modular architecture, and concise hand-off notes are essential so future enhancements—like adding surveys or small-business ideas—remain straightforward. If you have experience integrating job APIs, scraping remote boards responsibly, or building income-finder tools, your expertise will make this project truly shine.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T13:32:49+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 3,
+   "summary_ru": "Заказчик хочет создать платформу-агрегатор фриланс и удалённых вакансий с дизайном, авторизацией, подбором вакансий, уведомлениями, админ-панелью и публикацией в сторах. Бюджет 25 USD явно не соответствует такому объёму работ.",
+   "reply": "You're describing a job-listing aggregator with onboarding, skill-based matching, alerts, and an admin panel, plus design and store releases. At $25, that covers only a small slice, so I'd suggest starting with a focused MVP: a responsive web app with profile and skill onboarding, keyword and rate filtering over a couple of listing sources, and a simple admin page to feature jobs. Using a modern stack and AI-assisted development, I can deliver that first version in about 1–2 weeks, with the rest as a second phase. Which job sources do you want to pull from, and would a web app first work for you before mobile?\n\nFor live demos, see https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете агрегатор вакансий с онбордингом, подбором по навыкам, уведомлениями и админ-панелью, а также дизайн и публикацию в сторах. При бюджете 25 USD это покрывает лишь небольшую часть работ, поэтому я бы предложил начать с сфокусированного MVP: адаптивное веб-приложение с профилем и онбордингом по навыкам, фильтрацией по ключевым словам и ставкам по паре источников вакансий и простую страницу в админке для публикации избранных вакансий. Используя современный стек и разработку с помощью ИИ-ассистентов, я могу сделать первую версию примерно за 1–2 недели, а остальное вынести во вторую фазу. Какие источники вакансий вы хотите подключить, и подойдёт ли вам сначала веб-приложение, а мобильную версию сделать позже?\n\nДля живых демо посмотрите: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие источники вакансий вы хотите подключить: конкретные доски, API или собственный список?",
+    "Подойдёт ли сначала веб-приложение, а мобильную версию сделать во второй фазе?",
+    "Какой бюджет и срок вы рассматриваете для первой рабочей версии (MVP)?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837123",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/notion/Premium-Notion-Portfolio-for-Growth",
+  "title": "Premium Notion Portfolio for Growth Strategist",
+  "description": "I want to build a premium, editorial-style Notion portfolio for a marketing professional specializing in Reddit marketing, brand positioning, community-led growth, organic visibility, and growth strategy.\n\nConfidentiality is extremely important. Do not include any personal names, agency names, client names, brand names, company names, or identifiable information in the portfolio or its public-facing content.\n\nPortfolio objectives\n\nShowcase professional expertise and industry experience.\n\nAttract potential freelance and consulting clients.\n\nDemonstrate strategic thinking and execution capabilities.\n\nPresent campaign case studies and measurable outcomes.\n\nEstablish authority in Reddit marketing and organic growth.\n\nDesign direction\n\nI want a modern, bold, editorial aesthetic with:\n\nMinimal and premium layouts.\n\nWarm neutral backgrounds.\n\nBlack typography with subtle terracotta accents.\n\nStrong headlines and clean typography.\n\nCreative project galleries and visual storytelling.\n\nA professional, conversion-focused structure.\n\nAvoid generic resume-style templates.\n\nRequired portfolio sections\n\nHomepage and professional positioning.\n\nAbout and career journey, presented anonymously.\n\nSelected work and industry-based case studies.\n\nReddit marketing strategies and services.\n\nCampaign results and performance metrics.\n\nClient testimonials with identifying information removed.\n\nExperiments, research, and marketing insights.\n\nThought leadership and published content.\n\nContact and collaboration section.\n\nIndustries and niches to showcase\n\nFintech and financial education.\n\nSkincare and personal care.\n\nBeauty and wellness.\n\nD2C and consumer brands.\n\nAutomotive and used-car marketplaces.\n\nSaaS and B2B technology.\n\nAI and emerging technology.\n\nGrowth and marketing education.\n\nJewellery and lifestyle brands.\n\nTypes of projects to showcase\n\nReddit brand positioning.\n\nFounder-led account positioning.\n\nExpert positioning strategies.\n\nBranded engagement campaigns.\n\nCommunity account management.\n\nSubreddit research and audience intelligence.\n\nOrganic visibility strategies.\n\nCommunity engagement frameworks.\n\nBrand reputation management.\n\nOrganic growth experiments.\n\nCase study format\n\nEach project should have:\n\nIndustry overview.\n\nBusiness challenge.\n\nTarget audience research.\n\nSubreddit analysis.\n\nStrategic approach.\n\nExecution methodology.\n\nScreenshots and supporting evidence.\n\nCampaign performance and measurable outcomes.\n\nKey learnings.\n\nConfidentiality requirements\n\nNever disclose client or company names.\n\nNever disclose agency or individual identities.\n\nRemove usernames, profile pictures, URLs, and identifying information from screenshots.\n\nAnonymize testimonials and campaign evidence.\n\nDo not expose confidential strategy documents or proprietary information.\n\nUse industry descriptions instead of client names.\n\nObtain approval before publishing any sensitive material.\n\nTechnical requirements\n\nBuild the portfolio entirely in Notion.\n\nMake the structure easy to update and maintain.\n\nCreate reusable case-study templates.\n\nUse databases to organize projects and evidence.\n\nEnsure a clean, responsive, professional presentation.\n\nProvide an organized and editable Notion workspace.\n\nI am looking for someone experienced in premium Notion portfolio design, personal branding, editorial layouts, and professional case-study presentation.\n\nPlease share relevant work samples, estimated delivery time, and pricing.\n\nImportant: Confidentiality and anonymity are non-negotiable requirements for this project.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T13:31:48+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Клиент хочет премиальное портфолио в Notion для маркетолога по Reddit-продвижению: редакционный дизайн, структура кейсов, анонимизация материалов и шаблоны для обновления. Это в первую очередь дизайн и контент-работа, а не разработка под услуги Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только сборка страниц и баз данных в Notion, или клиент ожидает также подготовку текстов кейсов и визуальный дизайн?",
+    "Какой объём материалов предоставит клиент (скриншоты, метрики, отзывы), и кто отвечает за их анонимизацию?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837122",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ios-development/Design-Build-Wellness-Tracker-40837122",
+  "title": "Design and Build Wellness Tracker -- 2",
+  "description": "Title: iOS App Design and Native Swift Build for a Habit & Wellness Tracker (iPhone)\n\nDescription:\n\nWe’re looking for an experienced iOS designer-developer to design and build a native iPhone app from scratch. You’ll own the whole job, from information architecture through to high-fidelity UI and a working SwiftUI build ready for TestFlight.\n\nAbout the app\nIt’s a personal habit and wellness tracker. Users set daily habits, log their progress in one tap, see streaks and weekly trends, and get gentle reminders. The app should feel calm, quick and premium, and it should be easy to use one-handed.\n\nScope of work\n\nUX and information architecture\n\nMap the user flows: onboarding, creating a habit, daily check-in, insights, settings\nBuild the sitemap and navigation model (tab bar vs. hub)\nMake low-fidelity wireframes for every core screen\n\n2. App design (UI)\n\nHigh-fidelity designs in Figma for about 15–20 screens, in light and dark mode\nA small design system: colour tokens, type scale, spacing, and reusable components\nMicro-interactions for check-ins and streak milestones\nAn App Store icon and 5 App Store screenshots\n\n3. Swift development\n\nA native SwiftUI app targeting iOS 17+, built with MVVM\nLocal persistence with SwiftData, plus iCloud sync\nLocal notifications for reminders\nSwift Charts for the weekly and monthly trends\nA home screen widget (WidgetKit) showing today’s habits\nAccessibility: Dynamic Type, VoiceOver labels, and good contrast\nClean, documented code, delivered through a Git repository\n\nDeliverables\n\nFigma file (wireframes, UI, design system)\nXcode project and source code\nTestFlight build\nShort handover document\n\nMilestones\n\nIA and wireframes approved\nUI design and design system approved\nCore app build (habits, check-ins, persistence)\nInsights, widget, notifications and polish\nTestFlight delivery and bug fixes\n\nIdeal freelancer\n\nA portfolio that shows both iOS app design and shipped Swift/SwiftUI apps\nStrong grounding in Apple’s Human Interface Guidelines\nClear communication and regular progress updates\n\nWhen you bid, please include links to 2–3 iOS apps you’ve designed and built, and say which parts you did yourself.\n\nSkills: App Design, Swift, User Interface / IA, iOS Development, Mobile App Development",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T13:31:16+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 2,
+   "summary_ru": "Заказчик ищет исполнителя для полного цикла нативного iOS-приложения трекера привычек: UX/IA, макеты в Figma (15–20 экранов), дизайн-система и сборка на SwiftUI с SwiftData, iCloud, виджетом и TestFlight. Бюджет 12 500 INR, а объём работ с дизайном и нативной iOS-разработкой выходит за рамки предлагаемых услуг.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у заказчика уже готовые макеты или брендбук, или дизайн нужно создавать с нуля?",
+    "Рассматривается ли вариант с поэтапной оплатой или сокращением объёма (например, только MVP без виджета и iCloud-синхронизации) при бюджете 12 500 INR?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837082",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot-development/Website-Chatbot-Dev",
+  "title": "Website AI Chatbot Dev $1K/Wk",
+  "description": "I need a production-ready AI assistant embedded on my website that can hold natural conversations with visitors. Its core purpose is to answer questions in real time, drawing knowledge from my existing site content and internal documents. Beyond simple Q&A, it should act as a guided sales concierge—helping users compare or choose the right products and, when appropriate, capturing their contact details so my team can follow up.\n\nKey deliverables I will review:\n\n• Accurate, context-aware answers sourced from my documents or live page data. \n• Dynamic product or service recommendations based on the visitor’s needs. \n• Seamless lead capture that forwards name, email, and inquiry straight into our CRM or at least a structured webhook endpoint.\n\nFor the underlying tech, feel free to leverage OpenAI, LangChain, vector databases, RAG pipelines, or any stack you’re confident will scale securely. The front-end chat widget must load quickly on desktop and mobile and match our brand styling; a lightweight JavaScript snippet is ideal. Clear documentation, source code, and a brief hand-off session are part of the handover.\n\nI’m budgeting US $1,000 per week and am prepared to move fast with milestones tied to a proof-of-concept, full integration, and final polish. If you’ve built site-embedded conversational agents before and can demonstrate reliable retrieval, personalization, and lead routing, let’s get started right away.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T13:22:59+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "crm",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужен AI-ассистент на сайте, который отвечает посетителям в реальном времени по контенту сайта и внутренним документам (RAG), рекомендует товары и передает контакты лидов в CRM или на webhook. В описании указан бюджет $1000 в неделю, но в поле бюджета стоит $25, поэтому бюджет нужно уточнить.",
+   "reply": "You need an on-site AI assistant that answers visitors in real time using your site pages and internal documents, recommends products, and passes qualified leads (name, email, inquiry) to your CRM. I would build it as a RAG pipeline: index your content into a vector store, retrieve the relevant passages for each question, and generate answers with an LLM under strict grounding rules so it does not make things up. The widget would be a lightweight script styled to your brand, and leads would go to your CRM or a webhook with retries. A proof of concept with retrieval and a basic widget would take about a week, followed by full integration with lead routing, then polish and handover docs. Which CRM are you using, and roughly how many pages and documents should be indexed?\n\nSee live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен AI-ассистент на сайте, который отвечает посетителям в реальном времени по страницам сайта и внутренним документам, рекомендует товары и передает квалифицированных лидов (имя, email, запрос) в вашу CRM. Я бы построил это как RAG-пайплайн: проиндексировал контент в векторной базе, для каждого вопроса извлекал релевантные фрагменты и генерировал ответ через LLM со строгой привязкой к источникам, чтобы ассистент не выдумывал. Виджет будет легким скриптом в стиле вашего бренда, а лиды будут уходить в CRM или на webhook с повторными попытками. Прототип с поиском по контенту и базовым виджетом займет около недели, затем полная интеграция с маршрутизацией лидов, потом доработка и документация для передачи. Какую CRM вы используете и примерно сколько страниц и документов нужно проиндексировать?\n\nПосмотреть живые демо можно в моем портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какую CRM вы используете и в каком формате удобнее получать данные лидов: напрямую в CRM или через webhook?",
+    "Примерно сколько страниц сайта и документов нужно проиндексировать, и должен ли ассистент отвечать только по вашим материалам?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837101",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/figma/Minimal-Mobile-App",
+  "title": "Minimal Mobile App UI",
+  "description": "I have wire-flow sketches for an 8-screen mobile application and need them translated into a clean, minimal interface inside Figma. The scope is straightforward yet complete:\n\n• 8 screens: onboarding, sign-up / login, home, details, search, cart / booking, profile, and notifications \n• Low-fidelity wireframes first, then polished high-fidelity mock-ups in both Android and iOS art-board sizes \n• A clickable prototype that lets me move through each key flow (onboarding to checkout) so I can demo the app smoothly \n• Final hand-off: original Figma file, neatly organised layers / components, plus exported PNGs for quick reviews\n\nMy budget is a fixed $5, so efficiency and smart use of design systems are important. Everything needs to be wrapped up within one week, including any minor tweaks after the first review.\n\nIf you’re comfortable designing lightweight, intuitive mobile UIs and can keep the style crisp and minimal, this should be a quick, rewarding project.",
+  "budget": 11.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T13:22:52+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Заказчик просит перевести эскизы 8 экранов мобильного приложения в чистый минималистичный UI в Figma: low-fi и high-fi макеты, кликабельный прототип и экспорт. Это дизайн-работа с бюджетом $5 (в шапке указано $11), сроком одна неделя.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Бюджет в объявлении указан как $11, а в описании как фиксированные $5. Какая сумма актуальна?",
+    "Нужны ли только макеты и прототип в Figma, или также реализация приложения?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837102",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/game-development/Experienced-Developer-for-BGMI-Emulator",
+  "title": "Experienced Developer for BGMI Emulator Hack",
+  "description": "Advanced BGMI Emulator Hack Development\n\nThe application will include an Account Security and Anti-Cheat Compatibility module designed to protect user credentials and system integrity. It will operate independently through permitted screen capture and computer vision, without modifying BGMI memory, game files, or anti-cheat components. No antiban or anti-detection guarantee is claimed.\n\nI am searching for a capable and experienced developer to create a sophisticated BGMI emulator hack.\n\nHere is the consolidated feature list, including ESP, movement, vehicle, combat, visual and advanced features.\n1. Player ESP & Detection\n1. Player ESP\n2. 2D Box ESP\n3. 3D Box ESP\n4. Skeleton ESP\n5. Head ESP\n6. Name ESP\n7. Distance ESP\n8. Health ESP\n9. Team ESP\n10. Enemy Detection\n11. Knocked Player Detection\n12. Player Tracking IDs\n13. Player Direction Indicator\n14. Player Count\n15. Visible/Hidden Classification\n2. Radar & Map\n16. 2D Radar\n17. 3D Radar\n18. Visible Minimap Detection\n19. Minimap Player Markers\n20. Direction Radar\n21. Vehicle Markers\n22. Loot Markers\n23. Map Zone Detection\n24. Blue Zone Recognition\n25. Red Zone Recognition\n3. Loot & Item ESP\n26. Weapon ESP\n27. Ammo ESP\n28. Medkit ESP\n29. Helmet ESP\n30. Armor ESP\n31. Backpack ESP\n32. Scope ESP\n33. Grenade ESP\n34. Airdrop ESP\n35. Attachment Detection\n36. Loot Classification\n4. Vehicle Features\n37. Vehicle ESP\n38. Vehicle Detection\n39. Fast Car\n40. Flying Car\n41. Vehicle Speed Analysis\n42. Vehicle Direction Tracking\n43. Vehicle Classification\n44. Vehicle Damage Analysis\n45. Vehicle Jump Analysis\n5. Movement Features\n46. Fast Run\n47. High Jump\n48. Super Jump\n49. Speed Hack\n50. No Fall Damage\n51. Movement Speed Analysis\n52. Jump Height Analysis\n53. Player Movement Tracking\n54. Landing Detection\n6. Combat & Weapon Features\n55. No Recoil\n56. Magic Bullet\n57. Head Magic Bullet\n58. Body Magic Bullet\n59. Ignore Knocked\n60. Bullet Tracking\n61. No Spread\n62. Rapid Fire\n63. Hit Detection\n64. Headshot Detection\n65. Recoil Pattern Analysis\n66. Weapon Recognition\n67. Firing Rate Analysis\n68. Projectile Trajectory Simulation\n7. Advanced Visual Features\n69. Smoke Detection\n70. Grenade Detection\n71. Parachute Detection\n72. Airdrop Detection\n73. Kill Feed OCR\n74. Damage Text OCR\n75. Match Status Recognition\n76. Player Pose Estimation\n77. Skeleton Tracking\n78. Animation Recognition\n79. Screen Recording\n80. Gameplay Replay\n8. Advanced Analytics\n81. FPS Counter\n82. Detection Confidence\n83. Real-Time Performance Monitor\n84. Player Movement Heatmap\n85. Kill Statistics\n86. Weapon Usage Statistics\n87. Vehicle Usage Statistics\n88. Match Timeline\n89. Detection History\n90. Event Logging\n9. Independent Game Physics Simulator\n91. Projectile Physics\n92. Bullet Trajectory Simulation\n93. Recoil Simulation\n94. Weapon Spread Simulation\n95. Head/Body Targeting Simulation\n96. Movement Speed Simulation\n97. Jump Physics Simulation\n98. Vehicle Flight Simulation\n99. Vehicle Acceleration Simulation\n100. Collision Detection",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "CAD",
+  "posted_at": "2026-11-26T13:22:22+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Заказ на разработку читерского инструмента для BGMI: ESP, аимбот-функции (magic bullet, no recoil), speed hack и другие функции, обходящие игровую механику. Это помощь в нарушении правил многопользовательской игры, поэтому откликаться не стоит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837094",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Professional-Services-Website-Build-40837094",
+  "title": "Professional Services Website Build",
+  "description": "I need a clean, responsive business website that presents our services and company information in a modern, trustworthy way. The project covers six pages:\n\n• Home \n• About Us \n• Services \n• Contact \n• Testimonials \n• FAQ \n\nThe site must highlight our offerings, reinforce credibility, and make it effortless for visitors to get in touch. Consistent branding, intuitive navigation, and mobile-first design are essential.\n\nContent: I will supply copy and basic imagery, but welcome guidance on layout choices and any suitable stock visuals.\n\nPlatform & tech: I’m open to WordPress, Webflow, or a lightweight custom build—whatever delivers fast load times, strong on-page SEO, and an easy CMS so my team can update text and testimonials later.\n\nKey requirements \n• Fully responsive design across desktop, tablet, and mobile \n• Clear call-to-action areas on every page \n• Basic SEO setup (meta titles, descriptions, headings, alt text) \n• Contact form routed to our company email with spam protection \n• Google Analytics integration \n\nPlease outline your proposed timeline and milestones (wireframes, design mock-ups, development, final hand-off). Final delivery includes deployment to our domain plus transfer of source files, admin log-ins, and any licenses used. Links to similar corporate sites you’ve built would be appreciated.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T13:18:43+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Нужен адаптивный сайт-визитка для профессиональных услуг из шести страниц (Главная, О нас, Услуги, Контакты, Отзывы, FAQ) с CMS для редактирования текстов и отзывов, формой обратной связи с защитой от спама, базовым SEO и Google Analytics. Бюджет небольшой (12 500 INR).",
+   "reply": "You need a six-page responsive business site (Home, About Us, Services, Contact, Testimonials, FAQ) with a CMS your team can edit, a contact form routed to your email with spam protection, basic SEO, and Google Analytics. I would build it on a lightweight stack, either WordPress or a custom build depending on your hosting and editing needs. The layout would be mobile-first, with consistent CTA blocks on every page and clean structure for meta tags, headings, and alt text. Rough timeline: 1 day for wireframes and structure, 2–3 days for design mock-ups, 3–4 days for development and CMS setup, and 1 day for deployment, analytics, and handover, so about 7–9 days in total. Two questions: do you already have a domain and hosting, and would you prefer WordPress for easy editing or a custom build for maximum speed?\n\nSee live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен адаптивный бизнес-сайт из шести страниц (Главная, О нас, Услуги, Контакты, Отзывы, FAQ) с CMS, в которой ваша команда сможет редактировать тексты, форма обратной связи с отправкой на вашу почту и защитой от спама, базовое SEO и Google Analytics. Я бы собрал его на легковесном стеке: WordPress или кастомная сборка, в зависимости от вашего хостинга и требований к редактированию. Верстка будет mobile-first, с единообразными блоками призыва к действию на каждой странице и аккуратной структурой для мета-тегов, заголовков и alt-текстов. Примерные сроки: 1 день на вайрфреймы и структуру, 2–3 дня на дизайн-макеты, 3–4 дня на разработку и настройку CMS, 1 день на деплой, аналитику и передачу проекта, итого около 7–9 дней. Два вопроса: есть ли у вас уже домен и хостинг, и что вам удобнее, WordPress для простого редактирования или кастомная сборка для максимальной скорости?\n\nЖивые демо смотрите в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже домен и хостинг или их нужно подобрать?",
+    "Что важнее: удобство редактирования через WordPress или максимальная скорость кастомной сборки?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837089",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/servicenow/ServiceNow-Administration-Support-Needed",
+  "title": "ServiceNow Administration & Support Needed",
+  "description": "I need an experienced ServiceNow professional to step in as day-to-day administrator for our ITSM instance. Your primary goal is to streamline our service processes so teams experience fewer slow-downs and hand-offs run smoothly.\n\nScope of work \n• Triage and resolve user-access, role, and permission issues as they arise. \n• Keep Incident, Problem, Change, and Request modules healthy—clean up aging records, tweak workflows, and ensure SLAs fire correctly. \n• Apply platform updates, perform routine maintenance, and investigate performance or integration errors before they affect users.\n\nSuccess to me means front-line agents and approvers can focus on solving tickets rather than fighting the tool, and our ITSM dashboards stay green without manual babysitting.\n\nYou should already know your way around ServiceNow administration menus, ACLs, update sets, and standard ITIL-aligned processes. If that sounds like your wheelhouse, let’s talk about timelines and the access you’ll need.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T13:14:27+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Нужен администратор ServiceNow для ежедневного обслуживания ITSM-инстанса: управление доступами и ролями, поддержка модулей Incident/Problem/Change/Request, SLA и плановые обновления платформы. Это постоянная административная поддержка платформы, а не разработка под мои услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разовая доработка или постоянная ежедневная поддержка инстанса?",
+    "Есть ли у вас задачи по разработке или интеграциям, например с API или мессенджерами?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837085",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/business-consultant/Business-Closing-Ligne",
+  "title": "Business Closing en Ligne",
+  "description": "Je souhaite lancer un petit business de « closing » 100 % en ligne : l’idée est d’offrir mes services de finalisation de ventes pour des entreprises ou infopreneurs, le tout monté de façon à générer un revenu complémentaire avec moins de cinq heures de travail par semaine.\n\nCe que j’attends :\n– Un plan pas-à-pas pour structurer l’offre de closing : positionnement, avatar client, argumentaire et script de vente. \n– La mise en place des éléments techniques indispensables (page d’atterrissage, calendrier de prise de rendez-vous, intégration CRM/automatisation e-mail sur des outils type Calendly, HubSpot ou ClickFunnels). \n– Des procédures simplifiées afin que la prospection, le suivi et les appels puissent être gérés en créneau restreint. \n– Un système de suivi des performances (tableau de bord ​KPI, taux de closing, revenu généré). \n\nCritères d’acceptation : \n1. Tous les supports (scripts, templates d’e-mails, pages) livrés sous format modifiable. \n2. Automatisations testées et fonctionnelles, prêtes à l’emploi. \n3. Documentation claire me permettant de tenir l’activité en autonomie avec <5 h/sem. \n\nJe suis ouvert aux suggestions d’outils tant qu’ils restent faciles à prendre en main et à faible coût pour démarrer.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T13:11:34+00:00",
+  "lang": "fr",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Клиент хочет запустить онлайн-бизнес по «закрытию» продаж для инфопредпринимателей. Нужны бизнес-план, скрипты и email-шаблоны, а также настройка лендинга, записи на звонок, CRM-автоматизации и дашборда KPI. Бюджет 25 USD, основная часть работы — стратегия и тексты.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой объём технической части вы ожидаете: только запись на звонок и CRM-интеграция или ещё собственный дашборд KPI?",
+    "Какие инструменты вы планируете использовать (Calendly, HubSpot или ClickFunnels), и есть ли у вас уже аккаунты?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837081",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/jquery/Add-Tech-with-services",
+  "title": "Add Tech with services",
+  "description": "My appointment-booking form already works well;\nI need to update :\n this is a 3-steps form\nstep 1 : List Technicians , then pick a tech #1 ( show services to pick for this tech )\n Same if Pick 2nd , 3rd ones.....\nstep 2: ( keep same )\nstep 3: ( keep same )\nlive link : https://bapos.net/test/appt\nps : technicians list get from users table in database ; framework is Codeigniter and jquery",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T13:06:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 6,
+   "summary_ru": "Нужно доработать первый шаг существующей формы записи: сначала выводится список мастеров из таблицы users, затем для выбранного мастера показываются его услуги, и так для каждого следующего мастера. Шаги 2 и 3 остаются без изменений. Стек: CodeIgniter и jQuery. Бюджет 250 USD.",
+   "reply": "Hi, I read through your brief. You want step 1 of the booking form to list technicians first, then show only the services for the selected technician, with the same flow repeating for each additional pick. Steps 2 and 3 stay as they are. I would load the technicians from the users table in CodeIgniter and handle the selection with jQuery, so the service list updates without a page reload and the existing step 2 and 3 logic is left untouched. The change is contained, so I estimate 3–4 days, including testing on your live form.\n\nDo you need to book several technicians in one appointment, or only one per booking? And should technicians with no assigned services be hidden from the list?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте, я внимательно изучил ваше описание. Вы хотите, чтобы на первом шаге формы записи сначала выводился список мастеров, а после выбора мастера показывались только его услуги, и этот же процесс повторялся для каждого следующего выбора. Шаги 2 и 3 остаются без изменений. Я бы загружал мастеров из таблицы users в CodeIgniter и обрабатывал выбор через jQuery, чтобы список услуг обновлялся без перезагрузки страницы, а логику шагов 2 и 3 не трогал. Изменения локализованные, поэтому оцениваю работу в 3–4 дня, включая тестирование на вашей рабочей форме.\n\nНужно ли записывать несколько мастеров в одну запись или только одного на каждую? И стоит ли скрывать мастеров, у которых не назначены услуги?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Нужно ли записывать несколько мастеров в одну запись или только одного на каждую?",
+    "Стоит ли скрывать мастеров, у которых не назначены услуги?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837071",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/elementor/Woocommerce-Import-Products-Sections",
+  "title": "Woocommerce = Import Products and 2 Sections with Elementor // m3ll1n0",
+  "description": "WORKS TO DO:\n\n- homepage + contact section + about us, etc.;\n- upload some products (import using CSV provided);\n\nYou will not have to make custom programming.\n\nTotal budget for this job is $ 50,00.- Dollars, since it is just adding some contents. Pls do not bid more than that. Please only bid if you have al least 15 positive feedbacks.\n\nHappy Bidding!!!",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T13:01:51+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Нужно настроить WooCommerce-магазин: создать главную страницу, контакты и раздел «О нас» в Elementor и импортировать товары из готового CSV без программирования. В описании указан бюджет $50, а в поле бюджета стоит $250, и клиент требует не менее 15 положительных отзывов.",
+   "reply": "You need a WooCommerce store set up with a homepage, contact and about-us sections built in Elementor, and your CSV product catalog imported with no custom code. I would configure the store, build the pages in Elementor, map and import the CSV, then check categories, prices, and images on the front end. With modern tools and AI-assisted development, a job of this size can be finished quickly. Could you share the CSV and tell me how many products and sections you need? Also, is the $50 in the description the final budget, or is the $250 in the project details correct?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно настроить магазин на WooCommerce с главной страницей, контактами и разделом «О нас», созданными в Elementor, и импортировать каталог товаров из CSV без программирования. Я бы настроил магазин, сделал страницы в Elementor, сопоставил поля и импортировал CSV, а затем проверил категории, цены и изображения на сайте. С современными инструментами и ИИ-ассистентами в разработке задачу такого объёма можно выполнить быстро. Не могли бы вы прислать CSV и сказать, сколько товаров и разделов нужно? Также подскажите, $50 из описания — это итоговый бюджет или верна сумма $250 из параметров проекта?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можно ли посмотреть CSV-файл и сколько в нём товаров?",
+    "Сколько разделов и страниц нужно сделать в Elementor?",
+    "Какой бюджет верный: $50 из описания или $250 из параметров проекта?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "freelancer:40837069",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-sheets/Extract-Web-PDF-Data-Sheets",
+  "title": "Extract Web/PDF Data to Sheets",
+  "description": "I have a set of websites and PDFs that contain information I need organised in Google Sheets. Your task is straightforward: open each source I provide, capture every required field exactly as it appears, and enter it into the sheet I share with you. Accuracy and consistency matter more than speed, so double-checking each entry is essential.\n\nYou will receive: \n• A Google Sheet with the column headers already in place. \n• A list of URLs and PDF files, along with any notes that clarify which sections to scan.\n\nDeliverable: the fully populated Google Sheet, ready for me to review. I will spot-check the data, so please ensure that names, numbers, and any other text match the source perfectly; formatting should follow the template I supply.\n\nIf you are comfortable extracting data from mixed online sources and keeping everything tidy in Google Sheets, this will be a smooth, quick project.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T12:56:54+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Ручное извлечение данных с сайтов и из PDF-файлов и заполнение готовой Google-таблицы с точным сверкой значений. Бюджет 25 USD, по сути это ручной ввод данных.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Сколько источников (сайтов и PDF) и примерно сколько полей нужно извлечь?",
+    "Структура источников одинаковая или каждый нужно разбирать отдельно?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "kwork:3275761",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275761",
+  "title": "Сделать парсинг соц сети",
+  "description": "Надо переходить на сайт указанный в постах и выписывать контакты (открытые данные компаний) в таблицу - пришлю подробный ТЗ. \nНадо собрать - 500 контактов",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 16:48:09",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Нужно собрать 500 контактов (открытые данные компаний) с сайтов, ссылки на которые указаны в постах соцсети, и выгрузить их в таблицу. Бюджет 500 ₽, подробное ТЗ заказчик пришлёт отдельно.",
+   "reply": "Вы хотите собрать 500 контактов компаний с сайтов, ссылки на которые стоят в постах соцсети, и свести их в таблицу. Вручную это займёт очень много времени, поэтому я бы написал небольшой скрипт: он собирает ссылки из постов, заходит на сайты и извлекает открытые email, телефоны и название компании, а затем экспортирует всё в Excel или Google Sheets. Сам скрипт займёт примерно 1–2 дня, после чего я прогоню сбор и проверю результат на дубли и пустые строки. Ссылка на портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nПодскажите, пожалуйста, какая именно соцсеть и есть ли доступ к постам (открытые страницы или нужна авторизация)? Какие поля должны быть в таблице кроме контактов?\n\nYakov",
+   "reply_ru": "Вы хотите собрать 500 контактов компаний с сайтов, ссылки на которые стоят в постах соцсети, и свести их в таблицу. Вручную это займёт очень много времени, поэтому я бы написал небольшой скрипт: он собирает ссылки из постов, заходит на сайты и извлекает открытые email, телефоны и название компании, а затем экспортирует всё в Excel или Google Sheets. Сам скрипт займёт примерно 1–2 дня, после чего я прогоню сбор и проверю результат на дубли и пустые строки. Ссылка на портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nПодскажите, пожалуйста, какая именно соцсеть и есть ли доступ к постам (открытые страницы или нужна авторизация)? Какие поля должны быть в таблице кроме контактов?\n\nYakov",
+   "questions": [
+    "Какая именно соцсеть и есть ли доступ к постам без авторизации?",
+    "Какие поля нужны в таблице, кроме контактов (название компании, сайт, город и т.д.)?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "kwork:3126856",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3126856",
+  "title": "Доработка и наполнение сайта на Opencart 3",
+  "description": "Обязанности: \n— наполнять и поддерживать прайсы на сайте. \n— администрировать сайт, настраивать модули и тд. \n— опыт работы с модулем импорта прайсов Anycsv. \n— желательно опыт в настройке сервера VPS. \nТребования: \n— опыт работы с Opencart 3, модулями, импортом прайсов и тд. \n— умение настраивать модули, желательно знание рнр и др для исправления ошибок. \n— опыт поддержки действующего интернет-магазина. \nУсловия: \n— удаленная работа, график свободный, но исполнение в срок. \n[:2757]Пожалуйста, без реального опыта с Опенкарт не откликайтесь! Присылайте сразу примеры работ на Опенкарт. \nОтветы сгенерированные ИИ сразу будут отклоняться! \nТакже не работаю с почасовой оплатой. \nО компании: \n— интернет магазин посуды, света и товаров для дома.",
+  "budget": 7000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 16:38:40",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Нужен специалист для поддержки интернет-магазина посуды и товаров для дома на OpenCart 3: регулярное обновление прайсов через модуль Anycsv, настройка модулей, исправление ошибок и, желательно, администрирование VPS. Заказчик просит реальный опыт работы с OpenCart и не принимает отклики, сгенерированные ИИ.",
+   "reply": "Вам нужен человек, который будет вести прайсы и администрировать магазин посуды и товаров для дома на OpenCart 3: загружать обновления через Anycsv, настраивать модули, править ошибки в PHP и при необходимости заниматься VPS. OpenCart 3 в моих проектах пока не использовался, поэтому примеров работ именно на этой платформе я показать не могу. Зато я регулярно работаю с импортом и обработкой CSV-прайсов, настройкой серверов и правкой PHP-кода, и быстро разбираюсь в незнакомых системах. Предлагаю начать с аудита текущей установки и тестового импорта прайса на копии сайта: это займёт 1–2 дня, после чего согласуем график поддержки и сроки. Живые демо моих работ есть в портфолио: https://grachoffprod.github.io/portfolio/\n\nКакой объём прайса и как часто он обновляется? Есть ли доступ к тестовой копии сайта?\n\nYakov",
+   "reply_ru": "Вам нужен человек, который будет вести прайсы и администрировать магазин посуды и товаров для дома на OpenCart 3: загружать обновления через Anycsv, настраивать модули, править ошибки в PHP и при необходимости заниматься VPS. OpenCart 3 в моих проектах пока не использовался, поэтому примеров работ именно на этой платформе я показать не могу. Зато я регулярно работаю с импортом и обработкой CSV-прайсов, настройкой серверов и правкой PHP-кода, и быстро разбираюсь в незнакомых системах. Предлагаю начать с аудита текущей установки и тестового импорта прайса на копии сайта: это займёт 1–2 дня, после чего согласуем график поддержки и сроки. Живые демо моих работ есть в портфолио: https://grachoffprod.github.io/portfolio/\n\nКакой объём прайса и как часто он обновляется? Есть ли доступ к тестовой копии сайта?\n\nYakov",
+   "questions": [
+    "Какой объём прайса и как часто его нужно обновлять?",
+    "Какая версия модуля Anycsv установлена и есть ли сейчас проблемы с импортом?",
+    "Нужен ли доступ к VPS или задачи ограничиваются админкой сайта?"
+   ]
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910824",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910824",
+  "title": "Візуалізація акрилової нагороди",
+  "description": "Візуалізація акрилової нагороди\n💰\n 1500 UAH\n🛠\n#ai_в_дизайне\n#предметный_дизайн\nПотрібно розробити2 різні концепції дизайну акрилової нагороди.Основний принцип —пласка багатошарова конструкція з акрилу, без 3D-елементів. Важливо креативно продумати форму, композицію, поєднання шарів і кольорів, щоб нагорода виглядала сучасно, оригінально та презентабельно.Референси цікавих…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T13:04:18+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 1,
+   "summary_ru": "Нужно создать две концепции дизайна плоской многослойной акриловой награды с визуализацией. Это задача на дизайн и визуализацию, а не разработку, и бюджет 1500 UAH.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T13:52:18+00:00"
+ },
+ {
   "id": "freelancer:40837057",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/facebook-marketing/Facebook-Group-Content-Distribution",
