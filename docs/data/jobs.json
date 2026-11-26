@@ -1,5 +1,310 @@
 [
  {
+  "id": "freelancer:40836961",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/crowdfunding/Indiegogo",
+  "title": "Запуск игры на Indiegogo",
+  "description": "У меня почти готова аркадная футбольная игра для ПК (Windows, Mac, Linux); нужен краудфандинг, чтобы профинансировать последние доработки и релиз. Я хочу запустить полноценную кампанию на Indiegogo под своим именем и ищу специалиста, который возьмёт на себя весь цикл подготовки и продвижения.\n\nЧто предстоит сделать \n– Сформировать привлекательную страницу кампании: текст, инфографика, скриншоты, гифы, видео-трейлер, таблица целей и наград. \n– Помочь мне довести до блеска материалы: правка сценария ролика, лёгкий монтаж, подбор фоновой музыки без лиценз-ограничений. \n– Настроить и запустить саму кампанию на Indiegogo, включая описания уровней поддержки, Stretch Goals и FAQ. \n– Сопроводить первую волну промо-активностей: соцсети, рассылки, геймерские сообщества, контакт с микро-инфлюенсерами и прессой.\n\nПриветствую опыт с игровыми проектами, понимание специфики инди-рынка и знание инструментов Indiegogo, Canva/Photoshop, Premiere/DaVinci и т. д. Предварительный билд и основные ассеты предоставлю сразу, вместе с черновиком бюджета и таймлайна. Жду ваших предложений по срокам, этапам и примерам успешно закрытых кампаний.",
+  "budget": 18.0,
+  "budget_min": 12.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-26T11:48:33+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 1,
+   "summary_ru": "Клиент ищет специалиста для полного цикла краудфандинг-кампании игры на Indiegogo: текст и дизайн страницы, монтаж трейлера, подбор музыки и промо-активности. Это маркетинг, дизайн и видеомонтаж, а не разработка, и бюджет очень низкий (18 EUR).",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только техническая настройка кампании на Indiegogo, без текстов, дизайна, монтажа и продвижения?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "freelancer:40836957",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/security-auditing/WordPress-Security-Audit-Hardening",
+  "title": "WordPress Security Audit & Hardening",
+  "description": "My WordPress website needs a thorough security audit focused first on uncovering any signs of hacking or embedded malware. Once the current health of the site is confirmed, every weak point—whether it stems from core files, plugins, themes, server settings, or user-access rules—has to be fixed or hardened.\n\nThe workflow I have in mind is straightforward: \n\n1. Run an in-depth scan with industry-standard tools (for example, Wordfence, Sucuri CLI, WP-CLI commands, or comparable solutions) to detect malware, backdoors, and file-integrity issues. \n2. Document all findings in a concise report that shows severity, location, and recommended remediation for each item. \n3. Clean any malicious code or infections, close exploited vectors, and restore compromised files without losing legitimate content or functionality. \n4. Patch or replace outdated plugins/themes, adjust permissions, and apply security best practices—two-factor authentication, rate-limiting on logins, secure headers, database hardening, etc. \n5. Deliver a post-fix validation scan and a short checklist I can use to keep the site secure going forward.\n\nInclude in your proposal a detailed, step-by-step plan: which tools you prefer, how long each stage will take, and how you will make backups and verify the cleanup. If you have relevant case studies or can point to past WordPress recoveries, reference them briefly; they will help me gauge your approach.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T11:42:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 5,
+   "summary_ru": "Клиенту нужен полный аудит безопасности WordPress-сайта с поиском вредоносного кода и бэкдоров, затем очистка, устранение уязвимостей в ядре, плагинах, теме и на сервере, и итоговая проверка с чек-листом. Бюджет 250 USD для такого объёма ограничен.",
+   "reply": "You need a full WordPress security sweep: first find any malware or backdoors, then clean the infected files and harden the core, plugins, theme, server settings and user access. My plan starts with a full backup and snapshot before anything is changed. Then I'd run Wordfence and WP-CLI core checksum checks, plus a file-integrity diff against clean core files, and deliver a severity-ranked report. After you approve it, I'd remove the malicious code, update or replace outdated components, and set up 2FA, login rate limiting, security headers and database hardening. I'd finish with a validation scan and a short maintenance checklist. A realistic timeline for a standard install is 3–4 working days. For live demos of my work, see https://grachoffprod.github.io/portfolio/\n\nTwo questions: do you have SSH or SFTP access and a recent backup? Is there WooCommerce or any membership functionality that must keep working during cleanup?\n\nYakov",
+   "reply_ru": "Нужна полная проверка безопасности WordPress: сначала найти вредоносный код и бэкдоры, затем очистить заражённые файлы и укрепить ядро, плагины, тему, настройки сервера и доступ пользователей. Мой план начинается с полного бэкапа и снимка сайта до любых изменений. Далее я запущу Wordfence и проверки контрольных сумм ядра через WP-CLI, а также сравню целостность файлов с чистым ядром, и подготовлю отчёт с ранжированием по серьёзности. После вашего согласования я удалю вредоносный код, обновлю или заменю устаревшие компоненты и настрою 2FA, ограничение попыток входа, заголовки безопасности и защиту базы данных. Завершу итоговой проверкой и коротким чек-листом для поддержки. Реалистичный срок для стандартной установки — 3–4 рабочих дня. Живые демо моих работ: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: есть ли у вас доступ по SSH или SFTP и свежий бэкап? Нужно ли сохранить работу WooCommerce или других функций (например, членских разделов) во время очистки?\n\nYakov",
+   "questions": [
+    "Есть ли у вас доступ к серверу по SSH или SFTP и свежий бэкап сайта?",
+    "Нужно ли сохранить работу WooCommerce или других функций (например, членских разделов) во время очистки?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "freelancer:40836955",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Illness-Awareness-Site-Build",
+  "title": "Illness Awareness Site Build",
+  "description": "I’m looking for a developer-designer who can take my outline and turn it into a polished, secure website that raises awareness about a specific illness.\n\nScope \n• Build a responsive landing page plus four to five additional tabs. \n• Include clear sections that explain symptoms, causes, diagnosis, treatment options, and the support resources we have gathered. \n• Visitors need to: \n – Read the information freely. \n – Reach us through an easy contact form. \n – Submit their own story or experience (held for moderation before publishing). \n\nPrivacy Requirements \nWe will host a collection of sensitive photographs that must remain visible only to me and my approved staff. Please implement an admin-only library with role-based access; no public or member view of these images is permitted.\n\nCore Features \n• Clean, modern UI, fully responsive. \n• CMS (WordPress, Webflow, or a lightweight custom solution) so I can update copy and add resources without touching code. \n• Admin dashboard to upload, tag, and manage the private pictures. \n• Secure user management for staff accounts. \n• Contact form protected by reCAPTCHA. \n• Story-submission form with email notifications and backend moderation queue. \n• Basic on-page SEO and performance optimization.\n\nDeliverables (acceptance criteria) \n1. Live site on my hosting, SSL enabled and error-free. \n2. Admin login with documented steps showing that only approved roles can access the photo area. \n3. All public pages load in <3 s on desktop and mobile (Google PageSpeed). \n4. Transfer of source files, credentials, and a brief guide so I can maintain content going forward.\n\nIf you have recent examples of health or nonprofit sites and experience with secure media libraries, let’s talk timelines and milestones.",
+  "budget": 1500.0,
+  "budget_min": 100.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-26T11:41:54+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 6,
+   "summary_ru": "Заказчик хочет получить адаптивный многостраничный информационный сайт об одном заболевании с CMS для обновления контента, формами обратной связи и модерацией историй пользователей, а также закрытой медиатекой с ролевым доступом только для утверждённых сотрудников. Бюджет 1500 GBP, объём работ большой.",
+   "reply": "You're looking for a responsive, multi-page awareness site for an illness, with a CMS for easy copy updates, a reCAPTCHA-protected contact form, a moderated story submission flow, and a private photo library that only approved staff can open. I'd build the public pages on a fast, lightweight stack (or WordPress/Webflow if you already use one), set up the story queue with email notifications, and build the admin library with role-based access and documented steps to verify that restriction. I use modern tooling and AI assistants in development, so I can move quickly: roughly 3–4 weeks for the public site and CMS, plus about a week for the private media area and testing against your PageSpeed target.\n\nTwo questions: do you already have hosting and a preferred CMS, and roughly how many staff accounts will need access to the photo library?\n\nSee live demos in the portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен адаптивный многостраничный информационный сайт о заболевании с CMS для простого обновления текстов, формой обратной связи под защитой reCAPTCHA, модерируемой формой для историй пользователей и закрытой медиатекой, которую смогут открывать только утверждённые сотрудники. Я бы сделал публичные страницы на быстром легковесном стеке (или на WordPress/Webflow, если вы уже им пользуетесь), настроил очередь историй с email-уведомлениями и создал админ-библиотеку с ролевым доступом и пошаговой инструкцией для проверки этого ограничения. Я использую современные инструменты и ИИ-ассистенты в разработке, поэтому работаю быстро: примерно 3–4 недели на публичный сайт и CMS, плюс около недели на закрытую медиазону и тестирование по вашему целевому показателю PageSpeed.\n\nДва вопроса: есть ли у вас уже хостинг и предпочтительная CMS, и сколько примерно сотрудников должны будут иметь доступ к медиатеке?\n\nЖивые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже хостинг и предпочтительная CMS (WordPress, Webflow или своё решение)?",
+    "Сколько примерно сотрудников должны будут иметь доступ к закрытой медиатеке и нужны ли разные уровни прав?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "freelancer:40836946",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/payment-gateway-integration/Comprehensive-UPI-Flow-Testing",
+  "title": "Comprehensive UPI Flow Testing",
+  "description": "I need a payment-flow specialist to run end-to-end tests on my UPI integration, covering both the normal payment journey and the full refund cycle. The work must touch every entry point we support—manual UPI ID entry, QR-code scan, and payment-link redirection—so that I can ship with confidence on Android and iOS apps such as Google Pay, PhonePe, Paytm, and any other BHIM-compatible client.\n\nScope of work \n• Execute real-money transactions for each method above, then trigger and verify the corresponding refunds. \n• Note latency, error codes, and any edge-case behaviour (e.g., network drop, user cancels). \n• Capture logs, screenshots, or screen recordings that show every step and outcome. \n• Provide a concise report summarising scenarios run, results, and recommendations.\n\nAcceptance criteria \nA scenario is accepted when the report includes the transaction reference, observed status in both payer and payee apps, refund confirmation, and a brief note on any anomalies.\n\nWhen you reply, link to past work that demonstrates hands-on UPI or similar payment-gateway testing; that alone will let me shortlist quickly.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T11:36:50+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Заказчик ищет тестировщика, который вручную проведёт сквозные тесты UPI-платежей и возвратов с реальными деньгами через Google Pay, PhonePe, Paytm и другие приложения, с отчётом, скриншотами и записями экрана. Это ручное QA-тестирование, а не разработка, поэтому проект не подходит под услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли интеграция или доработка кода, или задача ограничивается ручным тестированием существующего UPI-процесса?",
+    "Есть ли у вас тестовое окружение или sandbox от платёжного провайдера, или тесты нужно проводить только с реальными деньгами?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "freelancer:40836900",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/microsoft-365/Automated-HOD-Outlook-Analysis",
+  "title": "Automated HOD Outlook Analysis",
+  "description": "I have management-level permission to read the Outlook mailboxes of every Head of Department and now need a clean, automated workflow that:\n\n• Connects to each HOD’s Microsoft 365 / Outlook mailbox every day on a fixed schedule \n• Extracts the messages and flags: \n – Important tasks, approaching deadlines, and follow-ups \n – Any customer or supplier issues that require attention \n – A concise summary of key topics, risks, and decisions discussed that day \n• Publishes the findings to a shared Excel file or live dashboard that the team can open without extra log-ins\n\nMy environment already includes Microsoft 365, so solutions built with Graph API, Power Automate, Azure Functions, or even a lightweight Python script with scheduled execution are all welcome, as long as they respect the existing security policies.\n\nDeliverables \n1. Working code or flow that authenticates to the specified mailboxes securely (service principal or delegated access, no hard-coded creds). \n2. A data model or Excel template that clearly separates “Tasks & Deadlines,” “Customer/Supplier Issues,” and “Key Topics/Risks/Decisions.” \n3. Setup documentation so the daily job can be redeployed or adjusted by our internal IT team. \n4. One brief hand-over call or recorded demo showing the solution in action.\n\nAcceptance will be based on a successful test run that picks up one day’s worth of email, classifies the content per the three buckets above, and populates the shared report without manual intervention.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T11:05:20+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 4,
+   "summary_ru": "Клиент хочет ежедневную автоматизацию: скрипт или поток, который через Microsoft Graph читает почту руководителей отделов, выделяет задачи и дедлайны, проблемы с клиентами и поставщиками, а также ключевые темы, и публикует результат в общий Excel или дашборд. Бюджет низкий (1500 INR), а задача требует безопасной авторизации и настройки в Microsoft 365.",
+   "reply": "You need a daily job that connects to each HOD's Microsoft 365 mailbox through Graph API, pulls the day's messages, sorts them into tasks and deadlines, customer/supplier issues, and key topics/risks/decisions, then writes the results to a shared Excel file or dashboard without manual steps.\n\nMy plan: register an Entra ID app with application permissions limited to those mailboxes (for example, through an Application Access Policy), keep secrets in Key Vault or environment config, and build the pipeline in Python with a scheduler or Power Automate, depending on what your IT team prefers. Classification can combine rules with an LLM for summaries. I can deliver a working test run on one day's email, plus setup docs, in about 5–7 days.\n\nTwo questions: Which stack would your IT team rather maintain, Python with Azure Functions or Power Automate? And does your security policy allow sending mail content to an external AI API, or must summarization stay in-house?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужна ежедневная задача, которая через Graph API подключается к почтовому ящику каждого руководителя отдела в Microsoft 365, забирает письма за день, распределяет их по задачам и дедлайнам, проблемам с клиентами и поставщиками, а также ключевым темам, рискам и решениям, и записывает результат в общий Excel-файл или дашборд без ручных действий.\n\nМой план: зарегистрировать приложение в Entra ID с правами приложения, ограниченными этими ящиками (например, через Application Access Policy), хранить секреты в Key Vault или в конфигурации окружения и собрать конвейер на Python с планировщиком или на Power Automate, в зависимости от того, что удобнее вашей IT-команде. Классификация может сочетать правила и LLM для резюме. Рабочий тестовый прогон на одном дне почты вместе с документацией по настройке я могу подготовить примерно за 5–7 дней.\n\nДва вопроса: какой стек вашей IT-команде проще поддерживать, Python с Azure Functions или Power Automate? И разрешает ли ваша политика безопасности отправлять содержимое писем во внешний AI-сервис, или суммаризация должна работать внутри инфраструктуры?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой стек вашей IT-команде проще поддерживать: Python с Azure Functions или Power Automate?",
+    "Разрешает ли политика безопасности отправлять содержимое писем во внешний AI-сервис, или суммаризация должна выполняться внутри инфраструктуры?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "freelancer:40836898",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-workflow-automation/Workflow-Setup",
+  "title": "AI Workflow Setup in n8n -- 2",
+  "description": "I’m looking to spin up an AI-powered workflow inside n8n. The goal is to connect n8n’s logic nodes with an LLM so the scenario can receive a prompt, process it with the model, and then hand the result back to me or the next system in line. You’re free to propose the most efficient trigger and output channels—website chat, email, Slack, Sheets, or anything else that fits—as long as everything stays within the n8n environment.\n\nHere’s what I need from you:\n• Build and document the complete n8n workflow, including all nodes, credentials, and variables.\n• Integrate the language-model call (OpenAI, Google Gemini, or similar) with sensible error handling and retry logic.\n• Provide a short Loom or screenshot walkthrough so I can maintain or extend the scenario later.\n\nIf you’ve already wired up AI automations in n8n, this should be straightforward. Let me know your approach, the model you’d use, and any prerequisites I should prepare before you dive in.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T11:02:25+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 7,
+   "summary_ru": "Клиент хочет настроить в n8n AI-воркфлоу: получение промпта, обработка через LLM (OpenAI, Gemini и т.п.) и передача результата в выбранный канал. Нужны полная документация, обработка ошибок с повторами и короткое видео-руководство.",
+   "reply": "You want an n8n workflow that takes a prompt, sends it to an LLM such as OpenAI or Gemini, and routes the answer to your chosen channel, with retries, error handling, documentation, and a walkthrough. I'd start by agreeing on the trigger (website chat, form, or email) and the output (Sheets, Slack, or email), then build the LLM node with retry and fallback branches, keep credentials and variables in n8n settings, and document each node. Using modern tooling and AI assistants in my development process, I expect a first working version in about 3–5 days, plus 1–2 days for testing and the recorded walkthrough. Two questions: which model do you prefer, and roughly how many requests per day should the workflow handle? You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен воркфлоу в n8n, который принимает промпт, отправляет его в LLM, например OpenAI или Gemini, и передает результат в выбранный канал. Нужны повторные попытки, обработка ошибок, документация и видео-руководство. Я бы начал с согласования триггера (чат на сайте, форма или почта) и канала вывода (Sheets, Slack или почта), затем настроил узел LLM с повторами и резервными ветками, хранил учетные данные и переменные в настройках n8n и задокументировал каждый узел. Используя современные инструменты и ИИ-ассистенты в разработке, ожидаю первую рабочую версию примерно за 3–5 дней, плюс 1–2 дня на тестирование и записанное видео-руководство. Два вопроса: какую модель вы предпочитаете и примерно сколько запросов в день должен обрабатывать воркфлоу? Живые демо можно посмотреть в моем портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какую LLM вы предпочитаете: OpenAI, Gemini или другую?",
+    "Примерно сколько запросов в день должен обрабатывать воркфлоу?",
+    "Какой канал для входа и выхода данных вам удобнее: сайт, почта, Slack или таблицы?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "flru:5530636",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530636/sobrat-kontent-zavod-ii-obrabotka-materialov-avtopublikatsiya-na-5-ploschadkah-peredacha-zayavok-v-crm.html",
+  "title": "Собрать контент-завод: ИИ-обработка материалов, автопубликация на 5 площадках, передача заявок в CRM",
+  "description": "Собрать и запустить систему, которая превращает наши материалы о серийных складах (фото и видео объектов, планировки, расчёты, интервью инженеров) в публикации на пяти...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 10:38:24 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 6,
+   "summary_ru": "Нужна система, которая с помощью ИИ обрабатывает материалы о серийных складах (фото, видео, планировки, расчёты, интервью), автоматически публикует их на пяти площадках и передаёт заявки из публикаций в CRM.",
+   "reply": "Правильно понимаю: нужно превратить ваши материалы о серийных складах (фото, видео, планировки, расчёты, интервью инженеров) в публикации на пяти площадках с помощью ИИ, а заявки из этих публикаций передавать в CRM. Я бы сначала описал требования к формату для каждой площадки, затем построил обработку на ИИ-ассистентах: черновики текстов, подписи, нарезка медиа под нужные форматы. Публикация пойдёт через API площадок с очередью и ручным подтверждением на старте, а заявки будут поступать в CRM через вебхуки или API. Ориентировочно первая рабочая версия с двумя площадками и CRM займёт 2–3 недели, остальные площадки подключаются поэтапно. Какие это площадки и есть ли у них API? Какая CRM используется?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Правильно понимаю: нужно превратить ваши материалы о серийных складах (фото, видео, планировки, расчёты, интервью инженеров) в публикации на пяти площадках с помощью ИИ, а заявки из этих публикаций передавать в CRM. Я бы сначала описал требования к формату для каждой площадки, затем построил обработку на ИИ-ассистентах: черновики текстов, подписи, нарезка медиа под нужные форматы. Публикация пойдёт через API площадок с очередью и ручным подтверждением на старте, а заявки будут поступать в CRM через вебхуки или API. Ориентировочно первая рабочая версия с двумя площадками и CRM займёт 2–3 недели, остальные площадки подключаются поэтапно. Какие это площадки и есть ли у них API? Какая CRM используется?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие именно пять площадок нужно подключить и есть ли у них открытое API для публикации?",
+    "Какая CRM используется сейчас и нужна ли двусторонняя синхронизация заявок?",
+    "Нужна ли модерация материалов перед публикацией или всё должно уходить автоматически?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "kwork:3275718",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275718",
+  "title": "Лидогенерация для цифровых услуг с оплатой за заказ",
+  "description": "Необходимо привлечь одного клиента на мои услуги по разработке и созданию цифровых продуктов. \nОсновные направления: \n• Telegram-боты и Mini Apps. \n• Сайты и лендинги под ключ. \n• Автоматизация бизнес-процессов. \n• Рекламные ролики, ИИ-видео и анимация. \nПримеры работ представлены в моём портфолио. \nЗадача проекта: привлечь заинтересованного заказчика, которому требуется одна из перечисленных услуг. \nРезультат проекта: один новый клиент, оформивший и оплативший заказ. \nВсе заказы и расчёты проводятся через Kwork. \nВ предложении опишите ваш способ привлечения клиентов. Буду рада интересным вариантам!",
+  "budget": 3000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 14:54:54",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "mini_app",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Заказчик ищет исполнителя для привлечения клиентов на его цифровые услуги (боты, Mini Apps, лендинги, автоматизация, видео) с оплатой за оформленный заказ. Это маркетинговая лидогенерация, а не проект по разработке.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разработка какого-либо продукта или только поиск клиентов и продажа услуг?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "kwork:3275733",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275733",
+  "title": "Требуется продвижение сайта + Яндекс Директ",
+  "description": "Добрый день! Ищу опытного специалиста, который сможет закрыть вопросы SEO-продвижения и рекламы Яндекс Директ для лендинга les-voda16.ru. \nОт вас ожидаю: \n1) Информация о себе, опыт, релевантные кейсы. \n2) Встречные вопросы для клиента или бриф-файл. \n3) Ориентировочные сроки/стоимость. \n4) Порядок работы, план. \n5) Ответственный подход, быть на связи.",
+  "budget": 50000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 14:44:29",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Клиент ищет специалиста по SEO-продвижению и настройке рекламы в Яндекс Директ для существующего лендинга les-voda16.ru. Это маркетинговая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли также техническая доработка самого лендинга, или задача только в продвижении и рекламе?",
+    "Какой бюджет на рекламу в Директе планируется помимо стоимости работ?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
+  "id": "freelance_ru:16486",
+  "source": "freelance_ru",
+  "url": "https://freelance.ru/task/view/16486",
+  "title": "Внести корректировки в готовый BotHelp \"Колеса Фортуны\" для получения контактов на мероприятии.",
+  "description": "Компании Lisabon необходимо скорректировать готовый ТГ бот (BotHelp).Крайний срок ограничен до 2 декабря. Мероприятие 5 декабря.Внести изменения:1. Добавить шаг, что человеку должно быть от 18+2. Разделить на \"Участник\" и \"Тренер\",...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "26.11.2026 14:05",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 6,
+   "summary_ru": "Нужно доработать готовый Telegram-бот «Колесо Фортуны» на BotHelp для сбора контактов на мероприятии 5 декабря: добавить проверку возраста 18+ и разделить сценарий на «Участника» и «Тренера». Срок ограничен 2 декабря, бюджет не указан.",
+   "reply": "Нужно доработать готовый бот «Колесо Фортуны» на BotHelp: добавить проверку возраста 18+, разделить сценарий на «Участника» и «Тренера» и подготовить сбор контактов к мероприятию 5 декабря. Сначала я бы разобрал текущую логику сценария в BotHelp, затем внёс правки по пунктам и протестировал весь путь пользователя для каждой роли, включая розыгрыш и сохранение контактов. При доступе к аккаунту на такой объём правок понадобится около 2–3 рабочих дней, так что к 2 декабря успеем с запасом.\n\nПодскажите, пожалуйста: где сейчас сохраняются контакты (в BotHelp, таблице или CRM) и есть ли полный список изменений? И нужен ли доступ к аккаунту BotHelp или достаточно экспорта сценария?\n\nПосмотреть мои работы с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно доработать готовый бот «Колесо Фортуны» на BotHelp: добавить проверку возраста 18+, разделить сценарий на «Участника» и «Тренера» и подготовить сбор контактов к мероприятию 5 декабря. Сначала я бы разобрал текущую логику сценария в BotHelp, затем внёс правки по пунктам и протестировал весь путь пользователя для каждой роли, включая розыгрыш и сохранение контактов. При доступе к аккаунту на такой объём правок понадобится около 2–3 рабочих дней, так что к 2 декабря успеем с запасом.\n\nПодскажите, пожалуйста: где сейчас сохраняются контакты (в BotHelp, таблице или CRM) и есть ли полный список изменений? И нужен ли доступ к аккаунту BotHelp или достаточно экспорта сценария?\n\nПосмотреть мои работы с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Где сейчас сохраняются контакты участников: в BotHelp, в таблице или в CRM?",
+    "Есть ли полный список правок, помимо проверки 18+ и разделения на «Участника» и «Тренера»?",
+    "Нужен ли доступ к аккаунту BotHelp или достаточно экспорта текущего сценария?"
+   ]
+  },
+  "found_at": "2026-11-26T11:58:57+00:00"
+ },
+ {
   "id": "freelancer:40836895",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/social-media-marketing/Engaging-Social-Media-Promo-Graphics",
