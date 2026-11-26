@@ -1,5 +1,282 @@
 [
  {
+  "id": "freelancer:40836150",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/typescript/Build-Soccer-Pinball-Slot-Game",
+  "title": "Build Soccer Pinball Slot Game -- 2",
+  "description": "We are looking for an experienced 3D WebGL Game Developer to build \"GOLERO - PAMBOLERO\", a high-fidelity, mobile-first 3D skill-based soccer arcade game running smoothly at 60fps in modern mobile and desktop browsers.\nKey Architecture & Scope (Detailed Technical Spec Attached):\n• 3D Scene & Asset Integration (Three.js + Vite): Load our production .glb arcade cabinet (provided by our 3D artist with col_ physics colliders, 6 embedded Blender camera presets, separated emissive lamp/ring meshes, and modular UV-mapped textures for cosmetic skins).\n• Deterministic 3D Physics (Rapier3D — Zero RNG): Implement 100% deterministic, skill-based ball and spring-plunger physics (fixed timestep, zero randomness/RNG) so identical plunger pull force and timing produce identical trajectories across devices—supporting asynchronous 1v1 Ghost Duels and decoupled server-side replay verification.\n• Cinematic Cameras & Feedback (GSAP): Smooth camera transitions between the 6 .glb presets, spring compression visuals, emissive 7-segment LED scoreboards, dynamic SFX, and mobile haptics.\n• Game Rules & Single Config (gameConfig.ts): Program the 5-ball match flow, 20-hole scoring matrix, consecutive-number straights, team badge combos, progressive multipliers (1X–128X), and expose all physics/scoring constants in gameConfig.ts.\n• UI Integration (React + TypeScript + Tailwind CSS): Integrate our 14 mobile-first (9:16) and responsive desktop (16:9) UI screens from Figma with clean API/JSON hooks.\nDeliverables Expected:\n• Clean, well-documented Git source repository (React + Vite + TypeScript + Three.js + Rapier3D + GSAP + Tailwind CSS) with decoupled deterministic physics/scoring module.\n• Fully functional, mobile-optimized 60fps playable build ready for backend API hookup.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T01:23:58+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Разработка браузерной 3D-футбольной аркады на Three.js, Rapier3D, GSAP и React: импорт .glb-корпуса с шестью камерами, детерминированная физика мяча и пружины, правила подсчёта в gameConfig.ts и интеграция 14 экранов из Figma. Бюджет 750 USD, что мало для такого объёма.",
+   "reply": "You need a mobile-first 3D soccer pinball game for the browser: a .glb cabinet with six camera presets, a deterministic Rapier3D plunger and ball physics layer that can be replayed server-side, a single gameConfig.ts for scoring, and 14 Figma screens wired up through JSON hooks. I would split it into milestones: first the Vite, React and Three.js scene with asset loading and camera transitions, then the physics module with a fixed timestep and replay checks, then the scoring rules and UI integration. The fixed-timestep physics and the 60fps mobile target need the most testing, so I would leave time for profiling on real devices. For the scope described, 750 USD covers the first milestones, and the full build would likely take several weeks. Should physics determinism be verified across browsers or only in one reference environment? Are the 14 Figma screens final?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужна мобильная 3D-футбольная аркада для браузера: .glb-корпус с шестью пресетами камер, детерминированный слой физики мяча и пружины на Rapier3D, который можно проверять повторным воспроизведением на сервере, единый gameConfig.ts для подсчёта очков и 14 экранов из Figma, подключённых через JSON-хуки. Я бы разбил работу на этапы: сначала сцена на Vite, React и Three.js с загрузкой ассетов и переходами между камерами, затем модуль физики с фиксированным шагом и проверкой повторов, затем правила подсчёта и интеграция UI. Фиксированный шаг физики и цель 60fps на мобильных устройствах требуют больше всего проверок, поэтому я заложил бы время на профилирование на реальных устройствах. Для описанного объёма 750 USD покрывают первые этапы, а полная сборка, вероятно, займёт несколько недель. Нужно ли проверять детерминизм физики во всех браузерах или только в одной эталонной среде? Экраны в Figma уже финальные?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Нужно ли проверять детерминизм физики во всех браузерах или только в одной эталонной среде?",
+    "Экраны в Figma уже финальные или будут меняться?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
+  "id": "freelancer:40836147",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Build-Two-Distinct-Showcase-Websites",
+  "title": "Build Two Distinct Showcase Websites",
+  "description": "I need assistance to build 2 sites, in dark style.\n\nSimple, elegant, professional. The sites will serve as public portfolios: clear service overviews, examples of past work, and easy-to-find contact forms.\n\nFor both projects I’m after:\n• A responsive, modern design that aligns with each brand’s look and feel.\n• Intuitive navigation so visitors can understand our services within a click or two.\n• A content management setup (WordPress, Webflow, Squarespace, or your best recommendation) that lets my team update text and images without touching code.\n\nYou can reuse components where it makes sense, but each site must still feel unique and tailored to its business. The text well be provided, will need assistance to create logos that match the style and some photos. \n\nI will need some independant to work from A to Z, ideally around 100 USD for each sites, delivery time for both sites around 10th December.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T01:20:44+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Нужно создать два отдельных сайта-визитки в тёмном стиле с обзором услуг, примерами работ, формой обратной связи и CMS для обновления текстов и изображений. Логотипы и фото потребуются частично, срок сдачи около 10 декабря.",
+   "reply": "You need two dark-themed showcase sites, each with its own brand feel, a services overview, a past-work section, a contact form, and a CMS so your team can edit text and images without code. I would build both on one shared, component-based foundation to keep the work fast, then adjust typography, colors, and layouts for each brand so the sites feel distinct. I can set this up in Webflow or WordPress, whichever suits your team better, and估计 both sites can be ready in about 2–3 weeks, well before December 10. Logo design is outside my core work, so I would need to know whether you already have logos or want them sourced from a designer. Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужны два сайта-визитки в тёмном стиле, у каждого свой характер бренда, с обзором услуг, разделом с примерами работ, формой обратной связи и CMS, чтобы ваша команда могла менять тексты и изображения без кода. Я бы собрал оба сайта на общей компонентной основе, чтобы ускорить работу, а затем настроил типографику, цвета и макеты под каждый бренд, чтобы сайты выглядели по-разному. Могу сделать это на Webflow или WordPress, в зависимости от того, что удобнее вашей команде. Оценочный срок для обоих сайтов около 2–3 недель, что точно раньше 10 декабря. Разработка логотипов не входит в мою основную работу, поэтому важно понять, есть ли у вас уже логотипы или их нужно заказать у дизайнера. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас готовые логотипы или их нужно разработать с нуля?",
+    "Фотографии уже готовы или их нужно подобрать из стоков?",
+    "Вы предпочитаете WordPress или Webflow для управления контентом?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
+  "id": "freelancer:40836113",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/crm/Gesti-Mensajes-Entrantes-del-Sitio",
+  "title": "Gestión Mensajes Entrantes del Sitio",
+  "description": "Tengo un flujo constante de consultas que llegan a través del formulario de contacto de mi sitio web y necesito que cada mensaje termine rápidamente en la bandeja de la persona correcta dentro del equipo. El trabajo consiste en revisar cada entrada, clasificarla según tema o área (soporte, ventas, facturación, etc.) y reenviarla al responsable correspondiente mediante la herramienta que mejor se adapte: puede ser un simple redireccionamiento por correo, la carga en nuestro CRM (HubSpot o Zoho), o la creación de tickets en un help-desk como Zendesk. \n\nTambién necesito que marques los mensajes duplicados o spam y lleves un breve registro de métricas básicas: volumen diario, tiempo promedio de derivación y cualquier incidencia relevante. Al final de cada semana, un reporte en hoja de cálculo o tablero compartido será suficiente para hacer seguimiento. \n\nEntrego acceso al buzón vinculado al formulario, lineamientos de clasificación y la lista de contactos internos. A partir de ahí, sólo requiero puntualidad, atención al detalle y comunicación clara si surge alguna consulta que no entre en las categorías definidas.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T01:14:03+00:00",
+  "lang": "es",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Клиенту нужен постоянный сервис по разбору входящих сообщений с формы на сайте: классификация по отделам, пересылка в HubSpot, Zoho или Zendesk, отметка спама и еженедельные отчеты. По сути это ежедневная операционная работа, а не разовая разработка, и бюджет всего 25 USD.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли разовая настройка автоматической маршрутизации (вебхук формы → CRM/help-desk с правилами классификации), или вы хотите, чтобы кто-то вручную разбирал сообщения каждый день?",
+    "Какой объём сообщений в день и сколько часов в неделю потребуется на поддержку?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
+  "id": "freelancer:40836138",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ios/Senior-iOS-Developer-for-Screen",
+  "title": "Senior iOS Developer for Screen Time App",
+  "description": "I need a senior native iOS developer (Swift, SwiftUI) with real experience in Apple's Screen Time API (FamilyControls, ManagedSettings, DeviceActivity) to continue an existing app.\n\nThe product is صخر (\"Sakhr\"), a Saudi product: a small NFC piece plus an iPhone app. You tap the piece to lock distracting apps and can only unlock by tapping it again.\n\nCurrent state:\n- Version 1 is built and submitted to the App Store\n- Source code is in our GitHub, backend on Cloudflare Workers\n- Family Controls entitlement is already approved by Apple\n- Every new screen is already designed in a clickable prototype (engineering only, no design)\n\nWork needed, as fixed-price milestones:\n1. New design across the app, Sign in with Apple, guest mode with a timer lock, lock health check, stats and streaks\n2. Updating the NFC chip (NXP NTAG 424 DNA) from the customer's iPhone\n3. Social features: zone with automatic unlock when leaving the place, friends, groups, challenges\n4. Prayer-time features, widgets, lost piece flow\n5. Family mode (parent and child)\n6. A small web admin panel with support tools and usage analytics\n\nRequired:\n- A shipped App Store app that uses FamilyControls / DeviceActivity\n- Swift, SwiftUI, Core NFC, WidgetKit\n- Right-to-left (Arabic) layouts\n\nIn your bid, please include:\n- An App Store link to a Screen Time app you built, and what you did in it\n- Your price and timeline for milestone 1 only\n- Whether you have worked with NTAG 424 DNA or the open-source app Foqos\n\nBids without an App Store link will not be considered.",
+  "budget": 3000.0,
+  "budget_min": 1500.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T01:11:59+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Нужен senior iOS-разработчик (Swift, SwiftUI) для продолжения приложения «Sakhr»: Screen Time API (FamilyControls, ManagedSettings, DeviceActivity), NFC-чип NTAG 424 DNA, WidgetKit, RTL-верстка и веб-админка. Оплата фиксированными этапами, бюджет 3000 USD. Обязательно требуется ссылка на опубликованное в App Store приложение с Screen Time.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас возможность работать с нативной разработкой под iOS, или нужен именно Swift-специалист?",
+    "Какой объём работ вы ожидаете по первому этапу и подходит ли фиксированная стоимость 3000 USD на весь проект или только на первый этап?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
+  "id": "freelancer:40836123",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/dropshipping/Powered-Pet-Supplies-Dropshipping-Store",
+  "title": "AI-Powered Pet Supplies Dropshipping Store",
+  "description": "I need an AI-driven dropshipping website for pet supplies.\n\nCore Requirements:\n- Complete online store setup\n- Capable of taking orders\n- Integration of AI features (details flexible)\n- link to dropshipping company who settles and sends all orders \n\nIdeal Skills & Experience:\n- E-commerce website development\n- Experience with AI integrations\n- Familiarity with dropshipping logistics\n- Background in pet supply market is a plus\n- someone who has done this before and can assure a minimum of £5k a month",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-26T01:02:01+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Заказчик ищет разработку интернет-магазина зоотоваров по модели дропшиппинга с приёмом заказов, AI-функциями и передачей заказов партнёрской компании для оплаты и отправки. Бюджет 750 GBP низкий для такого объёма, а требование гарантировать 5 000 GBP в месяц выглядит нереалистичным.",
+   "reply": "You're looking for a pet supplies store that takes orders, includes AI features, and passes fulfilment to a dropshipping partner. I'd build it on a modern stack with a product catalog, cart and checkout, and an order flow that forwards each paid order to the supplier's API or, if they have no API, to a sheet or email handoff. The AI part could be product recommendations or a pet-needs quiz that suggests items, and I'd add it once the core order flow works. For this scope I'd estimate about 2–3 weeks for a first working version. Live demos are at https://grachoffprod.github.io/portfolio/\n\nWhich dropshipping company or platform will you use, and do they offer an API or product feed? Which AI features matter most for launch?\n\nYakov",
+   "reply_ru": "Вы ищете магазин зоотоваров, который принимает заказы, включает AI-функции и передаёт выполнение партнёрскому дропшиппинг-поставщику. Я бы построил его на современном стеке с каталогом товаров, корзиной и оформлением заказа, а также с процессом, который передаёт каждый оплаченный заказ через API поставщика или, если API нет, через таблицу или email. AI-часть может включать рекомендации товаров или квиз о потребностях питомца с подбором позиций; добавил бы её после того, как основной процесс заказов заработает. Для такого объёма оценка около 2–3 недель до первой рабочей версии. Живые демо доступны по ссылке https://grachoffprod.github.io/portfolio/\n\nС какой дропшиппинг-компанией или платформой вы планируете работать и есть ли у них API или фид товаров? Какие AI-функции важнее всего для запуска?\n\nYakov",
+   "questions": [
+    "С какой дропшиппинг-компанией или платформой вы планируете работать и есть ли у них API или фид товаров?",
+    "Какие AI-функции важнее всего для запуска магазина?",
+    "Какой объём работ вы закладываете в бюджет 750 GBP: только сайт с заказами или ещё интеграции и AI?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
+  "id": "freelancer:40836118",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/dropshipping/eBay-Dropshipping-Store-Partner",
+  "title": "eBay UK Dropshipping Store Partner, Commission Only",
+  "description": "Oakridge Retail is a UK-based business launching a new eBay UK store, which will run as a general store across a range of product categories. We're looking for an experienced eBay dropshipping manager to build the store from launch and run its day-to-day operations.\n\nResponsibilities:\n- Research products with strong demand and healthy margins on eBay UK\n- Source reliable suppliers, preferably UK-based wholesalers with fast delivery\n- Create optimised listings, including titles, descriptions, item specifics and pricing\n- Process orders with suppliers and upload tracking promptly\n- Handle buyer messages, returns and cases professionally\n- Keep stock levels and pricing up to date so listings stay accurate\n- Maintain strong seller performance metrics\n\nAs the account is new, we expect eBay's selling limits to apply at first. We want steady, sustainable growth that keeps the account in good standing, so experience growing new accounts safely is essential.\n\nAll products must come from legitimate suppliers. Branded or trademarked items and stock bought from other retailers are not permitted.\n\nPayment:\nThis role is commission only, at 30% of net profit per month. Net profit is the sale price minus product cost, delivery, eBay fees, promoted listing costs, refunds and returns. Commission is paid monthly through Freelancer.com, based on the store's sales reports.\n\nRequirements:\n- Proven experience managing eBay dropshipping stores, ideally on eBay UK\n- Strong knowledge of eBay policies, selling limits and performance standards\n- Experience with listing and order automation tools\n- Clear communication and regular progress updates\n\nWhen applying, please include evidence of eBay stores you have managed including sales screenshots, dropshipping suppliers you will be using for UK, estimated profit per sale, and your plan for growing a new account over the first three months.\n\nOnly applicants with verifiable eBay results will be considered.",
+  "budget": 250.0,
+  "budget_min": 20.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-26T00:58:17+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Клиент ищет менеджера для дропшиппинг-магазина на eBay UK с оплатой только комиссией (30% чистой прибыли). Задачи включают подбор товаров, поиск поставщиков, создание объявлений и обработку заказов, то есть операционное ведение магазина, а не разработку.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у заказчика техническое задание на разработку или интеграцию инструментов автоматизации для объявлений и заказов, или нужен только менеджер магазина?",
+    "Планируется ли оплата фиксированным бюджетом за разработку, а не только комиссией от прибыли?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
+  "id": "freelancer:40836116",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android-app-development/Android-Button-Navigation-Bug-Fix",
+  "title": "Android Button Navigation Bug Fix",
+  "description": "I need a quick-turnaround fix for a navigation issue in my existing Android app. Right now, several buttons are wired to the wrong destination: tapping them opens the incorrect screen instead of the one specified in the flow. Everything else—UI, build, and backend calls—works fine; I just need the button intents or navigation graph corrected so each press lands on the proper activity or fragment.\n\nYou will: \n• review the current code (Kotlin/Java mix with AndroidX Navigation) \n• identify where the mis-routing occurs—whether it’s in the onClick listeners, the navigation XML, or a fragment action \n• adjust the logic or XML so every button opens the intended screen \n• test the fix on at least one phone and one tablet emulator, then send back the modified source and a debug APK so I can verify\n\nI have the full project in a Git repo and will grant access as soon as we agree on timing. The change is small but important, so I’m looking for someone who can jump in today, pinpoint the issue quickly with Android Studio, and deliver a clean commit.",
+  "budget": 30.0,
+  "budget_min": 8.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-26T00:56:49+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 5,
+   "summary_ru": "Нужно исправить навигацию в существующем Android-приложении: несколько кнопок открывают не тот экран, что указан во флоу. Остальная часть приложения работает, задача небольшая, срок горящий, бюджет 30 EUR.",
+   "reply": "You need the navigation fixed because several buttons open the wrong activity or fragment, while the UI, build and backend calls already work. I would trace each misrouted button through its onClick handler, the nav graph XML and any fragment actions to find where the destination is set incorrectly, then correct it so every press lands on the intended screen. After that I would test on a phone and a tablet emulator and send a clean commit with a debug APK. For a change this size, I expect to deliver within a few hours of getting repo access. Could you list which buttons misroute and where they should go? Also, which minSdk and Android Studio version does the project use?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно исправить навигацию, потому что несколько кнопок открывают не ту activity или фрагмент, хотя UI, сборка и вызовы бэкенда уже работают. Я бы проверил каждую кнопку с неправильным переходом: обработчик onClick, XML графа навигации и действия фрагментов, чтобы найти место, где задаётся неверный destination, и поправить его так, чтобы каждое нажатие открывало нужный экран. Затем протестировал бы на эмуляторах телефона и планшета и отправил чистый коммит с debug APK. Для изменения такого размера ожидаю сдать в течение нескольких часов после получения доступа к репозиторию. Не могли бы вы перечислить, какие кнопки ведут не туда и куда они должны вести? Также подскажите, какие minSdk и версию Android Studio использует проект?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие именно кнопки открывают неправильный экран и какой экран должен открываться при нажатии на каждую из них?",
+    "Какой minSdk и версию Android Studio использует проект?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
+  "id": "flru:5530532",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530532/razrabotka-veb-prilojeniya-dlya-uchta-montajnyih-brigad-smen-i-vyipolnennyih-rabot.html",
+  "title": "Разработка веб-приложения для учёта монтажных бригад, смен и выполненных работ",
+  "description": "Необходимо оценить разработку веб-приложения для строительной компании, занимающейся монтажом слаботочных систем: видеонаблюдение, СКУД, домофония, сети связи.\n\nЦель -...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 00:32:11 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 6,
+   "summary_ru": "Заказчик, строительная компания, монтирующая слаботочные системы (видеонаблюдение, СКУД, домофония, связь), хочет веб-приложение для учёта монтажных бригад, смен и выполненных работ. Бюджет не указан, описание обрезано, поэтому детали нужно уточнить.",
+   "reply": "Вы описываете веб-приложение для учёта монтажных бригад: смены, выполненные работы и контроль по объектам слаботочных систем. Я бы начал с модели данных (бригады, сотрудники, объекты, смены, виды работ, акты выполнения) и панели для диспетчера и прораба с ролями и доступами, затем добавил отчёты по сменам и выработке и простой мобильный интерфейс для монтажников. Первая рабочая версия с основными сценариями займёт ориентировочно 3–4 недели, дальше доработки по обратной связи. Уточните, пожалуйста: сколько бригад и объектов нужно вести одновременно и нужна ли интеграция с 1С или с таблицами? Живые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете веб-приложение для учёта монтажных бригад: смены, выполненные работы и контроль по объектам слаботочных систем. Я бы начал с модели данных (бригады, сотрудники, объекты, смены, виды работ, акты выполнения) и панели для диспетчера и прораба с ролями и доступами, затем добавил отчёты по сменам и выработке и простой мобильный интерфейс для монтажников. Первая рабочая версия с основными сценариями займёт ориентировочно 3–4 недели, дальше доработки по обратной связи. Уточните, пожалуйста: сколько бригад и объектов нужно вести одновременно и нужна ли интеграция с 1С или с таблицами? Живые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько бригад и объектов нужно вести одновременно?",
+    "Нужна ли интеграция с 1С, Google Sheets или другими системами учёта?",
+    "Нужен ли мобильный доступ для монтажников или достаточно веб-версии?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
+  "id": "flru:5530589",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530589/personalnyiy-golosovoy-ii-assistent-s-pamyatyu-i-integratsiey-s-onlayn-servisami.html",
+  "title": "Персональный голосовой ИИ-ассистент с памятью и интеграцией с онлайн-сервисами",
+  "description": "Ищу специалиста, который создаст, настроит и запустит персонального ИИ-помощника для обработки входящих откликов и переписки с исполнителями по моим заказам.\n\nУправление — через Telegram, голосом и текстом. Нужен работающий инструмент под ключ.\n\nКак должен работать помощник\n\nЯ размещаю заказ в онлайн-сервисе. Исполнители присылают предложения, задают вопросы и отвечают на мои сообщения.\n\nАссистент автоматически получает сообщения, анализирует каждую переписку отдельно, сравнивает стоимость, сроки и условия.\n\nЕсли ответ есть в моих инструкциях или предыдущей переписке — отвечает самостоятельно в пределах заданных полномочий. Если информации недостаточно — задаёт мне конкретный вопрос в Telegram.\n\nЯ отвечаю голосом. Ассистент распознаёт речь, сохраняет решение и отправляет ответ соответствующему исполнителю.\n\nРабочий процесс должен обходиться без ручного копирования сообщений между сервисами.\n\nНеобходимые функции\n\nПолучение новых откликов и сообщений, отправка ответов через доступные разрешённые интеграции.\n\nОтдельная история по каждому заказу и собеседнику.\n\nОдновременная работа с несколькими диалогами без смешивания сообщений и контекста.\n\nАнализ предложений и подготовка индивидуальных ответов.\n\nПриём голосовых и текстовых указаний через Telegram.\n\nПостоянная память: мои требования, решения и информация по текущим задачам.\n\nЗагрузка и редактирование документа с инструкциями «Мнемос».\n\nДва режима: самостоятельные ответы и отправка после моего подтверждения.\n\nЖурнал действий, уведомления об ошибках и возможность остановить автоматические ответы.\n\nФинансовые обязательства и существенные решения — только после моего согласования.\n\nПервый этап — проверка подключения\n\nКонкретную площадку и примеры переписки сообщу подходящим кандидатам до согласования стоимости и начала работы.\n\nСначала необходимо продемонстрировать полный цикл: получение нового отклика и сообщения → анализ → вопрос мне в Telegram → мой голосовой ответ → отправка ответа нужному исполнителю.\n\nПроверка проводится на нескольких параллельных диалогах. После подтверждения работоспособности подключения согласуем основную разработку.\n\nРеализация и результат\n\nПодойдут n8n, готовые сценарии, Python или другое обоснованное решение.\n\nНужны установка, настройка сервера и сервисов, тестирование, инструкция, передача исходного кода или сценариев и документации. Сервер и основные сервисы должны находиться под моим контролем.\n\nБюджет и отклик\n\nПервоначальный ориентир — 10 000 ₽. Укажите, какой объём можно выполнить за эту сумму. Стоимость проверки подключения и основной разработки прошу указать отдельно.\n\nВ отклике напишите:\n\nКак предлагаете реализовать задачу и проверить подключение площадки.\n\nКакие похожие решения уже делали — желательно с демонстрацией.\n\nСтоимость и сроки каждого этапа.\n\nЕжемесячные расходы на сервер, ИИ и другие сервисы.\n\nТехнические ограничения и необходимые доступы.\n\nГотов рассмотреть использование существующих решений и дальнейшее сопровождение после запуска.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 00:18:46 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 6,
+   "summary_ru": "Заказчик хочет персонального ИИ-ассистента, который получает отклики и сообщения исполнителей на онлайн-площадке, анализирует предложения, отвечает по заданным правилам, а вопросы и голосовые решения ведёт через Telegram. Нужна проверка подключения на параллельных диалогах (ориентир 10 000 ₽), затем основная разработка на его сервере.",
+   "reply": "Вы хотите получить ассистента, который читает отклики исполнителей на вашей площадке, сравнивает предложения, отвечает по заданным правилам, а спорные вопросы отправляет вам в Telegram, где вы отвечаете голосом. Предлагаю собрать это на n8n на вашем сервере: Telegram-бот принимает голосовые и переводит их в текст, сценарий ведёт историю отдельно по каждому заказу и собеседнику, LLM готовит ответ, а отправка идёт либо автоматически, либо после вашего подтверждения. Проверку подключения на нескольких параллельных диалогах сделаю в рамках 10 000 ₽, срок — 3–5 дней. Основную разработку оценю после получения примеров переписки.\n\nПодскажите, есть ли у площадки API или официальный доступ к откликам, или без парсинга не обойтись? И готовы ли вы использовать свой VPS под n8n?\n\nПримеры похожих решений и живые демо — https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите получить ассистента, который читает отклики исполнителей на вашей площадке, сравнивает предложения, отвечает по заданным правилам, а спорные вопросы отправляет вам в Telegram, где вы отвечаете голосом. Предлагаю собрать это на n8n на вашем сервере: Telegram-бот принимает голосовые и переводит их в текст, сценарий ведёт историю отдельно по каждому заказу и собеседнику, LLM готовит ответ, а отправка идёт либо автоматически, либо после вашего подтверждения. Проверку подключения на нескольких параллельных диалогах сделаю в рамках 10 000 ₽, срок — 3–5 дней. Основную разработку оценю после получения примеров переписки.\n\nПодскажите, есть ли у площадки API или официальный доступ к откликам, или без парсинга не обойтись? И готовы ли вы использовать свой VPS под n8n?\n\nПримеры похожих решений и живые демо — https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у выбранной площадки API или официальный доступ к откликам и сообщениям, или придётся работать через парсинг?",
+    "Готовы ли вы использовать свой VPS для n8n и сервисов, и какой объём истории переписки нужно хранить?"
+   ]
+  },
+  "found_at": "2026-11-26T01:34:08+00:00"
+ },
+ {
   "id": "freelancer:40836099",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/telecommunications-engineering/Anti-Medical-Mafia-Awareness-Campaign",
