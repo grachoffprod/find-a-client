@@ -1,5 +1,185 @@
 [
  {
+  "id": "freelancer:40836207",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-automation/Deutschsprachiger-Onboarding-Spezialist",
+  "title": "Deutschsprachiger KI-Onboarding-Spezialist gesucht",
+  "description": "Onboarding-Spezialist (Deutsch) für KI-Automatisierung, langfristig auf Stundenbasis\n\nWir bieten KMU in der Schweiz und Deutschland einen KI-Mitarbeiter an: E-Mail-Automatisierung, KI-Telefonagent, Offerten und CRM-System.\n\nWir suchen jemanden, der das Onboarding unserer Neukunden übernimmt:\n- Gespräch mit dem Kunden auf Deutsch, per Telefon oder Video\n- Anforderungen und Sonderwünsche aufnehmen\n- System für den Kunden einrichten, testen, live schalten\n\nAnforderungen:\n- Deutsch auf muttersprachlichem Niveau, zwingend\n- Erfahrung mit Automatisierung und KI-Tools im produktiven Einsatz\n- Sympathisches, sicheres Auftreten im Kundengespräch\n- Erreichbar zu Schweizer Bürozeiten\n\nUmfang: Start mit 10 bis 20 Stunden pro Woche, langfristige Zusammenarbeit.\n\nBitte in der Bewerbung beantworten:\n1. Hast du schon Kunden direkt betreut oder Onboardings geführt?\n2. Welche Automatisierungen oder KI-Systeme hast du produktiv eingerichtet?\n3. Stundensatz und Verfügbarkeit pro Woche?\n\nBewerbungen ohne Antworten auf diese drei Fragen werden nicht berücksichtigt.",
+  "budget": 35.0,
+  "budget_min": 15.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-26T02:24:47+00:00",
+  "lang": "de",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Нужен носитель немецкого языка для постоянной почасовой работы (10–20 ч/нед): онбординг клиентов из Швейцарии и Германии, созвоны на немецком, настройка KI-системы (e-mail-автоматизация, AI-телефонный агент, CRM). По сути это найм на роль сотрудника, а не разовый проект разработки, и требование родного немецкого не совпадает с профилем.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это разовый проект по настройке системы или постоянная роль в команде с почасовой оплатой?",
+    "Нужна ли в первую очередь техническая настройка и интеграции, или главная задача — общение с клиентами на немецком?"
+   ]
+  },
+  "found_at": "2026-11-26T02:30:50+00:00"
+ },
+ {
+  "id": "freelancer:40836205",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android-studio/Complete-Kotlin-Train-App-Publish",
+  "title": "Complete Kotlin Train App & Publish",
+  "description": "Complete Existing Android Application – End-to-End Development & Google Play Store Publishing\n\nProject Overview\n\nI am looking for an experienced Android developer to complete my existing Android application and deliver a fully functional, production-ready application published on the Google Play Store.\n\nThe existing project is already developed to a significant extent using:\n\n- Native Android\n- Kotlin\n- Jetpack Compose\n- MVVM architecture\n- Existing navigation and ViewModels\n- Backend/API integration\n\nI will provide the existing Android Studio project source code and related project files to the selected developer.\n\nImportant: This is an existing project continuation. I do not want the application rebuilt from scratch.\n\n1. Existing Project Audit & Build Fixing\n\n- Audit the complete existing source code.\n- Fix Gradle and dependency issues.\n- Fix compilation errors and runtime crashes.\n- Resolve incomplete screens, routes and missing classes.\n- Ensure the project builds successfully in Android Studio.\n- Preserve all existing completed work.\n\n2. UI/UX Development\n\nImprove the existing application UI with a modern, premium and professional design.\n\nImportant requirements:\n\n- Work only on the specified Live Train Status screen for the requested UI redesign.\n- Implement exactly 8 API-based sections:\n 1. Train Details\n 2. Current Train Status\n 3. Journey Progress\n 4. Next Station\n 5. Station Timeline\n 6. Non-Stop Stations\n 7. Location Messages\n 8. Alerts & Disclaimer\n- Use actual API response fields only.\n- No fake data, dummy stations, hardcoded timings or fake locations.\n- Hide missing, null and unavailable values.\n- Do not unnecessarily change any other screen.\n\n3. API Integration & Functionality\n\nAudit and complete all pending integrations in the existing project.\n\nRequired features:\n\n- PNR Status\n- Live Train Status\n- Train Search with Autocomplete\n- Train Schedule\n- Trains Between Stations\n- Seat Availability\n- Fare Enquiry\n- Live Station Information\n- Train Classes\n\nRequirements:\n\n- Use real API responses and provided credentials.\n- Fix incomplete API calls and response parsing.\n- Implement proper loading, error and empty states.\n- Do not use mock APIs or hardcoded results.\n- Preserve working integrations.\n\n4. Train Alerts & Notifications\n\nComplete and test:\n\n- Saved train alerts and persistence.\n- Station-based alarm scheduling.\n- Notification permissions.\n- Background notification behavior.\n- Alert handling and notification reliability.\n\n5. Backend & Security\n\n- Audit and complete the existing backend/API proxy.\n- Keep API keys and secret credentials on the server.\n- Configure secure API requests.\n- Implement proper error handling and caching where required.\n- Ensure the Android app does not expose private API credentials.\n\n6. Other Existing Features\n\nVerify and preserve:\n\n- Saved/Favourite Trains.\n- Existing navigation.\n- English and Hindi language support.\n- Dark mode.\n- App settings.\n- Existing screens and functionality.\n\nDo not remove or break completed features.\n\n7. Testing & Quality Assurance\n\n- Build and run the complete Android project.\n- Test all major screens and functions.\n- Verify API responses using real data.\n- Test alerts and notifications on an Android device.\n- Fix crashes and functional bugs.\n- Perform regression testing after UI changes.\n\n8. Google Play Store Publishing – End to End\n\nThe developer must prepare the application for production release.\n\nDeliverables:\n\n- Final working Android application.\n- Updated complete source code.\n- Debug/testing APK.\n- Signed production release AAB.\n- App icon and required graphics.\n- Play Store screenshots.\n- App description and listing content.\n- Privacy Policy and Terms.\n- Required Play Console declarations.\n- Version code and release configuration.\n- Internal/closed testing support as required.\n- Production submission.\n- Review correction support.\n- Assistance until the application is approved and published on Google Play Store.\n\nI already have a Google Play Console personal account.\n\nThe developer must coordinate the complete release process. Google Play approval is subject to Google's review.\n\n9. Final Deliverables\n\n1. Complete updated Android Studio project.\n2. Working APK.\n3. Signed release AAB.\n4. Verified API integrations.\n5. Working notifications and alerts.\n6. Testing report.\n7. Play Store listing materials.\n8. Production submission and publishing assistance.\n\n10. Strict Project Conditions\n\n- Continue from my existing project.\n- Do not rebuild from scratch.\n- Do not damage existing functionality.\n- Do not replace real API integrations with mock data.\n- Do not make unrelated UI changes.\n- Do not claim features are complete without testing.\n- Share progress updates and modified-file details.\n- All source code and release deliverables must be handed over.\n\nBudget: ₹5,000 maximum fixed price.\n\nPlease inspect the existing project before bidding. Clearly state what you can complete within this budget, your estimated timeline, and your Android development experience.\n\nOnly developers experienced in Kotlin, Jetpack Compose, API integration, backend security and Google Play Store publishing should apply.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T02:23:43+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Нужно доработать существующее Android-приложение на Kotlin и Jetpack Compose для расписания поездов: исправить сборку и падения, перевести экран Live Train Status на 8 секций с реальными данными API, подключить pending API через серверный прокси, настроить уведомления и подготовить публикацию в Google Play. Бюджет 12 500 INR при таком объёме низкий.",
+   "reply": "You need an existing Kotlin and Jetpack Compose train app finished: fix the build and crashes, rebuild the Live Train Status screen into eight API-driven sections, complete the pending API calls behind a server-side proxy, get the alerts working, and take it through Play Store release. I'd start with a code audit and build fixes to get a stable base, then the API layer and proxy, then the UI redesign and alerts, and finish with the release package. I'd keep your completed work intact rather than rebuilding from scratch. Given the scope, my rough estimate for the development part is 2–3 weeks after I review the source; store review timing depends on Google. Could you share the Android project and backend setup, and tell me whether you need full publishing support or only the signed release build? You can see live demos of my work here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно довести до конца существующее приложение на Kotlin и Jetpack Compose для расписания поездов: исправить сборку и падения, переделать экран Live Train Status в 8 секций с данными из API, доделать незавершённые вызовы API через серверный прокси, наладить уведомления и подготовить выпуск в Google Play. Я бы начал с аудита кода и исправления сборки, чтобы получить стабильную основу, затем слой API и прокси, потом редизайн UI и уведомления, и в конце пакет для релиза. Я бы сохранил уже выполненную работу и не стал бы переписывать всё с нуля. С учётом объёма моя примерная оценка по разработке — 2–3 недели после изучения исходников; сроки проверки в сторе зависят от Google. Не могли бы вы передать Android-проект и настройки бэкенда и уточнить, нужна ли полная поддержка публикации или только подписанная релизная сборка? Живые демо моих работ здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можете передать Android-проект и настройки бэкенда, а также подтвердить, что у вас есть рабочие API-ключи и доступ к серверу?",
+    "Нужна ли полная поддержка публикации в Google Play или только подписанная релизная сборка AAB?"
+   ]
+  },
+  "found_at": "2026-11-26T02:30:50+00:00"
+ },
+ {
+  "id": "freelancer:40835615",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/clickbank/ClickBank-Funnel-Autoresponder-Setup",
+  "title": "ClickBank Funnel & Autoresponder Setup",
+  "description": "I need a complete, single-link ClickBank funnel built inside Systeme.io. The very first page visitors see must be a clear, persuasive product-description page that smoothly directs them to my ClickBank affiliate offer. \n\nOn the back end, please wire that page into the built-in Systeme.io autoresponder so every opt-in is captured and automatically added to my list. If I provide email copy later, the system should already be ready to drop those messages into an automated sequence.\n\nDeliverables\n• A branded product-description landing page inside my Systeme.io account, linked to my ClickBank hop link. \n• Opt-in form (or button-triggered pop-up) connected to the native email list and tagged for future follow-ups. \n• Autoresponder workflow tested end-to-end, including confirmation that subscriber details reach my list and that the redirect to the ClickBank sales page fires without delay. \n\nOnce finished, walk me through the funnel inside a quick screen-share so I can duplicate the process for future offers. The whole setup should be clean, mobile-responsive, and ready to send traffic the moment you hand it over.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T02:09:48+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 5,
+   "summary_ru": "Нужна одностраничная воронка ClickBank в Systeme.io: лендинг с описанием продукта и переходом на партнёрскую ссылку, сбор email в список с тегами и подключённый автоответчик для будущих писем. Также заказчик просит записать короткое видео-обучение по процессу.",
+   "reply": "You need a single-link ClickBank funnel in Systeme.io: a product-description page that leads visitors to your hop link, with opt-ins captured into a tagged native list and an autoresponder ready for your future emails. I'd build the landing page with a clear hero section, benefits, and a single CTA, set up the opt-in form or pop-up with tagging, and connect the redirect to your hop link. Then I'd test each step end to end with a test subscriber and check the mobile layout. The full setup should take about 2 days, and I'd include the screen-share walkthrough so you can repeat the process for future offers.\n\nCould you share the ClickBank hop link and any brand colors or logo? Should the redirect happen right after the opt-in, or only after the visitor clicks the CTA?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужна односсылочная воронка ClickBank в Systeme.io: страница описания продукта, которая ведёт посетителей на вашу партнёрскую ссылку, с сбором email в список с тегами и автоответчиком для будущих писем. Я сделаю лендинг с понятным заголовком, блоком преимуществ и одной кнопкой призыва к действию, настрою форму подписки или поп-ап с тегированием и подключу переход на вашу партнёрскую ссылку. Затем протестирую каждый шаг от начала до конца на тестовом подписчике и проверю мобильную версию. Вся настройка займёт около 2 дней, а в конце я запишу видео-обучение по экрану, чтобы вы могли повторять процесс для будущих офферов.\n\nМожете прислать партнёрскую ссылку ClickBank и цвета или логотип бренда? Переход должен происходить сразу после подписки или только после нажатия кнопки призыва к действию?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можете прислать партнёрскую ссылку ClickBank и цвета или логотип бренда?",
+    "Переход на ClickBank должен происходить сразу после подписки или только после нажатия кнопки призыва к действию?"
+   ]
+  },
+  "found_at": "2026-11-26T02:30:50+00:00"
+ },
+ {
+  "id": "freelancer:40836189",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Dark-Modern-Gaming-Landing-Page",
+  "title": "Dark Modern Gaming Landing Page Design -- 2",
+  "description": "⚠️ IMPORTANT – PLEASE READ BEFORE APPLYING!\n\nWe received over 100 automated and AI-generated proposals within 5 minutes. It's becoming almost impossible to find real, talented designers.\n\nWe do NOT want lengthy introductions, cover letters, AI-generated responses, or explanations of your skills. We simply want to see your work.\n\nPlease reply ONLY in the following format:\n\nHi, I am human – Here is my Dribbble link: [YOUR LINK]\n\nThat's it! Nothing else. \n\nAny proposal containing additional text will be ignored and deleted without being read. No exceptions.\n\nYour portfolio speaks for itself. If we like your work, we'll contact you directly.",
+  "budget": 200.0,
+  "budget_min": 100.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T02:08:36+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 2,
+   "summary_ru": "Клиент ищет дизайнера для тёмного современного лендинга для игровой тематики, бюджет 200 USD. Он требует ответ строго по шаблону с ссылкой на Dribbble и не принимает развёрнутые отклики, поэтому проект ориентирован на визуальный дизайн, а не на разработку.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только статичная дизайн-концепция или также верстка и разработка лендинга?",
+    "Какие разделы и CTA должны быть на странице?"
+   ]
+  },
+  "found_at": "2026-11-26T02:30:50+00:00"
+ },
+ {
+  "id": "freelancer:40836170",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-developmet/Panel-Solicitudes-Presupuesto-Web",
+  "title": "Panel Solicitudes Presupuesto Web",
+  "description": "Quiero centralizar, dentro de mi propio sitio, todas las solicitudes de presupuesto que envían los visitantes. El formulario será minimalista: solo debe pedir la descripción del servicio o proyecto que necesitan, sin más campos. \n\nCada envío tiene que guardarse y visualizarse en un panel interno —nada de correos ni hojas externas— para que yo pueda leer, filtrar y marcar cada solicitud como atendida. Trabajo actualmente con WordPress, así que integra la solución allí o muéstrame otra alternativa totalmente compatible. \n\nNecesito:\n• Formulario activo en la página que te indicaré. \n• Panel de administración accesible con mis credenciales. \n• Protección básica contra spam. \n• Opción de exportar solicitudes a CSV. \n• Breves instrucciones para modificar campos en el futuro. \n\nSi algo no queda claro, consúltame antes de avanzar; prefiero un entregable preciso a suposiciones.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T02:02:20+00:00",
+  "lang": "es",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Нужен минималистичный формулярий запроса бюджета на сайте WordPress. Заявки должны сохраняться во внутреннем админ-панели с фильтрами, отметкой «обработано», экспортом в CSV и базовой защитой от спама.",
+   "reply": "Entiendo que necesitas un formulario minimalista en tu WordPress que guarde cada solicitud de presupuesto en la propia base de datos y las muestre en un panel interno, con filtros, marcado como atendida y exportación a CSV, además de protección anti-spam básica. Lo plantearía como un pequeño plugin: un shortcode para insertar el formulario en la página que indiques, una tabla propia para las solicitudes, un panel en el admin de WordPress accesible solo con tu usuario, honeypot y límite de envíos contra el spam, y el campo de descripción en un único punto del código para modificarlo fácilmente. Calculo unos 1–2 días de trabajo. Puedes ver ejemplos en vivo aquí: https://grachoffprod.github.io/portfolio/\n\n¿Qué versión de WordPress usas y con qué tema o page builder trabajas? ¿Cuál es la página exacta donde debe mostrarse el formulario?",
+   "reply_ru": "Понимаю, что вам нужна минималистичная форма на WordPress, которая сохраняет каждую заявку на бюджет в собственной базе данных и показывает их во внутренней панели с фильтрами, отметкой «обработано», экспортом в CSV и базовой защитой от спама. Я бы сделал это небольшим плагином: шорткод для вставки формы на нужную страницу, собственная таблица для заявок, панель в админке WordPress, доступная только вашему пользователю, honeypot и ограничение частоты отправок против спама, а поле описания — в одном месте кода, чтобы его было легко менять. Оцениваю работу примерно в 1–2 дня. Примеры в действии можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nКакую версию WordPress вы используете и с какой темой или конструктором страниц работаете? На какой конкретной странице должна отображаться форма?",
+   "questions": [
+    "Какую версию WordPress вы используете и с каким темой или конструктором страниц работаете?",
+    "На какой конкретной странице должна отображаться форма?"
+   ]
+  },
+  "found_at": "2026-11-26T02:30:50+00:00"
+ },
+ {
+  "id": "freelancer:40836166",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/sales/Remote-Setters-For-Booking-Calls",
+  "title": "Remote DM Setters For Booking Calls",
+  "description": "HIRING: DM Setters, $5 Per Booked Call (Remote, No Cap)\n\nWe run Timelines Inner Circle, a mentorship that helps video editors grow their income. We're on the way to $1M/month and need setters to get us there.\n\nThousands of editors on X and Discord are looking for ways to make more money right now. Your job is to start the conversation and book them onto a call with our sales team.\n\nPAY\n• $5 for every call you book\n• You get paid for the booking. The prospect doesn't need to buy.\n• Book 5 calls a day for 10 days = $200 bonus\n• Weekly leaderboard: $20 for most calls booked, $15 for most DMs sent\n• Team prize pot: up to $15 extra a week when the team hits its targets\n• No cap. The more you book, the more you make.\n\nWHAT YOU'LL DO\n• Find video editors on X (Twitter) and Discord\n• Send DMs and start real conversations\n• Follow up with people who reply\n• Book them onto calls with our sales team\n• Log every DM in our tracker and post a daily report\n\nFull training is given. You'll get scripts, accounts and everything you need on day one.\n\nWHO WE WANT\n• Good written English\n• Comfortable on X and Discord\n• Can send 30+ DMs a day without being chased\n• Reliable, consistent and hungry\n• Sales or setting experience is a bonus, not required\n\nHOW TO APPLY\nDM me \"SETTER\" + your timezone.",
+  "budget": 3000.0,
+  "budget_min": 1500.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-26T01:44:45+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Вакансия на удалённых DM-сеттеров: ручная рассылка личных сообщений в X и Discord за оплату за каждый забронированный созвон с отделом продаж. Это не разработка, а работа по продажам и outreach.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в этом проекте какая-либо техническая задача по разработке, или нужна только ручная работа с сообщениями?",
+    "Правильно ли понимаю, что оплата зависит только от количества забронированных созвонов, без фиксированного бюджета на разработку?"
+   ]
+  },
+  "found_at": "2026-11-26T02:30:50+00:00"
+ },
+ {
   "id": "freelancer:40836150",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/typescript/Build-Soccer-Pinball-Slot-Game",
