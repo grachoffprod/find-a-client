@@ -1,5 +1,158 @@
 [
  {
+  "id": "freelancer:40837767",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot/Telegram-FAQ-Chatbot",
+  "title": "AI Telegram FAQ Chatbot",
+  "description": "I need a Telegram chatbot that can field everyday customer questions by pulling answers directly from the PDFs and guides I’ll supply. The workflow is simple: when a user types a question, the bot searches those documents, returns a clear answer, and—if the answer genuinely isn’t there—tells the user it does not know. No hand-off to humans, no ticket creation, just an honest “I’m not sure” when the material is missing.\n\nHere’s what matters to me:\n\n• The knowledge base must be built from the documents I provide, so I can replace or add files later without rewriting code. \n• Response time should feel instant for the user; caching or a lightweight vector store is welcome. \n• The bot must run inside Telegram using the standard Bot API, preferably written in Python with libraries such as python-telegram-bot, LangChain, or similar LLM frameworks—open to your expert suggestion. \n• All answers should be returned in plain text; no rich media needed. \n• You’ll deliver the fully commented source code, a short read-me for deployment, and a brief video or screenshots showing the bot in action so I know it matches the spec.\n\nIf this sounds straightforward to you, let me know how you plan to connect the PDFs, which model you’d choose, and roughly how long you’ll need.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T23:14:35+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 8,
+   "summary_ru": "Нужен Telegram-бот на Python, который отвечает на частые вопросы клиентов, используя только загруженные PDF и гайды. Если ответа в документах нет, бот честно сообщает, что не знает. База знаний должна обновляться без переписывания кода.",
+   "reply": "You want a Telegram bot that answers customer questions strictly from your own PDFs and guides, and says it doesn't know when the answer isn't there. I'd build it in Python with python-telegram-bot and LangChain: split the documents into chunks, store embeddings in a lightweight vector store like FAISS or Chroma, and have the bot retrieve the best matching passages and answer only from them. Adding or replacing files would mean re-running an ingestion script, with no code changes. Replies stay plain text, and a short cache keeps response times fast. I use modern tooling and AI assistants in development, so I can deliver a working version with commented code, a deployment README, and a demo video in about 5–7 days. Two questions: roughly how many files and pages will be in the knowledge base, and do you have a preferred LLM provider, or should I choose based on cost?\n\nSee live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен Telegram-бот, который отвечает на вопросы клиентов строго по вашим PDF и гайдам и честно говорит, что не знает, если ответа в документах нет. Я бы сделал его на Python с python-telegram-bot и LangChain: разбил бы документы на фрагменты, сохранил эмбеддинги в лёгком векторном хранилище вроде FAISS или Chroma, и бот находил бы наиболее подходящие фрагменты и отвечал только на их основе. Добавление или замена файлов потребовали бы только повторного запуска скрипта индексации, без изменений в коде. Ответы остаются простым текстом, а короткий кэш ускоряет ответы. Я использую современные инструменты и ИИ-ассистенты в разработке, поэтому могу сдать рабочую версию с комментированным кодом, README для деплоя и видео-демо примерно за 5–7 дней. Два вопроса: примерно сколько файлов и страниц будет в базе знаний, и есть ли предпочтение по LLM-провайдеру или выбрать по стоимости?\n\nПосмотреть живые демо можно в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько примерно файлов и страниц будет в базе знаний?",
+    "Есть ли предпочтение по LLM-провайдеру или выбрать исходя из стоимости?",
+    "Нужно ли поддерживать несколько языков в вопросах и ответах?"
+   ]
+  },
+  "found_at": "2026-11-26T23:19:20+00:00"
+ },
+ {
+  "id": "freelancer:40837754",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/embedded-systems/Finish-working-handheld-spirometer",
+  "title": "Finish a working handheld spirometer prototype (ESP32 + ultrasonic flow): Rev B PCB, firmware, 3 tested units",
+  "description": "We are MSTFA Industries, a Houston medical device startup. We have a handheld spirometer (lung function tester) that is designed, assembled and partly debugged, but it has not taken a flow measurement yet. We need an experienced embedded hardware engineer to take it from here to 3 working, bench-tested units and a complete file package we can hand to a board house. Speed matters more than polish: a better v2 comes later, and the right person is likely to get that work too.\n\nWHAT EXISTS (full files shared after NDA)\n- Small double-sided custom board: ESP32-S3, TI TDC1000 ultrasonic front end + TDC7200 time-to-digital converter, two 40 kHz ultrasonic transducers, OLED, Li-ion charging\n- A pin-by-pin audit found 8 known faults, all in digital control pins or clock choice. The analog receive chain checked correct. TDC1000 SPI communication is verified.\n- MicroPython firmware drivers for both TI chips, flow math, display and Bluetooth (not yet run end to end)\n- 3D-printed flow tube and enclosure (CAD available)\n- A designed backup path using a Sensirion SDP810 differential pressure sensor on the existing I2C port\n\nWHAT WE NEED, BY MILESTONE (fixed price per milestone, paid through platform escrow)\n\nM1. Review and plan (about 1 week)\nReview the files, confirm the fault list, and recommend the fastest reliable path: fix the TI ultrasonic path, switch to a dedicated ultrasonic flow chip, or ship v1 on the pressure sensor. Deliver a written plan with a firm price and dates for M2 to M4.\n\nM2. Rev B hardware\nSchematic and PCB with all faults fixed. Add a temperature/humidity/pressure sensor (for example a BME280) for body-temperature correction. Run design-rule and assembly checks for JLCPCB. Deliver Gerbers, BOM with LCSC/DigiKey part numbers, pick-and-place file, and editable source files. We review before ordering, and we pay for fabrication and parts directly.\n\nM3. Firmware and bring-up\nOn the Rev B boards: flow (L/s) and volume (L) sampled at 100 Hz or faster; FEV1, FVC, FEV1/FVC and PEF from a forced exhalation; body-temperature correction; a calibration routine; results on the OLED and over Bluetooth or serial. Source code in our Git repo with build instructions. MicroPython or C/C++ is fine, but justify a switch.\n\nM4. Integration, testing and hand-off\n3 complete working units in the printed tube and enclosure (update the CAD if needed; deliver STEP + STL). A bench report using a 3-liter calibration syringe: at least 3 speeds x 5 strokes, volume error for every stroke, and zero-flow drift over 10 minutes. Raw data included. Hand-off pack: assembly instructions, test procedure, known-issues list, all source files.\n\nAccuracy: report the real numbers. Our long-term target is the ATS standard (within 2.5% or 0.050 L), but this phase is about a working, measured prototype, not clinical accuracy.\n\nYOU HAVE\n- Shipped at least one ultrasonic time-of-flight, flow or precision timing product (TDC1000/TDC7200, MSP430FR604x, TDC-GP30 or similar)\n- Mixed-signal PCB design experience (EasyEDA, KiCad or Altium)\n- ESP32 firmware experience\n- An oscilloscope and bench supply, and you can receive hardware by mail (US-based preferred)\n- Bonus: medical devices, spirometry, or Sensirion pressure sensors\n\nTERMS\n- Budget: up to $5,000 total, fixed price by milestone. Quote each milestone separately.\n- Target: about 6 to 8 weeks end to end.\n- NDA and IP assignment signed before any files are shared. All work is work-for-hire and belongs to MSTFA on payment.\n- All payments go through the platform's escrow, milestone by milestone. No upfront payments and no payments outside the platform.\n- Weekly 20-minute video check-in.\n\nTO APPLY, answer these (start your proposal with the word \"spirometer\"):\n1. Describe one ultrasonic or flow sensing product you built: which chip, and what accuracy you reached.\n2. A TDC7200 returns 0xFF on every register. What do you check first?\n3. What is the fastest path from today to a first verified volume reading, and how many days would it take you?\n4. Your price and timeline for each milestone.\n5. What bench equipment do you have?",
+  "budget": 1000.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T23:00:41+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Заказчик (стартап из Хьюстона) просит довести до рабочего состояния прототип портативного спирометра на ESP32 с ультразвуковым датчиком потока: разработать Rev B печатной платы, прошивку и протестировать 3 устройства. Основная часть работы — аппаратная разработка PCB и bring-up с осциллографом, что выходит за рамки наших услуг и требует опыта, которого нет в профиле.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли заказчику только прошивка и интеграция (ESP32, Bluetooth, вывод на OLED), или разработка и ревизия самой платы тоже входит в объём?",
+    "Готовы ли они рассмотреть вариант v1 на датчике Sensirion SDP810, если ультразвуковой тракт TI потребует слишком много аппаратной работы?"
+   ]
+  },
+  "found_at": "2026-11-26T23:19:20+00:00"
+ },
+ {
+  "id": "freelancer:40837747",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/php/Custom-OBS-Livestream-Setup",
+  "title": "Custom OBS Livestream Setup -",
+  "description": "I’d like a single, polished OBS Studio scene collection that I can open, hit “Go Live,” and immediately stream to YouTube. All visual and audio assets will be supplied by me; your job is to wire everything together so it runs smoothly and looks professional.\n\nHere is exactly what I need you to build inside OBS:\n\n• A browser-source window that pulls a live stock chart from the website URL I’ll share. \n• An animated dancing girl overlay (I’ll send the file in the highest-quality format available—GIF, MP4 or MOV). \n• A music playlist that plays my desktop tracks in random order throughout the stream. \n• Two small, looping animated “music box” graphics placed where they complement the layout. \n• My custom background image as the base layer.\n-An Animated Logo\n-Displaying x tweets from 2 selected accounts in the right bottom corner\n\nDeliverables and sign-off criteria \n1. Setup on my streaming server\n2. Clear instructions—or a quick screenshare session—so I can swap out assets later if needed. \n3. A brief test session proving the YouTube integration (chart, leaderboard, and donation alert) works live.\n\nIf you’re comfortable using browser sources, media sources, filters, and typical OBS plug-ins for alerts, this should be straightforward. Previous freelancers struggled to stitch the elements together cleanly, so I’m counting on solid OBS expertise and attention to detail.",
+  "budget": 50.0,
+  "budget_min": 20.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T22:53:58+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Заказчик хочет готовую коллекцию сцен OBS Studio для стрима на YouTube: браузерный источник с биржевым графиком, анимированные оверлеи, плейлист, логотип и вывод твитов из двух аккаунтов, плюс настройка на сервере и тестовый эфир. По сути это настройка готового ПО из его ассетов, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли кастомная разработка, например собственный виджет для твитов или алертов, или достаточно настроить стандартные плагины OBS?",
+    "На каком сервере будет работать стрим и какие у него характеристики и ОС?"
+   ]
+  },
+  "found_at": "2026-11-26T23:19:20+00:00"
+ },
+ {
+  "id": "freelancer:40837737",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/php/Telegram-Bot-Development-with-Python",
+  "title": "Telegram Bot Development with Python -",
+  "description": "I'm seeking an experienced Python developer to create a Telegram bot for me. The bot should be built using the Telegram Bot API and designed to simulate widget requests.\n\nKey Requirements:\n- Strong Python programming skills\n- Extensive experience with the Telegram Bot API\n- Previous work simulating user interactions or widget requests would be a plus\n- Ability to deliver a bot that does not require user authentication\n\nPlease note that the primary function of the bot has not been specified yet. Therefore, flexibility and experience in building adaptable bots will be a significant advantage.",
+  "budget": 150.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T22:43:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 4,
+   "summary_ru": "Заказчик ищет Python-разработчика для Telegram-бота на Bot API, который имитирует запросы виджета и работает без авторизации пользователей. Основная функция бота ещё не определена, бюджет 150 USD.",
+   "reply": "You need a Python bot on the Telegram Bot API that imitates widget requests, works without user login, and whose core function is still open. I'd start by pinning down exactly what the bot should do, then build a modular aiogram-based skeleton so the main logic can be swapped in once it's defined. Expect a first working version about a week after the scope is agreed, plus a few days for testing and fixes. Could you tell me exactly which widget requests need to be simulated, and whether you'll need commands, inline buttons, or an admin panel later on? Live demos of my work are at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен Python-бот на Telegram Bot API, который имитирует запросы виджета, работает без авторизации пользователей, а его основная функция пока не определена. Я бы сначала уточнил, что именно должен делать бот, а затем собрал модульный каркас на aiogram, чтобы основную логику можно было подключить после согласования. Первую рабочую версию ожидаю примерно через неделю после согласования задачи, плюс несколько дней на тесты и доработки. Подскажите, какие именно запросы виджета нужно имитировать и понадобятся ли потом команды, inline-кнопки или админ-панель? Живые демо моих работ: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие именно запросы виджета нужно имитировать и с какой целью?",
+    "Понадобятся ли в будущем команды, inline-кнопки или админ-панель?"
+   ]
+  },
+  "found_at": "2026-11-26T23:19:20+00:00"
+ },
+ {
+  "id": "freelancer:40837730",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-support/Argentina-English-Support-Sales",
+  "title": "Argentina English Support & Sales -- 2",
+  "description": "I’m expanding my customer-facing team and want colleagues who already live in Argentina to take care of our English-speaking customers. Your day will revolve around answering questions, guiding prospects through the buying process, and making sure every interaction ends with a satisfied, loyal customer.\n\nYou’ll be handling customer support and sales activities in English. Most conversations arrive through the usual channels—phone, email, live chat, and occasionally social media—so you should feel comfortable switching between them as needed. A friendly tone, clear written English, and the confidence to nudge a prospect toward purchase are essential.\n\nDeliverables I’ll rely on:\n• Prompt, accurate replies to incoming enquiries \n• Thoughtful follow-ups that convert interested leads into paying customers \n• Clean, up-to-date notes in our CRM so the rest of the team stays in the loop \n\nIf you’re based in Argentina, speak fluent English, and enjoy the mix of support and sales, let’s talk.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T22:36:12+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Заказчик ищет сотрудника в Аргентине для поддержки и продаж на английском языке (ответы на обращения, follow-up, ведение заметок в CRM). Это вакансия на постоянную работу, а не разработка проекта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это вакансия на найм сотрудника, а не проект разработки. Нужна ли заказчику какая-либо техническая доработка CRM или интеграций для этого процесса?"
+   ]
+  },
+  "found_at": "2026-11-26T23:19:20+00:00"
+ },
+ {
   "id": "freelancer:40837714",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/pine-script/Pine-Script-Alert-Integration",
