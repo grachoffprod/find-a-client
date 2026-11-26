@@ -1,5 +1,309 @@
 [
  {
+  "id": "freelancer:40836255",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/embedded-systems/Dual-Channel-Current-Controller-Design",
+  "title": "Dual-Channel Current Controller Design",
+  "description": "Seeking an independent embedded hardware/firmware engineer to design, build, program, test and deliver one complete dual-channel low-voltage electrode controller and matching owned manufacturing files. This is original development from written functional requirements; no existing schematic, PCB or firmware. External nominal 12 V supply. Two electrode pairs operate simultaneously in shared water, with current/voltage limits, controlled polarity reversal, retained polarity state, manual timed dosing, simple buttons/selector and actual-current indication. No wireless, app, display or production batch. Engineer must procure and receive the prototype, program and debug it at their own or managed facility, obtain an agreed representative electrode test fixture, perform documented shared-water and enclosed thermal validation, correct agreed-scope design errors including necessary hardware/re-spins/retesting, and ship a verified complete controller with external supply to Toledo, Ohio. Owner will not test or troubleshoot unfinished hardware. Deliver native schematic/PCB CAD, Gerbers/drills, BOM/CPL, full firmware source/build files and binaries, enclosure cutout/DXF drawings, faceplate artwork, complete assembly/wiring documentation, finished-controller BOM and factory test procedure matching the tested unit, with IP ownership and freedom to manufacture elsewhere. Please provide fixed/capped total with labor, prototype hardware, test setup and shipping itemized, timeline, payment/acceptance milestones, relevant power/current-controller work you personally tested, lab arrangements and exceptions. Full detailed Revision C RFQ and numerical acceptance criteria will be supplied privately to suitable bidders. No treatment-efficacy, chemistry, electrode-life or certification studies requested.",
+  "budget": 15.0,
+  "budget_min": 8.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T03:24:01+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Заказчик ищет инженера по встраиваемой электронике и прошивке для разработки двухканального низковольтного контроллера электродов с печатной платой, прошивкой, корпусом, лабораторными испытаниями и доставкой прототипа. Проект требует аппаратной разработки и физических испытаний, а бюджет составляет 15 USD.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой полный объём работ и бюджет вы закладываете с учётом разработки платы, прототипа, лабораторных испытаний и доставки?",
+    "Готовы ли вы предоставить полное техническое задание и критерии приёмки до подачи предложения?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "freelancer:40836252",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/phoniste-Soumissions-Services",
+  "title": "Téléphoniste Soumissions Services Administratifs",
+  "description": "J’ai déjà en main une liste qualifiée de clients ainsi que la description détaillée de nos services professionnels et administratifs. \nJe souhaite confier à une téléphoniste les actions suivantes :\n\n• Contacter chaque client de la liste selon les coordonnées fournies. \n• Recueillir, durant l’appel, toutes les informations nécessaires pour préparer une soumission précise (besoins, quantités, échéancier, interlocuteur clé). \n• Compléter le formulaire de soumission que je fournirai, puis me le retourner pour vérification. \n\nL’objectif n’est pas de vendre immédiatement mais bien d’obtenir des données fiables permettant d’émettre une proposition chiffrée. \nJe fournirai : script d’appel, argumentaire succinct, modèles de soumission et accès à notre ligne téléphonique ou outil VoIP au besoin. \n\nUne voix professionnelle, une bonne capacité d’écoute et une excellente maîtrise du français parlé sont indispensables. L’aisance avec les outils bureautiques courants (Google Sheets ou Excel) est également souhaitée pour saisir les informations collectées. \n\nLe volume initial représente environ une centaine de contacts ; si la collaboration est fluide, je prolongerai la mission sur le long terme.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T03:21:56+00:00",
+  "lang": "fr",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Клиент ищет телефонистку, которая обзвонит около 100 контактов из готового списка, соберёт данные для коммерческих предложений и заполнит форму в Google Sheets или Excel. Это ручная работа по телефону, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли какие-то технические доработки, например автоматическое заполнение таблицы из формы или интеграция с CRM?",
+    "Планируется ли использовать VoIP-инструмент с автоматической записью или логированием звонков?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "freelancer:40836242",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ios/Aplikasi-Mobile-Internal-Perusahaan",
+  "title": "Aplikasi Mobile Internal Perusahaan",
+  "description": "Saya ingin mengembangkan sebuah aplikasi mobile yang dipakai khusus oleh karyawan internal untuk mempermudah pekerjaan dan alur layanan harian. Fokusnya adalah kecepatan akses, tampilan yang sederhana, dan integrasi mulus dengan sistem yang sudah berjalan.\n\nRuang lingkup utama\n• Aplikasi berjalan lancar di Android (jika Anda juga mampu menyiapkan versi iOS, mohon tulis di penawaran). \n• Autentikasi aman—email, nomor ponsel, atau SSO perusahaan. \n• Dashboard ringkas berisi tugas, notifikasi, dan status pekerjaan. \n• Form input untuk pencatatan data serta unggah foto/dokumen langsung dari ponsel. \n• Sinkronisasi data real-time ke back-end yang mudah diintegrasikan (REST API, Firebase, atau solusi serupa). \n\nYang saya butuhkan dari Anda\n1. Rencana pengembangan: pilihan teknologi (native, Flutter, React Native, dll.) + alasan. \n2. Tahapan waktu: wireframe, prototipe fungsional, rilis beta, hingga versi final. \n3. Contoh proyek sejenis yang pernah Anda selesaikan. \n4. Estimasi dukungan pasca-rilis untuk bug-fix dan peningkatan kecil. \n\nOutput akhir\n• Kode sumber lengkap dan terdokumentasi. \n• File build siap instal. \n• Panduan singkat deploy/install untuk tim IT kami. \n\nSaya akan memberikan detail flow bisnis serta aset desain setelah kerja sama disepakati. Terima kasih—saya menantikan solusi yang efisien dan mudah dipakai!",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T03:09:41+00:00",
+  "lang": "id",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Заказчик ищет разработку мобильного приложения для внутренних сотрудников компании на Android (iOS по желанию): авторизация через email, телефон или корпоративный SSO, дашборд с задачами и уведомлениями, формы с загрузкой фото и документов и синхронизация в реальном времени с существующим back-end через REST API или Firebase. Бюджет 1500 USD.",
+   "reply": "Saya memahami bahwa Anda membutuhkan aplikasi mobile internal untuk karyawan dengan login aman (email, nomor ponsel, atau SSO), dashboard tugas dan notifikasi, form input dengan unggah foto dan dokumen, serta sinkronisasi real-time dengan sistem yang sudah berjalan.\n\nSaya menyarankan Flutter, karena satu basis kode bisa dipakai untuk Android dan, jika diperlukan, iOS. Alurnya: wireframe dan prototipe fungsional untuk disetujui, lalu integrasi API, rilis beta untuk uji internal, dan versi final dengan kode terdokumentasi serta panduan instalasi untuk tim IT. Perkiraan waktu sekitar 4–6 minggu, tergantung cakupan final.\n\nApakah back-end yang dipakai sudah memiliki dokumentasi API?\nPenyedia SSO apa yang digunakan perusahaan Anda?\n\nBeberapa proyek saya dengan demo langsung bisa dilihat di https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Я понимаю, что вам нужно внутреннее мобильное приложение для сотрудников с безопасным входом (email, номер телефона или SSO), дашбордом задач и уведомлений, формами ввода с загрузкой фото и документов и синхронизацией в реальном времени с уже работающей системой.\n\nЯ предлагаю Flutter: одна кодовая база подойдёт для Android и, если понадобится, для iOS. Порядок работ: wireframe и функциональный прототип на согласование, затем интеграция с API, бета-релиз для внутреннего тестирования и финальная версия с документированным кодом и инструкцией по установке для вашей IT-команды. Ориентировочный срок около 4–6 недель, в зависимости от итогового объёма.\n\nЕсть ли у вашей back-end системы документация по API?\nКакой SSO-провайдер использует ваша компания?\n\nНекоторые мои проекты с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вашей back-end системы документация по API?",
+    "Какой SSO-провайдер использует ваша компания?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "freelancer:40836238",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/3d-art/Realistic-Spider-Man-Artwork",
+  "title": "Realistic Spider-Man Artwork",
+  "description": "I need a skilled artist to create a realistic movie-style artwork of Spider-Man. The image should feature Spider-Man swinging through the city, wearing a Baltimore Ravens shirt. The background should be a generic cityscape, infused with Ravens colors.\n\nRequirements:\n- Expertise in realistic, movie-style artwork\n- Ability to depict dynamic action poses\n- Experience with urban backgrounds and color integration\n\nIdeal Skills:\n- Proficiency in digital art or traditional painting\n- Strong understanding of anatomy and perspective\n- Previous work in superhero or comic art",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T03:03:43+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет художника для создания реалистичной кинематографичной картины с Человеком-пауком в футболке Baltimore Ravens на фоне городского пейзажа в цветах команды. Это творческая работа по иллюстрации, а не разработка, бюджет 30 USD.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только одна иллюстрация или серия изображений?",
+    "Есть ли референсы по стилю или позе?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "freelancer:40836228",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Chip-Server",
+  "title": "My Chip Server",
+  "description": "MyChipServer – Website & Dashboard Development (Fixed-price, per-item quote)\n\nABOUT US\nMyChipServer (mychipserver.com) is a live browser-based service that gives developers remote access to real microcontroller boards (ESP32, STM32, RP2040, nRF52). Users reserve a board, flash firmware over JTAG/SWD, debug with GDB, view UART consoles, use a logic analyser and emulate sensors. We also have a CLI and REST API for CI pipelines. Customers are solo developers, engineering teams and universities.\n\nThis project improves and extends our existing website and dashboard. It is not a rebuild from scratch. Target go-live: 5–6 weeks from start.\n\nCONTEXT\n- Site and dashboard are already in production. Code access, known-issue list and an architecture call come after an NDA (shortlisted bidders only).\n- US-registered company, billing customers in USD.\n- Scale target: 2,000 registered users.\n- Separate development and production environments, each with its own database.\n- Hardware, board firmware and hardware-side data APIs stay with our team. Where an item touches hardware, you build the web side against our APIs.\n- All code, designs and accounts (hosting, payments, analytics, email) belong to MyChipServer and stay in our name from day one.\n- Tell us which tech stacks you work in. Our stack is shared with shortlisted bidders.\n\nPRIORITY 1 – STABILISE, SECURE, GET INDEXED\n1.1 Security hardening: review and fix database access rules and authentication; request validation, rate limiting and CORS on all APIs. Quote a cap in hours, re-confirmed after you see our issue list.\n1.2 Fix broken flows: billing page saves plan/quota changes; waitlist signup works; re-test all main user flows.\n1.3 Automated API tests: run in CI on every change, covering booking, workspaces and CI/CLI flows first.\n1.4 Technical SEO: robots.txt, sitemap, llms.txt; noindex on dashboard/login/signup; redirect logged-out dashboard visits; canonical tags and URL redirects; structured data, social share tags, unique titles/descriptions; security and cache headers; mobile LCP under 2.5s.\n1.5 Accurate public content: correct pages that describe features, figures or certifications not yet offered. We supply the wording.\n1.6 Branding (quote separately): positioning and messaging, logo, palette, typography, graphic samples.\n\nPRIORITY 2 – CUSTOMER EXPERIENCE, REVENUE, ADMIN\n2.1 UI redesign of website and dashboard: wireframes and user flows first, then visual design, then light animation. Responsive down to mobile.\n2.2 Sign-up, login and teams: smoother sign-up; browse boards without an account, sign in only to reserve or run; invite team members; enterprise SSO (SAML) and SCIM.\n2.3 Roles and multi-tenant admin: one login, view depends on role (our staff, organisation admin, teacher/team lead, student/member). We onboard a school or company and appoint its admin, who manages users and board sharing, bulk-invites from an email list (sent from our domain), and sees usage per group. One role system shared with 2.2.\n2.4 Payments: one provider (Stripe or Lemon Squeezy – tell us which you recommend), USD. Price list, free trials, upgrades/downgrades, quotas or credits, invoices, webhooks.\n2.5 Feedback page plus a button on every page, posted to Slack.\n2.6 Analytics and error tracking: short tool proposal first; then GA4, Meta Pixel, Search Console, key events, and Sentry on front end and back end.\n\nPRIORITY 3 – SCALE, PERFORMANCE, DASHBOARD FEATURES\n3.1 Scaling and load testing (one combined item): review database, API and hosting limits for 2,000 users; enforce plan limits on reservations; shared rate limiter; load tests early and before launch.\n3.2 Monitoring and public status page (hosted service is fine), building on Sentry from 2.6.\n3.3 Logic-analyser viewer (web side only): improve the live waveform viewer, connection status and error handling, against our streaming API.\n3.4 Usage dashboard for users and organisation admins, from a data API we provide.\n3.5 Direct firmware upload with no 4.5 MB limit; UART log download.\n3.6 Published API reference (OpenAPI where possible), including an endpoint that bundles a board's UART, logic-analyser and sensor data for users' own AI tools.\n\nOUT OF SCOPE\nHardware platform and firmware, MCP server, internal ops console, mobile app, AI features, per-segment landing pages, third-party subscription fees (we pay those directly).\n\nMAINTENANCE (QUOTE SEPARATELY – NOT A CONDITION OF THE BUILD PRICE)\n- Free warranty on defects in your work for at least 60 days after launch.\n- Monthly retainer: fee, included hours, rate for extra hours, whether unused hours carry over.\n- Response times for P0 (site down / payments broken) to P3 (cosmetic).\n\nYOUR QUOTE MUST INCLUDE\n1. Hours and price for every item (1.1 to 3.6) and your hourly rate. Flag anything you'd combine, split or drop.\n2. Who will do the work: roles, seniority, hours per week each.\n3. Week-by-week timeline, with when we can review a deployed link.\n4. Milestone payment schedule (e.g. 30% start / 40% mid-point / 30% launch).\n5. Confirmation that all code, designs and repositories are ours and handed over in full.\n6. Maintenance terms as above.\n7. Two or three similar projects (SaaS dashboards with payments and role-based access).\n8. Your assumptions and what you need from us.\n\nPrice in USD. Quotes without per-item hours will not be considered.",
+  "budget": 10000.0,
+  "budget_min": 5000.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T02:57:44+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "booking",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 6,
+   "summary_ru": "Заказчик ищет разработчика, который доработает уже работающий сайт и дашборд сервиса удалённого доступа к микроконтроллерам: усилит безопасность, починит платежи и waitlist, настроит SEO, добавит роли, SSO, оплату и аналитику. Бюджет 10 000 USD, срок 5–6 недель, объём работ большой и разбит по пунктам.",
+   "reply": "You're asking for a targeted upgrade of a live MyChipServer site and dashboard, not a rebuild. That means hardening security and rate limiting, fixing the billing and waitlist flows, getting the public pages properly indexed, and then adding the role-based multi-tenant admin, payments and usage views. I'd start with the stabilisation block (security review, broken flows, API tests in CI) so the live product is safe before any redesign. Technical SEO and the role system would run in parallel, with billing and analytics after that. I'd work in short sprints with a working demo at the end of each. Based on the scope, I'd expect Priority 1 in about two weeks and the full list within your 5–6 week window, depending on what the issue list shows. Could you confirm which items after 3.5 are included in the $10,000 budget? And is the SSO/SCIM work a separate phase, or part of the first release?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете точечное улучшение живого сайта и дашборда MyChipServer, а не перепись с нуля. Это значит усилить безопасность и rate limiting, починить потоки оплаты и waitlist, привести публичные страницы в порядок для индексации, а затем добавить мультитенантную админку с ролями, оплату и просмотр использования. Я бы начал с блока стабилизации (аудит безопасности, исправление сломанных потоков, API-тесты в CI), чтобы живой продукт был защищён до любого редизайна. SEO и система ролей могли бы идти параллельно, а оплата и аналитика — после них. Работать я планирую короткими спринтами с рабочим демо в конце каждого. По объёму я ожидаю Priority 1 примерно за две недели и весь список в рамках ваших 5–6 недель, в зависимости от issue list. Подтвердите, пожалуйста, какие пункты после 3.5 входят в бюджет 10 000 USD? И будет ли работа по SSO/SCIM отдельной фазой или частью первого релиза?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие пункты после 3.5 входят в бюджет 10 000 USD, и полный ли список у вас указан в описании?",
+    "Будет ли SSO/SCIM отдельной фазой или частью первого релиза?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "freelancer:40836223",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/nodejs/Multi-Number-WhatsApp-Admin-Dashboard",
+  "title": "Multi-Number WhatsApp Admin Dashboard",
+  "description": "I need a straightforward web-based dashboard that lets me manage several WhatsApp Business numbers from one place. The core function is simple: for every connected number I must be able to send and receive messages in real time without touching the individual phones.\n\nKey requirements\n• Connect through my existing WhatsApp Business accounts (no Official API; the solution can mirror the QR-code approach or any other stable method that respects WhatsApp’s terms). \n• Display each number in its own tab or clearly labeled section so I can switch quickly. \n• Message view must show the full chat history and update live as new messages arrive. \n• Outgoing messages should deliver instantly and reflect in the original WhatsApp chat.\n\nNice-to-have (mention only if you can include them easily): viewing contact details, adding extra team members with role-based access.\n\nDeliverables\n1. Working web panel or desktop app ready for me to log in and start using. \n2. Setup guide that covers installation, device pairing, and how to reconnect a number if the session expires. \n3. Source code or compiled package plus any third-party library notes for future maintenance.\n\nI value a clean, stable build over extra features, so keep the stack lightweight—Node.js, Python, or any technology you’re confident will stay reliable for long chat sessions.",
+  "budget": 50.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T02:46:33+00:00",
+  "lang": "id",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Заказчик хочет веб-панель для управления несколькими WhatsApp Business номерами: отдельные вкладки на каждый номер, живой чат с историей и мгновенная отправка сообщений без работы с телефонами. Подключение нужно через неофициальный способ (QR-зеркалирование), бюджет 50 USD.",
+   "reply": "Halo, saya memahami kebutuhannya: satu dashboard web untuk mengelola beberapa nomor WhatsApp Business, dengan tab terpisah per nomor, riwayat chat yang update secara real-time, dan pesan keluar yang langsung muncul di chat WhatsApp asli.\n\nPendekatannya: backend Node.js dengan library multi-device (misalnya Baileys atau whatsapp-web.js) untuk setiap sesi, WebSocket untuk pembaruan langsung, dan frontend ringan dengan tab per nomor. Sesi disimpan sehingga pairing tidak perlu diulang, dan saya sertakan panduan reconnect jika sesi kedaluwarsa. Estimasi pengerjaan MVP sekitar 5–7 hari.\n\nPerlu diketahui, metode non-resmi ini berisiko pemblokiran akun oleh WhatsApp, jadi sebaiknya dipertimbangkan sebelum dipakai untuk nomor bisnis utama.\n\nBerapa jumlah nomor yang akan dihubungkan, dan apakah nomor tersebut sudah bisa digunakan di WhatsApp Web?\n\nContoh demo live dapat dilihat di https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте, я понимаю задачу: одна веб-панель для управления несколькими номерами WhatsApp Business, с отдельной вкладкой на каждый номер, историей чатов в реальном времени и отправкой сообщений, которые сразу появляются в исходном чате WhatsApp.\n\nПодход: бэкенд на Node.js с multi-device библиотекой (например, Baileys или whatsapp-web.js) для каждой сессии, WebSocket для живых обновлений и лёгкий фронтенд с вкладками по номерам. Сессии сохраняются, поэтому повторно сканировать QR не придётся; также добавлю инструкцию по переподключению, если сессия истекла. Оценка по срокам для MVP: около 5–7 дней.\n\nВажно понимать: неофициальные методы несут риск блокировки аккаунтов WhatsApp, поэтому стоит это учесть, прежде чем использовать основные бизнес-номера.\n\nСколько номеров планируется подключить и уже ли они работают в WhatsApp Web?\n\nЖивые демо-примеры можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько номеров WhatsApp Business планируется подключить?",
+    "Используются ли эти номера сейчас в WhatsApp Web и готовы ли вы к риску блокировки при неофициальном подключении?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "freelancer:40836218",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Build-Digital-Product-Online-Store",
+  "title": "Build Digital Product Online Store",
+  "description": "I’m launching “nexs ia and” as a fully digital brand and I need the entire storefront built from scratch. The shop will sell downloadable items only—think e-books, templates, audio loops and similar assets—so the flow has to stay streamlined: browse, pay, receive the file instantly.\n\nHere’s what I want the finished site to handle: secure user accounts, a fast product search, simple product-upload screens on my end, automatic licence or download-link delivery on the customer side, and clean analytics so I always know what’s selling. The design should look modern and adapt flawlessly to mobile.\n\nI’m open on platform choice; Shopify (with a digital-downloads app), WooCommerce, or a lightweight custom build in React/Next.js are all fine as long as checkout is rock-solid with Stripe and PayPal. Use whatever stack you’re most efficient with, just keep the code well-documented.\n\nDeliverables \n• Live store on my domain, SSL in place \n• At least three sample products configured and tested \n• Payment gateway fully integrated and passing test transactions \n• Automated email sent after purchase containing a unique, expirable download link \n• Clear hand-over doc showing me how to add products and view orders \n\nAcceptance criteria \nThe site must load under 2 s on mobile 4G, all test purchases complete without manual intervention, and every download link must remain valid for 24 h before expiring.\n\nIf this matches your skill set, let’s talk timeline and milestones—I’m ready to get started right away.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T02:41:22+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 7,
+   "summary_ru": "Заказчик запускает магазин цифровых товаров (электронные книги, шаблоны, аудиолупы) с каталогом, быстрым поиском, загрузкой товаров, автоматической выдачей ссылок на скачивание, которые истекают через 24 часа, и аналитикой продаж. Бюджет 750 USD, оплата через платформу.",
+   "reply": "You're looking to build a storefront for digital goods, such as e-books, templates, and audio loops, where buyers browse, pay, and get their file right away. The key pieces are a catalogue with fast search, a simple upload panel for you, automatic delivery of unique download links that expire after 24 hours, and basic sales analytics.\n\nMy approach is a lightweight Next.js build with a fast static catalogue, a small admin area for uploads, and signed, expiring download URLs generated for each order. I'd keep mobile layout and load time in focus from the start. I'd expect a first working version with the three sample products in about 2–3 weeks, followed by testing and a hand-over doc.\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nTwo questions: Do you prefer your own file storage or a hosted option? And how many products do you plan to list at launch?\n\nYakov",
+   "reply_ru": "Вы хотите создать витрину для цифровых товаров, например электронных книг, шаблонов и аудиолупов, где покупатели просматривают каталог, оплачивают и сразу получают файл. Ключевые части: каталог с быстрым поиском, простая панель загрузки товаров для вас, автоматическая выдача уникальных ссылок на скачивание, которые истекают через 24 часа, и базовая аналитика продаж.\n\nМой подход: лёгкая сборка на Next.js с быстрым статичным каталогом, небольшой админкой для загрузки товаров и подписанными ссылками на скачивание, которые генерируются для каждого заказа и истекают. С самого начала я буду уделять внимание мобильной адаптивности и скорости загрузки. Ожидаю первую рабочую версию с тремя тестовыми товарами примерно за 2–3 недели, затем тестирование и документ передачи проекта.\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: вам удобнее собственное хранилище файлов или хостинг? И сколько товаров планируете разместить к запуску?\n\nYakov",
+   "questions": [
+    "Вам удобнее собственное хранилище файлов или готовый хостинг?",
+    "Сколько товаров планируете разместить к запуску магазина?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "freelancer:40836217",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/woocommerce/Website-Product-Price-Upload",
+  "title": "Website Product & Price Upload",
+  "description": "I’m looking for someone who can take a folder of documents and images and turn them into polished, live listings on my online store. The products are physical items that will be shipped to customers, and every product already has its name, price, photos, and full description written up for you—nothing needs to be created from scratch. \n\nYou’ll receive organised docs for the copy and matching image files. Your job is to: \n\n• Upload each item to the site’s backend (Shopify, WooCommerce, or Squarespace—let me know which platform you know best). \n• Insert the correct price, copy-paste the description, and attach the photos in the right order and resolution. \n• Apply any relevant categories or tags so browsing and search work smoothly. \n• Double-check that the price displays accurately and the layout looks clean on both desktop and mobile. \n\nWhen you’re done, provide a quick spreadsheet (SKU, product title, and live URL) so I can verify everything. \n\nAccuracy is more important than speed, so detail-oriented freelancers with prior catalogue-upload experience will fit best. Let me know roughly how many products you can comfortably handle per day and share a link to a store you’ve set up or maintained.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T02:38:34+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Нужно загрузить готовые товары (названия, цены, описания, фото) в интернет-магазин на Shopify, WooCommerce или Squarespace и сделать таблицу для проверки. Это ручное заполнение каталога, а не разработка, и бюджет 8 USD.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли какая-либо настройка темы, шаблонов или интеграций, или только ввод товаров?",
+    "Сколько всего товаров и какой объём работы в день вы ожидаете?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "freelancer:40836214",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/b2b-marketing/Grow-Irth-Labs-LinkedIn-Leads",
+  "title": "Grow Irth Labs LinkedIn and Leads",
+  "description": "LinkedIn content (5 posts a day), real followers and B2B leads for an AI data services startup, 30 days.\n\nWe are Irth Labs. We clean up company knowledge (SharePoint, Notion, Confluence, Google Drive, help centers) so AI assistants give correct answers. Our LinkedIn company page is new.\n\n1. Content: 5 posts a day on our company page (carousels, images, text). We give topics, facts and sources; you write hooks and design; we approve before posting.\n2. Real followers: at least 20 comments a day from our company page on AI, customer support and knowledge management posts; creator/page collaborations; weekly report.\n3. Leads: 200+ target buyers a month (CTO, Head of Support/CX, Knowledge Manager at software companies with 50-1,000 staff using AI support bots), with name, title, company, LinkedIn URL, verified email only.\n\nRules: no fake, bought or bot followers, no engagement pods, no automation logging in to our account. Show 2-3 pages you have grown with before/after numbers. Budget: Rs 15,000 for the first 30 days. We will increase the budget and extend the contract as the results improve. Bonus: 5% of the first payment from any client who comes from a lead you sourced, paid after we receive it.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T02:37:13+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик ищет маркетолога для ведения LinkedIn-страницы AI-стартапа: 5 постов в день, комментарии, рост подписчиков и поиск B2B-лидов за 30 дней. Это контент и маркетинг, а не разработка, поэтому проект не подходит под услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли заказчику какая-либо техническая часть, например автоматизированный сбор контактов или интеграция с CRM, или весь объём работ связан только с контентом и SMM?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
+  "id": "kwork:3275653",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275653",
+  "title": "Автоматизацию на Claude Code или Антигравити",
+  "description": "Напишите какую автоматизацию делали с примерами. \nЕсть несколько моментов по автоматизации которые надо сделать. \nПрисылайте сразу же в отклике что автоматизировали",
+  "budget": 1000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 06:10:15",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 4,
+   "summary_ru": "Клиенту нужно автоматизировать несколько процессов с помощью Claude Code или Антигравити. Он просит в отклике описать, какие автоматизации вы уже делали, и приложить примеры.",
+   "reply": "Вы хотите автоматизировать несколько процессов с помощью Claude Code или Антигравити и увидеть примеры похожих работ. Я занимаюсь автоматизацией процессов, парсерами, скриптами и интеграциями по API (оплата, CRM, таблицы, мессенджеры). Для разработки использую современный стек и ИИ-ассистенты, поэтому сроки обычно короткие. Сначала пройдусь по вашим пунктам и предложу, как закрыть каждый из них. Ориентировочно первый этап займёт 2–5 дней, точнее назову после уточнения. Какие именно процессы нужно автоматизировать и с какими сервисами они связаны? Какой результат ждёте: скрипт, сервис или интеграцию?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите автоматизировать несколько процессов с помощью Claude Code или Антигравити и увидеть примеры похожих работ. Я занимаюсь автоматизацией процессов, парсерами, скриптами и интеграциями по API (оплата, CRM, таблицы, мессенджеры). Для разработки использую современный стек и ИИ-ассистенты, поэтому сроки обычно короткие. Сначала пройдусь по вашим пунктам и предложу, как закрыть каждый из них. Ориентировочно первый этап займёт 2–5 дней, точнее назову после уточнения. Какие именно процессы нужно автоматизировать и с какими сервисами они связаны? Какой результат ждёте: скрипт, сервис или интеграцию?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие именно процессы нужно автоматизировать и с какими сервисами они связаны?",
+    "Какой результат вы ждёте: скрипт, веб-сервис или интеграцию с другими системами?",
+    "Есть ли уже описание задач или список пунктов, о которых вы писали?"
+   ]
+  },
+  "found_at": "2026-11-26T03:27:02+00:00"
+ },
+ {
   "id": "freelancer:40836207",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/ai-automation/Deutschsprachiger-Onboarding-Spezialist",
