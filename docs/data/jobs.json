@@ -1,5 +1,283 @@
 [
  {
+  "id": "freelancer:40836706",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/blockchain/Blockchain-Integration-Architect-Needed",
+  "title": "Blockchain Integration Architect Needed",
+  "description": "I’m ready to take one of my existing business systems and connect it to a blockchain layer so that every transaction is verifiable, secure, and tamper-evident. The goal is integration, not building a chain from scratch, so I need someone who can study the current stack, map out the best-fit protocol (Ethereum, Hyperledger, Polygon, or a comparable option), and design the bridge between the two environments.\n\nYou will analyse our workflows, identify the touchpoints where blockchain brings the most value, then architect and prototype the full solution—smart contracts, APIs, data models, and security measures included. A strong grasp of consensus mechanisms, token standards, gas optimisation, and on-chain/off-chain data handling will be essential.\n\nFor clarity, here’s what I expect as concrete outputs:\n\n• High-level and detailed architecture diagrams \n• A technical integration roadmap with milestones \n• At least one working proof-of-concept smart contract linked to our staging environment \n• Documentation that lets my in-house developers maintain and extend the solution\n\nI’ll be available throughout for quick iterations and feedback. If you have a portfolio showing similar integrations—whether for payments, supply-chain visibility, or secure record-keeping—point me to it when you respond. Let’s make our data trustworthy and our processes auditable from day one.",
+  "budget": 50.0,
+  "budget_min": 25.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T08:47:12+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Клиент хочет подключить существующую бизнес-систему к блокчейн-слою, чтобы транзакции были проверяемыми и защищёнными от подмены. Запрошены архитектурные схемы, roadmap, рабочий PoC-смарт-контракт с привязкой к staging и документация, но бюджет всего 50 USD.",
+   "reply": "You want to make transactions in your existing system verifiable and tamper-evident by anchoring them to a blockchain, without building a chain from scratch. I would start with a short review of your current stack and the transactions that most need an audit trail, then choose a fit-for-purpose network. For record-keeping like this, an Ethereum L2 such as Polygon is usually the most practical option. The core deliverable would be a focused proof of concept: one smart contract that stores transaction hashes, plus a small API service that writes to it from your staging environment and verifies records on demand, with a short README for your developers. Given the budget, I would keep this phase to the PoC; the full architecture diagrams and roadmap could follow as a separate stage. I estimate about one week for the PoC.\n\nWhich transaction types should be anchored first, and can I get access to a staging API or database?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите сделать транзакции в вашей существующей системе проверяемыми и защищёнными от подмены, привязав их к блокчейну, без создания собственной сети. Я бы начал с короткого анализа вашего стека и транзакций, которым больше всего нужен журнал аудита, затем выбрал бы подходящую сеть. Для такого учёта обычно практичнее всего Ethereum L2, например Polygon. Основной результат — сфокусированный proof of concept: один смарт-контракт, который хранит хеши транзакций, и небольшой API-сервис, который записывает данные из вашего staging-окружения и проверяет записи по запросу, плюс короткий README для ваших разработчиков. С учётом бюджета я бы ограничился этим этапом PoC; полные архитектурные схемы и roadmap могут быть отдельным этапом. Оценка по срокам для PoC — около недели.\n\nКакие типы транзакций стоит привязать в первую очередь и могу ли я получить доступ к staging API или базе данных?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие типы транзакций нужно закрепить в блокчейне в первую очередь?",
+    "Есть ли доступ к staging API или базе данных, к которым можно подключиться для PoC?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
+  "id": "freelancer:40836694",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ui-design/Comprehensive-Home-Services-App",
+  "title": "Comprehensive Home Services App Development",
+  "description": "I need a cross-functional platform app similar to \"Urban Clap\" for home services. The app should be able to book a variety of services. \n\nKey Services:\n- Home cleaning and repairs\n- Beauty and wellness at home\n- Electrical, plumbing, and appliance repair\n- Gardening\n- Old parents care\n- Child care\n\nUser Types:\n- Customers booking services\n- Service professionals offering services\n\nPlatforms:\n- Android phones\n- iPhones\n\nIdeal Skills and Experience:\n- Mobile app development for Android and iOS\n- Experience in building service booking platforms\n- Strong UI/UX design skills\n- Backend development expertise to handle multiple user types and services\n- Familiarity with payment integration and security protocols\n\nPlease provide examples of similar work done and an estimated timeline.",
+  "budget": 75000.0,
+  "budget_min": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T08:41:24+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 3,
+   "summary_ru": "Клиент хочет мобильное приложение для бронирования услуг на дому (уборка, ремонт, красота, садоводство, уход за пожилыми и детьми) с двумя ролями: клиенты и исполнители, для Android и iOS. Объём большой, а бюджет (75 000 INR) ограничен, поэтому реалистичен только первый этап.",
+   "reply": "You're building a home services marketplace with two sides: customers who book cleaning, repairs, beauty, gardening, and elderly or child care, and professionals who accept and manage those bookings on Android and iOS. The scope is large for the budget, so I'd propose a focused first release: one backend with customer and professional roles, a service catalog, a booking flow with statuses, and an admin panel. I'd build the backend and admin first, then the mobile apps on a cross-platform stack, with authentication, role permissions, and data protection built in from the start. For a first release of this size, I'd estimate 8 to 12 weeks, with milestones agreed up front. For live demos of recent work, see https://grachoffprod.github.io/portfolio/\n\nWhich platform should launch first, and which services are most important in that first release?\n\nYakov",
+   "reply_ru": "Вы создаёте маркетплейс бытовых услуг с двумя сторонами: клиенты, которые бронируют уборку, ремонт, красоту, садоводство и уход за пожилыми или детьми, и исполнители, которые принимают и ведут эти заказы на Android и iOS. Объём велик для бюджета, поэтому я предлагаю сфокусированный первый релиз: единый бэкенд с ролями клиента и исполнителя, каталог услуг, процесс бронирования с статусами и админ-панель. Сначала я бы сделал бэкенд и админку, затем мобильные приложения на кроссплатформенном стеке, с аутентификацией, разграничением прав и защитой данных с самого начала. Для первого релиза такого объёма оцениваю срок в 8–12 недель, с согласованными заранее этапами. Живые демо моих работ: https://grachoffprod.github.io/portfolio/\n\nКакую платформу запускать первой и какие услуги важнее всего в первом релизе?\n\nYakov",
+   "questions": [
+    "С какой платформы вы хотите запустить приложение первым: Android или iOS?",
+    "Какие услуги должны войти в первый релиз, а какие можно добавить позже?",
+    "Нужна ли верификация исполнителей и управление их расписанием уже на первом этапе?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
+  "id": "freelancer:40836696",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/javascript/Website-Redesign-SEO-Upgrade",
+  "title": "Website Redesign & SEO Upgrade -- 2",
+  "description": "My current site promotes and sells our own software, but its design and search visibility are holding us back. I need the whole website refreshed with a modern, responsive theme that instantly signals a credible SaaS brand and guides visitors smoothly from landing page to checkout. \n\nHere is what I’m after: \n• A complete visual overhaul—new theme, colour palette, typography and layouts—implemented without breaking existing content or download links. \n• Streamlined navigation that highlights product features, pricing, support and a clear “Download / Buy” call-to-action. \n• Performance-minded development: lightweight code, image optimisation and fast load times. \n• On-page SEO baked in from the ground up—clean URL structure, properly nested headings, meta titles and descriptions, schema where appropriate, internal-link logic and an SEO-friendly blog section for future content marketing. \n• Smooth mobile experience across major devices and browsers. \n• Handover of any design files, theme customisations and a brief walkthrough so my team can add pages or tweak copy later. \n\nPlease factor in a short discovery call to review the existing site, then present a staging link before we go live.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T08:40:52+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 5,
+   "summary_ru": "Клиент хочет полностью обновить сайт, который продаёт его ПО: новая адаптивная тема, навигация с ценами и кнопкой покупки, оптимизация скорости, SEO-структура и блог, при этом существующий контент и ссылки на скачивание должны сохраниться. Бюджет 250 USD для такого объёма низкий.",
+   "reply": "You want the marketing site for your software rebuilt with a modern, responsive look that feels like a credible SaaS brand, while keeping your existing content and download links intact. The SEO structure and blog section need to be ready for future content. I'd start with the discovery call to audit the current pages, URLs and links so nothing breaks during the move. Then I'd build the new theme with lightweight code, optimized images, clean heading hierarchy, meta tags, schema and internal linking, and deliver a staging link for your review. Using modern tools and AI-assisted development, I can have the staging version ready in about 1–2 weeks, followed by handover files and a short walkthrough for your team.\n\nTwo questions: What platform is the site currently on (WordPress, Webflow, custom code)? Is checkout handled on the site itself or on an external page?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы маркетинговый сайт вашего ПО был переделан в современном адаптивном дизайне, который выглядит как надёжный SaaS-бренд, при этом существующий контент и ссылки на скачивание сохранятся. Структура для SEO и раздел блога должны быть готовы для будущего контента. Я бы начал с созвона для обзора: проверил бы текущие страницы, URL и ссылки, чтобы ничего не сломалось при переносе. Затем я бы собрал новую тему с лёгким кодом, оптимизированными изображениями, правильной иерархией заголовков, мета-тегами, разметкой schema и внутренней перелинковкой, и передал бы staging-ссылку на проверку. С современными инструментами и разработкой с помощью ИИ-ассистентов я могу подготовить staging-версию примерно за 1–2 недели, после чего передать файлы и короткое обучение для вашей команды.\n\nДва вопроса: на какой платформе сейчас работает сайт (WordPress, Webflow, самописный код)? Оформляется ли оплата на самом сайте или на внешней странице?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На какой платформе сейчас работает сайт (WordPress, Webflow, самописный код)?",
+    "Оформляется ли оплата на самом сайте или на внешней странице?",
+    "Где размещены файлы для скачивания и нужно ли менять их адреса?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
+  "id": "freelancer:40836675",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Interactive-Parent-Company-Brand-Website",
+  "title": "Interactive Parent Company Brand Website",
+  "description": "Project Title\nNeed to build a parent Company Website which has Subsidiaries showcasing it’s Journey (US aesthetics but for Indian consumer) \n\nProject Description\n\nWe are looking to build a modern, premium website for a parent company that showcases its journey, vision, growth, and subsidiaries/brands under its umbrella.\n\nThe website should not feel like a traditional corporate website with static pages. We want the parent company's story and journey to be presented in a creative, interactive, and visually engaging way, allowing visitors to explore the company’s evolution and discover its subsidiaries through a well-designed digital experience.\n\nWe are particularly interested in freelancers who have experience creating modern corporate websites, interactive storytelling experiences, creative animations, and premium UI/UX designs.\n\nImportant: We will only consider freelancers who include relevant website references, templates, or design concepts in their proposal. Bids without design references or examples of the proposed direction will not be shortlisted.\n\nProject Requirements\n\n1. Parent Company Website\n- Modern, premium, and professional website for a parent company.\n- Clearly communicate the company's vision, story, identity, journey, and overall ecosystem.\n- Strong visual presentation with a clean and intuitive user experience.\n- The website should feel global, credible, and contemporary.\n\n2. Interactive Company Journey\n- Present the parent company's journey, milestones, evolution, and growth in an engaging way.\n- The journey should be visually interactive rather than just a standard timeline.\n- Explore creative ways to show milestones, growth, expansion, and important events.\n- Smooth transitions, scroll-based storytelling, animations, or interactive elements can be proposed where appropriate.\n\n3. Subsidiaries / Brands Ecosystem\n- Showcase all subsidiaries, brands, or businesses associated with the parent company.\n- Clearly communicate how each subsidiary is connected to the parent company.\n- Visitors should be able to explore individual subsidiaries through interactive cards, sections, animations, or other creative layouts.\n- Each subsidiary should have its own overview, description, identity, and relevant information.\n- The overall experience should make the parent company and its ecosystem easy to understand.\n\n4. UI/UX & Visual Design\n- Premium, modern, and visually impactful design.\n- Strong typography, layouts, imagery, and visual storytelling.\n- Creative interactions without compromising usability.\n- Smooth animations and transitions where they add value.\n- Fully responsive across desktop, tablet, and mobile.\n- We do not want a generic corporate template with only colors and text changed.\n\n5. Website Structure & Navigation\nThe website may include sections such as:\n\n- Home\n- About the Parent Company\n- Company Journey / Timeline\n- Subsidiaries / Brands\n- Individual Subsidiary Details\n- Our Vision / Mission\n- Achievements / Milestones\n- Contact / Inquiry\n- Careers (if required)\n\nThe freelancer can suggest an improved sitemap and creative ways to structure the experience.\n\n6. CMS / Admin Panel\n- Easy-to-use backend to manage website content.\n- Ability to add or edit subsidiaries and their information.\n- Update company milestones and journey content.\n- Change images, text, profiles, and other content without developer involvement.\n- The admin panel should be simple for a non-technical team.\n\n7. SEO & Performance\n- SEO-friendly website structure.\n- Editable meta titles, descriptions, and page content.\n- Optimized performance and loading speed.\n- Clean implementation and maintainable code.\n- Analytics and future integrations should be possible.\n\nWhat We Expect From the Freelancer\n\nWe are looking for someone who can contribute creatively, not just execute instructions.\n\nThe selected freelancer should:\n\n- Understand the concept of a parent company and its brand ecosystem.\n- Suggest a unique design direction and user journey.\n- Have experience building interactive, storytelling-based websites.\n- Be capable of handling UI/UX and development, or clearly explain their design and development process.\n- Recommend the right technology stack based on the requirements.\n- Deliver a responsive, polished, and production-ready website.\n\nMandatory Requirement for Applying\n\nPlease include the following in your proposal:\n\n1. At least 2–3 relevant website references that match the style or experience you would propose for this project.\n2. Links to websites you have personally designed or developed.\n3. Your proposed approach for making the parent company journey and subsidiaries interactive.\n4. Recommended technology stack.\n5. Estimated timeline.\n6. Fixed project quotation.\n\nProposals without relevant website references, template examples, or a clear design direction will not be considered.\n\nProject Goal\n\nWe want to create a website that tells the story of a parent company, visually represents its growth and journey, and allows visitors to explore its subsidiaries in an engaging and memorable way.\n\nWe are looking for the right creative partner who can bring ideas to the table and build something beyond an ordinary corporate website.",
+  "budget": 20000.0,
+  "budget_min": 15000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T08:26:26+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 5,
+   "summary_ru": "Заказчик ищет разработку премиального корпоративного сайта для холдинга с интерактивной историей компании, карточками дочерних брендов и простой админ-панелью для управления контентом без участия разработчика. Бюджет небольшой (20 000 INR), а требования к креативному дизайну и анимациям высокие.",
+   "reply": "You need a premium parent-company site that turns the group's history into a scroll-driven story, with each subsidiary getting its own detailed page, all managed from an admin panel your non-technical team can use without a developer. I'd build it on a modern stack with a content model for milestones and subsidiaries, a simple admin for text, images, and SEO meta fields, and lightweight scroll animations so mobile performance stays solid. With AI-assisted tooling, I can deliver a first working version with the core sections in about 2–3 weeks, then refine the animations and admin. You asked for design references, so here are my interactive layouts and animated sections: https://grachoffprod.github.io/portfolio/\n\nTwo questions: how many subsidiaries and milestones do you expect at launch, and do you already have brand assets and copy, or should content be prepared alongside the design?\n\nYakov",
+   "reply_ru": "Вам нужен премиальный сайт для холдинга, который превращает историю группы в историю, раскрывающуюся при прокрутке, с отдельной подробной страницей для каждой дочерней компании. Всем этим управляет админ-панель, которой команда без технических знаний сможет пользоваться без разработчика. Я бы собрал его на современном стеке с моделью контента для этапов развития и дочерних брендов, простой админкой для текстов, изображений и SEO-полей и облегчёнными анимациями при прокрутке, чтобы сайт быстро работал на мобильных. С помощью ИИ-инструментов я могу сделать первую рабочую версию с основными разделами примерно за 2–3 недели, а затем доработать анимации и админку. Вы просили референсы дизайна, поэтому вот мои интерактивные макеты и анимированные секции: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: сколько дочерних компаний и этапов развития вы ожидаете к запуску, и есть ли у вас готовые брендбук и тексты или их нужно подготовить параллельно с дизайном?\n\nYakov",
+   "questions": [
+    "Сколько дочерних компаний и этапов развития (milestones) планируется показать к запуску?",
+    "Есть ли у вас готовые брендбук, логотипы и тексты, или контент нужно подготовить параллельно с дизайном?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
+  "id": "freelancer:40836648",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/project-management/Marketplace-Project-Tracking-Enhancement",
+  "title": "Marketplace Project Tracking Enhancement",
+  "description": "I already run a freelancer marketplace and now want to sharpen the experience inside each project room. The priority is the workspace where clients and freelancers message, handle payments, and track work.  \nMy focus is on richer project-tracking tools—think task lists attached to every milestone, automatic progress updates that show at a glance, and friendly deadline reminders that prompt both sides before dates slip. These additions must fit cleanly into the current messaging thread and payment flow so users never feel they have left the platform.\n\nYou will analyse the existing codebase, propose the best way to slot these features in without disrupting live traffic, and then build, test, and deploy them. Clean UI, responsive behaviour, and clear database migrations are essential. \n\nDeliverables: \n• Technical plan outlining integration points and data models \n• Working task-list component with create, assign, reorder, and complete actions \n• Progress-update system that logs percent complete or checklist state automatically \n• Configurable deadline reminder service (email, in-app, or push) \n• Final hand-off docs: setup notes, commented code, and test coverage summary \n\nI’m happy to hear your thoughts on future layers such as real-time chat or enhanced escrow, but the above tracking tools are the immediate scope. Let me know how you would tackle this and any similar modules you have shipped before.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T08:12:41+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Доработка существующего фриланс-маркетплейса: трекинг задач по этапам проекта, автоматическое обновление прогресса и настраиваемые напоминания о дедлайнах (email, in-app, push) с встраиванием в чат и текущий процесс оплаты без нарушения работы платформы.",
+   "reply": "You want to add per-milestone task lists, automatic progress tracking, and configurable deadline reminders (email, in-app, or push) inside the existing project room, without disrupting the live messaging thread. I'd start by reviewing the codebase and mapping the integration points, then send you a short technical plan with data models and a migration strategy before building anything. The core would be a task-list component with create, assign, reorder, and complete actions, progress derived from checklist state, and a reminder service on a scheduler with per-user channel preferences. Rough timeline: 2–3 days for the plan, 2–3 weeks for the core features, then tests, docs, and deployment. Two questions: what stack and hosting are you on, and should reminders apply to every milestone or only to ones with due dates?\n\nSee the portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите добавить списки задач по этапам, автоматический трекинг прогресса и настраиваемые напоминания о дедлайнах (email, in-app или push) внутри существующей комнаты проекта, не нарушая работу живого чата. Я бы начал с изучения кодовой базы и определения точек интеграции, затем отправил бы краткий технический план с моделями данных и стратегией миграций, прежде чем что-либо строить. Основа — компонент списка задач с действиями создания, назначения, сортировки и завершения, прогресс, вычисляемый по состоянию чек-листа, и сервис напоминаний на планировщике с настройками каналов для каждого пользователя. Примерные сроки: 2–3 дня на план, 2–3 недели на основной функционал, затем тесты, документация и деплой. Два вопроса: какой у вас стек и хостинг и должны ли напоминания касаться каждого этапа или только тех, у которых есть срок?\n\nПосмотреть портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На каком стеке и хостинге работает платформа?",
+    "Напоминания должны касаться каждого этапа или только тех, у которых указан срок?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
+  "id": "freelancer:40836649",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/project-management/Marketplace-Project-Tracking-Enhancement-40836649",
+  "title": "Marketplace Project Tracking Enhancement -- 2",
+  "description": "I already run a freelancer marketplace and now want to sharpen the experience inside each project room. The priority is the workspace where clients and freelancers message, handle payments, and track work.  \nMy focus is on richer project-tracking tools—think task lists attached to every milestone, automatic progress updates that show at a glance, and friendly deadline reminders that prompt both sides before dates slip. These additions must fit cleanly into the current messaging thread and payment flow so users never feel they have left the platform.\n\nYou will analyse the existing codebase, propose the best way to slot these features in without disrupting live traffic, and then build, test, and deploy them. Clean UI, responsive behaviour, and clear database migrations are essential. \n\nDeliverables: \n• Technical plan outlining integration points and data models \n• Working task-list component with create, assign, reorder, and complete actions \n• Progress-update system that logs percent complete or checklist state automatically \n• Configurable deadline reminder service (email, in-app, or push) \n• Final hand-off docs: setup notes, commented code, and test coverage summary \n\nI’m happy to hear your thoughts on future layers such as real-time chat or enhanced escrow, but the above tracking tools are the immediate scope. Let me know how you would tackle this and any similar modules you have shipped before.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T08:12:40+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Заказчик хочет доработать существующий фриланс-маркетплейс: добавить в чат проекта списки задач по этапам, автоматический учёт прогресса и напоминания о дедлайнах (email, in-app или push) без выхода пользователей из платформы. Включает техплан, миграции БД, компоненты и документацию. Бюджет 750 USD при широком объёме работ.",
+   "reply": "You want each project room to stay the single place for chat, payments and tracking: task lists per milestone, progress that updates automatically and reads at a glance, and reminders that nudge both sides before a deadline slips. I'd start with a short audit of the current codebase to find safe integration points, then write the technical plan with data models and migrations so live traffic isn't disrupted. Delivery would go in phases behind feature flags: task lists and progress first (about two weeks), then the reminder service. Given the budget, we can agree on the exact scope of each phase up front. Two questions: what stack is the marketplace built on, and do reminders need push notifications, or are email and in-app enough for now? Live demos of my work are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы комната проекта оставалась единым местом для чата, оплаты и отслеживания работы: списки задач по этапам, прогресс, который обновляется автоматически и читается с первого взгляда, и напоминания, которые подталкивают обе стороны до того, как дедлайн будет сорван. Я бы начал с короткого аудита текущей кодовой базы, чтобы найти безопасные точки интеграции, затем написал технический план с моделями данных и миграциями, чтобы не нарушать работу действующего трафика. Поставка пойдёт фазами за feature-флагами: сначала списки задач и прогресс (примерно две недели), затем сервис напоминаний. С учётом бюджета мы заранее согласуем точный объём каждой фазы. Два вопроса: на каком стеке построен маркетплейс и нужны ли напоминания через push-уведомления, или на данном этапе достаточно email и in-app? Живые демо моих работ есть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На каком стеке построен маркетплейс (бэкенд, фронтенд, база данных)?",
+    "Нужны ли напоминания через push-уведомления, или на первом этапе достаточно email и in-app?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
+  "id": "flru:5530621",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530621/dorabotka-sistemyi-moderatsii-obyyavleniy-na-php.html",
+  "title": "Доработка системы модерации объявлений на PHP",
+  "description": "Необходимо внести ряд изменений в действующую систему модерации объявлений на сайте (чистый PHP). Требуется автоматизировать исправление мелких нарушений, проверку критических...",
+  "budget": 1000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "Thu, 26 Nov 2026 08:14:33 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 3,
+   "summary_ru": "Нужно доработать действующую систему модерации объявлений на чистом PHP: автоматически исправлять мелкие нарушения и проверять критичные. Бюджет низкий для такого объёма, поэтому отклик стоит оценивать осторожно.",
+   "reply": "Вы описываете доработку существующей модерации объявлений на чистом PHP: автоматическое исправление мелких нарушений и проверку критичных. Я бы сначала разобрал текущую логику и структуру кода, затем добавил недостающие правила и автоматизацию поверх них, не ломая уже работающий функционал. Ориентировочно это 2–3 рабочих дня, точнее скажу после просмотра кода.\n\nПодскажите, какие именно нарушения должны исправляться автоматически и что считается критичным? Есть ли доступ к коду и тестовой среде?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "reply_ru": "Вы описываете доработку существующей модерации объявлений на чистом PHP: автоматическое исправление мелких нарушений и проверку критичных. Я бы сначала разобрал текущую логику и структуру кода, затем добавил недостающие правила и автоматизацию поверх них, не ломая уже работающий функционал. Ориентировочно это 2–3 рабочих дня, точнее скажу после просмотра кода.\n\nПодскажите, какие именно нарушения должны исправляться автоматически и что считается критичным? Есть ли доступ к коду и тестовой среде?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Какие именно мелкие нарушения должны исправляться автоматически, и какие случаи считаются критичными?",
+    "Есть ли доступ к текущему коду и тестовой среде?",
+    "Нужна ли интеграция с внешними сервисами проверки или всё должно работать внутри существующей системы?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
+  "id": "flru:5530608",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530608/sozdat-i-oformit-akkauntyi-vk-telegram-dzen-dlya-sayta-byuti-gadjetov.html",
+  "title": "Создать и оформить аккаунты VK, Telegram, Дзен для сайта бьюти-гаджетов",
+  "description": "Нужен специалист для разовой упаковки соцсетей интернет-магазина бьюти-гаджетов.\nКонтент в дальнейшем будет вести наш сотрудник, поэтому нужны только создание, оформление и...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 06:21:05 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Разовая настройка и оформление аккаунтов VK, Telegram и Дзен для интернет-магазина бьюти-гаджетов. Работа в основном связана с созданием и визуальным оформлением соцсетей, а не с разработкой.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли какая-либо техническая интеграция между магазином и этими площадками, например автопостинг или выгрузка товаров?",
+    "Есть ли готовый сайт магазина, и нужно ли связать его с аккаунтами?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910804",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910804",
+  "title": "Оптимізація сайту на WP/Заміна блоків",
+  "description": "Оптимізація сайту на WP/Заміна блоків\n🛠\n#html_и_css_верстка\n#веб_программирование\nНеобхідно оптимізувати швидкість сайту на WP\nПоказчик швидкості має знаходитись у зеленій зоні 90+\nНе підключати різноманітні плагіни, а попрацювати з кодом, та видалити усе не потрібне.\nТакож треба додати sitemap, shema розмітку.\nВидалити непотрібні карти товарів, та замінити старі на нові.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T08:38:57+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Нужно ускорить сайт на WordPress до 90+ в PageSpeed без новых плагинов, очистив код и удалив лишнее. Также нужно добавить sitemap и schema-разметку и заменить старые карточки товаров на новые.",
+   "reply": "Вам нужно поднять скорость сайта на WordPress до зелёной зоны 90+, почистив код и убрав ненужное без новых плагинов, а также добавить sitemap и schema-разметку и заменить старые карточки товаров. Я начну с аудита: замерю текущие метрики, найду тяжёлые скрипты, стили и запросы, затем оптимизирую изображения, шрифты и загрузку CSS/JS напрямую в теме и коде. Sitemap и разметку Product/Organization сделаю вручную. По срокам ориентировочно 3–5 рабочих дней на оптимизацию и аудит, замену карточек оценю после уточнения объёма. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая тема и сборка сейчас используются и есть ли доступ к хостингу и админке? Сколько карточек нужно заменить и откуда брать новые данные?\n\nYakov",
+   "reply_ru": "Вам нужно поднять скорость сайта на WordPress до зелёной зоны 90+, почистив код и убрав ненужное без новых плагинов, а также добавить sitemap и schema-разметку и заменить старые карточки товаров. Я начну с аудита: замерю текущие метрики, найду тяжёлые скрипты, стили и запросы, затем оптимизирую изображения, шрифты и загрузку CSS/JS напрямую в теме и коде. Sitemap и разметку Product/Organization сделаю вручную. По срокам ориентировочно 3–5 рабочих дней на оптимизацию и аудит, замену карточек оценю после уточнения объёма. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая тема и сборка сейчас используются и есть ли доступ к хостингу и админке? Сколько карточек нужно заменить и откуда брать новые данные?\n\nYakov",
+   "questions": [
+    "Какая тема и какие плагины сейчас установлены на сайте?",
+    "Есть ли доступ к хостингу и админке WordPress?",
+    "Сколько карточек товаров нужно заменить и откуда взять новые данные?"
+   ]
+  },
+  "found_at": "2026-11-26T09:08:35+00:00"
+ },
+ {
   "id": "freelancer:40836637",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/telemarketing/Student-Reminder-Telecalling-Support",
