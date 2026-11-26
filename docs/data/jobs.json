@@ -1,5 +1,268 @@
 [
  {
+  "id": "freelancer:40837612",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF",
+  "title": "Facebook Comment Safety Consultation PDF",
+  "description": "I am looking for a freelancer with real, hands-on experience in automated Facebook commenting bots and practical knowledge of Facebook comment ranking and integrity mechanisms. This is a knowledge/consulting project, not a coding project. I do not need you to write code for me. I need reliable, experience-based answers delivered as a detailed PDF.\n\nRequired competencies and experience. You must have personally worked with automated Facebook bots, not just general digital marketing or social media management. Your actual stack must include at least one of: Selenium, Playwright/Puppeteer, mobile automation such as Appium. You must be able to explain which one you used, for how long, and whether it was your own tooling or client projects. You must have practical experience with anti-detection setups: AdsPower or similar antidetect browsers, residential proxies, browser fingerprints, account isolation, rate limits, and Facebook restriction/ban patterns. You must be comfortable discussing greyhat/blackhat automation tactics realistically, including detection risk and account reputation damage. If you have not personally operated Facebook bots, please do not apply.\n\nProof of competence. In your proposal, include 2-3 concrete projects where you actually did this work. For each: what the bot did, which stack you used, how long you ran it, whether it was your own tool or a client project, and what results or problems you encountered. Also explain what you actually know about Facebook’s ranking and integrity algorithms, where you acquired that knowledge, and why it is reliable enough for me to invest money based on it. I understand that no one can guarantee 100% exact outcomes, and I prefer honest, experience-based answers over generic marketing claims.\n\nMy situation. I run a tutoring company in Poland. I use a fully automated Selenium + AdsPower script that searches for posts from people looking for tutoring and comments on them from 30 accounts. Each account has its own AdsPower profile. I use headed Selenium on Windows with residential IPs, and 1 IP is shared by 2 accounts because of costs. I post around 90 comments per day. Accounts are grouped in groups of 5 so as not to mix interactions between all accounts. After my comment is posted, 0-3 accounts wait 10-15 minutes, type the exact text of the post into Facebook search, click the post and try to like my comment. I do not have any mechanism that verifies whether my comments are visible in \"Most relevant\". I manually checked 30 posts recently: I could not find 14 of them or commenting was turned off; out of the remaining 16, 10 of my comments were in \"Most relevant\" mostly at the bottom, 5 were hidden or deleted, and 1 was at the bottom of \"All comments\". My goal is to move my comment to the first place in \"Most relevant\" by commenting and liking it. If necessary, I can buy more warmed-up accounts or comment on fewer posts. I can risk account bans. I have to use bots if I want to improve my situation. I cannot improve the quality of my comments, and making accounts more trustworthy will not improve their position very much without bots.\n\nWhat I expect. We agree on a set of topics about Facebook algorithms, safety mechanisms, comment ranking and anything else I might need. Then we set a fair price, and you write a PDF with long, detailed answers to every topic, giving me the maximum knowledge and experience you can offer. The topics will include, in shortened form: proxy and account isolation, browser automation detection, behavioural patterns, comment ranking signals, tagging and link effects, timing between comments and likes, ban risk under one post, page/account architecture, comment variation, impact of likes on ranking, and account reputation recovery. I may add more specific points later. If you think I should know other things, add them. \n\nPlease apply only if you can demonstrate the competencies above with concrete projects and honest confidence levels. I have logs, screenshots and a CSV sample I can share after selection.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T20:20:57+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Клиент из Польши просит консультацию и PDF-отчёт по обходу защиты Facebook для ботов, которые комментируют посты и накручивают лайки, чтобы поднять комментарий в «Наиболее релевантные». Проект связан с накруткой и обходом антифрод-систем платформы, а не с разработкой.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
+  "id": "freelancer:40837597",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/sales/Commission-Sales-Partner-for-Factory",
+  "title": "Commission Sales Partner for Factory ERP",
+  "description": "We are FactoryNerve (factorynerve.online) — an AI-native Floor Observability & ERP platform built specifically for Steel Mills, Rolling Mills, Foundries, and Manufacturing Plants.\n\nWe solve real factory-floor problems: weighbridge & inbound material tracking, AI OCR invoice/challan processing, inventory & dispatch control, GST billing, and live owner WhatsApp/mobile dashboards — without complex setups that floor staff hate using.\n\nWe are looking for a commission-based Sales Partner / Closer who already has relationships with factory owners, steel/manufacturing decision-makers, or industrial suppliers and can bring us paying plant clients.\n\nWHAT YOU DO\n- Introduce FactoryNerve to owners/directors of steel mills, rolling mills, foundries, fabrication units, or manufacturing plants (India MIDC/industrial belts or globally).\n- Understand their current pain points (stock leakage, manual weighbridge/Tally entry, dispatch delays) and book/join the demo call with us.\n- Stay involved through closing. You own the client relationship.\n\nWHAT WE DO\n- 100% of the product demo, technical onboarding, customization, and support.\n- We join every demo and closing call with you.\n- We provide live working product demos, pitch decks, and ROI material so you never sell blind.\n\nYou do not handle tech, setup, or support. You bring and close the factory owner; we deliver everything.\n\nWHAT YOU EARN\n- 20% of the first setup/onboarding invoice collected on every plant you close.\n- Plus 10% of the monthly/annual SaaS subscription revenue from that client for 12 months.\n- Uncapped, paid directly as soon as the client pays.\n\nWHO THIS IS FOR\n- Sales reps, industrial consultants, machinery/raw-material brokers, Tally/accounting partners, or B2B closers who already know factory owners or industrial-belt decision-makers.\n\nNOT A FIT\n- Scraped contact lists, bulk spam emails, or anyone asking for fixed salary/hourly pay or upfront money for \"meetings/leads.\" Commission is paid strictly on signed, paid contracts.\n\nHOW TO APPLY\nIn 3–5 lines, tell us:\n1. Which industrial regions or manufacturing sectors you have contacts in.\n2. How you reach factory owners/decision-makers.\n3. Any B2B SaaS, ERP, or industrial sales you have closed before.\n\nTo prove you actually read this, start your proposal with the word FACTORY.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T20:09:40+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Заказчик FactoryNerve ищет агента по продажам на комиссии, который приведёт владельцев заводов и производств в качестве клиентов для их ERP-платформы. Это поиск коммерческого партнёра, а не разработка проекта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
+  "id": "freelancer:40837575",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/legal/Remote-Legal-Support-Assistant",
+  "title": "UK Remote Legal PA Support / Assistant",
+  "description": "Reviewing Applicants on Monday 31/11/2026, Friday 04/12/2026 and Wednesday 09/12/2026 \n\nTitle: UK Remote Legal Secretary / PA / Paralegal (2 -3 Hours/Week) for at least 4 weeks, flexible hours \n\nRole \n\nHourly Rate: £20/hr \n\nDescription: \nI am launching and running an innovative startup law firm and need a sharp, self-starting UK-based Remote Legal Secretary, Senior PA, or Paralegal for 2 - 3 hours a week of personal and life admin. Once the firm is established, there is strong potential for this to evolve into a full-time contract. \n\nWeekly Tasks: \n* Formal Correspondence & Chasing: Sending firm, polite emails, tracking replies, and managing follow-ups. \n* Appointment Bookings: Making quick calls/emails to schedule appointments and confirm details. \n* Document & Evidence Filing: Organising, renaming, and chronologically sorting PDFs and letters in a shared Google Drive folder. \n\nWho I Am Looking For: \n* UK-based with a legal secretary, senior PA, or paralegal background—or strong ability to research and understand UK laws, policies, and formal procedures, with immaculate written English. \n* Self-starter able to work independently from brief voice notes or forwarded emails with zero hand-holding. \n* Confidentiality & UK GDPR: You will handle sensitive personal data (home address, medical/family correspondence, private documents), requiring a signed NDA, Data Processing Agreement (DPA), and basic authority note before starting. All files stay strictly within my shared workspace. \n\nOnboarding & Start: \n* Starts with a paid virtual kickoff meeting (at your £20/hr) to walk through tasks and set up dedicated folder access. \n* Target start: 10/12/2026 or earlier. \n\nTo Apply: Reply with a brief overview of your background and confirm your hourly rate, signing an NDA and DPA, and working from voice notes/forwarded emails.",
+  "budget": 20.0,
+  "budget_min": 19.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-26T19:43:00+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Удалённая вакансия UK-ассистента юридической фирмы на 2–3 часа в неделю: деловая переписка, запись на приёмы и сортировка документов в Google Drive. Это не проект разработки, а найм на административную работу.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
+  "id": "pph:4532504",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/digital-marketing/affiliate-marketers/exploring-a-potential-affiliate-agency-partnership-4532504",
+  "title": "Exploring a Potential Affiliate Agency Partnership",
+  "description": "We're currently exploring opportunities to expand our performance marketing execution capabilities through partnerships with established publisher and affiliate networks.\n\nI'd be interested in understanding more about your network, particularly:\n\nYour publisher and traffic acquisition capabilities across African markets.\n\nAvailability of mobile in-app traffic and performance-based placements.\n\nExperience with finance, trading, SaaS, mobile app growth and e-commerce marketplace campaigns.\n\nTracking and attribution integrations, including AppsFlyer.\n\nPotential agency partnership or white-label arrangements.\n\nBudget is a placeholder, we can discussed budget based on conversion and volume.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 1,
+   "summary_ru": "Клиент ищет партнёра из affiliate-сети для performance-маркетинга: трафик в африканских странах, mobile in-app трафик, интеграция с AppsFlyer и возможное white-label сотрудничество. Это запрос на маркетинговое партнёрство, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам какая-либо техническая разработка, например интеграция с AppsFlyer или трекинг-система, или речь только о партнёрстве с сетью?",
+    "Какой объём разработки или интеграций вы ожидаете, если проект всё же будет связан с технической частью?"
+   ]
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
+  "id": "pph:4532498",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/software-testing/field-trial-participants-desktop-app-thermometers-suppli-4532498",
+  "title": "Field Trial Participants - desktop app - Thermometers Supplied",
+  "description": "Join CoolRater’s winter 2026–27 field trial of a Windows app that measures the Heat-Transfer Coefficient of your home, a statistic used to support heat-pump sizing. Participants will install the app, connect an Octopus Energy account, provide half-hourly smart-meter data, and collect overnight temperatures using four Elitech RC-5+ loggers, which will be provided. Applicants must heat their home with a gas boiler and avoid using energy outside the home during trial sessions. Basic computer skills are sufficient; CSV editing and installing unsigned trial software are required. Five participants are sought each month from November 2026 to February 2027.\n\nCoolRater is a desktop app which will measure the heat transfer coefficient HTC for a building, a function that has become increasingly important in recent years for use in sizing heat pumps. A field trial is being run this winter with these objectives:\n\n1. To obtain temperature and energy data for a range of properties. Currently CoolRater has only been used for the author’s own property.\n\n2. to obtain data from properties where the temperature varies between locations due to variations in insulation or heat distribution. For example close to a solid floor with no insulation, or in rooms which do not have double glazing.\n\n3. To find out if users have any problems in using the app, or have any dislikes or need for additional features or improvements.\n\nThere are some specific requirements for participants:\n\n1. The app only supports Windows (10 or 11);\n2. heating must be with a gas boiler;\n3. your energy supplier must be Octopus Energy, and you must be able to connect to the Octopus API, which means that you will have to live in the UK.\n4. you must have a smart meter, configured to record energy use every 30 minutes. As a quick check that the smart meter and API is working correctly, there is a feature on the Octopus website where you can download smart meter data. Log in to your Octopus account, click your name top right, click My Energy, scroll down to \"Get your energy geek on\" you can download files of energy usage. Please download two days of energy data and attach it to your proposal, so that I can see that you have a working smart meter.\n5. during the trial, which is only active at night, you will not be able to use energy for anything outside the house, like charging EVs.\n\nTo collect the temperature data you will be provided with four Elitech RC-5+ logging thermometers. To send you these, I will need your address. Exchanging contact details is discouraged by PPH rules, but is allowed after a proposal has been accepted if it is necessary to mail equipment. Note that a similar project is also posted which differs only in that participants buy their own thermometers, receive a higher amount as a result, and do not therefore need to provide their address.\n\nA high level of computer expertise is not required but you will need to copy your API key from your Octopus account to the app, you may need to edit CSV files with Excel or LibraOffice, and install the app. As trial software it has not been possible to digitally sign it and it has had few downloads. Therefore the operating system will treat it with suspicion and advise you not to run it. You can run it against this advice by clicking “More Information” and “Run Anyway”.\n\nThe video https://youtu.be/HryknL9LGqQ gives instructions on using the app and shows what you will need to do as a participant in the field trial.\n\nCriteria for Job Completion\n\nAs trial software its difficult to be certain of how well it will work. The app calculates the HTC for each inside thermometer by three different methods. If for any one of the thermometers the results agree to within 10%, then jobs a good’un. If they don’t, then this often indicates a problem with the thermometer being close to a heating source. So I would like you to repeat the test one or two times to get a better result. Return either one project file with the results agreeing to within 10%, or three project files from three separate attempts.\n\nIt is intended that there will be five participants in each of the months November 2026 to February 2027.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Участие в зимнем полевом испытании desktop-приложения CoolRater для измерения коэффициента теплопередачи дома. Нужно установить приложение, подключить API Octopus Energy, предоставить данные умного счётчика и собирать ночные температуры на четыре термометра. Это участие в исследовании, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Заказчик ищет участников исследования, а не разработчика. Есть ли в задаче какая-либо работа по коду или интеграции?",
+    "Нужна ли какая-либо разработка сверх установки и использования готового приложения?"
+   ]
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
+  "id": "kwork:3275831",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275831",
+  "title": "Ищем креаторов для создания видео об IT-платформе",
+  "description": "Приглашаем к сотрудничеству креаторов, видеоблогеров и авторов экспертного контента для создания коротких видеороликов о российской технологической платформе «Основа Бизнеса». \nПредпочтительная тематика — предпринимательство, экономика, финансы, управление бизнесом, автоматизация и новые технологии. \nНеобходимо познакомиться с платформой, изучить её возможности и подготовить оригинальный вертикальный видеоролик продолжительностью 30–90 секунд. \nРассматриваем различные форматы подачи: авторский рассказ, обзор продукта, демонстрация функциональных возможностей, экспертное мнение, разбор бизнес-задач. \nОсобенно интересны авторы с опытом ведения собственных блогов, грамотной речью, хорошей подачей материала и умением заинтересовать зрителя. \nПредоставляем бесплатный доступ к платформе, информационные материалы и помощь в подготовке сценариев. Приветствуем самостоятельные идеи и креативный подход. \nРезультат работы — готовый видеоролик, который передаётся заказчику. Публикация в аккаунтах исполнителя не требуется. \nВ отклике просьба предоставить примеры своих работ, предложить формат видеоролика и указать стоимость создания контента. \nЗаинтересованы в регулярном создании видеоматериалов и долгосрочном сотрудничестве. \nhttps://osnovabusinessa.ru/",
+  "budget": 2000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 23:14:30",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Заказчик ищет креаторов и видеоблогеров, которые снимут короткие вертикальные ролики 30–90 секунд о платформе «Основа Бизнеса». Это видеопроизводство и контент, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли какая-либо техническая часть, например интеграция платформы с другими сервисами или сайт?",
+    "Какой бюджет предполагается на один ролик и на регулярное сотрудничество?"
+   ]
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
+  "id": "kwork:3275829",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275829",
+  "title": "MVP браузерной 2D-игры с живым сервером (END)",
+  "description": "Ищу разработчика для создания MVP браузерной 2D-игры END. \nСуть концепции: постоянный сервер с минималистичным белым миром. Персонажи с геометрическими головами — кругами — живут своей жизнью, двигаются, могут присесть, задуматься или лечь спать, даже когда юзер оффлайн. \nНужно поднять базу данных, сделать простую графику на Canvas и реализовать автономную логику. Стек на ваш выбор. \nВ отклике прошу сразу указать опыт и кратко описать архитектуру сервера для синхронизации мира. Чтобы оценить кандидатов, предлагаю после получения откликов задать им уточняющие вопросы по архитектуре.",
+  "budget": 15000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 23:08:25",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 5,
+   "summary_ru": "Нужен MVP браузерной 2D-игры END с постоянным сервером и минималистичным белым миром. Персонажи-круги живут автономно: двигаются, садятся, задумываются и ложатся спать, даже когда игрок оффлайн. Требуется база данных, графика на Canvas и синхронизация мира.",
+   "reply": "Вы описали MVP браузерной игры, где персонажи-круги живут на постоянном сервере и продолжают действовать, даже когда игрок оффлайн. Предлагаю Node.js с WebSocket и игровым циклом с фиксированным тиком. Состояние мира и персонажей хранится в PostgreSQL. Клиент на Canvas получает снимки состояния и плавно интерполирует движение. Чтобы мир жил без игроков, сервер продолжает тики, а при входе пересчитывает пропущенное время по сохранённым таймерам поведения. Базовая версия с синхронизацией и автономной логикой займёт около 2–3 недель. Какой объём мира и сколько игроков одновременно планируется? Нужна ли история действий персонажей или достаточно текущего состояния? Примеры живых демо смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описали MVP браузерной игры, где персонажи-круги живут на постоянном сервере и продолжают действовать, даже когда игрок оффлайн. Предлагаю Node.js с WebSocket и игровым циклом с фиксированным тиком. Состояние мира и персонажей хранится в PostgreSQL. Клиент на Canvas получает снимки состояния и плавно интерполирует движение. Чтобы мир жил без игроков, сервер продолжает тики, а при входе пересчитывает пропущенное время по сохранённым таймерам поведения. Базовая версия с синхронизацией и автономной логикой займёт около 2–3 недель. Какой объём мира и сколько игроков одновременно планируется? Нужна ли история действий персонажей или достаточно текущего состояния? Примеры живых демо смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой объём мира и сколько игроков планируется одновременно на старте?",
+    "Нужна ли история действий персонажей или достаточно хранить только текущее состояние?"
+   ]
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
+  "id": "kwork:3275815",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275815",
+  "title": "Подготовка и запуск пилотной B2B email-рассылки",
+  "description": "ТНК разрабатывает техническую документацию и сопровождает сертификацию. Нужен специалист, который подготовит и запустит одну пилотную B2B email-рассылку. \nЗаказчик предоставляет текст коммерческого предложения и заранее формирует в сервисе рассылок сегмент из общих почтовых ящиков организаций с предварительным согласием на рассылку. Исполнитель запускает кампанию по готовому сегменту без доступа к просмотру, редактированию и выгрузке списка адресов. Поиск, сбор, покупка и передача контактов, использование адресов сотрудников и других персональных данных в задачу не входят. \nНужно предложить тему письма, адаптировать текст, сверстать шаблон с возможностью отписки и проверить его на тестовой отправке. После согласования письма исполнитель самостоятельно запускает рассылку в сервисе заказчика. По итогам — краткий отчёт по сводным показателям доставки, возвратов и отписок. \nВ отклике кратко опишите подход к пилоту и приведите 1–2 примера похожих работ без контактных данных.",
+  "budget": 5000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 22:36:13",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 2,
+   "summary_ru": "Нужно подготовить и запустить одну пилотную B2B email-рассылку коммерческого предложения: предложить тему письма, адаптировать текст, сверстать шаблон с отпиской, провести тестовую отправку и запустить кампанию в сервисе заказчика с отчётом по доставке. Основная часть задачи относится к email-маркетингу и копирайтингу, а не к разработке.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой сервис рассылок используется и нужен ли доступ к нему для верстки шаблона?",
+    "Кто отвечает за текст письма и тему: вы предоставляете готовый текст или нужна адаптация?"
+   ]
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910852",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910852",
+  "title": "Потрібно допрацювати Скрапер / Парсер",
+  "description": "Потрібно допрацювати Скрапер / Парсер\n🛠\n#парсинг_данных\nПлатформа \nPROM.UA\n оновила свої системи і тепер не можу збирати дані з неї автоматично, потрыбно допрацювати парсер і налаштувати так щоб він міг швидко і якісно збирати дані",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-26T19:55:17+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 7,
+   "summary_ru": "Клиенту нужно доработать существующий парсер данных с PROM.UA, так как после обновления платформы сбор данных перестал работать. Задача: восстановить автоматический сбор и сделать его быстрым и качественным.",
+   "reply": "Вижу задачу: парсер для PROM.UA перестал работать после обновления платформы, нужно починить сбор и сделать его быстрым и стабильным. Обычно начинаю с анализа того, что изменилось (структура страниц, эндпоинты, защита от ботов), затем переписываю извлечение данных, добавляю обработку ошибок и логирование и настраиваю выгрузку в нужный формат (таблица, БД или CSV). Ориентировочный срок — 2–4 дня на исправление и тестирование, если будет доступ к текущему коду и примерам страниц. Оплату можно обсудить в USDT (TRC20 / TON) или другим удобным способом.\n\nКакие именно данные нужно собирать и в каком виде вы хотите их получать? И как часто нужен запуск: вручную или по расписанию?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вижу задачу: парсер для PROM.UA перестал работать после обновления платформы, нужно починить сбор и сделать его быстрым и стабильным. Обычно начинаю с анализа того, что изменилось (структура страниц, эндпоинты, защита от ботов), затем переписываю извлечение данных, добавляю обработку ошибок и логирование и настраиваю выгрузку в нужный формат (таблица, БД или CSV). Ориентировочный срок — 2–4 дня на исправление и тестирование, если будет доступ к текущему коду и примерам страниц. Оплату можно обсудить в USDT (TRC20 / TON) или другим удобным способом.\n\nКакие именно данные нужно собирать и в каком виде вы хотите их получать? И как часто нужен запуск: вручную или по расписанию?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие именно данные нужно собирать с PROM.UA (товары, цены, остатки, категории) и в каком формате вы хотите их получать?",
+    "Как часто должен запускаться парсер: вручную, по расписанию или в режиме постоянного мониторинга?"
+   ]
+  },
+  "found_at": "2026-11-26T20:29:53+00:00"
+ },
+ {
   "id": "freelancer:40837565",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/php/Full-Stack-Web-App-Build-40837565",
