@@ -1,5 +1,486 @@
 [
  {
+  "id": "freelancer:40836564",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/dns/Urgent-Website-Proxy-Error-Fix",
+  "title": "Urgent Website Proxy Error Fix",
+  "description": "My site still loads, but every attempt to navigate triggers a proxy-block error instead of the normal pages. I need someone to jump on a live session with me, diagnose the root cause, clear the block, and leave the site fully functional before we wrap up the call.\n\nHere’s what will make the engagement a success:\n\n• During our scheduled appointment you pinpoint the reason the proxy block appears (server rules, firewall, DNS, mis-configured plugin, or anything similar) and remove it. \n• All public pages must open normally—no more error screens. \n• You recommend and, if practical, implement the best long-term proxy or alternative solution so the problem doesn’t return. \n• A brief note of the changes you made is handed over at the end.\n\nI’ll provide hosting panel and CMS credentials on the call. Let me know your earliest availability for a screen-share and how long you expect the fix to take.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T07:10:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 4,
+   "summary_ru": "Клиенту нужно срочно устранить ошибку прокси-блокировки, которая появляется при переходе между страницами сайта, хотя сам сайт открывается. Требуется живая сессия, диагностика причины, исправление и краткая справка об изменениях; бюджет небольшой (30 USD).",
+   "reply": "From your description, the homepage loads but every navigation is replaced by a proxy-block error. That usually comes from a redirect or rewrite rule, a firewall/WAF rule, a CDN or caching layer, or a plugin intercepting requests. I'd start by tracing the request chain on a few failing URLs and checking server and CMS logs, so we find the actual source instead of guessing. Once it's identified, I'd remove the block, check all public pages, and give you a short change note. For a lasting fix, I'd also suggest a proper rule set that survives updates. The screen-share can fit into a 60–90 minute window if access goes smoothly. Which hosting provider and CMS do you use, and did the error start after a specific change? Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Судя по описанию, главная страница загружается, но при каждом переходе вместо нужной страницы появляется ошибка прокси-блокировки. Обычно это связано с правилом редиректа или переписывания, правилом файрвола/WAF, слоем CDN или кеширования либо плагином, который перехватывает запросы. Я бы начал с отслеживания цепочки запросов на нескольких проблемных URL и проверки логов сервера и CMS, чтобы найти реальную причину, а не гадать. Найдя её, я уберу блокировку, проверю все публичные страницы и передам вам краткую справку об изменениях. Для стабильного результата также предложу корректный набор правил, который не слетит при обновлениях. Созвон на демонстрацию экрана может уложиться в окно 60–90 минут, если доступы пройдут без проблем. Какой у вас хостинг и CMS и не появилась ли ошибка после каких-то конкретных изменений? Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой у вас хостинг и CMS?",
+    "Появилась ли ошибка после какого-то конкретного изменения (обновление плагина, смена DNS, настройка файрвола)?",
+    "В какое время вам удобно провести созвон с демонстрацией экрана?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836563",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/seo/Highly-experienced-shopify-lister-40836563",
+  "title": "Highly experienced shopify lister no mistakes AUD $1/listing -- 3",
+  "description": "I need a seasoned Shopify hand who can upload Clothing & Accessories items with absolute accuracy. Every listing must follow the product-description template I provide and be ready to publish without further edits—titles, variants, pricing, tags, collections, SEO fields, everything polished in one pass. \n\nYou’ll receive the SKU sheet and my format guide up front. From there I’m counting on you to: \n\n• Build each product page inside Shopify exactly to spec \n• Add all relevant size/colour variants and ensure stock levels match the sheet \n• Fill out meta-fields and alt text so the store’s SEO stays on point \n• Proofread as you go; I don’t want to correct typos or mismatched images later \n\nTurnaround matters. Submit a daily batch so I can spot-check and approve as we go. The rate is locked at AUD $1 per approved listing, so speed only counts if accuracy stays at 100 %. If this sounds routine to you because you’ve done it hundreds of times before, let’s get started—tell me how many listings you can comfortably deliver each day and share a link to a Shopify store you’ve populated recently.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-26T07:09:54+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент ищет исполнителя для ручного заполнения карточек товаров в Shopify (одежда и аксессуары) по готовому шаблону с оплатой 1 AUD за листинг. Это рутинная работа по вводу данных, а не разработка, и бюджет очень мал.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь разработка или настройка магазина, или только ручное заполнение карточек товаров?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836562",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/desktop-application/Desktop-Connector-Upgrade-Needed",
+  "title": "Desktop Connector Upgrade Needed",
+  "description": "I already have a working desktop program that links our product to an external system/device, but a specific “bypass” feature is still missing. I will walk you through exactly what the current build does, the point at which it fails, and the behaviour I need to see once the bypass is in place.\n\nYour first task is to review the existing source code, identify the check or restriction that must be bypassed, and deliver a clean, compiled update that connects flawlessly every time. The codebase is in active use, so stability, clear commenting and version-controlled commits are essential.\n\nOnce this milestone is finished, I would like to keep collaborating with you for ongoing enhancements and maintenance. If you are comfortable digging into someone else’s code, working closely through chat to clarify edge cases, and you have solid experience with desktop connectivity (API calls, device drivers, sockets—whatever tools apply), let’s talk.",
+  "budget": 75000.0,
+  "budget_min": 37500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:09:28+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Клиент просит найти и обойти проверку или ограничение в существующей десктопной программе, которая подключает его продукт к внешней системе или устройству, и выпустить обновлённую сборку. Суть задачи — обход защитного механизма, поэтому проект не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какая именно проверка или ограничение должны быть обойдены: лицензионный ключ, аутентификация устройства или ограничение API?",
+    "Есть ли у вас права на изменение этого ПО и разрешение правообладателя внешней системы или производителя устройства?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836557",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/seo/Highly-experienced-shopify-lister-40836557",
+  "title": "Highly experienced shopify lister no mistakes AUD $1/listing -- 2",
+  "description": "I need a seasoned Shopify hand who can upload Clothing & Accessories items with absolute accuracy. Every listing must follow the product-description template I provide and be ready to publish without further edits—titles, variants, pricing, tags, collections, SEO fields, everything polished in one pass. \n\nYou’ll receive the SKU sheet and my format guide up front. From there I’m counting on you to: \n\n• Build each product page inside Shopify exactly to spec \n• Add all relevant size/colour variants and ensure stock levels match the sheet \n• Fill out meta-fields and alt text so the store’s SEO stays on point \n• Proofread as you go; I don’t want to correct typos or mismatched images later \n\nTurnaround matters. Submit a daily batch so I can spot-check and approve as we go. The rate is locked at AUD $1 per approved listing, so speed only counts if accuracy stays at 100 %. If this sounds routine to you because you’ve done it hundreds of times before, let’s get started—tell me how many listings you can comfortably deliver each day and share a link to a Shopify store you’ve populated recently.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-26T07:05:26+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент ищет исполнителя для ручного заведения товаров (клothing и аксессуары) в Shopify по готовой таблице SKU и шаблону описаний, с оплатой 1 AUD за листинг. Это контентная работа по вводу данных, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только загрузка товаров в готовый магазин или также настройка темы, интеграций и логики каталога?",
+    "Какой общий объём листингов планируется и есть ли фиксированный срок сдачи?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836546",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/blog-writing/Music-School-Blog-Content",
+  "title": "Music School Blog Content",
+  "description": "I run a community-oriented music academy that teaches piano, keyboard, guitar, tabla, flute, vocals and even dance. My priority now is steady, parent-friendly blog content that turns curious mums and dads into fresh lesson enquiries.\n\nHere’s what I need:\n• 4 well-researched blog posts each month (600–800 words) written in clear, encouraging language that speaks directly to parents of children aged 4–14. \n• Topics that highlight how music training boosts creativity, confidence and academic skills, while subtly showcasing our range of instruments and dance options. \n• Basic on-page SEO: sensible keyword use, compelling meta titles/descriptions and internal links pointing readers to our enrolment page or free-trial form. \n• A warm, actionable closing section in every post inviting parents to book a trial class or phone for details. \n• Copy must be original, grammatically flawless and ready to publish in WordPress (I’ll provide login). A royalty-free image suggestion for each article would be a bonus.\n\nIf you already write for education, parenting or performing-arts brands, that experience will help you hit the right tone quickly. Send a short pitch plus two links to comparable articles, and let’s start filling our calendar with content that fills our classrooms.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T07:00:27+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 1,
+   "summary_ru": "Клиент ищет автора для написания 4 SEO-статей в месяц (600–800 слов) для блога музыкальной школы с ориентацией на родителей детей 4–14 лет. Нужны оригинальный текст, базовая on-page оптимизация, мета-теги и публикация в WordPress. Это контентный заказ, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли публикация статей в WordPress самим исполнителем или достаточно готовых текстов?",
+    "Требуется ли ведение блога на постоянной основе или разовое написание первой партии статей?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836544",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/excel/Part-Time-Remote-Bookkeeper",
+  "title": "Part-Time Remote Bookkeeper",
+  "description": "I’m looking for a reliable accountant who can take over our day-to-day bookkeeping and monthly bank reconciliation on a part-time, fully remote basis.\n\nWhat I need most:\n• Bookkeeping and bank reconciliation that keeps every account accurate and up-to-date.\n\nKey tasks:\n• Record all income and expense entries as they occur.\n• Reconcile bank and credit-card statements each month to spot and resolve discrepancies quickly.\n\nCurrent setup:\nAll transactions are tracked in spreadsheets—mostly Google Sheets, sometimes Excel—so you must be comfortable working in both. If you’ve moved clients from spreadsheets into QuickBooks or Xero before, let me know; that experience could be useful later even though our immediate need is to maintain the existing sheets.\n\nDeliverables each month:\n1. Clean, reconciled transaction log that ties to bank totals.\n2. A brief reconciliation summary highlighting any outstanding items requiring my approval.\n3. Updated cash-flow snapshot derived from the spreadsheet data.\n\nIdeal skills:\n• Solid understanding of double-entry bookkeeping.\n• Proven spreadsheet expertise, including formulas, pivot tables, and data validation.\n• Attention to detail and the discipline to follow a consistent naming and filing convention in Google Drive.\n\nCommunication:\nWe’ll collaborate through email and Slack, with a quick video check-in once per month. I’ll share view-only bank access plus statement downloads; you’ll update the files, flag questions, and return them on schedule.\n\nIf you’re organized, responsive, and ready to own this process, I’d love to hear from you.",
+  "budget": 400.0,
+  "budget_min": 100.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T06:58:32+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Нужен удалённый бухгалтер на неполную занятость для ведения учёта в Google Sheets и Excel, ежемесячной сверки банковских выписок и подготовки отчётов о движении денег. Это бухгалтерская работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь разработка, например автоматизация импорта банковских выписок в Google Sheets через скрипты или интеграция с банком, или нужен только бухгалтерский специалист?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836533",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Urgent-PHP-Payment-Layout-Fixes",
+  "title": "Urgent PHP Payment and Layout Fixes -- 2",
+  "description": "Urgent PHP Developer Required – 2 Bug Fixes (5–6 Hours)\n\nBudget: Maximum ₹1,000 (Fixed Price)\nDeadline: 5–6 Hours – Urgent\n\nWe urgently require an experienced PHP/MySQL developer to fix two issues on our live website https://svcsm.org.\n\nIssue 1: Student Registration & Payment Gateway\n\nThe Student Registration form on our Franchise Portal is not properly redirecting to the Payment Gateway after form submission. Registration fee payment is not being completed.\n\n- The registration and payment process was working earlier.\n- The issue appeared after recent updates related to the State Coordinator Panel.\n- Relevant files include \"student.php\" and \"std_payment_process.php\".\n- Error logs have already been checked, but no relevant recent error was found.\n\nRequired: Identify the root cause and restore the complete Student Registration → Order ID → Payment Gateway flow.\n\nIssue 2: Certificate & Marksheet Layout\n\nThere is an issue with the layout/design of the generated marksheet and certificate.\n\nRequired: Fix the existing certificate/marksheet layout issue without disturbing previously generated certificates or marksheets. Any changes must apply only where required and must not affect existing records/templates unnecessarily.\n\nRequirements\n\n- Fix both issues within 5–6 hours.\n- Work only on the specific bugs mentioned above.\n- No website redevelopment is required.\n- Maintain backup before modifying files.\n- Test Student Registration and Payment Gateway flow.\n- Verify certificate/marksheet layout after correction.\n- Provide a brief report of files modified and the fixes applied.\n\nBudget\n\nMaximum Fixed Budget: ₹1,000 for both issues.\n\nOnly experienced PHP/MySQL developers who can start immediately and complete the work within the required time should apply.\n\nImmediate availability is required.",
+  "budget": 400.0,
+  "budget_min": 100.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T06:50:50+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 3,
+   "summary_ru": "Нужно исправить два бага на живом PHP/MySQL-сайте svcsm.org: регистрация студентов перестала перенаправлять на платёжный шлюз после обновления панели координатора, и есть проблема с версткой генерируемых сертификатов и табелей. Бюджет очень низкий (до 1000 INR), срок 5–6 часов.",
+   "reply": "You need the student registration flow on svcsm.org to reach the payment gateway again after the State Coordinator Panel update, plus a layout fix for the generated marksheet and certificate without touching existing records. I would start by taking a backup, then trace the path from student.php to Order ID creation and std_payment_process.php to find where the redirect breaks, since the logs did not show it. Once the root cause is clear, I would patch only the affected code, test the full registration-to-gateway flow, and check the document layout against an existing record. I can start right away and aim to finish within your 5–6 hour window, with a short report of the modified files.\n\nTwo quick questions: do you have a staging copy or can I test on a duplicate of the site? Did the redirect stop for all students or only for some?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно, чтобы регистрация студентов на svcsm.org снова доводила до платёжного шлюза после обновления панели координатора штата, и чтобы сгенерированные табели и сертификаты отображались корректно, без изменения уже созданных записей. Я бы начал с резервной копии, затем проследил путь от student.php до создания Order ID и std_payment_process.php, чтобы найти место, где ломается перенаправление, так как логи этого не показали. Когда станет ясна первопричина, я исправил бы только затронутый код, проверил полный путь от регистрации до шлюза и сверил вёрстку документа с существующей записью. Могу начать сразу и уложиться в ваше окно 5–6 часов, с кратким отчётом по изменённым файлам.\n\nДва быстрых вопроса: есть ли у вас тестовая копия сайта или можно тестировать на дубликате? Перенаправление перестало работать для всех студентов или только для части?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас тестовая копия сайта или можно тестировать на дубликате?",
+    "Перенаправление перестало работать для всех студентов или только для части?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836519",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Corporate-Website-Full-Modern-Redesign",
+  "title": "Corporate Website Full Modern Redesign",
+  "description": "I’m ready to give our entire business website a fresh start. The current layout feels dated, so the primary objective is to transform every page into a sleek, polished experience that reflects a professional brand image from the first click to the final call-to-action.\n\nScope of work \n• Redesign the whole site—every template, page, and navigation element. \n• Apply a clean, contemporary UI/UX that works flawlessly on desktop, tablet, and mobile. \n• Preserve our existing content and functionality while elevating typography, imagery, colour palette, and overall brand consistency. \n• Set up intuitive site architecture so visitors can move effortlessly between sections such as services, about, and contact. \n\nDeliverables \n1. Wireframes or mock-ups for all key pages. \n2. Fully developed responsive website uploaded to our host or CMS (WordPress, Webflow, or a framework you recommend). \n3. Handover package with design assets, source files, and basic documentation on updating content.\n\nAcceptance criteria \n• Pages render correctly across major browsers and devices. \n• All existing links, forms, and contact points function post-launch. \n• Visual style is cohesive and unmistakably modern.\n\nIf you’ve turned dated corporate sites into polished, conversion-friendly platforms before, this project should feel familiar. Let’s bring our brand up to date and make a striking first impression together.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T06:39:34+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 5,
+   "summary_ru": "Полный редизайн корпоративного сайта: обновить все шаблоны и страницы, сделать адаптивную современную верстку и сохранить существующий контент, ссылки и формы. Сдача на хостинг или CMS (WordPress, Webflow или фреймворк) с документацией.",
+   "reply": "You want the whole corporate site rebuilt with a modern look while keeping your current content, links and forms working. I'd start by auditing the existing pages and navigation, then propose a layout for the key pages (home, services, about, contact) and a shared component system for colours, typography and imagery, so the site stays consistent on desktop, tablet and mobile. I build with a modern stack and AI-assisted tooling, so the work moves quickly: roughly 2–3 weeks for a site of this size, with a preview before the full build. Two questions to pin down the estimate: which platform is the site on now, and roughly how many pages does it have? Do you also have brand guidelines or logo files I should use?\n\nLive demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите полностью обновить корпоративный сайт в современном стиле, сохранив работу существующего контента, ссылок и форм. Я бы начал с аудита текущих страниц и навигации, затем предложил бы структуру ключевых страниц (главная, услуги, о компании, контакты) и общую систему компонентов для цветов, типографики и изображений, чтобы сайт выглядел единообразно на десктопе, планшете и телефоне. Я работаю с современным стеком и использую ИИ-инструменты в разработке, поэтому работа идёт быстро: ориентировочно 2–3 недели для сайта такого размера, с предварительным превью перед полной сборкой. Чтобы уточнить оценку: на какой платформе сейчас стоит сайт и примерно сколько в нём страниц? Есть ли у вас брендбук или файлы логотипа, которые нужно использовать?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На какой платформе сейчас работает сайт (WordPress, Webflow, самописный или другой)?",
+    "Примерно сколько страниц и шаблонов нужно переработать?",
+    "Есть ли брендбук, логотип и фирменные цвета, которые нужно сохранить?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836516",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/business-development/Specialty-Chemical-Sales-Introductions",
+  "title": "Specialty Chemical Sales Introductions",
+  "description": "I need an experienced business introducer who can open doors for my line of specialty chemicals across Europe, South-East Asia, Africa and the USA. Your focus will be on placing high-value formulations into coatings, paints, adhesives, oil and gas treatment, water treatment, pharmaceutical, food and personal-care markets—as well as core commodities such as acids and solvents when a customer requires them. \n\nWhat I expect you to do \n• Leverage your existing network to identify qualified buyers and decision-makers. \n• Arrange introductory calls or meetings and brief both sides so conversations start productively. \n• Feed back market intelligence (pricing trends, competitor activity, regulatory hurdles) that could shape our commercial strategy. \n\nDeliverables I will use to gauge success \n1. A vetted contact list with company name, buyer name, role, email/phone and segment served. \n2. Confirmation of at least three scheduled meetings or calls per region within the first month. \n3. A concise report summarising discussions, next steps and any technical or compliance questions raised. \n\nPlease keep your proposal short and centred on your relevant experience: the industries and regions where you have already brokered specialty chemical deals, notable brands you have introduced and any measurable sales or partnerships you initiated. Tools such as LinkedIn Sales Navigator, Salesforce, HubSpot or similar CRM platforms are a plus but not mandatory if your personal network is strong. \n\nFluency in English is required; additional languages that help break into local markets will be advantageous. I plan to start immediately and will break the engagement into clear milestones once I identify the right partner.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T06:38:15+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Клиент ищет бизнес-интроудсера, который будет открывать двери для продажи специализированной химии в Европе, Юго-Восточной Азии, Африке и США и находить покупателей через личные связи. Это работа по продажам и развитию бизнеса, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь разработка, например CRM-система для ведения контактов и отчётности, или требуется только поиск покупателей и организация встреч?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40825876",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/blockchain/BEP-Token-Web-Integration",
+  "title": "BEP-20 Token & Web3 Integration",
+  "description": "I need a BEP-20 smart-contract deployed on Binance Smart Chain with a permanently capped total supply—no minting after launch. The token will underpin our ecosystem as a general-purpose cryptocurrency usable for utility, in-game assets, investment and day-to-day trading. You have to create a liquidity Pool & list the token in Pabcakeswap.\n\nAlongside the contract, I want a small web3 front-end where users can:\n\n• connect any BSC-compatible wallet (MetaMask, Trust Wallet, etc.) \n• see their live balance \n• buy or swap the token directly on-site \n• spend the token inside our project modules (game items, rewards or other services we are building next)\n\nDeliverables\n1. Audited, verified BEP-20 contract code pushed to our GitHub and live on BSC mainnet. \n2. Front-end (React, Vue or similar) with clear wallet integration, swap widget and balance display. \n3. Deployment guides and concise documentation so my in-house team can extend the utility layer later.\n\nClean Solidity code, standard OpenZeppelin libraries, thorough comments and a quick test suite are a must. If this fits your skill set, let’s talk timelines and milestones.",
+  "budget": 3000.0,
+  "budget_min": 2500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T06:35:29+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Нужен BEP-20 токен с фиксированной эмиссией на BSC, пул ликвидности на PancakeSwap и web3-фронтенд с подключением кошелька, балансом и свопом. Бюджет 3000 INR, объём работ большой.",
+   "reply": "You need a capped-supply BEP-20 token on BSC, a PancakeSwap liquidity pool, and a React front-end where users connect a wallet, see their balance, swap, and spend the token inside your modules. I would split this into two parts: the web3 front-end (wallet connection, live balance, and a swap widget that routes through PancakeSwap) and the contract, built on OpenZeppelin ERC-20 with a fixed supply and tested on BSC testnet before mainnet. With modern tooling and AI-assisted development, I can deliver the front-end in about a week and the contract with tests in a similar window, with the pool setup after your review. A formal third-party audit is a separate step that I would scope with you. Could you tell me whether the contract is already written or should be written from scratch? And is the 3000 INR budget for the full scope or for the front-end first?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен BEP-20 токен с ограниченной эмиссией на BSC, пул ликвидности на PancakeSwap и React-фронтенд, где пользователи подключают кошелёк, видят баланс, меняют токен и тратят его в ваших модулях. Я бы разделил работу на две части: web3-фронтенд (подключение кошелька, баланс в реальном времени и виджет свопа через PancakeSwap) и контракт на базе OpenZeppelin ERC-20 с фиксированной эмиссией, протестированный в BSC testnet перед запуском в mainnet. С современными инструментами и ИИ-ассистентами я могу сделать фронтенд примерно за неделю, а контракт с тестами за похожий срок, настройку пула после вашей проверки. Формальный аудит третьей стороной — отдельный этап, который можно обсудить отдельно. Подскажите, контракт уже написан или его нужно писать с нуля? И бюджет 3000 INR на полный объём или на фронтенд в первую очередь?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Контракт уже написан или его нужно писать с нуля?",
+    "Бюджет 3000 INR рассчитан на полный объём работ или на фронтенд в первую очередь?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836510",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot/WhatsApp-Assistant-for-Sales-Customer",
+  "title": "AI WhatsApp Assistant for Sales and Customer Support",
+  "description": "We’re looking for a freelancer to build an AI assistant using the official WhatsApp Business API. Our customers find us through several channels and contact us on WhatsApp to ask about prices, check availability, and place orders. We want them to be able to complete that process in the chat, even outside business hours.\n\n- Product inquiries. Customers can describe what they’re looking for, select an item from the WhatsApp catalog, or send a photo or screenshot, such as one from a Facebook post or livestream. The assistant should identify the product and check its price and availability in Google Sheets.\n- Order management. Once the customer selects their products, the assistant should confirm the items and quantities, record the order in Google Sheets, and share payment instructions.\n- Payment receipts. The assistant should extract the amount, date, and transaction reference from each receipt and link it to the corresponding order. Our team will review and confirm payment before shipping.\n-Customer support. The assistant should answer common questions about shipping, business hours, and exchanges, and hand the conversation over to a team member when the customer needs help.",
+  "budget": 500.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T06:33:51+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Нужен AI-ассистент в WhatsApp на официальном Business API: поиск товаров по тексту, каталогу или фото, оформление заказов и запись в Google Sheets, распознавание чеков об оплате и передача диалога сотруднику. Бюджет 500 USD, объём работ довольно большой.",
+   "reply": "You want a WhatsApp assistant on the official Business API that finds products from text, catalog selections, or photos (including Facebook and livestream screenshots), records orders in Google Sheets, reads payment receipts, and hands off to your team when needed. I'd split it into three parts: the WhatsApp webhook and conversation flow, a Sheets-based catalog and order layer, and a vision model step for matching product photos and extracting receipt fields, plus clear handoff rules for your staff. With a modern stack and AI-assisted development, I'd expect a working MVP covering product lookup, orders, and handoff in about two weeks, with receipt parsing and polish after that. Do you already have a verified Meta Business account, and roughly how many products are in the catalog? For examples of my work with live demos, see https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен ассистент в WhatsApp на официальном Business API, который находит товары по текстовому описанию, выбору из каталога или фото (включая скриншоты из Facebook и трансляций), оформляет заказы с записью в Google Sheets, распознаёт чеки об оплате и передаёт диалог сотруднику, когда это нужно. Я бы разбил задачу на три части: webhook WhatsApp и логику диалога, слой каталога и заказов на основе Sheets и шаг с моделью распознавания изображений для сопоставления фото товаров и извлечения данных из чеков, а также чёткие правила передачи диалога вашей команде. На современном стеке с ИИ-помощником в разработке я ожидаю рабочий MVP с поиском товаров, заказами и передачей диалога примерно за две недели, а распознавание чеков и доработки — после этого. Есть ли у вас подтверждённый аккаунт Meta Business и примерно сколько товаров в каталоге? Примеры моих работ с живыми демо — https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже подтверждённый аккаунт Meta Business и номер для WhatsApp Business API?",
+    "Примерно сколько товаров в каталоге и как часто меняются цены и наличие в Google Sheets?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836499",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/creative-writing/DTC-Creative-Strategists-Copywriters",
+  "title": "DTC Creative Strategists & Copywriters Needed",
+  "description": "Tryselltheclick is trusted brand amongst Top DTC firms in Florida - A hub of all DTC agencies where latest and most advanced techniques to make better ads are done daily.\n\nWe are creating a talent pool for our clients, in following areas:\n\nInterested candidates need to get Coherence score of above 40% \n\nCoherence score means that you really have deep understanding of what of you do and it gets evaluated here : tryselltheclick.com/experts [ submit your details ]\n\n• Creative strategists – You’ll audit the offer, find the winning angles, map out content for Meta and TikTok, and deliver clear briefs that keep the production team moving fast.\n\n• Landing page designers – You can translate a creative brief into a mobile-first page (Figma, Webflow, or straight into Shopify/Unbounce) that loads fast, looks on-brand, and is built around conversion science.\n\n• Ad copywriters – Headline formulas, scroll-stopping hooks, body copy that sells, and variant testing are second nature to you across Facebook, Instagram, TikTok, and Google.\n\nHere’s how we’ll work:\nI share a brief with product background, past data, and target KPIs. We agree on the scope and milestones, then you deliver concepts, drafts, or page builds with room for a quick revision round. Results, learnings, and next steps are tracked so we compound wins across campaigns.\n\nIf you live and breathe performance creative for DTC brands and have a portfolio that proves it, let’s talk.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T06:26:10+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 2,
+   "summary_ru": "Агентство DTC набирает в пул исполнителей креативных стратегов, копирайтеров для рекламы и дизайнеров лендингов в Figma/Webflow/Shopify. Основной запрос связан с креативной стратегией и копирайтингом, а не с разработкой, а также требуется проверка «coherence score» на их сайте.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли в этом проекте именно разработка страниц (верстка, интеграции, Shopify-тема), или основная задача — дизайн и креатив?",
+    "Есть ли конкретный тестовый проект или ТЗ на лендинг, который можно оценить до подключения к пулу?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelancer:40836500",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-ads/Commerce-Google-Ads-Optimisation",
+  "title": "E-Commerce Google Ads Optimisation",
+  "description": "I run milletsnacks.com, an Indian brand that turns wholesome millets into ready-to-eat treats. My goal is straightforward: lift daily online orders across India while keeping ROAS solidly profitable on a starting ad spend of ₹500-1,000 per day.\n\nYou will take manager of Google Ads—Search, Shopping, and Performance Max—focusing first on our best-selling millet snacks. Campaign messaging must spotlight the healthy ingredients and nutrition that set us apart and speak directly to parents looking for better snack options for their children.\n\nWhat I need from you \n• Account setup or overhaul, including granular keyword research, negative keyword curation, and audience segmentation. \n• Conversion-optimised Shopping feeds and structured Performance Max asset groups centred on our high-velocity SKUs. \n• GA4 installation, purchase conversion tagging, and ongoing attribution checks so every rupee spent is traceable. \n• Continuous bid and creative testing aimed at lowering acquisition costs while scaling volume. \n• Concise weekly reports highlighting spend, sales, ROAS, and next actions.\n\nTo help me choose quickly, please share: past e-commerce accounts you’ve grown, concrete results or case studies, your monthly management fee, and a brief outline of how you would approach this store in the first 90 days.\n\nIf you have a proven record of turning healthy food products into profitable online sales, I’d love to see what you can do with millet.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T06:22:29+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Клиент ищет специалиста по Google Ads (Search, Shopping, Performance Max) для интернет-магазина здоровых снеков из проса с бюджетом ₹500–1000 в день. Это маркетинговое управление рекламой, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли какая-либо техническая разработка, например доработка сайта или интеграция фида товаров с магазином?",
+    "Входит ли в задачу настройка GA4 и отслеживания покупок на самом сайте, или только управление рекламой?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "pph:4532406",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/design/web-design/add-sms-notifications-to-my-wordpress-website-and-connected-4532406",
+  "title": "Add SMS notifications to my Wordpress website and connected app",
+  "description": "Add SMS notifications to my Wordpress website and connected app\n\nAlso need someone to help me launch my app in android store",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 5,
+   "summary_ru": "Клиент хочет добавить SMS-уведомления на свой WordPress-сайт и подключённое к нему приложение, а также помощь с публикацией Android-приложения в Google Play. Бюджет не указан, а объём работ описан кратко.",
+   "reply": "Hi, you need SMS notifications added to your WordPress site and the app connected to it, plus help getting your Android app into the Play Store. I'd start by checking how the site and app exchange data and which SMS provider you want to use, such as Twilio or SMS.ru. Then I'd set up triggers for the events you care about, like orders, sign-ups, or status changes, and test the whole flow end to end. The SMS part should take roughly 3–5 days once I have access. For the Play Store, I can help with the listing, app signing, and release setup, though the exact scope depends on what's already built. You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nWhich events should trigger SMS, and do you already have an SMS provider account?\n\nYakov",
+   "reply_ru": "Здравствуйте, нужно добавить SMS-уведомления на ваш WordPress-сайт и подключённое к нему приложение, а также помочь с публикацией Android-приложения в Google Play. Я бы начал с того, как сайт и приложение обмениваются данными, и выбрал SMS-провайдера, например Twilio или SMS.ru. Затем настроил бы триггеры для нужных событий, таких как заказы, регистрации или смена статуса, и протестировал весь процесс от начала до конца. Часть с SMS займёт примерно 3–5 дней после того, как я получу доступ. По Google Play могу помочь с карточкой приложения, подписью и настройкой релиза, but точный объём зависит от того, что уже сделано. Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nКакие события должны запускать SMS и есть ли у вас уже аккаунт у SMS-провайдера?\n\nYakov",
+   "questions": [
+    "Какие события должны запускать SMS: заказы, регистрацию, смену статуса или что-то другое?",
+    "Есть ли у вас уже аккаунт у SMS-провайдера и доступ к сайту и приложению?",
+    "Приложение уже собрано в APK или AAB, и есть ли у вас аккаунт разработчика Google Play?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "kwork:3267263",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3267263",
+  "title": "Нужна помощь с быстрым стартом лидов",
+  "description": "Здравствуйте. \nНужна помощь специалиста с быстрым стартом лидов и низкой ценой за лиды. Подойдут любые законные площадки где сидят наши клиенты (предприниматели/руководители), кроме Яндекс (у них сейчас \"проблемы\" и неизвестно сколько они продлятся). Рассмотрю вк, тизерные сети, баннерные сети и другие инструменты где вы проффи в получении лидов. Если есть опыт в генерации лидов именно в бизнес-нишах (т.е лиды от \"лиц принимающих решение\") и результаты которые можете показать, выберу вас исполнителем. \nБюджет будет постепенно выделяться (с минимума до максимума), чтобы убедиться в том, что вы действительно генерите лиды быстро, дёшево, качественно. С каждого результативного лида вам денежный бонус. Всё через Кворк. \n* Не выдаю никакие свои связки, кабинеты и площадки \n* Не заинтересован в затягивании сроков старта \n* Не выдаю сайты, аккаунты, соц.сети для установки метрики и т.п \nФормы, креативы, какие-то страницы, интеграция, кабинеты на вашей стороне. \nЧётко расскажите какими способами сможете генерировать лиды, как быстро, подготовьте кейсы-примеры, обязательно обсуждение и закрепление \"сколько будет лидов на выходе\". Нишу проясню в переписке",
+  "budget": 5000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-26 09:56:33",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет специалиста по генерации лидов из бизнес-ниш через VK, тизерные и баннерные сети с оплатой за результат. Это закупка трафика и маркетинг, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
+  "id": "freelance_ru:16463",
+  "source": "freelance_ru",
+  "url": "https://freelance.ru/task/view/16463",
+  "title": "Вёрстка лендинга студии Mira по макету Figma",
+  "description": "Ищем фронтенд-разработчика для разовой задачи: сверстать и опубликовать англоязычный сайт-заставку студии Mira по готовым макетам Figma (десктоп, мобильная версия и модальная форма). Исходный бриф с макетом и критериями приёмки — в приложении.Что нужно сделать:• Адаптивная вё...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "26.11.2026 10:07",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "landing",
+   "score": 7,
+   "summary_ru": "Нужно сверстать адаптивный англоязычный одностраничный сайт-заставку студии Mira по макетам Figma (десктоп, мобильная версия, модальная форма) и опубликовать его. Бюджет не указан, в приложении есть бриф с критериями приёмки.",
+   "reply": "You need a responsive English one-page landing for the Mira studio, built from the Figma desktop and mobile layouts with a modal form, and then published. I'll go through the layouts and the acceptance brief first, check the grid, spacing, and fonts, and then build the markup on a modern stack. I use AI assistants in development, so I can move quickly: roughly 3–5 working days to a test domain, then a final deploy after your review. Could you tell me where the form submissions should go (email, CRM, or a spreadsheet) and which hosting or domain you plan to publish on?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно сверстать адаптивный англоязычный одностраничный лендинг студии Mira по десктопному и мобильному макетам Figma с модальной формой, а затем опубликовать его. Сначала разберу макеты и приёмочный бриф, проверю сетку, отступы и шрифты, после чего соберу адаптивную вёрстку на современном стеке. Я использую ИИ-ассистенты в разработке, поэтому работаю быстро: ориентировочно 3–5 рабочих дней до публикации на тестовом домене, затем финальный деплой после вашего согласования. Подскажите, пожалуйста, куда должны уходить данные из формы (почта, CRM или таблица) и на каком хостинге или домене планируется публикация?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Куда должны отправляться данные из модальной формы: на почту, в CRM или в таблицу?",
+    "На каком хостинге или домене планируется публикация сайта?"
+   ]
+  },
+  "found_at": "2026-11-26T07:14:13+00:00"
+ },
+ {
   "id": "freelancer:40836492",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/web-development/Build-Entrepreneur-Social-Funding",
