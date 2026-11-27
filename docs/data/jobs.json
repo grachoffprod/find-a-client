@@ -1,5 +1,646 @@
 [
  {
+  "id": "freelancer:40839036",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-maps-api/WhatsApp-Restaurant-Ordering-Platform",
+  "title": "WhatsApp AI Restaurant Ordering Platform",
+  "description": "# Project Title\n\n**Build a Complete AI-Powered WhatsApp Restaurant Ordering and Delivery Management System**\n\n## Project Description\n\nI have a WhatsApp Business number and an existing interactive HTML prototype that demonstrates the required design and ordering workflow. I will provide this prototype as a reference.\n\nI need the prototype converted into a fully operational production system connected to my WhatsApp Business number using the official **WhatsApp Business Platform / Meta Cloud API**.\n\nI do not want another HTML demonstration or an unofficial solution that depends on WhatsApp Web, QR code scanning, or keeping a browser open. The final system must be ready for real customer orders.\n\n## Customer Experience Inside WhatsApp\n\nThe customer should be able to:\n\n1. Send a message to the restaurant’s WhatsApp number and receive an automatic response in Arabic.\n2. Browse an organized menu containing categories, product images, descriptions, and prices.\n3. Select products, quantities, sizes, add-ons, removals, and special instructions.\n4. review and edit the shopping cart before confirming the order.\n5. Automatically receive a calculation containing:\n - Product prices.\n - Add-ons.\n - Delivery fee.\n - Value-added tax at a configurable rate.\n - Final total.\n6. Provide the delivery address by:\n - Typing the address.\n - Sharing a WhatsApp location.\n7. Receive the calculated distance, estimated delivery time, and delivery fee using Google Maps.\n8. Select one of the following payment methods:\n - Cash or card upon delivery.\n - An automatically generated online payment link, with payment status confirmation.\n9. Receive an order number, invoice, order summary, and estimated delivery time.\n10. Receive automatic notifications as the order status changes until delivery is completed.\n\nThe customer-facing ordering experience should take place inside WhatsApp without requiring the customer to visit a separate website.\n\n## Restaurant and Cashier Integration\n\nThe restaurant or cashier must have access to:\n\n- New orders in real time.\n- Product details, customizations, quantities, notes, address, location, total, and payment method.\n- The ability to download or print the order invoice.\n- Accepting or rejecting orders.\n- Setting the expected preparation time.\n- Updating the order status:\n - New.\n - Accepted.\n - Preparing.\n - Ready for pickup.\n- Automatically assigning the order to an available driver.\n- Manually changing the assigned driver when necessary.\n- Managing menu categories, products, prices, images, add-ons, unavailable products, and business hours.\n\n## Driver Integration\n\nThe driver should receive:\n\n- Order details.\n- Restaurant location.\n- Customer address and shared location.\n- Delivery distance and estimated travel time.\n- A direct Google Maps navigation link.\n- Customer contact details when permitted.\n- Payment collection information.\n\nThe driver must be able to update the order status:\n\n- Order accepted.\n- Arrived at the restaurant.\n- Order collected.\n- On the way to the customer.\n- Delivered.\n- Delivery failed.\n\nEach status update must automatically reach the customer, restaurant, and administration.\n\n## Owner and Administration Dashboard\n\nI need a secure administration dashboard that allows me to:\n\n- Monitor all orders and statuses in real time.\n- Add and manage restaurants, branches, cashiers, and drivers.\n- Manage user roles and permissions.\n- Edit menus, prices, VAT, delivery fees, delivery zones, and business hours.\n- View sales, orders, payments, cancellations, and delivery reports.\n- Monitor the performance of each restaurant, branch, cashier, and driver.\n- Search and filter historical orders.\n- View a complete log of messages, order changes, and user actions.\n- Manually intervene in any order when an exception occurs.\n- Export reports when needed.\n\nThe system should be designed so additional restaurants, branches, and drivers can be added in the future.\n\n## Artificial Intelligence Requirements\n\nThe AI assistant must:\n\n- Communicate naturally in Arabic.\n- Understand Saudi dialect, common spelling mistakes, and free-text requests.\n- Answer questions about the menu, prices, opening hours, delivery, payments, and order status.\n- Guide the customer through the full ordering process.\n- Use a restaurant-specific knowledge base.\n- Recognize when it cannot resolve an issue and transfer the case to an employee or administrator.\n- Avoid inventing products, prices, policies, or delivery information.\n- Keep replies professional, short, and easy for customers to understand.\n\nProduct prices, taxes, delivery fees, payment status, and order status must be calculated and controlled by the application and database. They must not depend on AI-generated calculations.\n\nOrder reception, calculation, notifications, restaurant forwarding, and driver assignment should operate automatically. Manual intervention should only be required for exceptional cases or physical preparation of the food.\n\n## Technical Requirements\n\n- Use the official **WhatsApp Business Platform / Meta Cloud API**.\n- No unofficial WhatsApp Web automation or permanent QR code connection.\n- Attempt to connect my current WhatsApp Business App number using Meta’s **Coexistence** option if my account is eligible.\n- Do not delete, migrate, deactivate, or disconnect my current WhatsApp number without my written approval.\n- Use a secure production database and hosting environment.\n- Provide automatic backups and basic system monitoring.\n- Secure all Meta, Google Maps, AI, payment gateway, and server credentials.\n- Integrate Google Maps for distance, route, and estimated travel time.\n- Integrate a payment gateway suitable for Saudi Arabia. I will provide the merchant account and required credentials.\n- Confirm payment automatically through the payment gateway callback or webhook.\n- Provide an Arabic interface for the restaurant, driver, and administration.\n- Ensure mobile compatibility for cashier and driver interfaces.\n- Maintain clear order and system logs.\n\n## Ownership and Handover\n\nAt completion, I must receive:\n\n- Full source code.\n- Database and database structure.\n- Hosting and deployment access.\n- Meta application and WhatsApp Business assets.\n- Domain and server access.\n- All administrator accounts and credentials.\n- Google Maps, AI, and payment integration configurations.\n- Deployment instructions.\n- Basic documentation explaining how to operate and update the system.\n\nAll production accounts, Meta assets, hosting services, domains, and third-party services must be registered under my ownership.\n\nThe developer must provide at least **30 days of bug-fixing support** after final delivery.\n\n## Delivery Time\n\nI need a working and activated version within **two days**, provided that Meta approvals, payment gateway approval, and other external service credentials are available.\n\nBefore accepting the project, the freelancer must clearly identify:\n\n- What can be completed within 48 hours.\n- Any steps that require Meta or third-party approval.\n- Any external factor that could delay activation.\n- Any information, documents, or credentials required from me.\n\nDelays caused by external approvals should be identified before the project begins.\n\n## Final Acceptance Test\n\nThe project will only be considered completed after successfully testing a real order from beginning to end on my WhatsApp number:\n\n1. A customer sends a message and receives an AI response.\n2. The customer browses the menu.\n3. The customer selects a meal, add-ons, and quantity.\n4. The customer edits the order.\n5. The customer types an address or shares a WhatsApp location.\n6. The system correctly calculates product prices, delivery fees, VAT, and the final total.\n7. The customer selects cash on delivery or online payment.\n8. The restaurant receives the complete order immediately.\n9. The order is assigned to a driver.\n10. The driver receives the locations, distance, and Google Maps route.\n11. Order status updates are sent automatically to the customer.\n12. The completed order appears correctly in the administration reports.\n13. Multiple test orders are completed without errors.\n14. The full source code, accounts, access permissions, and documentation are transferred to me.\n\nScreenshots, recorded videos, or a separate demonstration environment will not count as final delivery. The system must work on my actual accounts and WhatsApp number.\n\n## Payment Terms\n\n- **50% upfront through the freelancing platform’s escrow or milestone system** after agreeing on the technical plan, total price, and delivery schedule.\n- **50% after the live system passes the acceptance test** and all source code, accounts, credentials, permissions, and documentation are transferred to me.\n- The final payment will not be released based only on screenshots or videos.\n- The freelancer must provide a fixed development price and clearly list all expected monthly or usage-based costs.\n\n## Questions the Freelancer Must Answer\n\n1. Will you use the official WhatsApp Cloud API?\n2. Have you previously developed a similar WhatsApp ordering system? Please provide a working example.\n3. Can my existing number remain active in the WhatsApp Business App through Coexistence?\n4. What can you realistically complete within 48 hours?\n5. What accounts, documents, approvals, and credentials do you need from me?\n6. Which programming technologies, database, and hosting service will you use?\n7. Will I receive the complete source code and ownership of all accounts?\n8. How will the payment gateway, Google Maps, AI assistant, restaurant, and driver systems be connected?",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T17:13:59+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Заказчик хочет получить готовую систему приёма заказов через WhatsApp Business на официальном Meta Cloud API: меню, корзина, расчёт НДС и доставки через Google Maps, панели для ресторана, водителей и администратора, а также ИИ-ассистент. Бюджет 30 USD явно не соответствует объёму работ.",
+   "reply": "You need a production WhatsApp ordering system on the official Meta Cloud API, covering the Arabic auto-reply, the menu with cart and add-ons, VAT and delivery-fee calculation through Google Maps, and status notifications for the restaurant, drivers and admin. I would start with the Cloud API webhook and the customer ordering flow, since everything else depends on it, then add the restaurant order board and driver status updates. Using modern tooling and AI-assisted development, I can deliver the first phase in about 1–2 weeks. The full scope is larger than 30 USD, so I would suggest splitting it into milestones.\n\nCould you tell me whether the 30 USD budget covers only the first milestone? Also, the AI assistant section of the brief was cut off, so could you share the complete spec?\n\nSee my live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужна рабочая система приёма заказов через WhatsApp на официальном Meta Cloud API: автоответ на арабском, меню с корзиной и добавками, расчёт НДС и стоимости доставки через Google Maps, уведомления о статусах для ресторана, водителей и администратора. Я бы начал с webhook Cloud API и потока заказа для клиента, так как от этого зависит всё остальное, а затем добавил бы панель заказов для ресторана и обновление статусов для водителей. Используя современные инструменты и разработку с ИИ-ассистентами, могу сдать первую фазу примерно за 1–2 недели. Полный объём больше 30 USD, поэтому предлагаю разбить проект на этапы.\n\nПодскажите, пожалуйста, бюджет 30 USD покрывает только первый этап? Также раздел о ИИ-ассистенте в описании обрезан, можете прислать полное техническое задание?\n\nЖивые демо смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Бюджет 30 USD относится только к первому этапу или ко всему проекту?",
+    "Можете прислать полное техническое задание? Раздел об ИИ-ассистенте в описании обрезан."
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40839029",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/flutter/Mobile-app-developer-needed-for-40839029",
+  "title": "Mobile app developer needed for a restaurant ordering and delivery app",
+  "description": "I'm developing \"Savora Kitchen,\" a mobile app where my customers can browse the menu, build an order, pay securely and choose delivery or pickup. The aim is simple: make ordering so easy that people never need to call or visit a separate website.\n\nThe app should include:\n\n- Easy menu browsing by category, with photos, descriptions and optional add-ons\n- A live cart and checkout that handles promo codes, tax and delivery fees\n- Secure payments through Stripe, PayPal, Apple Pay or Google Pay (tell me which you're strongest with)\n- Push notifications confirming each order and updating its status through to \"out for delivery\"\n- GPS tracking for customers and a courier view, or live status updates at the very least\n- A simple admin panel where I can update menu items, prices and time slots and close out orders\n- Clear analytics on daily sales, top-selling items and returning customers\n\nI'm open on technology. Flutter, React Native, native Kotlin/Swift or another modern stack all work, as long as I get iOS and Android builds plus the full source code. The backend can be Node, Firebase, Laravel or whatever you prefer. It should store menu data, orders and user profiles, and expose an API I can build on later.\n\nWhen the project is finished, I'll expect an Android APK and an iOS TestFlight build that are ready for store submission. I'll also need the source code with a clear README for local setup, and either a basic admin portal or documented Firebase console settings. To finish, a short handover call or video walkthrough so I can manage updates on my own.\n\nIf you've built food ordering or e-commerce apps before, please share links or screenshots. I'd like to see how you handle UI and the order flow. I'm excited to make Savora Kitchen the first place my customers go when they're hungry.",
+  "budget": 700.0,
+  "budget_min": 400.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T17:09:02+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "crm",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Клиент хочет мобильное приложение для заказа и доставки еды с меню, корзиной, промокодами, уведомлениями, GPS-трекингом, админ-панелью и аналитикой для iOS и Android. Бюджет 700 USD явно не соответствует объёму работ.",
+   "reply": "You want Savora Kitchen to be the one place customers order from: a categorised menu with add-ons, a checkout with promo codes, tax and delivery fees, push notifications through each order status, and an admin panel for menu, prices and time slots. I'd build it in Flutter for one codebase on iOS and Android, with Firebase handling auth, orders and push, so the data layer is simple and ready for an API later. I'd start with the ordering flow and admin panel, then add courier tracking. A first working version with an APK and TestFlight build would take roughly 4–6 weeks. The full scope is larger than 700 USD covers, so a phased plan may suit better.\n\nWhich features must be in the first release? Do you want full GPS tracking, or are status updates enough at the start?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы Savora Kitchen стало единственным местом, где клиенты заказывают еду: меню с категориями и дополнениями, оформление с промокодами, налогом и стоимостью доставки, push-уведомления на каждом этапе статуса заказа и админ-панель для меню, цен и временных слотов. Я бы сделал приложение на Flutter с одной кодовой базой для iOS и Android, а Firebase взял бы на себя авторизацию, заказы и push, чтобы слой данных оставался простым и готовым к API в будущем. Начал бы с потока заказа и админ-панели, а затем добавил бы отслеживание курьера. Первая рабочая версия с APK и сборкой TestFlight займёт примерно 4–6 недель. Полный объём больше, чем покрывает бюджет 700 USD, поэтому, возможно, лучше поэтапный план.\n\nКакие функции обязательны для первого релиза? Нужен полный GPS-трекинг или на старте достаточно обновлений статуса?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие функции обязательны для первого релиза, а какие можно перенести на следующие этапы?",
+    "Нужен ли полный GPS-трекинг курьера или на старте достаточно обновлений статуса заказа?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40839028",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/digital-marketing/Brand-Awareness-Campaign-Setup-40839028",
+  "title": "Brand Awareness Campaign Setup",
+  "description": "I need a results-driven marketer who can design, launch, and optimise a cohesive set of online campaigns that lift our brand’s visibility. The focus is on running targeted social media ads, highly relevant Google search ads, and supportive email marketing sequences that work together to keep us front-of-mind with our audience.\n\nHere is what I’m after:\n\n• Campaign blueprint: a clear, data-backed plan that outlines audiences, messaging, budget splits, KPIs, and a rollout timeline across social media ads, Google search ads, and email marketing. \n• Creative & copy: ad visuals, headlines, and email copy that follow brand guidelines while grabbing attention and encouraging engagement. \n• Technical build: complete setup of ad accounts, tracking pixels, conversion goals, and email automation so every touchpoint is measurable. \n• Launch & optimisation: monitor performance daily, adjust bids, audiences, and creatives to maximise reach and minimise wasted spend. \n• Reporting: a concise weekly dashboard that shows impressions, reach, CTR, and any brand-lift metrics so we can see exactly how awareness is trending.\n\nAcceptance criteria: campaigns are live on all three channels, tracking is verified, and weekly reports clearly demonstrate incremental growth in brand awareness metrics.\n\nIf you have a proven track record in multi-channel brand campaigns and are comfortable working end-to-end—from strategy to reporting—let’s move forward.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T17:07:22+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Клиент ищет маркетолога для запуска мультиканальной кампании по узнаваемости бренда: таргетированная реклама в соцсетях, поисковая реклама Google и email-рассылки, плюс еженедельная отчетность. Это маркетинговая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только техническая настройка рекламных кабинетов, пикселей и email-автоматизации, или заказчик ожидает стратегию и ведение кампаний?",
+    "Есть ли у клиента уже бренд-гайдлайны и аналитика, или их нужно создавать?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40839026",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/digital-marketing/Pakistan-Perfume-Launch-Agent-Needed",
+  "title": "Pakistan Perfume Launch Agent Needed",
+  "description": "Voodoo, my soon-to-launch fragrance line, is ready for its debut in Pakistan and every bottle sold earns the agent a 10 % commission. The roll-out will start online, so the first priority is to dominate Daraz and similar marketplaces while building buzz across Instagram, Facebook, and TikTok. \n\nCore deliverables: \n• Set up and manage the full product presence on Daraz and any other relevant e-commerce portals, including imagery, copy, pricing, and stock updates. \n• Plan, create, and run engaging social media content and targeted paid ads that drive traffic straight to those listings. \n\nConsistent reporting on sales, ad spend, and ROI will keep both of us aligned, and your commission is released on each verified bottle sale. If the online launch meets its targets, we can explore expansion into local shops, beauty salons, and pop-up events together. \n\nExperience with Pakistan’s e-commerce ecosystem, proven social media ad results, and a proactive approach to customer engagement will make this partnership thrive. Let’s make Voodoo the next standout scent in the market.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-27T17:06:09+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Заказчик ищет агента по продажам парфюма в Пакистане с комиссией 10% за бутылку. Задачи: ведение карточек на Daraz, таргетированная реклама и контент в соцсетях. Это маркетинг и продажи, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в задаче техническая часть (сайт, интеграция с Daraz или учёт остатков), или нужны только продажи и реклама?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40839020",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/software-development/Native-English-Speaking-Technical-Client",
+  "title": "Native English-Speaking Technical Client Representative – US Software Industry",
+  "description": "About Us\n\nWe are a growing software development agency working across full-stack development, AI applications, SaaS platforms, mobile apps, backend systems, and business automation.\n\nWe're looking for a confident, articulate English-speaking professional to represent our agency in communications with US-based companies.\n\nThis is a long-term, part-time opportunity for someone who enjoys professional conversations, understands the technology industry, and can build strong business relationships.\n\n### Responsibilities\n\n- Attend introductory calls with recruiters and hiring teams.\n- Participate in hiring manager interviews and professional discussions.\n- Facilitate technical meetings in coordination with our engineering team.\n- Communicate our team's actual technical capabilities and project experience.\n- Understand job requirements and coordinate relevant technical resources.\n- Handle follow-up meetings, negotiations, and scheduling.\n- Participate in regular project meetings and daily standups when required.\n- Maintain professional relationships and communicate project progress.\n- Coordinate communication between company representatives and our engineers.\n\n### Requirements\n\n- Native English speaker preferred, with excellent spoken and written English.\n- Natural, confident American-style business communication.\n- Comfortable leading professional video meetings.\n- Strong interpersonal and presentation skills.\n- Familiarity with software development and IT terminology.\n- Ability to understand technical requirements and explain them clearly.\n- Comfortable using AI tools such as ChatGPT and Claude for research and preparation.\n- Reliable, organized, and responsive.\n- Interested in a long-term working relationship.\n\n### Technical Background\n\nYou don't need to be a senior software developer or write production code.\n\nHowever, familiarity with technologies such as React, Node.js, Python, APIs, databases, cloud infrastructure, AI integrations, and SaaS applications would be beneficial.\n\nOur internal engineering team provides technical expertise, project information, and implementation support. You will coordinate technical discussions and involve the appropriate engineers when deeper technical evaluation is needed.\n\n### Working Arrangement\n\n- Part-time: approximately 20–25 hours per week.\n- Remote collaboration.\n- Availability during US business hours.\n- Long-term opportunity.\n- Monthly minimum retainer plus performance-based commission, with compensation details discussed during the interview.\n\n### Our Working Process\n\nOur business development team identifies opportunities and coordinates initial applications and scheduling.\n\nYou will handle client-facing communication, facilitate the appropriate interview stages, and coordinate with our engineering team.\n\nFor engagements involving our development team, the delivery structure and engineering responsibilities will be clearly communicated and agreed upon with the company.\n\nWe are looking for someone who can become an important part of our business growth.\n\n### How to Apply\n\nPlease answer the following questions:\n\n1. Is English your native language? Where did you grow up speaking English?\n2. Have you conducted professional video meetings with US companies?\n3. Do you have experience in IT recruitment, technical project management, sales, account management, or client communication?\n4. How familiar are you with software development technologies?\n5. Which AI tools do you regularly use?\n6. What is your availability during US business hours?\n\nPlease include a short 1–2 minute video introduction demonstrating your natural English communication skills.\n\nWe're excited to meet someone who can grow with our team and build long-term professional relationships.",
+  "budget": 500.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T16:57:41+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 1,
+   "summary_ru": "Агентство ищет англоговорящего представителя на неполный рабочий день (20–25 ч/нед) для общения с американскими компаниями: звонки с рекрутерами, участие в собеседованиях, координация с инженерами, переговоры и продажи с комиссией. Это вакансия на продажи и представительство, а не разработка проекта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40839014",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Luxury-WordPress-Trust-Focused-Redesign",
+  "title": "Luxury WordPress Trust-Focused Redesign",
+  "description": "I’m ready to elevate our bespoke property company’s WordPress site so it instantly communicates credibility and refinement. The brief is clear: redesign the homepage alongside the key service pages, weaving a luxury-and-elegance aesthetic throughout. \n\nAll copy, imagery and property data will be supplied; what I need is a design-led build that feels premium, loads swiftly, and adapts perfectly to mobile. WordPress must remain the platform, so please work within best-practice theme or child-theme structures and keep SEO foundations intact. \n\nDeliverables \n• High-fidelity mock-ups for the homepage and each service page, reflecting the agreed luxury style. \n• Responsive WordPress implementation, tested across major browsers and devices. \n• Handover package with any custom theme files, style guides and clear update instructions.\n\nAcceptance will be based on visual polish, page-speed scores and how convincingly the refresh reinforces trust in our brand. Let’s craft something exceptional.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T16:50:16+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 2,
+   "summary_ru": "Клиент хочет полностью переработать главную страницу и ключевые сервисные страницы WordPress-сайта премиальной риелторской компании: макеты в высоком качестве, быстрая и адаптивная реализация, передача кастомной темы и инструкции. Бюджет 30 USD явно не соответствует объёму работ.",
+   "reply": "You want the homepage and key service pages of your bespoke property site rebuilt in a premium style, with fast load times, clean mobile behavior, and WordPress kept as the platform. I'd build it as a child theme so future updates stay safe, use optimized images and a lean script set for speed, and keep the heading structure and meta foundations intact for SEO. Mock-ups would be a quick layout pass before coding. For the homepage plus a few service pages, I'd estimate about 1–2 weeks. Given the scope, I'd like to confirm what fits the 30 USD budget: the homepage and a limited set of service pages, or the full package with mock-ups.\n\nHow many service pages are included, and do you already have brand colors and fonts? Would you prefer mock-ups as static images or as a clickable prototype?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите переработать главную страницу и ключевые сервисные страницы сайта вашей риелторской компании в премиальном стиле, с быстрой загрузкой, удобной мобильной версией и сохранением WordPress как платформы. Я бы сделал это через дочернюю тему, чтобы будущие обновления не ломали работу, использовал оптимизированные изображения и минимум скриптов для скорости, а также сохранил структуру заголовков и мета-теги для SEO. Макеты стоило бы сделать как быстрый проход по раскладке до начала вёрстки. Для главной страницы и нескольких сервисных страниц я оцениваю срок в 1–2 недели. Учитывая объём, хочу уточнить, что вписывается в бюджет 30 USD: главная страница и ограниченное число сервисных страниц или полный пакет с макетами.\n\nСколько сервисных страниц входит в работу и есть ли у вас фирменные цвета и шрифты? Вам удобнее получить макеты в виде статичных изображений или кликабельного прототипа?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько сервисных страниц входит в работу и есть ли у вас фирменные цвета и шрифты?",
+    "В каком формате вам удобнее получить макеты: статичные изображения или кликабельный прототип?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40839013",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/unity/Buy-Ready-Made-Cross-Platform",
+  "title": "Buy Ready-Made Cross-Platform Ludo Game",
+  "description": "Looking to Purchase a Ready-Made Ludo Online Game Source Code (Unity + Backend)\n\nI am looking for a game development company that owns a complete, ready-made online Ludo game source code for purchase, customization, and preparation for launch.\n\nRequired Features:\n\n- Android application and a fully playable web browser version.\n- Shared accounts, backend, and database, with real-time cross-platform multiplayer between Android and web players.\n- Arrow Mode only.\n- Random online matchmaking (1v1 and 2v2).\n- Four pieces per player.\n- 5-second turn timer with automatic gameplay when the timer expires.\n- Disconnection handling and match reconnection.\n- Email and password authentication with password recovery.\n- Player profiles.\n- Coins and Gems system.\n- Rewarded ads without in-app purchases.\n- Complete admin panel.\n- Server-authoritative dice rolls, piece movements, match results, and player balances, with anti-cheat protection and future scalability.\n\nPurchase and Delivery Requirements:\n\n- The company must legally own the source code and provide proof of ownership.\n- Complete delivery of the Unity source code, game server, backend, database, admin panel source code, and technical documentation.\n- Perpetual commercial license allowing modification, development, publishing, and hiring third-party developers.\n- Deployment on hosting and accounts owned and controlled by me.\n- Preparation for Google Play publishing and web deployment.\n- Full operational and development independence after delivery.\n\nPlease include the following in your proposal:\n\n- A playable demo link or gameplay video.\n- Technologies used.\n- Existing features and required modifications.\n- Total cost and estimated delivery time.\n\nI am looking to purchase an existing, stable, and complete product as a strong foundation for future development, not to build a game from scratch or purchase source code from a third party.\n\nI look forward to establishing a long-term business relationship with a reliable and experienced game development company.",
+  "budget": 850.0,
+  "budget_min": 500.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T16:48:41+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Клиент хочет купить готовый исходный код онлайн-игры Ludo на Unity (Android и веб) с бэкендом, админ-панелью и мультиплеером, с юридически оформленным владением и бессрочной коммерческой лицензией. Бюджет 850 USD.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Вам нужна покупка уже готового кода или разработка под ваши требования? В описании указано, что готовый продукт нужно купить, но не у третьих лиц.",
+    "Есть ли у вас требования к Unity-клиенту, если разработка будет вестись с нуля?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40839008",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/conversion-rate-optimization/Boost-Website-Traffic-Sales",
+  "title": "Boost Website Traffic & Sales",
+  "description": "I’ve built a basic website for my online store and now I want to move beyond the beginner stage by turning the site into a steady source of visitors and sales. The structure is already in place, but I need a specialist who can look at what I have, pinpoint what’s holding back growth, and implement practical improvements.\n\nMy priorities are clear:\n• This is an existing project, so the job is about enhancement rather than a full rebuild. \n• The focus is a website / online store, not a mobile app or document. \n• Above all, I want to attract more visitors and convert them into paying customers.\n\nWhat I’m expecting from you:\n1. A concise audit of my current site covering on-page SEO, page speed, user journey, and any obvious conversion barriers. \n2. Actionable changes carried out directly on the site—think keyword optimisation, meta tags, internal linking, improved calls-to-action, and streamlined checkout flow. \n3. A lightweight marketing plan (organic or paid) that shows me exactly how to keep traffic growing once the initial fixes are in place. \n\nPreferred skills include SEO best practices, Google Analytics or similar tracking tools, conversion-rate optimisation, and familiarity with common e-commerce platforms (WordPress, Shopify, or equivalents). If you can also show me, in simple language, how to maintain these improvements, that’s a big plus.\n\nOnce finished, I should see measurable gains in search visibility, visitor numbers, and ultimately sales. If this sounds like your wheelhouse, let’s talk about the next steps.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T16:47:07+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Владелец существующего интернет-магазина хочет увеличить органический трафик и продажи: нужен аудит SEO, скорости загрузки и пути пользователя, исправления на сайте и простой план продвижения. Бюджет небольшой (1250 INR), а задача сильно смещена в сторону маркетинга.",
+   "reply": "You already have a working online store and want it to bring in more organic traffic and turn more visitors into buyers. I'd start with a focused audit covering on-page SEO (titles, meta descriptions, headings, product copy), page speed, and the path from landing page to checkout. Then I'd fix the highest-impact issues directly on the site. Since the structure is already in place, most of the work is targeted edits rather than a rebuild, so the audit and first round of fixes could be done in about 3–4 days, with a short plain-language note on how to maintain them. For the marketing side, I'd keep it to a lightweight plan you can run yourself.\n\nWhich platform is the store on (WordPress, Shopify, or other), and will I get admin access?\nDo you already have Google Analytics or a similar tool set up?\n\nYou can see live demos of my work here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "У вас уже работает интернет-магазин, и вы хотите, чтобы он привлекал больше органического трафика и превращал больше посетителей в покупателей. Я бы начал с целевого аудита: SEO на страницах (заголовки, мета-описания, заголовки разделов, описания товаров), скорость загрузки и путь от главной страницы до оформления заказа. Затем я бы исправил самые важные проблемы прямо на сайте. Поскольку структура уже готова, большая часть работы — точечные правки, а не переделка, поэтому аудит и первый этап исправлений можно выполнить примерно за 3–4 дня, с короткой инструкцией простым языком о том, как поддерживать результат. Что касается маркетинга, я бы ограничился лёгким планом, который вы сможете вести сами.\n\nНа какой платформе работает магазин (WordPress, Shopify или другая) и будет ли у меня доступ в админку?\nУже настроен Google Analytics или аналогичный инструмент?\n\nЖивые демо моих работ можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На какой платформе работает магазин (WordPress, Shopify или другая) и будет ли доступ в админку?",
+    "Уже настроен ли Google Analytics или аналогичный инструмент для отслеживания?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40838983",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot-development/Telegram-Support-Chatbot-Build",
+  "title": "AI Telegram Support Chatbot Build",
+  "description": "I need a Telegram-based customer support assistant that can answer routine questions, look up order or account details when a user provides an order number, and smoothly escalate anything beyond its scope to a human agent. \n\nAll of the reference material it draws from will live in internal PDFs and Word documents; there is no public help-centre site, so I’ll provide those files during development. The bot should read those documents, index the content, and use a reliable LLM (OpenAI, Claude or similar) to generate concise, helpful replies. Accuracy is critical—answers must reflect the wording in the files, not hallucinate. \n\nWhen a customer types an order number the chatbot should query our existing order database or a simple API endpoint I will expose, then return the relevant status or details. If the user’s request falls outside the preset knowledge base or requires sensitive changes, the conversation must be flagged and handed off to a live agent, with full transcript preserved. \n\nDeliverables\n• Complete, self-hosted Telegram bot (Python preferred, but I’m open to Node.js) \n• Document ingestion pipeline that pulls text from supplied PDFs/Word and updates the knowledge base on demand \n• Order-lookup integration triggered by an order number field \n• Human-handoff logic with webhook or email alert \n• Clear setup guide and commented source code \n\nAcceptance criteria\n• Bot responds accurately to at least 90% of a supplied test suite derived from the documents. \n• Order status returned in <3 s for typical queries. \n• Escalation kicks in automatically when confidence is low or a user types “agent”. \n\nI have hosting ready and can create the Telegram bot token on request. Let me know your relevant experience with Telegram Bot API, vector stores, and language models, plus an estimated timeline.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T16:36:07+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 4,
+   "summary_ru": "Нужен Telegram-бот поддержки, который отвечает на типовые вопросы по внутренним PDF и Word-документам, проверяет статус заказа по номеру и передаёт диалог живому оператору, если уверенность низкая или пользователь пишет «agent». Бюджет низкий для такого объёма работ.",
+   "reply": "You want a Telegram support assistant that answers from your PDF and Word documents, looks up orders by number, and hands off to a human when it's unsure or when a user types \"agent\". I'd build it in Python with python-telegram-bot. The ingestion step would parse the files, chunk them, and store embeddings in a local vector store. Retrieval would feed an LLM instructed to quote the source wording, with a confidence threshold that triggers handoff and sends the full transcript by webhook or email. The order lookup would be a small adapter around your endpoint or database. A working version with the test suite and setup guide would take about 1.5 to 2 weeks. You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nCould you share sample documents and the order API format? Which LLM provider do you prefer?\n\nYakov",
+   "reply_ru": "Вам нужен помощник поддержки в Telegram, который отвечает по вашим PDF и Word-документам, ищет заказы по номеру и передаёт диалог человеку, когда не уверен в ответе или когда пользователь пишет «agent». Я бы сделал его на Python с python-telegram-bot. На этапе загрузки документы разбираются на фрагменты, а эмбеддинги хранятся в локальном векторном хранилище. Поиск передаёт релевантные фрагменты LLM, которой задано цитировать формулировки из источников. Порог уверенности запускает передачу оператору, и полная переписка отправляется через вебхук или email. Поиск заказа будет небольшим адаптером к вашему эндпоинту или базе данных. Рабочая версия с тестовым набором и инструкцией по установке займёт примерно 1,5–2 недели. Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nМожете прислать примеры документов и формат API заказов? Какого провайдера LLM вы предпочитаете?\n\nYakov",
+   "questions": [
+    "Можете прислать примеры документов и формат API или структуру базы заказов?",
+    "Какого провайдера LLM вы предпочитаете: OpenAI, Claude или другой?",
+    "Что входит в тестовый набор и кто будет его составлять?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40838989",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-ads/Multi-Platform-Ads-for-Renovations",
+  "title": "Multi-Platform Ads for Renovations",
+  "description": "I’m ready to hand over our paid media so we can scale the full-home renovation and extension side of the business. Your first objective is to fill our calendar with on-site consultations—no vanity clicks, just qualified leads that turn into projects. \n\nYou’ll take charge of Google Ads, Meta (Facebook/Instagram) Ads, and TikTok Ads from strategy through daily optimisation. I expect you to build campaigns that mirror our brand tone, split-test copy and creative, and push budget toward the ad sets that produce the lowest cost-per-booking. Weekly, I need concise reports that show spend, CPL, booked consultations, and projected ROI so the team can act quickly.\n\nBecause we want to move ASAP, I’m only considering specialists who have already delivered measurable results for service businesses. To apply, include: \n• Two or three brief case studies with clear before/after metrics \n• Industries you’ve worked in and the platforms you managed \n• Typical monthly ad spend you’ve handled \n• Exact lead or booking numbers you achieved and how you improved ROI \n\nSkip the generic pitches—numbers speak louder. If your track record shows you can turn ad dollars into renovation consultations, let’s talk.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "CAD",
+  "posted_at": "2026-11-27T16:28:48+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Клиент ищет специалиста по платной рекламе (Google, Meta, TikTok Ads) для привлечения записей на консультации по ремонту и пристройкам. Это маркетинговая работа, а не разработка, и требуются кейсы с цифрами результатов.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "freelancer:40838978",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Secure-Student-Election-Voting-Portal",
+  "title": "Secure Student Election Voting Portal",
+  "description": "Project Title: Full-Stack Web Developer — Student Council Election Polling Software (STD XI & XII)\n\nWe need an experienced Full-Stack Web Developer to build a secure, user-friendly Student Council Election Polling Web Application for senior secondary school elections (STD XI & XII), replacing manual paper ballots and counting. \n\nKey Requirements:\n\nBranding, Themes & Ballot Rules: Admin controls for School Name, Logo upload (PNG/JPG/WEBP), Voting Year (dropdown + custom entry), 4 switchable UI themes (Emerald Teal, Royal Navy, Imperial Purple, Midnight Slate), and configurable selection rules (default 7 candidates per class with mandatory at least 1 Boy and 1 Girl in both STD XI & XII).\n\nScheduled Voting Window: Admin Start Time and End Time pickers that automatically block Student/Teacher logins before opening and lock voting immediately at closing.\n\nBulk CSV & Photo Uploads: Class-wise Candidates CSV upload, Voters CSV upload (Students & Teachers with live Voted/Pending status), and batch alphabetical photo upload that auto-maps images to the alphabetical candidate list.\n\nAuthentication & Single-Vote Guarantee: Login via Full Name + GRNO/Staff ID, user self-service password change after login, Admin one-click bulk password reset back to default IDs, and strict one-vote-per-user enforcement with timestamp locking.\n\n2-Step Class-Wise Ballots: Separate STD XI and STD XII voting screens displaying candidate photos and checkboxes alphabetically, with a live counter validating the required selection count and Boy/Girl rule before enabling the VOTE button.\n\nFinal Results & Audit Log: Rank-sorted, printable, and CSV-exportable Final Result Reports (Class XI & XII candidate totals, Total Votes Cast, and separate Student vs. Teacher turnout), plus an end-of-election \"Who Voted For Whom\" audit report unlocked once voting ends.\n\nas per you, which tech stack (e.g., .NET 8 + MSSQL, PHP/MySQL, Python, etc.) do you recommend for fast, reliable deployment?\n\nShare 1–2 similar voting, portal, or school management web apps you’ve built.",
+  "budget": 3500.0,
+  "budget_min": 2500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T16:20:15+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 4,
+   "summary_ru": "Заказчик хочет безопасное веб-приложение для школьных выборов в совет учеников (классы XI и XII) с настройкой бренда, таймером голосования, массовой загрузкой CSV и фото, защитой от повторного голоса, печатными отчетами и журналом аудита. Бюджет 3500 INR заметно ниже объема работ.",
+   "reply": "You need a secure polling app for STD XI and XII with admin-controlled branding and themes, a timed voting window, bulk CSV and photo imports, one-vote-per-user locking, and printable results with a post-election audit log. For fast, reliable delivery I'd use Python with Django and PostgreSQL (SQLite is fine for a single school), with server-side checks for the 7-candidate and Boy/Girl rules, a Docker setup, and deployment on one small VPS. The core voting flow and admin panel would take about 2 weeks, plus a few days for reports, the audit log, and testing. Which of the features listed are must-haves for the first release?\n\nDo you already have the candidate and voter lists in CSV, or will we need to prepare them?\n\nLive demos of similar apps are in my portfolio: https://grachoffprod.github.io/portfolio/",
+   "reply_ru": "Вам нужно безопасное приложение для голосования на школьных выборах для классов XI и XII с настройкой бренда и тем администратором, таймером голосования, массовой загрузкой CSV и фото, защитой от повторного голоса, печатными отчетами и журналом аудита. Для быстрой и надежной сдачи я бы использовал Python с Django и PostgreSQL (для одной школы подойдет и SQLite), с серверной проверкой правил 7 кандидатов и наличия мальчика и девочки, настройкой через Docker и развертыванием на одном небольшом VPS. Основной поток голосования и админ-панель займут около 2 недель, плюс несколько дней на отчеты, журнал аудита и тестирование. Какие из перечисленных функций обязательны для первой версии?\n\nУ вас уже есть списки кандидатов и избирателей в CSV или их нужно будет подготовить?\n\nДемо похожих приложений есть в моем портфолио: https://grachoffprod.github.io/portfolio/",
+   "questions": [
+    "Какие функции из списка обязательны для первой версии, а какие можно отложить?",
+    "У вас уже есть списки кандидатов и избирателей в CSV или их нужно будет подготовить?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "pph:4532615",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/design/web-design/web-design-cloaked-table-events-immersive-entertainment-br-4532615",
+  "title": "Web Design: Cloaked Table Events, immersive entertainment brand",
+  "description": "About Us\n\nWe are looking for an experienced, creative website designer to build a professional, visually striking website for Cloaked Table Events, a new UK immersive entertainment brand combining mystery, deception, strategy, audience participation and theatrical entertainment.\n\nWe currently have three event concepts:\n\nThe Cloaked Table – Our flagship immersive experience, including theatrical dining events.\n\nThe Cloaked Trials – A full-day experience featuring outdoor challenges and immersive gameplay.\n\nThe Cloaked Table Corporate – Interactive corporate entertainment and team-building experiences.\n\nWe have an established brand identity, logo, photography, video footage, website mock-ups and marketing materials that will be supplied.\n\nDesign & Functionality\n\nWe want a website that feels like entering a world of mystery and suspense. The design should be dark, cinematic and atmospheric, incorporating dramatic photography, video, elegant typography and subtle gold and red accents. Thematically, our events are based around 'The Traitors' TV programme. \n\nThe website should feel premium and exciting whilst remaining user-friendly, particularly on mobile devices.\n\nWe are not looking for complex bespoke development. Our preference is an established platform such as WordPress or Wix that our team can easily manage and update independently, although we are open to recommendations.\n\nWebsite Structure\n\nWe envisage approximately 6–8 pages or templates:\n\nHomepage – Dramatic introduction, featured events and clear booking options.\n\nUpcoming Events – Searchable event listings with dates, locations, prices and booking links.\n\nOur Experiences – Overview of our event formats.\n\nThe Cloaked Table – Dedicated flagship experience page.\n\nThe Cloaked Trials – Dedicated full-day experience page.\n\nCorporate & Private Events – Information and booking enquiry form.\n\nVenues & Partnerships – Information for prospective venue partners.\n\nAbout / Contact – Company information, contact details and enquiry form.\n\nWe are happy to combine pages where appropriate to remain within budget.\n\nEssential Features\n\nProfessional, responsive and mobile-friendly design.\n\nEasy-to-use content management system.\n\nAbility to add and update events, dates, venues, prices and imagery.\n\nEvent listings with date and location filters.\n\nOnline ticket booking or third-party ticketing integration.\n\nCorporate and private booking enquiry forms.\n\nSocial media integration.\n\nBasic SEO and Google Analytics setup.\n\nCookie consent and SSL/security configuration.\n\nBasic training and handover.\n\nTicketing Requirements\n\nWe have not yet selected a ticketing provider and welcome recommendations on two approaches:\n\nOption A: Integration with an established third-party ticketing provider.\n\nOption B: Direct ticket purchases through our website.\n\nWe would like to understand the setup costs, ongoing charges, ticketing fees and administrative advantages of each option. A bespoke ticketing platform is not required.\n\nDesign Reference\n\nWe like the event listings and search functionality of www.murder57.com, but our website must have its own distinctive design and brand identity.\n\nBudget & Timescale\n\nBudget: £500–£800 for the initial website.\n\nWe are seeking a fixed-price quotation with a clear breakdown of deliverables and a realistic delivery timescale.\n\nWhat to Include in Your Proposal\n\nPlease provide:\n\nExamples of previously designed websites.\n\nRecommended website platform and reasons for choosing it.\n\nFixed-price quotation and breakdown of deliverables.\n\nEstimated completion timescale.\n\nRecommended ticketing solution and associated costs.\n\nOngoing hosting, maintenance and licence fees.\n\nConfirmation of full website ownership and administrator access.\n\nDetails of included training, support and revisions.\n\nExperience in events, entertainment, hospitality, leisure or ticket-selling websites would be particularly advantageous.\n\nOur objective is to launch a professional, engaging and scalable website that establishes Cloaked Table Events as a recognisable entertainment brand and provides a strong foundation for future growth.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "booking",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 5,
+   "summary_ru": "Заказчик ищет создание сайта для UK-бренда иммерсивных развлечений Cloaked Table Events: тёмный кинематографичный дизайн, 6–8 страниц, поиск и фильтры по событиям, формы бронирования и интеграция с сервисом продажи билетов на WordPress или Wix. Бюджет £500–800, фиксированная цена.",
+   "reply": "You need a dark, cinematic website for Cloaked Table Events with 6–8 templates: a homepage, searchable event listings with date and location filters, the two flagship experience pages, a corporate enquiry form, venue partner information and contact details. I would build it on WordPress or Wix, whichever your team prefers, so you can update events, prices and imagery yourselves. I would set up a responsive layout with your gold and red accents, video and photo sections, and an events collection managed in the CMS. Ticketing would connect to a third-party provider via embedded widgets or links, which avoids custom code. I'd also configure SEO basics, Google Analytics, cookie consent, SSL and social links, then hand over with a short training session. Estimated timeline is 2–3 weeks from receiving your brand assets. You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nDo you already have a preference between WordPress and Wix? And are you open to comparing ticketing providers before choosing one?\n\nYakov",
+   "reply_ru": "Вам нужен тёмный кинематографичный сайт для Cloaked Table Events с 6–8 шаблонами: главная страница, поиск событий с фильтрами по дате и локации, две страницы флагманских форматов, форма заявки на корпоративные мероприятия, информация для партнёров-площадок и контакты. Я бы сделал сайт на WordPress или Wix, в зависимости от того, что удобнее вашей команде, чтобы вы сами могли обновлять события, цены и изображения. Настрою адаптивную вёрстку с золотыми и красными акцентами, блоки с видео и фото и коллекцию событий в CMS. Продажа билетов подключается через встраиваемый виджет или ссылку на стороннего провайдера, без написания собственного кода. Также настрою базовое SEO, Google Analytics, согласие на cookies, SSL и ссылки на соцсети, а в конце проведу короткое обучение. Ориентировочный срок — 2–3 недели с момента получения брендовых материалов. Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nУ вас уже есть предпочтение между WordPress и Wix? И открыты ли вы к сравнению провайдеров билетов перед выбором?\n\nYakov",
+   "questions": [
+    "Есть ли у вас предпочтение между WordPress и Wix?",
+    "Готовы ли вы сравнить несколько провайдеров продажи билетов перед выбором?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "pph:4532604",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/social-media/facebook-marketing/paid-media-executive-4532604",
+  "title": "Paid Media Executive",
+  "description": "Are you a seasoned paid ads expert who knows how to turn budget into predictable, scalable revenue? We're looking for a Senior Paid Ads Specialist to take ownership of our paid acquisition channels and drive growth to the next level.\n\nAbout the Role\nYou will lead the strategy and execution of our Facebook and Google advertising, from campaign structure and testing to optimization and scaling. This is a hands-on senior position with real ownership of budget, performance, and results.\n\nKey Responsibilities\nOwn and manage Facebook Ads and Google Ads campaigns (Search, Display, YouTube, Performance Max, Shopping)\nBuild and execute paid media strategies aligned with revenue and growth targets\nOptimize daily performance across CPM, CTR, CPC, CPL/CPA, and ROAS, and scale winning campaigns profitably\nDesign structured testing frameworks for audiences, creatives, copy, and landing pages\nOversee conversion tracking and attribution: Meta Pixel, Conversions API, Google Tag Manager, GA4\nWork closely with Content, Design, and Sales teams to improve creative quality and funnel conversion\nDeliver clear performance reports with insights and actionable recommendations to management\nMentor junior team members and share best practices\n\nRequirements\nAt least 3 years of hands-on experience running Facebook Ads and Google Ads\nProven track record managing large monthly ad budgets with measurable, data-backed results\nStrong command of Meta Ads Manager, Google Ads, GA4, and Google Tag Manager\nExperience with Looker Studio, Excel, or Google Sheets for reporting and analysis\nDeep understanding of marketing funnels, retargeting, lookalike audiences, and A/B testing\nStrong analytical mindset, strategic thinking, and ability to work independently under KPI pressure\nNice to have: experience with TikTok Ads, team leadership experience, or Google Ads and Meta Blueprint certifications",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Вакансия на постоянную позицию Senior Paid Ads Specialist: управление рекламой в Facebook и Google, оптимизация кампаний и отчётность. Это трудоустройство, а не разовый проект разработки.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это разовый проект или постоянная позиция в штате компании?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "pph:4532591",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/software-testing/android-tester-groups-needed-google-play-closed-testing-4532591",
+  "title": "Android Tester Groups Needed – Google Play Closed Testing",
+  "description": "Project Overview:\n\nWe are looking for established QA agencies, Android testing communities or group leaders who already have a group of 12–14 genuine Android users available for Google Play closed testing.\n\nImportant: We are NOT looking for individual testers or recruiters to find people from scratch.\n\nWe need an existing group/community with genuine Android users who can participate together throughout the 14-day testing period.\n\nWho Should Apply? (First Preference)\n\n- QA agencies with an existing Android testing team.\n- Android tester community owners.\n- Group leaders managing 12–14 or more genuine Android users.\n- Freelancers who already have an established Android tester network.\n\nProject Requirements:\n\n1. Tester Participation\n\n- Provide at least 12 genuine Android testers (preferably 12–14).\n- All testers must have real Android smartphones.\n- Maintain at least 12 continuously opted-in testers for 14 consecutive days.\n- Provide tester email addresses for Google Play test access.\n- Confirm device models and Android versions.\n\n2. Application Testing\n\nThe application is a music streaming platform. Testing will cover:\n\n- Reliable music listening and streaming.\n- Easy navigation and account access.\n- Registration and login.\n- Genre-based playlist playback.\n- Music continuing to play when the phone screen is locked.\n\n3. Daily Coordination\n\n- Coordinate your existing tester group.\n- Daily testing effort: 20–40 minutes per tester.\n- Collect genuine daily feedback.\n- Maintain participation records and issue logs.\n- Provide daily progress reports.\n- A dedicated WhatsApp group will be used for instant communication and coordination.\n\nTracking & Reporting:\n\nGoogle Forms and Google Sheets will be provided or used for daily participation and feedback tracking.\n\nStrict Requirements:\n\n- No bots, fake accounts or fabricated participation.\n- No AI-generated or fabricated testing feedback.\n- No unregistered or inexperienced testers.\n- All testers must personally perform the testing.\n- Never share Gmail passwords, OTPs or recovery codes. Only Google account email addresses are required.\n\nPrevious Experience:\n\nApplicants must share:\n\n- Previous Google Play closed-testing or Android QA experience.\n- Agency website, community page or relevant project URLs.\n- Confirmation that they already manage a group of 12–14 or more Android testers.\n\nPayment:\n\nPayment will be released after successful completion, verification of daily records and submission of the final report. Scheduled release is on or after day 25, subject to agreed PeoplePerHour payment and escrow rules.\n\nProject starts within 7 days of agreement and receipt of the testing materials.\n\nWe welcome established agencies, community owners and experienced group leaders interested in a long-term testing partnership.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Заказчик ищет агентства или руководителей групп с готовыми 12–14 реальными Android-тестерами для 14-дневного закрытого тестирования музыкального стриминга в Google Play. Это координация живых тестировщиков, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли какая-либо разработка или автоматизация, например скрипты для сбора отчётов или интеграция с Google Forms и Sheets, или требуется только управление группой тестировщиков?",
+    "Есть ли у вас уже готовая группа из 12–14 реальных Android-пользователей, или задача предполагает набор тестировщиков с нуля?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "pph:4532573",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/website-redesign-and-development-for-an-independent-coffee-s-4532573",
+  "title": "Website Redesign and Development for an Independent Coffee Shop",
+  "description": "We are looking for an experienced web developer to redesign and improve the website of our coffee shop based in Frankfurt am Main, Germany.\n\nOur goal is to create a modern, visually appealing, and user-friendly website that reflects our brand identity and provides an enjoyable browsing experience for our customers.\n\nWe are open to either improving our existing website or developing a completely new website from scratch, depending on the developer’s recommendations and proposed approach.\n\n**Project requirements:**\n\n- Modern, clean, and professional website design.\n- Fully responsive layout for desktop, tablet, and mobile devices.\n- Improved user experience and intuitive navigation.\n- Attractive homepage reflecting the atmosphere of our coffee shop.\n- Dedicated menu page with product descriptions and prices.\n- Photo gallery showcasing our interior, coffee, and food.\n- Contact information, business location, and opening hours.\n- Integration with Google Maps.\n- Improved website performance and loading speed.\n- Basic SEO optimization.\n- Easy-to-manage content management system.\n- German and English language support.\n- GDPR-compliant website functionality.\n\n**Expected deliverables:**\n\n- Website design and development.\n- Fully functional and responsive website.\n- Testing across different devices and browsers.\n- Organized and maintainable source code.\n- Basic documentation for future content updates.\n\nWe are open to creative suggestions regarding the design, structure, and technology used for this project.\n\nPlease include examples of your previous website development projects, your proposed approach, estimated completion time, and project cost in your proposal.\n\nWe look forward to working with a reliable professional who can help us create a high-quality digital presence for our coffee shop.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Клиент из Франкфурта хочет обновить или заново сделать сайт кофейни: адаптивный дизайн, страницы меню с ценами и галереей, Google Maps, двуязычность (немецкий и английский), SEO, простая CMS и соответствие GDPR. Бюджет не указан.",
+   "reply": "You need a fresh, bilingual site for your Frankfurt coffee shop: a warm homepage, a clear menu with prices, a photo gallery, Google Maps and opening hours, all GDPR-compliant and easy to update. I would start by checking your current site's speed and structure, then either refactor it or rebuild it on a modern stack, depending on what that shows. The design would be mobile-first, the content would sit in a simple CMS so your team can edit menu items and photos without a developer, and German and English versions would be built in from the start. With AI-assisted development I can usually deliver a first version in about 2–3 weeks, including testing across devices and a short guide for content updates. Could you share the link to your current site and tell me roughly how many menu items you have? And is there a target launch date? You can see live demos of my work here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен современный двуязычный сайт для кофейни во Франкфурте: тёплая главная страница, понятное меню с ценами, фотогалерея, Google Maps и часы работы, с соблюдением GDPR и простым обновлением контента. Я бы начал с проверки скорости и структуры текущего сайта, а затем либо доработал его, либо пересобрал на современном стеке, в зависимости от результатов. Дизайн будет адаптивным (mobile-first), контент будет храниться в простой CMS, чтобы ваша команда могла менять позиции меню и фото без разработчика, а немецкая и английская версии будут заложены с самого начала. С помощью ИИ-ассистентов в разработке я обычно могу сдать первую версию примерно за 2–3 недели, включая тестирование на разных устройствах и короткую инструкцию по обновлению контента. Не могли бы вы прислать ссылку на текущий сайт и примерно сказать, сколько позиций в меню? И есть ли целевая дата запуска? Живые демо моих работ можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой у вас сайт сейчас (ссылка) и что в нём не устраивает: дизайн, скорость или управление контентом?",
+    "Сколько позиций в меню и сколько фото для галереи вы планируете загрузить?",
+    "Есть ли у вас целевая дата запуска или желаемые сроки?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "pph:4532551",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/programming-coding/dealermargin-autotrader-integration-developer-review-bri-4532551",
+  "title": "DealerMargin Autotrader integration – developer review brief",
+  "description": "We need an experienced PHP developer to review DealerMargin's Autotrader Connect stock integration before go-live, then maintain it. The code is built and working in Autotrader's sandbox. This is a review, fix and sign-off job, not a build.\nBackground\nDealerMargin is a UK web app for small used-car dealers (stock, margin-scheme VAT, invoices). It's plain PHP 8 and MySQL on Cloudways. We're an Autotrader Connect partner (Stock and Media Updates). Autotrader's AI policy requires AI-assisted code to be owned by a competent developer, so we need you to review it and be our named technical contact.\nDealerMargin logs in to Autotrader with one partner key. Dealers only give us their advertiser ID.\nWhat's built\nAbout 1,000 lines of PHP:\n• includes/autotrader.php: login with a cached 15-minute token, retries (429, 503, 401), registration lookup, image upload, and stock create, update, sold and delete\n• vehicle_edit.php: syncs when a car's details, photos or sale change; shows the car's Autotrader status and destination tickboxes\n• settings.php: dealer enters their advertiser ID, checked against GET /advertisers\n• autotrader_import.php: one-off import of a dealer's existing Autotrader stock\n• autotrader_test.php: founder-only test bench showing every request and response\nTested in the sandbox on 25 Nov 2026: create (201), duplicate create (409, then the existing advert is adopted), update, sold and delete all work.\nWhat to review\n1.  Requests match Autotrader's spec (Stock, Media, Vehicles, Advertisers), including the sold and deleted payloads\n2.  Security: keys and tokens never leak; the token cache can't be read over the web; dealers can only reach their own cars; the test bench is locked down\n3.  Failure handling when Autotrader is slow or down\n4.  Only the data Autotrader needs is sent (never buyer details)\n5.  Code quality and PHP 8 compatibility\n6.  Readiness for Autotrader's go-live checks\nKnown gaps\n• GET /stock/{id} returns \"not found\" in the sandbox, so we can't read one advert back\n• Sync runs while the dealer waits: should it move to a queue?\n• A failed sync is only retried when the dealer next saves the car\n• No CSRF tokens anywhere in the app\n• Database columns are added on first use, not by migrations\nAccess\nCode is shared as a zip after an NDA. You'll test with our sandbox partner credentials and a founder login on test advertiser 66897. Nothing touches live Autotrader until the go-live checks pass.\nDeliverables\nPhase 1 (fixed price):\n[ ] A written review, with issues ranked by severity\n[ ] Fixes as changed files, with change notes\n[ ] Sign-off that you're happy to own the integration\n[ ] Support with Autotrader's go-live demo if they ask for one\nPhase 2 (retainer or hourly): be the named technical contact, fix issues, and keep up with API changes.\nAbout you\nYou have solid PHP 8, MySQL and REST/OAuth experience, ideally including Autotrader Connect or other UK motor-trade feeds, and you work UK hours.\nTo apply\nSend:\n• Similar integrations you've done\n• Your Phase 1 price and timescale\n• Your Phase 2 rate\n• One question you'd ask about the code",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Ревью, исправление и сопровождение PHP 8-интеграции со складом Autotrader Connect для сервиса дилеров DealerMargin перед запуском. Нужен также постоянный технический контакт для обновлений API.",
+   "reply": "You need the Autotrader Connect integration in DealerMargin reviewed before go-live: request shapes against the Stock, Media, Vehicles and Advertisers specs, token caching and retries, whether any buyer data leaks into payloads, and locking down the test bench and token cache. I'd work through those areas in that order, rank findings by severity, and deliver fixes as changed files with notes, then sign off with a clear list of anything still open. The known gaps (queued sync, retrying failed syncs beyond the next save, CSRF, columns added on first use) I'd scope as separate items so you can prioritise them. Rough timeline: 1–2 weeks for the review and fixes once I have the zip and sandbox access, depending on how many issues turn up. You can see live demos at https://grachoffprod.github.io/portfolio/\n\nTwo questions: is the go-live demo date already fixed? And should moving sync to a queue be part of Phase 1 or left for Phase 2?\n\nYakov",
+   "reply_ru": "Вам нужно проверить интеграцию DealerMargin с Autotrader Connect перед запуском: соответствие запросов спецификациям Stock, Media, Vehicles и Advertisers, кэширование токенов и повторные запросы, отсутствие данных покупателей в payload, а также защиту тестового стенда и кэша токенов. Я бы прошёл эти области в таком порядке, ранжировал найденные проблемы по серьёзности, передал исправления измененными файлами с пояснениями и затем дал заключение со списком оставшихся вопросов. Известные пробелы (очередь для синхронизации, повтор неудачной синхронизации не только при следующем сохранении, CSRF, колонки, добавляемые при первом использовании) я бы выделил в отдельные пункты, чтобы вы могли расставить приоритеты. Ориентировочный срок: 1–2 недели на ревью и исправления после получения архива и доступа к сендбоксу, в зависимости от количества найденных проблем. Живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: дата демо для go-live уже зафиксирована? И входит ли перенос синхронизации в очередь в Phase 1 или оставляем это на Phase 2?\n\nYakov",
+   "questions": [
+    "Дата демо для go-live уже зафиксирована?",
+    "Входит ли перенос синхронизации в очередь в Phase 1 или оставляем это на Phase 2?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "pph:4532550",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/need-modification-on-wordpress-plugin-4532550",
+  "title": "Need Modification on Wordpress Plugin",
+  "description": "I have a wordpress web application, and I have already installed the Job Board plugin, unfortunately it is not working perfectly and getting me necessary to enter the complete details manually on both Plugin and Theme page.\n\nI need somebody to fix the Plugin, so that I will add the Job details in plugin and it should automatically visible in list/grid page and job details page. I also need an option to upload the xls or csv file of jobs from plugin admin and those should be visible in Admin and frontend.\n\nPlugin:https://wordpress.org/plugins/wp-job-openings/ (HireZoot (formerly WP Job Openings) is a WordPress recruitment and hiring plugin)\n\t\t\nDocumentation: https://docs.wpjobopenings.com/\nTheme: https://demo.kallyas.net/cargo\n\nRegards,\nAnil. Ch",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "saas",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 6,
+   "summary_ru": "Нужно исправить WordPress-плагин для вакансий (WP Job Openings / HireZoot): новые вакансии не выводятся автоматически в списке и на странице деталей, а также добавить импорт вакансий из CSV/XLS в админке с отображением на сайте.",
+   "reply": "You have a WordPress job board where the WP Job Openings plugin doesn't show new listings automatically on the grid and detail pages, so you're entering everything twice. You also want a bulk CSV/XLS import from the admin panel that displays on both the backend and the frontend. I'd start by reproducing the display issue on a staging copy with the Kallyas theme to find out whether it's a template override, a missing hook, or caching, then fix it so jobs appear without manual theme edits. For the import, I'd add an admin upload page that parses the file, maps columns to the plugin's job fields, validates rows and shows a preview before saving. Rough estimate is 3–5 days, depending on what the audit shows. Could you give me staging access or a copy of the site, and is the job template customized in the theme? You can also see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "У вас WordPress-сайт с job board, где плагин WP Job Openings не показывает новые вакансии автоматически в списке и на странице деталей, поэтому приходится вносить всё дважды. Также нужен массовый импорт вакансий из CSV/XLS через админку с отображением в бэкенде и на фронтенде. Я бы начал с воспроизведения проблемы на тестовой копии сайта с темой Kallyas, чтобы понять, связано ли это с переопределением шаблонов, отсутствующим хуком или кешем, а затем исправил бы так, чтобы вакансии появлялись без ручных правок темы. Для импорта я бы добавил страницу загрузки в админке, которая парсит файл, сопоставляет колонки с полями вакансий, валидирует строки и показывает предпросмотр перед сохранением. Примерная оценка — 3–5 дней, в зависимости от результатов аудита. Могли бы вы предоставить доступ к тестовой копии сайта и сказать, кастомизирован ли шаблон вакансий в теме? Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можете ли вы предоставить доступ к тестовой копии сайта или админке?",
+    "Шаблон вакансий в теме Kallyas кастомизирован или используется стандартный вывод плагина?",
+    "Какие поля должны быть в файле импорта и есть ли пример CSV/XLS?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "pph:4532513",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/digital-marketing/seo/improve-google-rankings-generate-more-leads-4532513",
+  "title": "Improve Google Rankings & Generate More Leads",
+  "description": "We are seeking an experienced and results-driven SEO specialist to improve the Google organic rankings, local search visibility and customer enquiries for Didcot Windows and Doors.\n\nWebsite: https://didcotwindowsanddoors.co.uk/\n\nGoogle Business Profile: https://share.google/jjCriClcWPJUmZqYI\n\nThis is an existing, ongoing SEO project that was awarded to a freelancer through PeoplePerHour approximately 90 days ago. Unfortunately, despite previous SEO efforts, the expected results have not been achieved.\n\nWe have therefore decided to reopen the project and appoint a more experienced and capable SEO professional who can take over immediately.\n\nScope of Work\n\nConduct a comprehensive website and technical SEO audit.\n\nReview previous SEO work and identify weaknesses.\n\nIdentify and analyse the strongest local competitors.\n\nResearch high-quality, commercially valuable keywords.\n\nImprove Google organic search rankings.\n\nImprove Google Business Profile, Google Maps and Local 3-Pack rankings.\n\nOptimise website content, headings, metadata, images and internal links.\n\nAudit existing backlinks and address harmful or low-quality links.\n\nBuild relevant, authoritative and high-quality backlinks.\n\nImprove website performance and conversion rates.\n\nDevelop an effective local SEO strategy targeting Didcot and surrounding areas.\n\nGenerate more genuine customer enquiries and quotation requests.\n\nProvide transparent weekly SEO performance and keyword ranking reports.\n\nTarget Services\n\nWindows and Doors\n\nDouble Glazing\n\nReplacement Windows\n\nuPVC Windows\n\nComposite Doors\n\nAluminium Windows and Doors\n\nBi-Fold Doors\n\nPatio Doors\n\nFreelancer Requirements\n\nProven experience in UK local SEO.\n\nStrong competitor analysis and keyword research skills.\n\nExperience with WordPress, Google Search Console, Google Analytics and Google Business Profile.\n\nDemonstrable evidence of successful SEO campaigns.\n\nStrictly ethical, white-hat SEO practices.\n\nNo spam backlinks, PBNs, artificial traffic or automated link-building.\n\nAbility to take ownership of an existing SEO campaign.\n\nAvailable to start immediately.\n\nProposal Requirements\n\nBefore submitting your bid, please review our website and Google Business Profile and provide:\n\nYour initial assessment of our existing SEO performance.\n\nIdentification of our strongest local competitors.\n\nRecommended high-value keywords.\n\nYour proposed SEO strategy.\n\nExpected timeframe for measurable improvements.\n\nExamples of previous successful SEO projects.\n\nYour proposed pricing.\n\nOur Expectations\n\nWe are looking for genuine expertise, accountability and measurable results rather than generic SEO packages, unrealistic promises or automated reports.\n\nOur primary objective is to improve local Google rankings, outperform our competitors and generate more genuine business leads.\n\nThe successful bidder will be selected based on their expertise, proposed strategy, proven track record and value for money.\n\nThis is an ongoing project, and the successful candidate can start immediately.\n\nIf you have the necessary experience and confidence to deliver meaningful results, please do not hesitate to submit your proposal.\n\nThank you. We look forward to receiving your bids.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 1,
+   "summary_ru": "Заказчик ищет SEO-специалиста для улучшения позиций сайта в Google, локальной выдачи и Google Business Profile для компании по установке окон и дверей в Дидкоте (Великобритания). Задачи включают аудит, работу со ссылками, контент и отчётность, то есть это SEO-продвижение, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Входит ли в задачу техническая доработка самого сайта (скорость загрузки, структура, исправление ошибок), или нужно только продвижение?",
+    "Какие ограничения есть по платформе: сайт работает на WordPress, и нужно ли менять его шаблон или структуру?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "kwork:2798882",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/2798882",
+  "title": "Оформление разделов на сайте wordpress",
+  "description": "Продвинутый пользователь wordpress, дизаин \nТребуется оформление разделов на сайте wordpress. \nНавыки дизаина, вырезать-встроить. \nОзнакомиться с админ-частью wordpress(опыт наполнения других сайтов приветсвуется). \n1 Раздел 500р. Суммарный объем 50+ разделов \nНа постоянную основу",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-27 20:14:14",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Нужно оформить разделы на сайте WordPress: перенести элементы из дизайна (вёрстка по макету, «вырезать-встроить») и добавить в админке. Объём 50+ разделов, оплата 500 ₽ за раздел, работа на постоянной основе.",
+   "reply": "Вы просите оформить разделы WordPress по макетам: вырезать элементы из дизайна и встроить их в страницы, всего 50+ разделов. Предлагаю начать с одного пробного раздела, чтобы вы оценили качество вёрстки и работу с админкой, а потом перейти к остальным. Каждый раздел сделаю адаптивным и проверю на мобильных. Пробный раздел могу сдать в течение дня, дальше темп будет зависеть от сложности макетов. Есть ли готовые макеты для всех разделов (Figma или PSD) и какой редактор используется на сайте: Gutenberg, Elementor или классический? Примеры работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы просите оформить разделы WordPress по макетам: вырезать элементы из дизайна и встроить их в страницы, всего 50+ разделов. Предлагаю начать с одного пробного раздела, чтобы вы оценили качество вёрстки и работу с админкой, а потом перейти к остальным. Каждый раздел сделаю адаптивным и проверю на мобильных. Пробный раздел могу сдать в течение дня, дальше темп будет зависеть от сложности макетов. Есть ли готовые макеты для всех разделов (Figma или PSD) и какой редактор используется на сайте: Gutenberg, Elementor или классический? Примеры работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли готовые макеты для всех разделов (Figma или PSD)?",
+    "Какой редактор используется на сайте: Gutenberg, Elementor или классический?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "kwork:3276009",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3276009",
+  "title": "Техзадание на разработку ПО терминала оплаты",
+  "description": "Нужно подготовить полноценное техническое задание (ТЗ) на разработку ПО для терминала оплаты бесконтактной робот-мойки.ПО для ПК оператора и мобильное приложение робот мойки. Разработка ПО — следующий этап, сейчас нужно только ТЗ. \nУ нас роботизированная мойка Pacific Everlasting PE WASH 360 Premium, управление — промышленный ПЛК, Delta.Сейчас на терминале есть программа но она нас не устраивает и продавец ее не может улучшить. Мы уже нашли исполнителя который сделает новое ПО, но нам нужно правильное ТЗ чтоб все было учтено. \nВ данный момент наши пожелания это удобный и стильный интерфейс, описание программ без ограничения длинны, баннеры и акции, ролики с музыкой, возможность блокировки экрана когда не работаем, оплата наличными и картой (сейчас есть), нормальная очередь( оплата при занятом боксе, отсчет времени, автозапуск после освобождения бокса, понятные сообщения, красивая кнопка вызов оператора, журнал всех операций:программа, способ оплаты, сумма,время.Интеграция с нашими способами оплаты ( у нас виндиста и касса Атол удаленная) \nВторой этам разработку ПО для админской части (ПК оператора). \nНаши пожелания : удобрые и крассивые отчеты, диаграммы, выгрузка в эксель.Возможность нажать у себя на ПК тех перерыв и это окно выйдет на терминале для клиентов.Програмирование всего терминала оплаты должно быть только через админскую часть. \nТретий этап мобильное приложение робот мойки. \nНаши пожелания : базовые функции современных клиентских приложений с программой лояльности.",
+  "budget": 1000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-27 20:14:09",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Заказчику нужно полноценное техническое задание (без разработки) на три части: ПО терминала для робот-мойки Pacific Everlasting PE WASH 360 с ПЛК Delta, админка для ПК оператора с отчетами и мобильное приложение с программой лояльности. Бюджет 1000 RUB за ТЗ на весь комплекс выглядит низким.",
+   "reply": "Вам нужно ТЗ на три части: ПО терминала для робот-мойки (интерфейс, очередь, журнал операций, интеграция с кассой Атол и ПЛК Delta), админку для ПК оператора с отчетами и выгрузкой в Excel, и мобильное приложение с программой лояльности. Я бы разбил документ на модули, описал сценарии клиента и оператора, требования к интеграциям и критерии приемки для каждого этапа, чтобы исполнитель ничего не додумывал. На подготовку ТЗ по первому этапу уйдет 3–4 дня, остальные части можно оформить отдельно после согласования структуры. Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nЕсть ли у вас документация по протоколу обмена с ПЛК Delta и API кассы Атол? И нужно ли ТЗ на все три этапа сразу или сначала только на терминал?\n\nYakov",
+   "reply_ru": "Вам нужно ТЗ на три части: ПО терминала для робот-мойки (интерфейс, очередь, журнал операций, интеграция с кассой Атол и ПЛК Delta), админку для ПК оператора с отчетами и выгрузкой в Excel, и мобильное приложение с программой лояльности. Я бы разбил документ на модули, описал сценарии клиента и оператора, требования к интеграциям и критерии приемки для каждого этапа, чтобы исполнитель ничего не додумывал. На подготовку ТЗ по первому этапу уйдет 3–4 дня, остальные части можно оформить отдельно после согласования структуры. Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nЕсть ли у вас документация по протоколу обмена с ПЛК Delta и API кассы Атол? И нужно ли ТЗ на все три этапа сразу или сначала только на терминал?\n\nYakov",
+   "questions": [
+    "Есть ли у вас документация по протоколу обмена с ПЛК Delta и API кассы Атол?",
+    "Нужно ли ТЗ на все три этапа сразу или сначала только на терминал?",
+    "Какой результат вы ожидаете: готовый документ для передачи исполнителю или также проверку и доработку вашего текущего черновика?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
+  "id": "kwork:3276008",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3276008",
+  "title": "Парсинг отзывов",
+  "description": "Здравствуйте! \nНеобходимо проанализировать данные из открытого доступа, -отзывы \nИнформацию предоставить в текстовом файле: наименование услуги, итоговая стоимость и дата, сбор за 1 год",
+  "budget": 2000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-27 20:10:52",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 5,
+   "summary_ru": "Нужно собрать из открытых отзывов данные за последний год: название услуги, итоговую стоимость и дату. Результат — текстовый файл. Бюджет низкий, поэтому объём и источник важно уточнить.",
+   "reply": "Здравствуйте! Нужно собрать из открытых отзывов данные за последний год: название услуги, итоговую стоимость и дату, и выгрузить всё в текстовый файл. Сначала проверю структуру страниц с отзывами, затем напишу скрипт, который обходит все страницы за нужный период, извлекает поля и сохраняет результат в txt без дублей. Для простого источника с пагинацией рассчитываю около 2–3 дней. Если стоимость указана не отдельным полем, а внутри текста отзыва, понадобится дополнительный разбор, и сроки могут немного вырасти. Подскажите, пожалуйста: какая именно площадка или сайт с отзывами? Сколько примерно отзывов приходится на год? Демо-работы смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "reply_ru": "Здравствуйте! Нужно собрать из открытых отзывов данные за последний год: название услуги, итоговую стоимость и дату, и выгрузить всё в текстовый файл. Сначала проверю структуру страниц с отзывами, затем напишу скрипт, который обходит все страницы за нужный период, извлекает поля и сохраняет результат в txt без дублей. Для простого источника с пагинацией рассчитываю около 2–3 дней. Если стоимость указана не отдельным полем, а внутри текста отзыва, понадобится дополнительный разбор, и сроки могут немного вырасти. Подскажите, пожалуйста: какая именно площадка или сайт с отзывами? Сколько примерно отзывов приходится на год? Демо-работы смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Какая именно площадка или сайт с отзывами нужен?",
+    "Сколько примерно отзывов приходится на год?",
+    "Стоимость указана в отдельном поле отзыва или её нужно вытаскивать из текста?"
+   ]
+  },
+  "found_at": "2026-11-27T17:16:33+00:00"
+ },
+ {
   "id": "freelancer:40838971",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/desktop-application/Desktop-Thermometer-App-Field-Trial",
@@ -14502,639 +15143,5 @@
    ]
   },
   "found_at": "2026-11-26T02:30:50+00:00"
- },
- {
-  "id": "freelancer:40836170",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/api-developmet/Panel-Solicitudes-Presupuesto-Web",
-  "title": "Panel Solicitudes Presupuesto Web",
-  "description": "Quiero centralizar, dentro de mi propio sitio, todas las solicitudes de presupuesto que envían los visitantes. El formulario será minimalista: solo debe pedir la descripción del servicio o proyecto que necesitan, sin más campos. \n\nCada envío tiene que guardarse y visualizarse en un panel interno —nada de correos ni hojas externas— para que yo pueda leer, filtrar y marcar cada solicitud como atendida. Trabajo actualmente con WordPress, así que integra la solución allí o muéstrame otra alternativa totalmente compatible. \n\nNecesito:\n• Formulario activo en la página que te indicaré. \n• Panel de administración accesible con mis credenciales. \n• Protección básica contra spam. \n• Opción de exportar solicitudes a CSV. \n• Breves instrucciones para modificar campos en el futuro. \n\nSi algo no queda claro, consúltame antes de avanzar; prefiero un entregable preciso a suposiciones.",
-  "budget": 25.0,
-  "budget_min": 15.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T02:02:20+00:00",
-  "lang": "es",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "site_template",
-   "score": 4,
-   "summary_ru": "Нужен минималистичный формулярий запроса бюджета на сайте WordPress. Заявки должны сохраняться во внутреннем админ-панели с фильтрами, отметкой «обработано», экспортом в CSV и базовой защитой от спама.",
-   "reply": "Entiendo que necesitas un formulario minimalista en tu WordPress que guarde cada solicitud de presupuesto en la propia base de datos y las muestre en un panel interno, con filtros, marcado como atendida y exportación a CSV, además de protección anti-spam básica. Lo plantearía como un pequeño plugin: un shortcode para insertar el formulario en la página que indiques, una tabla propia para las solicitudes, un panel en el admin de WordPress accesible solo con tu usuario, honeypot y límite de envíos contra el spam, y el campo de descripción en un único punto del código para modificarlo fácilmente. Calculo unos 1–2 días de trabajo. Puedes ver ejemplos en vivo aquí: https://grachoffprod.github.io/portfolio/\n\n¿Qué versión de WordPress usas y con qué tema o page builder trabajas? ¿Cuál es la página exacta donde debe mostrarse el formulario?",
-   "reply_ru": "Понимаю, что вам нужна минималистичная форма на WordPress, которая сохраняет каждую заявку на бюджет в собственной базе данных и показывает их во внутренней панели с фильтрами, отметкой «обработано», экспортом в CSV и базовой защитой от спама. Я бы сделал это небольшим плагином: шорткод для вставки формы на нужную страницу, собственная таблица для заявок, панель в админке WordPress, доступная только вашему пользователю, honeypot и ограничение частоты отправок против спама, а поле описания — в одном месте кода, чтобы его было легко менять. Оцениваю работу примерно в 1–2 дня. Примеры в действии можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nКакую версию WordPress вы используете и с какой темой или конструктором страниц работаете? На какой конкретной странице должна отображаться форма?",
-   "questions": [
-    "Какую версию WordPress вы используете и с каким темой или конструктором страниц работаете?",
-    "На какой конкретной странице должна отображаться форма?"
-   ]
-  },
-  "found_at": "2026-11-26T02:30:50+00:00"
- },
- {
-  "id": "freelancer:40836166",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/sales/Remote-Setters-For-Booking-Calls",
-  "title": "Remote DM Setters For Booking Calls",
-  "description": "HIRING: DM Setters, $5 Per Booked Call (Remote, No Cap)\n\nWe run Timelines Inner Circle, a mentorship that helps video editors grow their income. We're on the way to $1M/month and need setters to get us there.\n\nThousands of editors on X and Discord are looking for ways to make more money right now. Your job is to start the conversation and book them onto a call with our sales team.\n\nPAY\n• $5 for every call you book\n• You get paid for the booking. The prospect doesn't need to buy.\n• Book 5 calls a day for 10 days = $200 bonus\n• Weekly leaderboard: $20 for most calls booked, $15 for most DMs sent\n• Team prize pot: up to $15 extra a week when the team hits its targets\n• No cap. The more you book, the more you make.\n\nWHAT YOU'LL DO\n• Find video editors on X (Twitter) and Discord\n• Send DMs and start real conversations\n• Follow up with people who reply\n• Book them onto calls with our sales team\n• Log every DM in our tracker and post a daily report\n\nFull training is given. You'll get scripts, accounts and everything you need on day one.\n\nWHO WE WANT\n• Good written English\n• Comfortable on X and Discord\n• Can send 30+ DMs a day without being chased\n• Reliable, consistent and hungry\n• Sales or setting experience is a bonus, not required\n\nHOW TO APPLY\nDM me \"SETTER\" + your timezone.",
-  "budget": 3000.0,
-  "budget_min": 1500.0,
-  "currency": "AUD",
-  "posted_at": "2026-11-26T01:44:45+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "booking"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "booking",
-   "score": 1,
-   "summary_ru": "Вакансия на удалённых DM-сеттеров: ручная рассылка личных сообщений в X и Discord за оплату за каждый забронированный созвон с отделом продаж. Это не разработка, а работа по продажам и outreach.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли в этом проекте какая-либо техническая задача по разработке, или нужна только ручная работа с сообщениями?",
-    "Правильно ли понимаю, что оплата зависит только от количества забронированных созвонов, без фиксированного бюджета на разработку?"
-   ]
-  },
-  "found_at": "2026-11-26T02:30:50+00:00"
- },
- {
-  "id": "freelancer:40836150",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/typescript/Build-Soccer-Pinball-Slot-Game",
-  "title": "Build Soccer Pinball Slot Game -- 2",
-  "description": "We are looking for an experienced 3D WebGL Game Developer to build \"GOLERO - PAMBOLERO\", a high-fidelity, mobile-first 3D skill-based soccer arcade game running smoothly at 60fps in modern mobile and desktop browsers.\nKey Architecture & Scope (Detailed Technical Spec Attached):\n• 3D Scene & Asset Integration (Three.js + Vite): Load our production .glb arcade cabinet (provided by our 3D artist with col_ physics colliders, 6 embedded Blender camera presets, separated emissive lamp/ring meshes, and modular UV-mapped textures for cosmetic skins).\n• Deterministic 3D Physics (Rapier3D — Zero RNG): Implement 100% deterministic, skill-based ball and spring-plunger physics (fixed timestep, zero randomness/RNG) so identical plunger pull force and timing produce identical trajectories across devices—supporting asynchronous 1v1 Ghost Duels and decoupled server-side replay verification.\n• Cinematic Cameras & Feedback (GSAP): Smooth camera transitions between the 6 .glb presets, spring compression visuals, emissive 7-segment LED scoreboards, dynamic SFX, and mobile haptics.\n• Game Rules & Single Config (gameConfig.ts): Program the 5-ball match flow, 20-hole scoring matrix, consecutive-number straights, team badge combos, progressive multipliers (1X–128X), and expose all physics/scoring constants in gameConfig.ts.\n• UI Integration (React + TypeScript + Tailwind CSS): Integrate our 14 mobile-first (9:16) and responsive desktop (16:9) UI screens from Figma with clean API/JSON hooks.\nDeliverables Expected:\n• Clean, well-documented Git source repository (React + Vite + TypeScript + Three.js + Rapier3D + GSAP + Tailwind CSS) with decoupled deterministic physics/scoring module.\n• Fully functional, mobile-optimized 60fps playable build ready for backend API hookup.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T01:23:58+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 3,
-   "summary_ru": "Разработка браузерной 3D-футбольной аркады на Three.js, Rapier3D, GSAP и React: импорт .glb-корпуса с шестью камерами, детерминированная физика мяча и пружины, правила подсчёта в gameConfig.ts и интеграция 14 экранов из Figma. Бюджет 750 USD, что мало для такого объёма.",
-   "reply": "You need a mobile-first 3D soccer pinball game for the browser: a .glb cabinet with six camera presets, a deterministic Rapier3D plunger and ball physics layer that can be replayed server-side, a single gameConfig.ts for scoring, and 14 Figma screens wired up through JSON hooks. I would split it into milestones: first the Vite, React and Three.js scene with asset loading and camera transitions, then the physics module with a fixed timestep and replay checks, then the scoring rules and UI integration. The fixed-timestep physics and the 60fps mobile target need the most testing, so I would leave time for profiling on real devices. For the scope described, 750 USD covers the first milestones, and the full build would likely take several weeks. Should physics determinism be verified across browsers or only in one reference environment? Are the 14 Figma screens final?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужна мобильная 3D-футбольная аркада для браузера: .glb-корпус с шестью пресетами камер, детерминированный слой физики мяча и пружины на Rapier3D, который можно проверять повторным воспроизведением на сервере, единый gameConfig.ts для подсчёта очков и 14 экранов из Figma, подключённых через JSON-хуки. Я бы разбил работу на этапы: сначала сцена на Vite, React и Three.js с загрузкой ассетов и переходами между камерами, затем модуль физики с фиксированным шагом и проверкой повторов, затем правила подсчёта и интеграция UI. Фиксированный шаг физики и цель 60fps на мобильных устройствах требуют больше всего проверок, поэтому я заложил бы время на профилирование на реальных устройствах. Для описанного объёма 750 USD покрывают первые этапы, а полная сборка, вероятно, займёт несколько недель. Нужно ли проверять детерминизм физики во всех браузерах или только в одной эталонной среде? Экраны в Figma уже финальные?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Нужно ли проверять детерминизм физики во всех браузерах или только в одной эталонной среде?",
-    "Экраны в Figma уже финальные или будут меняться?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "freelancer:40836147",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-design/Build-Two-Distinct-Showcase-Websites",
-  "title": "Build Two Distinct Showcase Websites",
-  "description": "I need assistance to build 2 sites, in dark style.\n\nSimple, elegant, professional. The sites will serve as public portfolios: clear service overviews, examples of past work, and easy-to-find contact forms.\n\nFor both projects I’m after:\n• A responsive, modern design that aligns with each brand’s look and feel.\n• Intuitive navigation so visitors can understand our services within a click or two.\n• A content management setup (WordPress, Webflow, Squarespace, or your best recommendation) that lets my team update text and images without touching code.\n\nYou can reuse components where it makes sense, but each site must still feel unique and tailored to its business. The text well be provided, will need assistance to create logos that match the style and some photos. \n\nI will need some independant to work from A to Z, ideally around 100 USD for each sites, delivery time for both sites around 10th December.",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T01:20:44+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "site_template",
-   "score": 6,
-   "summary_ru": "Нужно создать два отдельных сайта-визитки в тёмном стиле с обзором услуг, примерами работ, формой обратной связи и CMS для обновления текстов и изображений. Логотипы и фото потребуются частично, срок сдачи около 10 декабря.",
-   "reply": "You need two dark-themed showcase sites, each with its own brand feel, a services overview, a past-work section, a contact form, and a CMS so your team can edit text and images without code. I would build both on one shared, component-based foundation to keep the work fast, then adjust typography, colors, and layouts for each brand so the sites feel distinct. I can set this up in Webflow or WordPress, whichever suits your team better, and估计 both sites can be ready in about 2–3 weeks, well before December 10. Logo design is outside my core work, so I would need to know whether you already have logos or want them sourced from a designer. Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужны два сайта-визитки в тёмном стиле, у каждого свой характер бренда, с обзором услуг, разделом с примерами работ, формой обратной связи и CMS, чтобы ваша команда могла менять тексты и изображения без кода. Я бы собрал оба сайта на общей компонентной основе, чтобы ускорить работу, а затем настроил типографику, цвета и макеты под каждый бренд, чтобы сайты выглядели по-разному. Могу сделать это на Webflow или WordPress, в зависимости от того, что удобнее вашей команде. Оценочный срок для обоих сайтов около 2–3 недель, что точно раньше 10 декабря. Разработка логотипов не входит в мою основную работу, поэтому важно понять, есть ли у вас уже логотипы или их нужно заказать у дизайнера. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли у вас готовые логотипы или их нужно разработать с нуля?",
-    "Фотографии уже готовы или их нужно подобрать из стоков?",
-    "Вы предпочитаете WordPress или Webflow для управления контентом?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "freelancer:40836113",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/crm/Gesti-Mensajes-Entrantes-del-Sitio",
-  "title": "Gestión Mensajes Entrantes del Sitio",
-  "description": "Tengo un flujo constante de consultas que llegan a través del formulario de contacto de mi sitio web y necesito que cada mensaje termine rápidamente en la bandeja de la persona correcta dentro del equipo. El trabajo consiste en revisar cada entrada, clasificarla según tema o área (soporte, ventas, facturación, etc.) y reenviarla al responsable correspondiente mediante la herramienta que mejor se adapte: puede ser un simple redireccionamiento por correo, la carga en nuestro CRM (HubSpot o Zoho), o la creación de tickets en un help-desk como Zendesk. \n\nTambién necesito que marques los mensajes duplicados o spam y lleves un breve registro de métricas básicas: volumen diario, tiempo promedio de derivación y cualquier incidencia relevante. Al final de cada semana, un reporte en hoja de cálculo o tablero compartido será suficiente para hacer seguimiento. \n\nEntrego acceso al buzón vinculado al formulario, lineamientos de clasificación y la lista de contactos internos. A partir de ahí, sólo requiero puntualidad, atención al detalle y comunicación clara si surge alguna consulta que no entre en las categorías definidas.",
-  "budget": 25.0,
-  "budget_min": 15.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T01:14:03+00:00",
-  "lang": "es",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "crm"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "crm",
-   "score": 2,
-   "summary_ru": "Клиенту нужен постоянный сервис по разбору входящих сообщений с формы на сайте: классификация по отделам, пересылка в HubSpot, Zoho или Zendesk, отметка спама и еженедельные отчеты. По сути это ежедневная операционная работа, а не разовая разработка, и бюджет всего 25 USD.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли разовая настройка автоматической маршрутизации (вебхук формы → CRM/help-desk с правилами классификации), или вы хотите, чтобы кто-то вручную разбирал сообщения каждый день?",
-    "Какой объём сообщений в день и сколько часов в неделю потребуется на поддержку?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "freelancer:40836138",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ios/Senior-iOS-Developer-for-Screen",
-  "title": "Senior iOS Developer for Screen Time App",
-  "description": "I need a senior native iOS developer (Swift, SwiftUI) with real experience in Apple's Screen Time API (FamilyControls, ManagedSettings, DeviceActivity) to continue an existing app.\n\nThe product is صخر (\"Sakhr\"), a Saudi product: a small NFC piece plus an iPhone app. You tap the piece to lock distracting apps and can only unlock by tapping it again.\n\nCurrent state:\n- Version 1 is built and submitted to the App Store\n- Source code is in our GitHub, backend on Cloudflare Workers\n- Family Controls entitlement is already approved by Apple\n- Every new screen is already designed in a clickable prototype (engineering only, no design)\n\nWork needed, as fixed-price milestones:\n1. New design across the app, Sign in with Apple, guest mode with a timer lock, lock health check, stats and streaks\n2. Updating the NFC chip (NXP NTAG 424 DNA) from the customer's iPhone\n3. Social features: zone with automatic unlock when leaving the place, friends, groups, challenges\n4. Prayer-time features, widgets, lost piece flow\n5. Family mode (parent and child)\n6. A small web admin panel with support tools and usage analytics\n\nRequired:\n- A shipped App Store app that uses FamilyControls / DeviceActivity\n- Swift, SwiftUI, Core NFC, WidgetKit\n- Right-to-left (Arabic) layouts\n\nIn your bid, please include:\n- An App Store link to a Screen Time app you built, and what you did in it\n- Your price and timeline for milestone 1 only\n- Whether you have worked with NTAG 424 DNA or the open-source app Foqos\n\nBids without an App Store link will not be considered.",
-  "budget": 3000.0,
-  "budget_min": 1500.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T01:11:59+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "crm",
-   "api_integration",
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "mvp",
-   "score": 2,
-   "summary_ru": "Нужен senior iOS-разработчик (Swift, SwiftUI) для продолжения приложения «Sakhr»: Screen Time API (FamilyControls, ManagedSettings, DeviceActivity), NFC-чип NTAG 424 DNA, WidgetKit, RTL-верстка и веб-админка. Оплата фиксированными этапами, бюджет 3000 USD. Обязательно требуется ссылка на опубликованное в App Store приложение с Screen Time.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у вас возможность работать с нативной разработкой под iOS, или нужен именно Swift-специалист?",
-    "Какой объём работ вы ожидаете по первому этапу и подходит ли фиксированная стоимость 3000 USD на весь проект или только на первый этап?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "freelancer:40836123",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/dropshipping/Powered-Pet-Supplies-Dropshipping-Store",
-  "title": "AI-Powered Pet Supplies Dropshipping Store",
-  "description": "I need an AI-driven dropshipping website for pet supplies.\n\nCore Requirements:\n- Complete online store setup\n- Capable of taking orders\n- Integration of AI features (details flexible)\n- link to dropshipping company who settles and sends all orders \n\nIdeal Skills & Experience:\n- E-commerce website development\n- Experience with AI integrations\n- Familiarity with dropshipping logistics\n- Background in pet supply market is a plus\n- someone who has done this before and can assure a minimum of £5k a month",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "GBP",
-  "posted_at": "2026-11-26T01:02:01+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 4,
-   "summary_ru": "Заказчик ищет разработку интернет-магазина зоотоваров по модели дропшиппинга с приёмом заказов, AI-функциями и передачей заказов партнёрской компании для оплаты и отправки. Бюджет 750 GBP низкий для такого объёма, а требование гарантировать 5 000 GBP в месяц выглядит нереалистичным.",
-   "reply": "You're looking for a pet supplies store that takes orders, includes AI features, and passes fulfilment to a dropshipping partner. I'd build it on a modern stack with a product catalog, cart and checkout, and an order flow that forwards each paid order to the supplier's API or, if they have no API, to a sheet or email handoff. The AI part could be product recommendations or a pet-needs quiz that suggests items, and I'd add it once the core order flow works. For this scope I'd estimate about 2–3 weeks for a first working version. Live demos are at https://grachoffprod.github.io/portfolio/\n\nWhich dropshipping company or platform will you use, and do they offer an API or product feed? Which AI features matter most for launch?\n\nYakov",
-   "reply_ru": "Вы ищете магазин зоотоваров, который принимает заказы, включает AI-функции и передаёт выполнение партнёрскому дропшиппинг-поставщику. Я бы построил его на современном стеке с каталогом товаров, корзиной и оформлением заказа, а также с процессом, который передаёт каждый оплаченный заказ через API поставщика или, если API нет, через таблицу или email. AI-часть может включать рекомендации товаров или квиз о потребностях питомца с подбором позиций; добавил бы её после того, как основной процесс заказов заработает. Для такого объёма оценка около 2–3 недель до первой рабочей версии. Живые демо доступны по ссылке https://grachoffprod.github.io/portfolio/\n\nС какой дропшиппинг-компанией или платформой вы планируете работать и есть ли у них API или фид товаров? Какие AI-функции важнее всего для запуска?\n\nYakov",
-   "questions": [
-    "С какой дропшиппинг-компанией или платформой вы планируете работать и есть ли у них API или фид товаров?",
-    "Какие AI-функции важнее всего для запуска магазина?",
-    "Какой объём работ вы закладываете в бюджет 750 GBP: только сайт с заказами или ещё интеграции и AI?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "freelancer:40836118",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/dropshipping/eBay-Dropshipping-Store-Partner",
-  "title": "eBay UK Dropshipping Store Partner, Commission Only",
-  "description": "Oakridge Retail is a UK-based business launching a new eBay UK store, which will run as a general store across a range of product categories. We're looking for an experienced eBay dropshipping manager to build the store from launch and run its day-to-day operations.\n\nResponsibilities:\n- Research products with strong demand and healthy margins on eBay UK\n- Source reliable suppliers, preferably UK-based wholesalers with fast delivery\n- Create optimised listings, including titles, descriptions, item specifics and pricing\n- Process orders with suppliers and upload tracking promptly\n- Handle buyer messages, returns and cases professionally\n- Keep stock levels and pricing up to date so listings stay accurate\n- Maintain strong seller performance metrics\n\nAs the account is new, we expect eBay's selling limits to apply at first. We want steady, sustainable growth that keeps the account in good standing, so experience growing new accounts safely is essential.\n\nAll products must come from legitimate suppliers. Branded or trademarked items and stock bought from other retailers are not permitted.\n\nPayment:\nThis role is commission only, at 30% of net profit per month. Net profit is the sale price minus product cost, delivery, eBay fees, promoted listing costs, refunds and returns. Commission is paid monthly through Freelancer.com, based on the store's sales reports.\n\nRequirements:\n- Proven experience managing eBay dropshipping stores, ideally on eBay UK\n- Strong knowledge of eBay policies, selling limits and performance standards\n- Experience with listing and order automation tools\n- Clear communication and regular progress updates\n\nWhen applying, please include evidence of eBay stores you have managed including sales screenshots, dropshipping suppliers you will be using for UK, estimated profit per sale, and your plan for growing a new account over the first three months.\n\nOnly applicants with verifiable eBay results will be considered.",
-  "budget": 250.0,
-  "budget_min": 20.0,
-  "currency": "GBP",
-  "posted_at": "2026-11-26T00:58:17+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 1,
-   "summary_ru": "Клиент ищет менеджера для дропшиппинг-магазина на eBay UK с оплатой только комиссией (30% чистой прибыли). Задачи включают подбор товаров, поиск поставщиков, создание объявлений и обработку заказов, то есть операционное ведение магазина, а не разработку.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у заказчика техническое задание на разработку или интеграцию инструментов автоматизации для объявлений и заказов, или нужен только менеджер магазина?",
-    "Планируется ли оплата фиксированным бюджетом за разработку, а не только комиссией от прибыли?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "freelancer:40836116",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/android-app-development/Android-Button-Navigation-Bug-Fix",
-  "title": "Android Button Navigation Bug Fix",
-  "description": "I need a quick-turnaround fix for a navigation issue in my existing Android app. Right now, several buttons are wired to the wrong destination: tapping them opens the incorrect screen instead of the one specified in the flow. Everything else—UI, build, and backend calls—works fine; I just need the button intents or navigation graph corrected so each press lands on the proper activity or fragment.\n\nYou will: \n• review the current code (Kotlin/Java mix with AndroidX Navigation) \n• identify where the mis-routing occurs—whether it’s in the onClick listeners, the navigation XML, or a fragment action \n• adjust the logic or XML so every button opens the intended screen \n• test the fix on at least one phone and one tablet emulator, then send back the modified source and a debug APK so I can verify\n\nI have the full project in a Git repo and will grant access as soon as we agree on timing. The change is small but important, so I’m looking for someone who can jump in today, pinpoint the issue quickly with Android Studio, and deliver a clean commit.",
-  "budget": 30.0,
-  "budget_min": 8.0,
-  "currency": "EUR",
-  "posted_at": "2026-11-26T00:56:49+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "fixes",
-   "score": 5,
-   "summary_ru": "Нужно исправить навигацию в существующем Android-приложении: несколько кнопок открывают не тот экран, что указан во флоу. Остальная часть приложения работает, задача небольшая, срок горящий, бюджет 30 EUR.",
-   "reply": "You need the navigation fixed because several buttons open the wrong activity or fragment, while the UI, build and backend calls already work. I would trace each misrouted button through its onClick handler, the nav graph XML and any fragment actions to find where the destination is set incorrectly, then correct it so every press lands on the intended screen. After that I would test on a phone and a tablet emulator and send a clean commit with a debug APK. For a change this size, I expect to deliver within a few hours of getting repo access. Could you list which buttons misroute and where they should go? Also, which minSdk and Android Studio version does the project use?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Нужно исправить навигацию, потому что несколько кнопок открывают не ту activity или фрагмент, хотя UI, сборка и вызовы бэкенда уже работают. Я бы проверил каждую кнопку с неправильным переходом: обработчик onClick, XML графа навигации и действия фрагментов, чтобы найти место, где задаётся неверный destination, и поправить его так, чтобы каждое нажатие открывало нужный экран. Затем протестировал бы на эмуляторах телефона и планшета и отправил чистый коммит с debug APK. Для изменения такого размера ожидаю сдать в течение нескольких часов после получения доступа к репозиторию. Не могли бы вы перечислить, какие кнопки ведут не туда и куда они должны вести? Также подскажите, какие minSdk и версию Android Studio использует проект?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какие именно кнопки открывают неправильный экран и какой экран должен открываться при нажатии на каждую из них?",
-    "Какой minSdk и версию Android Studio использует проект?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "flru:5530532",
-  "source": "flru",
-  "url": "https://www.fl.ru/projects/5530532/razrabotka-veb-prilojeniya-dlya-uchta-montajnyih-brigad-smen-i-vyipolnennyih-rabot.html",
-  "title": "Разработка веб-приложения для учёта монтажных бригад, смен и выполненных работ",
-  "description": "Необходимо оценить разработку веб-приложения для строительной компании, занимающейся монтажом слаботочных систем: видеонаблюдение, СКУД, домофония, сети связи.\n\nЦель -...",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "Thu, 26 Nov 2026 00:32:11 GMT",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "saas",
-   "score": 6,
-   "summary_ru": "Заказчик, строительная компания, монтирующая слаботочные системы (видеонаблюдение, СКУД, домофония, связь), хочет веб-приложение для учёта монтажных бригад, смен и выполненных работ. Бюджет не указан, описание обрезано, поэтому детали нужно уточнить.",
-   "reply": "Вы описываете веб-приложение для учёта монтажных бригад: смены, выполненные работы и контроль по объектам слаботочных систем. Я бы начал с модели данных (бригады, сотрудники, объекты, смены, виды работ, акты выполнения) и панели для диспетчера и прораба с ролями и доступами, затем добавил отчёты по сменам и выработке и простой мобильный интерфейс для монтажников. Первая рабочая версия с основными сценариями займёт ориентировочно 3–4 недели, дальше доработки по обратной связи. Уточните, пожалуйста: сколько бригад и объектов нужно вести одновременно и нужна ли интеграция с 1С или с таблицами? Живые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы описываете веб-приложение для учёта монтажных бригад: смены, выполненные работы и контроль по объектам слаботочных систем. Я бы начал с модели данных (бригады, сотрудники, объекты, смены, виды работ, акты выполнения) и панели для диспетчера и прораба с ролями и доступами, затем добавил отчёты по сменам и выработке и простой мобильный интерфейс для монтажников. Первая рабочая версия с основными сценариями займёт ориентировочно 3–4 недели, дальше доработки по обратной связи. Уточните, пожалуйста: сколько бригад и объектов нужно вести одновременно и нужна ли интеграция с 1С или с таблицами? Живые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Сколько бригад и объектов нужно вести одновременно?",
-    "Нужна ли интеграция с 1С, Google Sheets или другими системами учёта?",
-    "Нужен ли мобильный доступ для монтажников или достаточно веб-версии?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "flru:5530589",
-  "source": "flru",
-  "url": "https://www.fl.ru/projects/5530589/personalnyiy-golosovoy-ii-assistent-s-pamyatyu-i-integratsiey-s-onlayn-servisami.html",
-  "title": "Персональный голосовой ИИ-ассистент с памятью и интеграцией с онлайн-сервисами",
-  "description": "Ищу специалиста, который создаст, настроит и запустит персонального ИИ-помощника для обработки входящих откликов и переписки с исполнителями по моим заказам.\n\nУправление — через Telegram, голосом и текстом. Нужен работающий инструмент под ключ.\n\nКак должен работать помощник\n\nЯ размещаю заказ в онлайн-сервисе. Исполнители присылают предложения, задают вопросы и отвечают на мои сообщения.\n\nАссистент автоматически получает сообщения, анализирует каждую переписку отдельно, сравнивает стоимость, сроки и условия.\n\nЕсли ответ есть в моих инструкциях или предыдущей переписке — отвечает самостоятельно в пределах заданных полномочий. Если информации недостаточно — задаёт мне конкретный вопрос в Telegram.\n\nЯ отвечаю голосом. Ассистент распознаёт речь, сохраняет решение и отправляет ответ соответствующему исполнителю.\n\nРабочий процесс должен обходиться без ручного копирования сообщений между сервисами.\n\nНеобходимые функции\n\nПолучение новых откликов и сообщений, отправка ответов через доступные разрешённые интеграции.\n\nОтдельная история по каждому заказу и собеседнику.\n\nОдновременная работа с несколькими диалогами без смешивания сообщений и контекста.\n\nАнализ предложений и подготовка индивидуальных ответов.\n\nПриём голосовых и текстовых указаний через Telegram.\n\nПостоянная память: мои требования, решения и информация по текущим задачам.\n\nЗагрузка и редактирование документа с инструкциями «Мнемос».\n\nДва режима: самостоятельные ответы и отправка после моего подтверждения.\n\nЖурнал действий, уведомления об ошибках и возможность остановить автоматические ответы.\n\nФинансовые обязательства и существенные решения — только после моего согласования.\n\nПервый этап — проверка подключения\n\nКонкретную площадку и примеры переписки сообщу подходящим кандидатам до согласования стоимости и начала работы.\n\nСначала необходимо продемонстрировать полный цикл: получение нового отклика и сообщения → анализ → вопрос мне в Telegram → мой голосовой ответ → отправка ответа нужному исполнителю.\n\nПроверка проводится на нескольких параллельных диалогах. После подтверждения работоспособности подключения согласуем основную разработку.\n\nРеализация и результат\n\nПодойдут n8n, готовые сценарии, Python или другое обоснованное решение.\n\nНужны установка, настройка сервера и сервисов, тестирование, инструкция, передача исходного кода или сценариев и документации. Сервер и основные сервисы должны находиться под моим контролем.\n\nБюджет и отклик\n\nПервоначальный ориентир — 10 000 ₽. Укажите, какой объём можно выполнить за эту сумму. Стоимость проверки подключения и основной разработки прошу указать отдельно.\n\nВ отклике напишите:\n\nКак предлагаете реализовать задачу и проверить подключение площадки.\n\nКакие похожие решения уже делали — желательно с демонстрацией.\n\nСтоимость и сроки каждого этапа.\n\nЕжемесячные расходы на сервер, ИИ и другие сервисы.\n\nТехнические ограничения и необходимые доступы.\n\nГотов рассмотреть использование существующих решений и дальнейшее сопровождение после запуска.",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "Thu, 26 Nov 2026 00:18:46 GMT",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "automation",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "automation",
-   "score": 6,
-   "summary_ru": "Заказчик хочет персонального ИИ-ассистента, который получает отклики и сообщения исполнителей на онлайн-площадке, анализирует предложения, отвечает по заданным правилам, а вопросы и голосовые решения ведёт через Telegram. Нужна проверка подключения на параллельных диалогах (ориентир 10 000 ₽), затем основная разработка на его сервере.",
-   "reply": "Вы хотите получить ассистента, который читает отклики исполнителей на вашей площадке, сравнивает предложения, отвечает по заданным правилам, а спорные вопросы отправляет вам в Telegram, где вы отвечаете голосом. Предлагаю собрать это на n8n на вашем сервере: Telegram-бот принимает голосовые и переводит их в текст, сценарий ведёт историю отдельно по каждому заказу и собеседнику, LLM готовит ответ, а отправка идёт либо автоматически, либо после вашего подтверждения. Проверку подключения на нескольких параллельных диалогах сделаю в рамках 10 000 ₽, срок — 3–5 дней. Основную разработку оценю после получения примеров переписки.\n\nПодскажите, есть ли у площадки API или официальный доступ к откликам, или без парсинга не обойтись? И готовы ли вы использовать свой VPS под n8n?\n\nПримеры похожих решений и живые демо — https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите получить ассистента, который читает отклики исполнителей на вашей площадке, сравнивает предложения, отвечает по заданным правилам, а спорные вопросы отправляет вам в Telegram, где вы отвечаете голосом. Предлагаю собрать это на n8n на вашем сервере: Telegram-бот принимает голосовые и переводит их в текст, сценарий ведёт историю отдельно по каждому заказу и собеседнику, LLM готовит ответ, а отправка идёт либо автоматически, либо после вашего подтверждения. Проверку подключения на нескольких параллельных диалогах сделаю в рамках 10 000 ₽, срок — 3–5 дней. Основную разработку оценю после получения примеров переписки.\n\nПодскажите, есть ли у площадки API или официальный доступ к откликам, или без парсинга не обойтись? И готовы ли вы использовать свой VPS под n8n?\n\nПримеры похожих решений и живые демо — https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли у выбранной площадки API или официальный доступ к откликам и сообщениям, или придётся работать через парсинг?",
-    "Готовы ли вы использовать свой VPS для n8n и сервисов, и какой объём истории переписки нужно хранить?"
-   ]
-  },
-  "found_at": "2026-11-26T01:34:08+00:00"
- },
- {
-  "id": "freelancer:40836099",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/telecommunications-engineering/Anti-Medical-Mafia-Awareness-Campaign",
-  "title": "Anti Medical Mafia Awareness Campaign",
-  "description": "Decades of watching myself how they testing...and friends and family pushed toward unnecessary tests, treatments, and even surgeries convinced me it is time to speak up. My goal is simple: shine a bright public spotlight on these practices so ordinary people recognise a sales pitch hiding behind a stethoscope. This project centres on a clear message—question recommendations that feel excessive, ask for evidence, and seek a second opinion.\n\nThe campaign must reach the general public in language that feels relatable, never alarmist, and always fact-based. I need a cohesive awareness package that travels easily across social media, community forums, and local events.\n\nDeliverables\n• A concise messaging framework that defines tone, key statistics, and talking points on unnecessary procedures. \n• Ten ready-to-publish social-media posts (graphics + copy) sized for the major platforms. \n• A printable one-page fact sheet suitable for clinics, pharmacies, and community boards. \n• A short (60–90 sec) explainer video script outlining the issue and encouraging informed consent.\n\nAcceptance criteria: Every piece must cite reputable sources, avoid medical jargon, and present actionable steps the audience can take before agreeing to any test or surgery.\n\nPreferred tools include Canva or Adobe Express for graphics and clear, accessible copy crafted in plain English. Once complete, I’ll handle distribution; your focus is creating compelling, share-worthy content that makes people pause and think twice before saying “yes” to the next unnecessary procedure.\nP. S. My uncle Ivan were killed in a Hospital and some my friends too.",
-  "budget": 30.0,
-  "budget_min": 8.0,
-  "currency": "EUR",
-  "posted_at": "2026-11-26T00:37:36+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 1,
-   "summary_ru": "Заказчик ищет контент для кампании о неоправданных медицинских назначениях: messaging-фреймворк, 10 постов с графикой в Canva, печатный фактсheet и сценарий видео. Это контент-маркетинг и дизайн, а не разработка, поэтому проект не подходит.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
-  },
-  "found_at": "2026-11-26T00:37:57+00:00"
- },
- {
-  "id": "freelancer:40836093",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/dropshipping/Shopify-High-Ticket-Dropshipping-Store",
-  "title": "UK Shopify High-Ticket Dropshipping Store Partner, Commission Only",
-  "description": "Hi,\n\nI'm starting a UK Shopify store selling high-ticket items through dropshipping, and I'm looking for someone who knows what they're doing to build it and run it with me.\n\nThe idea is that you handle the main work. You find the right products, track down reliable suppliers (UK-based if possible), set up the store, and get it selling. After that you'd look after the day-to-day: orders, tracking, customer messages and the odd return.\n\nI'm only interested in high-ticket products, so every sale needs to make at least £50 profit.\n\nThis is commission only. You'd get 30% of the net profit on every sale, which is what's left after the product cost, shipping, Shopify and payment fees, and any refunds. We'd agree any relevant terms and pay commission monthly through Freelancer.\n\nThe store, domain and related accounts will be in my business name, and I'll give you full staff access to work on everything.\n\nIf you're interested, please send me:\n- Screenshots of Shopify stores you've run, showing real sales\n- 2 or 3 high-ticket product ideas you think would sell in the UK, with rough profit figures\n- How you'd go about getting the first sales\n\nI want to work with someone who's done this before and can show it, so please only apply if you have real results.\n\nThanks, and I look forward to hearing from you.",
-  "budget": 3.0,
-  "budget_min": 2.0,
-  "currency": "GBP",
-  "posted_at": "2026-11-26T00:28:51+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 1,
-   "summary_ru": "Заказчик ищет партнёра для запуска и ведения дропшиппинг-магазина на Shopify с высокой стоимостью товаров в Великобритании. Оплата только комиссионная (30% чистой прибыли), без фиксированной оплаты за разработку, и нужны реальные результаты продаж.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли здесь разработка сайта, или заказчик ищет только партнёра для поиска товаров и ведения продаж за комиссию?"
-   ]
-  },
-  "found_at": "2026-11-26T00:37:57+00:00"
- },
- {
-  "id": "freelancer:40836090",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-design/Shopify-Homepage-Retailer-Updates",
-  "title": "Shopify Homepage & Retailer Updates",
-  "description": "I’m ready to give my Shopify store a polished, high-end look while tidying up a couple of content chores.\n\nPaying $60 AUD\n\nFirst, I need the “Find a Retailer” page updated with a fresh list of stockists. Just drop in the new retailers, make sure addresses are correct, and confirm they display cleanly on the page (map pins or a well-formatted list—whatever matches the current setup).\n\nSecond, I have a new item that belongs under an existing product listing. images, pricing, and copy so it flows seamlessly with the current product family and inherits the theme’s styling.\n\nFinally—and most importantly—I want the home page redesigned so that the brand feels elegant and luxurious with refined details. The goal is to elevate perceived value, not shout about discounts. Here’s the creative scope:\n\n• Refresh the hero banner and supporting imagery with striking, on-brand visuals. \n• Rework product highlight sections and their calls to action so they guide shoppers naturally to purchase. \n• Tweak the entire layout, colour palette, typography, and any visual accents until the page reads premium, professional, and cohesive. \n\nSubtle animations, generous white space, and a performance-minded build are all welcome. Liquid, CSS, and any Shopify 2.0 customisations should stay organised so I can adjust copy and assets later without digging through code.\n\nWhen you reply, please share two or three live Shopify sites you’ve built in a luxury or high-end niche, indicate your turnaround time, and flag any theme or app dependencies you expect. I’ll supply product assets and retailer details as soon as we start.",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "AUD",
-  "posted_at": "2026-11-26T00:27:13+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 4,
-   "summary_ru": "Клиент хочет переделать главную страницу Shopify-магазина в более премиальный стиль, обновить страницу «Find a Retailer» с новыми магазинами-партнёрами и добавить новый товар в существующую линейку. Бюджет указан противоречиво: 250 AUD и $60 AUD.",
-   "reply": "From what I read, you want the Shopify homepage restyled into a more premium, cohesive look, plus a refreshed \"Find a Retailer\" page with new stockists and a new product added to an existing family. I'd work inside your current theme using organised Liquid sections and CSS variables, so the palette, typography and hero imagery can be adjusted later without digging through code. Retailer data can go into a clean list or map block, and the new product would inherit the existing styling. For this scope I'd estimate about a week for the homepage and a few days for the other two parts. For live demos, see https://grachoffprod.github.io/portfolio/\n\nCould you confirm whether the total budget is 250 AUD or the $60 AUD mentioned in the description? Which theme are you running, and do you have brand guidelines or a moodboard for the palette?\n\nYakov",
-   "reply_ru": "Насколько я понял, вам нужно переделать главную страницу Shopify в более премиальном и цельном стиле, обновить страницу «Find a Retailer» с новыми магазинами-партнёрами и добавить новый товар в существующую линейку. Я бы работал внутри вашей текущей темы, используя аккуратные Liquid-секции и CSS-переменные, чтобы палитру, типографику и hero-изображения можно было менять потом без копания в коде. Данные о магазинах можно вывести в чистом списке или на карте, а новый товар унаследует существующие стили. Для такого объёма я оцениваю около недели на главную страницу и несколько дней на две другие части. Живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nПодскажите, бюджет 250 AUD на всё или $60 AUD, которые указаны в описании? На какой теме работает магазин, и есть ли у вас брендбук или мудборд для палитры?\n\nYakov",
-   "questions": [
-    "Бюджет 250 AUD — это общая сумма за все три части или $60 AUD?",
-    "На какой теме Shopify работает магазин и есть ли доступ к коду темы?",
-    "Есть ли у вас брендбук или мудборд, которые задают палитру и типографику?"
-   ]
-  },
-  "found_at": "2026-11-26T00:37:57+00:00"
- },
- {
-  "id": "freelancer:40836086",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-design/Back-Office-Reporting-Dashboard",
-  "title": "Back-Office Reporting Dashboard",
-  "description": "I need a streamlined back-office system whose sole focus is letting me view reports and business data pulled directly from my existing website/online store. The core deliverable is a web-based dashboard that automatically fetches and aggregates live data, then presents it in three clear report sections:\n\n• Sales and revenue reports \n• Customer activity reports \n• Staff performance reports \n\nKey requirements \n– Secure API or database connection to the current e-commerce platform so the figures stay up-to-date. \n– Interactive filters for date range, product, staff member, and customer segment. \n– Export options (CSV and PDF) for each report. \n– Simple role-based access so managers see all data while staff view only the parts relevant to them. \n– Clean, responsive UI that works on desktop and tablet.\n\nI’m open to proven stacks such as Laravel, Django, Node.js, or similar; what matters most is reliability and clear documentation so I can maintain the system after hand-off. If you have experience turning raw store data into meaningful insights, I’d love to see a quick outline of your approach and any related dashboards you’ve built.",
-  "budget": 25.0,
-  "budget_min": 15.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T00:23:59+00:00",
-  "lang": "es",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 4,
-   "summary_ru": "Нужен веб-дашборд для бэк-офиса, который подтягивает живые данные из существующего интернет-магазина по API или из БД и показывает отчёты по продажам, активности клиентов и работе персонала. Требуются фильтры, экспорт в CSV/PDF и разграничение доступа по ролям. Бюджет очень небольшой для такого объёма.",
-   "reply": "Entiendo que necesitas un panel back-office que muestre ventas, actividad de clientes y rendimiento del personal con datos en vivo de tu tienda, con filtros, exportación a CSV/PDF y roles de acceso. Lo desarrollaría con Laravel o Node.js, conectándome a la API o a la base de datos de tu plataforma en modo solo lectura, y dejaría documentación clara para que puedas mantenerlo después de la entrega. Dado el presupuesto, propongo empezar por el reporte de ventas con filtros y exportación, y añadir después los módulos de clientes y personal junto con los roles. Para el primer módulo calculo unos 3–4 días; el alcance total dependerá de lo que acordemos.\n\n¿Qué plataforma de e-commerce usas y qué acceso tienes a sus datos (API, base de datos o exportaciones)?\n¿Cuántos usuarios necesitarían acceso y qué permisos exactos tendría cada rol?\n\nPuedes ver demos en vivo en: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Понимаю, что вам нужна панель бэк-офиса, которая показывает продажи, активность клиентов и работу персонала на основе живых данных магазина, с фильтрами, экспортом в CSV/PDF и ролями доступа. Я бы разработал её на Laravel или Node.js, подключаясь к API или базе данных вашей платформы в режиме только для чтения, и подготовил бы понятную документацию, чтобы систему можно было поддерживать после сдачи. С учётом бюджета предлагаю начать с отчёта по продажам с фильтрами и экспортом, а затем добавить модули по клиентам и персоналу и роли. На первый модуль оцениваю 3–4 дня; общий объём будет зависеть от того, что мы согласуем.\n\nКакой у вас e-commerce и какой доступ к данным есть (API, база данных или выгрузки)?\nСколько пользователей понадобится и какие именно права должны быть у каждой роли?\n\nДемо в реальном времени можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какой у вас интернет-магазин и какой доступ к данным есть (API, база данных или выгрузки)?",
-    "Сколько пользователей понадобится и какие права должны быть у каждой роли?"
-   ]
-  },
-  "found_at": "2026-11-26T00:37:57+00:00"
- },
- {
-  "id": "freelancer:40836080",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/product-development/Innovative-App-Website-Ideas-Researcher",
-  "title": "Innovative App & Website Ideas Researcher – Find Unique Software Business Opportunities",
-  "description": "I'm looking for a creative and innovative person who can identify unique opportunities for new mobile applications and web-based software products.\n\nThe goal is to discover original app or website ideas that solve real-world problems and provide genuine value to people's everyday lives.\n\nI'm not looking for ordinary ideas such as social media apps, food delivery platforms, shopping websites, or existing AI tools.\n\nI want someone who can think beyond existing products, research the current market, identify overlooked problems, and propose innovative software solutions that have not already been implemented in the same way.\n\nResponsibilities\n\nResearch existing applications, websites, and software products.\n\nIdentify problems that people experience in their daily lives.\n\nDiscover opportunities that existing software does not adequately address.\n\nGenerate 10–20 original app or website concepts.\n\nCheck whether similar products or solutions already exist.\n\nExplain what makes each idea different and innovative.\n\nEvaluate the technical feasibility and business potential of each idea.\n\nRecommend the 3 most promising ideas for development.\n\nDeliverables\n\nFor each proposed idea, provide:\n\nProduct name and concept.\n\nThe real-world problem it solves.\n\nHow the application or website works.\n\nTarget audience.\n\nMain features.\n\nWhat makes it different from existing solutions.\n\nCompetitor and market research.\n\nTechnical implementation possibilities.\n\nPotential business model.\n\nMVP development roadmap.\n\nRequired Skills\n\nInnovation and creative thinking.\n\nProduct research and market analysis.\n\nSoftware product development knowledge.\n\nMobile app and web application knowledge.\n\nBusiness analysis.\n\nProblem-solving and research skills.\n\nImportant\n\nI am looking for genuinely original concepts, not simple copies or variations of existing applications.\n\nPlease provide examples of innovative ideas you have researched or developed previously.\n\nThe quality, originality, and practical value of the ideas are more important than the quantity.\n\nno price deadline for each ideas and production.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T00:19:22+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "saas",
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "mvp",
-   "score": 2,
-   "summary_ru": "Заказчик ищет исследователя, который придумает 10–20 оригинальных идей мобильных приложений и веб-сервисов, проанализирует конкурентов и рекомендует 3 лучшие. Это исследование и бизнес-анализ, а не разработка, поэтому проект не подходит под услуги Ярова.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли вам только концепция и исследование, или после выбора идеи планируется разработка MVP?",
-    "Какой результат нужен в итоге: презентация, документ или прототип?"
-   ]
-  },
-  "found_at": "2026-11-26T00:37:57+00:00"
- },
- {
-  "id": "freelancer:40836078",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Boost-Google-PageSpeed-Scores-Shopify",
-  "title": "Boost Google PageSpeed Scores - Shopify Store",
-  "description": "My site needs a solid performance tweak so it can climb higher in Google search results. My website is https://earphoneguy.com\n\nThe priority is to raise our Google PageSpeed Insights scores for both mobile and desktop. That means:\n\n• auditing the current build \n• removing or deferring render-blocking CSS/JS, optimising images, and setting up smart caching and compression \n• improving Core Web Vitals—especially LCP, FID, and CLS—until they sit comfortably in the “Good” range\n\nWhen you’re done I’d like a before-and-after report straight from Google PageSpeed Insights plus a short summary of the changes you made so I can maintain them going forward. If anything in the stack (plugins, hosting settings, CDN, etc.) is a bottleneck, flag it and suggest fixes.\n\nI am looking for a quick turnaround.",
-  "budget": 30.0,
-  "budget_min": 10.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T00:18:12+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 5,
-   "summary_ru": "Клиент просит ускорить интернет-магазин на Shopify (earphoneguy.com): поднять оценки Google PageSpeed для мобильных и десктопных версий, улучшить Core Web Vitals (LCP, FID, CLS), а затем предоставить отчёт до и после и краткую инструкцию по поддержке. Бюджет небольшой (30 USD), срок нужен быстрый.",
-   "reply": "You want earphoneguy.com to score better on PageSpeed for both mobile and desktop, with LCP, FID and CLS in the Good range, plus a before-and-after report and notes to keep the results. My plan is to run a baseline audit first, then defer or remove render-blocking scripts and CSS, trim unused theme code and third-party app scripts, and convert and lazy-load images with fixed dimensions to stop layout shifts. I'd also check the theme and app setup for bottlenecks and suggest caching and compression fixes. I can deliver the core fixes in about 2–3 days, depending on how many apps are installed. Two questions: do you have admin access to the Shopify store and theme, and which apps load on your product pages?\n\nSee the portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите, чтобы earphoneguy.com получил лучшие оценки в PageSpeed для мобильной и десктопной версии, с показателями LCP, FID и CLS в зелёной зоне, а также отчёт до и после и заметки, как сохранить результат. Мой план: сначала провести базовый аудит, затем отложить или убрать блокирующие рендеринг скрипты и CSS, очистить неиспользуемый код темы и скрипты сторонних приложений, а также конвертировать и лениво загружать изображения с заданными размерами, чтобы убрать сдвиги верстки. Ещё я проверю тему и приложения на узкие места и предложу исправления по кэшированию и сжатию. Основные правки могу сделать примерно за 2–3 дня, в зависимости от количества установленных приложений. Два вопроса: есть ли у вас админ-доступ к магазину Shopify и теме, и какие приложения подгружаются на страницах товаров?\n\nПосмотреть портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли у вас админ-доступ к магазину Shopify и к теме оформления?",
-    "Какие приложения и сторонние скрипты сейчас подгружаются на страницах товаров?"
-   ]
-  },
-  "found_at": "2026-11-26T00:37:57+00:00"
- },
- {
-  "id": "freelancer:40836066",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/administrative-support/Female-Executive-Assistant",
-  "title": "Female LA Executive Assistant",
-  "description": "I’m looking for a sharp, highly-organized female executive assistant based in (or very familiar with) Los Angeles who can take full ownership of my calendar and meeting flow. Your core mission is to keep my day running smoothly by:\n\n• Scheduling and rescheduling every appointment without the back-and-forth \n• Preparing and sending polished meeting invites, reminders, and concise agendas ahead of time \n• Coordinating attendees, physical or virtual locations, dial-ins, and any last-minute changes so everyone shows up prepared \n\nI already use a mix of tools—Google Calendar, Outlook, Zoom, Teams, and the occasional Calendly link—so you’ll be comfortable hopping between platforms and suggesting better workflows when you spot an opportunity.\n\nSuccess looks like a conflict-free calendar, punctual meetings, and stakeholders who always know exactly where to be and what’s expected of them. If you thrive on details, proactive communication, and keeping busy executives on schedule, let’s talk.",
-  "budget": 100.0,
-  "budget_min": 20.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T00:05:51+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "booking"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "booking",
-   "score": 1,
-   "summary_ru": "Нужен исполнительный ассистент в Лос-Анджелесе, который будет вести календарь руководителя: назначать и переносить встречи, рассылать приглашения и повестки, координировать участников и площадки. Это работа ассистентом, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
-  },
-  "found_at": "2026-11-26T00:37:57+00:00"
- },
- {
-  "id": "freelancer:40836051",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Website-With-Booking-WhatsApp-Alerts",
-  "title": "Website With Booking & WhatsApp Alerts",
-  "description": "I need a clean, professional business site whose core feature is an online booking system. Visitors must be able to see available dates and times, choose a slot, and confirm it in real-time. The moment a booking is completed I want the full reservation details pushed automatically to my WhatsApp so I can reply on the go; I do not plan to manage bookings inside the site or by email.\n\nKey expectations \n• Responsive design that feels intuitive on mobile and desktop. \n• Clear step-by-step flow for the user: select service → pick date/time → enter contact info → instant confirmation message. \n• WhatsApp API or approved integration that forwards each reservation with customer name, chosen slot and any notes. \n• Simple way for me to adjust available time slots and blackout dates without touching code.\n\nHand-off deliverables: finished site on my hosting, admin credentials, and a short walkthrough video so I can update schedule settings myself.\n\nIf you have a preferred framework or plugin for the booking calendar, mention it; performance and ease of use are my top priorities.",
-  "budget": 50.0,
-  "budget_min": 25.0,
-  "currency": "USD",
-  "posted_at": "2026-11-25T23:44:13+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "booking",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "booking",
-   "score": 4,
-   "summary_ru": "Клиент хочет чистый адаптивный сайт с онлайн-записью: выбор услуги, даты и времени в реальном времени, контактные данные и мгновенное подтверждение. Каждое бронирование должно автоматически отправляться в WhatsApp, а расписание и выходные дни нужно менять без кода. Бюджет 50 USD для такого объёма низкий.",
-   "reply": "You want a clean booking site where visitors pick a service, see open slots, and confirm instantly, with each reservation forwarded to your WhatsApp right away. I would build a responsive site with a step-by-step flow, plus a simple admin panel for editing time slots and blackout dates without touching code. For the WhatsApp alerts I would use the WhatsApp Business API or a provider such as Green API or Twilio, depending on what you can set up. A rough timeline is 1–2 weeks for the core, including hosting setup, admin access, and a short walkthrough video. Two questions before I start: do you already have a WhatsApp Business account with a number approved for API use, and how many services or staff calendars do you need?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен чистый сайт с онлайн-записью: посетитель выбирает услугу, видит свободные слоты и мгновенно подтверждает бронь, а каждая запись сразу уходит в ваш WhatsApp. Я бы сделал адаптивный сайт с пошаговым сценарием и простую админ-панель для редактирования слотов и выходных дней без работы с кодом. Для уведомлений в WhatsApp использовал бы WhatsApp Business API или сервис вроде Green API или Twilio, в зависимости от того, что вам доступно. Ориентировочный срок — 1–2 недели на основной функционал, включая настройку хостинга, доступы в админку и короткое видео-руководство. Два вопроса перед стартом: есть ли у вас аккаунт WhatsApp Business с номером, одобренным для API, и сколько услуг или календарей сотрудников нужно вести?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли у вас аккаунт WhatsApp Business с номером, подходящим для API?",
-    "Сколько услуг или календарей сотрудников нужно вести в системе?"
-   ]
-  },
-  "found_at": "2026-11-26T00:37:57+00:00"
- },
- {
-  "id": "freelancer:40835670",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/embedded-systems/ESP-RGB-TFT-PCB-Upgrade",
-  "title": "ESP32-S3 RGB TFT PCB Upgrade urgent",
-  "description": "ESP32-S3 Raw TFT LCD Integration & PCB Modification – Urgent\n\nLooking for an experienced embedded hardware engineer to integrate a 4.3″ or 5″ raw RGB TFT display (40-pin FPC, 24-bit RGB) with an existing ESP32-S3-based PCB with limited available GPIOs.\n\nThe scope includes technical consultation, cost-effective display-driving solutions, existing PCB modification, touchscreen integration, and full UI/firmware updates through OTA.\n\nOnly applicants with relevant hands-on experience should apply. Please briefly explain your proposed solution, previous experience, cost, and delivery timeline.\n\nThis is an urgent project. Preference will be given to technically qualified applicants offering the lowest reasonable bid. Detailed specifications will be shared privately.",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "USD",
-  "posted_at": "2026-11-25T17:33:39+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "api_integration",
-   "score": 2,
-   "summary_ru": "Срочный заказ на интеграцию 4.3–5\" RGB TFT-дисплея с ESP32-S3 через модификацию существующей платы, с сенсорным экраном и обновлением UI и прошивки по OTA. Основная часть работы — аппаратная разработка и изменение PCB, что не входит в услуги Yakov.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Какая часть работы относится к программной (прошивка и UI), а какая к изменению самой платы?",
-    "Есть ли у вас схемы и сборочный чертёж текущей платы, и кто будет выполнять физическую доработку?"
-   ]
-  },
-  "found_at": "2026-11-25T23:41:50+00:00"
- },
- {
-  "id": "freelancer:40836039",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/facebook-ads/Optimize-Shopify-Campaigns",
-  "title": "Optimize Shopify Ad Campaigns",
-  "description": "E-commerce Digital Marketing & Sales Specialist\n\nI’m looking for an affordable, experienced digital marketing specialist to increase sales for my Shopify clothing store. I’m currently running Instagram ads but not generating enough sales.\n\nI need someone who can develop and manage an effective marketing strategy using Google Ads, Google Shopping, Facebook, Instagram, SEO, retargeting, and other relevant marketing channels.\n\nThe primary goal is to increase overall sales, attract new and returning customers, and maximize return on advertising spend while keeping costs low.\n\nPlease provide your rates, recommended strategy, and previous e-commerce results.",
-  "budget": 30.0,
-  "budget_min": 10.0,
-  "currency": "USD",
-  "posted_at": "2026-11-25T23:34:35+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 1,
-   "summary_ru": "Клиент с магазином одежды на Shopify ищет маркетолога для настройки рекламы в Google Ads, Google Shopping, Facebook и Instagram, а также SEO и ретаргетинга. Бюджет 30 USD. Задача связана с маркетингом и ведением рекламы, а не с разработкой.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли вам техническая доработка самого магазина Shopify, например, подключение пикселей, интеграций или изменение шаблона?",
-    "Какой объём работ вы предполагаете за 30 USD: разовый аудит или постоянное ведение рекламы?"
-   ]
-  },
-  "found_at": "2026-11-25T23:41:50+00:00"
  }
 ]
