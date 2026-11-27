@@ -1,5 +1,370 @@
 [
  {
+  "id": "freelancer:40839376",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/Real-Estate-Appointment-Setter-Calls",
+  "title": "Real-Estate Appointment Setter Calls",
+  "description": "I need a sharp, friendly voice to jump on the phone with prospects who have already reached out about one of my apartments. Your entire focus is to turn their initial inquiry into a confirmed viewing on my calendar.\n\nHere’s the flow I’d like you to follow: call back the warm lead, confirm their preferred viewing time along with a good phone number and email address, then secure the slot directly in my calendar while we’re still on the line. Once it’s locked in, fire a quick confirmation text or email so they have the details handy.\n\nThe role fits someone who speaks clearly with little-to-no accent detectable to a U.S. renter. Solid familiarity with any basic CRM or call-tracking tool will make the process smoother, but what really matters is a confident, upbeat tone and the ability to keep conversations concise.\n\nDeliverables \n• Daily call log with outcome notes \n• Calendar invite for every booked viewing \n• Same-day message confirmations to the prospect\n\nI’m looking to start right away and will keep the workflow steady as new inquiries roll in.",
+  "budget": 15.0,
+  "budget_min": 8.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T23:43:45+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Клиент ищет человека для телефонных звонков потенциальным арендаторам квартир: назначить показ и внести его в календарь. Это работа по обзвону и продажам, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839375",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/dropshipping/Shopify-Dropshipping-Growth-Partner-40839375",
+  "title": "Shopify US Dropshipping Growth Partner Needed",
+  "description": "Hi everyone,\n\nI am looking for an experienced e-commerce operator or Shopify growth partner to build, launch, and scale a US-focused Shopify dropshipping store from scratch using AliExpress, DSers, or CJdropshipping.\n\nWhat I am bringing to the table:\n• 100% of the funding: I am covering all costs—Shopify subscription, apps, domain, product testing, and a dedicated ad budget per month.\n\n• Ready-to-go payment setup: US payment gateways are already integrated so we can process US orders smoothly from day one.\n\nWhat I need from you:\n\n• Winning Product Research (AliExpress): Identifying high-demand, high-margin winning products for the US market from vetted, reliable AliExpress suppliers with fast US shipping options (e.g., AliExpress Choice / 5–10 day delivery).\n\n• Full Shopify Store Design & Setup: Designing a clean, high-converting, branded Shopify store and product pages.\n\n• Paid Ads Management: Setting up, testing, and scaling profitable ad campaigns targeting the US market (Meta Ads and/or TikTok Ads).\n\n• Ad Creatives & Angles: Scripting, sourcing, or editing high-converting UGC/video creatives for testing.\n\n• Store & CRO Optimization: Managing product pages, offers, bundles, and store tweaks to maximize conversion rates and AOV.\n\n• Daily Operations: Overseeing product research and store management.\n\nCompensation Structure:\n• Profit-Share Partnership: I am offering a competitive percentage of Net Profit (calculated transparently after deducting COGS, shipping, ad spend, and payment processing fees).\n\nRequirements (Please read before applying):\n\n1. Proven US Market Experience: You must have verifiable case studies running profitable Meta or TikTok ads for US e-commerce/dropshipping brands.\n\n2. Live Proof: Please be ready to show live ad manager or Shopify dashboard results on a quick video call (no edited screenshots).\n\n3. Clear Communication: Transparent daily/weekly reporting on ad spend, ROAS, and net margins.\n\nHow to Apply:\nSend me a message with:\n\n1. A brief overview of your experience building and scaling US dropshipping stores.\n\n2. Links to 1–2 stores you have designed or managed, along with ad results (spend, ROAS, or net profit).\n\n3. Your preferred profit-share percentage and availability to start.\n\nLooking forward to building a long-term, profitable partnership!",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T23:42:48+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчик ищет партнёра для запуска и масштабирования дропшиппинг-магазина на Shopify под рынок США с оплатой по схеме доли от чистой прибыли. Основная часть работы - поиск товаров, ведение рекламы в Meta/TikTok, создание креативов и операционное управление, а не разработка, и требуется подтверждённый опыт прибыльных рекламных кампаний.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли фиксированный бюджет на разработку магазина, или оплата только в виде процента от прибыли?",
+    "Нужна ли только техническая настройка и дизайн магазина, без ведения рекламы и поиска товаров?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839373",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/magento/Magento-Cursor-Assisted-Developer",
+  "title": "Magento – Cursor / AI-Assisted Developer Required",
+  "description": "# Urgent Magento 2 Rebuild – Ecommerce Recovery, Odoo Integration & AI-Assisted Development\n\nWe are seeking an experienced Magento developer to urgently rebuild our established Australian ecommerce business on the latest stable version of Magento 2.\n\nOur existing on-premises server suffered a cybersecurity incident resulting in the deletion of virtual hard disks. We have decided to establish a completely fresh, secure environment on hosted infrastructure rather than restore our obsolete production environment.\n\n**We have already recovered and recompiled a product database from alternative data sources.** This database will be made available to the successful developer as the foundation for the new Magento 2 installation. We require assistance with validating, mapping and importing this data, rather than reconstructing the entire database from scratch.\n\n**Mandatory: You must actively use AI development tools such as Cursor, Claude Code or equivalent.** These tools must be used for code analysis, development, data transformation, debugging, testing and documentation. Traditional development without AI coding tools is not of interest, and we expect project costs and timeframes to reflect the productivity improvements available through these tools.\n\n## 1. Previous Environment\n\nOur previous production environment consisted of:\n\n- Magento Community 1.9 with customisations and extensions.\n- Odoo 10 Community – Python/PostgreSQL ERP.\n- Webkul Magento–Odoo Bridge.\n- eBay → Odoo → Magento product workflow.\n- Microsoft 365 email.\n- Zebra printers with custom barcode and label printing functionality.\n- eBay and Amazon sales channels.\n- Google Shopping integration through Magento.\n- Australian and international ecommerce checkout.\n- On-premises Hyper-V infrastructure running Debian 9.\n\nWe do not intend to recreate the obsolete operating system or legacy infrastructure.\n\n## 2. Recovered Product Database\n\nWe have already recovered and recompiled a product database using surviving data and alternative sources.\n\nThe developer will be provided with this database for analysis, validation and import into Magento 2.\n\nThe required work includes:\n\n- Audit the recovered product database.\n- Map existing data to Magento 2 product attributes.\n- Resolve duplicate SKUs and inconsistent records.\n- Import product titles, descriptions and images.\n- Reconstruct categories and configurable products where required.\n- Validate pricing and inventory information.\n- Preserve supplier references.\n- Preserve existing SEO URLs and metadata wherever available.\n- Develop repeatable import scripts for future product updates.\n- Identify and resolve any missing or incomplete product information.\n\nAdditional product information can be sourced from:\n\n- Existing eBay listings.\n- Amazon product listings.\n- Supplier databases and product feeds.\n- Google Merchant Center.\n- Previously exported product data.\nWe will assist with recovery\n\nWe do not require historical customer and order databases to be reconstructed as part of this project.\n\n## 3. Immediate Priority – Restore Ecommerce Operations\n\nOur immediate objective is to establish a functional, secure ecommerce website as quickly as reasonably possible.\n\nThe availability of a recompiled product database should substantially reduce the initial development and data migration workload.\n\nThe project should be divided into phases so that business operations can resume without waiting for every historical customisation and integration to be completed.\n\n### Phase 1 – Minimum Viable Production Website\n\n- Provision secure hosted infrastructure.\n- Install and configure the latest stable Magento 2 release.\n- Establish staging and production environments.\n- Validate and import the recovered product database.\n- Configure a suitable responsive theme.\n- Configure payment processing.\n- Configure shipping and checkout.\n- Configure Australian GST and international sales.\n- Configure Microsoft 365 transactional email.\n- Configure Cloudflare.\n- Implement automated offsite backups.\n- Test and launch the website.\n\n### Phase 2 – Product Catalogue Refinement\n\n- Resolve outstanding product data issues.\n- Complete any missing product information.\n- Refine categories and configurable products.\n- Validate product images, pricing and inventory.\n- Establish repeatable product import and update processes.\n- Preserve historical SEO URLs and implement redirects wherever possible.\n- Establish Google Shopping integration.\n\n### Phase 3 – Customisations and Integrations\n\nRecreate essential business functionality without unnecessarily reproducing legacy code or obsolete architecture.\n\nParticularly important is our **Zebra barcode and label printing functionality**, which must work with our existing hardware and business workflows.\n\nWhere modern extensions or simpler solutions exist, we prefer these over recreating historical custom modules.\n\n## 4. Odoo and Inventory Management\n\nOur previous Odoo usage was relatively simple:\n\n- Import products from eBay into Odoo.\n- Export products from Odoo to Magento.\n- Maintain product and inventory reference information.\n\nWe do not use Odoo for accounting, order processing or fulfilment.\n\nOur previous Magento stock synchronisation was non-functional, and we do not want to recreate an unnecessarily complicated integration.\n\nWe are open to:\n\n- Installing a current supported version of Odoo Community.\n- Replacing the Webkul connector.\n- Developing a lightweight API-based integration.\n- Using Magento as the central product database.\n- Replacing Odoo entirely if a simpler, more reliable solution meets our requirements.\n\nThe developer should recommend the most cost-effective architecture based on our actual operational requirements rather than automatically recreating the previous system.\n\n## 5. Other Integrations\n\n- Microsoft 365 transactional email.\n- Payment gateway integration, with the final provider to be confirmed.\n- Australian and international shipping.\n- Australian GST.\n- eBay and Amazon product management.\n- Google Shopping.\n- API access for Claude and GrokBot automation.\n- Future AI-assisted product management and business automation.\n\nWe want the new architecture to support automated business processes and AI agents without requiring extensive manual intervention.\n\n## 6. Infrastructure and Cybersecurity\n\nFollowing the recent cybersecurity incident, security and recoverability are mandatory requirements.\n\nThe new environment must include:\n\n- Modern, supported Linux operating system.\n- Secure hosted infrastructure.\n- Separate staging and production environments.\n- SSH key-based authentication.\n- Restricted administrative access.\n- Multifactor authentication where supported.\n- Firewall configuration and server hardening.\n- Cloudflare integration.\n- Secure API credential management.\n- Automated security updates where appropriate.\n- Application and server logging.\n- Monitoring and security alerts.\n- Automated database and application backups.\n- Independent offsite backups with version retention and protection against unauthorised deletion.\n- Documented and tested disaster recovery procedures.\n\nRecovered data must be validated before being",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-27T23:41:54+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "automation",
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Восстановление интернет-магазина на Magento 2 на новом хостинге: аудит и импорт восстановленной базы товаров, затем интеграции с Odoo, eBay и Amazon по фазам. Требуется обязательное использование ИИ-инструментов разработки. Бюджет 750 AUD, при этом объём работ большой.",
+   "reply": "You need a Magento 2 store rebuilt on fresh hosting, with the recovered product catalogue audited, mapped and imported, and the Odoo, eBay and Amazon links restored in later phases. I'd start with the data: check the recovered set, resolve duplicate SKUs and gaps, and write repeatable import scripts so the catalogue can be reloaded and updated without manual rework. I use AI coding assistants daily for analysis, scripting and testing, which matches your requirement. For Phase 1 (hosting, Magento install, import, theme, checkout and GST setup) I'd estimate 3–4 weeks, and I'd confirm that after reviewing a sample of the data. Two questions: what format is the recovered product database in (CSV, SQL dump), and roughly how many SKUs does it contain? Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно пересобрать магазин на Magento 2 на новом хостинге: провести аудит восстановленной базы товаров, сопоставить данные, импортировать их, а интеграции с Odoo, eBay и Amazon вернуть на следующих этапах. Я бы начал с данных: проверил бы восстановленный набор, устранил дубли SKU и пробелы, и написал бы повторяемые скрипты импорта, чтобы каталог можно было перезагружать и обновлять без ручной работы. Я ежедневно использую ИИ-ассистенты для разработки: анализа, скриптов и тестирования, это соответствует вашему требованию. Для первого этапа (хостинг, установка Magento, импорт, тема, оформление заказа и настройка GST) оцениваю срок в 3–4 недели, точнее подтвержу после просмотра образца данных. Два вопроса: в каком формате восстановленная база товаров (CSV, SQL-дамп) и примерно сколько в ней SKU? Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "В каком формате находится восстановленная база товаров (CSV, SQL-дамп, другое)?",
+    "Примерно сколько SKU в базе и насколько много в ней дублей и неполных записей?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839370",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/dropshipping/Shopify-Dropshipping-Growth-Partner-40839370",
+  "title": "US Shopify Dropshipping Growth Partner",
+  "description": "Hi everyone,\n\nI am looking for an experienced e-commerce operator or Shopify growth partner to build, launch, and scale a US-focused Shopify dropshipping store from scratch using AliExpress, DSers, or CJdropshipping.\n\nWhat I am bringing to the table:\n• 100% of the funding: I am covering all costs—Shopify subscription, apps, domain, product testing, and a dedicated ad budget per month.\n\n• Ready-to-go payment setup: US payment gateways are already integrated so we can process US orders smoothly from day one.\n\nWhat I need from you:\n\n• Winning Product Research (AliExpress): Identifying high-demand, high-margin winning products for the US market from vetted, reliable AliExpress suppliers with fast US shipping options (e.g., AliExpress Choice / 5–10 day delivery).\n\n• Full Shopify Store Design & Setup: Designing a clean, high-converting, branded Shopify store and product pages.\n\n• Paid Ads Management: Setting up, testing, and scaling profitable ad campaigns targeting the US market (Meta Ads and/or TikTok Ads).\n\n• Ad Creatives & Angles: Scripting, sourcing, or editing high-converting UGC/video creatives for testing.\n\n• Store & CRO Optimization: Managing product pages, offers, bundles, and store tweaks to maximize conversion rates and AOV.\n\n• Daily Operations: Overseeing product research and store management.\n\nCompensation Structure:\n• Profit-Share Partnership: I am offering a competitive percentage of Net Profit (calculated transparently after deducting COGS, shipping, ad spend, and payment processing fees).\n\nRequirements (Please read before applying):\n\n1. Proven US Market Experience: You must have verifiable case studies running profitable Meta or TikTok ads for US e-commerce/dropshipping brands.\n\n2. Live Proof: Please be ready to show live ad manager or Shopify dashboard results on a quick video call (no edited screenshots).\n\n3. Clear Communication: Transparent daily/weekly reporting on ad spend, ROAS, and net margins.\n\nHow to Apply:\nSend me a message with:\n\n1. A brief overview of your experience building and scaling US dropshipping stores.\n\n2. Links to 1–2 stores you have designed or managed, along with ad results (spend, ROAS, or net profit).\n\n3. Your preferred profit-share percentage and availability to start.\n\nLooking forward to building a long-term, profitable partnership!",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T23:37:37+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент ищет партнёра для запуска дропшиппинг-магазина на Shopify под US-рынок с оплатой в виде процента от чистой прибыли. Основная часть работы — поиск товаров, настройка и ведение рекламы в Meta/TikTok, создание креативов, а также требование подтверждённого опыта в рекламе. Бюджет 1500 INR и модель profit-share делают проект мало привлекательным.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой фиксированный бюджет предусмотрен за разработку и настройку магазина, без привязки к прибыли?",
+    "Нужна ли только техническая сборка магазина и интеграции, или вы ожидаете ведение рекламы и исследование товаров?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839366",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/dropshipping/Shopify-Growth-Partner-for-Scaling",
+  "title": "Shopify Growth Partner for US Scaling",
+  "description": "Hi everyone,\n\nI am looking for an experienced e-commerce operator or Shopify growth partner to build, launch, and scale a US-focused Shopify dropshipping store from scratch using AliExpress, DSers, or CJdropshipping.\n\nWhat I am bringing to the table:\n• 100% of the funding: I am covering all costs—Shopify subscription, apps, domain, product testing, and a dedicated ad budget per month.\n\n• Ready-to-go payment setup: US payment gateways are already integrated so we can process US orders smoothly from day one.\n\nWhat I need from you:\n\n• Winning Product Research (AliExpress): Identifying high-demand, high-margin winning products for the US market from vetted, reliable AliExpress suppliers with fast US shipping options (e.g., AliExpress Choice / 5–10 day delivery).\n\n• Full Shopify Store Design & Setup: Designing a clean, high-converting, branded Shopify store and product pages.\n\n• Paid Ads Management: Setting up, testing, and scaling profitable ad campaigns targeting the US market (Meta Ads and/or TikTok Ads).\n\n• Ad Creatives & Angles: Scripting, sourcing, or editing high-converting UGC/video creatives for testing.\n\n• Store & CRO Optimization: Managing product pages, offers, bundles, and store tweaks to maximize conversion rates and AOV.\n\n• Daily Operations: Overseeing product research and store management.\n\nCompensation Structure:\n• Profit-Share Partnership: I am offering a competitive percentage of Net Profit (calculated transparently after deducting COGS, shipping, ad spend, and payment processing fees).\n\nRequirements (Please read before applying):\n\n1. Proven US Market Experience: You must have verifiable case studies running profitable Meta or TikTok ads for US e-commerce/dropshipping brands.\n\n2. Live Proof: Please be ready to show live ad manager or Shopify dashboard results on a quick video call (no edited screenshots).\n\n3. Clear Communication: Transparent daily/weekly reporting on ad spend, ROAS, and net margins.\n\nHow to Apply:\nSend me a message with:\n\n1. A brief overview of your experience building and scaling US dropshipping stores.\n\n2. Links to 1–2 stores you have designed or managed, along with ad results (spend, ROAS, or net profit).\n\n3. Your preferred profit-share percentage and availability to start.\n\nLooking forward to building a long-term, profitable partnership!",
+  "budget": 10000.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T23:29:07+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент ищет партнёра для запуска и масштабирования дропшиппинг-магазина на Shopify для рынка США с оплатой по схеме доли от чистой прибыли. Основная часть работы — подбор товаров, управление рекламой в Meta/TikTok, создание креативов и ежедневные операции, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам только разработка и настройка магазина Shopify, или вы ищете партнёра, который будет вести рекламу и операционную работу?",
+    "Есть ли у вас фиксированный бюджет или оплата только в виде процента от прибыли?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839355",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android/Local-Service-Booking-App-Development",
+  "title": "Local Service Booking App Development",
+  "description": "I’m building a mobile app that lets users quickly find and book trusted local providers. The first vertical I want live is data-recovery specialists who can rescue files from damaged USB drives, hard disks, and other failed storage media. Users should be able to browse nearby technicians, read reviews, view pricing, and lock in an appointment without leaving the app.\n\nHere’s the workflow I have in mind:\n• Geo-location surfaces providers within a chosen radius. \n• In-app chat and push notifications streamline pre-booking questions. \n• Simple booking flow captures preferred time, device type, and problem description, then confirms the slot with up-front pricing. \n• A lightweight dashboard lets providers manage availability and mark jobs complete so customers receive status updates in real time.\n\nCore deliverables:\n• iOS and Android builds (React Native or Flutter are both fine). \n• Basic admin panel (web-based) for provider onboarding and job tracking. \n• Secure payment integration (Stripe preferred). \n• Database schema that cleanly separates service categories so I can expand later into home repair, beauty, tutoring, and other verticals.\n\nAcceptance criteria: an end-to-end demo on TestFlight and an Android test track showing a successful booking from user selection to provider confirmation and Stripe test payment.\n\nIf this scope is clear and you’ve shipped similar service-booking apps before, let’s talk timelines and milestones.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T23:28:19+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 2,
+   "summary_ru": "Заказчик хочет создать мобильное приложение для бронирования услуг местных специалистов по восстановлению данных: геопоиск, отзывы, чат, запись с предоплатой, а также веб-админку и dashboard для провайдеров. Объём работ очень большой для бюджета 25 USD.",
+   "reply": "You're building a booking app where customers find nearby data-recovery technicians, compare prices, and reserve a slot, while providers manage availability and job status from a dashboard. The full scope covers iOS and Android builds, an admin panel, geo-search, chat, notifications, and a category-based database, so I'd suggest splitting it into milestones. I'd start with the database schema for service categories, the provider dashboard, and the core booking flow in React Native or Flutter, then add geo-search, chat, and notifications. A first milestone with a working TestFlight and Android test build for the booking flow would take about 2–3 weeks. Should the first milestone focus only on the booking flow with one demo provider, or should the admin panel be included? And which platform matters most to you for the first release?\n\nLive demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы создаёте приложение для бронирования, где клиенты находят ближайших специалистов по восстановлению данных, сравнивают цены и резервируют время, а провайдеры управляют доступностью и статусом заказов через dashboard. Полный объём включает сборки для iOS и Android, админ-панель, геопоиск, чат, уведомления и базу данных с разделением по категориям услуг, поэтому я бы предложил разбить работу на этапы. Я бы начал со схемы базы данных для категорий услуг, панели провайдера и основного потока бронирования на React Native или Flutter, а затем добавил геопоиск, чат и уведомления. Первый этап с рабочими сборками для TestFlight и Android-теста для потока бронирования займёт примерно 2–3 недели. Должен ли первый этап включать только поток бронирования с одним демо-провайдером или также админ-панель? И какая платформа для вас важнее в первом релизе?\n\nЖивые демо находятся в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Нужен ли в первом этапе только поток бронирования с одним демо-провайдером или также админ-панель?",
+    "Какая платформа важнее для первого релиза: iOS или Android?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839358",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Bold-Filmmaker-Portfolio-Website",
+  "title": "Bold Filmmaker Portfolio Website",
+  "description": "I want a visually striking online portfolio that strengthens my personal brand as a filmmaker. The site must feel bold and experimental while remaining intuitive, so visitors can quickly dive into my short films and music videos, then reach out for collaborations or bookings.\n\nCore pages I have in mind are a dynamic home splash, separate galleries for short films and music videos, an about-me section that tells my story, and a contact page with a streamlined inquiry form. Smooth, high-resolution video playback is essential; I’m fine with embeds from Vimeo or self-hosting solutions as long as quality and load speed stay top-tier. Subtle motion graphics, custom typography, and color choices that echo a cinematic vibe will help the design stand out without distracting from the content.\n\nDeliverables:\n• Fully responsive website built in the platform you recommend (WordPress, Webflow, or a lightweight custom build) \n• Two showcase galleries—one for short films, one for music videos—each with thumbnail grids, quick-play overlays, and descriptive metadata \n• Bold, experimental visual theme implemented consistently across all pages \n• SEO-friendly structure with clean URLs and meta tags ready for indexing \n• Contact / booking form routed to my email and a database export option \n• Basic hand-off documentation so I can swap videos or text on my own\n\nIf this aligns with your expertise in cinematic web design, I’m ready to supply raw assets, posters, and behind-the-scenes stills the moment we kick off.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T23:20:51+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 8,
+   "summary_ru": "Портфолио-сайт фильммейкера с адаптивным дизайном, двумя галереями (короткометражки и музыкальные клипы) с быстрым просмотром, страницами «О себе» и «Контакты», формой запроса с отправкой на email и экспортом в базу. Бюджет 1500 USD.",
+   "reply": "You want a portfolio that feels bold and cinematic but stays out of the way of the films: a dynamic home splash, two galleries for shorts and music videos with quick-play overlays, an about page, and a booking form that emails you and exports to a database. I would build it as a lightweight custom site with a Vimeo or self-hosted player, lazy-loaded thumbnails, clean URLs and meta tags, and a short guide so you can swap videos and text yourself. With a modern stack and AI-assisted development, I can deliver a first full version in about 2–3 weeks, with a review after the homepage and gallery templates are ready. Two questions: will the videos be hosted on Vimeo or self-hosted, and do you have a preferred platform, or should I recommend one? You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно портфолио, которое выглядит смело и кинематографично, но не отвлекает от фильмов: динамичная главная страница, две галереи для короткометражек и музыкальных клипов с быстрым просмотром, страница «О себе» и форма бронирования, которая отправляет письма на email и экспортирует данные в базу. Я бы сделал лёгкий сайт на заказ с плеером Vimeo или собственным хостингом видео, ленивой загрузкой миниатюр, понятными URL и мета-тегами, а также короткой инструкцией, чтобы вы сами меняли видео и текст. Благодаря современному стеку и разработке с помощью ИИ-ассистентов я могу сдать первую полную версию примерно за 2–3 недели, с промежуточной проверкой после готовности главной страницы и шаблонов галерей. Два вопроса: видео будут на Vimeo или на собственном хостинге, и есть ли у вас предпочитаемая платформа или посоветовать её? Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Видео будут храниться на Vimeo или вы предпочитаете собственный хостинг?",
+    "Есть ли у вас предпочитаемая платформа (WordPress, Webflow или индивидуальная разработка), или посоветовать вариант?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839353",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/shopify-development/Shopify-Store-Clone-Today-hours",
+  "title": "Shopify Store Clone Today 2 to 3 hours must be able to work together",
+  "description": "IMPORTANT \nMust be able to live chat during the work process with me and guide me what to do when needing my assistance. Due to bad experiences lately any delays between chats project will be cancelled,\nI am unwell and do not have time waiting for when someone is available to chat during the project.\nPlease only apply if this is possible with you.\n\nI have a live Shopify store and a spare domain That I would like connected to shopify. Over the next two-to-three hours I need someone who can jump on a call or chat with me and replicate key parts of the old shop into a brand-new one.\n\nHere is exactly what has to happen during this session:\n\n• Theme & navigation – copy the current theme, page layout, category names, and menu tabs so the new storefront looks identical. \n• Customers – export and import customer names and email addresses only (no order history). \n• Visual assets – upload the new hero banners and a handful of product photos I will provide in real time. \n• Social links – add Facebook, Instagram, and TikTok icons; I’ll supply the URLs as we work. \n• Contact page – embed a Google Map, add a contact-us form, and set up a branded support email. \n• Email routing – forward that new address into my Gmail inbox so I can send and receive seamlessly.\n\nWe will screen-share or stay in live chat; I’ll supply all passwords, graphics, and texts on the spot. You should already know your way around Shopify admin, theme duplication, CSV customer import, and basic DNS / email forwarding.\n\nAcceptance criteria: the new store must load publicly with matching theme and menus, display the provided banners, show social icons that click through correctly, list the contact page with map, and deliver a test message to my Gmail before we finish.\n\nIf you are free right now and confident you can wrap this up in one focused sprint, let’s start immediately.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-27T23:13:45+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент хочет за 2–3 часа клонировать свой Shopify-магазин на новый домен: тема, меню, импорт контактов клиентов, баннеры, соцссылки, страница контактов с картой и формой, а также пересылка почты на Gmail. Бюджет очень низкий (8 AUD), а клиент требует постоянной связи в чате во время работы.",
+   "reply": "You need your current Shopify storefront cloned onto a new store on a spare domain: theme, menus, a customer contact import, banners, social icons, a contact page with a map and form, and branded email forwarded to Gmail, all in one live session. I can handle the setup, theme duplication, CSV import, and DNS/email forwarding using a modern stack and AI-assisted development, which keeps things fast. For a 2–3 hour sprint, I would start with the theme and navigation, then move to assets and the contact page, and finish with DNS and a test email to your Gmail. I can't guarantee an uninterrupted chat window for the whole session, so I'd rather say that upfront. Does the new Shopify store already have a paid plan, and do you have staff access to the current theme?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно перенести текущую витрину Shopify в новый магазин на запасном домене: тему, меню, импорт контактов клиентов, баннеры, иконки соцсетей, страницу контактов с картой и формой, а также пересылку почты на Gmail, всё за одну сессию в реальном времени. Я могу взять на себя настройку, дублирование темы, импорт CSV и DNS/пересылку почты, используя современный стек и ИИ-ассистенты в разработке, что ускоряет работу. Для спринта на 2–3 часа я бы начал с темы и навигации, затем перешёл к графике и странице контактов, а завершил настройкой DNS и тестовым письмом на ваш Gmail. Я не могу гарантировать непрерывную связь в чате на протяжении всей сессии, поэтому говорю об этом сразу. Есть ли у нового магазина Shopify уже оплаченный тариф и есть ли у вас доступ сотрудника к текущей теме?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "У нового магазина Shopify уже есть оплаченный тариф?",
+    "Есть ли у вас доступ сотрудника к текущей теме магазина?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839347",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/product-design/Tarot-Vending-Machine-Design-40839347",
+  "title": "Tarot Vending Machine Design -- 2",
+  "description": "I'm looking for a creative designer to develop a tarot vending machine wrap design. The machine should dispense a printed tarot card with a short reading.\n\nKey Requirements:\n- Modern meets tarot theme\n- Payment system integration for card or phone transactions\n\nIdeal Skills and Experience:\n- Experience in vending machine design\n- Graphic design skills for modern-themed tarot card\n- Knowledge of payment integration systems\n\nYou can check out my chaotic vibe @altar_tarot",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-27T23:08:15+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет дизайнера для оформления обклейки торгового автомата с таро-картами в современном стиле. Основная задача — графический дизайн, а не разработка, и требуется опыт дизайна автоматов.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только графика для обклейки, или заказчик также ожидает программную часть для выдачи карт и интеграцию платежей?",
+    "Есть ли у автомата техническое описание или готовый модуль оплаты, с которым предстоит работать?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839345",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/product-design/Tarot-Vending-Machine-Design",
+  "title": "Tarot Vending Machine Design",
+  "description": "I'm looking for a creative designer to develop a tarot vending machine wrap design. The machine should dispense a printed tarot card with a short reading.\n\nKey Requirements:\n- Modern meets tarot theme\n- Payment system integration for card or phone transactions\n\nIdeal Skills and Experience:\n- Experience in vending machine design\n- Graphic design skills for modern-themed tarot card\n- Knowledge of payment integration systems\n\nYou can check out my chaotic vibe @altar_tarot",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-27T23:08:15+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Заказчик ищет дизайнера для оформления (wrap-дизайн) автомата по продаже карт таро с печатью короткого расклада и современной графики. Основная задача — дизайн, а интеграция платежей упомянута лишь как второстепенное требование.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40839340",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/shopify-site/Reconnect-Meta-Pixel-Shopify",
+  "title": "Reconnect Meta Pixel to Shopify",
+  "description": "My Meta Pixel was previously wired up through the standard Facebook & Instagram app, but right now Events Manager shows zero activity. I need someone who knows how to step outside the automated wizard and do a clean, manual integration of both the Pixel and the Conversions API.\n\nScope of work \n• Audit the current connection inside Shopify admin, Business Manager, and Events Manager, then remove any conflicting or ghost pixels. \n• Manually generate the required access tokens, test events code, and API keys, and install them so the Pixel and Conversions API fire together without duplicates. \n• Configure and verify the full funnel of events—product view, add-to-cart, initiate checkout, purchase, and customer value—confirming each one in real-time inside Events Manager. \n\nAcceptance criteria \n• Events Manager shows healthy activity for every standard and custom event, with no red “duplicate” or “missing parameters” warnings. \n• Test events tool confirms browser + server calls with proper deduplication IDs. \n• A brief hand-off note summarises what was changed and where to update tokens in future.\n\nIf you have recent hands-on experience fixing Meta ↔ Shopify tracking at the API level, I’m ready to give you access today so we can get analytics and ad optimisation back on track.",
+  "budget": 125.0,
+  "budget_min": 75.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T22:59:48+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Нужно восстановить отслеживание Meta Pixel и Conversions API в Shopify: убрать конфликтующие и «призрачные» пиксели, настроить дедупликацию событий и проверить воронку (просмотр, корзина, оформление, покупка) в Events Manager. Бюджет 125 USD, что низко для такого объёма.",
+   "reply": "You want the Meta Pixel and Conversions API working cleanly on your Shopify store again, with the old app-based setup cleaned up and no duplicate events. I would start by auditing the existing pixels in Shopify, Business Manager and Events Manager, removing the ghost ones, then setting up the Pixel and CAPI manually with a shared event_id so browser and server events deduplicate. Next I would test the full funnel (ViewContent, AddToCart, InitiateCheckout, Purchase, and customer value) in Test Events and confirm each one live. I estimate 2 to 3 days, including a short hand-off note on where the tokens are stored. Two questions: do you have admin access to Business Manager and the Shopify store, and are there any custom events beyond the standard funnel? For live demos, see https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно, чтобы Meta Pixel и Conversions API снова корректно работали на вашем магазине Shopify: старая настройка через приложение очищается, дублей событий нет. Я бы начал с аудита существующих пикселей в Shopify, Business Manager и Events Manager, удалил бы «призрачные» и затем настроил Pixel и CAPI вручную с общим event_id, чтобы браузерные и серверные события дедуплицировались. Далее проверил бы всю воронку (ViewContent, AddToCart, InitiateCheckout, Purchase и ценность клиента) в Test Events и подтвердил каждое событие в реальном времени. Оцениваю работу в 2–3 дня, включая короткую заметку о передаче с указанием, где хранятся токены. Два вопроса: есть ли у вас админ-доступ к Business Manager и магазину Shopify, и есть ли кастомные события помимо стандартной воронки? Примеры живых демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас админ-доступ к Business Manager и к магазину Shopify?",
+    "Используются ли кастомные события помимо стандартной воронки (просмотр, корзина, оформление, покупка)?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
+  "id": "freelancer:40822716",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/sales/Need-sales-person-onboarding-for",
+  "title": "Credit Repair Sales & Client Onboarding Specialist",
+  "description": "A1 Credit Repair is Hiring: Sales & Client Onboarding Specialist\n\nWe are looking for a motivated, experienced professional to join our growing credit repair company.\n\nIdeal candidates will have experience in at least one of the following:\n\n* Credit repair sales and client acquisition\n* DisputeFox CRM and credit repair operations\n* Credit repair client onboarding and account management\n* Closing inbound and outbound leads\n* Customer service and client retention\n* Credit education and financial services\n\nResponsibilities:\n\n* Contact interested leads and convert qualified prospects into paying clients\n* Explain our credit repair packages, services, and pricing\n* Assist new clients with enrollment, onboarding, and required documentation\n* Use DisputeFox to review client accounts, track progress, and manage client communication\n* Maintain relationships with existing clients and provide accurate status updates\n* Schedule consultations and follow-up appointments\n* Identify opportunities to introduce clients to additional educational and consulting resources\n* Update customer information and sales activity in our CRM\n\nPreferred Qualifications:\n\n* Previous credit repair industry experience\n* Experience using DisputeFox (strong advantage)\n* Proven sales or appointment-closing experience\n* Excellent written and spoken English\n* Strong communication and organizational skills\n* Experience with GoHighLevel or similar CRM software\n* Ability to work independently and meet performance targets\n\nWhat We Provide:\n\n* Existing business infrastructure and CRM systems\n* Established credit repair packages and service processes\n* Training on our specific workflows\n* Opportunities for long-term work and performance-based compensation\n\nTo Apply:\n\nPlease answer these questions:\n\n1. Have you worked for a credit repair company before?\n2. Have you used DisputeFox? If so, which functions?\n3. Do you have experience closing sales and onboarding clients?\n4. What is your expected hourly rate?\n5. Are you comfortable working with U.S.-based clients by phone, text, and email?\n\nWe are looking for someone who can help us grow, maintain client satisfaction, and support day-to-day operations while following applicable consumer protection and credit repair regulations.",
+  "budget": 75.0,
+  "budget_min": 25.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T22:57:45+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Вакансия сотрудника по продажам и онбордингу клиентов для компании по ремонту кредитной истории. Это найм на работу с почасовой оплатой и бонусами, а не разработка проекта.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь разработка или интеграция с DisputeFox/GoHighLevel, или речь только о трудоустройстве специалиста?"
+   ]
+  },
+  "found_at": "2026-11-27T23:52:36+00:00"
+ },
+ {
   "id": "freelancer:40839336",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/web-development/Interactive-Webcomic-Website-Build",
@@ -14765,368 +15130,5 @@
    ]
   },
   "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40825876",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/blockchain/BEP-Token-Web-Integration",
-  "title": "BEP-20 Token & Web3 Integration",
-  "description": "I need a BEP-20 smart-contract deployed on Binance Smart Chain with a permanently capped total supply—no minting after launch. The token will underpin our ecosystem as a general-purpose cryptocurrency usable for utility, in-game assets, investment and day-to-day trading. You have to create a liquidity Pool & list the token in Pabcakeswap.\n\nAlongside the contract, I want a small web3 front-end where users can:\n\n• connect any BSC-compatible wallet (MetaMask, Trust Wallet, etc.) \n• see their live balance \n• buy or swap the token directly on-site \n• spend the token inside our project modules (game items, rewards or other services we are building next)\n\nDeliverables\n1. Audited, verified BEP-20 contract code pushed to our GitHub and live on BSC mainnet. \n2. Front-end (React, Vue or similar) with clear wallet integration, swap widget and balance display. \n3. Deployment guides and concise documentation so my in-house team can extend the utility layer later.\n\nClean Solidity code, standard OpenZeppelin libraries, thorough comments and a quick test suite are a must. If this fits your skill set, let’s talk timelines and milestones.",
-  "budget": 3000.0,
-  "budget_min": 2500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T06:35:29+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 3,
-   "summary_ru": "Нужен BEP-20 токен с фиксированной эмиссией на BSC, пул ликвидности на PancakeSwap и web3-фронтенд с подключением кошелька, балансом и свопом. Бюджет 3000 INR, объём работ большой.",
-   "reply": "You need a capped-supply BEP-20 token on BSC, a PancakeSwap liquidity pool, and a React front-end where users connect a wallet, see their balance, swap, and spend the token inside your modules. I would split this into two parts: the web3 front-end (wallet connection, live balance, and a swap widget that routes through PancakeSwap) and the contract, built on OpenZeppelin ERC-20 with a fixed supply and tested on BSC testnet before mainnet. With modern tooling and AI-assisted development, I can deliver the front-end in about a week and the contract with tests in a similar window, with the pool setup after your review. A formal third-party audit is a separate step that I would scope with you. Could you tell me whether the contract is already written or should be written from scratch? And is the 3000 INR budget for the full scope or for the front-end first?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен BEP-20 токен с ограниченной эмиссией на BSC, пул ликвидности на PancakeSwap и React-фронтенд, где пользователи подключают кошелёк, видят баланс, меняют токен и тратят его в ваших модулях. Я бы разделил работу на две части: web3-фронтенд (подключение кошелька, баланс в реальном времени и виджет свопа через PancakeSwap) и контракт на базе OpenZeppelin ERC-20 с фиксированной эмиссией, протестированный в BSC testnet перед запуском в mainnet. С современными инструментами и ИИ-ассистентами я могу сделать фронтенд примерно за неделю, а контракт с тестами за похожий срок, настройку пула после вашей проверки. Формальный аудит третьей стороной — отдельный этап, который можно обсудить отдельно. Подскажите, контракт уже написан или его нужно писать с нуля? И бюджет 3000 INR на полный объём или на фронтенд в первую очередь?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Контракт уже написан или его нужно писать с нуля?",
-    "Бюджет 3000 INR рассчитан на полный объём работ или на фронтенд в первую очередь?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836510",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-chatbot/WhatsApp-Assistant-for-Sales-Customer",
-  "title": "AI WhatsApp Assistant for Sales and Customer Support",
-  "description": "We’re looking for a freelancer to build an AI assistant using the official WhatsApp Business API. Our customers find us through several channels and contact us on WhatsApp to ask about prices, check availability, and place orders. We want them to be able to complete that process in the chat, even outside business hours.\n\n- Product inquiries. Customers can describe what they’re looking for, select an item from the WhatsApp catalog, or send a photo or screenshot, such as one from a Facebook post or livestream. The assistant should identify the product and check its price and availability in Google Sheets.\n- Order management. Once the customer selects their products, the assistant should confirm the items and quantities, record the order in Google Sheets, and share payment instructions.\n- Payment receipts. The assistant should extract the amount, date, and transaction reference from each receipt and link it to the corresponding order. Our team will review and confirm payment before shipping.\n-Customer support. The assistant should answer common questions about shipping, business hours, and exchanges, and hand the conversation over to a team member when the customer needs help.",
-  "budget": 500.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T06:33:51+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 6,
-   "summary_ru": "Нужен AI-ассистент в WhatsApp на официальном Business API: поиск товаров по тексту, каталогу или фото, оформление заказов и запись в Google Sheets, распознавание чеков об оплате и передача диалога сотруднику. Бюджет 500 USD, объём работ довольно большой.",
-   "reply": "You want a WhatsApp assistant on the official Business API that finds products from text, catalog selections, or photos (including Facebook and livestream screenshots), records orders in Google Sheets, reads payment receipts, and hands off to your team when needed. I'd split it into three parts: the WhatsApp webhook and conversation flow, a Sheets-based catalog and order layer, and a vision model step for matching product photos and extracting receipt fields, plus clear handoff rules for your staff. With a modern stack and AI-assisted development, I'd expect a working MVP covering product lookup, orders, and handoff in about two weeks, with receipt parsing and polish after that. Do you already have a verified Meta Business account, and roughly how many products are in the catalog? For examples of my work with live demos, see https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен ассистент в WhatsApp на официальном Business API, который находит товары по текстовому описанию, выбору из каталога или фото (включая скриншоты из Facebook и трансляций), оформляет заказы с записью в Google Sheets, распознаёт чеки об оплате и передаёт диалог сотруднику, когда это нужно. Я бы разбил задачу на три части: webhook WhatsApp и логику диалога, слой каталога и заказов на основе Sheets и шаг с моделью распознавания изображений для сопоставления фото товаров и извлечения данных из чеков, а также чёткие правила передачи диалога вашей команде. На современном стеке с ИИ-помощником в разработке я ожидаю рабочий MVP с поиском товаров, заказами и передачей диалога примерно за две недели, а распознавание чеков и доработки — после этого. Есть ли у вас подтверждённый аккаунт Meta Business и примерно сколько товаров в каталоге? Примеры моих работ с живыми демо — https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли у вас уже подтверждённый аккаунт Meta Business и номер для WhatsApp Business API?",
-    "Примерно сколько товаров в каталоге и как часто меняются цены и наличие в Google Sheets?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836499",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/creative-writing/DTC-Creative-Strategists-Copywriters",
-  "title": "DTC Creative Strategists & Copywriters Needed",
-  "description": "Tryselltheclick is trusted brand amongst Top DTC firms in Florida - A hub of all DTC agencies where latest and most advanced techniques to make better ads are done daily.\n\nWe are creating a talent pool for our clients, in following areas:\n\nInterested candidates need to get Coherence score of above 40% \n\nCoherence score means that you really have deep understanding of what of you do and it gets evaluated here : tryselltheclick.com/experts [ submit your details ]\n\n• Creative strategists – You’ll audit the offer, find the winning angles, map out content for Meta and TikTok, and deliver clear briefs that keep the production team moving fast.\n\n• Landing page designers – You can translate a creative brief into a mobile-first page (Figma, Webflow, or straight into Shopify/Unbounce) that loads fast, looks on-brand, and is built around conversion science.\n\n• Ad copywriters – Headline formulas, scroll-stopping hooks, body copy that sells, and variant testing are second nature to you across Facebook, Instagram, TikTok, and Google.\n\nHere’s how we’ll work:\nI share a brief with product background, past data, and target KPIs. We agree on the scope and milestones, then you deliver concepts, drafts, or page builds with room for a quick revision round. Results, learnings, and next steps are tracked so we compound wins across campaigns.\n\nIf you live and breathe performance creative for DTC brands and have a portfolio that proves it, let’s talk.",
-  "budget": 37500.0,
-  "budget_min": 12500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T06:26:10+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing",
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 2,
-   "summary_ru": "Агентство DTC набирает в пул исполнителей креативных стратегов, копирайтеров для рекламы и дизайнеров лендингов в Figma/Webflow/Shopify. Основной запрос связан с креативной стратегией и копирайтингом, а не с разработкой, а также требуется проверка «coherence score» на их сайте.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли в этом проекте именно разработка страниц (верстка, интеграции, Shopify-тема), или основная задача — дизайн и креатив?",
-    "Есть ли конкретный тестовый проект или ТЗ на лендинг, который можно оценить до подключения к пулу?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836500",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/google-ads/Commerce-Google-Ads-Optimisation",
-  "title": "E-Commerce Google Ads Optimisation",
-  "description": "I run milletsnacks.com, an Indian brand that turns wholesome millets into ready-to-eat treats. My goal is straightforward: lift daily online orders across India while keeping ROAS solidly profitable on a starting ad spend of ₹500-1,000 per day.\n\nYou will take manager of Google Ads—Search, Shopping, and Performance Max—focusing first on our best-selling millet snacks. Campaign messaging must spotlight the healthy ingredients and nutrition that set us apart and speak directly to parents looking for better snack options for their children.\n\nWhat I need from you \n• Account setup or overhaul, including granular keyword research, negative keyword curation, and audience segmentation. \n• Conversion-optimised Shopping feeds and structured Performance Max asset groups centred on our high-velocity SKUs. \n• GA4 installation, purchase conversion tagging, and ongoing attribution checks so every rupee spent is traceable. \n• Continuous bid and creative testing aimed at lowering acquisition costs while scaling volume. \n• Concise weekly reports highlighting spend, sales, ROAS, and next actions.\n\nTo help me choose quickly, please share: past e-commerce accounts you’ve grown, concrete results or case studies, your monthly management fee, and a brief outline of how you would approach this store in the first 90 days.\n\nIf you have a proven record of turning healthy food products into profitable online sales, I’d love to see what you can do with millet.",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T06:22:29+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 1,
-   "summary_ru": "Клиент ищет специалиста по Google Ads (Search, Shopping, Performance Max) для интернет-магазина здоровых снеков из проса с бюджетом ₹500–1000 в день. Это маркетинговое управление рекламой, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли какая-либо техническая разработка, например доработка сайта или интеграция фида товаров с магазином?",
-    "Входит ли в задачу настройка GA4 и отслеживания покупок на самом сайте, или только управление рекламой?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "pph:4532406",
-  "source": "pph",
-  "url": "https://www.peopleperhour.com/freelance-jobs/design/web-design/add-sms-notifications-to-my-wordpress-website-and-connected-4532406",
-  "title": "Add SMS notifications to my Wordpress website and connected app",
-  "description": "Add SMS notifications to my Wordpress website and connected app\n\nAlso need someone to help me launch my app in android store",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": null,
-  "lang": "en",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "site_template",
-   "score": 5,
-   "summary_ru": "Клиент хочет добавить SMS-уведомления на свой WordPress-сайт и подключённое к нему приложение, а также помощь с публикацией Android-приложения в Google Play. Бюджет не указан, а объём работ описан кратко.",
-   "reply": "Hi, you need SMS notifications added to your WordPress site and the app connected to it, plus help getting your Android app into the Play Store. I'd start by checking how the site and app exchange data and which SMS provider you want to use, such as Twilio or SMS.ru. Then I'd set up triggers for the events you care about, like orders, sign-ups, or status changes, and test the whole flow end to end. The SMS part should take roughly 3–5 days once I have access. For the Play Store, I can help with the listing, app signing, and release setup, though the exact scope depends on what's already built. You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nWhich events should trigger SMS, and do you already have an SMS provider account?\n\nYakov",
-   "reply_ru": "Здравствуйте, нужно добавить SMS-уведомления на ваш WordPress-сайт и подключённое к нему приложение, а также помочь с публикацией Android-приложения в Google Play. Я бы начал с того, как сайт и приложение обмениваются данными, и выбрал SMS-провайдера, например Twilio или SMS.ru. Затем настроил бы триггеры для нужных событий, таких как заказы, регистрации или смена статуса, и протестировал весь процесс от начала до конца. Часть с SMS займёт примерно 3–5 дней после того, как я получу доступ. По Google Play могу помочь с карточкой приложения, подписью и настройкой релиза, but точный объём зависит от того, что уже сделано. Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nКакие события должны запускать SMS и есть ли у вас уже аккаунт у SMS-провайдера?\n\nYakov",
-   "questions": [
-    "Какие события должны запускать SMS: заказы, регистрацию, смену статуса или что-то другое?",
-    "Есть ли у вас уже аккаунт у SMS-провайдера и доступ к сайту и приложению?",
-    "Приложение уже собрано в APK или AAB, и есть ли у вас аккаунт разработчика Google Play?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "kwork:3267263",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3267263",
-  "title": "Нужна помощь с быстрым стартом лидов",
-  "description": "Здравствуйте. \nНужна помощь специалиста с быстрым стартом лидов и низкой ценой за лиды. Подойдут любые законные площадки где сидят наши клиенты (предприниматели/руководители), кроме Яндекс (у них сейчас \"проблемы\" и неизвестно сколько они продлятся). Рассмотрю вк, тизерные сети, баннерные сети и другие инструменты где вы проффи в получении лидов. Если есть опыт в генерации лидов именно в бизнес-нишах (т.е лиды от \"лиц принимающих решение\") и результаты которые можете показать, выберу вас исполнителем. \nБюджет будет постепенно выделяться (с минимума до максимума), чтобы убедиться в том, что вы действительно генерите лиды быстро, дёшево, качественно. С каждого результативного лида вам денежный бонус. Всё через Кворк. \n* Не выдаю никакие свои связки, кабинеты и площадки \n* Не заинтересован в затягивании сроков старта \n* Не выдаю сайты, аккаунты, соц.сети для установки метрики и т.п \nФормы, креативы, какие-то страницы, интеграция, кабинеты на вашей стороне. \nЧётко расскажите какими способами сможете генерировать лиды, как быстро, подготовьте кейсы-примеры, обязательно обсуждение и закрепление \"сколько будет лидов на выходе\". Нишу проясню в переписке",
-  "budget": 5000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 09:56:33",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "api_integration",
-   "score": 1,
-   "summary_ru": "Заказчик ищет специалиста по генерации лидов из бизнес-ниш через VK, тизерные и баннерные сети с оплатой за результат. Это закупка трафика и маркетинг, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelance_ru:16463",
-  "source": "freelance_ru",
-  "url": "https://freelance.ru/task/view/16463",
-  "title": "Вёрстка лендинга студии Mira по макету Figma",
-  "description": "Ищем фронтенд-разработчика для разовой задачи: сверстать и опубликовать англоязычный сайт-заставку студии Mira по готовым макетам Figma (десктоп, мобильная версия и модальная форма). Исходный бриф с макетом и критериями приёмки — в приложении.Что нужно сделать:• Адаптивная вё...",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "26.11.2026 10:07",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "landing",
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "landing",
-   "score": 7,
-   "summary_ru": "Нужно сверстать адаптивный англоязычный одностраничный сайт-заставку студии Mira по макетам Figma (десктоп, мобильная версия, модальная форма) и опубликовать его. Бюджет не указан, в приложении есть бриф с критериями приёмки.",
-   "reply": "You need a responsive English one-page landing for the Mira studio, built from the Figma desktop and mobile layouts with a modal form, and then published. I'll go through the layouts and the acceptance brief first, check the grid, spacing, and fonts, and then build the markup on a modern stack. I use AI assistants in development, so I can move quickly: roughly 3–5 working days to a test domain, then a final deploy after your review. Could you tell me where the form submissions should go (email, CRM, or a spreadsheet) and which hosting or domain you plan to publish on?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Нужно сверстать адаптивный англоязычный одностраничный лендинг студии Mira по десктопному и мобильному макетам Figma с модальной формой, а затем опубликовать его. Сначала разберу макеты и приёмочный бриф, проверю сетку, отступы и шрифты, после чего соберу адаптивную вёрстку на современном стеке. Я использую ИИ-ассистенты в разработке, поэтому работаю быстро: ориентировочно 3–5 рабочих дней до публикации на тестовом домене, затем финальный деплой после вашего согласования. Подскажите, пожалуйста, куда должны уходить данные из формы (почта, CRM или таблица) и на каком хостинге или домене планируется публикация?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Куда должны отправляться данные из модальной формы: на почту, в CRM или в таблицу?",
-    "На каком хостинге или домене планируется публикация сайта?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836492",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Build-Entrepreneur-Social-Funding",
-  "title": "Build Entrepreneur Social Funding Platform",
-  "description": "Project Description: CrazyNaters Entrepreneur Network\n\nProject Overview\n\nCreate a social networking platform designed for entrepreneurs, startup founders, investors, and people who want to build businesses together.\n\nThe website will allow users to connect with entrepreneurs in their industries, find business partners, create startups, collaborate on ideas, raise money through crowdsourcing, and potentially become partial owners of businesses they help fund.\n\nThe goal is to bring people together to combine their skills, ideas, resources, and investments to build businesses as a community.\n\nThe platform should integrate with the existing CrazyNaters websites:\n\n- https://crazynaters.com\n- https://chat.crazynaters.com\n\nCrazyNaters will provide social networking and real-time communication, while the new platform focuses on entrepreneurship, startup creation, business collaboration, crowdfunding, and ownership opportunities.\n\n1. User Registration and Profiles\n\nBuild a complete account system with:\n\n- User registration, sign-in, and secure authentication.\n- Personal profiles with pictures, biographies, and interests.\n- Professional backgrounds, skills, experience, and industries.\n- Business interests and areas of expertise.\n- Location and networking preferences.\n- Activity feeds and profile updates.\n- Ability to showcase businesses, projects, and accomplishments.\n- Privacy and account settings.\n\nUsers should be able to create professional profiles and connect with people who have complementary skills and business interests.\n\n2. Social Networking and Friends\n\nThe website should function like a professional social network for entrepreneurs.\n\nFeatures should include:\n\n- Add friends and send connection requests.\n- Follow entrepreneurs and businesses.\n- Private messaging and group conversations.\n- Posts, comments, likes, and sharing.\n- Activity feeds and business announcements.\n- Discover entrepreneurs by industry, skills, and location.\n- Find potential business partners and co-founders.\n\n3. Entrepreneur Networks\n\nAllow users to join specialized networks based on industries and interests, including technology, software, artificial intelligence, gaming, real estate, retail, healthcare, marketing, manufacturing, finance, food, and renewable energy.\n\nEach network should have discussion areas, member directories, business opportunities, collaboration tools, and community activity.\n\nUsers should also be able to create their own networks and invite others.\n\n4. Create a Business or Startup\n\nRegistered users should be able to create business profiles directly on the website.\n\nEach business profile should include:\n\n- Business name, logo, and description.\n- Industry and business category.\n- Founders and team members.\n- Business mission and goals.\n- Products and services.\n- Business development progress.\n- Funding goals and financial information.\n- Business updates and announcements.\n- Ownership information.\n- Discussion and collaboration areas.\n- Crowdfunding and investment opportunities.\n\nBusiness creators should be able to invite entrepreneurs to join their teams and help develop their companies. A business can begin with one founder and grow into a team of contributors, partners, and investors.\n\n5. Crowdsourcing and Business Funding\n\nAllow businesses to raise funds from the community through dedicated funding campaigns.\n\nBusiness owners should be able to explain:\n\n- What their business does and what they want to build.\n- How much funding they need.\n- How the money will be used.\n- Business goals and milestones.\n- What contributors or investors may receive.\n- Whether the opportunity involves donations, rewards, or equity.\n\nUsers should be able to browse businesses seeking funding, review opportunities, and participate where eligible.\n\nSupport community contributions, reward-based crowdfunding, business sponsorships, and legally permitted equity investments.\n\n6. Business Ownership and Equity Investment\n\nAllow eligible users to invest in businesses and potentially become partial owners.\n\nFor example, a startup could offer a percentage of its ownership in exchange for funding.\n\nThe platform should support:\n\n- Founders establishing business ownership structures.\n- Businesses defining the percentage of equity available.\n- Investors reviewing business opportunities and offering details.\n- Eligible investors purchasing available ownership interests.\n- Recording ownership percentages and allocations.\n- Investor dashboards showing documented ownership.\n- Business financial and operational updates.\n- Ownership and transaction history.\n\nFor example, a startup might offer 20% of its equity for a specified funding amount. Multiple eligible investors could participate, with each person's ownership recorded according to the offering terms.\n\nClearly distinguish donations, rewards, and actual equity ownership. Making a contribution must not automatically make someone an owner.\n\n7. Owner Participation and Business Guidance\n\nPeople with ownership or other defined participation rights should have ways to help guide the businesses they support.\n\nBusiness owner and stakeholder areas should include:\n\n- Company updates and announcements.\n- Business discussions.\n- Suggestions and recommendations.\n- Product and service feedback.\n- Scheduled meetings.\n- Business milestone tracking.\n- Professional guidance and collaboration.\n- Voting on company matters when ownership or governance agreements provide voting rights.\n- Opportunities to participate in strategic decisions.\n\nThe goal is to create a collaborative business environment where founders, investors, and participating owners work together.\n\nDecision-making authority must follow each company's ownership agreements and governance structure. Not every investor automatically has control over daily operations.\n\n8. Entrepreneur Collaboration and Startup Teams\n\nHelp users find people who want to start or grow businesses together.\n\nUsers should be able to post opportunities such as:\n\n- Looking for a co-founder or business partner.\n- Seeking developers, designers, or marketing specialists.\n- Looking for investors or manufacturing partners.\n- Building a new product.\n- Starting a company in a specific industry.\n\nEntrepreneurs should be able to create teams, assign roles, share project information, and collaborate on business development.\n\n9. CrazyNaters Chat Integration\n\nIntegrate the platform with:\n\n- https://crazynaters.com\n- https://chat.crazynaters.com\n\nUse the existing CrazyNaters chat platform for real-time communication between entrepreneurs, founders, investors, and business teams.\n\nFeatures should include:\n\n- Secure account integration or single sign-on where possible.\n- Private messaging and group chats.\n- Business-specific chat rooms.\n- Private investor and stakeholder rooms.\n- Startup team communication.\n- Public entrepreneur networking rooms.\n- Voice chat.\n- Community discussions.\n- Notifications and announcements.\n\nEach business should have its own communication space for founders, team members, and eligible stakeholders. Both platforms should feel like one connected community.\n\n10. Business and Administration Dashboards\n\nEach business should have a dashboard where authorized users can manage:\n\n- Business profiles and teams.\n- Funding campaigns.\n- Investment and ownership records.\n- Stakeholder communications.\n- Business announcements and progress.\n- Document storage and meeting scheduling.\n- Governance and voting tools where applicable.\n- Financial reports and transaction history.\n\nA separate administrator dashboard should manage users, businesses, networks, reports, moderation, and platform activity.\n\n11. Payments, Investments, and Security\n\nSupport secure payments and funding transactions, including user payments, crowdfunding contributions, business funding campaigns, and investment transactions where legally permitted.\n\nMaintain transaction histories, receipts, ownership records, and funding confirmations.\n\nBecause equity investment involves financial and securities regulations, the platform must include appropriate legal and compliance requirements. These may include identity verification, investor eligibility checks, offering disclosures, investment limits, escrow arrangements, and working with properly registered funding portals or broker-dealers where required.\n\nDo not advertise or process equity sales until the offering and transaction structure are legally approved for the applicable jurisdiction.\n\nSecurity should include encrypted communications, secure authentication, access controls, audit logs, and protection of sensitive business and financial information.\n\n12. Overall Vision\n\nBuild a social network where entrepreneurs can do much more than simply connect and communicate.\n\nUsers should be able to:\n\n1. Create accounts and professional profiles.\n2. Find entrepreneurs in their industries.\n3. Join networks and communities.\n4. Meet potential business partners and co-founders.\n5. Create businesses and startup teams.\n6. Raise funds through community crowdfunding.\n7. Offer eligible investors documented business ownership.\n8. Allow owners and stakeholders to participate in discussions and governance according to their rights.\n9. Use CrazyNaters chat and voice communication to collaborate in real time.\n10. Build, grow, and participate in businesses together.\n\nThe Big Idea: A social network where entrepreneurs meet, build companies, bring communities together, and create opportunities for shared business ownership.\n\nThe website should have a modern, professional design that works on desktop and mobile. It should combine a professional social network, startup incubator, crowdfunding platform, and business collaboration community, all connected to the CrazyNaters ecosystem.\n\nTagline: Connect. Collaborate. Build. Own.",
-  "budget": 1500.0,
-  "budget_min": 750.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T06:16:27+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 3,
-   "summary_ru": "Заказчик хочет создать социальную платформу для предпринимателей с профилями, сетями по отраслям, страницами бизнеса, краудфандингом и инвестициями с долей в бизнесе, интегрированную с существующими сайтами CrazyNaters. Объём очень большой, а бюджет 1500 USD и юридическая часть про долевые инвестиции делают проект рискованным.",
-   "reply": "You're building a social network for entrepreneurs with profiles, industry networks, business pages, crowdfunding and equity investment, all connected to the existing crazynaters.com and chat.crazynaters.com. I'd start with a scoped MVP: authentication, profiles, friends, messaging and business pages, then add funding campaigns and the integration with your CrazyNaters sites through their APIs. With a modern stack and AI-assisted development, I can deliver the MVP in about 4–6 weeks, and treat the investment module as a second phase since it will need legal review. Which features must be in the first release, and do you have API docs or access for the two CrazyNaters sites? You can see my work with live demos here: https://grachoffprod.github.io/portfolio/\nYakov",
-   "reply_ru": "Вы создаёте социальную сеть для предпринимателей с профилями, отраслевыми сетями, страницами бизнеса, краудфандингом и инвестициями с долей в бизнесе, всё это связано с существующими сайтами crazynaters.com и chat.crazynaters.com. Я бы начал с ограниченного MVP: авторизация, профили, друзья, сообщения и страницы бизнеса, затем добавил бы кампании по сбору средств и интеграцию с сайтами CrazyNaters через их API. С современным стеком и разработкой с помощью ИИ-ассистентов я могу сдать MVP примерно за 4–6 недель, а модуль инвестиций вынести во второй этап, так как ему потребуется юридическая проверка. Какие функции должны быть в первом релизе, и есть ли у вас документация или доступ к API обоих сайтов CrazyNaters? Мои работы с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\nYakov",
-   "questions": [
-    "Какие функции обязательны для первого релиза, а какие можно вынести на следующие этапы?",
-    "Есть ли у вас документация или доступ к API сайтов crazynaters.com и chat.crazynaters.com?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836485",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/digital-marketing/Fix-Meta-Ads-Purchase-Tracking",
-  "title": "Fix Meta Ads Purchase Tracking",
-  "description": "I run a D2C supplement brand that has already invested ₹41,000 in Meta Ads across four months. The campaigns generate healthy interest—137 people have added products to cart—but once they hit checkout, they usually stall and never complete payment. UPI, card, and cash-on-delivery options are all visible, yet Meta still records zero purchases.\n\nI need an expert who has solved this exact “Add-to-Cart but no Purchase” puzzle before. Your first task will be to audit every link in the chain: the events fired by the pixel, the campaign objectives, and the landing-page flow. Pinpoint where tracking or conversion friction actually occurs, repair it, and then restructure the account so new campaigns run cleanly and profitably.\n\nDeliverables I expect:\n• Clear diagnostic showing why ATCs aren’t converting or being tracked \n• Corrected pixel and event setup, tested end-to-end \n• Revamped campaign structure and creatives ready to scale \n• Ongoing optimisation during the first growth phase\n\nTiming is critical; I’d like to see the audit and first fixes rolled out ASAP. I’m flexible on payment—milestones, commission on verified sales, or another structure we both agree makes sense once purchases start showing up.\n\nWhen you reply, briefly outline:\n1. The most common reasons you’ve seen for ATC without purchase events.\n2. What you would inspect first in this case and why.\n3. How you plan to confirm the fix is working within the first few days.\n\nIf your experience lines up, let’s get conversions flowing.",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T06:10:52+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 3,
-   "summary_ru": "Заказчик продаёт БАДы по модели D2C и хочет исправить трекинг покупок в Meta Ads: люди добавляют товары в корзину, но покупки не фиксируются. Нужны аудит, настройка пикселя, перестройка рекламных кампаний, креативы и оптимизация. Основная часть работы относится к рекламному менеджменту и маркетингу, а бюджет небольшой (12 500 INR).",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Какая у вас платформа для сайта и как устроен чекаут: отдельная страница оплаты или переход на сторонний сервис?",
-    "Есть ли доступ к админке сайта и Meta Business Manager, и подключён ли Conversions API?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836459",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/kubernetes/Senior-Kubernetes-Platform-Engineer",
-  "title": "Senior Kubernetes Platform Engineer",
-  "description": "Job Title\nSenior Platform Engineer - Kubernetes, GoLang & Linux\n\nRoles & Responsibilities\nRole\n\nDesign, build, and maintain platform services used by application teams.\nDevelop reusable Terraform modules, Helm charts, deployment templates, and automation.\nBuild and improve CI/CD pipelines with automated testing, security checks, and approval controls.\nManage Kubernetes-based environments and improve their availability, security, and scalability.\nCreate self-service capabilities that reduce dependency on platform and SRE teams.\nDefine platform standards and recommended deployment patterns.\nWork with development teams to onboard applications onto the platform.\nImplement monitoring, logging, tracing, dashboards, and actionable alerts.\nDefine service-level indicators, service-level objectives, and error budgets.\nParticipate in on-call support and help resolve production incidents.\nLead or contribute to blameless post-incident reviews.\nImprove runbooks, operational documentation, and disaster-recovery procedures.\nIdentify recurring operational work and automate it.\nPerform proofs of concept and convert successful ideas into production-ready solutions.\nWork with security and compliance teams to embed controls into the platform.\nMentor engineers and promote good platform-engineering and SRE practices.\nCommunicate progress, risks, dependencies, and technical decisions to stakeholders.",
-  "budget": 150000.0,
-  "budget_min": 75000.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T05:59:09+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 2,
-   "summary_ru": "Вакансия на должность Senior Platform Engineer (Kubernetes, GoLang, Linux) с ежедневными обязанностями: Terraform, Helm, CI/CD, дежурства on-call, менторство и работа с инцидентами. По сути это поиск штатного сотрудника, а не разовый проект, и бюджет 150 000 INR для такой роли выглядит низким.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Это разовый проект с конкретным результатом или поиск штатного сотрудника / постоянного контракта с дежурствами?",
-    "Какой объём работ ожидается на первом этапе и какие сроки вы рассматриваете?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836456",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/business-development/Seeking-Long-Term-Business-Development-40836456",
-  "title": "Seeking a Long-Term Business Development Partner – Software Development",
-  "description": "I'm an experienced software developer looking to establish a long-term professional partnership with someone interested in building an additional income stream through online business and technology services.\n\n### About the opportunity\n\nI specialize in software development and can independently handle technical aspects of various projects, including web applications, backend systems, API integrations, and other custom software solutions.\n\nI'm looking for someone interested in the business development side of the process, particularly finding potential clients, managing business relationships, and coordinating project opportunities.\n\n### Proposed responsibilities\n\n**My responsibilities:**\n- Software development and technical implementation.\n- Project execution and delivery.\n- Technical communication and progress updates.\n- Maintaining development quality.\n\n**Your potential responsibilities:**\n- Identifying business opportunities.\n- Client acquisition and relationship management.\n- Initial project discussions and coordination.\n- Helping establish a consistent project pipeline.\n\n### What I'm looking for\n\n- Someone interested in a long-term collaboration.\n- Good communication and reliability.\n- An interest in online freelancing or technology services.\n- Previous experience with client acquisition, project management, or digital business is an advantage.\n\n### Compensation\n\nWe can discuss a mutually beneficial compensation structure based on responsibilities, project revenue, and the amount of work contributed by each party.\n\n### Important\n\nThis is intended to be a genuine professional partnership, not a short-term arrangement. All project responsibilities, client representation, platform permissions, and payment arrangements will be agreed upon transparently before starting.\n\nIf you're interested, please send me a brief introduction explaining your experience, current activities, and what kind of collaboration you're looking for.\n\nI'm particularly interested in building something sustainable rather than completing just one project.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T05:58:10+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "saas"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "saas",
-   "score": 2,
-   "summary_ru": "Клиент ищет долгосрочного партнёра для развития бизнеса: поиск клиентов, ведение переговоров и координация проектов, а разработку он будет вести сам. Конкретной задачи на разработку ПО в описании нет, оплата предполагается по договорённости о доле.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у вас конкретный проект или техническая задача, которую нужно реализовать?",
-    "Какой объём работ и какой формат оплаты вы предлагаете на начальном этапе?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836445",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/facebook-ads/Meta-Ads-Campaign-Management-commerce",
-  "title": "Meta Ads Campaign Management & E-commerce Sales Growth for Hangiing Scents",
-  "description": "I own Hangiing Scents, a premium car fragrance brand in India.\n\nWebsite: https://hangiingscents.in\n\nWe sell premium hanging air fresheners infused with 100% perfume-grade oils, featuring multiple fragrances inspired by popular designer perfumes.\n\nI am looking for an experienced Meta Ads specialist who can create, launch and manage Facebook and Instagram advertising campaigns focused on generating actual website purchases.\n\nMy requirements:\n\n1. Develop a complete Meta Ads strategy for our brand.\n2. Create and manage Sales campaigns optimized for Purchase events.\n3. Identify high-converting audiences across India.\n4. Analyze and optimize our existing Meta Pixel and Conversions API setup.\n5. Test different ad creatives, video hooks and advertising angles.\n6. Optimize campaigns to achieve profitable ROAS and reduce cost per purchase.\n7. Monitor campaign performance and provide regular reports.\n8. Recommend improvements to increase website conversion rates.\n\nOur current setup:\n- Active WooCommerce website.\n- Meta Pixel installed.\n- Purchase and other conversion events configured.\n- Product catalogue available.\n- Product photos and video creatives available.\n\nWe are looking for someone with proven e-commerce advertising experience, preferably with D2C brands in India.\n\nOur primary goal is to generate consistent and profitable website sales, not just traffic, likes or engagement.\n\nPlease share your previous campaign results, case studies, proposed strategy and management fees.\n\nWe prefer a long-term working relationship based on performance.",
-  "budget": 1500.0,
-  "budget_min": 600.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T05:50:35+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 1,
-   "summary_ru": "Клиент из Индии ищет специалиста по Meta Ads для ведения рекламных кампаний Facebook и Instagram под продажи на WooCommerce-сайте премиальных ароматизаторов для автомобилей. Это маркетинговая работа по рекламе, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужны ли в проекте какие-либо доработки сайта или интеграций, например настройки Pixel/Conversions API через код или кастомная интеграция с WooCommerce?",
-    "Рассматривает ли клиент разовые технические задачи, а не долгосрочное ведение рекламы по результатам?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
  }
 ]
