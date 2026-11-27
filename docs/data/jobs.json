@@ -1,5 +1,155 @@
 [
  {
+  "id": "freelancer:40839268",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Boost-Book-Reviews-Website",
+  "title": "Boost Book Reviews on Website",
+  "description": "I'm seeking a skilled freelancer to help increase reviews for my books on my website. The goal is to build trust with new readers.\n\nRequirements:\n- Integrate a review system on each book's page\n- Allow visitors to submit star ratings and written comments\n\nIdeal Skills and Experience:\n- Web development proficiency\n- Experience with review integration\n- User interface design expertise\n\nYour work will help make my website more interactive and trustworthy for potential readers. Please share examples of similar work done. Looking forward to your proposals!",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "CAD",
+  "posted_at": "2026-11-27T20:48:29+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Клиент хочет добавить на страницы каждой книги на своём сайте систему отзывов: рейтинг по звёздам и текстовые комментарии от посетителей. Бюджет 250 CAD, ожидается интерактивный и доверительный интерфейс.",
+   "reply": "You want each book page on your site to show star ratings and written comments, so new readers can see what others think before they buy. I'd build this as a lightweight review module: a rating widget and comment form on every book page, with submissions stored in a small database and a simple moderation view, so you can approve reviews before they go live. I'd add it to your existing pages without a full redesign and keep it visually consistent with your site. For this scope I'd estimate about 4–6 working days, including testing. Two quick questions: what platform is the site built on (WordPress, Shopify, or custom), and do you want every review moderated before it's published? Live demos of similar interactive features are at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы на странице каждой книги на вашем сайте отображались рейтинг в звёздах и текстовые комментарии, чтобы новые читатели видели мнения других до покупки. Я бы сделал это как лёгкий модуль отзывов: виджет рейтинга и форма комментария на каждой странице книги, отзывы сохраняются в небольшой базе данных, а для модерации есть простой экран, чтобы вы могли одобрять отзывы до публикации. Я бы добавил модуль на существующие страницы без полной переработки и сохранил визуальное соответствие вашему сайту. Для такого объёма я оцениваю работу примерно в 4–6 рабочих дней, включая тестирование. Два быстрых вопроса: на какой платформе сделан сайт (WordPress, Shopify или самописный) и нужно ли модерировать каждый отзыв перед публикацией? Живые демо похожих интерактивных функций: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На какой платформе или стеке работает ваш сайт (WordPress, Shopify, самописный)?",
+    "Нужно ли модерировать отзывы перед публикацией или они должны появляться сразу?"
+   ]
+  },
+  "found_at": "2026-11-27T21:04:40+00:00"
+ },
+ {
+  "id": "freelancer:40839263",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot/Telegram-FAQ-Support-Bot",
+  "title": "AI Telegram FAQ Support Bot",
+  "description": "I want to launch a Telegram-based chatbot that can automatically answer the most common product and service questions my customers ask. All of the information it serves should be pulled in real time from the existing pages on my website so I never have to maintain a separate knowledge base.\n\nHere is how I expect it to behave:\n• When a user types a question, the bot scans the relevant pages, extracts the answer, and replies instantly inside Telegram. \n• If it cannot locate a clear, confident match, it politely advises the user to contact our support team for further help. No hallucinations or guesses—accuracy is key. \n\nPlease build, test, and connect the bot to my Telegram account, set up any required web-scraping or embedding pipeline so page updates are reflected automatically, and provide brief hand-over instructions so I can manage basic tweaks myself later.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T20:47:39+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 7,
+   "summary_ru": "Клиент хочет Telegram-бота, который отвечает на частые вопросы о продуктах и услугах, получая данные в реальном времени со страниц его сайта. Если уверенного ответа нет, бот должен предлагать обратиться в службу поддержки, без догадок. Нужны также парсинг или пайплайн эмбеддингов для автоматического обновления и короткая инструкция по управлению.",
+   "reply": "You want a Telegram bot that answers common product questions by pulling live from your website pages, and falls back to your support team whenever it isn't sure. I'd build it in Python with a scraper that re-indexes your pages on a schedule, so content updates flow through automatically without a separate knowledge base. Retrieval would find the matching passage and return only text taken from the page, with a confidence threshold that triggers the 'contact support' reply instead of guessing. I'd connect it to your Telegram account, test it against a sample set of questions, and leave short hand-over notes for future tweaks. Estimated timeline: about 1–2 weeks, depending on site size. Two questions: roughly how many pages need indexing, and do you prefer an LLM-based answer generator or a strictly extractive approach?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен Telegram-бот, который отвечает на частые вопросы о продуктах, получая данные в реальном времени с страниц вашего сайта, и передаёт пользователя в службу поддержки, если не уверен в ответе. Я бы написал его на Python с парсером, который переиндексирует страницы по расписанию, чтобы обновления на сайте подхватывались автоматически без отдельной базы знаний. Поиск находил бы нужный фрагмент и возвращал только текст со страницы, а при низкой уверенности бот предлагал бы обратиться в поддержку вместо догадок. Я подключу бота к вашему Telegram-аккаунту, протестирую на наборе типовых вопросов и оставлю короткую инструкцию для будущих правок. Ориентировочный срок: около 1–2 недель, в зависимости от размера сайта. Два вопроса: примерно сколько страниц нужно индексировать и предпочитаете ли вы генерацию ответов через LLM или строго извлекающий подход без генерации?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Примерно сколько страниц на сайте нужно индексировать и как часто они меняются?",
+    "Нужна ли генерация ответов через LLM или достаточно точного извлечения фрагментов из страниц без генерации?"
+   ]
+  },
+  "found_at": "2026-11-27T21:04:40+00:00"
+ },
+ {
+  "id": "freelancer:40839247",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/Android-APK-Security-Training-Mentor",
+  "title": "Android APK Security Training Mentor",
+  "description": "# Hiring Android APK Reverse Engineering & App Modification Trainer\n\nI am looking for an experienced Android developer or cybersecurity expert who can teach me Android APK modification and reverse engineering from beginner to advanced level.\n\n### What I Want to Learn\n\n1. How Android APK files work.\n2. How to decompile and recompile APK files.\n3. How to use JADX, APKTool and Smali.\n4. How to modify app UI, logos, text and features.\n5. How to understand and analyze Android app source code.\n6. How hackers identify Android application security vulnerabilities.\n7. How to perform ethical security testing.\n8. How to rebuild and sign modified APK files.\n9. How to understand API security and app protection mechanisms.\n\n### Requirements\n- Must have practical Android APK modification experience.\n- Must understand reverse engineering.\n- Must be able to teach step by step through live sessions.\n- Must provide practical demonstrations using legally owned test applications.\n- Beginner-friendly teaching is required.\n\n### My Setup\nI currently have an Android smartphone and am a complete beginner.\n\n**Please share your experience, previous work, teaching method and charges.**\n\nI am looking for practical training, not just theoretical knowledge.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T20:32:01+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Клиент ищет наставника для обучения реверс-инжинирингу APK, декомпиляции и модификации Android-приложений, а также анализу уязвимостей. Это обучение, а не разработка проекта из списка услуг.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-27T21:04:40+00:00"
+ },
+ {
+  "id": "pph:4532511",
+  "source": "pph",
+  "url": "https://www.peopleperhour.com/freelance-jobs/digital-marketing/seo/seo-specialist-needed-rank-our-website-in-the-uk-market-4532511",
+  "title": "SEO Specialist Needed – Rank Our Website in the UK Market",
+  "description": "We are looking for an experienced, results-driven SEO Specialist to improve our company's organic search visibility, specifically targeting the UK market.\n\nWe are a digital services agency offering:\n\nWebsite Design & Development\nE-commerce Development\nShopify & WordPress Development\nCustom Software Development\nUI/UX Design\nOther Digital Solutions\n\nOur primary objective is to rank our website for relevant, high-intent commercial keywords in the UK market and generate organic enquiries from potential clients.\n\nWhat We Need\n\nWe need someone who can independently take ownership of our SEO strategy and execution, including:\n\nComprehensive keyword research targeting the UK market.\n\nIdentify high-intent commercial keywords related to web design, web development and digital services.\n\nAnalyse existing keyword rankings and identify opportunities.\n\nDevelop keyword mapping for all relevant service pages.\n\nImprove existing service pages through on-page SEO.\n\nTechnical SEO audits and implementation of recommended fixes.\n\nCompetitor analysis against established UK digital agencies.\n\nContent strategy and optimisation of existing blog posts.\n\nStrategic link building and off-page SEO.\n\nImprove organic rankings, qualified traffic and website enquiries.\n\nMonitor performance through Google Search Console and Google Analytics.\n\nWhat We Expect\n\nWe are not looking for someone who simply produces SEO audit reports or provides generic recommendations.\n\nWe need an SEO specialist who can actually execute the strategy, manage ongoing optimisation and demonstrate measurable progress.\n\nYou must have:\n\nProven experience ranking websites in the UK market.\n\nPrevious experience with web design, web development or digital agency websites is highly preferred.\n\nStrong keyword research and competitor analysis skills.\n\nPractical experience with Ahrefs, SEMrush, Screaming Frog, Google Search Console and GA4.\n\nA proven track record of improving organic rankings and traffic.\n\nTo Apply\n\nPlease answer the following questions in your proposal:\n\nHave you previously ranked a web design, web development or digital agency website in the UK? Share examples.\n\nCan you provide actual keyword ranking improvements and Google Search Console performance data from previous projects?\n\nWhat would be your initial SEO strategy for this project?\n\nWhat would you prioritise during the first 90 days?\n\nImportant\n\nPlease apply only if you have the practical experience and confidence to rank a website for competitive web services keywords in the UK market.\n\nIf you only offer generic SEO audits, reports or theoretical recommendations without hands-on execution experience, this project is not for you.\n\nWe are looking for someone capable of delivering real SEO improvements and building a long-term working relationship.\n\nPlease don't apply unless you genuinely have the relevant experience.\n\nDON'T SEND AI RESPONSES!",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": null,
+  "lang": "en",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop",
+   "saas",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 1,
+   "summary_ru": "Британское digital-агентство ищет SEO-специалиста для продвижения сайта по коммерческим запросам в сфере веб-дизайна и разработки. Нужны ключевые слова, on-page и технические правки, линкбилдинг и работа с аналитикой. Это SEO-услуга, а не разработка, поэтому она не входит в предложения Якова.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли параллельно доработка или техническое исправление самого сайта агентства, или речь только о SEO-работах?"
+   ]
+  },
+  "found_at": "2026-11-27T21:04:40+00:00"
+ },
+ {
+  "id": "kwork:3276030",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3276030",
+  "title": "Разработка корпоративного сайта строительной компании",
+  "description": "Необходимо разработать современный сайт строительной компании, занимающейся строительством загородных домов под ключ. \nНужен дизайн и полноценная разработка. Примерная структура: главная страница, каталог проектов домов, отдельные страницы проектов, услуги, о компании и контакты. \nВ каталоге необходима фильтрация проектов по площади, этажности и стоимости. Также нужны формы обратной связи и возможность самостоятельно добавлять проекты и редактировать информацию через админку. \nПредпочтительно WordPress, но рассмотрю другие варианты реализации. \nВажно, чтобы сайт быстро загружался, корректно отображался на мобильных устройствах и имел современный дизайн. \nВ предложении укажите стоимость, сроки реализации и примеры выполненных работ.",
+  "budget": 35000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-28 00:00:43",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "crm",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 5,
+   "summary_ru": "Нужен корпоративный сайт строительной компании по загородным домам под ключ: каталог проектов с фильтрами по площади, этажности и стоимости, страницы проектов, услуги, контакты и админка для самостоятельного добавления домов. Предпочтительно WordPress, важны скорость и мобильная адаптация.",
+   "reply": "Вам нужен сайт строительной компании с каталогом загородных домов, фильтрацией по площади, этажности и стоимости, отдельными страницами проектов и админкой, через которую вы сами будете добавлять дома. Предлагаю WordPress с типом записи «Проект дома» и кастомными фильтрами. Если важнее скорость, можно собрать на современном стеке. Дизайн будет адаптивным, изображения оптимизируем, кэширование настроим под быструю загрузку. Ориентировочный срок — 2–3 недели после согласования структуры и материалов. Сколько проектов планируется на старте и есть ли готовые фото и планировки? Нужна ли отправка заявок в CRM или на почту? Примеры работ смотрите в портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен сайт строительной компании с каталогом загородных домов, фильтрацией по площади, этажности и стоимости, отдельными страницами проектов и админкой, через которую вы сами будете добавлять дома. Предлагаю WordPress с типом записи «Проект дома» и кастомными фильтрами. Если важнее скорость, можно собрать на современном стеке. Дизайн будет адаптивным, изображения оптимизируем, кэширование настроим под быструю загрузку. Ориентировочный срок — 2–3 недели после согласования структуры и материалов. Сколько проектов планируется на старте и есть ли готовые фото и планировки? Нужна ли отправка заявок в CRM или на почту? Примеры работ смотрите в портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько проектов домов планируется на старте и есть ли готовые фото и планировки?",
+    "Нужна ли отправка заявок из форм в CRM или на почту?"
+   ]
+  },
+  "found_at": "2026-11-27T21:04:40+00:00"
+ },
+ {
   "id": "freelancer:40839219",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/flask/Flask-React-Mobile-App-Redesign",
@@ -14981,157 +15131,5 @@
    "questions": []
   },
   "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836378",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/supabase/WeWeb-Supabase-developer-for-API",
-  "title": "WeWeb + Supabase developer for API connectors and dashboards",
-  "description": "We have a web app built on WeWeb and Supabase, and it's half built. We need an experienced developer to help us finish it.\n\nThe work:\n\nConnect third-party apps through Nango and MindCloud, and store the data in Supabase.\nBuild data tables, charts and dashboards in WeWeb that combine data from several sources.\n\nYou must have done this kind of work before. We start with a small paid trial, and then pay by milestone. You'll need to sign an NDA before any details or access are shared.\nWe need an experienced person to join us now and help finish two parts.\n\n1. Connectors\nConnect apps to our system through Nango and MindCloud, store the data in Supabase, and keep it syncing daily without errors. You'll follow the setup we already have, so you must have done this kind of work before.\n\n2. Report gallery and dashboards\nCustomers choose a ready report and see their own data. We need someone who knows how to structure data from different apps so it can be combined. You'll build the data tables, charts and dashboards in WeWeb.\n\nStart your bid with the word \"Supabase\".",
-  "budget": 37500.0,
-  "budget_min": 12500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T05:17:42+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 6,
-   "summary_ru": "Нужно доделать веб-приложение на WeWeb и Supabase: подключить сторонние сервисы через Nango и MindCloud с ежедневной синхронизацией в Supabase и построить в WeWeb таблицы, графики и дашборды, которые объединяют данные из нескольких источников. Бюджет 37 500 INR, оплата по этапам после пробного периода, перед доступом нужен NDA.",
-   "reply": "Supabase is the right storage layer here, so I'd start by reviewing the half-built WeWeb project and the current Nango and MindCloud setup. The plan is to finish the connectors so each source writes into normalized Supabase tables on a daily schedule, with error logging and retries so failed syncs don't go unnoticed. Then I'd map fields from each app to a shared schema so the reports can combine data, and build the WeWeb tables, charts and report gallery on top of it. For a first milestone covering one connector and one report, I'd estimate about a week once I have access. Which connectors are already working and which are still missing? And which apps should the first report combine?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Supabase здесь подходящее хранилище, поэтому я бы начал с разбора наполовину готового проекта в WeWeb и текущей настройки Nango и MindCloud. План такой: доделать коннекторы так, чтобы каждый источник ежедневно писал данные в нормализованные таблицы Supabase, с логированием ошибок и повторными попытками, чтобы сбои синхронизации не оставались незамеченными. Затем я сопоставил бы поля из каждого приложения с общей схемой, чтобы отчеты могли объединять данные, и построил бы поверх нее таблицы, графики и галерею отчетов в WeWeb. Для первого этапа, который покрывает один коннектор и один отчет, я оцениваю работу примерно в неделю после получения доступа. Какие коннекторы уже работают, а какие еще нужно подключить? И какие приложения должен объединять первый отчет?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какие коннекторы уже работают в Nango и MindCloud, а какие еще нужно подключить?",
-    "Какие приложения должен объединять первый отчет и какой объем данных синхронизируется ежедневно?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836366",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/embedded-systems/Compact-Golf-Ball-Tracking-System",
-  "title": "Compact Golf Ball Tracking System",
-  "description": "During my practice sessions I want to know exactly where each shot lands, so the project centres on building a small, self-contained tracker that fits inside—or securely attaches to—a regulation golf ball and reports its real-time position. The core sensing package is already defined: a miniature GNSS receiver working alongside a 6-axis accelerometer and gyroscope. \n\nYour task is to engineer the full solution around those components, from hardware selection and PCB layout through embedded firmware and wireless data transmission, then provide a simple way for me to view the landing coordinates seconds after impact. I’m flexible on the display medium; a phone app, smartwatch interface, or even a pocket-sized screen is acceptable as long as it is quick, reliable, and user-friendly on the driving range. \n\nAcceptance criteria \n• Overall tracker mass keeps the ball within regulation weight tolerance. \n• Positional accuracy: ±1–2 m at typical range distances. \n• Data visible on the chosen display ≤3 s after the ball stops moving. \n• Battery life covers at least one practice bucket (≈70 shots). \n\nPlease highlight previous projects that prove your experience with low-power GNSS, IMU data fusion, and compact wireless designs. Links or brief descriptions of similar work will help me judge fit quickly.",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T05:05:56+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 1,
-   "summary_ru": "Заказчик хочет создать миниатюрный трекер для мяча для гольфа с GNSS-приёмником, IMU и беспроводной передачей данных, включая разработку печатной платы и прошивки. Это аппаратная инженерная задача, а бюджет в 12500 INR для неё крайне мал.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у вас уже готовый прототип или выбранные модули GNSS и IMU, и нужна ли разработка собственной печатной платы?",
-    "Какой бюджет и сроки вы рассматриваете для полного цикла от аппаратной части до приложения?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836365",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/photography/Prototype-Board-Game-Playtesting",
-  "title": "Prototype Board Game Playtesting",
-  "description": "I’m preparing to launch my tabletop game on Kickstarter and need at least 4 professional photographs showing the board layout with the parts and pieces on and surrounding the board. I am also looking for a short 1.5 minute video with a narrative showing the game in action. I don't need a face, just the arms and hands of 2 people interacting in the game. I will explain the choreography of the movements of the pieces I need. I will send you a prototype game box set; from there, you’ll read the Instructions and understand how it plays. The game has been play tested so no need for a detailed report, but any ideas and constructive criticism would be welcome.\n\nI live in New Zealand, so postage may get delayed.\n\nDeliverables \n• 4 quality photos of the game board, pieces on the board simulating play and all the remaining parts, cards and dice, etc., surrounding the board. \n• 1 quality video 1.5 minutes long showing some of the moves in the game. \n• Brief written comments by email covering your opinion with any ideas for improvement and constructive criticism where applicable. \n\nI will have and retain full rights and copyrights to any material you deliver. \n\nPlease send me draft photos and video for comments and approval and possible changes. I will be available by email and mobile for any clarifications before you start. \n\nAll delivered as email attachments with 48 hours of receiving the game by post.\n\nPlease give me your best price and let me know when you could make a start.\n\nIf you have an example of a quality photograph, please send it through.\n\nRegards\n\nIan Booth",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "NZD",
-  "posted_at": "2026-11-26T05:04:56+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "mvp",
-   "score": 1,
-   "summary_ru": "Заказчик ищет фотографа и видеографа для съемки прототипа настольной игры: 4 фото игрового поля и 1,5-минутное видео с участием рук двух игроков. Нужны также письменные комментарии по игре. Это физическая съемка и обзор игры, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужны ли вам только фото и видео, или предполагается какая-либо цифровая версия игры?",
-    "Готовы ли вы предоставить прототип и инструкции для ознакомления до начала съемки?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836363",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-chatbot/Bangun-Asisten-Suara",
-  "title": "Bangun Asisten Suara AI",
-  "description": "Saya ingin membangun asisten suara berbasis AI yang mampu melayani pelanggan melalui panggilan telepon masuk maupun keluar, sepenuhnya dalam Bahasa Indonesia. Fokus utamanya adalah otomatisasi percakapan layanan pelanggan—dari menyapa, memahami maksud penelpon, memberikan jawaban, hingga menutup panggilan dengan sopan.\n\nRuang lingkup yang saya butuhkan:\n• Rancangan arsitektur end-to-end yang menggabungkan Automatic Speech Recognition (ASR), Large Language Model (LLM) untuk Natural Language Understanding & Generation, serta Text-to-Speech (TTS) dengan intonasi natural bahasa Indonesia. \n• Integrasi ke sistem telepon (SIP/PBX atau gateway serupa) agar bot dapat menangani panggilan inbound dan outbound tanpa latensi berarti. \n• Alur dialog dasar untuk skenario layanan pelanggan (mis. cek status pesanan, tanya harga, keluhan umum) beserta fallback handling jika intent tidak dikenali. \n• Dashboard ringan atau endpoint API untuk memonitor percakapan secara real-time dan melakukan update intent. \n• Dokumentasi instalasi, list dependensi, serta panduan deployment di cloud (AWS, GCP, atau layanan setara).\n\nKriteria keberhasilan: \n– Respons ≤ 2 detik dari akhir ucapan penelpon hingga balasan suara bot. \n– Akurasi pengenalan ucapan > 90 % pada aksen umum bahasa Indonesia. \n– Percakapan minimal 3 skenario utama berjalan lancar tanpa intervensi manusia.\n\nSaya terbuka pada pilihan teknologi—Whisper, Vosk, Coqui TTS, OpenAI GPT-4o, Rasa, LangChain, atau stack serupa—selama memenuhi kriteria di atas. Silakan jelaskan pendekatan, pengalaman relevan, serta perkiraan waktu realisasi.",
-  "budget": 15.0,
-  "budget_min": 8.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T05:02:48+00:00",
-  "lang": "id",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 3,
-   "summary_ru": "Нужно построить AI-голосового ассистента на индонезийском языке для входящих и исходящих звонков: пайплайн ASR, LLM и TTS с интеграцией в SIP/PBX, несколько сценариев обслуживания клиентов и дашборд мониторинга. Бюджет 15 USD явно не соответствует объёму работ.",
-   "reply": "Halo, saya memahami kebutuhannya: asisten suara berbahasa Indonesia yang menangani panggilan masuk dan keluar, mulai dari sapaan, memahami maksud penelpon, hingga memberikan jawaban layanan pelanggan. Saya akan merancangnya sebagai pipeline ASR → LLM → TTS dengan integrasi SIP/PBX, dimulai dari satu skenario inti (misalnya cek status pesanan), lalu diperluas ke dua skenario lain beserta fallback. Dashboard monitoring cukup sederhana berbasis endpoint API. Perkiraan MVP untuk satu skenario sekitar 1–2 minggu, sisanya menyesuaikan kompleksitas integrasi telepon dan target latensi.\n\nSebelum mulai, boleh saya tahu: sistem telepon apa yang digunakan (Asterisk, FreePBX, atau provider SIP tertentu), dan apakah sudah ada API atau data pesanan yang bisa dihubungkan?\n\nLihat contoh demo saya di https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Здравствуйте, я понимаю задачу: голосовой ассистент на индонезийском языке, который обрабатывает входящие и исходящие звонки, от приветствия и распознавания намерения звонящего до ответов по обслуживанию клиентов. Я бы построил его как пайплайн ASR → LLM → TTS с интеграцией SIP/PBX, начав с одного основного сценария (например, проверка статуса заказа), а затем расширил бы его до двух других сценариев и fallback. Дашборд мониторинга будет простым, на основе API-эндпоинтов. Ориентировочно MVP для одного сценария займёт 1–2 недели, остальное зависит от сложности телефонной интеграции и целевой задержки.\n\nПрежде чем начать, уточните, пожалуйста: какая телефонная система используется (Asterisk, FreePBX или конкретный SIP-провайдер) и есть ли уже API или данные о заказах, которые можно подключить?\n\nПосмотреть живые демо можно в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какая телефонная система или SIP-провайдер используется (Asterisk, FreePBX, другой)?",
-    "Есть ли уже API или база данных с заказами и ценами, к которым нужно подключиться?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836361",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/android-app-development/Criclive-Android-iOS-Apps-40836361",
-  "title": "Criclive.in Android & iOS Apps",
-  "description": "Project Title: Android & iOS App Development for Criclive.in\n\nI am looking for an experienced mobile app developer or development team to develop Android and iOS applications for my existing website, Criclive.in.\n\nI want both mobile applications to look and function exactly like my existing Criclive.in website, maintaining the same company branding, design, layout, colour scheme, and overall user experience.\n\nProject Requirements:\n\n- Develop Android and iOS applications based on my existing Criclive.in website.\n- Maintain the same UI/UX, branding, design, and functionality as the website.\n- Implement real-time cricket live scores with automatic updates.\n- Display live match commentary, ball-by-ball updates, scorecards, and match statistics.\n- Include match schedules, results, upcoming matches, and ongoing matches.\n- Provide detailed player profiles, team information, and tournament details.\n- Ensure fast loading, smooth navigation, and high performance.\n- Implement push notifications for live match updates, wickets, innings breaks, and match results.\n- Integrate APIs and backend services efficiently.\n- Ensure proper synchronization between the website and mobile applications.\n- Optimize applications for different Android and iOS devices and screen sizes.\n- Follow SEO and App Store Optimization (ASO) best practices wherever applicable.\n- Provide clean, scalable, secure, and maintainable source code.\n\nExpected Deliverables:\n\n- Fully functional Android application.\n- Fully functional iOS application.\n- Complete source code.\n- Backend and API integration.\n- Testing, bug fixing, and performance optimization.\n- Assistance with Google Play Store and Apple App Store deployment.\n\nImportant: Please visit my website https://Criclive.in before submitting your proposal to understand its design, features, functionality, and overall requirements.\n\nI want professional-quality applications that closely replicate my existing website while providing a smooth and seamless mobile experience.\n\nPlease share your proposed technology stack, development timeline, estimated budget, and relevant previous work or portfolio.",
-  "budget": 1000000.0,
-  "budget_min": 500000.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T05:00:35+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 6,
-   "summary_ru": "Заказчик ищет разработчиков для нативных приложений Android и iOS, которые полностью повторяют сайт Criclive.in: живые счета матчей, комментарии по мячам, расписание, профили игроков и push-уведомления. Проект включает бэкенд, интеграцию API и публикацию в сторах.",
-   "reply": "You want Android and iOS apps that mirror Criclive.in, with the same branding and layout, plus live scores, ball-by-ball commentary, schedules, player profiles and push alerts for wickets and results. I would build one cross-platform app (React Native/Expo) that reuses the website's design tokens and connects to a shared backend, so the apps stay in sync with the site and with each other. The backend would ingest a live cricket data feed, cache it, and push updates over websockets and FCM/APNs. A first release covering scores, schedules and notifications would take roughly 6–8 weeks, including store submission support. Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nDo you already have a live cricket data provider, or should I suggest one? Should the backend reuse the website's existing API or be built separately?\n\nYakov",
-   "reply_ru": "Вы хотите Android- и iOS-приложения, которые повторяют Criclive.in: тот же брендинг и макет, а также живые счета, комментарии по мячам, расписание, профили игроков и push-уведомления о виккетах и результатах. Я бы сделал одно кроссплатформенное приложение (React Native/Expo), которое использует дизайн-токены сайта и работает с общим бэкендом, чтобы приложения оставались синхронизированы с сайтом и друг с другом. Бэкенд получал бы данные live-трансляций, кэшировал их и отправлял обновления через websockets и FCM/APNs. Первый релиз со счетами, расписанием и уведомлениями занял бы примерно 6–8 недель, включая помощь с публикацией в сторах. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nУ вас уже есть провайдер данных по крикету в реальном времени или подсказать вариант? Должен ли бэкенд использовать существующий API сайта или его нужно строить отдельно?\n\nYakov",
-   "questions": [
-    "У вас уже есть провайдер данных по крикету в реальном времени или нужно подобрать его?",
-    "Бэкенд должен использовать существующий API сайта Criclive.in или его нужно построить отдельно?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
  }
 ]
