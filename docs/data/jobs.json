@@ -1,5 +1,217 @@
 [
  {
+  "id": "freelancer:40837862",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/cicd/Centralized-Asset-Tracking-Platform",
+  "title": "Centralized AI Asset Tracking Platform",
+  "description": "I want to streamline how my AI engineering team handles data sets, prompts, model versions, and any change that touches them. Right now these assets live in scattered notebooks, cloud buckets, and ad-hoc spreadsheets, which makes collaboration and auditing painful. \n\nThe job is to design and set up a single, intuitive workspace where every model, prompt, data sample, and code change can be logged, related, and searched. Whether you build on an existing MLOps solution (like MLflow, Weights & Biases, or a comparable open-source stack) or propose a lightweight custom dashboard, the end result should let any engineer on my team: \n• Push a model or prompt and automatically capture its metadata, version, and lineage \n• View a consolidated history of changes and roll back when needed \n• Tag and filter assets by project, owner, or release \n• Export or query the full audit trail for compliance reviews \n\nI’m open to the specific tooling as long as it supports our Python-based workflow and can be integrated with Git and our CI/CD pipeline. A short discovery call to map the existing process, followed by staged milestones (design, prototype, production roll-out) will keep us aligned. \n\nIf you have hands-on experience setting up asset management or MLOps tracking in live environments, I’d love to see a concise example or demo link when you reply.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T01:08:34+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Заказчику нужно единое рабочее пространство для учёта моделей, промптов, датасетов и изменений кода с версионированием, связями, поиском, откатом и выгрузкой аудит-трейла, с интеграцией в Git и CI/CD. Бюджет 25 USD явно не соответствует объёму работ.",
+   "reply": "You want one place where models, prompts, datasets and code changes are logged, linked and searchable, with a clear audit trail and rollback. I'd start small: use MLflow or a similar open-source tracking server for runs and model versions, then add a thin Python SDK that captures metadata and lineage automatically, plus a Git/CI hook that records commits and releases. Tags for project, owner and release would live in the same store, with a simple search view and an export endpoint for audits. I'd deliver it in stages: a short discovery call, a working prototype of the push-and-search flow, then rollout to your team. Which tracking tools does your team use today, and which part of the audit trail matters most for compliance? Live demos are at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите одно место, где модели, промпты, датасеты и изменения кода логируются, связываются и ищутся, с понятным аудит-трейлом и откатом. Я бы начал с малого: использовал MLflow или похожий open-source трекинг-сервер для запусков и версий моделей, затем добавил бы тонкий Python SDK, который автоматически собирает метаданные и lineage, и хук Git/CI для записи коммитов и релизов. Теги по проекту, владельцу и релизу хранились бы в том же хранилище, с простым поиском и эндпоинтом для выгрузки аудита. Работу я бы вёл поэтапно: короткий discovery-звонок, рабочий прототип потока push-and-search, затем внедрение в команде. Какими трекинг-инструментами команда пользуется сейчас и какая часть аудит-трейла важнее всего для комплаенса? Живые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какими инструментами для учёта ML-активов команда пользуется сейчас (MLflow, W&B, самописные таблицы и бакеты)?",
+    "Какой объём нужен в первую очередь: только прототип с базовым поиском и версионированием или сразу продакшен-внедрение с аудитом?"
+   ]
+  },
+  "found_at": "2026-11-27T01:11:28+00:00"
+ },
+ {
+  "id": "freelancer:40837867",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/financial-consulting/Investor-Needed-for-Sports-Prediction",
+  "title": "Investor Needed for Sports Prediction App",
+  "description": "Prelaunch social media capital required US$50,000 loan/equity fully developed and working Sports Prediction App; 4 websites; Admin and CRM ready to roll. Anticipated returns end Feb 2027. Projected profits: interest @ 15% US$7,500; equity return year one projected US$300,000. Full DD available upon the signing of NDA. USA company registered May 2023 Sheridan, Wyomina. Markets India and UK. This is a non gambling/gaming App and is compliant with present legislation in India and the UK.",
+  "budget": 50000.0,
+  "budget_min": 20000.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T00:59:36+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Клиент ищет инвестора на $50 000 (займ или доля) для уже готовой спортивной прогностической платформы с 4 сайтами, админкой и CRM, обещая 15% годовых и доход в $300 000. Это предложение инвестиций, а не заказ на разработку.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Вам нужна разработка или поиск инвестиций? В описании упоминается только финансирование.",
+    "Если нужна доработка или интеграция CRM и админки, какие функции и что уже готово в проекте?"
+   ]
+  },
+  "found_at": "2026-11-27T01:11:28+00:00"
+ },
+ {
+  "id": "freelancer:40837861",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/payment-processing/Escrow-Style-Freelancer-Payment-System",
+  "title": "Escrow-Style Freelancer Payment System",
+  "description": "I regularly contract writers, marketers, and virtual assistants and I want every payment to stay on hold until I have reviewed and accepted their work. Your task is to build (or configure) a simple, reliable mechanism that lets me fund a job upfront while keeping the money locked in escrow until I press “approve”.\n\nCore needs \n• Securely collect funds, store them, and release only after my sign-off. \n• Intuitive interface where I can request revisions or finalise payment in one click. \n• Clear status updates so freelancers always know whether their draft, campaign, or admin task has been accepted. \n• Time-stamped activity log for basic audit purposes. \n\nDeliverables \n1. Working payment-hold solution (custom code, plug-in, or no-code workflow—your choice, as long as it is reliable and easy to maintain). \n2. Short setup manual my team can follow. \n3. A template agreement that explains the “approve-then-pay” rule to freelancers. \n\nAcceptance criteria \n• Payment cannot be released without my explicit action. \n• System supports typical writing, marketing, and admin job sizes (USD and GBP gateways preferable). \n• All instructions and credentials are handed over on completion. \n\nWhen you reply, outline the tools or services you would leverage (e.g., Stripe Connect, PayPal Adaptive, Escrow.com API, Airtable + Zapier, etc.), estimated implementation time, and any ongoing costs I should expect.",
+  "budget": 50.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T00:56:47+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 3,
+   "summary_ru": "Клиент хочет систему, которая удерживает оплату фрилансерам до его подтверждения работы: с запросами на правки, статусами для исполнителей, журналом действий, инструкцией по настройке и шаблоном договора. Бюджет 50 USD, объём работ больше бюджета.",
+   "reply": "You want freelancer payments held until you approve each deliverable, with one-click revision requests, clear status updates for the freelancer, and a timestamped activity log. I would build the approval flow as an automated pipeline: a job record, approve and revise actions, automatic status notifications, and an audit trail that logs every change. Using a modern stack with AI-assisted development, I can deliver a working version in about 3 to 4 days, then hand over the setup manual, the agreement template, and all credentials. Since the marketplace handles payments, I would keep the release step as a gated action in the workflow rather than building any payment logic.\n\nTwo questions: Should the tool connect to the marketplace through its API, or work as a standalone approval system? Do you have a preferred place to manage jobs, such as a spreadsheet or a web dashboard?\n\nYou can see live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы оплата фрилансерам удерживалась до вашего подтверждения каждой работы, с запросами на правки в один клик, понятными статусами для исполнителя и журналом действий с временными метками. Я бы построил процесс согласования как автоматизированный пайплайн: карточка задачи, действия «подтвердить» и «отправить на правки», автоматические уведомления о статусе и журнал аудита, где фиксируется каждое изменение. Используя современный стек и разработку с ИИ-ассистентами, я могу сделать рабочую версию примерно за 3–4 дня, а затем передать инструкцию по настройке, шаблон договора и все доступы. Поскольку платежи проходят через маркетплейс, я бы оставил этап выпуска оплаты как контролируемое действие в процессе, без собственной платёжной логики.\n\nДва вопроса: нужно ли подключать инструмент к маркетплейсу через API или делать автономную систему согласования? Где вам удобнее вести задачи: в таблице или в веб-панели?\n\nДемо-версии моих работ здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Нужно ли подключать инструмент к маркетплейсу через API или делать автономную систему согласования?",
+    "Где вам удобнее вести задачи: в таблице или в веб-панели?"
+   ]
+  },
+  "found_at": "2026-11-27T01:11:28+00:00"
+ },
+ {
+  "id": "freelancer:40837855",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/Admin-WhatsApp-Responsif-40837855",
+  "title": "Admin WhatsApp Responsif",
+  "description": "Saya membutuhkan seorang admin yang bisa mengambil alih balasan WhatsApp pelanggan setiap hari. Fokus utama Anda adalah:\n\n• Menjawab pertanyaan seputar harga, promo, stok, ketersediaan, cara pemesanan, dan pengiriman secara cepat, ramah, dan akurat. \n• Menggunakan template jawaban dan panduan produk yang akan saya sediakan, lalu menyesuaikannya dengan nada bicara brand. \n• Menyaring pertanyaan kompleks atau keluhan yang membutuhkan eskalasi, kemudian mencatatnya di Google Sheets agar tim inti bisa menindaklanjuti. \n\nKriteria yang saya cari: \n• Terbiasa memakai WhatsApp Business (label, quick reply, katalog). \n• Fast-response—idealnya membalas dalam ≤5 menit pada jam kerja yang kita sepakati. \n• Bahasa Indonesia tertulis yang rapi dan mudah dipahami. \n\nOutput harian yang saya harapkan: \n1. Log chat singkat (file .xls atau Google Sheets) berisi pertanyaan, solusi yang diberikan, dan status selesai/escalate. \n2. Rekap FAQ baru jika muncul pertanyaan di luar daftar yang ada. \n\nPekerjaan ini bersifat berkelanjutan; saya akan mulai dengan masa uji coba satu minggu. Jika performa memuaskan, kerja sama dapat diperpanjang.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T00:51:27+00:00",
+  "lang": "id",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик ищет постоянного администратора, который будет ежедневно вручную отвечать на сообщения клиентов в WhatsApp Business, использовать шаблоны и передавать сложные вопросы в Google Sheets. Это операторская работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только ручная работа оператора или также автоматизация ответов, например FAQ-бот через WhatsApp Business API с передачей сложных вопросов в Google Sheets?"
+   ]
+  },
+  "found_at": "2026-11-27T01:11:28+00:00"
+ },
+ {
+  "id": "freelancer:40837411",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-development/FAQ-Telegram-Chatbot",
+  "title": "AI FAQ Telegram Chatbot",
+  "description": "I need a Telegram bot that automatically answers our users’ frequently asked questions. I’ll supply a clean document / FAQ list that should serve as the sole knowledge base, so the bot must parse that content and draw every reply from it with a helpful, conversational tone.\n\nCore flow \n• A user asks a question in Telegram. \n• The bot checks the supplied FAQ data, selects the most relevant answer and responds immediately. \n• If no match is detected, I want the bot to give a polite fallback response that I can later edit in the code or an admin panel.\n\nTechnical notes \nPython, Node, or any stack that plays nicely with the Telegram Bot API and an NLP layer such as OpenAI, LangChain, Rasa, or similar is fine—feel free to suggest what you are most comfortable with. What matters is that I can: \n• update or replace the FAQ file myself without touching code, \n• view basic logs/analytics that show unanswered questions so we can expand the document over time, \n• host the bot on a modest cloud instance (Heroku / Render / AWS Lightsail are all acceptable).\n\nDeliverables \n1. Source code with clear setup instructions. \n2. Deployed bot running in a test Telegram group for live validation. \n3. Short README or screencast walking me through adding new FAQs and redeploying.\n\nOnce everything works smoothly in the test group, I’ll add the bot to our public channel. Let me know the timeline you need to turn this around and any libraries you prefer so we can get started.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "CAD",
+  "posted_at": "2026-11-27T00:40:44+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "crm",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 8,
+   "summary_ru": "Нужен Telegram-бот, который отвечает на частые вопросы пользователей только по загруженному клиентом FAQ-документу, с дружелюбным тоном и редактируемым запасным ответом. Также нужны логи неотвеченных вопросов, инструкция по обновлению FAQ и деплой на недорогом облачном хостинге.",
+   "reply": "You need a Telegram bot that answers users' common questions using only your FAQ document, with a friendly tone and an editable fallback when nothing matches. I'd build it in Python with python-telegram-bot, load the FAQ from a plain CSV or Markdown file, and match questions with embeddings (OpenAI or a local sentence-transformers model), so paraphrased questions still find the right answer. Unmatched questions would be logged to SQLite and viewable through a simple admin command. I'd deploy to Render or Lightsail and include a README on adding FAQs and redeploying. Estimated timeline: 5–7 days to a working test-group version, plus a day for handoff. Two questions: what format is your FAQ document in now, and roughly how many entries do you expect? Live demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен Telegram-бот, который отвечает на частые вопросы пользователей, используя только ваш FAQ-документ, с дружелюбным тоном и редактируемым запасным ответом, если совпадения нет. Я бы сделал его на Python с python-telegram-bot, загружал FAQ из простого CSV или Markdown-файла и подбирал ответы с помощью эмбеддингов (OpenAI или локальной модели sentence-transformers), чтобы перефразированные вопросы тоже находили нужный ответ. Неотвеченные вопросы сохранялись бы в SQLite и просматривались бы через простую команду для администратора. Я бы задеплоил бот на Render или Lightsail и приложил README с инструкцией по добавлению FAQ и повторному деплою. Ориентировочный срок: 5–7 дней до рабочей версии в тестовой группе, плюс день на передачу. Два вопроса: в каком формате сейчас FAQ-документ и примерно сколько записей вы ожидаете? Живые демо есть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "В каком формате сейчас находится FAQ-документ (Google Docs, Word, CSV, Markdown и т. д.)?",
+    "Примерно сколько вопросов и ответов будет в базе знаний на старте?"
+   ]
+  },
+  "found_at": "2026-11-27T01:11:28+00:00"
+ },
+ {
+  "id": "freelancer:40837841",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Business-Services-Website-Design-Hosting",
+  "title": "Business Services Website Design Hosting",
+  "description": "I need a clean, modern website that showcases my business and the range of services I provide. The site will include six core pages—Home, About, Services, Contact, Gallery, and Reviews—so visitors can quickly understand who we are, what we do, and see real-world examples of our work.\n\nKey interactions are simple: every page should make it effortless for a visitor to call me or send a message without hunting for the details. A persistent “Call / Message” button or sticky contact bar would be ideal.\n\nYou will handle everything from visual design and responsive layout to domain setup and hosting, so once the project is complete the site is live and fully operational. Please build on a user-friendly platform (WordPress, Webflow, or a comparable CMS) so I can update text and photos myself later.\n\nDeliverables\n• Fully designed and responsive website with the six pages listed above \n• Integrated click-to-call and contact-form functionality tested on mobile and desktop \n• Hosting and domain configuration, with SSL enabled \n• A brief hand-off guide or screencast showing how I can update content on my own\n\nI’ll provide logos, copy, and any specific images you need as soon as we start. Let me know your preferred platform, estimated timeline, and any questions you have so we can get moving quickly.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T00:36:23+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 5,
+   "summary_ru": "Нужен современный адаптивный сайт-визитка из шести страниц (главная, о нас, услуги, контакты, галерея, отзывы) с постоянной кнопкой звонка и сообщения, настройкой домена, хостинга и SSL, а также инструкцией по самостоятельному обновлению контента. Бюджет 250 USD.",
+   "reply": "You need a six-page business website (Home, About, Services, Contact, Gallery, Reviews) with a sticky call/message bar, responsive design, domain and hosting setup with SSL, and a short guide so you can update text and photos yourself. I'd build it on WordPress because it's easy to manage later, with a clean, modern layout and click-to-call and contact form tested on mobile and desktop. Using a modern stack and AI-assisted development, I can deliver the full site in about 5–7 days once I receive your logo, copy, and images. See live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен сайт-визитка из шести страниц (главная, о нас, услуги, контакты, галерея, отзывы) с закреплённой панелью звонка и сообщения, адаптивным дизайном, настройкой домена, хостинга и SSL, а также короткой инструкцией, чтобы вы могли сами обновлять тексты и фото. Я бы сделал его на WordPress, так как им удобно управлять в дальнейшем, с чистым современным макетом и проверкой кнопки звонка и формы контактов на мобильных и десктопных устройствах. Благодаря современному стеку и разработке с помощью ИИ-ассистентов я могу сдать полностью готовый сайт примерно за 5–7 дней после получения логотипа, текстов и изображений. Живые демо здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Уже есть домен и хостинг или их нужно зарегистрировать и настроить с нуля?",
+    "Предпочитаете WordPress или Webflow, или есть конкретная платформа, с которой вы хотите работать?"
+   ]
+  },
+  "found_at": "2026-11-27T01:11:28+00:00"
+ },
+ {
+  "id": "freelancer:40837840",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/html5/Bangun-Website-Profil-Bisnis",
+  "title": "Bangun Website Profil Bisnis",
+  "description": "Saya membutuhkan sebuah website profil bisnis yang simpel, modern, dan mudah saya kelola sendiri setelah peluncuran. Fokusnya murni untuk menampilkan siapa kami, apa yang kami tawarkan, serta cara tercepat bagi calon klien menghubungi tim.\n\nYang saya butuhkan:\n• Desain responsif untuk desktop dan mobile. \n• Halaman utama, Tentang Kami, Layanan, dan Kontak lengkap dengan peta atau formulir kontak. \n• Panel admin (WordPress, Elementor, atau solusi serupa) agar saya bisa mengedit teks dan gambar tanpa bergantung pada kode. \n• Struktur SEO dasar—judul, deskripsi, dan URL ramah mesin pencari. \n• Instalasi di hosting yang sudah saya siapkan, berikut uji coba hingga situs live.\n\nSilakan gunakan stack atau tema yang Anda kuasai—WordPress, HTML5-CSS3, atau framework ringan lainnya—selama hasil akhirnya cepat di-load dan mudah dipelihara. Tunjukkan contoh pekerjaan sejenis agar saya bisa menilai kesesuaian gaya desain Anda dengan brand kami.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T00:35:29+00:00",
+  "lang": "id",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Клиент хочет простой и современный сайт-визитку для бизнеса с главной, страницами «О нас», «Услуги» и «Контакты» (карта или форма), адаптивным дизайном, админ-панелью для самостоятельного редактирования и базовым SEO. Установка на готовый хостинг. Бюджет низкий (25 USD).",
+   "reply": "Halo, saya memahami kebutuhan Anda: website profil bisnis yang sederhana dan modern, dengan halaman Beranda, Tentang Kami, Layanan, dan Kontak (lengkap dengan peta atau formulir), desain responsif, panel admin untuk mengedit teks dan gambar sendiri, serta struktur SEO dasar. Saya akan membangunnya di WordPress dengan Elementor atau tema ringan, sehingga Anda bisa mengelola konten tanpa kode dan kecepatan muatnya tetap optimal. Setelah hosting siap, saya lakukan instalasi, pengujian di desktop dan mobile, lalu peluncuran. Perkiraan pengerjaan sekitar 5–7 hari kerja. Apakah sudah tersedia logo, warna brand, dan teks untuk setiap halaman? Dan apakah hosting Anda sudah mendukung WordPress?\n\nLihat contoh demo langsung di portfolio saya: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте, я понимаю вашу задачу: простой и современный сайт-визитка для бизнеса с главной, страницами «О нас», «Услуги» и «Контакты» (с картой или формой), адаптивный дизайн, админ-панель для самостоятельного редактирования текстов и изображений и базовая SEO-структура. Я сделаю его на WordPress с Elementor или на лёгкой теме, чтобы вы могли управлять контентом без кода, а скорость загрузки оставалась высокой. Когда хостинг будет готов, я выполню установку, протестирую версии для десктопа и мобильных устройств и запущу сайт. Ориентировочный срок работ — около 5–7 рабочих дней. Есть ли уже логотип, цвета бренда и тексты для каждой страницы? И поддерживает ли ваш хостинг WordPress?\n\nПосмотреть живые демо-примеры можно в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли уже логотип, цвета бренда и тексты для каждой страницы?",
+    "Поддерживает ли ваш хостинг WordPress и есть ли доступ к панели управления?"
+   ]
+  },
+  "found_at": "2026-11-27T01:11:28+00:00"
+ },
+ {
   "id": "freelancer:40837819",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/woocommerce/Ventas-Gabriel",
@@ -14597,33 +14809,5 @@
    "questions": []
   },
   "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "freelancer:40834005",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/graphic-design/Classic-Oil-Family-Portrait-Integration",
-  "title": "1)Classic Oil Family Portrait Integration",
-  "description": "I'm looking to edit/integrate four photos into a family portrait. The base image is taken in the bed of an old pickup truck with 6 people. Here are the changes:\n1) add the father (now deceased) in the cab, looking over his shoulder at his family 2) substitute the aunt (in the truck bed) with the wife/mother 3) add son in law standing behind his wife to the right of the pickup 4) add the dog looking at the driver I have a wealth of photos to help you chose the correct positioning Could be changed to B&W or sepiatone if that would help with uniformity....",
-  "budget": 750.0,
-  "currency": "USD",
-  "posted_at": "2026-11-24T19:29:15+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "api_integration",
-   "score": 1,
-   "summary_ru": "Заказчик хочет вручную отредактировать семейный портрет: добавить на фото умершего отца, заменить одного человека, добавить зятя и собаку, возможно, перевести изображение в ч/б или сепию. Это фотомонтаж, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли здесь только ручная фотообработка без программной части?",
-    "Есть ли у заказчика какие-то требования к разработке, например, автоматизации или интеграции?"
-   ]
-  },
-  "found_at": "2026-11-24T19:34:41+00:00"
  }
 ]
