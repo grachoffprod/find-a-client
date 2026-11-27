@@ -1,5 +1,269 @@
 [
  {
+  "id": "freelancer:40839219",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/flask/Flask-React-Mobile-App-Redesign",
+  "title": "Flask-React Mobile App Redesign",
+  "description": "I have a production mobile app running a Flask API with a React front end and I’m ready to give it a fresh, modern look. The priority is the user experience: revamped main screens and smoother navigation that feels intuitive on both iOS and Android. All core logic is stable, so the job is almost entirely UI/UX—think new layouts, updated colour palette, cleaner typography, and smarter routing without disrupting existing endpoints.\n\nYou’ll work in my current repo (Flask + React, GitHub) and deliver fully responsive components, updated style sheets, and any minor adjustments needed on the Flask side to serve revised assets. I’ll handle deployment; I just need pull-request–ready code and a concise changelog.\n\nWhen you apply, link to past redesign or front-end upgrade work you’ve done with React (mobile-friendly projects preferred). No lengthy proposals—just show me before-and-after examples or a live link and a brief note on the stack you used. \n\nKey deliverables \n• New React components for all primary screens \n• Re-architected navigation flow (React Router) \n• Polished, consistent styling (CSS-in-JS or SASS—your choice) \n• Lightweight hand-off notes so I can merge and test quickly \n\nCode quality, accessibility, and performance are non-negotiable; Lighthouse scores should remain the same or improve. Let’s give my users a smoother ride.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T20:03:25+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Клиент просит переработать UI/UX готового мобильного приложения (Flask API + React): новые макеты основных экранов, обновлённая палитра и типографика, новая навигация на React Router. Существующие эндпоинты и логика не меняются, нужны pull-request-ready код и changelog. Бюджет 250 USD при таком объёме скромный.",
+   "reply": "You want a UI/UX refresh of a stable Flask + React mobile app: new layouts for the main screens, a unified palette and typography, and React Router navigation that feels smooth on both iOS and Android, with the existing endpoints left untouched. I'd start by auditing the current components and routes, then build the new screens as isolated responsive components in SASS or CSS-in-JS, keeping the Flask changes limited to serving the updated assets. I'd check Lighthouse scores before and after each stage so performance and accessibility don't regress. For this scope I'd estimate about 1–2 weeks, ending with merge-ready code and a changelog. Which screens are the highest priority, and do you have a brand palette or reference designs I should follow?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен редизайн и улучшение UX стабильного мобильного приложения на Flask + React: новые макеты основных экранов, единая палитра и типографика, а также навигация на React Router, которая работает плавно на iOS и Android, при этом существующие эндпоинты не меняются. Я начну с аудита текущих компонентов и маршрутов, затем соберу новые экраны как изолированные адаптивные компоненты на SASS или CSS-in-JS, а изменения на стороне Flask ограничу раздачей обновлённых ассетов. Lighthouse-оценки буду проверять до и после каждого этапа, чтобы не ухудшить производительность и доступность. Для такого объёма ориентировочный срок — 1–2 недели, в конце будут код, готовый к слиянию, и changelog. Какие экраны для вас приоритетны и есть ли фирменная палитра или референсы, которым нужно следовать?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие экраны приоритетны для первого этапа и есть ли у вас фирменная палитра или референсы дизайна?",
+    "Используете ли вы уже CSS-in-JS или SASS, и какая версия React стоит в проекте?"
+   ]
+  },
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
+  "id": "freelancer:40839217",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/html/Editable-Touchscreen-Prize-Wheel",
+  "title": "Editable Touchscreen Prize Wheel",
+  "description": "At our next live event I want guests to walk up to a large touchscreen, tap once, and watch a colourful wheel spin toward a random prize. The experience needs to feel slick and self-contained: no internet connection, just a browser running full-screen in kiosk mode (Chrome or Edge is fine).\n\nHere’s the flow I have in mind. A visitor taps the screen, the wheel animates with realistic easing, then slows to a stop. The winning segment triggers an on-screen message such as “Congratulations! You’ve won a water bottle.” After a short timeout the wheel resets itself so the next person can play immediately.\n\nI need to be able to adjust everything myself between show days—prize names, segment colours, odds, background image, even the centre logo—without digging into code. A simple JSON, CSV, or small admin panel works as long as it’s clearly documented. Please package the complete, editable source (HTML5 / JavaScript or any lightweight framework that stays browser-only) together with concise setup instructions so my team can load it onto any Windows laptop or touchscreen display and go live.\n\nDeliverables \n• Fully editable spin-the-wheel application that runs offline in a modern browser \n• Configuration method for prizes, probabilities, colours, and branding assets \n• On-screen prize message display with automatic reset \n• Clear deployment & editing guide (brief PDF or README)\n\nI’ll test by loading it on a 1080p touchscreen; smooth animation and easy prize edits will be the acceptance criteria.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T19:59:35+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 6,
+   "summary_ru": "Нужно офлайн-приложение «колесо призов» для сенсорного экрана на мероприятии: одно касание запускает вращение, а призы, шансы, цвета и логотип редактируются без программирования. После выигрыша показывается сообщение, затем колесо автоматически сбрасывается.",
+   "reply": "You want a self-contained, offline spin wheel that guests trigger with one tap on a 1080p touchscreen, with prizes, odds, colours and logo editable through a plain config file and an automatic reset after each win. I would build it as a single HTML5 Canvas app in vanilla JavaScript, with weighted random selection, an eased spin animation, and a config.json for prizes, weights, colours and image assets. I would also write a short README covering setup in kiosk-mode Chrome or Edge. Timeline: about 3 to 4 days for the core app, plus a day for testing on a 1080p display and writing the guide. Two questions: do you need results logged or exported, and will the logo and background be supplied as image files?\n\nYou can see live demos of my work at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужно автономное колесо призов, которое гости запускают одним касанием сенсорного экрана 1080p. Призы, шансы, цвета и логотип должны редактироваться через простой файл конфигурации, а после каждого выигрыша колесо должно сбрасываться автоматически. Я бы сделал одно HTML5-приложение на Canvas и чистом JavaScript: взвешенный случайный выбор, плавную анимацию вращения и config.json для призов, весов, цветов и изображений. Также написал бы короткую инструкцию по запуску в Chrome или Edge в режиме киоска. Срок: примерно 3–4 дня на основную версию и ещё день на тестирование на экране 1080p и написание инструкции. Два вопроса: нужно ли сохранять или экспортировать результаты и будут ли логотип и фон предоставлены в виде файлов изображений?\n\nЖивые демо моих работ можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Нужно ли сохранять статистику выигрышей или экспортировать результаты в CSV?",
+    "Логотип и фон будут предоставлены в виде файлов изображений?"
+   ]
+  },
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
+  "id": "freelancer:40839211",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/flutter/Buy-Existing-Mobile-Shop-CRM",
+  "title": "Buy Existing Mobile Shop CRM/ERP",
+  "description": "# Looking to Buy an Existing Mobile Shop CRM/ERP Software – Flutter + Backend + Full Source Code\n\n**Project Type:** Purchase of existing software/source code (NOT development from scratch)\n\nDirectly share a url to demo of your product in the proposals as my AI filter will be filtering out every proposal without a valid demo URL.\n\nWe are looking for a developer, software company or product owner who has **already built a functional CRM/ERP or POS system** suitable for mobile phone shops and is interested in selling the complete source code with commercial customization rights.\n\nOur goal is to acquire an existing product, customize it and launch it as a multi-shop SaaS platform for mobile phone retailers in India.\n\n**We are not looking for developers to build a new ERP from scratch.**\n\n### 1. Preferred Technology Stack\n\n**Frontend**\n- Flutter / Dart (strongly preferred)\n- Android and iOS support\n- Windows desktop and web support preferred\n- Complete editable Flutter source code\n\n**Backend**\n- Node.js / TypeScript (NestJS or Express)\n- Go or another reliable, scalable backend\n\nWe are flexible about the backend language if the existing architecture is secure, maintainable and production-ready.\n\n**Database**\n- PostgreSQL (preferred)\n- Supabase / PostgreSQL\n- Other relational databases can be considered if migration to PostgreSQL is practical.\n\n### 2. Core CRM/ERP Features Required\n\nWe are looking for an existing system with as many of the following features as possible:\n\n- Product and inventory management\n- Mobile phone IMEI and serial-number tracking\n- New, used and refurbished phone inventory\n- Brand, model, variant, storage, colour and condition management\n- Stock purchasing and supplier management\n- POS billing and sales management\n- GST/tax-ready invoicing\n- Customer management and sales history\n- Warranty and return management\n- Expense, profit and loss tracking\n- Stock alerts and low-inventory notifications\n- Sales, purchase and inventory reports\n- Barcode scanning\n- User roles and staff permissions\n- Data export and backup\n- Repair and service management (preferred)\n\n### 3. Multi-Shop SaaS Requirements\n\nOur long-term goal is to onboard hundreds of independent mobile shops.\n\nWe prefer a codebase that already supports:\n\n- Multi-tenant architecture\n- Independent shop accounts\n- Separate and secure inventory for each business\n- Role\n\nAnd looking for support",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T19:58:04+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 3,
+   "summary_ru": "Клиент хочет купить готовую CRM/ERP для магазинов мобильных телефонов с исходным кодом (Flutter, бэкенд, PostgreSQL) и дальше запустить её как мульти-магазинный SaaS в Индии. Бюджет 37 500 INR, при этом покупка готового продукта, а не разработка с нуля.",
+   "reply": "You're looking to acquire a finished mobile-shop CRM/ERP with full source code and then run it as a multi-shop SaaS. I don't have a ready-made mobile retail ERP to sell, so I'd rather be upfront about that. What I can do is build the core you describe: inventory with IMEI tracking, POS and GST-ready invoicing, staff roles, and a tenant-isolated PostgreSQL schema, using Flutter and a NestJS backend. You'd receive fully editable source. For a scope this size I'd expect a first working version in about 3–4 weeks, with multi-shop onboarding added in phases. Two questions: would a custom build work for you instead of a purchase, and how many shops do you expect in the first six months?\n\nFor my work with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите приобрести готовую CRM/ERP для магазинов мобильных телефонов с полным исходным кодом и затем запустить её как мульти-магазинный SaaS. У меня нет готовой ERP для розницы с мобильными телефонами, поэтому я сразу об этом скажу. Могу собрать ядро, которое вы описали: учёт склада с отслеживанием IMEI, POS и счета с учётом GST, роли сотрудников и изолированную по арендаторам схему PostgreSQL на Flutter и бэкенде NestJS. Вы получите полностью редактируемый исходный код. Для такого объёма я ожидаю первую рабочую версию примерно за 3–4 недели, а подключение нескольких магазинов добавим поэтапно. Два вопроса: подойдёт ли вам индивидуальная разработка вместо покупки и сколько магазинов вы ожидаете подключить в первые полгода?\n\nПример моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Подойдёт ли вам индивидуальная разработка вместо покупки готового кода?",
+    "Сколько магазинов вы ожидаете подключить в первые шесть месяцев?",
+    "Нужна ли поддержка ремонтов и сервисных заказов уже в первой версии?"
+   ]
+  },
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
+  "id": "freelancer:40839213",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/Customer-Account-Support-Specialist",
+  "title": "Customer Account Support Specialist Needed",
+  "description": "I’m the HR manager at Algility and I need a proactive customer account support specialist who can become the first point of contact for our users over email and live chat. Your primary focus will be keeping every account accurate, accessible, and problem-free, while delivering clear, friendly answers that reflect our brand voice.\n\nDay-to-day you’ll:\n• Respond to customer questions, clarifying product features and guiding best-practice use. \n• Set up new accounts, update existing profiles, and ensure data consistency in our CRM. \n• Troubleshoot login, access, or billing issues, coordinating with our engineering and finance teams when deeper fixes are required.\n\nA background in SaaS support, familiarity with common help-desk tools (Zendesk, Intercom, or similar), and strong written English are important. Experience with device management or AI project workflows is a plus; if you’ve handled those before, let me know, as we have parallel initiatives in the pipeline where that knowledge could shine.\n\nSuccess will be measured by response speed, resolution rate, and user satisfaction scores. If you’re ready to help our customers feel supported from the very first interaction, I’d love to hear how you can make an impact at Algility.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T19:55:24+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "HR-менеджер Algility ищет специалиста поддержки клиентов для ответов по email и в live chat, ведения аккаунтов в CRM и работы с help-desk инструментами. Это постоянная операционная роль, а не проект разработки.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это постоянная должность в штате или ко-работа на аутсорсе?",
+    "Нужна ли разработка или интеграция с их CRM, или задача только в операционной поддержке?"
+   ]
+  },
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
+  "id": "freelancer:40839212",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/css/Update-WordPress-Theme-Site-Health",
+  "title": "Update WordPress Theme and Site Health",
+  "description": "Project Details\n$30.00 – 250.00 USD\n\nI'm in need of a Wordpress expert to update my current theme. I had been using PlayTunes, which became non-functional. Now I want a similar one with updated features, including the rotating images feature of my previous theme, which I'd like to retain in the new theme.\nIn addition, when WP shifted me to a new theme, much garbage appeared which I need removed.\n\nKey Points:\n- I require the new theme to have the same design aesthetics as my current theme.\n- The project needs to be completed ASAP.\n- The new theme should be up-to-date in terms of features and functionalities.\n\nAdditional Info:\n- While I do not want a complete site redesign, I am interested in improving my site's overall \"health\". This includes but is not limited to SEO optimization and any other recommendations that can enhance the site's performance.\n\nIdeal Skills:\n- Proven experience with Wordpress theme customization and updates.\n- Strong understanding of SEO and site optimization.\n- Ability to work efficiently under strict timelines.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T19:54:45+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
+  "id": "freelancer:40839207",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/website-design/Graphic-Designer-WordPress-Developer-40839207",
+  "title": "Graphic Designer & WordPress Developer Needed.",
+  "description": "We are seeking an experienced freelance graphic designer and WordPress developer to support the initial digital launch of an emerging premium Indian home décor and lifestyle brand.\n\nWe are looking to establish a professional brand presence through a company profile and supplier partnership brochure, alongside an introductory WordPress website.\n\nWe are interested in building a long-term working relationship, with opportunities for further assignments as the business develops.\n\nInitial Project Requirements\n\n1. Company Profile & Supplier Partnership Brochure (10–12 Pages)\n\nDesign a professionally presented brochure covering:\n\nBrand introduction, story and business overview.\n\nProduct categories and curated collections, with relevant visuals and descriptions.\n\nSourcing approach and supplier collaboration model.\n\nExplanation of our supplier-led fulfilment partnership and how we work with suppliers.\n\nThe brochure should communicate the brand, business model and partnership opportunity, rather than function solely as a product catalogue.\n\nRequired formats: print-ready PDF, web-optimised PDF and editable source files.\n\n2. WordPress Website Development\n\nDevelop and refine our existing WordPress website using our current domain and hosting.\n\nThe website should include six main sections:\n\nHome\n\nOur Story\n\nCollections (12 product categories)\n\nSupplier Partnerships\n\nSupplier Enquiry Form\n\nContact\n\nRequirements include responsive design, WordPress/Elementor development, basic SEO and performance optimisation.\n\nE-commerce and payment gateway integration are not required at this stage.\n\nPreferred Skills\n\nCanva or Adobe InDesign.\n\nWordPress and Elementor.\n\nCompany profiles, brochures and product catalogue design.\n\nStrong visual design, typography and branding.\n\nResponsive website development and basic SEO.\n\nExperience with lifestyle, home décor or premium consumer brands.\n\nProject Arrangement\n\nThis is an initial, fixed-price paid assignment, divided into two deliverables: the brochure and the website.\n\nThe project will be developed in stages, with agreed deliverables, revisions, timelines and milestone-based payments.\n\nThere is potential for further collaboration involving social media management, product photography, content creation, website enhancements and digital marketing as the business grows.\n\nWe prefer freelancers based in India who can coordinate during regular Indian Standard Time business hours.\n\nPlease Include in Your Proposal\n\nPortfolio and previous website links.\n\nExamples of company profiles, brochures or catalogues designed by you.\n\nConfirmation of whether you work independently or with a team.\n\nSeparate fixed-price quotations for the brochure and website.\n\nEstimated delivery timelines and number of revisions included.\n\nAny additional costs, including image licensing, premium themes or plugins.\n\nWe look forward to connecting with creative professionals interested in collaborating on an emerging brand.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T19:50:54+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Клиент ищет фрилансера для двух задач: дизайн корпоративной брошюры для поставщиков (10–12 страниц) и доработка существующего WordPress-сайта на Elementor (6 разделов, адаптивность, базовое SEO, форма для поставщиков). Бюджет небольшой, а брошюра относится к дизайну, которым Яков не занимается, поэтому интерес только к части с сайтом.",
+   "reply": "You need your existing WordPress site rebuilt and refined on your current domain and hosting, with six sections (Home, Our Story, 12 collections, Supplier Partnerships, a supplier enquiry form and Contact), responsive layout, and basic SEO. I would take the website part only. I'd start with a quick audit of the current setup, then rebuild the pages in Elementor on a clean theme, set up the enquiry form with email notifications, and optimise speed and basic SEO (titles, meta descriptions, image compression). For this scope I'd estimate 7–10 days, including two rounds of revisions. I don't do brochure design, so that would need a separate designer.\n\nYou can see live demos here: https://grachoffprod.github.io/portfolio/\n\nAre the brochure content and images ready, or should the site use placeholders for now? Which theme and Elementor version are currently installed?\n\nYakov",
+   "reply_ru": "Вам нужно доработать и обновить существующий сайт на WordPress на вашем текущем домене и хостинге: шесть разделов (Главная, Наша история, 12 коллекций, Партнёрство с поставщиками, форма запроса для поставщиков и Контакты), адаптивная вёрстка и базовое SEO. Я бы взял только часть с сайтом. Сначала проверю текущую настройку, затем пересоберу страницы в Elementor на чистой теме, настрою форму с отправкой уведомлений на почту и оптимизирую скорость и базовое SEO (заголовки, мета-описания, сжатие изображений). Для такого объёма оцениваю срок в 7–10 дней, включая два раунда правок. Дизайн брошюры я не делаю, для неё понадобится отдельный дизайнер.\n\nЖивые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nГотовы ли текст и изображения для брошюры, или на первом этапе на сайте лучше использовать заглушки? Какая тема и версия Elementor установлены сейчас?\n\nЯков",
+   "questions": [
+    "Готовы ли текст и изображения для брошюры или на сайте пока использовать заглушки?",
+    "Какая тема WordPress и версия Elementor установлены сейчас?"
+   ]
+  },
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
+  "id": "freelancer:40839193",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/woocommerce/WooCommerce-Setup-with-Razorpay-SMTP",
+  "title": "WooCommerce Setup with Razorpay & SMTP",
+  "description": "Project Title\n\nWordPress Theme Installation + Razorpay Payment & SMTP Setup for HYDR\n\nProject Description\n\nWe already have a WordPress/WooCommerce website hosted on Hostinger. We need a freelancer to complete the following setup.\n\nScope of Work\n\n1. Theme Installation\n\n* Install a suitable free WooCommerce theme.\n* Import a ready-made demo template.\n* Apply HYDR’s blue-and-white branding.\n* Add our logo and product images.\n* Configure the basic homepage.\n* Ensure mobile responsiveness.\n\n2. Razorpay Payment Integration\n\n* Install and configure the official Razorpay WooCommerce plugin.\n* Connect our Razorpay business account.\n* Configure online payment methods.\n* Test the payment process.\n\n3. SMTP Email Configuration\n\n* Configure SMTP for our domain email.\n* Set up reliable order confirmation emails.\n* Configure customer order notifications.\n* Test email delivery.\n\n4. Final Testing\n\n* Test Add to Cart and Checkout.\n* Test Razorpay payment integration.\n* Test order confirmation emails.\n* Ensure existing products, customers and orders are preserved.\n\nImportant\n\n* Website is already built.\n* No development from scratch.\n* No expensive paid themes or plugins without our approval.\n* We will provide the necessary account access.\n* All work must be completed on our existing Hostinger website.\n\nFixed Budget: ₹1,000\n\nPlease share your previous WordPress/WooCommerce experience and estimated completion time.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T19:41:06+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Нужно настроить уже существующий WooCommerce-сайт на Hostinger: установить бесплатную тему в фирменных сине-белых цветах HYDR, подключить официальный плагин Razorpay, настроить SMTP и почтовые уведомления о заказах, сохранив текущие товары, клиентов и заказы. Бюджет небольшой (1500 INR), срок не указан.",
+   "reply": "You need the existing WooCommerce store on Hostinger set up with a free theme in HYDR's blue-and-white branding, the official Razorpay plugin connected, and SMTP order emails working, while keeping the current products, customers and orders intact. I can take on the integration and email side: installing and branding the theme, configuring the plugin, and running test orders from add-to-cart through to the confirmation email. My work is mostly custom code and API integrations, so I would be careful with the WooCommerce parts and back up the site before changing anything. Rough estimate: 2–3 days once I have access. Could you tell me whether the domain mailbox for SMTP already exists, and whether you will share Hostinger admin access or prefer to do the steps together? You can also see my live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно настроить уже существующий магазин WooCommerce на Hostinger: установить бесплатную тему в фирменных сине-белых цветах HYDR, подключить официальный плагин Razorpay и настроить отправку писем о заказах через SMTP, сохранив текущие товары, клиентов и заказы. Я могу взяться за интеграцию и почтовую часть: установить и оформить тему, настроить плагин и провести тестовые заказы от добавления в корзину до письма с подтверждением. Основная моя работа — собственный код и интеграции по API, поэтому к частям WooCommerce я отнесусь аккуратно и сделаю резервную копию сайта перед любыми изменениями. Ориентировочный срок: 2–3 дня после получения доступа. Подскажите, уже ли создан почтовый ящик на вашем домене для SMTP, и планируете ли вы передать доступ к админке Hostinger или удобнее выполнять шаги вместе? Живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Уже создан ли почтовый ящик на домене, который будет использоваться для SMTP?",
+    "Передадите ли вы доступ к админке Hostinger или удобнее выполнять настройку вместе?",
+    "Есть ли у вас готовый логотип, фото товаров и список страниц для главной, или их нужно будет подготовить самим?"
+   ]
+  },
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
+  "id": "freelancer:40839187",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/product-design/Product-Design-Research-Prototype",
+  "title": "Product Design Research & Prototype",
+  "description": "I need assistance with college-level research work and the creation of a physical product model. The project focuses on the subject area of Product Design, specifically on the theme of \"Humanizing Technology.\" Any two assignments to be done before 7th December\n\nKey requirements:\n- Conduct in-depth research on human-centered design principles and practices.\n- Develop a prototype in the form of a physical product model.\n\nIdeal skills and experience:\n- Background in product design or related fields.\n- Experience in research methodologies and model-making.\n- Strong understanding of human-centered design.",
+  "budget": 1000.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T19:32:13+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Студенческая исследовательская работа по дизайну продуктов на тему «гуманизация технологий» и изготовление физической макетной модели. Это не разработка ПО, поэтому под услуги Яков не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
+  "id": "freelancer:40839172",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/internet-marketing/Pakistan-Perfume-Launch-Agent-Needed",
+  "title": "Pakistan Perfume Launch Agent Needed",
+  "description": "Voodoo, my soon-to-launch fragrance line, is ready for its debut in Pakistan and every bottle sold earns the agent a 10 % commission. The roll-out will start online, so the first priority is to dominate Daraz and similar marketplaces while building buzz across Instagram, Facebook, and TikTok. \n\nCore deliverables: \n• Set up and manage the full product presence on Daraz and any other relevant e-commerce portals, including imagery, copy, pricing, and stock updates. \n• Plan, create, and run engaging social media content and targeted paid ads that drive traffic straight to those listings. \n\nConsistent reporting on sales, ad spend, and ROI will keep both of us aligned, and your commission is released on each verified bottle sale. If the online launch meets its targets, we can explore expansion into local shops, beauty salons, and pop-up events together. \n\nExperience with Pakistan’s e-commerce ecosystem, proven social media ad results, and a proactive approach to customer engagement will make this partnership thrive. Let’s make Voodoo the next standout scent in the market.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T19:18:37+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Заказчик ищет агента для продвижения парфюма Voodoo в Пакистане: управление карточками на Daraz, рекламой в соцсетях и отчетностью, с оплатой 10% комиссии с каждой проданной бутылки. Это работа по продажам и маркетингу на комиссии, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам разработка или интеграция, например сайт или магазин для Voodoo, или только агент по продажам и рекламе?",
+    "Есть ли у проекта фиксированный бюджет или оплата только в виде комиссии с продаж?"
+   ]
+  },
+  "found_at": "2026-11-27T20:08:00+00:00"
+ },
+ {
   "id": "freelancer:40839163",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/administrative-support/Personal-Assistant-for-Personal-Tasks",
@@ -14867,279 +15131,6 @@
     "У вас уже есть провайдер данных по крикету в реальном времени или нужно подобрать его?",
     "Бэкенд должен использовать существующий API сайта Criclive.in или его нужно построить отдельно?"
    ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836357",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/App-Development-from-Prototype-Launch",
-  "title": "App Development from Prototype to Launch",
-  "description": "I'm seeking an experienced developer to take my app from a clickable design/prototype to a live product. The app will function on both mobile and web platforms and will initially include features for messages, bookings, or orders.\n\nKey Requirements:\n- Transform a clickable design/prototype into a fully functional mobile app (iOS & Android) and website.\n- Implement core features for messages, bookings, or orders.\n- Ensure a seamless user experience across all platforms.\n- Provide support for testing and launching the app.\n\nIdeal Skills & Experience:\n- Strong background in mobile and web app development.\n- Experience with UI/UX design to ensure user-friendly interfaces.\n- Familiarity with backend development to support messaging and booking functionalities.\n- Proven track record of successfully launching apps.\n\nPlease share your portfolio and any relevant experience. Looking forward to your proposals!",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T04:53:15+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "booking",
-   "saas",
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "mvp",
-   "score": 4,
-   "summary_ru": "Заказчик хочет превратить кликабельный прототип в работающее мобильное приложение (iOS и Android) и веб-версию с чатом, бронированием и заказами, а также помочь с тестированием и запуском. Бюджет 750 USD, объём работ пока не уточнён.",
-   "reply": "You want a clickable prototype turned into a working mobile and web app with messaging, bookings, and orders, ready to launch. I would build it as one codebase: a cross-platform mobile app for iOS and Android plus a responsive web version sharing the same backend API. I'd start by mapping the prototype screens to features, then build the backend for chat, bookings and orders, followed by the apps, testing, and launch support. With a modern stack and AI-assisted development, I can deliver a first working version in roughly 3–4 weeks, scoped to the core flows within this budget.\n\nTwo questions: which feature should come first if we need to trim scope to fit the budget, and do you already have a backend or hosting, or should I set that up?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите превратить кликабельный прототип в работающее мобильное и веб-приложение с сообщениями, бронированием и заказами, готовое к запуску. Я бы сделал один кодовая база: кроссплатформенное мобильное приложение для iOS и Android плюс адаптивную веб-версию, которые используют один и тот же backend API. Начну с сопоставления экранов прототипа с функциями, затем сделаю backend для чата, бронирований и заказов, после этого приложения, тестирование и поддержку запуска. Благодаря современному стеку и разработке с помощью ИИ-ассистентов я могу выпустить первую рабочую версию примерно за 3–4 недели, с фокусом на основные сценарии в рамках этого бюджета.\n\nДва вопроса: какую функцию делать в первую очередь, если придётся сократить объём под бюджет, и есть ли у вас уже backend или хостинг, или мне нужно это настроить?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какую функцию делать в первую очередь, если придётся сократить объём под бюджет: чат, бронирования или заказы?",
-    "Есть ли у вас уже backend, база данных или хостинг, или их нужно настроить с нуля?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836345",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Premium-Electrical-Company-Website",
-  "title": "Premium Electrical Company Website Development",
-  "description": "We are looking for an experienced professional web developer to design and develop a premium, modern, and professional website for our company, Saksham Electricals Power.\n\nOur company was established in 2015 and specializes in Electrical Contracting, Solar EPC, EV Charging Infrastructure, Power Infrastructure (HT/LT), Industrial Electrical Works, Electrical Maintenance, and Energy Solutions.\n\nProject Requirements:\n\n• Premium and professional corporate website design\n• Mobile-friendly and responsive layout\n• Company profile and business overview\n• Services and solutions pages\n• Solar EPC and EV Charging project portfolio\n• Power Infrastructure and Electrical Projects showcase\n• Client and project gallery\n• Contact form and WhatsApp integration\n• SEO-friendly website structure\n• Fast loading and easy content management\n• Professional branding using our company logo and corporate colors\n\nThe website should reflect a reliable, technically strong, and growth-oriented electrical and energy solutions company.\n\nWe are looking for a developer who can deliver a high-quality corporate website suitable for industrial, commercial, infrastructure, and EV charging clients.",
-  "budget": 1250.0,
-  "budget_min": 750.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T04:46:42+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 4,
-   "summary_ru": "Заказчику нужен премиальный корпоративный сайт для электротехнической компании Saksham Electricals Power с разделами об услугах, портфолио солнечных и EV-проектов, галереей, формой обратной связи и интеграцией WhatsApp. Бюджет низкий (1250 INR).",
-   "reply": "You need a premium corporate site for Saksham Electricals Power that presents your contracting, solar EPC, EV charging and HT/LT infrastructure work clearly to industrial and commercial buyers. I would build it on a modern stack with a responsive layout, service and project pages, a portfolio gallery for solar and EV projects, a contact form with WhatsApp integration, and a clean SEO structure with fast loading. Your logo and corporate colors would be applied throughout, and the content would be easy to update. With AI-assisted development, I can deliver a first version in about 7–10 days and refine it after your feedback. Could you share your logo, brand colors, and the project photos and case details you want to feature? Also, how many pages do you expect beyond the ones listed?\nSee live demos: https://grachoffprod.github.io/portfolio/\nYakov",
-   "reply_ru": "Вам нужен премиальный корпоративный сайт для Saksham Electricals Power, который понятно покажет ваши услуги по электромонтажу, солнечным EPC-проектам, зарядной инфраструктуре EV и инфраструктуре HT/LT для промышленных и коммерческих клиентов. Я бы сделал сайт на современном стеке с адаптивной версткой, страницами услуг и проектов, галереей солнечных и EV-проектов, формой обратной связи с интеграцией WhatsApp и чистой SEO-структурой с быстрой загрузкой. Логотип и фирменные цвета использовались бы во всём сайте, а контент было бы легко обновлять. С помощью ИИ-ассистентов в разработке я могу выпустить первую версию примерно за 7–10 дней и доработать её по вашим комментариям. Не могли бы вы передать логотип, фирменные цвета, фото проектов и описания кейсов, которые хотите показать? Также сколько страниц вы ожидаете сверх перечисленных?\nПосмотреть живые демо: https://grachoffprod.github.io/portfolio/\nYakov",
-   "questions": [
-    "Какие материалы есть у заказчика: логотип, фирменные цвета, фото и описания проектов?",
-    "Сколько страниц нужно сверх перечисленных в ТЗ и нужна ли админ-панель для редактирования контента?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836341",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/full-stack-development/Full-Stack-Web-App-Maintenance",
-  "title": "Full-Stack Web App Maintenance",
-  "description": "I’m looking for a seasoned full-stack developer who can jump straight into our existing codebase and make the platform rock-solid. Your immediate focus will be fixing bugs and boosting overall reliability; once the critical issues are out of the way we’ll shift to performance tuning and, finally, rolling out new features that are already specced in the backlog.\n\nIf you’ve previously taken a sluggish or unstable site and turned it into a fast, dependable product, that’s exactly the kind of past work I need to see. Please include links, repos, or short case studies that highlight the before-and-after impact you delivered on speed and reliability.\n\nEveryone I shortlist will receive an invitation to a technical assessment that mirrors the real-world challenges you’ll face here. Completing it is required before we discuss milestones, access to the repo, and the staging pipeline.\n\nI’m eager to review your work and, if there’s a good fit, collaborate on keeping our application performing at its best.",
-  "budget": 50.0,
-  "budget_min": 25.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T04:46:03+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "saas",
-   "score": 4,
-   "summary_ru": "Нужен full-stack разработчик для существующего веб-приложения: сначала исправить баги и повысить надежность, затем заняться производительностью и фичами из бэклога. Бюджет небольшой (50 USD), а перед обсуждением этапов требуется техническое задание.",
-   "reply": "You need someone to step into an existing full-stack codebase, stabilize it by fixing the bugs, then move on to performance and the backlog features. I'd start with a short audit: reproduce the critical issues, check error logging and the main user flows, and fix the most painful problems first. After that I'd profile the slow endpoints and database queries and address them in order of user impact. I work with a modern stack and AI-assisted tooling, so fixes move quickly. I'm happy to complete the technical assessment. For the first stage I'd estimate about a week for the audit and critical fixes, with clearer milestones after that. Could you share the stack and hosting setup, and which failures or slowdowns users report most often right now? You can see my live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен разработчик, который подключится к существующему full-stack проекту, стабилизирует его, исправив баги, а затем перейдет к производительности и фичам из бэклога. Я бы начал с короткого аудита: воспроизвел бы критичные проблемы, проверил логирование ошибок и основные пользовательские сценарии, а самые болезненные проблемы исправил в первую очередь. Затем я бы проанализировал медленные эндпоинты и запросы к базе и устранял их по мере влияния на пользователей. Я работаю с современным стеком и ИИ-инструментами, поэтому исправления делаются быстро. Готов пройти техническое задание. Для первого этапа оцениваю аудит и критичные исправления примерно в неделю, а дальше будут более понятные milestones. Не могли бы вы рассказать о стеке и хостинге, а также о том, какие сбои или замедления пользователи упоминают чаще всего? Мои живые демо здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
-   "questions": [
-    "Какой у проекта стек (фронтенд, бэкенд, база данных) и где он хостится?",
-    "Какие ошибки или замедления пользователи упоминают чаще всего прямо сейчас?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836338",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/css/Startup-One-Page-Website",
-  "title": "AI Startup One-Page Website",
-  "description": "I already have the full copy written and a domain registered; now I need it turned into a polished single-page site that immediately builds trust with our prospective investors and strategic partners. The visual direction should feel professional yet unmistakably “next-era AI,” with clean typography, subtle motion or micro-interactions, and an overall minimalist sophistication that reflects a forward-thinking tech company.\n\nYou will receive a Word/Google Doc containing every word for the page—mission, vision, technology overview, team bios, partner logos, and contact prompt—and that text must be placed exactly as provided for this first release. No editing or rewriting is required at this stage.\n\nYour role is to:\n\n• Design and develop a responsive one-page website consistent with the supplied copy and brand palette. \n• Implement smooth scrolling navigation that lands visitors on each section (mission, tech, team, contact, etc.) without page reloads. \n• Optimise performance (fast load, compressed assets, clean semantic HTML5, CSS3/SCSS or Tailwind, lightweight JS/React/Vue—choose the stack you’re most efficient with). \n• Set up the site on our existing domain/hosting and hand over all source files plus a short README so future pages can be added easily.\n\nAcceptance criteria:\n– Content matches the provided text exactly. \n– Layout is fully responsive down to mobile. \n– Visual style aligns with the modern, professional AI aesthetic we discussed. \n– Page scores well on Google Lighthouse for performance and accessibility. \n– Final deliverable is live on our domain with source in a version-controlled repository.\n\nIf you can craft an elegant, trustworthy first impression that we can later expand into a full multi-page site, I’d love to see your portfolio and discuss timelines.\n\nWe require a contact@ at the end. The entire text should fit on one page. We are NOT trying to make an appeal to investors on this page. We will want the developer to grow with us when we're ready for a more extensive website. Want SEO as well...we have all the words exactly as we want. ( or equivalent to SEO , if you recommend an alternative. Provide actual project quote or number of hours if possible. website must be in WORDPRESS.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "CAD",
-  "posted_at": "2026-11-26T04:43:30+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing",
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "landing",
-   "score": 5,
-   "summary_ru": "Нужен адаптивный одностраничный сайт для AI-стартапа на WordPress с готовым текстом, плавной навигацией по секциям, формой контакта contact@, SEO и высокими оценками Lighthouse. Проект подключается к существующему домену и должен позволять добавлять страницы в будущем. Бюджет 750 CAD.",
-   "reply": "You need a single responsive page for your AI startup, with your finished copy placed exactly as written, smooth in-page navigation, a contact@ form, and SEO basics, all built in WordPress on your existing domain. I would use a lightweight block theme with custom styling for the minimalist look and subtle motion, keep the markup semantic, and optimise images and scripts to score well on Lighthouse. I would also set up a version-controlled repo and a short README so new pages are easy to add later. I estimate about 5–7 days, roughly 15–20 hours, which should fit your budget.\n\nCould you share what level of WordPress admin and hosting access you can provide, and whether you already have brand colours and fonts chosen?\n\nYou can see live demos at https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужна одностраничная адаптивная страница для AI-стартапа с готовым текстом, размещённым точно как в документе, плавной навигацией по секциям, формой контакта contact@ и базовым SEO. Всё это нужно собрать на WordPress на вашем существующем домене. Я бы использовал лёгкую блочную тему с собственными стилями для минималистичного вида и тонкой анимации, сохранил семантическую разметку и оптимизировал изображения и скрипты, чтобы получить хорошие оценки в Lighthouse. Также я настрою репозиторий под контроль версий и короткий README, чтобы в будущем было легко добавлять новые страницы. По моей оценке, работа займёт около 5–7 дней, примерно 15–20 часов, что, вероятно, укладывается в ваш бюджет.\n\nНе могли бы вы сообщить, какой уровень доступа к админке WordPress и хостингу вы можете предоставить, и уже ли выбраны цвета бренда и шрифты?\n\nЖивые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какой уровень доступа к админке WordPress и хостингу вы можете предоставить?",
-    "Уже выбраны цвета бренда и шрифты, или нужно предложить варианты?",
-    "Куда должна поступать информация из формы контакта, и нужна ли интеграция с почтой contact@?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836334",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/website-development/Lead-Focused-Real-Estate-Site",
-  "title": "Lead-Focused Real Estate Site",
-  "description": "# Build a High-Performance Real Estate Website in Lofty – Local SEO & AI Search Specialist Required\n\n**I'm hiring an experienced local SEO and AI search optimization specialist to build a lead-generating real estate website inside Lofty.**\n\nThe most important qualification for this project is proven success getting businesses found in local Google searches and AI-powered search tools, including ChatGPT.\n\nI am NOT looking for someone whose primary skill is website design. I need someone who understands how to structure, optimize, and build a website that attracts local home sellers, buyers, and people searching for local real estate information.\n\n**If you cannot demonstrate actual local SEO results and experience optimizing websites for AI/ChatGPT search, this project is not a fit.**\n\n## PROJECT OBJECTIVE\n\nBuild a professional, trustworthy real estate website designed to generate qualified local leads.\n\nThe website will target people searching for:\n- Real estate agents and services in my market.\n- How to sell a home.\n- How to buy a home.\n- Local neighborhoods and communities.\n- Local real estate information and market conditions.\n- Related home services and local information.\n\nThe strategy is to build visibility in traditional Google search AND emerging AI-powered search platforms.\n\nI want an 11-part framework that supports search rankings, AI visibility, credibility, and lead conversion.\n\n## THE 11-PART WEBSITE FRAMEWORK\n\n1. **Local SEO Architecture:** Build the site around the actual geographic markets and search terms that matter.\n\n2. **Location Pages:** Create and optimize 50 location pages targeting the communities and markets served.\n\n3. **Service Pages:** Develop dedicated pages matching the real estate services offered and the intent behind local searches.\n\n4. **AI Search Optimization:** Structure content to improve discoverability, relevance, and visibility in ChatGPT and other AI-powered search tools.\n\n5. **Keyword Strategy:** Identify valuable local search terms and incorporate them naturally into the website structure and content.\n\n6. **Content Strategy:** Create useful, locally relevant content that answers the questions buyers and sellers are actually asking.\n\n7. **Trust and Authority:** Establish credibility through professional presentation, relevant local expertise, useful information, and strong calls to action.\n\n8. **Lead Conversion:** Incorporate strategically placed lead capture forms, calls to action, and contact opportunities.\n\n9. **Technical SEO:** Address site structure, page speed, indexing, metadata, mobile usability, and technical SEO issues.\n\n10. **Performance Tracking:** Establish measurable tracking for keyword rankings, search performance, website traffic, and lead activity.\n\n11. **Continuous Optimization:** Use Lofty's AI tools and SEO capabilities to improve content, location targeting, and website performance over time.\n\n## LOFTY PLATFORM FEATURES INCLUDED IN THE PROJECT\n\nThe website must be built inside Lofty using its available AI website builder and SEO tools.\n\nThe project includes:\n\n- One complete, high-converting real estate website.\n- Fast, secure hosting.\n- Lofty AI website builder implementation.\n- 50 automatically created location pages for the markets served.\n- Service pages matching the business.\n- AI-generated SEO, content, and location strategies.\n- Unlimited AI content rewrites.\n- Included platform integrations.\n- Keyword discovery tools.\n- Rank tracking for 35 keywords.\n- Search performance dashboard.\n- Website analytics.\n- Google Search Console integration.\n- SEO site audit tools.\n- Monthly AI Suite trial.\n\nI expect the freelancer to understand how to use these features effectively, not simply activate them.\n\n## PROJECT STRUCTURE – THREE PHASES\n\nI want this project completed in three clearly defined phases. Each phase has its own deliverables and payment upon successful completion and approval.\n\n**PHASE 1 – STRATEGY & WEBSITE ARCHITECTURE**\n\nDeliverables:\n- Review my target markets and real estate services.\n- Develop the local SEO and AI search strategy.\n- Identify target keywords and search opportunities.\n- Establish the website structure and navigation.\n- Plan the 50 location pages and service pages.\n- Define the lead capture strategy.\n- Present the proposed website architecture for approval.\n\nPayment is released upon completion and approval of Phase 1.\n\n**PHASE 2 – WEBSITE BUILD & IMPLEMENTATION**\n\nDeliverables:\n- Build the website directly inside Lofty.\n- Implement the approved website architecture.\n- Configure the AI website builder and available SEO tools.\n- Create and optimize the 50 location pages.\n- Create and optimize service pages.\n- Implement SEO content and AI search optimization.\n- Configure lead capture forms and calls to action.\n- Implement available integrations.\n- Configure Google Search Console and website analytics.\n- Test the website on desktop and mobile.\n\nPayment is released upon completion and approval of Phase 2.\n\n**PHASE 3 – SEO VALIDATION, TESTING & HANDOVER**\n\nDeliverables:\n- Conduct a complete SEO site audit.\n- Verify indexing and technical SEO setup.\n- Verify keyword tracking and performance dashboard.\n- Test lead capture and contact functionality.\n- Review location page and service page optimization.\n- Verify analytics and Search Console integration.\n- Provide a final website walkthrough.\n- Provide documentation explaining how to manage and update the website inside Lofty.\n\nPayment is released upon successful completion and approval of Phase 3.\n\n## WHO SHOULD APPLY\n\nYou should have:\n\n- Demonstrable local SEO experience.\n- Actual experience improving local Google search visibility.\n- Experience with AI search optimization, particularly ChatGPT search.\n- Experience developing location-based SEO strategies.\n- Experience building websites designed to generate leads.\n- Strong understanding of keyword research, on-page SEO, technical SEO, and content architecture.\n- Experience with Lofty is strongly preferred.\n\n**Lofty experience matters, but SEO and AI search expertise matter more.** I am willing to consider an excellent SEO specialist who can demonstrate the ability to learn and work within Lofty's platform.\n\n## APPLICATION REQUIREMENTS – PLEASE READ CAREFULLY\n\nI received approximately 400 responses to my previous posting. Very few addressed the actual SEO requirements.\n\nTo save everyone's time, I am screening applicants based on relevant experience.\n\n**Start your proposal with the following information:**\n\n1. **Local SEO Results:** Give me one specific example of a business or website you helped rank in local Google searches. Include the business type, location, keywords targeted, and measurable results if available.\n\n2. **AI/ChatGPT Search Experience:** Describe a specific project where you optimized a website or business for discovery through ChatGPT or other AI-powered search tools. What did you do, and what results did you achieve?\n\n3. **Lofty Experience:** Have you personally built or managed websites inside Lofty? If so, describe your experience and provide examples if available.\n\n4. **Your Approach:** Briefly explain how you would approach this project and the 11-part framework.\n\n5. **Your Proposal:** Provide your proposed project price, estimated delivery time, and payment breakdown across the three phases.\n\nGeneric or copy-paste proposals will be skipped. I am filtering a high volume of replies and want to hear from specialists who understand the actual work involved.\n\n**Please do not apply if your primary experience is graphic design, generic website building, or basic AI-generated content.**\n\nI am looking for a knowledgeable professional who can build a website that competes for local search visibility, earns trust, and consistently generates qualified real estate leads.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T04:39:17+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "api_integration",
-   "score": 2,
-   "summary_ru": "Заказчик ищет SEO-специалиста для сайта агентства недвижимости на платформе Lofty: локальное SEO, 50 страниц локаций, контент-стратегия, отслеживание позиций и работа с AI-поиском. Бюджет 750 USD, оплата через площадку.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли кастомная разработка или достаточно настройки конструктора Lofty с готовым дизайном?",
-    "Кто будет писать контент для 50 страниц локаций и вести SEO после запуска: вы или исполнитель?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836320",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Real-Estate-Marketplace-Build",
-  "title": "Real Estate Marketplace Build",
-  "description": "I’m ready to commission the end-to-end development of a real estate marketplace that launches with both property sales and rental listings. The goal is an intuitive, scalable web platform where owners, agents, and prospective buyers or tenants can register, post, search, and transact with confidence.\n\nKey objectives\n• One unified catalogue showing homes, apartments, and commercial spaces available for either purchase or lease. \n• Robust search and filtering (location, price, bedrooms, amenities, etc.) and a crisp property‐detail page with media galleries, maps, and contact options. \n• Separate self-service dashboards for listers and for admins so content, users, and analytics remain easy to manage. \n• Secure sign-up/login, role-based permissions, and modern payment or booking integrations implemented with best practices. \n• Clean, responsive front-end (React, Vue, or similar) paired with a solid back-end (Laravel, Node, Django, or comparable framework) and a relational database ready for growth. \n• Documentation and basic test coverage to make future feature iterations straightforward.\n\nMy timeline is flexible, so we can prioritize quality architecture over rushing to release. When you respond, please centre your proposal on past work that proves you’ve delivered similar multi-vendor or listing platforms—links, live demos, or code samples speak louder than promises.\n\nLet’s build a marketplace that sets a new standard for real estate discovery and transactions.",
-  "budget": 10000.0,
-  "budget_min": 5000.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T04:29:28+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "booking",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "booking",
-   "score": 6,
-   "summary_ru": "Заказчик хочет разработать веб-платформу недвижимости с единым каталогом для продажи и аренды, поиском и фильтрами, отдельными кабинетами для владельцев и админов, ролевой моделью доступа и интеграциями бронирования. Бюджет 10 000 USD, сроки гибкие.",
-   "reply": "You want one catalogue for both sales and rentals, with strong search, detailed property pages, separate lister and admin dashboards, and role-based access. I'd start with the data model (properties, listing types, users, roles), then build search and filtering by location, price, bedrooms and amenities, followed by property pages with galleries and maps, and finally the dashboards and rental booking flow. I'd use React on the front end, Laravel or Node on the back end, and PostgreSQL, with tests and documentation for the core flows. Working with AI-assisted development keeps the timeline tight; for the full scope I'd estimate about 8–12 weeks, phased so you can review each stage. Which rental booking flow do you need: viewing appointments or full lease requests? Do you have a preferred map provider such as Google Maps or Mapbox?\n\nYou can see live demos of my work here: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите единый каталог для продажи и аренды, с удобным поиском, подробными страницами объектов, отдельными кабинетами для владельцев и админов и ролевой моделью доступа. Я бы начал с модели данных (объекты, типы объявлений, пользователи, роли), затем сделал поиск и фильтры по локации, цене, количеству спален и удобствам, после них страницы объектов с галереями и картами, и в конце кабинеты и сценарий бронирования аренды. Для фронтенда я бы использовал React, для бэкенда Laravel или Node, и PostgreSQL, с тестами и документацией по ключевым сценариям. Работа с ИИ-ассистентами в разработке помогает держать сроки; для полного объёма я оцениваю примерно 8–12 недель, с поэтапной сдачей, чтобы вы могли проверять каждый этап. Какой сценарий бронирования аренды вам нужен: запись на просмотр или полноценные заявки на аренду? Есть ли у вас предпочтительный провайдер карт, например Google Maps или Mapbox?\n\nЖивые демо моих работ можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какой сценарий бронирования аренды нужен: запись на просмотр или полноценные заявки на аренду?",
-    "Есть ли предпочтительный провайдер карт, например Google Maps или Mapbox?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "freelancer:40836311",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/business-analysis/Urgent-Product-Business-Plan",
-  "title": "Urgent Product Business Plan",
-  "description": "I must submit a polished business plan to our partner company no later than 11/29/2026. The plan must follow their specific headings and data table structure, yet still read as a compelling, investor-ready document. My venture is a physical-product business that is already stocked and preparing to launch, so the content must reflect an imminent go-to-market strategy rather than early-stage ideation.\n\nYou will receive the company’s formatting guide, my product catalogue, preliminary costings, and rough sales forecasts. These materials need to be refined, expanded, and woven into a cohesive narrative that clearly communicates the opportunity and my own vision.\n\nDeliverables (all required):\n• Word or Google Docs business plan (up to 30 pages) formatted exactly per the company’s outline \n• Executive summary, detailed market and competitor analysis, and launch strategy for tangible goods \n• Three-year financial model in Excel covering P&L, cash flow, and break-even, fully cross-checked for consistency \n• Risk assessment plus an implementation timeline aligned with our first production run \n• One-page teaser overview extracted from the main plan \n\nAcceptance criteria:\n1. First full draft to me by 11/27/2026 for comments. \n2. Final, error-free files delivered by 10:00am EST on 11/29/2026. \n3. All numbers reconcile across documents; language is clear, engaging, and free of jargon. \n\nThe primary purpose is to craft my own plan for submission rather than tailoring it for a lender, so tone and depth should reflect that. Please integrate frameworks such as SWOT or Porter’s Five Forces only where they add genuine value.",
-  "budget": 500.0,
-  "budget_min": 200.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T04:25:18+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 1,
-   "summary_ru": "Клиент просит написать бизнес-план для физического товара к 29.11.2026: Word/Google Docs до 30 страниц по шаблону партнёрской компании, финансовая модель в Excel на три года, анализ рынка и конкурентов, оценка рисков и тизер на одну страницу. Это написание документа, а не разработка, поэтому проект не подходит.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли вам только текстовая часть бизнес-плана или также какие-либо онлайн-инструменты, например калькулятор финансовой модели или интерактивная презентация?",
-    "Есть ли у вас сайт или лендинг для товара, который нужно сделать или доработать?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "flru:5530601",
-  "source": "flru",
-  "url": "https://www.fl.ru/projects/5530601/vrstka-lendinga-studii-po-maketu-figma.html",
-  "title": "Вёрстка лендинга студии по макету Figma",
-  "description": "Ищем frontend-разработчика для вёрстки и публикации англоязычного одностраничного сайта-заставки студии. Готовы макеты для десктопа, мобильных экранов и модальной формы....",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "Thu, 26 Nov 2026 04:51:05 GMT",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "landing",
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "landing",
-   "score": 7,
-   "summary_ru": "Нужно сверстать и опубликовать одностраничный англоязычный сайт-заставку студии по макетам Figska для десктопа и мобильных экранов, включая модальную форму. Бюджет не указан, задача небольшая и понятная.",
-   "reply": "Нужно сверстать одностраничный сайт-заставку студии по макетам Figma для десктопа и мобильных экранов, добавить модальную форму и опубликовать сайт. Сверстаю адаптивно, точно по макетам, с аккуратной типографикой и отступами. Модальное окно сделаю с нормальной обработкой открытия, закрытия и валидации формы. Работаю на современном стеке, поэтому страница получится быстрой и чистой по верстке. Ориентировочный срок 3–5 дней, включая правки после первого показа. Примеры живых демо: https://grachoffprod.github.io/portfolio/\n\nУточню два момента: куда отправлять данные из формы (email, CRM или Telegram) и где будет размещён сайт, кто отвечает за домен и хостинг?\n\nYakov",
-   "reply_ru": "Нужно сверстать одностраничный сайт-заставку студии по макетам Figma для десктопа и мобильных экранов, добавить модальную форму и опубликовать сайт. Сверстаю адаптивно, точно по макетам, с аккуратной типографикой и отступами. Модальное окно сделаю с нормальной обработкой открытия, закрытия и валидации формы. Работаю на современном стеке, поэтому страница получится быстрой и чистой по верстке. Ориентировочный срок 3–5 дней, включая правки после первого показа. Примеры живых демо: https://grachoffprod.github.io/portfolio/\n\nУточню два момента: куда отправлять данные из формы (email, CRM или Telegram) и где будет размещён сайт, кто отвечает за домен и хостинг?\n\nYakov",
-   "questions": [
-    "Куда отправлять данные из модальной формы: на email, в CRM или в Telegram?",
-    "Где будет размещён сайт и кто отвечает за домен и хостинг?"
-   ]
-  },
-  "found_at": "2026-11-26T05:20:16+00:00"
- },
- {
-  "id": "kwork:3275652",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275652",
-  "title": "Усовершенствовать функцию сайта",
-  "description": "Доработать сайт - из сгенерорированного текста должен выходить оригинальный текст с уникальностью 100%, без следов ИИ. \nОбразец сайта https://newtext.ru/quick-rewrite \nУ них работает так - закидываешь сгенерированный текст, идет обработка, на выходите оригинальный текст. При проверке в ап.вуз и думейт не выдает никаких следов ИИ. \nМне надо также. \nСайт мне сделали, но не выдает оригинальный текст.",
-  "budget": 5000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 07:42:56",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "fixes",
-   "score": 1,
-   "summary_ru": "Клиент просит доработать сайт-перефразер, который переписывает сгенерированный ИИ текст так, чтобы он проходил проверки на ИИ и уникальность (ап.вуз, Antiplagiat-подобные сервисы). Цель проекта - обход систем проверки на плагиат и ИИ-генерацию, поэтому я не берусь за него.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
   },
   "found_at": "2026-11-26T05:20:16+00:00"
  }
