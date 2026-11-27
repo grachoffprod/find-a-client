@@ -1,5 +1,65 @@
 [
  {
+  "id": "freelancer:40839336",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Interactive-Webcomic-Website-Build",
+  "title": "Interactive Webcomic Website Build",
+  "description": "I have an ongoing webcomic and I’m ready to give it a dedicated home. The site must display one comic page at a time but still let readers switch to a full-chapter scroll when they prefer. An archive section should list every chapter with its individual pages so visitors can jump straight to any point in the story.\n\nBeyond the comic itself, I keep a growing trove of lore. Readers need a separate “Worldbuilding” area where they can search or filter entries by topic—characters, locations, timelines, you name it—without wading through the main archive.\n\nFor engagement, each comic page should allow comments or quick emoji-style reactions. New pages will go live automatically on a schedule I set in the backend, so a reliable scheduler tied to the site clock (or a CMS cron) is essential.\n\nKey deliverables\n• A responsive website (desktop + mobile) that loads one comic page by default with next/previous navigation and an option to view the whole chapter in a continuous scroll \n• Chapter/page archive that is easy to browse and deep-linkable \n• Worldbuilding section with search and filter functionality \n• Comment/reaction system tied to individual pages \n• Admin panel where I can bulk-upload pages, set publish dates, reorder chapters, and manage lore entries \n• Automated scheduler to push pages live at the specified times \n• Clean, documented code (CMS or custom stack—open to WordPress + plugin, static-site generator, or a lightweight framework if it meets the brief)\n\nI’ll provide the artwork, chapter order, and initial worldbuilding data; you handle design, development, basic SEO, and deploying to my hosting. Let me know the tools or frameworks you’d prefer and any past comic or image-driven sites you’ve built so I can see how you approach flow and performance.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-27T22:48:25+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Нужен сайт для веб-комикса с постраничным просмотром и режимом прокрутки всей главы, архивом с прямыми ссылками, разделом лора с поиском и фильтрами, комментариями или реакциями к страницам, админ-панелью и планировщиком публикации. Бюджет 250 EUR для такого объёма довольно скромный.",
+   "reply": "You want a comic reader that shows one page by default but can switch to a full-chapter scroll, with a deep-linkable archive, a searchable worldbuilding section, per-page reactions, and timed releases from an admin panel. I'd build it on a fast static stack (Astro or Eleventy) so pages load quickly on mobile, with a lightweight admin for bulk uploads, publish dates, and chapter ordering. Timed releases would run through a scheduled rebuild or your CMS cron. Reactions can use a small hosted backend tied to each page URL. For the first release I'd estimate about two weeks for the reader, archive, and scheduler, with worldbuilding search and comments after that. Would you rather use a headless CMS you already have, or a custom admin? And roughly how many pages per chapter will you launch with?\n\nSee my live demos in the portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен读者-ридер для комикса: по умолчанию одна страница, но можно переключиться на прокрутку всей главы, с архивом, где каждая глава и страница открываются по прямой ссылке, разделом лора с поиском и фильтрами, реакциями или комментариями к страницам, админ-панелью и отложенной публикацией. Я бы построил это на быстром статическом стеке (Astro или Eleventy), чтобы страницы быстро открывались с телефона, с простой админкой для массовой загрузки, дат публикации и порядка глав. Отложенные публикации работали бы через плановую пересборку или cron вашей CMS. Реакции можно сделать через небольшой внешний бэкенд, привязанный к адресу каждой страницы. Для первой версии (ридер, архив и планировщик) я оцениваю около двух недель, поиск по лору и комментарии добавим после этого. Вам удобнее использовать уже имеющуюся headless CMS или сделать свою админку? И сколько примерно страниц в главе вы планируете запустить сначала?\n\nПосмотреть живые демо можно в портфолио: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "Вам удобнее использовать уже имеющуюся headless CMS или нужна собственная админ-панель?",
+    "Сколько страниц в главе и сколько глав планируете запустить в первую очередь?"
+   ]
+  },
+  "found_at": "2026-11-27T22:56:48+00:00"
+ },
+ {
+  "id": "freelancer:40839328",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/electronics/Dual-Temperature-Thermal-Reference",
+  "title": "Dual-Temperature Thermal Reference Prototype -- 2",
+  "description": "**Development of a Dual Temperature Reference Device for Thermal Imaging Research**\n\nI am a biomedical engineering professor at a Brazilian university looking for an electronics engineer to develop a complete experimental prototype for a non-commercial academic research project.\n\nThe device will provide two stable temperature references within the field of view of a thermal imaging camera used for continuous monitoring in an intensive care unit (ICU).\n\n**1. Thermal and mechanical design**\n\n- Two square metal plates, each measuring 250 × 250 mm, preferably made of aluminum.\n- High-emissivity matte black surface coating to approximate blackbody radiation.\n- Independent temperature control at 35°C and 42°C, respectively.\n- Uniform temperature distribution across each plate.\n- Suitable heating elements installed behind the plates.\n- Rear thermal insulation to minimize heat loss.\n- Mechanical support and a custom 3D-printed enclosure for the electronic components.\n\n**2. Temperature measurement and control**\n\n- Four-wire PT100 RTD temperature sensors, preferably Class A or better.\n- MAX31865 temperature acquisition circuits or equivalent.\n- Independent closed-loop temperature control for each plate.\n- ESP32 or equivalent microcontroller.\n- Custom PCB integrating temperature acquisition, heating control, communication and protection circuits.\n- The desired temperature stability is ±0.1°C, subject to technical feasibility and experimental verification.\n\n**3. Power supply and safety**\n\n- Reliable, commercially available and appropriately certified power supply from a reputable manufacturer.\n- Preferably low-voltage DC heating elements.\n- Independent hardware-based overheating protection.\n- Automatic heater shutdown in case of sensor failure, controller failure or excessive temperature.\n- Maximum plate surface temperature must remain below 50°C under foreseeable fault conditions.\n- Electrical protection, appropriate connectors and reliable continuous operation.\n\n**4. Data logging and communication**\n\n- Continuous acquisition of the actual temperature of both plates.\n- Automatic generation of daily CSV files.\n- Each record must include date, time, measured temperatures, temperature setpoints and system status.\n- Configurable sampling interval, initially one sample per second.\n- Wi-Fi communication with a central monitoring computer.\n- Automatic recovery after power interruptions.\n- Designed for continuous 24/7 operation over several months.\n\n**5. Expected deliverables**\n\n- One fully assembled and tested functional prototype.\n- Complete electronic schematics.\n- Editable PCB design files and Gerber files.\n- Complete firmware and software source code.\n- Editable mechanical design files and STL files for 3D printing.\n- Bill of materials with component specifications and purchase links.\n- Assembly and operating instructions.\n- Experimental report demonstrating temperature accuracy, temporal stability, spatial uniformity and continuous operation.\n\nThis is a single-unit academic research prototype with no commercial purpose. Cost-effective engineering solutions are preferred.\n\nPlease provide a proposed technical solution, estimated development time and separate quotations for engineering services, electronic components, PCB manufacturing, mechanical parts, assembly, testing and international shipping to Brazil.\n\nFinal metrological validation and authorization for installation in the clinical environment will be conducted separately by our research team.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T22:27:43+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Заказчик, профессор из Бразилии, ищет инженера-электроника для создания одного экспериментального прототипа устройства с двумя термоэталонными пластинами (35°C и 42°C) для калибровки тепловизоров в исследовательских целях. Основная часть работы — электроника, разводка печатной платы, механика, сборка и тестирование, а не разработка ПО.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только программная часть (прошивка ESP32, логирование в CSV, Wi-Fi-передача данных), или заказчик ищет исполнителя на полный аппаратный цикл, включая плату и механику?"
+   ]
+  },
+  "found_at": "2026-11-27T22:56:48+00:00"
+ },
+ {
   "id": "freelancer:40839306",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/web-design/Shopify-Store-Redesign-40839306",
@@ -15065,71 +15125,6 @@
    "questions": [
     "Нужны ли в проекте какие-либо доработки сайта или интеграций, например настройки Pixel/Conversions API через код или кастомная интеграция с WooCommerce?",
     "Рассматривает ли клиент разовые технические задачи, а не долгосрочное ведение рекламы по результатам?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836434",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-content-creation/Create-Training-Practice-Materials",
-  "title": "Create AI Training Practice Materials",
-  "description": "Description:\n\nI'm building a beginner's training guide for people who want to get into AI training and evaluation work, with a focus on writing and editing roles. I'm looking for someone who has done this kind of work before, for example on Handshake AI, Snorkel AI, Mercor, AfterQuery, DataAnnotation or similar platforms. You'll help me create original practice materials that show beginners what the work involves.\n\nWhat you'll deliver\n\n-15 original practice exercises in the style of AI training tasks. Examples: rate two chatbot responses side by side and explain your choice, rewrite a weak AI answer, or spot factual and grammar errors in a response.\n-A model answer and short scoring notes for each exercise.\n-A 1–2 page guide with practical tips: how to approach qualification-style tests, common mistakes beginners make, and how to write clear, well-reasoned feedback.\n\nImportant\n\nAll materials must be your own original work. Please do not copy or share real tasks, guidelines, test questions or any content covered by a platform's confidentiality agreement.\n\nWho I'm looking for\n\n-Hands-on experience with AI training, data annotation, or response evaluation work\n-Excellent written English and editing skills\n-Ability to explain your reasoning clearly for a beginner audience\n\nNo prior technical experience required for roles that accept beginners",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T05:43:06+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "tg_bot"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "tg_bot",
-   "score": 1,
-   "summary_ru": "Заказчик хочет получить учебные материалы для новичков в сфере AI-тренинга и оценки ответов ИИ: 15 практических упражнений, эталонные ответы и краткое руководство. Это написание и редактирование контента, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли здесь какая-либо разработка, например интерактивная платформа или бот для выполнения упражнений, или требуется только текстовый контент?",
-    "Какой формат итогового файла ожидается: документ, PDF или что-то другое?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836421",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-design/Startup-One-Page-WordPress-Site",
-  "title": "AI Startup One-Page WordPress Site",
-  "description": "I’m ready to turn our existing copy and domain into a single-page WordPress site that instantly signals innovation and reliability to investors and strategic partners. The aesthetic I have in mind is sleek and futuristic—clean typography, dark-light contrasts, tasteful neon accents, and subtle micro-interactions that feel “AI-powered” without being gimmicky. Every element must scale flawlessly on mobile, tablet, and desktop, and the page should stay lightning-fast even with the smooth animations I’d like to showcase.\n\nPrimary goal \nThe whole experience should guide visitors toward one clear action: submitting an investment or partnership enquiry. I’ll need a form that captures name, company, email, investment interest, and message, then routes each submission to my inbox (and optionally to a CRM if you recommend a lightweight plugin).\n\nCore sections to build \n• Home / Hero \n• About Our Company \n• Vision & Mission \n• AI Services – with AI automation and business process solutions taking center stage \n• Why Choose Us \n• Investor & Strategic Partners \n• Contact / Enquiry\n\nTechnical expectations \n• Built on WordPress with a modern page builder or lightweight custom theme—your call, as long as updates remain straightforward. \n• Responsive design tested across major browsers and devices. \n• Optimized images, minified assets, and lazy-loading to keep performance scores high. \n• SEO-friendly structure (semantic headings, meta tags ready for my keywords). \n• Clean, documented code so future iterations are painless.\n\nTimeline & hand-off \nI need the finished, polished site live within 7 days. On completion, please provide: \n1. A fully configured WordPress install on my host \n2. Source files / theme export \n3. Quick walkthrough or loom video explaining how to update content\n\nIf you have a portfolio of similarly styled sites—especially tech or SaaS brands—share it so I can move quickly on awarding the project.",
-  "budget": 1250.0,
-  "budget_min": 750.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T05:39:09+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "landing",
-   "crm",
-   "automation",
-   "saas",
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "landing",
-   "score": 4,
-   "summary_ru": "Нужен одностраничный сайт на WordPress для AI-стартапа на готовом домене и с существующими текстами. Главная цель — форма заявки для инвесторов и партнёров с отправкой на почту и, возможно, в CRM. Бюджет низкий (1250 INR), срок 7 дней, а объём работ большой.",
-   "reply": "Hi, I read your brief. You want a single-page WordPress site on your existing domain, using your current copy, with a sleek dark/light look, light AI-style micro-interactions, and one main goal: an investor/partner enquiry form that sends submissions to your inbox. I'd build it on a lightweight theme or page builder so future edits stay simple, with optimized images, lazy loading, semantic headings and meta tags for your keywords, and a documented handoff. Using modern tooling and AI-assisted development, I can deliver the core sections within your 7-day window, provided the copy and brand assets are ready from day one. Two quick questions: do you already have WordPress hosting I can access, and which CRM, if any, should receive the leads?\n\nSee live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Здравствуйте, я изучил ваше описание. Нужен одностраничный сайт на WordPress на вашем существующем домене с вашими текстами. Визуально — современный стиль с контрастом тёмного и светлого, лёгкие микроанимации в духе AI, а главная цель — форма заявки для инвесторов и партнёров с отправкой на вашу почту. Я бы собрал его на облегчённой теме или конструкторе страниц, чтобы дальнейшие правки были простыми: оптимизированные изображения, ленивая загрузка, семантические заголовки и мета-теги под ваши ключевые слова, а также задокументированная передача проекта. Используя современные инструменты и разработку с помощью ИИ-ассистентов, я могу уложиться в ваши 7 дней, если тексты и брендовые материалы будут готовы с первого дня. Два вопроса: есть ли у вас хостинг WordPress, к которому я могу получить доступ, и в какую CRM, если она нужна, отправлять заявки?\n\nЖивые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли у вас уже хостинг WordPress и доступ к нему, или его нужно настроить с нуля?",
-    "В какую CRM, если она нужна, отправлять заявки из формы, или достаточно письма на почту?",
-    "Тексты и логотип с брендбуком уже готовы или их нужно дополнительно подготовить?"
    ]
   },
   "found_at": "2026-11-26T06:17:29+00:00"
