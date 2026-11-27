@@ -1,5 +1,267 @@
 [
  {
+  "id": "freelancer:40838158",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/shopify-development/Shopify-Store-Tune",
+  "title": "Shopify Store Tune-Up",
+  "description": "I run a clothing shop on Shopify and I need a thorough tune-up so the store feels polished and performs smoothly. My focus is on selling physical products, so every product page has to look great, load fast, and guide customers straight to checkout without friction.\n\nWhat I specifically need help with right now is the product section—sizes, photos, variant information, and any design tweaks that make each item pop. If you see quick wins in other areas (speed, mobile tweaks, or a cleaner checkout flow) I’m open to your recommendations, but the core deliverable is a set of refreshed, conversion-ready product pages.\n\nKey deliverables \n• Updated product pages with clear size options and accurate variants \n• High-quality, compressed images that load fast on desktop and mobile \n• Consistent styling that matches my brand palette and fonts \n• A brief hand-over note outlining any apps, theme edits, or settings you adjusted \n\nI’m looking for someone experienced with Shopify themes, Liquid, and image optimization tools who can jump in quickly and leave the store better than they found it. If that sounds like your wheelhouse, let’s get started.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T05:51:37+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Клиент ведёт магазин одежды на Shopify и хочет доработать страницы товаров: понятный выбор размеров и вариантов, сжатые фото для быстрой загрузки на десктопе и мобильных, стиль в фирменных цветах и шрифтах, а также краткую передачу внесённых изменений. Бюджет небольшой (1250 INR).",
+   "reply": "You're after refreshed product pages for your clothing store: clear size selection, accurate variants, compressed photos that load quickly on mobile, and styling that matches your brand palette and fonts. I'd start by auditing the current product template and theme code in Liquid, then fix the variant and size logic, set up image sizes and lazy loading, and align typography and colors with your brand. I'd also run a quick speed check and finish with a short hand-over note listing every theme edit and app change. For a scope this focused, I can aim to deliver within about 3–4 working days. Could you share staff access or a duplicate of the theme so I can review the current setup, and tell me which theme you're using?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужны обновлённые страницы товаров для магазина одежды: понятный выбор размеров, корректные варианты, сжатые фото, которые быстро грузятся на мобильных и десктопе, и оформление в фирменных цветах и шрифтах. Я начну с аудита текущего шаблона товара и кода темы на Liquid, затем исправлю логику вариантов и размеров, настрою размеры изображений и ленивую загрузку, и подгоню типографику и цвета под ваш бренд. Также проверю скорость и в конце передам короткую заметку с перечнем всех правок темы и приложений. Для такого узкого объёма я могу уложиться примерно в 3–4 рабочих дня. Не могли бы вы предоставить доступ сотрудника или копию темы, чтобы я посмотрел текущую настройку, и сказать, какая тема используется?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какая тема Shopify сейчас установлена и есть ли у вас доступ сотрудника или копия темы для проверки?",
+    "Какие фирменные цвета и шрифты нужно использовать? Есть ли брендбук или готовые значения?"
+   ]
+  },
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
+  "id": "freelancer:40838087",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/cloud-computing/Online-Contact-Data-Upkeep",
+  "title": "Online Contact Data Upkeep",
+  "description": "I need a detail-oriented assistant who can log into our web-based CRM and keep our existing customer and prospect records fully up to date. All the information already lives inside the system; your job is to review each profile, spot missing or outdated fields, and make the necessary edits so phone numbers, email addresses, job titles, and company details stay accurate.\n\nYou’ll be working remotely, so a stable internet connection and the ability to navigate cloud platforms confidently are essential. I’ll provide step-by-step instructions, login credentials, and a short orientation video that highlights the fields we care about most. Accuracy matters more than speed—typos or misplaced data create headaches for the sales team—so I expect a careful eye and a quick message whenever something looks inconsistent or duplicated.\n\nDeliverables:\n• Daily batch of updated records reflected live in the CRM\n• Brief end-of-day note summarising how many profiles you touched and any issues flagged for review\n\nOnce we’ve completed a short trial set together, this can roll into an ongoing engagement, with periodic catch-ups to refine the process. If you enjoy tidy databases and can commit to reliable turnarounds, I’m looking forward to working with you.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T05:47:16+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Клиент ищет ассистента для ручного обновления контактных данных клиентов и потенциальных клиентов в существующей веб-CRM: проверка и правка телефонов, email, должностей и реквизитов компаний, ежедневная сводка. Это рутинная работа с данными, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь именно разработка или интеграция, например автоматическая синхронизация данных, или только ручное обновление записей?",
+    "Какая CRM используется и есть ли у неё API или возможность выгрузки данных?"
+   ]
+  },
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
+  "id": "freelancer:40832915",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/oracle/Oracle-FLEXCUBE-Expert-for-French",
+  "title": "Oracle FLEXCUBE Expert for French Interviews",
+  "description": "Freelance Oracle FLEXCUBE Banking Expert – French & English Speaking\n\nWe are looking for an experienced Oracle FLEXCUBE Functional / Techno-Functional Consultant for a short-term freelance assignment.\n\nRequired Skills:\n\nHands-on experience with Oracle FLEXCUBE.\nStrong understanding of Banking and Core Banking operations.\nExperience in FLEXCUBE implementation, configuration, modules and integrations.\nFluent in spoken French and English (Mandatory).\nStrong technical and functional banking knowledge.\n\nProject Details:\n\nThis is NOT a full-time employment opportunity.\nThe assignment involves participating in 2 technical interviews.\nEach interview will last approximately 30 minutes or more.\nTotal time commitment: Around 1 hour on one mutually agreed day.\nFreelance payment: Negotiable.\n\nTo Apply:\n\nPlease share your:\nRelevant Oracle FLEXCUBE experience.\nBanking domain experience.\nFrench and English language proficiency.\nExpected fee for the engagement.\n\nAvailability:\n\nOnly candidates with genuine Oracle FLEXCUBE experience and fluent French communication skills will be considered.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-24T05:23:38+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет фрилансера с опытом работы в Oracle FLEXCUBE и свободным французским для участия в двух технических собеседованиях (около часа суммарно). Это не разработка проекта, а интервью для найма.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это разовое участие в собеседованиях или есть последующий проект по разработке или интеграции с FLEXCUBE?",
+    "Нужен ли опыт именно с модулями FLEXCUBE или достаточно работы с банковскими API и интеграциями?"
+   ]
+  },
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
+  "id": "freelancer:40838139",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/forex-trading/Trader-mahesh-EST",
+  "title": "Trader mahesh - 27/11/2026 00:33 EST",
+  "description": "I’m building a scalable online space that can eventually support more than 91 million professionals worldwide. For the first milestone I need a working web (and, if feasible, mobile-friendly) application where users create a profile, search other profiles with powerful filters, and send connection requests directly—search-and-connect is the only discovery method I want in this phase.\n\nScope of work \n• Design the data model and user flow for profile creation, advanced search, and the full connection-request life-cycle. \n• Develop the front-end (React, Vue, or a comparable SPA framework) and back-end (Node, Django, Laravel, or similar) so the core features are secure, responsive, and ready to scale horizontally. \n• Provide an admin panel that lets me moderate accounts, view growth metrics, and manage flagged content.\n\nAcceptance criteria \n• New users can register, verify e-mail, and complete a public profile with photo and key fields. \n• Search returns relevant profiles in under one second with at least one million records seeded. \n• Users can send, receive, accept, or decline connection requests; rate-limiting or captcha protects the workflow from spam. \n• All source code is delivered in a private Git repo with a clear README and environment setup instructions.\n\nMention any experience you have with high-traffic social or recruiting platforms, as well as tools like Elasticsearch, PostgreSQL, AWS, Docker, or Kubernetes, and share a live link or demo where possible.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T05:44:06+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 3,
+   "summary_ru": "Заказчик хочет первый этап профессиональной соцсети или рекрутинговой платформы: профили с верификацией e-mail, расширенный поиск по большой базе, заявки на связи с защитой от спама и админ-панель для модерации и метрик. Бюджет низкий для такого объёма, а требования к масштабу (91 млн пользователей, поиск за секунду на миллионе записей, Kubernetes) сильно завышены для первого этапа.",
+   "reply": "You're looking for the first milestone of a professional network: profile creation with e-mail verification, advanced search over a large profile base, a full connection-request flow with anti-spam protection, and an admin panel for moderation and metrics. I'd build it as a responsive React SPA with a Node or Django backend on PostgreSQL, using proper indexes and full-text search so filtered queries stay fast on a seeded dataset. Requests would be protected with rate limiting and captcha, and the repo would include a Docker-based setup and a clear README. For this milestone I'd estimate about 3–4 weeks. You can see live demos of my work in the portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен первый этап профессиональной сети: создание профилей с подтверждением e-mail, расширенный поиск по большой базе, полный цикл заявок на связь с защитой от спама и админ-панель для модерации и метрик. Я бы сделал responsive SPA на React с бэкендом на Node или Django и PostgreSQL, с нормальными индексами и полнотекстовым поиском, чтобы фильтрация оставалась быстрой на большом наборе данных. Заявки защитил бы ограничением частоты запросов и капчей, а в репозиторий добавил бы настройку через Docker и понятный README. На этот этап оцениваю примерно в 3–4 недели. Живые демо моих работ смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Обязателен ли поиск за секунду на миллионе записей уже на первом этапе, или можно начать с PostgreSQL и перейти на Elasticsearch позже?",
+    "Нужно ли нативное мобильное приложение, или на первом этапе достаточно адаптивного веб-приложения?"
+   ]
+  },
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
+  "id": "freelancer:40838081",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-chatbot/Telegram-FAQ-Chatbot-40838081",
+  "title": "AI Telegram FAQ Chatbot",
+  "description": "I need an AI-powered Telegram chatbot that can handle the everyday questions my customers ask. Its primary job is to read the information already published on my website and refer to an internal Q&A document I will supply, then return clear, friendly answers inside Telegram.\n\nWhen the bot cannot find a confident match, it must immediately tell the user how to reach a live support person so no one feels stranded. There is no need for order processing or data capture—just accurate, helpful responses and a smooth hand-off path.\n\nHere’s the flow I expect:\n\n• The bot receives a question in any common wording.\n• It searches the indexed website pages and the provided Q&A file to identify the best answer.\n• If confidence is high, it replies in natural language; if not, it shows our support contact details.\n\nPlease build, test, and hand over:\n\n1. Source code (Python or Node.js using Telegram Bot API, OpenAI, or similar NLP libraries—whichever you prefer)\n2. Instructions for deploying on my server (Docker or simple VPS setup is fine)\n3. A short guide so I can update website links or replace the Q&A file whenever content changes\n\nOnce the bot is live and responding reliably, the project is complete.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T05:41:11+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "api_integration"
+  ],
+  "analysis": null,
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
+  "id": "freelancer:40838106",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/nextjs/Audit-Harden-Next-Vercel-Website",
+  "title": "Audit and Harden Next.js Vercel -- Website",
+  "description": "Senior Next.js / Vercel Engineer Needed to Audit, Harden & Maintain AI-Built Website (80% Complete)\n\nLooking for an expert web developer to take over, harden, and maintain a web application that is 80% built using Claude and hosted on Vercel.\nBecause this codebase was AI-assisted, I am NOT looking for someone who just prompts AI blindly or copies templates. I need a real engineer who can audit AI-generated code for security, edge cases, and technical debt, and who is fully conversant with Vercel’s underlying infrastructure—specifically:\n• Auto-Splitting & Scaling: Understanding how Vercel automatically splits code across global CDNs and serverless functions to scale from zero to millions without manual server setup (and how to prevent runaway serverless bills).\n• Global Edge Cache & Skew Protection: Managing edge cache invalidation (revalidateTag / revalidatePath) so updated data purges globally in milliseconds, while leveraging skew protection so active users don't hit broken states during new deployments.\n• Zero-Config Media & Previews: Working natively with Vercel's edge image optimization, dynamic OG card generation, and isolated Git PR preview environments.\n• Infrastructure-as-Code Mindset: Unlike standard servers that give you a blank machine to configure manually, Vercel compiles frontend code directly into global cloud infrastructure—you need to know how to architect around that without creating messy vendor lock-in.\nStart your proposal with the word BLUEPRINT so I know you read this.\nIMPORTANT: Do NOT send generic text essays or ChatGPT-generated answers. Proposals without ALL 3 proofs below will be archived immediately:\n1. Live Vercel Proof: Share 1 live URL you built and deployed on Vercel (not a template or tutorial clone) and tell me in one single sentence the hardest production bug you fixed on it.\n2. Code Sample: Link to a public GitHub repo (or a raw code file/Gist) you personally wrote. I want to see how you structure folders, handle API errors, and write clean code.\n3. 2-Minute Vercel Loom Video (Mandatory): Record a quick 2-minute screen-share (no face needed, just voice + screen) walking through a Next.js/Vercel project you deployed. Open your actual Vercel dashboard / deployment logs and explain one caching, edge, or API decision you made on that project.\n\nNote: Shortlisted candidates will be given a isolated micro-task (auditing a small piece of my Claude-generated code) before receiving full repository access.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "SGD",
+  "posted_at": "2026-11-27T05:07:11+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 4,
+   "summary_ru": "Заказчик ищет Next.js-инженера для аудита, усиления безопасности и поддержки веб-приложения на Vercel, которое на 80% создано с помощью Claude. Нужны проверка кода, кэширование, превью-окружения и защита от ошибок при деплое. Бюджет 250 SGD низкий для такого объёма работ.",
+   "reply": "BLUEPRINT. I read the brief: an 80% complete Claude-built Next.js app on Vercel that needs a security and edge-case audit, cache and deployment hardening (revalidateTag/revalidatePath, skew protection, preview environments), and ongoing maintenance. My approach: start with a read-only review of routing, data fetching, API routes and env handling, then deliver a prioritized list of issues with fixes, and only after that the hardening work. I'd estimate 1–2 weeks for the audit and fixes, with maintenance agreed separately. Rather than invent a production bug story, I'd point you to my live demos: https://grachoffprod.github.io/portfolio/\n\nWhich parts of the app already have real traffic? Does the 250 SGD cover only the audit, or also the ongoing maintenance?\n\nYakov",
+   "reply_ru": "BLUEPRINT. Я прочитал описание: приложение на Next.js и Vercel, на 80% написанное с помощью Claude, которому нужны аудит безопасности и граничных случаев, усиление кэширования и деплоя (revalidateTag/revalidatePath, skew protection, превью-окружения) и дальнейшая поддержка. Мой подход: сначала читаю роутинг, получение данных, API-роуты и работу с переменными окружения, затем передаю приоритизированный список проблем с решениями и только после этого делаю доработки. Оценка: 1–2 недели на аудит и исправления, поддержку можно обсудить отдельно. Вместо выдуманной истории о продакшен-баге лучше посмотрите мои живые демо: https://grachoffprod.github.io/portfolio/\n\nКакие части приложения уже работают с реальным трафиком? Бюджет 250 SGD покрывает только аудит или также дальнейшую поддержку?\n\nYakov",
+   "questions": [
+    "Какие части приложения уже работают с реальным трафиком?",
+    "Бюджет 250 SGD покрывает только аудит или также дальнейшую поддержку?"
+   ]
+  },
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
+  "id": "freelancer:40838097",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/gps/Truck-Tracking-PCB-Development",
+  "title": "Truck Tracking PCB Development",
+  "description": "I need a PCB designed for a truck tracking device. The device should track location and send vehicle data. \n\nThe device must collect:\n- GPS data\n- Online logs\n- Trip data\n- Some vehicle data\n- Video streaming\n\nData transmission should occur via both mobile network (using a SIM card) and Wi-Fi when the truck is near a known network.\n\nIdeal skills and experience:\n- PCB design expertise\n- Experience with GPS and vehicle data integration\n- Knowledge in mobile and Wi-Fi communication systems\n- Background in video streaming technology\n\nPlease provide samples of similar work.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T05:00:30+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Нужно разработать печатную плату (PCB) для GPS-трекера грузовиков с поддержкой SIM-связи, Wi-Fi, сбора данных о поездках и видеопотока. Это аппаратная разработка, а не программный проект.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только разработка схемы и топологии платы, или также прошивка и серверная часть для приёма данных?",
+    "Есть ли уже выбранные компоненты (GPS-модуль, модем, видеокамера) и требования к производству платы?"
+   ]
+  },
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
+  "id": "flru:5530713",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530713/trebuetsya-programmist---dorabotka-php-form-obratnoy-svyazi-na-10-saytah.html",
+  "title": "Требуется программист - доработка PHP форм обратной связи на 10 сайтах",
+  "description": "Задача для программиста: доработка форм обратной связи на 10 сайтах\n\nИщем специалиста по PHP и SMTP для настройки отправки данных с форм подписки и обратной связи сразу на...",
+  "budget": 250.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "Fri, 27 Nov 2026 04:57:15 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 3,
+   "summary_ru": "Нужно доработать PHP-формы подписки и обратной связи на 10 сайтах и настроить отправку их данных через SMTP. Бюджет очень низкий (250 ₽) для такого объёма работ.",
+   "reply": "Нужно настроить отправку данных с форм подписки и обратной связи на десяти сайтах через SMTP, чтобы заявки гарантированно доходили до почты. Я бы сначала проверил текущий PHP-код форм и настройки серверов, затем подключил отправку через SMTP с обработкой ошибок и общим скриптом для всех сайтов, чтобы не править каждый отдельно. После этого протестирую каждую форму и напишу короткую инструкцию по настройке. По срокам: примерно 1–2 дня при доступе к хостингу и данным SMTP.\n\nПодскажите, пожалуйста: куда должны уходить заявки (один адрес или отдельный для каждого сайта) и есть ли у вас доступ к хостингу и данные SMTP-сервера?\n\nЖивые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно настроить отправку данных с форм подписки и обратной связи на десяти сайтах через SMTP, чтобы заявки гарантированно доходили до почты. Я бы сначала проверил текущий PHP-код форм и настройки серверов, затем подключил отправку через SMTP с обработкой ошибок и общим скриптом для всех сайтов, чтобы не править каждый отдельно. После этого протестирую каждую форму и напишу короткую инструкцию по настройке. По срокам: примерно 1–2 дня при доступе к хостингу и данным SMTP.\n\nПодскажите, пожалуйста: куда должны уходить заявки (один адрес или отдельный для каждого сайта) и есть ли у вас доступ к хостингу и данные SMTP-сервера?\n\nЖивые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Куда должны отправляться заявки: на один общий адрес или на отдельный для каждого сайта?",
+    "Есть ли у вас доступ к хостингу и данные SMTP-сервера (или сервис, который вы используете для почты)?",
+    "Какая обрезанная часть задачи: куда именно нужно передавать данные форм, кроме почты (CRM, таблица, мессенджер)?"
+   ]
+  },
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
+  "id": "kwork:3275872",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3275872",
+  "title": "Сайт WordPress",
+  "description": "Добрый день. У нас есть сайт, сделанный на платформе WordPress \nТребуется проверить сайт на ошибки и установить необходимые обновления \nСейчас сайт долго открывается, а так же заголовки на сайте не симметричные",
+  "budget": 1000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-27 08:37:29",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 5,
+   "summary_ru": "Нужно проверить сайт на WordPress на ошибки, установить необходимые обновления, ускорить загрузку страниц и исправить несимметричные заголовки. Бюджет небольшой, задача понятная.",
+   "reply": "Здравствуйте! Нужно проверить сайт на WordPress, найти ошибки, обновить ядро, темы и плагины, а также разобраться, почему страницы долго открываются и заголовки выглядят несимметрично. Сначала сделаю аудит: проверю скорость загрузки (PageSpeed, количество запросов, тяжёлые плагины, кеширование, изображения), логи ошибок и возможные конфликты. Затем обновлю компоненты с предварительной резервной копией и поправлю вёрстку заголовков. Базовый аудит и правки займут 1–2 дня. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! Нужно проверить сайт на WordPress, найти ошибки, обновить ядро, темы и плагины, а также разобраться, почему страницы долго открываются и заголовки выглядят несимметрично. Сначала сделаю аудит: проверю скорость загрузки (PageSpeed, количество запросов, тяжёлые плагины, кеширование, изображения), логи ошибок и возможные конфликты. Затем обновлю компоненты с предварительной резервной копией и поправлю вёрстку заголовков. Базовый аудит и правки займут 1–2 дня. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой доступ можно предоставить: админка WordPress, хостинг или FTP/SSH?",
+    "Что именно выглядит несимметрично в заголовках: выравнивание, размер шрифта или отступы? Можно прислать скриншот или ссылку на страницу?"
+   ]
+  },
+  "found_at": "2026-11-27T05:52:52+00:00"
+ },
+ {
   "id": "freelancer:40838089",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/seo-writing/Compelling-Marketing-Copy-Needed",
@@ -14745,216 +15007,5 @@
    ]
   },
   "found_at": "2026-11-25T03:08:49+00:00"
- },
- {
-  "id": "freelancer:40834307",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Modern-commerce-Website-Creation",
-  "title": "Modern E-commerce Website Creation",
-  "description": "I'm looking for an experienced web developer to create a modern and bold e-commerce website. \n\nThe site will need to include the following pages:\n- Home\n- Shop or Booking\n- Contact\n\nKey Requirements:\n- The website must be modern and bold in design.\n- It should have a user-friendly interface for selling products or accepting online bookings.\n- Must include a secure payment gateway.\n- Responsive design for mobile and tablet.\n- SEO-friendly structure.\n\nIdeal Skills & Experience:\n- Proven experience in developing e-commerce websites.\n- Strong portfolio showcasing modern and bold designs.\n- Expertise in SEO and mobile optimization.\n- Experience with secure payment integrations.\n\nPlease provide samples of your previous work and a brief outline of your proposed approach. Looking forward to your bids!",
-  "budget": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-25T01:06:15+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "shop",
-   "booking",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 4,
-   "summary_ru": "Заказчик ищет разработку современного и яркого интернет-магазина или сайта с онлайн-записью: страницы Home, Shop/Booking и Contact, адаптивная вёрстка, SEO-структура и безопасная оплата. Бюджет низкий (1500 INR) для такого объёма.",
-   "reply": "Hi, thanks for the detailed brief. You need a bold, mobile-friendly site with Home, Shop/Booking and Contact pages, built with a clean SEO-friendly structure. I'd build it on a modern stack and use AI-assisted development to move fast: a first version with the core pages in about 1–2 weeks, then refinements based on your feedback. You can see my work here: https://grachoffprod.github.io/resume/\n\nTwo quick questions: will you be selling physical products or taking bookings, and roughly how many products or services should the site include? Do you have any reference sites for the bold look you have in mind?\n\nYakov",
-   "reply_ru": "Здравствуйте, спасибо за подробное описание. Вам нужен яркий адаптивный сайт со страницами Home, Shop/Booking и Contact, с чистой SEO-friendly структурой. Я бы сделал его на современном стеке и использовал ИИ-ассистенты в разработке, чтобы двигаться быстро: первая версия с основными страницами примерно за 1–2 недели, затем доработки по вашей обратной связи. Мои работы здесь: https://grachoffprod.github.io/resume/\n\nДва быстрых вопроса: вы будете продавать физические товары или принимать записи, и примерно сколько товаров или услуг должно быть на сайте? Есть ли у вас референсы сайтов для того смелого стиля, который вы имеете в виду?\n\nYakov",
-   "questions": [
-    "Что вы будете продавать: физические товары или услуги/записи на бронирование?",
-    "Примерно сколько товаров или услуг должно быть на сайте?",
-    "Есть ли референсы сайтов с нужным стилем «bold»?"
-   ]
-  },
-  "found_at": "2026-11-25T03:08:49+00:00"
- },
- {
-  "id": "freelancer:40834299",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/software-development/Senior-Desktop-App-Trial-Build",
-  "title": "Senior Desktop App Trial Build",
-  "description": "I’m planning a full-scale desktop application that helps users manage business tasks, customers, and internal records. All data will be entered manually within the program—no external spreadsheets or web services involved. \n\nBefore committing the entire project (budgeted at roughly one thousand dollars), I’d like to run a short paid trial. I’ll send you a small, self-contained feature, we’ll agree on its price and deadline, and that deliverable will let us confirm our working style and code quality.\n\nIf you’re interested, please share:\n• One link to a desktop app you’ve built or contributed to \n• A brief note on the specific components you created \n• When you could begin the trial task \n\nOnce the trial is successful, we’ll map out the remaining scope together to fit the overall budget and timeline. I look forward to seeing what you’ve built and hopefully collaborating on the full application.",
-  "budget": 1500.0,
-  "currency": "USD",
-  "posted_at": "2026-11-25T00:54:47+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "saas",
-   "score": 4,
-   "summary_ru": "Заказчик ищет разработчика полноценного десктопного приложения для управления задачами, клиентами и внутренними записями, без внешних сервисов. Сначала предлагает платный пробный модуль на небольшую функцию, а бюджет полного проекта ориентировочно около 1000 USD.",
-   "reply": "Hi, I read your brief: a desktop app for managing tasks, customers and internal records, with all data entered manually, and a short paid trial before the full build. A trial works for me. Most of my work is CRM-style admin panels and web apps, built with modern stacks and AI-assisted development, so I can keep the code clean and the timeline short. I haven't shipped a desktop app in my portfolio, so I want to be upfront about that. Portfolio: https://grachoffprod.github.io/resume/. Which platforms do you need (Windows, macOS, or cross-platform)? And is a local database like SQLite acceptable for storing the records?\n\nYakov",
-   "reply_ru": "Здравствуйте, я прочитал ваше описание: десктопное приложение для управления задачами, клиентами и внутренними записями, где все данные вводятся вручную, плюс короткий платный пробный модуль перед полной разработкой. Пробный формат меня устраивает. Большая часть моих работ — CRM-подобные админ-панели и веб-приложения на современном стеке с использованием ИИ-ассистентов в разработке, поэтому код будет аккуратным, а сроки короткими. Десктопных приложений в моём портфолио пока нет, и я хочу сразу об этом сказать. Портфолио: https://grachoffprod.github.io/resume/. Под какие платформы нужна сборка (Windows, macOS или кроссплатформенно)? И подходит ли для хранения записей локальная база данных, например SQLite?\n\nYakov",
-   "questions": [
-    "Под какие платформы нужно приложение: Windows, macOS или кроссплатформенно?",
-    "Допустимо ли локальное хранение данных, например в SQLite, или нужна другая схема?",
-    "Какой срок и стоимость пробного модуля заказчик предполагает?"
-   ]
-  },
-  "found_at": "2026-11-25T03:08:49+00:00"
- },
- {
-  "id": "kwork:3273378",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3273378",
-  "title": "Система обучения сотрудников",
-  "description": "Необходимо на базе Hermes Agent реализовать ИИ-специалиста по обучению кадров, который будет собирать в течение указанного периода обратную связь от сотрудников (вопросы, предложения, описания рабочих ситуаций по почте), определять категорию подходящего материала — статья, скрипт, семинар, видео-инструкция и т.д. Затем подготавливать и передавать этот материал на согласование руководителю для внедрения в систему обучения персонала. Выбран именно Hermes, так как в отличии от OpenClaw он заточен под самообучение.",
-  "budget": 120000.0,
-  "currency": "RUB",
-  "posted_at": "2026-11-24 23:59:06",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "kwork:3275416",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275416",
-  "title": "Парсинг данных с карты",
-  "description": "интересует парсинг яндекс карты на предмет составляения базы данных работающих предприятий торговли. нужна вся Россия, парсить можно по областям. \nКатегории: \n1. крупная сетевая розница \n2. сетевики второго эшелона \n3. алкомаркеты \n4. несетевая розница \nсобираем только название и локацию. контакты и тд - не нужно. \nзабираем в базу название, категорию, координаты \nи периодически эту базу обновляем в автоматическом режиме и в принудительном с возможностью указания определённой области. \nхочется обойтись без работы через API. \nзаписей будет прилично, >100k",
-  "budget": 3500.0,
-  "currency": "RUB",
-  "posted_at": "2026-11-24 23:52:12",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "automation",
-   "api_integration"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834126",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/google-ads/Website-Sales-Growth-Marketing-Campaign",
-  "title": "Website Sales Growth Marketing Campaign",
-  "description": "I run an e-commerce site that ships physical products and need a coordinated push that turns traffic into confirmed orders. The first success metric is simple: an immediate uplift in completed online sales.\n\nWhat needs to happen: set up and optimise Google Search Ads that target high-intent keywords, build converting campaigns on the social platforms where my audience already scrolls, and re-energise my existing customer database with well-timed email sequences. If you have additional channels or tactics that can move the revenue needle, feel free to fold them in—the brief is intentionally open so the strategy can flex around what works.\n\nDeliverables I expect\n• Search and social campaign setup (ad copy, creative direction, tracking)\n• Email marketing calendar with segmented sends\n• Ongoing optimisation and weekly performance reporting focused on ROAS, CPA and total sales\n\nI will provide product feed access, past campaign data and my current mailing list so you can hit the ground running. Results-driven experimentation is welcome, but every change must be measurable and reported back clearly.\n\nhttps://dreamfinds-3.myshopify.com/?_cd=99f8882ee7ee7abc456261df270af4ce75b49ea188e01c91daaee6c5975dcf54&_uid=96937082946&preview_theme_id=148682342466&preview_token=9dpca8j3id2bvem3hy4b0t920zqwa5sc&pb=0",
-  "budget": 25.0,
-  "currency": "USD",
-  "posted_at": "2026-11-24T21:32:15+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 2,
-   "summary_ru": "Заказчику с Shopify-магазином нужна маркетинговая кампания: настройка Google и соцсетей, email-рассылки и еженедельная отчётность по ROAS, CPA и продажам. Это работа маркетолога, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у заказчика задачи по разработке, например доработка магазина, интеграции с CRM или автоматизация выгрузки данных для отчётности?",
-    "Нужна ли только маркетинговая часть, или заказчик также ищет техническую поддержку для трекинга и подключения пикселей?"
-   ]
-  },
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834118",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/romanian-translator/Romanian-CSV-Catalog-Translation",
-  "title": "Romanian CSV Catalog Translation",
-  "description": "I need the full contents of a 24,608-item spare-parts catalog translated into clear, standard Romanian. Every product name, description, category and any other customer-facing text that appears in the CSV must be rendered accurately while preserving all SKU codes, leading zeros, brand names, model numbers and technical specifications exactly as they stand.\n\nI want standard Romanian technical terms, not mixed English phrasing, so please adapt industry vocabulary accordingly. No item can be skipped.\n\nWorkflow I expect\n• You receive the original UTF-8 CSV. \n• You translate all customer-visible fields, leaving non-textual data untouched. \n• You return a single UTF-8 CSV that can be imported directly into my existing WooCommerce setup. \n• Before we start, you provide a sample of 20 translated products so I can confirm style and terminology. \n• Along with your proposal, tell me your total price and realistic turnaround time for the entire file.\n\nQuality matters: translation must read naturally to Romanian buyers yet stay 100 % faithful to the original tech data.",
-  "budget": 30.0,
-  "currency": "USD",
-  "posted_at": "2026-11-24T21:28:40+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 2,
-   "summary_ru": "Заказчик просит перевести на румынский язык весь каталог запчастей из CSV на 24 608 позиций для импорта в WooCommerce. По сути это ручной переводческий труд с сохранением технических данных, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужен ли только перевод данных или заказчику также требуется настройка импорта в WooCommerce и проверка результата?",
-    "Есть ли у файла фиксированный набор полей, которые точно не нужно переводить, помимо SKU и технических характеристик?"
-   ]
-  },
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834115",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-video-editing/Automated-Video-Social-Posting",
-  "title": "Automated AI Video Social Posting",
-  "description": "I need a complete workflow that turns the text, images and basic offer information I provide into short, faceless videos with an AI voice-over, on-screen captions and royalty-free stock footage. Once rendered, each video must be published automatically to the major platforms I use:\n\n• Instagram, Facebook, TikTok \n• YouTube, LinkedIn, X (Twitter) \n• Pinterest, Snapchat, Telegram \n\nEvery video and its accompanying post should clearly surface my product or service details, price, brand story, customer benefits, current offer, website link and a direct call-to-action. Format, length, aspect ratio, thumbnails, captions and hashtags have to be adjusted so they look native on each channel.\n\nHere is what I expect as deliverables: \n1. A repeatable script, no-code scenario or lightweight app that accepts my inputs and produces the finished video. \n2. An integration layer (API, Zapier, Make.com or similar) that publishes the content to all nine channels, either instantly or on a schedule I can set. \n3. Simple documentation or a walk-through video so I can run the process myself after hand-over.\n\nThe solution can leverage tools such as OpenAI, Pictory, Synthesia, Runway, FFmpeg, Meta/YouTube APIs, etc. – I’m flexible as long as licensing is respected and the final flow is reliable and easy to maintain.\n\nPlease propose the tech stack you prefer, the steps you will automate and an estimated timeline for a first working version.",
-  "budget": 12500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-24T21:27:14+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "automation",
-   "api_integration"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834099",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-development/Home-Health-Compliance-Platform",
-  "title": "AI Home Health Compliance Platform",
-  "description": "**Project Title: Custom AI-Powered Home Health Compliance & Operations Software**\n\nWe are seeking an experienced AI software developer or development team to build a comprehensive, web-based AI application for our Medicare-certified home health agency's **internal use only**.\n\nThe software should have a modern, professional dashboard with interactive charts, graphs, color-coded alerts, patient management, and automated AI-powered workflows.\n\n**Required Features & Modules:**\n\n1. **AI Referral & Intake Management** – Analyze referral documents, extract patient information, identify missing documentation, and assist with admission decisions.\n2. **AI Clinical Chart Review** – Automatically review OASIS assessments, physician orders, face-to-face encounters, Plan of Care (CMS-485), nursing notes, and therapy documentation.\n3. **OASIS Quality Assurance** – Detect incomplete assessments, inconsistencies, potential coding errors, and documentation deficiencies.\n4. **Intelligent Medical Coding** – AI-assisted ICD-10 diagnosis coding, sequencing, HCPCS review, and PDGM-related validation.\n5. **Medicare Compliance & RCD Review** – Evaluate homebound status, skilled necessity, medical necessity, physician certification, and pre-claim review readiness.\n6. **Recertification & Discharge Assistant** – Track certification periods, evaluate clinical documentation, and generate draft recertification justifications.\n7. **Authorization Management** – Review payer requirements, prepare authorization packets, identify missing records, and draft appeal letters.\n8. **Denial Prevention & Billing Readiness** – Cross-check orders, eligibility, documentation, and coding to identify potential claim denials.\n9. **Clinical Documentation Improvement** – Identify inconsistencies, missing signatures, incorrect orders, and weak clinical documentation.\n10. **AI Clinical Assistant** – Suggest patient-specific goals, interventions, patient education, and documentation improvements for clinician review.\n11. **Scheduling & Field Operations** – Assist with clinician assignments, scheduling, route optimization, and travel-time planning.\n12. **Analytics & Reporting Dashboard** – Display compliance scores, audit findings, patient status trends performance graphs downloadable reports.\n13. **Document & Patient Management** – Secure PDF uploads document classification organized patient charts AI-powered document search.\n14. **Security & Administration** – HIPAA-compliant architecture role-based access audit logs secure cloud storage data protection.\n\nAdditionally:\n- We are particularly interested in developers who have built similar platforms before and can showcase their work or provide a demo of relevant past projects to demonstrate their expertise in this domain.\n\n**Technical Requirements:**\n\n- Integration with an existing advanced AI model through API.\n- Ability to analyze multiple clinical documents together.\n- Findings supported by document/page references and applicable CMS guidance.\n- Human review and approval of clinical and coding recommendations.\n- Clean modern responsive interface scalable architecture for additional modules future EHR integration full ownership of source code database application.",
-  "budget": 1500.0,
-  "currency": "USD",
-  "posted_at": "2026-11-24T21:22:21+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834086",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/customer-service/Email-Management-Assistant-Newcastle",
-  "title": "Email Management Assistant in Newcastle",
-  "description": "I need an email management assistant to work 5 hours per week. You must be located in Newcastle and able to start immediately. \n\nYour tasks will include:\n- Replying to customer emails using my guidelines\n- Sorting and organizing my inbox\n- Booking appointments and following up\n\nYou will primarily be corresponding with existing customers, suppliers, business partners, and a few potential new clients. For handling replies, you will send routine replies directly and consult me on unusual cases.\n\nIdeal skills and experience:\n- Prior experience in email management\n- Strong organizational skills\n- Excellent communication abilities\n- Ability to work independently and follow guidelines",
-  "budget": 750.0,
-  "currency": "AUD",
-  "posted_at": "2026-11-24T21:05:38+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "booking"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "booking",
-   "score": 1,
-   "summary_ru": "Заказчик ищет удалённого ассистента на 5 часов в неделю для управления почтой: ответы на письма клиентов по инструкциям, сортировка входящих и запись на встречи. Это не разработка, а работа ассистента, и она требует нахождения в Newcastle.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
-  },
-  "found_at": "2026-11-24T21:33:30+00:00"
  }
 ]
