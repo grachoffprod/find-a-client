@@ -1,5 +1,222 @@
 [
  {
+  "id": "freelancer:40837819",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/woocommerce/Ventas-Gabriel",
+  "title": "Ventas Gabriel -- 2",
+  "description": "Quiero que Ventas Gabriel pase de depender del teléfono y los mensajes directos a un sitio web donde el cliente pueda elegir el servicio, ver su precio, confirmar la reserva y pagarlo al momento. Solo ofreceré servicios o reservas, así que no necesito gestión de inventario físico ni cálculo de envíos; lo importante es un proceso de checkout claro, seguro y en español.\n\nNecesito que el diseño sea responsive y fácil de administrar: preferiría trabajar sobre WordPress + WooCommerce, Shopify o la plataforma que recomiendes siempre que me permita actualizar textos, precios y horarios sin tocar código. Integra un pasarela de pago (Stripe, PayPal o similar), configura los correos de confirmación y asegúrate de que el panel muestre las órdenes en tiempo real.\n\nEntrego los textos y las imágenes; tú te encargas de instalar la plantilla, personalizarla con mi marca y dejar todo funcionando en mi hosting. Cuando esté listo necesito una breve sesión de capacitación o video guía para que pueda manejar reservas, reembolsos y reportes sin complicaciones.\n\nAcepto propuestas que incluyan:\n• URL de ejemplos de sitios de reservas que hayas construido.\n• Tiempo estimado de desarrollo.\n• Herramientas/plataforma que usarás y por qué.\n\nEl objetivo es lanzar rápido, pero no sacrificar seguridad ni usabilidad. Espero tu propuesta.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T00:08:05+00:00",
+  "lang": "es",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 3,
+   "summary_ru": "Клиент хочет сайт для услуг, где покупатель выбирает сервис, видит цену, бронирует и оплачивает онлайн, на испанском языке. Нужны WordPress/WooCommerce или Shopify, интеграция платежей, письма-подтверждения, панель управления, установка на хостинге и обучающее видео. Бюджет 25 USD при таком объёме низкий.",
+   "reply": "Entiendo que quieres pasar de reservas por teléfono y mensajes a un sitio donde el cliente elige el servicio, ve el precio, reserva y paga en un solo flujo, en español y con un panel fácil de administrar. Propongo WordPress + WooCommerce: los servicios se cargan como productos con precio y horario editables sin código, el checkout se traduce al español y las órdenes y los correos de confirmación se configuran desde el panel. Instalo una plantilla responsive, la adapto a tu marca con tus textos e imágenes, la subo a tu hosting y grabo una guía en video sobre reservas, reembolsos y reportes. Para la versión base calculo unos 3–4 días. ¿Necesitas reservas con fecha y hora en un calendario o solo elegir un servicio? ¿Ya tienes hosting con WordPress instalado?\nEjemplos de trabajo: https://grachoffprod.github.io/portfolio/\nYakov",
+   "reply_ru": "Понимаю, что вы хотите перейти от бронирований по телефону и в личных сообщениях к сайту, где клиент выбирает услугу, видит цену, бронирует и оплачивает в одном процессе, на испанском языке и с удобной панелью управления. Предлагаю WordPress + WooCommerce: услуги загружаются как товары с ценой и расписанием, которые редактируются без кода, checkout переводится на испанский, а заказы и письма-подтверждения настраиваются из панели. Устанавливаю адаптивный шаблон, подстраиваю под ваш бренд с вашими текстами и изображениями, загружаю на ваш хостинг и записываю видеоинструкцию по бронированиям, возвратам и отчётам. Для базовой версии оцениваю примерно 3–4 дня. Вам нужны брони с датой и временем в календаре или достаточно выбора услуги? И есть ли у вас уже хостинг с установленным WordPress?\nПримеры работ с живыми демо: https://grachoffprod.github.io/portfolio/\nYakov",
+   "questions": [
+    "Нужны ли бронирования с выбором даты и времени в календаре или клиент просто выбирает услугу?",
+    "Есть ли у вас уже хостинг с установленным WordPress?",
+    "Бюджет 25 USD покрывает весь описанный объём (шаблон, оплата, письма, обучение) или только базовую установку?"
+   ]
+  },
+  "found_at": "2026-11-27T00:15:21+00:00"
+ },
+ {
+  "id": "freelancer:40837811",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ai-app-development/project-40837811",
+  "title": "徵求 遠程 AI 產品經理",
+  "description": "我們是一個早期 AI 產品團隊，正將「人生作業系統」的願景落地為首個可用產品。這個第一版聚焦在「目標設定、習慣追蹤與行動規劃」，服務對象是「想建立自律與穩定習慣的個人使用者」，核心成果是讓使用者「每天清楚知道下一步該做什麼並完成行動」。\n\n我將與你直接合作，把高層目標轉化為清晰的產品需求、系統設計與可交付計畫，並全程負責：\n• 原型設計、開發、整合、部署、監控與迭代 \n• 利用 Python 或 TypeScript、LLM API、雲端部署等技術快速交付，同時確保架構與程式碼品質、安全性與穩定性 \n• 為 AI 功能建立測試案例、黃金樣本、回歸測試與品質指標 \n• 建構可重複使用的元件，主動發現並修復隱藏缺陷 \n• 與業務與技術利害關係人保持清晰溝通，持續推進產品\n\n理想條件包括極強的獨立性、產品判斷力、系統思維、英語閱讀與基本溝通能力，以及審查與維護 AI 生成程式碼的工程能力。 \n請附上 1–2 個你獨立完成的端到端作品（展示、GitHub、架構文件皆可），並簡要說明你在其中的角色與貢獻。\n\n面試流程： \n1. 初步溝通 \n2. 現場模糊目標演練（思維能力評估） \n3. 入圍者將獲邀完成短練習（給付象徵性報酬，程式碼歸你所有）\n\n期待與你一起把模糊願景變成真正幫助人們自我成長的 AI 產品。",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T00:04:57+00:00",
+  "lang": "zh",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Удалённая вакансия AI-продакт-менеджера в ранней команде: формулировка требований, прототипирование, разработка и деплой ИИ-продукта для целей, трекинга привычек и планирования действий на Python или TypeScript с LLM API. Бюджет 250 USD, но это найм с многоэтапным собеседованием, а не разовый фриланс-проект.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Это найм на постоянную или долгосрочную роль, или разовый проект с понятным объёмом работ?",
+    "Бюджет 250 USD относится ко всему объёму работ или только к короткому тестовому заданию?"
+   ]
+  },
+  "found_at": "2026-11-27T00:15:21+00:00"
+ },
+ {
+  "id": "freelancer:40837809",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/sales/Aumentar-Ventas-por-WhatsApp",
+  "title": "Aumentar Ventas por WhatsApp",
+  "description": "Quiero organizar y potenciar todo mi proceso de ventas, con el objetivo inmediato de conseguir más clientes. Para lograrlo nos enfocaremos casi exclusivamente en WhatsApp y mensajes directos, el canal donde hoy recibo la mayoría de las consultas.\n\nNecesito que revises de principio a fin mi embudo actual, detectes los cuellos de botella y diseñes un sistema claro que me permita:\n\n• Captar prospectos a través de campañas o estrategias que lleven la conversación a WhatsApp \n• Guiar cada interacción con guiones y respuestas rápidas que aumenten la tasa de cierre \n• Registrar y seguir cada lead en un tablero o CRM sencillo, para no perder oportunidades \n• Medir resultados con indicadores simples (contactos diarios, citas agendadas, ventas cerradas) y proponer ajustes continuos\n\nTrabajo con un producto físico de venta directa, por lo que la inmediatez de la respuesta es clave. Aprecio soluciones prácticas: plantillas de mensajes, automatizaciones ligeras (por ejemplo, WhatsApp Business API o chatbots básicos) y reportes que pueda entender de un vistazo.\n\nEntrego acceso a mis números de contacto, historial de chats recientes y cualquier dato que necesites para mapear el proceso. El entregable final deberá incluir:\n\n1. Documento de estrategia paso a paso \n2. Flujos de mensajes listos para copiar-pegar o cargar en un bot \n3. Estructura de seguimiento (hoja de cálculo o CRM recomendado) \n4. Métricas iniciales y meta sugerida para los primeros 30 días\n\nTodo debe quedar implementado o listo para usar; la idea es que al terminar pueda comenzar a atraer y convertir más clientes sin demoras.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T00:03:42+00:00",
+  "lang": "es",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "crm",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Клиент хочет увеличить продажи через WhatsApp: провести аудит воронки, написать стратегию и скрипты сообщений, настроить простой CRM или трекер лидов и, возможно, базового бота или WhatsApp Business API. Основная часть работы — маркетинговая стратегия и копирайтинг, а бюджет всего 25 USD при таком объёме.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой объём разработки вы ожидаете: нужна только стратегия и шаблоны сообщений или также настройка CRM и WhatsApp-бота?",
+    "Какой у вас бюджет на техническую часть и есть ли уже аккаунт WhatsApp Business API?"
+   ]
+  },
+  "found_at": "2026-11-27T00:15:21+00:00"
+ },
+ {
+  "id": "freelancer:40837788",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/zapier/Integrasi-Gmail-WhatsApp-Instagram",
+  "title": "Integrasi Gmail WhatsApp Instagram",
+  "description": "Saya membutuhkan bantuan untuk menyiapkan satu akun Gmail bisnis yang benar-benar siap dipakai untuk menerima pesanan dan pertanyaan pelanggan. Fokus utama saya adalah membuat alur masuk pesan dari WhatsApp Business dan Instagram langsung ke kotak masuk Gmail agar semuanya terkumpul rapi, mudah ditindaklanjuti, dan dapat saya jawab secepat mungkin.\n\nRuang lingkup yang saya harapkan:\n• Membuat atau mengonfigurasi akun Google Workspace/Gmail bisnis agar tampak profesional (alamat domain saya sendiri, signature, filter, label, dan keamanan dasar). \n• Menautkan WhatsApp Business ke Gmail—misalnya melalui notifikasi email, integrasi API, atau automation pihak ketiga—sehingga setiap chat baru, pesanan, atau pertanyaan otomatis tercatat di Gmail. \n• Menyambungkan Direct Message Instagram ke Gmail dengan pendekatan serupa sehingga semua DM penting masuk sebagai email yang bisa saya arsipkan atau delegasikan. \n• Menyiapkan aturan pengelompokan (label atau folder) agar pesan dari kedua platform tersebut terpisah dari email internal lain, namun tetap mudah dicari. \n• Mendokumentasikan langkah konfigurasi serta memberikan panduan ringkas cara memelihara integrasi bila terjadi perubahan login, token, atau setting.\n\nHasil akhir yang saya inginkan adalah:\n1. Akun Gmail bisnis aktif dan tervalidasi. \n2. Pesan pelanggan dari WhatsApp Business dan Instagram otomatis muncul di Gmail dalam label yang jelas. \n3. Panduan PDF singkat + rekaman layar (jika memungkinkan) yang menjelaskan cara menambah agen baru, mengganti nomor, atau menyesuaikan filter di masa depan.\n\nSilakan ajukan jika Anda berpengalaman dengan Google Workspace, WhatsApp Business API, Meta Business Suite, Zapier, atau alat serupa, dan dapat menyelesaikan semuanya secara aman tanpa melanggar kebijakan platform.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T23:47:15+00:00",
+  "lang": "id",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 4,
+   "summary_ru": "Клиент хочет настроить бизнес-Gmail на своём домене так, чтобы сообщения из WhatsApp Business и Instagram DM автоматически попадали в почту с разделением по меткам, плюс короткая PDF-инструкция и запись экрана. Бюджет низкий (25 USD), а объём работ широкий и зависит от верификации Meta.",
+   "reply": "Halo! Saya memahami bahwa Anda ingin pesan dari WhatsApp Business dan Instagram DM masuk ke satu Gmail bisnis di domain Anda, dengan label terpisah, filter, dan panduan PDF singkat. Saya akan mulai dengan menyiapkan Google Workspace (signature, filter, label, keamanan dasar), lalu menghubungkan WhatsApp Business lewat WhatsApp Business Platform atau layanan pihak ketiga resmi, serta Instagram melalui Meta Business Suite dan Messaging API, dengan notifikasi diteruskan ke Gmail. Karena kedua platform memerlukan verifikasi bisnis Meta, saya akan memberi tahu sejak awal jika ada batasan. Perkiraan waktu: 3–5 hari kerja untuk integrasi inti, ditambah 1 hari untuk panduan PDF dan rekaman layar. Pertanyaan: apakah akun Meta Business dan nomor WhatsApp Business Anda sudah terverifikasi, dan apakah domain serta Google Workspace sudah tersedia?\n\nPortofolio dengan demo langsung: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! Я понимаю, что вы хотите, чтобы сообщения из WhatsApp Business и Instagram DM поступали в один бизнес-Gmail на вашем домене, с отдельными метками, фильтрами и короткой PDF-инструкцией. Я начну с настройки Google Workspace (подпись, фильтры, метки, базовая безопасность), затем подключу WhatsApp Business через WhatsApp Business Platform или официальный сторонний сервис, а Instagram через Meta Business Suite и Messaging API, с пересылкой уведомлений в Gmail. Так как обе платформы требуют верификации бизнеса в Meta, я сообщу заранее, если возникнут ограничения. Примерные сроки: 3–5 рабочих дней на основную интеграцию и ещё 1 день на PDF-инструкцию и запись экрана. Вопрос: верифицированы ли у вас аккаунт Meta Business и номер WhatsApp Business, и есть ли уже домен и Google Workspace?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Верифицированы ли у вас аккаунт Meta Business и номер WhatsApp Business?",
+    "Есть ли у вас уже домен и подписка Google Workspace, или их нужно подключить с нуля?"
+   ]
+  },
+  "found_at": "2026-11-27T00:15:21+00:00"
+ },
+ {
+  "id": "freelancer:40837776",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/digital-marketing/Strategi-Produk-Digital-TikTok",
+  "title": "Strategi Produk Digital di TikTok",
+  "description": "Saya ingin mulai menghasilkan cuan dengan menjual produk digital lewat TikTok. Saya sudah mantap memilih TikTok sebagai kanal utama dan butuh bantuan menyusun strategi sekaligus panduan praktis agar penjualan berjalan lancar.\n\nYang saya perlukan:\n• Riset singkat untuk menentukan niche dan persona audiens yang potensial di TikTok. \n• Ide konten organik dan kerangka script video yang mendorong traffic ke halaman penjualan. \n• Rekomendasi format live, hashtag, serta jadwal posting optimal. \n• Alur funnel sederhana—dari penawaran di video hingga pembayaran (mis. link bio, landing-page, WhatsApp, atau marketplace). \n• Checklist tools pendukung (editing ringan, analitik TikTok, payment gateway) beserta tautan/alternatif gratis jika ada. \n• Saran taktik promosi berbayar sekiranya dibutuhkan, lengkap dengan estimasi biaya iklan awal.\n\nOutput yang saya harapkan berupa dokumen strategi terstruktur (PDF atau Google Docs) plus template kalender konten 30 hari. Sertakan contoh copy atau hook video agar mudah saya terapkan. Saya terbuka untuk sesi tanya jawab singkat setelah draft pertama selesai guna memastikan eksekusi mulus.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-26T23:25:02+00:00",
+  "lang": "id",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 2,
+   "summary_ru": "Заказчик хочет получить маркетинговую стратегию для продажи цифровых продуктов через TikTok: ресерч ниши, контент-план на 30 дней, сценарии видео, funnel, подбор инструментов и рекомендации по рекламе. Это консультация и контент-работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам только стратегия и документы или также техническая реализация лендинга или интеграция оплаты?",
+    "Какой именно цифровой продукт вы планируете продавать и есть ли он уже в наличии?"
+   ]
+  },
+  "found_at": "2026-11-27T00:15:21+00:00"
+ },
+ {
+  "id": "flru:5530687",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530687/vnesti-izmeneniya-v-internet-magazin-na-cms-bitrix.html",
+  "title": "Внести изменения в интернет магазин на CMS Bitrix",
+  "description": "Необходимо внести изменения в сайт, без программирования\n\nПрограммисты есть, они сделают свою часть. Нужно изменить категории, баннеры, содержание главной страницы и т.п.",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 22:55:40 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Нужно внести правки в интернет-магазин на 1С-Битрикс: изменить категории, баннеры и контент главной страницы. Программирование не требуется, программисты у заказчика уже есть, поэтому задача в основном контентная.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой объём работ: сколько категорий и баннеров нужно изменить и есть ли готовые материалы?",
+    "Требуется ли доступ к административной панели Битрикс и будете ли вы сами согласовывать изменения с программистами?"
+   ]
+  },
+  "found_at": "2026-11-27T00:15:21+00:00"
+ },
+ {
+  "id": "flru:5530705",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530705/3d-model-robota-v-stile-psx-po-foto-s-nebolshimi-dorabotkami.html",
+  "title": "3D модель робота в стиле PSX по фото с небольшими доработками",
+  "description": "Есть фото (разумеется созданная с ИИ), нужна 3D моделька LowPoly, c PSX текстурированием и с костями для анимаирования и запихивания её в игру.\nПо скольку это робот, то привязка костей должна быть жесткая (в плане не как для человека с растягиванием текстур и плавными весами... а просто кость целиком двигает деталь)\nНа счет доработок, как я и сказал картинка сделана с ИИ и по этому в ней есть много абсурда который нужно поправить.\nНа картинке робот девушка медик сделанная из санитарной буханки (УАЗ-452), в целом подправить нужно зад, живот и лицо.\nНа лице только текстурку перерисовать слегка (просто добавить сегментирование лица), в животе заделать дырки, а вот зад нужно переработать ибо ИИ никак не хотел делать именно то, что от него просили :)\n\nКартинка № 1: Это изначальный внешний вид просто для общего понимания внешнего вида\nКартинка № 2: Это как приблизительно должна выглядеть моделька\nКартинка № 3: Живот. ИИ не заделало в нем дыры, хотя стиль PSX не располагает к такому, они должны быть заполнены черным шумом\nКартинка № 4: Лицо. На нем нужно просто нарисовать линии имитирующие зазоры между отдельными частями в составе лица\nКартинка № 5: Снова живот, но уже другая проблема. Там не должно быть позвоночника, нужны какие-нибудь механизмы (шланги/шарниры/петли... короче техническая свалка)\nКартинка № 6: Колени. Просто добавить щитки наколенников в цвет корпуса.\nКартинка № 7: Зад. Ну тут сложно описать текстом. На изначальной картинке ИИ сгенерировало человеческую форму с текстурой покрышек. Это нам не катит, там должно быть само целое колесо (ну, 2, справа и слева) как то соединенное с основным корпусом и ногой (колесо одновременно и ягодица и сустав) в каком наклоне оно будет и как крепиться я не знаю, это надо как то в процессе что ли пробовать.\nКартинка № 8: Скелет. То как приблизительно должны располагаться кости (на каждый палец по 2 кости, шея с головой на отдельных костях, грудь/живот/таз так же на своих отдельных костях)",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Thu, 26 Nov 2026 22:53:46 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 1,
+   "summary_ru": "Заказчик хочет получить низкополигональную 3D-модель робота в стиле PSX по ИИ-картинке, с жёсткой риггингом под анимацию и доработкой деталей (лицо, живот, колени, зад). Это 3D-моделирование и арт, а не разработка по профилю.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только модель с риггингом, или также готовая анимация и экспорт под конкретный движок?",
+    "В каком формате нужно передать результат (FBX, glTF, OBJ) и какой движок используется?"
+   ]
+  },
+  "found_at": "2026-11-27T00:15:21+00:00"
+ },
+ {
   "id": "freelancer:40837767",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/ai-chatbot/Telegram-FAQ-Chatbot",
