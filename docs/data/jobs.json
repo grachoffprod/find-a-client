@@ -1,5 +1,217 @@
 [
  {
+  "id": "freelancer:40837951",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/image-analysis/Forensic-Image-Analysis-Report",
+  "title": "Forensic Image Analysis & Report by EOD Sunday, 29th November.",
+  "description": "I am preparing expert evidence for an upcoming matter in New South Wales and need a qualified forensic-imagery specialist to analyse a small subset of frames extracted from a short .MOV. From the 58 available frames, I will nominate at least three (possibly a few more, depending on your fee) for detailed scrutiny.\n\nYour brief is to determine:\n• whether specific elements in those frames were added, removed, or altered; \n• whether apparent anomalies are more likely alteration or artefacts of pixelation or compression; \n• and, for one specific image, whether the shadow length is consistent with the recorded time and GPS location.\n\nYou will receive the original .MOV and the extracted frames. Complete metadata and binary examinations have already been performed, so no repeat work is required there.\n\nDeliverable 1: assesment of each of the files and assessment of observations outlaid below\nDeliverable 2 (dependent on deliverable 1): If your findings show tampering you can stand by, I will require court-ready expert report that meets NSW evidentiary standards, clearly sets out methodology, findings, and your professional opinion on each of the above points. Please indicate turn-around time, the professional tools you will use (e.g., Amped FIVE, Photoshop Forensics, MATLAB, Sun-position calculators), and any assumptions that must be documented for the court.\n\nIndex of checks required and 'Opinion' on whether the observations could be naturally occuring in a live.photo to MOV re-endcode. \nFile: frame_0009.jpg Opinion: subject moving away from camera's appearance in image, specifically next to the approaching car, which appears truncated between the subjects arm and body. Also, in NSW it is illegal, and extremely rarely witnessed, that cars have no license plate. As such, please also observe front of approaching white VW adjacent to subject and opine on whether lack of number plate appears natural or cropped out. \nFile: MO-15_Taylor-video_IMG_7708.MOV, Opinion: Null at this stage. Solely to be used for latitude /longitude and time / date stamp to assess sun's position in sky for use against frame_0004.jpg\nframe_0047.jpg, Opinion: subject on far left of frame, approaching parked vehicles. Arm is missing. Face is perfectly truncated. Body appears fat and painted. Car driving behind subject is different colours on either side of subject's body. please also observe front of approaching white VW adjacent to subject and opine on whether lack of number plate appears natural or cropped out. \nframe_0004.jpg, Opinion: next to the approaching white VW, behind the white parked van, there is a green wheelie bin / large green trash bin. It's shadow appears to me perfectly symmetrical to the bin itself. Yet the shadow also appears too long (at the point of truncation by the approaching VW) for the February date and time in the MOV's metadata. please also observe front of approaching white VW adjacent to subject and opine on whether lack of number plate appears natural or cropped out.",
+  "budget": 50.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T02:56:56+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "calculator"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "calculator",
+   "score": 1,
+   "summary_ru": "Заказчик ищет судебного эксперта по цифровой криминалистике для анализа кадров из видео (поиск подделок, оценка теней и номерных знаков) и подготовки заключения для суда в Новом Южном Уэльсе. Это не разработка и не входит в услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в этом проекте часть разработки ПО или веб-инструмента, которую можно выполнить отдельно от экспертного анализа?"
+   ]
+  },
+  "found_at": "2026-11-27T03:04:06+00:00"
+ },
+ {
+  "id": "freelancer:40837942",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android-app-development/Paytm-Style-Sales-History-Android",
+  "title": "Paytm-Style Sales History Android App",
+  "description": "I need an Android application that recreates the “Sales & Payments” experience of the Paytm Business app, but stripped down to a single purpose: allowing a shop owner to review past transactions quickly and clearly.\n\nScope of version 1\n• The app will not process live payments yet. Instead, every transaction will be entered manually by the business owner through a clean, guided form. \n• Once saved, each entry must appear in a chronological list with summary cards and a drill-down details screen.\n\nInformation each record must show\n• Payment amount, date, and current status (success, pending, failed, refunded). \n• Customer name and the payment method selected from preset options (UPI, card, cash, etc.). \n• Any refunds, failed payment notes, or settlement details the owner types in.\n\nCore screens\n1. Dashboard summary (today, last 7 days, custom range). \n2. Transaction list with search and basic filters (status, payment method). \n3. Transaction detail / edit view. \n4. Manual add/edit form.\n\nTech & deliverables\n– Native Android (Java or Kotlin). \n– Local data storage (SQLite or Room). No server integration required at this stage. \n– Material 3 compliant UI, responsive down to 5-inch devices. \n– Source code in a Git repository, signed APK for testing, and a brief README explaining build steps.\n\nAcceptance\nI will consider the job complete when I can install the APK on a physical device, add at least ten sample transactions, and verify that all fields above display accurately in the list and detail views without crashes or noticeable lag.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T02:40:44+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Нативное Android-приложение (Kotlin/Java, Room) для ручного ввода и просмотра истории платежей с дашбордом, фильтрами и экраном деталей. Бюджет 12 500 INR (около $150) низкий для такого объёма, а нативная Android-разработка не входит в услуги Yakov.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас веб-версия или возможность сделать интерфейс в виде PWA или Telegram Mini App вместо нативного Android-приложения?",
+    "Какой бюджет и срок вы рассматриваете для всей версии 1, включая APK, исходники и README?"
+   ]
+  },
+  "found_at": "2026-11-27T03:04:06+00:00"
+ },
+ {
+  "id": "freelancer:40837939",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/cold-calling/Software-Cold-Caller-Setter",
+  "title": "AI Software Cold Caller & Setter",
+  "description": "We are looking for a confident and reliable cold caller to help grow our AI and software engineering business, DiamondDev.\n\nWe are building a network of technical professionals focused on AI solutions, software development, intelligent automation and AI training services.\n\nWe are looking for someone who enjoys communicating with people, building business relationships and discovering new commercial opportunities.\n\nResponsibilities:\n\n- Contact potential business clients by phone.\n- Introduce our company and technology services.\n- Identify potential clients' business and technical needs.\n- Build positive relationships with decision-makers.\n- Schedule meetings with interested prospects.\n- Follow up with potential clients.\n- Maintain records of calls and business opportunities.\n\nRequirements:\n\n- Fluent and natural English communication.\n- Experience in cold calling, telemarketing or B2B sales.\n- Friendly, confident and professional personality.\n- Ability to communicate without sounding scripted.\n- Reliable internet connection and a quiet working environment.\n- Experience in the technology or software industry is a plus.\n\nWe are particularly interested in professionals familiar with the US and Canadian markets.\n\nWe will start with a small paid pilot project. If we work well together, we would like to establish a long-term relationship with recurring paid assignments and potential performance-based bonuses.\n\nWhen applying, please share your previous calling experience, availability, hourly rate and the types of businesses you have worked with.\n\nWe look forward to finding someone who wants to grow with us.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T02:37:55+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Заказчик ищет англоязычного cold caller для B2B-звонков по US и Canadian рынкам с почасовой оплатой и пилотным проектом. Это работа по продажам и телемаркетингу, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли заказчику также разработка или автоматизация для AI-компании, или речь только о звонках и продажах?"
+   ]
+  },
+  "found_at": "2026-11-27T03:04:06+00:00"
+ },
+ {
+  "id": "freelancer:40837935",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/ios-development/Complete-SwiftUI-Ride-Hailing-iOS",
+  "title": "Complete SwiftUI Ride-Hailing iOS App",
+  "description": "Finish a native iOS ride-hailing rider app: Swift, SwiftUI, fixed price\n\nRido is a ride-hailing app launching in Hyderabad. The backend and web apps are complete and tested. The iOS rider app is at an early stage (login, home and a few screens) and needs to be finished so it matches the rider web app feature for feature.\n\nScope (full brief attached, with acceptance checks for each milestone and the API list):\n• One-time-code login, profile, emergency and trusted contacts, delete account in the app\n• Maps and address search (MapLibre), choosing a ride with fares, nearest driver and surge\n• The full trip: waiting, matched, live driver location, start and end PINs, cancel with the fee shown first\n• Safety: SOS, report the driver, \"Are you OK?\" check, share trip, wrong drop-off report\n• In-trip call and chat, push notifications\n• Online payment (Cashfree SDK), receipt, rating, ride history, lost item, block a driver, book for someone else, help and complaints\n• TestFlight builds from CI, App Store readiness (privacy manifest), and a README so we can release on our own\n\nOptional phase 2: the iOS driver app. Please quote it separately.\n\nTerms: one fixed price for the rider app. Work happens in our GitHub repo through pull requests and is tested on our staging server. You don't need backend access. All accounts are ours and you're added to our Apple team. An NDA and IP assignment are signed before starting.\n\nTo apply, send:\n\nYour total fixed price and timeline in weeks for the rider app\nA separate fixed price and timeline for the driver app (optional)\n2 or 3 iOS apps you built that are live on the App Store (maps or live location preferred)\nYour experience with SwiftUI, push notifications and payment SDKs",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T02:33:37+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 2,
+   "summary_ru": "Заказчик ищет исполнителя, который доведёт до релиза нативное iOS-приложение для пассажиров сервиса заказа такси (SwiftUI, фиксированная цена 250 USD): логин, карта, поездки, SOS, оплата через Cashfree, push-уведомления, TestFlight и публикация в App Store. Требуются опубликованные iOS-приложения в App Store, чего в профиле Yakov нет, а нативная iOS-разработка не входит в перечисленные услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужны ли вам веб-сайт или Telegram Mini App как альтернатива нативному приложению для пассажиров?",
+    "Есть ли у проекта бюджет и сроки, которые допускают работу с нативным SwiftUI-стеком без опыта публикации iOS-приложений в App Store?"
+   ]
+  },
+  "found_at": "2026-11-27T03:04:06+00:00"
+ },
+ {
+  "id": "freelancer:40837931",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Automated-Appointment-Booking-Software",
+  "title": "Automated Appointment Booking Software",
+  "description": "Project Title: Web Automation Software for Automatic Appointment Booking\n\nProject Description:\n\nI am looking for an experienced Web Developer or Automation Specialist to develop a custom software solution that automates the appointment booking process on a specific website.\n\nThe main goal is to create a reliable and user-friendly automation tool that can:\n\n- Automatically monitor appointment availability on the website.\n- Detect newly available appointment slots.\n- Automatically book an appointment based on predefined preferences.\n- Fill in the required information accurately.\n- Notify the user when an appointment is successfully booked.\n- Provide a simple dashboard to manage the automation settings.\n\nRequirements:\n\n- Experience with Python, JavaScript, or browser automation tools such as Playwright or Selenium.\n- Strong knowledge of web development and automation.\n- Ability to build secure and reliable software.\n- Experience working with appointment booking systems.\n\nThe software must respect the target website's terms of service, security measures, and booking rules.\n\nI'm looking for a serious and experienced developer who can deliver a reliable solution. Please contact me with your experience, estimated timeline, and price.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-27T02:31:35+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 4,
+   "summary_ru": "Клиент хочет инструмент, который отслеживает доступность записи на сайте, автоматически бронирует подходящий слот по заданным параметрам, заполняет данные и присылает уведомление. Проект связан с рисками нарушения условий сайта и защитных механизмов.",
+   "reply": "You're looking for a tool that watches a booking site for newly opened slots, books one that matches your preferences, fills in your details, and notifies you when it's done. I can build this with Playwright, plus a small dashboard for preferences and alerts. Before I commit to the booking part, I need to confirm two things: the target site's terms explicitly allow automated access, and its flow doesn't rely on CAPTCHAs or anti-bot checks that the tool would have to get around. If it does, I'd suggest the tool alerts you immediately and you complete the final step yourself. A monitoring-and-alert version with a preferences form would take about 2–3 weeks, with full booking automation added once the flow is confirmed. Live demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы ищете инструмент, который отслеживает появление новых слотов на сайте записи, бронирует подходящий по заданным параметрам, заполняет ваши данные и уведомляет вас о результате. Я могу сделать это на Playwright и добавить небольшую панель для настроек и уведомлений. Прежде чем браться за часть с бронированием, нужно уточнить два момента: прямо ли условия целевого сайта разрешают автоматизированный доступ и не использует ли его процесс записи CAPTCHA или антибот-проверки, которые инструменту пришлось бы обходить. Если использует, предлагаю, чтобы инструмент сразу присылал уведомление, а последний шаг вы выполняли сами. Версия с мониторингом и уведомлениями с формой настроек займёт около 2–3 недель, а полную автоматизацию бронирования добавим, когда процесс будет подтверждён. Живые демо в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой сайт записи нужен и разрешают ли его условия автоматизированный доступ к нему?",
+    "Есть ли на сайте CAPTCHA или обязательный вход в аккаунт, и должен ли пользователь подтверждать запись вручную?",
+    "По каким параметрам выбирать слот: даты, время, услуга, локация или что-то ещё?"
+   ]
+  },
+  "found_at": "2026-11-27T03:04:06+00:00"
+ },
+ {
+  "id": "freelancer:40837930",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/kotlin/Finalize-Ride-Hailing-Android-Apps",
+  "title": "Finalize Ride-Hailing Android Apps",
+  "description": "Rido is a ride-hailing app launching in Hyderabad. The backend and web apps are complete and tested. The Android apps are at an early stage (login, home and a few screens) and need to be finished so they match the web apps feature for feature.\n\nScope (full brief attached, with acceptance checks for each milestone and the API list):\n• Rider app: one-time-code login, profile and emergency contact, maps and address search (MapLibre), choosing a ride with fares, the full trip with start and end PINs, safety (SOS, reports, \"Are you OK?\" check), in-trip call and chat, online payment (Cashfree SDK), receipt, history and help.\n• Driver app: login, KYC registration and documents, online/offline with live GPS, ride offer screen, the full trip with PIN and selfie, driver SOS, earnings, plans and payouts.\n• Push notifications, signed release builds from CI, and a README so we can release on our own.\n\nTerms: one fixed price for the whole project. Work happens in our GitHub repo through pull requests and is tested on our staging server. You don't need backend access. An NDA and IP assignment are signed before starting.\n\nTo apply, send:\n\nYour total fixed price and timeline in weeks\n2 or 3 Android apps you built that are live on Google Play (maps or live location preferred)\nYour experience with Jetpack Compose, location services and payment SDKs",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T02:31:14+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 2,
+   "summary_ru": "Заказчик ищет исполнителя, который доведёт до релиза два нативных Android-приложения (пассажир и водитель) для сервиса такси в Хайдарабаде: логин, карты MapLibre, трекинг GPS, PIN-коды и селфи в поездке, SOS, оплата через Cashfree SDK, push-уведомления и CI-сборки. Фиксированный бюджет 250 USD на такой объём выглядит очень заниженным, а от исполнителя требуется опыт публикации приложений в Google Play и Jetpack Compose, которого нет в профиле.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какой бюджет вы рассматриваете для полного объёма работ, включая оба приложения, push-уведомления и CI-сборки: 250 USD указан как фиксированная цена?",
+    "Нужны ли только Android-приложения или вас интересует также веб-часть, которая уже готова?"
+   ]
+  },
+  "found_at": "2026-11-27T03:04:06+00:00"
+ },
+ {
+  "id": "freelancer:40837919",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/forex-trading/Trader-mahesh",
+  "title": "Trader mahesh",
+  "description": "I’m building a scalable online space that can eventually support more than 91 million professionals worldwide. For the first milestone I need a working web (and, if feasible, mobile-friendly) application where users create a profile, search other profiles with powerful filters, and send connection requests directly—search-and-connect is the only discovery method I want in this phase.\n\nScope of work \n• Design the data model and user flow for profile creation, advanced search, and the full connection-request life-cycle. \n• Develop the front-end (React, Vue, or a comparable SPA framework) and back-end (Node, Django, Laravel, or similar) so the core features are secure, responsive, and ready to scale horizontally. \n• Provide an admin panel that lets me moderate accounts, view growth metrics, and manage flagged content.\n\nAcceptance criteria \n• New users can register, verify e-mail, and complete a public profile with photo and key fields. \n• Search returns relevant profiles in under one second with at least one million records seeded. \n• Users can send, receive, accept, or decline connection requests; rate-limiting or captcha protects the workflow from spam. \n• All source code is delivered in a private Git repo with a clear README and environment setup instructions.\n\nMention any experience you have with high-traffic social or recruiting platforms, as well as tools like Elasticsearch, PostgreSQL, AWS, Docker, or Kubernetes, and share a live link or demo where possible.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T02:16:17+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 3,
+   "summary_ru": "Заказчик хочет создать первую версию профессиональной соцсети с профилями, поиском по фильтрам (до 1 секунды на миллионе записей), запросами на связь, верификацией e-mail и админ-панелью. Бюджет очень маленький (1250 INR) при очень большом объёме работ.",
+   "reply": "You're describing a LinkedIn-style professional network for the first milestone: profiles, filtered search that returns in under a second on a million records, and a connection-request flow with e-mail verification, anti-spam protection and an admin panel. I'd start by mapping the data model and user flow, then build the SPA front end and a Node or Django back end with PostgreSQL indexes for search, and finish with the admin panel, a README and Docker-based setup. With a modern stack and AI-assisted development, I could deliver a working first version in about 3–4 weeks. The full scope is large for the budget, so we'd likely need to split it into smaller milestones. Which should come first: registration and profiles, or search? Do you have a preferred hosting setup? Live demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете первую версию профессиональной соцсети в стиле LinkedIn: профили, поиск с фильтрами, который отвечает меньше чем за секунду на миллионе записей, и поток запросов на связь с подтверждением e-mail, защитой от спама и админ-панелью. Я бы начал с модели данных и пользовательского сценария, затем сделал SPA на фронтенде и бэкенд на Node или Django с индексами PostgreSQL для поиска, а завершил админ-панелью, README и настройкой через Docker. С современным стеком и разработкой с помощью ИИ-ассистентов рабочую первую версию можно сделать примерно за 3–4 недели. Полный объём велик для бюджета, поэтому, вероятно, его стоит разбить на более мелкие этапы. С чего начать: с регистрации и профилей или с поиска? Есть ли у вас предпочтительный хостинг? Живые демо есть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nЯков",
+   "questions": [
+    "С какого этапа начать: регистрация и профили или поиск с фильтрами?",
+    "Есть ли у вас предпочтительный хостинг или облачная платформа для развёртывания?"
+   ]
+  },
+  "found_at": "2026-11-27T03:04:06+00:00"
+ },
+ {
   "id": "freelancer:40837904",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/data-scraping/Google-Scrape-Indian-Kurti-Retailers",
@@ -14669,165 +14881,6 @@
    "reply_ru": "",
    "questions": []
   },
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "kwork:2450552",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/2450552",
-  "title": "Рассылки в вотсап с личного аккаунта",
-  "description": "Нужно сделать рассылки вотсап по базе номеров \nРассылки с предложением о продвижении. База номеров и скрипт дается. От вас важно отправлять смс и отвечать по скрипту (скрипты тоже даются, ничего придумывать не надо) \nНомера сохранять не нужно в телефон, можно просто отправлять смс без занесения номера в контакты (это делается по ссылке, инструкция дается)",
-  "budget": 1500.0,
-  "currency": "RUB",
-  "posted_at": "2026-11-24 22:48:19",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 1,
-   "summary_ru": "Заказчик хочет массовые рассылки предложений о продвижении в WhatsApp с личного аккаунта по готовой базе номеров с автоответами по скрипту и отправкой без сохранения контактов. Это спам-рассылка, а не разработка из наших услуг, и она рискует блокировкой аккаунта и нарушением закона о рекламе.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у получателей из базы явное согласие на получение рекламных сообщений?"
-   ]
-  },
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "kwork:2465781",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/2465781",
-  "title": "Рассылки вотсап с личного аккаунта",
-  "description": "Нужно сделать рассылки вотсап с личного аккаунта. Лучше всего с 2х аккаунтов работать. \nСкрипты для рассылок даются, ответы тоже даются. Нужно будет отправлять по 30-50 смс в день, чтобы аккаунты не заблокировали, так как важно принимать с них ответы и отвечать.",
-  "budget": 1500.0,
-  "currency": "RUB",
-  "posted_at": "2026-11-24 22:48:18",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 2,
-   "summary_ru": "Заказчик хочет настроить массовые рассылки WhatsApp с личных аккаунтов (два аккаунта, 30–50 сообщений в день), чтобы обойти блокировку. Скрипты и ответы уже есть. Задача связана с обходом ограничений мессенджера и, вероятно, со спамом.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у получателей подтверждённое согласие на рассылку и откуда взяты их номера?",
-    "Какой именно функционал нужен от исполнителя: только скрипт или также поддержка работы с ответами?"
-   ]
-  },
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "kwork:2995896",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/2995896",
-  "title": "Рассылки WhatsApp с личного аккаунта",
-  "description": "Нужно сделать 150 рассылок с личного аккаунта в вотсапе, \n1. Скрипт для рассылки и ответы даются (рассылка на тему продажи услуг для предпринимателей) \n2. Номера для рассылки даются (не нужно сохранять номер в контакты, можно делать рассылки по ссылке) \n3. Отправлять 20 смс в день, так как важно на них принимать ответы \nВ отклике напишите: \n1. Сколько у вас есть аккаунтов в вотсапе \n2. Какую сумму хотите за 150 рассылок (после теста на 150 рассылок можем договориться на 500 рассылок)",
-  "budget": 1000.0,
-  "currency": "RUB",
-  "posted_at": "2026-11-24 22:48:17",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 1,
-   "summary_ru": "Заказчик хочет массовые рассылки в WhatsApp с личных аккаунтов по готовому скрипту, с номерами без сохранения в контакты и ответами на сообщения. Это спам-рассылка, которая нарушает правила WhatsApp и может привести к блокировке аккаунтов и юридическим рискам.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у получателей явное согласие на получение рассылки и как это подтверждается?",
-    "Понимает ли заказчик риск блокировки личных аккаунтов WhatsApp при таких объёмах?"
-   ]
-  },
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "freelancer:40834068",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-automation/Automation-System-Development-Workflow-40834068",
-  "title": "AI Automation System Development – Workflow & Integration",
-  "description": "### Project Overview\n\nWe are a small development team working on an AI automation project. We are looking for a reliable and experienced developer to collaborate with our team on designing, developing, and implementing AI-powered automation solutions.\n\nOur goal is to build intelligent software that automates repetitive tasks, improves workflows, and integrates AI technologies with existing platforms and services.\n\n### Responsibilities\n\n- Design and develop AI-powered automation systems.\n- Build intelligent workflows using AI models and automation tools.\n- Integrate AI APIs such as OpenAI and other LLM providers.\n- Develop backend services and API integrations using Python, Node.js, or similar technologies.\n- Implement automated data processing and task execution.\n- Develop and integrate AI agents for specific business processes.\n- Test, troubleshoot, and optimize automation workflows.\n- Collaborate with our development team on technical planning and implementation.\n- Maintain technical documentation and improve existing functionality.\n\n### Requirements\n\n- Experience with Python, JavaScript, Node.js, or similar programming languages.\n- Knowledge of AI technologies, LLMs, and API integrations.\n- Familiarity with automation platforms such as n8n, Make, or Zapier.\n- Understanding of backend development, databases, and REST APIs.\n- Ability to design and implement reliable automation workflows.\n- Good problem-solving and communication skills.\n- Previous experience developing AI automation applications or intelligent software solutions is a plus.\n\n### Working Arrangement\n\nWe are interested in establishing a long-term working relationship with a developer who can actively contribute to our technical projects.\n\nCompensation and collaboration terms will be discussed and agreed upon before work begins. We are open to discussing a performance-based compensation structure where appropriate.\n\n### How to Apply\n\nPlease introduce yourself, describe your relevant development experience, and share examples of AI automation projects or applications you have previously developed.\n\nWe would also appreciate information about the technologies you work with and how you would approach developing an AI-powered automation solution.\n\nWe look forward to collaborating with someone reliable, technically skilled, and interested in long-term cooperation.",
-  "budget": 750.0,
-  "currency": "USD",
-  "posted_at": "2026-11-24T20:45:53+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "automation",
-   "api_integration"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "freelancer:40834067",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/artificial-intelligence/Developer-Build-Connected-Platform-for",
-  "title": "AI Developer to Build a Connected AI Platform for SME's",
-  "description": "We're Lamp, an AI department for service businesses in Egypt. We're starting with SMEs (clinics, real estate brokerages, academies and finance-related services) and we have clients waiting. This is a real project, not a test. The full scope is in the attached document.\n\nWhat we're building\nOne platform with the Executive Brain at the center, and modules that plug into it: Finance & Accounting, Reception, Sales, Marketing and People. Operations is designed per business. Nothing here works in isolation, and that's the point. Every module reads from and writes to one shared data layer, so they feed each other. Reception's conversations tell Marketing what customers actually ask. A closed deal in Sales triggers an invoice in Finance and a welcome message from Reception. Marketing knows which ad brought a paying customer, not just a click, and Finance turns that into the real cost per customer. That connection is the product.\n\nThe Executive Brain\nThe owner's branded app, installable on web and phone, and the hardest part of the build. Each module has its own chat, and a CEO chat queries all of them and returns one answer, in Egyptian Arabic or by voice note. Every number is calculated from real data, never generated by the model, and every answer cites its source. The dashboard shows a health score per department with drill-down from the whole company to a single customer, an Approval Center for one-tap approval of discounts, payments and budget changes, and an impact tracker against the client's baseline. Every module sends its notifications through the Brain, with priority levels, a daily cap and quiet hours.\n\nThe modules\nFinance & Accounting is our flagship. It connects to the client's existing accounting software, drafts invoices automatically, submits e-invoices and e-receipts to the Egyptian Tax Authority, matches payments across InstaPay, wallets, cards and bank transfers, and produces live financial statements, a 13-week cash forecast and what-if scenarios. Reception answers WhatsApp, social DMs and calls 24/7, manages bookings with a waitlist, recovers missed calls and hands chats to staff with a summary. Sales contacts every lead within a minute or two, qualifies and scores them, runs follow-ups that stop when the lead replies, and keeps the CRM updated from calls and chats. Marketing builds the content calendar from real customer conversations and ties ad performance to actual revenue. People gives staff an assistant that answers from company procedures, plus onboarding and leave requests on WhatsApp.\n\nQuality\nOur internal layer that watches every deployment. Every AI action is logged with what it did and why. Quality scores each module on a few KPIs, reviews samples plus anything flagged, catches wrong answers and frustrated customers, and every change is tested on saved real conversations before it goes live.\n\nGround rules\nThe AI never moves money. Numbers are calculated, not generated. Arabic comes first (Egyptian Arabic, Franco-Arabic and English, in text and voice). Access is least-privilege, and all accounts stay in the client's name.\n\nWho we're looking for\nA developer or small team with production experience in LLM agents and retrieval, the WhatsApp Business Platform, API integrations (CRM, accounting software, Meta and Google Ads), backend and databases, and an installable web/mobile app. Arabic NLP, voice AI or Egyptian Tax Authority e-invoicing experience is a strong plus.\n\nWhy work with us\nReal clients and real deployments. We launch in stages for each client, so the work keeps coming. If you deliver well, you become our go-to team for every client project after this one. This is long-term work, not a one-off.\n\nHow to apply\nStart your bid with the word \"Lamp\". Tell us which building blocks in the attached scope you've built before, with links or examples. Give a total estimate plus a breakdown by build stage, and tell us if you're solo or a team and who does what. Shortlisted candidates get an interview here on Freelancer, then a small paid milestone before the main build.",
-  "budget": 5000.0,
-  "currency": "USD",
-  "posted_at": "2026-11-24T20:45:32+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "crm",
-   "booking",
-   "api_integration"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "freelancer:40834058",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/crm/Multi-User-Travel-CRM-Development",
-  "title": "Multi-User Travel CRM Development",
-  "description": "I need a Travel CRM designed to manage travel leads and customer details. The CRM should be user-friendly and suitable for multiple users.\n\nKey Features:\n- Secure login for multiple users\n- Dashboard to view and manage travel leads\n- Database to store and retrieve customer details\n- Search and filter options for easy data access\n- Role-based access control\n- Daywise Package & Itinerary Builder\n- PDF Proposals & Travel Vouchers\n- Quotation Management with Auto Calculations\n- Whatsapp Automation For Bookings & Reminders\n- Lead Source Integrations\n- Travel Calendar & Followup\n- Assets Library - Brochures, Guides, Documents\n- Click To Call Dialer, Click To Whatsapp\n- Invoice Management, Vendor Management\n- Reports & Analytics\n- Auto Populate Hotel & Flights\n- Client Portal\n- Possibility To Connect To My Whitelabel Website\n- Any fresh ideas are welcome\n- Suitable AI Features ( Optional )\n\nIdeal Skills and Experience:\n- Experience in CRM development\n- Strong knowledge of database management\n- UI/UX design skills\n- Ability to deliver within a month\n\nPlease include detailed project proposals in your application.",
-  "budget": 37500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-24T20:38:13+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "crm",
-   "booking",
-   "automation",
-   "api_integration"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "freelancer:40834060",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/api-integration/Mortgage-Lead-Gen-Platform-Pilot",
-  "title": "Mortgage Lead-Gen Platform Pilot Build",
-  "description": "I’m spinning up a proof-of-concept for KeepEasy Finance that lets Australian home buyers book a call with one of our brokers and, behind the scenes, creates a lead inside BrokerEngine using dummy data. The pilot will never touch production credentials—once the flow works, we’ll swap in live keys ourselves.\n\nHere’s the flow I want to see:\n• Prospect lands on a responsive page, enters basic contact details, then chooses a time slot that aligns with the broker’s Sydney schedule. \n• On submission, the system fires a test payload to BrokerEngine (or clearly logs the API call) so we can confirm the mapping. \n• Both prospect and broker receive confirmation emails. \n\nDeliverables:\n• Front-end landing page + form. \n• Calendar/booking integration (Calendly, Google Calendar API, or similar). \n• Backend script demonstrating the BrokerEngine link with dummy data. \n• Clear deploy notes and a short screen-share walkthrough. \n\nAcceptance criteria:\n1. A test lead appears in BrokerEngine’s sandbox or in a logged JSON object matching their schema. \n2. Email confirmations render correctly in AEST. \n3. Code is clean, commented, and can be redeployed with live keys in under an hour. \n\nI need at least three hours of overlap with Sydney business hours each day. Experience with Australian mortgage broking or BrokerEngine will earn extra points, but solid API integration work speaks for itself. Let me know the tech stack you’d choose and link me to a similar integration you’ve shipped.",
-  "budget": 750.0,
-  "currency": "AUD",
-  "posted_at": "2026-11-24T20:36:48+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "landing",
-   "booking",
-   "api_integration"
-  ],
-  "analysis": null,
   "found_at": "2026-11-24T20:46:21+00:00"
  }
 ]
