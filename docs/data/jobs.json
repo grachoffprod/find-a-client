@@ -1,5 +1,157 @@
 [
  {
+  "id": "freelancer:40838014",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/react-native/Custom-Mobile-App-Creation",
+  "title": "Custom Mobile App Creation",
+  "description": "I need a mobile app built from the ground up. The idea is set, yet nothing has been designed or coded, so the work spans concept refinement right through to store release.\n\nScope \n• Translate my notes into clear requirements, wireframes and a clickable prototype. \n• Build the front-end and back-end for both iOS and Android. React Native, Flutter or native Swift/Kotlin are all acceptable; recommend what delivers the best performance and maintainability. \n• Integrate core features such as user authentication, push notifications and basic analytics (final list confirmed together in the planning phase). \n• Conduct thorough testing, fix bugs and manage submission to the App Store and Google Play. \n• Deliver full source code, build scripts and concise setup documentation.\n\nAcceptance criteria: smooth UX on current OS versions, clean and well-commented code, and successful publication in both stores.\n\nA clear timeline, milestone breakdown and any relevant portfolio links will help me lock in the schedule quickly.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T03:56:57+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "mvp",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Клиент хочет создать с нуля мобильное приложение для iOS и Android: от требований и прототипа до публикации в App Store и Google Play, с авторизацией и push-уведомлениями. Бюджет 25 USD явно не покрывает такой объём работ.",
+   "reply": "You want a mobile app built from scratch, covering requirements, prototype, iOS and Android builds, and store release. I'd suggest splitting it into milestones so you can see results early. The first step would be turning your notes into a short requirements list and a clickable prototype, which I can build quickly with a modern stack and AI-assisted development. The later steps would be core features and store submission. At $25 the full scope won't fit, so I'd propose starting with just the prototype and a narrow MVP, then deciding on the rest based on the budget. Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nTwo questions: would a prototype-first milestone at this budget work for you, and do you need a native build or is a web-based MVP acceptable for the first stage?\n\nYakov",
+   "reply_ru": "Вы хотите создать мобильное приложение с нуля: от требований и прототипа до сборок под iOS и Android и публикации в сторах. Я бы разбил работу на этапы, чтобы вы видели результат заранее. Первый шаг: превратить ваши заметки в короткий список требований и кликабельный прототип, который я могу сделать быстро с современным стеком и ИИ-ассистентами в разработке. Дальше идут основные функции и публикация в сторах. При бюджете 25 USD полный объём не поместится, поэтому предлагаю начать только с прототипа и узкого MVP, а дальше решить по бюджету. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: подойдёт ли вам такой этап с прототипом при этом бюджете и нужна ли нативная сборка, или на первом этапе допустимо веб-приложение?\n\nYakov",
+   "questions": [
+    "Подойдёт ли при бюджете 25 USD этап только с прототипом и узким MVP, а остальное — по мере появления бюджета?",
+    "Нужна ли обязательно нативная сборка под App Store и Google Play, или на первом этапе допустимо веб-приложение (PWA)?"
+   ]
+  },
+  "found_at": "2026-11-27T04:00:47+00:00"
+ },
+ {
+  "id": "freelancer:40838015",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/fix-api/Add-Stop-Loss-Trader",
+  "title": "Add Stop-Loss to C# Trader",
+  "description": "My desktop trading app is written in C# and already places FX orders through a FIX API connection. What I now need is a cleanly-coded stop-loss module.\n\nCore behaviour:\n• Every new market or limit order must automatically attach a stop loss a user–defined number of pips away from the entry price. \n• The stop order has to be sent to the broker in the very same FIX message flow that opens the position, so the protection is on the book immediately. \n• Once the stop price is hit the position must be closed in full, no partial exits or trailing logic.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T03:55:51+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Клиент хочет добавить в существующее C#-приложение для торговли FX модуль стоп-лосса: при каждом рыночном или лимитном ордере через FIX API стоп должен автоматически ставиться на расстоянии заданного числа пипсов от цены входа и отправляться брокеру в том же потоке сообщений. При срабатывании позиция закрывается полностью, без частичных выходов и трейлинга. Бюджет 30 USD.",
+   "reply": "You want every new market or limit order sent over your existing FIX connection to carry a stop loss placed a user-defined number of pips from entry, so protection is on the broker's book the moment the position opens. When the stop triggers, the position should close in full, with no partials or trailing. I'd build this as a self-contained module: calculate the stop price from the entry and pip size, attach it in the same entry flow (using linked or contingent order fields if your broker's FIX dictionary supports them, or a stop order sent right after the fill otherwise), and handle fill, reject and cancel events so the state stays in sync. I can deliver a tested version in about 3 to 5 days, with unit tests against a simulated FIX session. Which FIX version and broker are you using, and does the broker accept linked stop orders in the entry message?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы каждый новый рыночный или лимитный ордер, отправляемый через существующее FIX-подключение, автоматически включал стоп-лосс на заданном пользователем расстоянии в пипсах от цены входа, чтобы защита была выставлена у брокера в момент открытия позиции. При срабатывании стопа позиция должна закрываться полностью, без частичных выходов и трейлинга. Я бы сделал это как отдельный самостоятельный модуль: рассчитывал бы цену стопа от цены входа и размера пипса, прикреплял бы его в том же потоке входа (через связанные или условные поля ордера, если их поддерживает FIX-словарь брокера, либо отдельным стоп-ордером сразу после исполнения), и обрабатывал бы события исполнения, отклонения и отмены, чтобы состояние оставалось синхронизированным. Могу сдать протестированную версию примерно за 3–5 дней, с юнит-тестами на имитации FIX-сессии. Какую версию FIX и какого брокера вы используете, и принимает ли брокер связанные стоп-ордера в сообщении входа?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какую версию FIX и какого брокера вы используете?",
+    "Принимает ли брокер связанные (linked) стоп-ордера в сообщении на открытие позиции?",
+    "Нужна ли поддержка стопа для всех типов ордеров или только для рыночных и лимитных?"
+   ]
+  },
+  "found_at": "2026-11-27T04:00:47+00:00"
+ },
+ {
+  "id": "freelancer:40838003",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/facebook-ads/Meta-Ads-Drive-Peptide-commerce",
+  "title": "Meta Ads Drive Peptide E-commerce Sales",
+  "description": "I want to scale online sales for my peptide company through well-structured Facebook and Instagram campaigns. My immediate priority is promoting our research-use peptides to individual researchers and hobbyists, guiding them straight to checkout on our site rather than simply gathering leads.\n\nHere’s what I need from you:\n• Campaign architecture in Meta Ads Manager built around Purchase objectives, complete with look-alike and retargeting audiences.\n• Compelling ad copy and creative variations that clearly position the peptides as research-only products while still motivating quick, compliant purchases.\n• Proper pixel and event tracking so we can see exactly which ads are converting and optimise budget in real time.\n• Ongoing testing and optimisation—creative rotation, audience refinement, bid adjustments—until we hit a consistently positive ROAS.\n• Clear weekly reports summarising spend, clicks, purchases, and actionable next steps.\n\nBecause peptides can trigger policy flags, experience navigating Meta’s compliance rules for specialised or regulated products is a must. If you’ve previously advertised supplements, lab reagents, or similarly sensitive items, that knowledge will save us time and keep our account healthy.\n\nDeliver finished campaigns ready to run, along with editable copies of all ads so my team can iterate in the future. Let’s turn targeted traffic into steady sales.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T03:47:20+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Клиент ищет специалиста по настройке и ведению рекламных кампаний в Facebook и Instagram (Meta Ads) для продажи исследовательских пептидов через сайт. Задача включает медиабаеринг, креативы, аудитории и отчетность, а не разработку.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам также доработка или настройка самого интернет-магазина (корзина, оплата, трекинг событий на сайте), или задача только в рекламе?"
+   ]
+  },
+  "found_at": "2026-11-27T04:00:47+00:00"
+ },
+ {
+  "id": "freelancer:40837995",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Online",
+  "title": "Ιστοσελίδα Online Κρατήσεων",
+  "description": "Θέλω να δημιουργήσω μια ολοκληρωμένη ιστοσελίδα που θα επιτρέπει στους πελάτες μου να κλείνουν ραντεβού άμεσα, βλέποντας σε πραγματικό χρόνο τις διαθέσιμες ώρες. \n\nΒασικές λειτουργίες \n• Φόρμα κράτησης με πεδία: Όνομα, τηλέφωνο, email, ημερομηνία, ώρα και αριθμός ατόμων. \n• Αυτόματη ενημέρωση διαθεσιμότητας και αποστολή επιβεβαίωσης τόσο σε εμένα όσο και στον πελάτη. \n\nΤεχνικές απαιτήσεις \n– Responsive σχεδιασμός για κινητά και desktop. \n– Σελίδες παρουσίασης επιχείρησης, υπηρεσιών και χάρτης πρόσβασης. \n– Βασική ρύθμιση SEO, SSL και γρήγορο χρόνο φόρτωσης. \n– Φιλικός πίνακας διαχείρισης για αλλαγή περιεχομένου και ωρών χωρίς ανάγκη κώδικα. \n– WordPress με κατάλληλο plugin (π.χ. Bookly) ή ισοδύναμη custom λύση, αρκεί να διατηρείται η ασφάλεια δεδομένων. \n\nΠαραδοτέα \n1. Live ιστοσελίδα στον server μου, πλήρως λειτουργική. \n2. Οδηγίες χρήσης σε σύντομο PDF. \n3. Σύντομο online walkthrough ή βίντεο εκπαίδευσης. \n\nΣτείλτε μου παραδείγματα παρόμοιων έργων και τον εκτιμώμενο χρόνο υλοποίησης. Ανυπομονώ να συνεργαστούμε!",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-27T03:41:32+00:00",
+  "lang": "el",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 5,
+   "summary_ru": "Клиенту нужна сайт для онлайн-записи с отображением свободных слотов в реальном времени, формой бронирования, автоматическими email-подтверждениями, адаптивным дизайном, базовым SEO и простой админкой на WordPress (например, с плагином Bookly). Бюджет 250 EUR.",
+   "reply": "Καλησπέρα! Διάβασα προσεκτικά το brief σας: χρειάζεστε ιστοσελίδα με φόρμα κράτησης σε πραγματικό χρόνο, αυτόματες επιβεβαιώσεις email και εύκολο πίνακα διαχείρισης για ώρες και περιεχόμενο, με responsive σχεδιασμό και βασικό SEO.\n\nΘα υλοποιήσω την ιστοσελίδα σε WordPress με ρυθμισμένο plugin κρατήσεων (π.χ. Bookly) ή custom λύση, ανάλογα με τις ανάγκες σας, ώστε να διατηρηθεί η ασφάλεια των δεδομένων. Θα συμπεριλάβω σελίδες υπηρεσιών, χάρτη πρόσβασης, SSL και βελτιστοποίηση ταχύτητας φόρτωσης, ενώ θα ετοιμάσω οδηγίες σε PDF και σύντομο video εκπαίδευσης.\n\nΕκτιμώμενος χρόνος υλοποίησης: 1–2 εβδομάδες.\n\nΔύο ερωτήσεις: ποιες είναι οι ώρες λειτουργίας και πόσοι υπάλληλοι ή πόροι πρέπει να υπολογίζονται ανά ραντεβού; Έχετε ήδη domain και hosting;\n\nΔείτε ζωντανά demo στο χαρτοφυλάκιό μου: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Добрый вечер! Внимательно изучил ваше задание: нужен сайт с формой бронирования и отображением свободного времени в реальном времени, автоматическими подтверждениями по email, удобной панелью управления для часов и контента, адаптивным дизайном и базовым SEO.\n\nЯ сделаю сайт на WordPress с настроенным плагином бронирования (например, Bookly) или на кастомном решении, в зависимости от ваших задач, чтобы сохранить безопасность данных. Включу страницы услуг, карту проезда, SSL и оптимизацию скорости загрузки, а также подготовлю инструкцию в PDF и короткое видео-обучение.\n\nОриентировочный срок реализации: 1–2 недели.\n\nДва вопроса: какие у вас часы работы и сколько сотрудников или ресурсов нужно учитывать на один записи? Есть ли у вас уже домен и хостинг?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие у вас часы работы и сколько сотрудников или ресурсов нужно учитывать на одну запись?",
+    "Есть ли у вас уже домен и хостинг, на котором будет размещён сайт?"
+   ]
+  },
+  "found_at": "2026-11-27T04:00:47+00:00"
+ },
+ {
+  "id": "freelancer:40837972",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Build-Premium-Creative-Brand-Website",
+  "title": "Build Premium Creative Brand Website",
+  "description": "Hello,\n\nI am the owner of TruAziatikPoet, LLC, and I am looking for an experienced website designer and developer to create my official company website, TruAziatikPoet.com.\n\nI am a recording artist, award-winning poet, music consultant, and travel and food content creator. I want a professional website that represents my company and showcases my different creative and business ventures.\n\nThe website should include:\n\n* Professional homepage and company biography\n* Music discography, streaming platforms and music videos\n* Poetry, creative works and professional achievements\n* Mychal’s Travel & Eats, including YouTube and social media integration\n* Business and consulting services\n* Press and media section\n* Contact and business inquiries\n* Option to incorporate merchandise sales in the future\n\nI would prefer a modern, premium, mobile-friendly WordPress website with SEO optimization, consistent branding and the ability to update content myself.\n\nPlease provide relevant examples of your previous work, a detailed quotation, estimated delivery time, recurring costs and available ongoing maintenance services.\n\nThank you,\nMychal\nTruAziatikPoet, LLC",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T03:15:37+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Заказчик (владелец TruAziatikPoet, LLC) хочет премиальный адаптивный сайт-визитку с биографией, дискографией, поэзией, разделом Travel & Eats с интеграцией YouTube и соцсетей, услугами, пресс-разделом и контактами, с SEO и возможностью самостоятельно обновлять контент. Бюджет 250 USD на такой объём выглядит низким.",
+   "reply": "You're looking for a premium, mobile-friendly home for TruAziatikPoet.com that brings your music, poetry, travel content, consulting and press together under one consistent brand, with content you can update yourself. I'd build it as a fast, clean site: a homepage and bio, a discography page with streaming and video embeds, a poetry and achievements section, a Travel & Eats hub linked to YouTube and your socials, services, a press kit and a contact form, all with SEO basics and room for a future merch section. For this scope I'd estimate about 2–3 weeks for the first version, including one round of revisions after the design is approved.\n\nFor the portfolio with live demos, see https://grachoffprod.github.io/portfolio/\n\nTwo questions: is WordPress a strict requirement, or would a custom site with an easy-to-use content editor work for you? And could we agree on which sections go into the first phase at this budget, with the rest added later?\n\nYakov",
+   "reply_ru": "Вам нужен премиальный адаптивный сайт для TruAziatikPoet.com, который объединит вашу музыку, поэзию, travel-контент, консалтинг и прессу в едином бренд-стиле, с возможностью самостоятельно обновлять контент. Я бы сделал быстрый и аккуратный сайт: главную страницу и биографию, страницу дискографии с ссылками на стриминги и встроенными видео, раздел поэзии и достижений, хаб Travel & Eats со ссылками на YouTube и соцсети, услуги, пресс-кит и форму обратной связи, с базовой SEO-оптимизацией и местом для будущего раздела с мерчем. Для такого объёма оцениваю первую версию примерно в 2–3 недели, включая один раунд правок после утверждения дизайна.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: WordPress обязательное требование или вас устроит сайт на современном стеке с удобным редактором контента? И можем ли мы согласовать, какие разделы войдут в первую фазу при этом бюджете, а остальные добавить позже?\n\nЯков",
+   "questions": [
+    "WordPress обязательное требование или подойдёт сайт на современном стеке с удобным редактором контента?",
+    "Какие разделы нужны в первой фазе при бюджете 250 USD, а какие можно добавить позже?"
+   ]
+  },
+  "found_at": "2026-11-27T04:00:47+00:00"
+ },
+ {
   "id": "freelancer:40837951",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/image-analysis/Forensic-Image-Analysis-Report",
@@ -14766,121 +14918,5 @@
   ],
   "analysis": null,
   "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834070",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ui-design/Collectibles-Livestream-Marketplace-App",
-  "title": "Collectibles Livestream Marketplace App -- 2",
-  "description": "I'm looking to create an app similar to Whatnot, specifically focusing on trading cards and sports memorabilia. This app will allow sellers to livestream and sell collectibles.\n\nKey Features:\n- Livestream sales: Sellers can showcase and sell items in real-time.\n- Interactive buying: Buyers can place bids in live auctions, purchase items at fixed prices, and engage in chat with sellers and other viewers during the livestream.\n- Regular Sales: with live streaming as an option sellers should also be able to add sales post as a general sales method.\n- Payment system: To streamline transactions, payments will be released automatically after a set number of days post-sale after deducting platform commission.\n\nIdeal Skills and Experience:\n- Mobile app development (iOS and Android)\n- Experience with livestreaming integration\n- Strong understanding of auction mechanisms and payment processing\n- UI/UX design to create an engaging and user-friendly interface\n- Background in eCommerce platforms, especially in the collectibles market",
-  "budget": 37500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-24T20:47:34+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "flru:5530392",
-  "source": "flru",
-  "url": "https://www.fl.ru/projects/5530392/parser-wb--kaspi-s-sozdaniem-kartochek-avtoobnovleniem-tsen-i-ostatkov.html",
-  "title": "Парсер WB → Kaspi с созданием карточек, автообновлением цен и остатков",
-  "description": "Ищу разработчика, который создаст программу для переноса товаров в мой магазин Kaspi. Нужна программа для самостоятельной работы. Я вставляю ссылку на любую выбранную категорию...",
-  "budget": 20000.0,
-  "currency": "RUB",
-  "posted_at": "Tue, 24 Nov 2026 20:03:45 GMT",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "kwork:3275406",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275406",
-  "title": "Реалистичная генерация интерьеров по референсам в 4K",
-  "description": "Реалистичная генерация интерьеров по референсам в 4K \nПредоставляем референсы интерьеров, реальные фотографии материалов и, при наличии, готовые текстуры. \nНеобходимо максимально реалистично интегрировать фактуру в интерьер, сохранив её цвет, рисунок, масштаб и рельеф. Изображения предназначены для печати в каталогах, публикации на сайте и использования в презентациях. \n**Требования:** разрешение 4K и выше, фотореализм, высокая детализация, отсутствие AI-артефактов, корректная перспектива и освещение. \nПростая генерация в ChatGPT без проверки и доработки не интересует. Важно профессиональное владение нейросетями, понимание их возможностей и ограничений, умение выявлять и устранять ошибки генерации. Опыт работы с интерьерами необязателен. \nПервое задание — бесплатное тестовое, ориентировочно на 10–15 минут для опытного специалиста. Результат можно предоставить ссылкой на облачное хранилище в хорошем качестве. \n**Условия сотрудничества:** ищем постоянного подрядчика. Объём работы большой, много коллекций и артикулов. \nОриентировочная стоимость единичного изображения высокого качества — 1500–2000 руб. Стоимость пакетной генерации (60–100 изображений) обсуждается индивидуально с учётом объёма, сложности замены материалов, различий между фактурами и необходимости корректировки промптов. \nГотовы рассмотреть ваши расценки на Kwork с учётом объёма и сложности задач.",
-  "budget": 2000.0,
-  "currency": "RUB",
-  "posted_at": "2026-11-24 23:04:58",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "fixes",
-   "score": 2,
-   "summary_ru": "Заказчик ищет постоянного подрядчика для пакетной AI-генерации фотореалистичных интерьеров с интеграцией референсных материалов в 4K. Это генерация изображений и дизайн-работа, а не разработка из списка услуг Yakov.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли разработка какого-либо программного продукта (сайт, каталог с выбором материалов, интеграция с их системой), или речь только о генерации изображений?",
-    "Планируется ли автоматизация пакетной генерации, например скрипт или интеграция с API нейросети, которую можно разработать?"
-   ]
-  },
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "kwork:3265626",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3265626",
-  "title": "Поиск клиентов, лидов на разработку IT-продуктов",
-  "description": "Требуется специалист для поиска новых клиентов команде, занимающейся разработкой IT-решений. Ваша задача - находить организации, заинтересованные в создании сайтов, веб-приложений, онлайн-сервисов или программного обеспечения под индивидуальные задачи, и передавать нам контакты потенциальных заказчиков. В результате сотрудничества необходимо привлечь несколько заинтересованных клиентов. По каждому из них потребуется предоставить название организации, краткое описание необходимого проекта и контакт ответственного лица, которое выразило готовность обсудить разработку и дало согласие на передачу своих данных. Предоставление обычных баз компаний без предварительного подтверждения заинтересованности не подходит. Все последующие переговоры, уточнение требований, подготовку технического задания и выполнение разработки наша команда осуществляет самостоятельно. Бюджет на выполнение всего согласованного объёма составляет 60000 ₽. Вознаграждение выплачивается за качественно выполненную работу по установленным критериям и не зависит от заключения договора с найденным заказчиком. Оплата проводится через биржу. Срок выполнения задания 30 дней. При отклике расскажите о своём опыте поиска клиентов для IT-компаний и применяемых способах привлечения заказчиков.",
-  "budget": 60000.0,
-  "currency": "RUB",
-  "posted_at": "2026-11-24 22:55:55",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "saas"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "saas",
-   "score": 2,
-   "summary_ru": "Заказчику нужен специалист по поиску клиентов (лидов) для команды разработки IT-продуктов: найти организации, которым нужны сайты или веб-приложения, и передать их контакты с согласия ответственных лиц. Оплата 60 000 ₽ за результат, срок 30 дней. Это продажи и лидогенерация, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Какой объём лидов и по каким критериям считается результат, который принимается и оплачивается?",
-    "Нужна ли разработка чего-либо со стороны исполнителя, или задача полностью связана с поиском и передачей контактов?"
-   ]
-  },
-  "found_at": "2026-11-24T20:46:21+00:00"
- },
- {
-  "id": "kwork:3252822",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3252822",
-  "title": "Первичная коммуникация с партнерами в вотсапе",
-  "description": "Предостaвим контaкты 100 пользовaтелей, которые соглaсились нa общение. Нужно вручную писaть от 10 до 15 людям в день, рaсскaзывaть о возможном сотрудничестве (по рекламе, ничего запрещенного), узнaвaть, интересно ли им предложение, и отвечaть нa вопросы с помощью нaших мaтериaлов (все скрипты для общения даются). \nИщем человекa, который пишет без ошибок, общaется вежливо и умеет вести деловую переписку.",
-  "budget": 1000.0,
-  "currency": "RUB",
-  "posted_at": "2026-11-24 22:48:37",
-  "lang": "ru",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 1,
-   "summary_ru": "Заказчику нужен человек для ручной переписки в WhatsApp: писать 10–15 людям в день по готовым скриптам о рекламном сотрудничестве и отвечать на вопросы. Это не разработка, а ручной труд.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
-  },
-  "found_at": "2026-11-24T20:46:21+00:00"
  }
 ]
