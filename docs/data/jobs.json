@@ -1,5 +1,185 @@
 [
  {
+  "id": "freelancer:40839306",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Shopify-Store-Redesign-40839306",
+  "title": "Shopify Store Redesign",
+  "description": "I'm looking for an experienced Shopify developer to refresh the design and layout of my existing Shopify website. \n\nKey requirements:\n- Modern, user-friendly design\n- Improved product search, filters, and collections\n- Enhanced filtering options by brand, category, and availability\n\nIdeal skills and experience:\n- Proficiency in Shopify\n- Strong design skills\n- Experience with product search and filtering improvements\n- Attention to detail and a portfolio of similar projects\n\nPlease provide a quote and timeline. Looking forward to your bids!\n\nLooking for someone in the Los Angeles area",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T21:50:12+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 5,
+   "summary_ru": "Клиент хочет обновить дизайн и структуру существующего магазина на Shopify и улучшить поиск, фильтры и коллекции, включая фильтрацию по бренду, категории и наличию. Бюджет 750 USD, предпочтителен исполнитель из Лос-Анджелеса.",
+   "reply": "You want to modernize the look of your Shopify store and make products easier to find, with better search, collection pages, and filters by brand, category, and availability. I'd start by auditing the current theme and product data (vendors, tags, metafields) to see which filters Shopify handles natively and where custom work is needed. Then I'd refresh the layout and visual design, rebuild the collection and search pages, and add the filters, testing on both mobile and desktop. With modern tooling and AI-assisted development, a project of this scope usually takes about 2–3 weeks, depending on how much the theme needs to change. Could you share the store URL and tell me whether you're already using a theme or filtering app? Also, is a remote developer acceptable, or do you need someone based in LA?\n\nFor more examples with live demos, see https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите обновить внешний вид магазина на Shopify и сделать товары проще для поиска: улучшить поиск, страницы коллекций и фильтры по бренду, категории и наличию. Я бы начал с аудита текущей темы и данных о товарах (вендоры, теги, метафилды), чтобы понять, какие фильтры Shopify поддерживает нативно, а где нужна своя доработка. Затем обновил бы структуру и визуальный дизайн, переделал страницы коллекций и поиска, добавил фильтры и проверил работу на мобильных и десктопе. При современном стеке и разработке с ИИ-ассистентами такой объём обычно занимает около 2–3 недель, в зависимости от того, сколько нужно менять в теме. Не могли бы вы прислать ссылку на магазин и сказать, используете ли вы уже тему или приложение для фильтров? Также подойдёт ли удалённая работа, или нужен исполнитель в Лос-Анджелесе?\n\nДля более подробных примеров с живыми демо смотрите: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой сейчас стоит тема Shopify и используется ли приложение для фильтров или поиска?",
+    "Подойдёт ли удалённая работа, или клиенту обязательно нужен исполнитель в Лос-Анджелесе?",
+    "Сколько товаров и коллекций в магазине и есть ли у них бренды, категории и данные о наличии в правильном формате?"
+   ]
+  },
+  "found_at": "2026-11-27T22:00:44+00:00"
+ },
+ {
+  "id": "freelancer:40839301",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/bigcommerce/BigCommerce-Facebook-Pixel-CAPI",
+  "title": "BigCommerce Facebook Pixel & CAPI Integration",
+  "description": "I need my BigCommerce store fully connected to Meta so Facebook and Instagram campaigns report back the data that matters most to me—completed purchases, including purchase value and full order details. \n\nThe setup must capture events through both the browser-side Meta Pixel and the server-side Conversions API (CAPI) to maximise accuracy and bypass iOS 14 limitations. That includes installing the pixel across every storefront page, configuring CAPI with the appropriate access token or partner integration, verifying the domain, and enabling automatic event deduplication.\n\nDeliverables\n• Meta Pixel firing standard events on product, cart, checkout and thank-you pages \n• CAPI sending purchase events with value, currency and order ID, matched to pixel events for deduplication \n• Real-time validation screenshots from Events Manager showing “green” status for browser and server events \n• Brief hand-off notes outlining where code/scripts were placed and how to troubleshoot or extend the setup \n\nI work inside Facebook Ads Manager daily, so once the tracking foundation is in place I can take it from there. If you have recent BigCommerce + Meta Pixel/CAPI experience, this should be a straightforward engagement.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T21:42:14+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужно подключить BigCommerce-магазин к Meta: установить Meta Pixel на все страницы и настроить серверный Conversions API, чтобы передавать события покупок с суммой, валютой и ID заказа с дедупликацией и подтверждением в Events Manager. Бюджет 250 USD для этого объёма довольно ограничен.",
+   "reply": "You need BigCommerce purchases reported back to Meta with full order data, sent through both the browser Pixel and server-side CAPI, deduplicated and confirmed in Events Manager. I'd start by checking the theme and any existing tracking, then add the Pixel to product, cart, checkout and thank-you pages with standard events (ViewContent, AddToCart, InitiateCheckout, Purchase). For CAPI, I'd send Purchase events from the order data with value, currency and order ID, using a shared event_id so Meta deduplicates them with the pixel events. After that I'd verify the domain, check Test Events, and send the screenshots and short hand-off notes. Estimated timeline: 3–5 days. Could you tell me which BigCommerce plan and theme you use, and whether you already have a Meta access token?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно, чтобы покупки из BigCommerce передавались в Meta с полными данными заказа, через браузерный Pixel и серверный CAPI, с дедупликацией и подтверждением в Events Manager. Я начну с проверки темы и текущего трекинга, затем добавлю Pixel на страницы товара, корзины, оформления и благодарности со стандартными событиями (ViewContent, AddToCart, InitiateCheckout, Purchase). Для CAPI буду отправлять события Purchase из данных заказа с суммой, валютой и ID заказа, используя общий event_id, чтобы Meta дедуплицировала их с событиями пикселя. Затем проверю домен, сверю события в Test Events и передам скриншоты и короткие заметки по настройке. Оценка сроков: 3–5 дней. Подскажите, пожалуйста, какой тариф BigCommerce и тему вы используете и есть ли у вас уже токен доступа Meta?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой тариф BigCommerce и какая тема используются в магазине?",
+    "Есть ли уже токен доступа Meta (Conversions API) или нужно создать его с нуля?"
+   ]
+  },
+  "found_at": "2026-11-27T22:00:44+00:00"
+ },
+ {
+  "id": "freelancer:40839291",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/graphic-design/Portfolio-Website-Development-40839291",
+  "title": "Portfolio Website Development",
+  "description": "I'm looking for an experienced web developer to create a professional portfolio website. The site will be used to share my creative and professional work, mainly in writing, marketing, and business projects.\n\nKey Requirements:\n- User-friendly navigation\n- High-quality, visually appealing layout\n- Mobile and desktop responsiveness\n- SEO optimization\n- Content management system for easy updates\n\nIdeal Skills and Experience:\n- Proven web development experience\n- Strong portfolio in similar projects\n- Knowledge of SEO and UX/UI design\n- Proficiency in CMS platforms like WordPress or Squarespace\n\nLooking forward to your bids!",
+  "budget": 15.0,
+  "budget_min": 10.0,
+  "currency": "GBP",
+  "posted_at": "2026-11-27T21:22:00+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 2,
+   "summary_ru": "Заказчику нужен портфолио-сайт для демонстрации работ в копирайтинге, маркетинге и бизнес-проектах: удобная навигация, адаптивный дизайн, базовое SEO и простое обновление контента (предпочтительно через CMS, например WordPress или Squarespace). Бюджет очень низкий, 15 GBP.",
+   "reply": "Hi, you want a portfolio site that presents your writing, marketing and business work clearly, with easy navigation, a polished layout that works on mobile and desktop, basic SEO, and simple content updates. I'd build it on a modern stack with a lean structure: a home page, a showcase of work with case pages, and an about/contact section. Content would be stored in an easy-to-edit format so you can add or change entries without touching code. A first version can be ready in about 3–5 days, followed by a round of revisions. Two quick questions: how many projects do you plan to feature, and do you already have the copy and images? See live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! Вам нужен портфолио-сайт, который понятно показывает ваши работы в копирайтинге, маркетинге и бизнес-проектах: с удобной навигацией, аккуратным дизайном для мобильных и десктопных устройств, базовым SEO и простым обновлением контента. Я бы собрал его на современном стеке с компактной структурой: главная страница, витрина работ с отдельными страницами кейсов и раздел «Обо мне» с контактами. Контент хранился бы в удобном для редактирования формате, так что вы могли бы добавлять и менять записи без правок в коде. Первая версия может быть готова примерно за 3–5 дней, затем сделаем круг правок. Два быстрых вопроса: сколько проектов вы планируете показать и есть ли у вас готовые тексты и изображения? Живые демо здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Сколько проектов вы планируете показать на сайте?",
+    "Есть ли у вас готовые тексты, изображения и примеры работ, или нужна помощь с наполнением?"
+   ]
+  },
+  "found_at": "2026-11-27T22:00:44+00:00"
+ },
+ {
+  "id": "freelancer:40839281",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-sheets/Asisten-Input-Data-Online",
+  "title": "Asisten Input Data Online",
+  "description": "Saya membutuhkan bantuan administrasi dan input data yang dapat dikerjakan sepenuhnya secara online dari rumah. Pekerjaan utama mencakup:\n\n• Memasukkan dan memeriksa data ke dalam Google Sheets atau Microsoft Excel. \n• Merapikan, mengklasifikasikan, dan memperbarui database agar tetap akurat. \n• Mengonversi file (PDF, gambar) ke format spreadsheet ketika diperlukan. \n• Melakukan penelusuran ringan di internet untuk melengkapi atau memvalidasi informasi.\n\nKriteria yang saya cari: \n– Teliti, cepat, dan nyaman bekerja dengan angka maupun teks. \n– Terbiasa menggunakan Excel / Google Sheets, fitur filter, pivot, atau formula sederhana. \n– Memiliki koneksi internet stabil serta dapat berkomunikasi lewat email atau chat sesuai jadwal yang disepakati. \n– Siap menjaga kerahasiaan data.\n\nBerikan ringkasan pengalaman relevan Anda, contoh file atau tangkapan layar hasil kerja serupa, serta perkiraan waktu yang dibutuhkan untuk memproses 1.000 baris data. Saya akan meninjau setiap penawaran dan memilih freelancer yang paling sesuai untuk kerja sama berkelanjutan.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T21:09:01+00:00",
+  "lang": "id",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик ищет ассистента для ручного ввода и проверки данных в Google Sheets или Excel, очистки баз данных, конвертации PDF и изображений в таблицы и простого интернет-поиска. Это удалённая административная работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в задаче какая-либо разработка, например скрипт или автоматизация конвертации файлов, или нужна только ручная работа с таблицами?",
+    "Какой объём данных планируется на постоянной основе и есть ли требования к инструментам, помимо Excel и Google Sheets?"
+   ]
+  },
+  "found_at": "2026-11-27T22:00:44+00:00"
+ },
+ {
+  "id": "freelancer:40839282",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/network-engineer/Enterprise-Home-Lab-Setup",
+  "title": "Enterprise IT Home Lab Setup",
+  "description": "Enterprise IT & Network Home Lab Setup + Hands-On Training\nHiring: Senior IT Infrastructure / Network Engineer\nProject type: Fixed price • Remote • Milestone-based\nBudget: Open to reasonable offers, with separate pricing for each milestone.\n1. Project overview\nI am looking for an experienced infrastructure engineer to design and build a realistic virtual enterprise IT lab on my personal workstation. The lab should represent a medium-sized company with approximately 250 simulated employees, multiple departments and three interconnected locations.\nMy objective is to independently install, configure, administer, secure and troubleshoot enterprise systems and networks. This is a joint implementation and training project, not simply a request for a preconfigured lab.\n2. Available hardware and platform\n• Dell Precision T5500, 64 GB RAM, HD storage 2 TB\n• Windows 11 Pro; VMware Workstation 16.2.5\nAssess CPU, storage, hypervisor compatibility and available resources before implementation. VMware is preferred; Proxmox or other suitable software may be proposed with justification. Do not replace the host operating system without approval. Use modular VM groups, snapshots and documented startup/shutdown procedures so only required systems run at once.\n3. Enterprise architecture\n• Headquarters (Hannover): central servers, Active Directory, firewall, routing and departmental VLANs.\n• Branch 1 (Berlin): local clients, router/firewall, VLANs and site-to-site VPN to headquarters.\n• Branch 2 (Hamburg): independent branch network, VLANs, clients and VPN connectivity.\nUse isolated virtual WAN and LAN networks, with controlled internet access. Keep the lab separate from personal and employer production networks and accounts.\n\n4. Technical scope\nEnterprise networking and security\n• Virtual routers and managed switches; access ports, 802.1Q trunks, VLANs and inter-VLAN routing.\n• IPv4 subnetting, static routing, OSPF, WAN/ISP simulation, NAT, DHCP relay and ACLs.\n• OPNsense, pfSense or equivalent firewalls; network segmentation, DMZ and firewall rules.\n• Site-to-site IPsec VPN and remote-access WireGuard or OpenVPN; VPN troubleshooting.\n• Forward and reverse proxy, network monitoring and Wireshark packet analysis.\nUse GNS3, Cisco Packet Tracer or another suitable platform where VMware alone cannot provide the required functionality. Explain which components interoperate with the live VMs and which are separate simulations. Use legally obtained appliance images and licenses.\nEnterprise wireless networking\n• Corporate and guest SSIDs, VLAN mapping, RADIUS using Windows NPS or FreeRADIUS, and WPA2/WPA3-Enterprise concepts.\n• Centralized access point management, capacity planning for 100+ wireless clients, access policies and authentication troubleshooting.\nPhysical access points are not mandatory. Simulate what is technically possible and explain limitations, including RF coverage, roaming and channel planning.\nWindows Server and Active Directory\n• Windows Server 2022/2025, primary and secondary domain controllers, replication, DNS and DHCP.\n• OUs, approximately 250 simulated users, groups, delegated administration, GPOs and Windows 11 domain clients.\n• SMB file shares, NTFS permissions, DFS, print services and patch management.\n• Windows LAPS, AD Certificate Services (PKI), NPS/RADIUS, server hardening and recovery.\nMicrosoft cloud and hybrid identity\nWhere test tenants and licenses permit: Microsoft 365, Entra ID, hybrid synchronization, Intune, Autopilot, compliance, Conditional Access, Defender endpoint security and PowerShell. Identify paid features and use only a dedicated test tenant.\nLinux, monitoring, backup and automation\nUbuntu Server, SSH, Nginx or equivalent web services, forward/reverse proxy, Zabbix or PRTG, centralized logging, certificate management, backup and tested restore, PowerShell and optional Ansible.\n\n5. Mandatory hybrid implementation and training\nThe freelancer must explain the infrastructure through live screen-sharing sessions and actively involve me in configuration. I must be able to reproduce the work independently.\nPhase A — Freelancer builds and explains\nSet up virtualization, virtual networking, headquarters firewall, routing, VLANs and the first branch VPN. Demonstrate and explain each major configuration, including how traffic flows and how to verify it.\nPhase B — We configure together\nGuide me while I personally configure additional VLANs, routing rules, the second branch VPN, Windows Server, Active Directory, DNS, GPOs, file permissions, firewall policies, monitoring and backup. I perform the configuration with your supervision.\nPhase C — Independent practical exercises\nProvide an additional branch scenario for me to configure independently, including VLANs, routing and VPN. Assign tasks involving domain users, groups, GPOs, DNS, DHCP, firewall rules and service recovery. Review my work and explain mistakes.\nPhase D — Advanced troubleshooting\nProvide at least 10 practical exercises with separate solutions, including deliberately simulated incidents: AD authentication failures, DNS and DHCP issues, broken VPN tunnels, incorrect VLAN routing, firewall misconfiguration, GPO conflicts, file permissions, server outages, monitoring alerts and recovery.\n6. Required deliverables\n• Working, reusable modular lab with network topology diagram, IP addressing and VLAN plan.\n• VM inventory including CPU, RAM, storage and network interfaces; firewall, routing and VPN configuration files.\n• Step-by-step installation and configuration guides; startup, shutdown, reset and rebuild instructions.\n• At least 10 exercises with separate solutions, live training and final independent practical assessment.\n• Backup and restore procedures, demonstrated recovery and secure handover of credentials and configuration files.\nAll remote access must be authorized and supervised. Remove temporary freelancer access after handover. The lab must remain usable without ongoing dependency on the freelancer.\n\n7. Milestones and acceptance\n1 — Design\nHardware assessment, architecture, network diagram, VM sizing and virtualization setup.\n2 — Core network\nHeadquarters VLANs, firewall, WAN and first VPN; demonstrate allowed and blocked traffic.\n3 — Branch networking\nAdditional branch, routing, switching, VPN and wireless/RADIUS training; verify connectivity and segmentation.\n4 — Enterprise systems\nWindows Server, AD, DNS, DHCP, GPO, file services and client administration; demonstrate domain login and permissions.\n5 — Advanced services\nSecurity, proxy, monitoring, backup, cloud integration where feasible; demonstrate alerting and recovery.\n6 — Handover\nDocumentation, exercises, final testing and knowledge transfer; demonstrate independent configuration and troubleshooting.\nPayment should be linked to successfully completed and demonstrated milestones. Quote optional modules separately so the project can be expanded within my budget.\n8. Required qualifications\nProfessional experience in enterprise infrastructure, Windows Server/AD, VMware or Proxmox, Cisco-style networking, VLANs, WANs, routing, firewalls, IPsec VPN, Microsoft 365/Entra/Intune, monitoring, security and technical training. Experience with German enterprise IT environments and German technical terminology is an advantage.\n9. Proposal requirements\n• Relevant experience and examples of similar projects.\n• Proposed architecture, software, VM count, CPU/RAM/storage requirements and necessary upgrades.\n• Clear distinction between live functionality and simulation; software licensing and recurring costs.\n• Implementation timeline, number and duration of live training sessions, fixed-price milestone quotation.\n• Explain how you will ensure I can independently configure, administer and troubleshoot the lab.\nExpected result: a realistic enterprise learning environment for IT System Administrator.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "EUR",
+  "posted_at": "2026-11-27T21:08:13+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Заказчик ищет инженера для построения виртуальной корпоративной ИТ-лаборатории на рабочей станции (Active Directory, VLAN, VPN, Windows Server, Microsoft 365) с последующим очным обучением через демонстрацию экрана. Это инфраструктурная настройка и обучение, а не разработка продукта из списка услуг.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только настройка лаборатории, или заказчик ожидает и разработку собственных скриптов или автоматизации?",
+    "Какой объём обучения подразумевается по часам и формату, и входит ли он в бюджет?"
+   ]
+  },
+  "found_at": "2026-11-27T22:00:44+00:00"
+ },
+ {
+  "id": "freelancer:40839280",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/php/BLS-Spain-Visa-Auto-Booking",
+  "title": "BLS Spain Visa Auto-Booking Bot -- 2",
+  "description": "I need a reliable, fully automated bot that handles tourist-visa appointments on the BLS Spain portal for applicants in Algeria. The tool must scan the site around the clock, recognise the exact moment a slot appears, and instantly reserve it while still passing every security and consent checkpoint enforced by BLS.\n\nOnce a slot is secured, the bot should:\n• Pull the client data I supply, populate every form field, and upload the required selfie.\n• Solve or bypass the portal’s captcha and any additional visual challenge.\n• Complete the payment step with an Algerian credit card and generate the booking confirmation.\n• Send me an immediate alert before and after the booking is finalised (medium of delivery can be agreed at kickoff).\n\nRobust error handling, encrypted storage of client information, and a clear activity log are essential. I expect clean, well-commented code, a quick demonstration on your end, and deployment instructions so I can run the bot myself.\n\nThis is an ongoing collaboration: I’ll pay the initial build fee and then, each month, share a percentage of revenue from the clients the bot books once you keep it updated against any BLS site changes.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T21:06:24+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Заказчик просит бота для автоматического бронирования визовых слотов на портале BLS Spain с обходом капчи и проверок безопасности, автоматической оплатой чужой картой и загрузкой селфи, с оплатой в процент от выручки. Это обход защиты чужого сервиса и действия от имени клиентов, поэтому проект не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-27T22:00:44+00:00"
+ },
+ {
   "id": "freelancer:40839268",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/web-development/Boost-Book-Reviews-Website",
@@ -14951,184 +15131,6 @@
     "В какую CRM, если она нужна, отправлять заявки из формы, или достаточно письма на почту?",
     "Тексты и логотип с брендбуком уже готовы или их нужно дополнительно подготовить?"
    ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836389",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/mailchimp/Mail-PDF-Letter-via-USPS",
-  "title": "Mail PDF Letter via USPS",
-  "description": "I already have the final one-page PDF ready. Once I send you the file and the full Indian mailing address, I just need you to:\n\n• Print the document on standard letter-size paper.\n• Slip it into a plain envelope.\n• Ship it from inside the United States using the standard Priority Mail International option. \n – Please copy the recipient’s address exactly as I provide it. \n – Leave the return-address space blank.\n\nAfter you hand the envelope to USPS, send me:\n\n1. The tracking number.\n2. A quick photo or scan of the mailing receipt and the addressed envelope.\n\nPerson should be from US only, as it has to be sent from there.\n\nNo edits, no signatures—simply print, pack, post, and share proof of shipment so I can follow the delivery progress.",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T05:35:30+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 1,
-   "summary_ru": "Клиент хочет, чтобы в США распечатали готовый однostраничный PDF, вложили в конверт и отправили через USPS Priority Mail International в Индию, с передачей трек-номера и фото чека. Это физическая почтовая работа, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли здесь какая-либо разработка или это только печать и отправка документа?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "freelancer:40836411",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-app-development/Lovable-Mobile-Apps",
-  "title": "Lovable AI Mobile Apps",
-  "description": "We are looking for an experienced freelancer/agency specialising in Lovable AI mobile app development.\n\nWe have already developed two mobile applications and one web application using Lovable, GitHub and Supabase. All three are integrated into a single project and are currently in the final stage of development.\n\nWe are looking for someone to take over the existing applications, complete the final refinements, testing and launch Version 1 on Google Play Store and Apple App Store.\n\nWe prefer candidates who have successfully developed and launched at least a couple of mobile app projects using Lovable, including publishing and ongoing maintenance.\n\nPlease share your relevant experience and live project examples.",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T05:33:34+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "saas",
-   "score": 4,
-   "summary_ru": "Клиент ищет исполнителя, который примет три связанных проекта (два мобильных приложения и веб-приложение на Lovable, GitHub и Supabase), доведёт их до версии V1, протестирует и опубликует в Google Play и App Store. Бюджет низкий, а клиент просит опыт публикации мобильных приложений на Lovable.",
-   "reply": "You have three connected pieces (two mobile apps and a web app built on Lovable, GitHub and Supabase) that need to be taken over, finished, tested and shipped as V1 to Google Play and the App Store. My approach would be to start with an audit of the codebase and Supabase setup: auth, database policies, environment config and anything that blocks a release. Then I'd close the remaining refinements, run a test pass on real devices, and prepare the builds and store listings for both platforms. I work with a modern stack and AI-assisted development, so the pace is fast. A realistic estimate for audit, fixes and submission is about 1–2 weeks, depending on how stable the current builds are. I haven't yet taken a Lovable mobile app through store publication myself, so I want to be upfront about that.\n\nTwo questions: which wrapper or framework are the mobile apps currently built with, and do you already have Google Play and Apple developer accounts?\n\nFor live demos, see https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "У вас есть три связанных проекта (два мобильных приложения и веб-приложение на Lovable, GitHub и Supabase), которые нужно принять, доделать, протестировать и выпустить в версии V1 в Google Play и App Store. Я бы начал с аудита кодовой базы и настройки Supabase: авторизация, политики доступа к базе, конфигурация окружений и всё, что мешает релизу. Затем закрыл бы оставшиеся доработки, провёл тестирование на реальных устройствах и подготовил сборки и карточки приложений для обеих платформ. Я работаю на современном стеке с помощью ИИ-ассистентов, поэтому темп высокий. Ориентировочный срок на аудит, исправления и отправку на публикацию — около 1–2 недель, в зависимости от стабильности текущих сборок. Я пока не проводил приложение на Lovable через публикацию в сторах самостоятельно, и хочу быть с вами честным об этом.\n\nДва вопроса: на каком обёрточном решении или фреймворке сейчас построены мобильные приложения и есть ли у вас уже аккаунты разработчика Google Play и Apple?\n\nЖивые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "На каком фреймворке или обёрточном решении сейчас построены мобильные приложения?",
-    "Есть ли у вас уже аккаунты разработчика Google Play и Apple?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "flru:5530607",
-  "source": "flru",
-  "url": "https://www.fl.ru/projects/5530607/excel-raschetyi.html",
-  "title": "Excel расчеты",
-  "description": "Уже есть таблица Excel по просчетам, только её нужно доработать до конца, со всеми корректировками, которые будут. Таблица Excel расчеты. Если работа будет сделана на совесть и...",
-  "budget": 2500.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "Thu, 26 Nov 2026 06:06:04 GMT",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "fixes",
-   "score": 2,
-   "summary_ru": "Нужно доработать уже существующую Excel-таблицу для расчётов с учётом будущих корректировок. Это работа со таблицей, а не разработка программного продукта, бюджет небольшой (2500 ₽).",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Какие именно расчёты и корректировки нужно добавить в таблицу?",
-    "Нужна ли автоматизация, например macros или связь с другими источниками данных, или достаточно доработки формул?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "kwork:3275663",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275663",
-  "title": "Найти 2 клиентов на лендинг за 5 дней",
-  "description": "Мы веб-студия Ключ.digital, делаем сайты для малого бизнеса. Нужен человек, который за 5 дней найдёт нам двух клиентов на простой лендинг. \nЧто продаёте: \nЛендинг под ключ за 4 000 ₽. В эту цену входит: \nдизайн и вёрстка, сайт работает на телефоне и компьютере \nразмещение на нашем сервере \nподключение Яндекс Метрики \nбазовая SEO-оптимизация, чтобы сайт находили в поиске \nЧем зацепить клиента: концепт сайта мы делаем бесплатно. Клиент смотрит готовый вариант и платит, только если он ему понравился. Риска для клиента нет. \nКому предлагать: малый бизнес без своего сайта. Это салоны и мастера красоты, кафе, ремонт, автосервисы, репетиторы, частные специалисты. Таких легко найти в Яндекс Картах. \nВаша задача: \nНайти бизнесы без сайта. \nСвязаться с ними: позвонить или написать в мессенджер. Массовые рассылки не допускаются. \nПредложить бесплатный концепт лендинга. \nПередать нам заявку: название, ниша, имя и телефон контактного лица, что клиенту важно на сайте. \nКонцепт, обсуждение деталей и разработку дальше ведём мы. \nОплата после заказа от клиента \n1000 ₽ за каждого клиента \nза двух клиентов 2000 ₽ \nклиент засчитывается после подтверждённого заказа, то есть когда он одобрил концепт и оплатил сайт \nзаявки без оплаты не оплачиваются \nСрок: 5 дней с начала работы. \nНужен опыт холодных звонков или продаж. В отклике кратко напишите, как будете искать клиентов.",
-  "budget": 2000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 08:37:46",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "landing",
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 2,
-   "summary_ru": "Студия Ключ.digital ищет исполнителя, который за 5 дней найдёт двух клиентов на лендинг: будет обзванивать и писать малому бизнесу без сайта и получать 1000 ₽ за каждую оплаченную заявку. Это поиск клиентов и холодные продажи, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Входит ли в задачу разработка или вёрстка сайта, или исполнитель отвечает только за поиск и передачу заявок?",
-    "Сколько заявок в день ожидается и есть ли ограничения по нишам или способам связи, кроме массовых рассылок?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "kwork:3275593",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275593",
-  "title": "Перенос сайта с Webasyst на 1С-Битрикс (Лайтшоп)",
-  "description": "Планируем переезд действующего интернет-магазина comfort-center.com (сейчас на CMS Webasyst Shop-Script) на 1С-Битрикс с установкой готового решения «Лайтшоп». Лицензия 1С-Битрикс уже куплена. \nИщем опытного специалиста (строго не новичка) для запуска проекта под ключ. На текущем этапе нам нужно определиться с исполнителем, понять точный бюджет и сроки, чтобы заложить их в план. \nЗадачи, которые нужно оценить (желательно по отдельности): \n1. Установка и базовая настройка 1С-Битрикс и шаблона «Лайтшоп» на хостинг/сервер. \n2. Миграция текущего сайта comfort-center.com. \n3. Перенос каталога товаров, категорий, характеристик и цен (рассмотрим предложенные вами оптимальные способы переноса). \n4. Оценка сроков реализации по каждому этапу. \nЧто ждём в отклике: \n1. Примеры ваших реальных проектов на 1С-Битрикс (особенно на готовых решениях). \n2. Предварительную вилку цен и сроков по пунктам 1–3. \n3. Ваш бриф или список уточняющих вопросов (по количеству товаров, модификациям, хостингу и т.д.), которые нужны для точного расчёта. \nБюджет в объявлении указан условно — ориентируемся на ваши реальные оценки. Готовы оперативно заполнить бриф и обсудить детали.",
-  "budget": 50000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 08:35:27",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 3,
-   "summary_ru": "Перенос действующего интернет-магазина comfort-center.com с Webasyst Shop-Script на 1С-Битрикс «Лайтшоп»: установка и настройка, миграция сайта, перенос каталога, категорий, характеристик и цен. Нужна оценка бюджета и сроков по этапам, исполнитель должен иметь опыт с Битриксом.",
-   "reply": "Вы планируете переехать с Webasyst Shop-Script на 1С-Битрикс «Лайтшоп»: установка и настройка, миграция сайта и перенос каталога с категориями, характеристиками и ценами. Честно скажу: мой основной стек современный, а опыта с 1С-Битрикс в профиле нет, поэтому для точной оценки важен объём. Сначала я бы провёл аудит структуры Webasyst и выгрузку данных, затем написал скрипт переноса в формат Битрикса и сделал тестовый импорт с проверкой цен и характеристик. Ориентировочно это 2–3 недели при каталоге до нескольких тысяч позиций, точнее скажу после брифа. Подскажите, пожалуйста: сколько товаров и модификаций и есть ли доступ к текущей базе Webasyst и серверу под Битрикс?\n\nЖивые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы планируете переехать с Webasyst Shop-Script на 1С-Битрикс «Лайтшоп»: установка и настройка, миграция сайта и перенос каталога с категориями, характеристиками и ценами. Честно скажу: мой основной стек современный, а опыта с 1С-Битрикс в профиле нет, поэтому для точной оценки важен объём. Сначала я бы провёл аудит структуры Webasyst и выгрузку данных, затем написал скрипт переноса в формат Битрикса и сделал тестовый импорт с проверкой цен и характеристик. Ориентировочно это 2–3 недели при каталоге до нескольких тысяч позиций, точнее скажу после брифа. Подскажите, пожалуйста: сколько товаров и модификаций и есть ли доступ к текущей базе Webasyst и серверу под Битрикс?\n\nЖивые демо можно посмотреть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Сколько товаров, категорий и модификаций нужно перенести и есть ли у каталога сложные характеристики или несколько типов цен?",
-    "Есть ли у вас доступ к текущей базе Webasyst и к хостингу или серверу, где будет развёрнут Битрикс?",
-    "Нужно ли переносить историю заказов, клиентов и SEO-URL, или достаточно каталога и контента?"
-   ]
-  },
-  "found_at": "2026-11-26T06:17:29+00:00"
- },
- {
-  "id": "telegram:theyseeku/40807",
-  "source": "telegram",
-  "url": "https://t.me/theyseeku/40807",
-  "title": "Выспался. Создал чат-бота. Заработал +17.000 рублей.",
-  "description": "Выспался. Создал чат-бота. Заработал +17.000 рублей.\nПока ты едешь на «любимую работу» к 8ч утра, другие запускают\n этого бота, \nследуют пошаговой инструкции и получают +17.000 рублей за несколько часов работы.\nЭти люди не программисты и у них даже нет высшего образования. Они просто научились создавать чат-ботов, где нет ничего сложного. И за это им готовы платить 200-250.000 рублей в месяц.\nНа старте новички зарабатывают 50-60.000 рублей, а ребята поопытнее от 200.000 рублей в месяц.\nВсе, что нужно для старта\n — запустить этот бот.\n Там уже рассказали, как с помощью чат-ботов и удаленки заработать несколько месячных зарплат и наконец уволиться из найма в 2026 году.",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "2026-11-26T06:01:10+00:00",
-  "lang": "ru",
-  "project_type": null,
-  "direct": true,
-  "topics": [
-   "tg_bot"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "tg_bot",
-   "score": 1,
-   "summary_ru": "Рекламное объявление курса или схемы заработка на «чат-ботах» с обещаниями 17 000 и 200 000 рублей в месяц. Это не заказ на разработку: заказчика и ТЗ нет, а речь идёт о продаже обучения или бота-воронки.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
   },
   "found_at": "2026-11-26T06:17:29+00:00"
  }
