@@ -1,5 +1,124 @@
 [
  {
+  "id": "freelancer:40838089",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/seo-writing/Compelling-Marketing-Copy-Needed",
+  "title": "Compelling Marketing Copy Needed",
+  "description": "I’m looking for a creative partner who can handle the full spectrum of “create designs, writing, or media,” with a clear focus on written content and marketing copy. My immediate priority is sharp, persuasive copy that can be adapted across landing pages, social ads, and email sequences without losing tone or impact. \n\nHere’s what success looks like for me: each piece feels conversational yet confident, showcases the core benefits of our product, and nudges readers toward a clear call-to-action. You should be comfortable weaving brand story, value propositions, and a touch of SEO-friendly language in a way that reads naturally to humans first and algorithms second. \n\nI’ll supply you with brand guidelines, buyer personas, and any research you need; you bring the headlines, hooks, and polished final drafts (delivered in Google Docs or Word, whichever you prefer). Revisions are part of the process, and speed matters—ideally you can turn around an initial draft within a few days of receiving the brief. \n\nIf this sounds like your wheelhouse, tell me about a recent project where your copy lifted conversions or engagement, and let’s get started.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T04:50:01+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "landing"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "landing",
+   "score": 1,
+   "summary_ru": "Заказчик ищет копирайтера для маркетинговых текстов: продающие тексты для лендингов, соцсетей и email-рассылок с упором на бренд-историю и CTA. Это написание текстов, а не разработка, поэтому проект не подходит под услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-27T04:57:01+00:00"
+ },
+ {
+  "id": "freelancer:40838067",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/mobile-app-development/Add-Google-Play-Billing-Library",
+  "title": "Add Google Play Billing Library 8+ to a Capacitor Android app — subscription paywall, existing Play Console product",
+  "description": "I have a Capacitor (web app wrapped with Capacitor 8) Android app already uploaded to Google Play Console Internal testing. Play Console is blocking rollout with this error: 'Your app currently uses Play Billing Library version AIDL and must update to at least version 8.0.0'. The app currently has the BILLING permission but no Billing Library and no purchase flow (all content is free in the current build).\n\nWhat I need:\n1. Integrate Google Play Billing Library 8.0.0 or newer (maintained Capacitor billing plugin or native implementation — your choice, tell me which).\n2. Wire it to my existing Play Console subscription product pulseteas_premium (base plans already created, still in Draft: $29.99/month and $299.99/year). Both plans start with a 3-day free trial, configured when the base plans are activated.\n3. Paywall showing both plans; on successful purchase premium unlocks; include restore purchases; handle pending and cancelled purchases gracefully.\n4. Bump versionCode to 2 and deliver a signed release AAB I can upload (I hold the upload keystore and passwords — I will enter them myself in a shared session at build time; the keystore is never sent to you).\n\nSecond app (same job, second milestone): Aura, a daily affirmations app on the same Capacitor stack, needs the same billing integration wired to a $14.99/month and $59.99/year subscription with a 3-day free trial. Its Play Console entry will be ready before that milestone starts. Please quote both apps together in your bid.\n\nAcceptance test (payment releases when ALL are true):\n- New signed AAB builds successfully (release).\n- Uploaded to Internal testing; the AIDL / Billing Library error is GONE and 'Save and publish' is enabled.\n- A test purchase with a Google license-tester account completes and unlocks premium.\n\nAlready done on my side (you do not need to touch): Play Console identity/phone verified, merchant account and payout bank verified, W-9 approved, store listing and graphics complete, subscription product and both base plans created, internal tester list created.\n\nWhen you bid, please answer:\n1. Link to one live Play Store app where YOU shipped Play Billing subscriptions (not just consumables).\n2. Capacitor experience — have you integrated Play Billing in a Capacitor app before? Which plugin/approach?\n3. Your fixed price for BOTH apps and your delivery time.\n4. Confirm you are fine working with my keystore entered by me in a shared session, escrow-only payment, released on the acceptance test.",
+  "budget": 75.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T04:30:19+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Нужно подключить Google Play Billing Library 8+ к Capacitor-приложению PulseTeas для Android: платный экран с двумя подписками (с пробным периодом 3 дня), восстановление покупок, обработка ожидающих и отменённых платежей и сборка подписанного AAB versionCode 2. Вторая часть (приложение Aura) оценивается вместе с первой и выполняется в следующем этапе.",
+   "reply": "You need PulseTeas, a Capacitor Android app, moved to Play Billing Library 8+ with the pulseteas_premium base plans wired into a paywall, restore, pending and cancelled handling, and a signed versionCode 2 AAB. I would first confirm that the AIDL error clears with the library update, then choose a maintained Capacitor billing plugin if it supports Billing Library 8, or a small native Android bridge if not. For PulseTeas I estimate about 3-4 days including the test purchase. Aura should be faster because the billing layer carries over. I have not shipped a live Play Billing subscription app of my own yet, so I would rather say that plainly than point to one. Two questions: is the paywall expected to match the existing web app design, and will the license-tester account be set up before the build? Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно перевести PulseTeas, Capacitor-приложение для Android, на Play Billing Library 8+ и подключить базовые планы pulseteas_premium к платному экрану с восстановлением покупок, обработкой ожидающих и отменённых платежей и сборкой подписанного AAB versionCode 2. Сначала я проверю, что ошибка AIDL исчезает после обновления библиотеки, затем выберу поддерживаемый Capacitor-плагин для биллинга, если он работает с Billing Library 8, или небольшой нативный мост для Android, если нет. Для PulseTeas оцениваю примерно 3-4 дня, включая тестовую покупку. Aura должна пойти быстрее, так как слой биллинга переносится. У меня пока нет собственного живого приложения с подписками Play Billing, поэтому лучше сказать об этом прямо, чем указывать несуществующий пример. Два вопроса: должен ли платный экран соответствовать дизайну существующего веб-приложения и будет ли аккаунт тестировщика лицензий настроен до сборки? Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Должен ли платный экран повторять дизайн существующего веб-приложения PulseTeas или его нужно делать с нуля?",
+    "Будет ли аккаунт тестировщика лицензий Google Play настроен до начала сборки и тестовой покупки?",
+    "Для Aura: когда будет готова запись в Play Console и нужны ли те же экраны и логика восстановления покупок, что и в PulseTeas?"
+   ]
+  },
+  "found_at": "2026-11-27T04:57:01+00:00"
+ },
+ {
+  "id": "freelancer:40838052",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/flutter/Education-Coaching-Management-App",
+  "title": "Education Coaching Management App",
+  "description": "I run a training and education institute and need a mobile application that keeps teachers, students, and parents connected in one place. The app must run smoothly on Android or iOS (a single cross-platform code-base is fine) and handle day-to-day coaching operations end-to-end.\n\nCore interactions \n• Teachers update class schedules and mark both their own attendance and each student’s attendance from their phone. \n• Students (and their parents) can instantly check the timetable, see whether they were marked present, review progress reports, and receive real-time messages or announcements. \n• Automated fee tracking records what is due or has been paid, while a simple salary ledger lets me review what each teacher should receive for the month.\n\nAdministrative view \nI need a secure dashboard—mobile first, but web admin is a plus—where I can: \n– Create/edit classes, subjects, teachers, and student profiles. \n– Generate reports on fees collected, outstanding balances, salary payouts, and overall student performance. \n– Push bulk or targeted notifications to any user group.\n\nTechnical expectations \n• Cross-platform stack (Flutter, React Native, or similar) using a clean, modular architecture. \n• Cloud-based database with role-based authentication. \n• Source code, build files, and concise hand-over documentation delivered at project close. \n• Submission to Google Play and/or App Store once all acceptance tests pass (basic installation, login, schedule view, attendance entry, fee transaction, notification delivery).\n\nIf these requirements match your skill set, let’s discuss milestones and timelines so we can move quickly from prototype to launch.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-27T04:21:09+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 4,
+   "summary_ru": "Заказчик хочет кросс-платформенное мобильное приложение для учебного центра с расписанием, отметками посещаемости, учётом оплат, зарплатной ведомостью, отчётами, рассылками и админ-панелью для учителей, учеников и родителей. Бюджет небольшой для такого объёма, поэтому имеет смысл начать с MVP.",
+   "reply": "You're describing one app that connects teachers, students and parents, with attendance, timetables, fee tracking, a salary ledger and an admin dashboard on top. That's a lot for this budget, so I'd start with a focused MVP: role-based login, schedule view, attendance marking and push notifications. Fee tracking, salary reports and bulk messaging would follow as a second milestone. I'd build it as one cross-platform codebase with a cloud database. The MVP could be ready in about 3–4 weeks, and we can estimate the full scope once we agree on priorities.\n\nWhich features must be in the first release? And who will hold the Google Play and App Store developer accounts?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы описываете одно приложение, которое связывает учителей, учеников и родителей: посещаемость, расписание, учёт оплат, зарплатную ведомость и админ-панель. Для этого бюджета объём большой, поэтому я бы начал с сфокусированного MVP: вход с ролями, просмотр расписания, отметки посещаемости и push-уведомления. Учёт оплат, зарплатные отчёты и массовые рассылки можно сделать вторым этапом. Я бы собрал это в одной кросс-платформенной кодовой базе с облачной базой данных. MVP может быть готов примерно за 3–4 недели, а полную оценку можно дать, когда согласуем приоритеты.\n\nКакие функции должны войти в первый релиз? И кто будет владельцем аккаунтов разработчика в Google Play и App Store?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие функции обязательно должны войти в первый релиз, а какие можно отложить?",
+    "Кто будет владельцем аккаунтов разработчика в Google Play и App Store?"
+   ]
+  },
+  "found_at": "2026-11-27T04:57:01+00:00"
+ },
+ {
+  "id": "freelancer:40838028",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/market-research/Panduan-Jualan-Busana-Onlinenya",
+  "title": "Panduan Jualan Busana Onlinenya",
+  "description": "Saya ingin mulai menghasilkan uang dengan menjual pakaian dan aksesori secara online, tetapi masih bingung harus memulai dari mana. Saya butuh pendampingan langkah-demi-langkah—mulai dari riset pasar hingga toko siap menerima pesanan.\n\nYang saya harapkan:\n• Riset singkat tren dan target pasar busana/aksesori yang relevan. \n• Rekomendasi platform e-commerce atau marketplace paling cocok di Indonesia (mis. Shopee, Tokopedia, Shopify, atau kombinasi). \n• Panduan praktis pengelolaan stok, penentuan harga, dan cara memotret produk agar menarik. \n• Draft deskripsi produk serta template caption untuk media sosial. \n• Strategi promosi awal: opsi iklan berbayar, kolaborasi influencer mikro, dan kampanye konten organik. \n• Penjelasan alur pembayaran, pengemasan, dan pengiriman supaya proses order lancar. \n\nSaya siap belajar dan menjalankan sendiri setelah mendapat panduan jelas, jadi materi perlu mudah dipahami, disertai contoh konkret maupun link referensi. Beri tahu juga tool atau aplikasi pendukung yang sebaiknya saya gunakan (mis. Canva, Google Trends, atau plugin toko). \n\nApabila Anda pernah membantu brand fashion kecil menengah go online, sertakan portofolio singkat maupun studi kasus. Target saya: toko aktif dan mulai menerima pesanan pertama dalam beberapa minggu.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-27T04:03:06+00:00",
+  "lang": "id",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Клиент хочет начать продавать одежду и аксессуары онлайн и просит пошаговое консультирование: исследование рынка, выбор маркетплейса, советы по фото, описаниям, контенту и продвижению. По сути это консалтинг и маркетинг, а не разработка, поэтому проект не подходит под услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли вам также техническая настройка магазина (например, создание сайта или интеграция с маркетплейсом), или требуется только консультация?",
+    "Есть ли у вас уже готовый ассортимент и бюджет на запуск?"
+   ]
+  },
+  "found_at": "2026-11-27T04:57:01+00:00"
+ },
+ {
   "id": "freelancer:40838014",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/react-native/Custom-Mobile-App-Creation",
@@ -14836,87 +14955,6 @@
    "reply_ru": "",
    "questions": []
   },
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834087",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/cpa-services/CPA-Letter-Verifying-Expense-Ratio",
-  "title": "CPA Letter Verifying Expense Ratio",
-  "description": "I need a licensed CPA to review my business checking account statements for the last six months and issue a signed letter on firm letterhead confirming that my business expenses fall consistently between 20 % and 30 % of total bank deposits. The letter will be submitted with a loan-mortgage package, so it must follow standard lender compliance wording and include your license number and contact details for verification.\n\nOnce you receive the PDF statements, please perform a straightforward ratio analysis—no audit, just a professional review—and draft the letter accordingly. \n\nDeliverables (all in PDF): \n• One-page CPA letter on firm letterhead stating: “Based on my review of the client’s business bank statements for the period MM/YYYY–MM/YYYY, I confirm that total business expenses are between 20 % and 30 % of deposits.” \n• Your digital signature and CPA license information \n• A brief worksheet or summary you used to reach the percentage (for my records, not for the bank)\n\nTurnaround preferred today. \nIf anyone would be willing to do it without the review of statements that would be preferred in order to expedite process.",
-  "budget": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-24T21:03:53+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "landing"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 1,
-   "summary_ru": "Заказчик просит лицензированного CPA подготовить подписанное письмо на бланке фирмы о соотношении расходов и депозитов (20–30%) для ипотечного пакета. Это не задача разработки, и запрос содержит признаки подложных финансовых документов: просят выдать письмо без проверки выписок.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Какое отношение этот заказ имеет к разработке, если речь идёт о бухгалтерском заключении CPA?",
-    "Готов ли заказчик предоставить выписки и проводить проверку, а не получать письмо без анализа?"
-   ]
-  },
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834084",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-design/Wordpress-Site-Revamp-40834084",
-  "title": "Wordpress Site Revamp",
-  "description": "I need an experienced WordPress designer to modernize and clean up my existing site.\n\nwebsite hypnomanchester.co.uk\nRequirements:\n- Update the Homepage and main pages\n- Revamp the Header, menu, and footer\n- Change Fonts, colours, and page layout for a cohesive modern look\n- Remove outdated service/product pages, gallery page, download brochure, and audio message\n\nIdeal Skills:\n- Strong portfolio in modern WordPress designs\n- Expertise in UX/UI principles\n- Proficient in customizing WordPress themes\n- Attention to detail and good communication skills\n\nPlease provide samples of previous work and a brief proposal.",
-  "budget": 750.0,
-  "currency": "GBP",
-  "posted_at": "2026-11-24T21:01:29+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834076",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Full-Consultancy-Website-Build",
-  "title": "Full Consultancy Website Build",
-  "description": "I need a complete, ready-to-launch website that positions my business & management consultancy as the obvious choice for new clients. From registering the domain to publishing the final pages, you’ll handle every technical and creative step.\n\nCore purpose \nThe site’s single focus is to generate quality enquiries. Every page, call-to-action, and contact form should drive visitors to reach out.\n\nKey requirements \n• Domain purchase and hosting setup (advise on best registrar/plan and handle configuration). \n• Modern, mobile-first design that reflects a professional advisory brand. \n• Clear service pages outlining our business and management consulting offers. \n• Prominent enquiry form capturing the visitor’s business needs and preferred service—nothing more, nothing less. \n• Easy-to-use CMS (WordPress with Elementor, Webflow, or a similarly intuitive builder) so I can update copy without coding. \n• Basic on-page SEO, Google Analytics integration, and SSL. \n• Launch support and a quick walkthrough of the backend.\n\nAcceptance criteria \n1. Site loads in under 3 seconds on mobile (tested with PageSpeed Insights). \n2. Contact form submissions route to my email and are stored in the CMS. \n3. All pages render correctly on Chrome, Safari, and Firefox, desktop and mobile. \n4. I receive a zipped backup plus written handover notes.\n\nIf you have a portfolio of consultancy or professional-services sites, share the links so I can see your style. I’m ready to move fast once we agree on the approach and timeline.",
-  "budget": 750.0,
-  "currency": "INR",
-  "posted_at": "2026-11-24T20:50:07+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "site_template"
-  ],
-  "analysis": null,
-  "found_at": "2026-11-24T21:33:30+00:00"
- },
- {
-  "id": "freelancer:40834071",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/android-app-development/Build-Criclive-Android-Cricket-App-40834071",
-  "title": "Build Criclive.in Android Cricket App",
-  "description": "Android App Development for Criclive.in\n\nI am looking for an experienced Android app developer to develop an Android application that closely matches my existing website, Criclive.in.\n\nThe app should replicate the website's design, functionality, features, and overall user experience while providing a smooth, modern, and high-performance mobile experience.\n\nProject Requirements:\n\n- Develop an Android application similar to my existing Criclive.in website.\n- Replicate the website's frontend design, layout, branding, and functionality.\n- Implement real-time cricket live scores, ball-by-ball updates, and live match commentary.\n- Include match schedules, fixtures, results, points tables, rankings, and detailed scorecards.\n- Integrate push notifications for live match updates, wickets, milestones, and match results.\n- Ensure fast loading, smooth navigation, and optimized performance.\n- Develop a secure and scalable backend with proper API integration.\n- Implement user-friendly features and a responsive mobile interface.\n- Optimize the application for different Android devices and screen sizes.\n- Ensure proper testing, bug fixing, and Google Play Store deployment.\n\nReference Website: https://criclive.in/\n\nExpected Outcome:\n\nI want an Android application that offers almost the same experience and functionality as my Criclive.in website, with consistent company branding, excellent performance, and a modern user interface.\n\nPlease share your relevant Android app development experience, portfolio, proposed technology stack, estimated timeline, and project cost.",
-  "budget": 1000000.0,
-  "currency": "INR",
-  "posted_at": "2026-11-24T20:48:10+00:00",
-  "lang": "en",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "fixes"
-  ],
-  "analysis": null,
   "found_at": "2026-11-24T21:33:30+00:00"
  }
 ]
