@@ -1,5 +1,191 @@
 [
  {
+  "id": "freelancer:40839532",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial",
+  "title": "Desktop Thermometer App Field Trial(only from Uk)",
+  "description": "Join CoolRater’s winter 2026–27 field trial of a Windows app that measures the Heat-Transfer Coefficient of your home, a statistic used to support heat-pump sizing. Participants will install the app, connect an Octopus Energy account, provide half-hourly smart-meter data, and collect overnight temperatures using four Elitech RC-5+ loggers, which will be provided. Applicants must heat their home with a gas boiler and avoid using energy outside the home during trial sessions. Basic computer skills are sufficient; CSV editing and installing unsigned trial software are required. Five participants are sought each month from November 2026 to February 2027. \n\nCoolRater is a desktop app which will measure the heat transfer coefficient HTC for a building, a function that has become increasingly important in recent years for use in sizing heat pumps. A field trial is being run this winter with these objectives: \n\n1. To obtain temperature and energy data for a range of properties. Currently CoolRater has only been used for the author’s own property. \n\n2. to obtain data from properties where the temperature varies between locations due to variations in insulation or heat distribution. For example close to a solid floor with no insulation, or in rooms which do not have double glazing. \n\n3. To find out if users have any problems in using the app, or have any dislikes or need for additional features or improvements. \n\nThere are some specific requirements for participants: \n\n1. The app only supports Windows (10 or 11); \n2. heating must be with a gas boiler; \n3. your energy supplier must be Octopus Energy, and you must be able to connect to the Octopus API, which means that you will have to live in the UK. \n4. you must have a smart meter, configured to record energy use every 30 minutes. As a quick check that the smart meter and API is working correctly, there is a feature on the Octopus website where you can download smart meter data. Log in to your Octopus account, click your name top right, click My Energy, scroll down to \"Get your energy geek on\" you can download files of energy usage. Please download two days of energy data and attach it to your proposal, so that I can see that you have a working smart meter. \n5. during the trial, which is only active at night, you will not be able to use energy for anything outside the house, like charging EVs. \n\nTo collect the temperature data you will be provided with four Elitech RC-5+ logging thermometers. To send you these, I will need your address. Exchanging contact details is discouraged by PPH rules, but is allowed after a proposal has been accepted if it is necessary to mail equipment. Note that a similar project is also posted which differs only in that participants buy their own thermometers, receive a higher amount as a result, and do not therefore need to provide their address. \n\nA high level of computer expertise is not required but you will need to copy your API key from your Octopus account to the app, you may need to edit CSV files with Excel or LibraOffice, and install the app. As trial software it has not been possible to digitally sign it and it has had few downloads. Therefore the operating system will treat it with suspicion and advise you not to run it. You can run it against this advice by clicking “More Information” and “Run Anyway”. \n\nThe video https://youtu.be/HryknL9LGqQ gives instructions on using the app and shows what you will need to do as a participant in the field trial. \n\nCriteria for Job Completion \n\nAs trial software its difficult to be certain of how well it will work. The app calculates the HTC for each inside thermometer by three different methods. If for any one of the thermometers the results agree to within 10%, then jobs a good’un. If they don’t, then this often indicates a problem with the thermometer being close to a heating source. So I would like you to repeat the test one or two times to get a better result. Return either one project file with the results agreeing to within 10%, or three project files from three separate attempts. \n\nIt is intended that there will be five participants in each of the months November 2026 to February 2027.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T03:32:06+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Это не проект разработки, а набор участников для полевого испытания программы CoolRater: нужно жить в Великобритании, отапливать дом газовым котлом, иметь счётчик Octopus Energy и собирать ночные данные о температуре с выданными термометрами.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в этом задании какая-либо разработка или доработка ПО для заказчика, или требуется только участие в испытании?",
+    "Нужно ли писать код или интеграцию с API Octopus, или достаточно установить программу и передать данные?"
+   ]
+  },
+  "found_at": "2026-11-28T03:37:05+00:00"
+ },
+ {
+  "id": "freelancer:40839512",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/WooCommerce-Store-Development",
+  "title": "WooCommerce Store Development",
+  "description": "I’m ready to launch a brand-new WordPress site built on WooCommerce so I can sell a range of physical products that will be shipped to customers worldwide. I have a product line, branding assets, and copy ready; what I need now is a developer who can turn these materials into a fast, secure, conversion-focused online store.\n\nKey goals\n• Set up a fresh WordPress installation and configure WooCommerce from scratch \n• Craft a modern, mobile-responsive theme that reflects my brand (I have mood-board references) \n• Integrate popular payment gateways (Stripe and PayPal are must-haves) and real-time shipping calculators \n• Create product, category, and checkout pages that load quickly and are simple to navigate \n• Configure tax rules, inventory management, order notifications, and customer email templates \n• Install essential plugins only—speed, security, SEO, and backup—and fine-tune for performance \n• Ensure the site is ready for launch with test orders, shipping label generation, and basic SEO set up\n\nAcceptance criteria\n1. All core pages (home, shop, product detail, cart, checkout, account) pass Google Lighthouse scores of 90+ on mobile and desktop. \n2. At least three successful test purchases processed end-to-end with emails and shipping rates calculated correctly. \n3. No critical errors or PHP notices in the log after testing. \n4. Administrative dashboard is documented so I can add new products and manage orders myself.\n\nIf you’ve built WooCommerce stores before and can handle the full setup—from theme customization to payment and shipping integrations—I’d love to see examples of your work and hear your proposed timeline.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T03:17:04+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration",
+   "calculator",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Клиент хочет запустить интернет-магазин физических товаров с доставкой по всему миру на WordPress и WooCommerce: адаптивная тема под бренд, калькуляторы доставки, налоги, склад, email-шаблоны, оптимизация скорости (Lighthouse 90+) и инструкция для администратора. Бюджет 12 500 INR, при этом объём работ большой.",
+   "reply": "You need a fresh WordPress and WooCommerce store for selling physical products worldwide, with a responsive theme matched to your brand, real-time shipping rates, tax and inventory setup, performance tuning, and a short admin guide. I'd work in stages: installation and catalog structure first, then the theme from your mood boards, then shipping, taxes, and emails, and finally performance work, test orders, and documentation. For this scope I'd estimate two to three weeks. Two questions before I commit to a plan: which carriers and rate rules do you need, and roughly how many products and pages will the store have at launch?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен новый магазин на WordPress и WooCommerce для продажи физических товаров по всему миру: адаптивная тема в стиле вашего бренда, расчёт доставки в реальном времени, настройка налогов и склада, оптимизация скорости, а также короткая инструкция для администратора. Я бы работал поэтапно: сначала установка и структура каталога, затем тема по вашим мудбордам, потом доставка, налоги и письма, и в конце оптимизация производительности, тестовые заказы и документация. Для такого объёма я бы оценил сроки в две-три недели. Два вопроса, прежде чем я предложу план: какие перевозчики и правила тарификации нужны и примерно сколько товаров и страниц будет в магазине к запуску?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие перевозчики и правила расчёта доставки нужны (по весу, по зонам, по стоимости заказа)?",
+    "Сколько примерно товаров и страниц планируется к запуску и есть ли уже готовый набор текстов и изображений?"
+   ]
+  },
+  "found_at": "2026-11-28T03:37:05+00:00"
+ },
+ {
+  "id": "freelancer:40839506",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/excel/Part-Time-Remote-Bookkeeper-40839506",
+  "title": "Part-Time Remote Bookkeeper",
+  "description": "I’m looking for a reliable accountant who can take over our day-to-day bookkeeping and monthly bank reconciliation on a part-time, fully remote basis.\n\nWhat I need most:\n• Bookkeeping and bank reconciliation that keeps every account accurate and up-to-date.\n\nKey tasks:\n• Record all income and expense entries as they occur.\n• Reconcile bank and credit-card statements each month to spot and resolve discrepancies quickly.\n\nCurrent setup:\nAll transactions are tracked in spreadsheets—mostly Google Sheets, sometimes Excel—so you must be comfortable working in both. If you’ve moved clients from spreadsheets into QuickBooks or Xero before, let me know; that experience could be useful later even though our immediate need is to maintain the existing sheets.\n\nDeliverables each month:\n1. Clean, reconciled transaction log that ties to bank totals.\n2. A brief reconciliation summary highlighting any outstanding items requiring my approval.\n3. Updated cash-flow snapshot derived from the spreadsheet data.\n\nIdeal skills:\n• Solid understanding of double-entry bookkeeping.\n• Proven spreadsheet expertise, including formulas, pivot tables, and data validation.\n• Attention to detail and the discipline to follow a consistent naming and filing convention in Google Drive.\n\nCommunication:\nWe’ll collaborate through email and Slack, with a quick video check-in once per month. I’ll share view-only bank access plus statement downloads; you’ll update the files, flag questions, and return them on schedule.\n\nIf you’re organized, responsive, and ready to own this process, I’d love to hear from you.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T03:08:07+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Нужен удалённый бухгалтер на неполную занятость для ведения ежедневного учёта в Google Sheets/Excel и ежемесячной сверки банковских выписок. Это бухгалтерская работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли клиенту автоматизация переноса банковских выписок в таблицы, например через API банка или парсинг CSV-выписок?",
+    "Планируется ли в будущем перенос учёта в QuickBooks или Xero с интеграциями, которые можно было бы разработать?"
+   ]
+  },
+  "found_at": "2026-11-28T03:37:05+00:00"
+ },
+ {
+  "id": "freelancer:40839498",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/n8n/Commerce-Reporting-Automation",
+  "title": "n8n E-Commerce Reporting Automation",
+  "description": "I’m ready to move all of my daily data wrangling into n8n. Your task is to wire my website, Shopify store, and on-premise ERP (REST API + direct SQL access) into a single automated flow that emails me clean PDF or spreadsheet reports without any manual touch.\n\nThe first milestone is clear: every morning I should receive a report that covers \n• sales totals, best-selling products, and order numbers \n• current stock levels with low-stock alerts and “reorder now” flags \n• customer details, returns, and live order status \n\nHow you get there is up to you, but I expect well-structured n8n workflows, solid error handling, and clear documentation of every credential, webhook, and SQL query you add. Once the core reporting is solid, I’d like to see a second phase where an AI step (e.g., OpenAI or similar) reads the numbers, highlights unusual trends, and suggests next actions.\n\nDeliverables \n1. Exported n8n workflow files (.json) ready to import \n2. Sample PDF and XLSX reports matching the three data sections above \n3. A short setup guide so I can maintain and extend the flows myself \n\nIf you’ve already connected Shopify or ERP systems through n8n, or have built AI-driven analytics on top of them, tell me how you approached it—I value proven shortcuts over reinventing the wheel.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T02:56:55+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 6,
+   "summary_ru": "Клиент хочет автоматизировать ежедневные отчёты в n8n: объединить сайт, Shopify и локальную ERP (REST API и прямой SQL), чтобы каждое утро получать на почту PDF или XLSX с продажами, остатками и статусами заказов. Вторым этапом нужен ИИ-анализ трендов и рекомендаций.",
+   "reply": "You want the morning numbers (sales, stock, orders, returns) to arrive in your inbox automatically, pulled from Shopify, your website, and an ERP you reach through both REST and direct SQL. I'd build this as modular n8n workflows: one branch per source, a normalization step, then the three report sections rendered to PDF and XLSX and emailed on a schedule. Error handling would cover API rate limits, failed SQL connections, and alerts when a source returns no data, and I'd document every credential, webhook, and query so you can maintain it yourself. The core reporting milestone should take about a week, with the AI trend-analysis phase following once the reports are stable.\n\nCould you confirm which ERP and database engine you run? Also, is Shopify access through a custom app or a private token?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите, чтобы утренние цифры (продажи, остатки, заказы, возвраты) автоматически приходили вам на почту. Данные берутся из Shopify, вашего сайта и ERP, к которой вы подключаетесь и через REST API, и через прямой SQL. Я бы построил это как модульные воркфлоу n8n: отдельная ветка для каждого источника, шаг нормализации данных, затем три раздела отчёта, которые формируются в PDF и XLSX и отправляются на почту по расписанию. Обработка ошибок будет покрывать лимиты API, сбои SQL-подключения и уведомления, если источник не вернул данных. Каждый credential, webhook и запрос я задокументирую, чтобы вы могли поддерживать систему самостоятельно. Основной этап с отчётами займёт около недели, а ИИ-анализ трендов можно добавить после того, как отчёты стабилизируются.\n\nПодскажите, пожалуйста, какая у вас ERP и какая СУБД? И как предполагается доступ к Shopify: через custom app или через private token?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какая у вас ERP и какая СУБД используется для прямого SQL-доступа?",
+    "Доступ к Shopify будет через custom app или через private token?"
+   ]
+  },
+  "found_at": "2026-11-28T03:37:05+00:00"
+ },
+ {
+  "id": "freelancer:40839497",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-developmet/WhatsApp-Meta-API-Automation",
+  "title": "WhatsApp Meta API Automation",
+  "description": "I already have a verified Meta WhatsApp Business account; what I need now is a small workflow that lets me press a single “WhatsApp API” button and have three things happen behind the scenes:\n\n1. The system picks up the correct mobile number, sends out my pre-defined image plus text through the Meta API, and logs the attempt. \n2. A follow-up WhatsApp message goes out automatically right after the first delivery (per Meta template rules). \n3. All delivery details—mobile number, message IDs, timestamps, success or error—instantly appear in a Google Sheet so my team can monitor everything live.\n\nI am fine with the solution being coded in Node, Python, or any language you prefer as long as it uses the official Meta WhatsApp Cloud API and the Google Sheets API. The Google Sheet has to stay synced in real time, not batch-updated later, and it must be easy for me to swap access tokens or add new message templates without digging into the code.\n\nPlease show me past work that proves you have already handled Meta (WhatsApp) API calls, webhook setups, or similar chat-automation projects; a quick screen grab, repo link, or live demo reference is perfect. Once I see something comparable, we can talk through exact template names and hosting details.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T02:55:02+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Нужен простой workflow: одна кнопка запускает отправку изображения и текста через WhatsApp Cloud API (Meta) на нужный номер, автоматический follow-up после доставки и запись всех деталей доставки в Google Sheets в реальном времени. Токены и шаблоны должны меняться без правки кода. Бюджет 12 500 INR.",
+   "reply": "You want one button that sends your image and text to the right number through the WhatsApp Cloud API, fires an automatic follow-up after delivery, and writes every attempt (number, message IDs, timestamps, status) into a Google Sheet in real time. I'd build it in Node.js: a small service that calls the Cloud API, listens to delivery webhooks to trigger the follow-up, and pushes each event to Sheets through the Sheets API. Access tokens and template names would live in a config file or a settings tab, so you can swap them without touching the code. I estimate about a week for the core flow, including testing with your account. Two questions: which message templates are already approved in Meta, and do you have a server for hosting, or should I suggest one? You can see my live demos at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужна одна кнопка, которая отправляет ваше изображение и текст через WhatsApp Cloud API на нужный номер, автоматически запускает follow-up после доставки и записывает каждую попытку (номер, ID сообщений, время, статус) в Google Sheets в реальном времени. Я бы сделал это на Node.js: небольшой сервис, который вызывает Cloud API, слушает вебхуки о доставке для запуска follow-up и передаёт каждое событие в таблицу через Sheets API. Токены доступа и названия шаблонов будут храниться в конфигурационном файле или на отдельной вкладке настроек, поэтому их можно менять без правки кода. По срокам ориентировочно неделя для основного функционала, включая тестирование на вашем аккаунте. Два вопроса: какие шаблоны уже одобрены в Meta и есть ли у вас сервер для хостинга, или подсказать вариант? Мои живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие шаблоны сообщений уже одобрены в Meta и какие у них названия и языки?",
+    "Есть ли у вас сервер для хостинга или нужно подсказать вариант размещения?"
+   ]
+  },
+  "found_at": "2026-11-28T03:37:05+00:00"
+ },
+ {
+  "id": "freelancer:40839481",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/creative-design/Custom-Billiard-Ball-Sign",
+  "title": "Custom Billiard Ball Sign",
+  "description": "I'm looking for a creative craftsman to make a unique sign using billiard balls. The sign should display the number \"01742\" in a straight line.\n\nKey Requirements:\n- Sign must use a mix of solid and striped billiard balls.\n- The number \"01742\" needs to be arranged in one straight line.\n- Needs to be large scale, approximately 3-4 feet in height and 6-7 feet in length.\n- Preference for hollow billiard balls to reduce weight.\n\nIdeal Skills:\n- Experience with custom sign making.\n- Ability to securely mount or arrange billiard balls.\n- Attention to detail and creativity.\n\nPlease provide samples of previous work and an estimated timeline.",
+  "budget": 5000.0,
+  "budget_min": 3000.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T02:47:14+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет мастера, который изготовит большую физическую вывеску из бильярдных шаров с номером «01742» в одну линию. Это ручное изделие, а не разработка ПО.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только физическая вывеска, или заказчику также требуется какая-либо цифровая часть, например управление подсветкой?",
+    "Кто будет выполнять монтаж и доставку конструкции?"
+   ]
+  },
+  "found_at": "2026-11-28T03:37:05+00:00"
+ },
+ {
   "id": "freelancer:40839479",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/android-app-development/Android-Vedic-Astrology-App",
@@ -14950,185 +15136,6 @@
     "Какие файлы вы можете предоставить: экспорт визитки из Canva (PDF или PNG), логотип в векторе и файлы шрифтов?",
     "Куда отправлять заявки из формы: на email, в Telegram или через сервис вроде Formspree?",
     "Какой у вас хостинг и есть ли доступ к панели управления или FTP?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836585",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/project-management/Website-Workflow-Assistant",
-  "title": "Website QA & Workflow Assistant",
-  "description": "I handle all client communication for the websites I build, but I need a reliable assistant working quietly in the background to keep each project running smoothly.\n\nYour first priority will be to open every draft site on both desktop and mobile and give it a thorough pre-client check. I want absolute confidence that links, forms, and other basic functions behave exactly as expected. Buttons, menus, and page-to-page links must be clicked, tapped, and tested until nothing breaks.\n\nBeyond that immediate QA pass, you will:\n\n• Turn my meeting notes and client feedback into clear, actionable tasks for the designer, writer, and developer. \n• Keep logos, brand guidelines, images, and copy in a tidy, version-controlled folder structure so the team can always grab the latest approved file. \n• Track deadlines and revision rounds, flagging any missing assets, blockers, or unanswered questions so I can raise them with the client quickly. \n• Send me concise status snapshots that highlight what’s ready for review and where I need to step in.\n\nDeliverables for each website:\n\n1. A QA report confirming every link, form, button, menu, and critical function passes on both desktop and mobile. \n2. A task board (Trello, Asana, or similar) populated with next-step items for the team. \n3. A neatly organized asset folder, clearly labeled and dated. \n4. A one-page weekly summary outlining progress, blockers, and upcoming deadlines.\n\nIf you enjoy methodically spotting issues before clients ever see them and can keep a fast-moving project organized from first mock-up to final launch, we’ll work well together.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T07:32:21+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "landing",
-   "score": 2,
-   "summary_ru": "Заказчик ищет ассистента для постоянной работы: ручное QA-тестирование черновиков сайтов на desktop и mobile, постановка задач команде, ведение папок с ассетами, Trello/Asana и еженедельные сводки. Это операционная и административная роль, а не разработка проекта, поэтому совпадение с услугами низкое.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Это разовый проект или постоянная работа на регулярной основе, и на какой срок рассчитан бюджет в 750 USD?",
-    "Нужна ли вам техническая разработка или исправления на сайтах, или задача ограничивается ручным тестированием и организацией процессов?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40830850",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/blog-writing/Article-Remote-Collaboration-Tools",
-  "title": "Article on Remote Collaboration Tools",
-  "description": "I’d like a polished, engaging blog post that helps remote employees and freelancers choose and use the best communication and teamwork tools. Drawing on the broader theme of how distributed work is reshaping productivity, the piece should spotlight specific platforms—chat, video conferencing, project management, and cloud-based document sharing—showing readers how each one fits into a seamless workflow.\n\nThe tone needs to be friendly yet authoritative, around 1,200–1,600 words, written in clear, accessible English that speaks directly to people who split their days between home offices, co-working spaces, and coffee shops. Please weave in practical guidance such as setup tips, common pitfalls, and quick-start ideas so readers can act immediately after finishing the article. \n\nSEO is important but keyword use must feel natural; think phrases like “remote collaboration software,” “virtual team communication,” and “productivity apps for freelancers.”\n\n**Ideal Freelancer:** \n- Experience writing tech or SaaS content.\n- Ability to write in an engaging and easy-to-read tone.\n- Knowledge of SEO basics to optimize the article.\n\nDeliverables: \n• Final article in Google Docs (with editing rights enabled). \n• A short meta description (155 characters max). \n• Five tweet-length promotional snippets.\n\nI’ll review for accuracy, flow, and actionable takeaways before sign-off.",
-  "budget": 1250.0,
-  "budget_min": 750.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:23:20+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "saas"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "saas",
-   "score": 2,
-   "summary_ru": "Заказчик ищет автора для статьи в блоге (1200–1600 слов) о инструментах удалённой коммуникации и командной работы: чаты, видеосвязь, управление проектами и облачные документы. Это написание контента, а не разработка продукта.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли вам только статья, или вы также рассматриваете разработку собственного SaaS-сервиса или веб-приложения для удалённых команд?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836577",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/api-developmet/Build-Autonomous-Kalshi-Trading-Bot",
-  "title": "Build Autonomous Kalshi Trading Bot",
-  "description": "Project Title: Fully Automated Kalshi Trading Bot Development\n\nI am looking for an experienced Python developer or quantitative trading engineer to develop a fully autonomous, real-time trading bot integrated with Kalshi's live trading API.\n\nThe objective is to create a reliable system that continuously monitors prediction markets, identifies qualifying trading opportunities based on predefined criteria, and automatically executes real-money trades without manual intervention.\n\nCore Functional Requirements\n\n- Live API Integration: Connect directly to Kalshi's production environment for real-time market data, account balances, order execution, and portfolio management.\n- Automated Market Scanning: Continuously monitor available markets and identify outcomes with a market-implied probability of 70% or higher.\n- Automatic Trade Execution: Execute real-money trades without requiring manual authorization.\n- Position Sizing: Allocate up to $100 per qualifying trade, with configurable allocation amounts.\n- Concurrent Trading: Support multiple active positions simultaneously, subject to available capital.\n- Duplicate Prevention: Prevent unintended duplicate trades on the same event.\n- Capital Management: Automatically verify available funds before executing trades.\n- Risk Management: Implement configurable daily loss limits, maximum capital exposure, and automatic trading suspension thresholds.\n- Settlement Tracking: Automatically identify settled markets and calculate net profits and losses, including transaction fees.\n- Profit Management: Track daily, weekly, monthly, and cumulative profitability.\n- SMS Notifications: Provide notifications for executed trades, settlements, profits, losses, and system failures.\n- Dashboard: Provide visibility into account balances, active positions, trading history, performance metrics, and system status.\n- Emergency Shutdown: Include a manual kill switch that immediately suspends trading.\n- Continuous Operation: Support uninterrupted 24/7 operation with automatic recovery from API failures, connectivity issues, and system restarts.\n- Configurable Parameters: Allow trading criteria, allocation amounts, risk limits, and scanning frequency to be modified without rewriting the source code.\n\nRequired Developer Experience\n\n- Advanced Python development\n- Kalshi API or comparable prediction-market API integration\n- Automated trading systems\n- REST APIs and WebSockets\n- Real-time data processing\n- Financial order management systems\n- Database management\n- Cloud deployment and cybersecurity\n- Backtesting and performance analysis\n\nExisting Infrastructure\n\nI already have a Python environment established, successful Kalshi demo API authentication, market-scanning functionality, historical data collection, and preliminary simulation and backtesting scripts. The developer should evaluate the existing infrastructure and determine what can be retained or improved.\n\nExpected Deliverables\n\n- Fully functional automated trading bot\n- Successful demo and live-environment validation\n- Trading and performance dashboard\n- Complete source code and ownership\n- Installation and configuration documentation\n- Deployment instructions\n- Error-handling and recovery mechanisms\n- Secure API credential management\n\nThe final product must be a production-ready, independently operating trading system—not simply a market scanner, alert system, or paper-trading simulator. Manual intervention should only be necessary when modifying trading parameters, performing maintenance, or suspending operations.",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T07:23:08+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 3,
-   "summary_ru": "Заказчик хочет автономного Python-бота для работы 24/7 с боевым API Kalshi: поиск рынков с вероятностью от 70%, автоматические сделки до $100, лимиты риска, учёт расчётов и комиссий, SMS-уведомления, дашборд и аварийное отключение. Бюджет $250 очень мал для такого объёма работ.",
-   "reply": "You want a Python bot that runs 24/7 against Kalshi's production API. It scans markets for outcomes priced at 70% or higher, places orders of up to $100 automatically, enforces loss limits and exposure caps, tracks settlements and fees, sends SMS alerts, and includes a dashboard and kill switch. I would reuse your existing authentication and scanning code, refactor it into a service with an external config file, add persistent order and position storage, and wrap the REST and WebSocket layers with retry and reconnect logic. Everything would be validated on the demo environment before switching to live. Given the scope, I estimate 3–4 weeks for the full system. Two questions: is the $250 budget for the full scope or for a first phase, and do you have a preferred SMS provider?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен Python-бот, который работает 24/7 с боевым API Kalshi. Он ищет рынки с вероятностью исхода от 70% и выше, автоматически открывает позиции до $100, соблюдает лимиты убытков и максимальную экспозицию, учитывает расчёты и комиссии, отправляет SMS-уведомления, а также включает дашборд и кнопку аварийной остановки. Я бы использовал вашу существующую авторизацию и код сканирования, переработал бы всё в сервис с внешним конфигурационным файлом, добавил бы постоянное хранение ордеров и позиций и обернул слои REST и WebSocket логикой повторных попыток и переподключения. Всё проверялось бы на демо-среде до перехода на боевую. С учётом объёма я оцениваю работу в 3–4 недели. Два вопроса: $250 — это бюджет на весь объём или только на первый этап, и есть ли у вас предпочтительный SMS-провайдер?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Бюджет $250 рассчитан на весь объём работ или только на первый этап?",
-    "Есть ли предпочтительный SMS-провайдер для уведомлений?",
-    "Нужен ли запуск на сервере заказчика или достаточно инструкции по развёртыванию?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "kwork:3275684",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275684",
-  "title": "Устранить ошибки синхронизации 1С с сайтом на Bitrix",
-  "description": "1С:Предприятие 8.3 (8.3.24.1691) Управление торговлей, редакция 11 (11.5.17.185) \nВерсия модуля обмена 7.0.2.19 \n1С-Битрикс: Управление сайтом 25.100.400 Аспро максимум 2.3.4 \n1. В карточке Заказа в 1С есть поле \"Метод опл:\" (способы оплаты). Соответствие полей в модуле обмена 1с и Битрикса по данному полю осуществлено. Выгрузка с сайта в 1С значений этого поля происходит. Но из 1С после радактирования на сайт выгружается пустым. \n2. В карточке Заказа в 1С есть поле \"Стутус зак пок:\" (статусы заказов). Соответствие полей в модуле обмена 1с и Битрикса по данному полю осуществлено. Выгрузка с сайта в 1С и наоборот значений этого поля происходит. Но при выгрузке из 1С статуса заказа \"Выполняется\" поле \"Способ оплаты\" на стороне сайта очищается. Этого не должно быть. \nВ остальном с синхронизацией товаров и заказов проблем нет, всё работает правильно.",
-  "budget": 2000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 11:08:32",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 4,
-   "summary_ru": "Нужно устранить две ошибки синхронизации заказов между 1С:Управление торговлей и сайтом на 1С-Битрикс: поле «Метод опл» из 1С приходит на сайт пустым, а при статусе «Выполняется» способ оплаты на сайте очищается. Остальная синхронизация товаров и заказов работает.",
-   "reply": "Вы описали две ошибки в обмене заказами между 1С и Битрикс: поле «Метод опл» после редактирования в 1С попадает на сайт пустым, а при смене статуса на «Выполняется» сайт очищает способ оплаты. Скорее всего, проблема в обработчиках импорта заказов модуля обмена: значение либо не передаётся при обратной выгрузке, либо статус запускает перезапись полей заказа. Я бы проверил логику импорта на тестовой копии, нашёл место, где затирается значение, и поправил его так, чтобы синхронизация товаров и остальных полей не пострадала. На диагностику и исправление обычно уходит 1–2 дня. Есть ли у вас тестовая копия сайта и доступ к файлам модуля обмена? Дорабатывался ли он раньше? Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы описали две ошибки в обмене заказами между 1С и Битрикс: поле «Метод опл» после редактирования в 1С попадает на сайт пустым, а при смене статуса на «Выполняется» сайт очищает способ оплаты. Скорее всего, проблема в обработчиках импорта заказов модуля обмена: значение либо не передаётся при обратной выгрузке, либо статус запускает перезапись полей заказа. Я бы проверил логику импорта на тестовой копии, нашёл место, где затирается значение, и поправил его так, чтобы синхронизация товаров и остальных полей не пострадала. На диагностику и исправление обычно уходит 1–2 дня. Есть ли у вас тестовая копия сайта и доступ к файлам модуля обмена? Дорабатывался ли он раньше? Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли у вас тестовая копия сайта и 1С, на которой можно воспроизвести ошибку?",
-    "Дорабатывались ли обработчики модуля обмена (файлы в папке модуля или init.php) под ваш проект?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "kwork:3275678",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275678",
-  "title": "Прозвонить базу",
-  "description": "требуется прозвонить базу , провести краткую презентацию по скрипту, в случае интеерса записать имя и емейл. план 200 наборов-внимание ! Набор номера не = диалог!!!! (обычно это работа на 4 часа) . минимум 10 лидов. база свежая . много мобильных номеров собственников. через что звонить даем, обязательно наличие почты на гугле.",
-  "budget": 500.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 10:54:12",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 2,
-   "summary_ru": "Заказчик ищет исполнителя, который вручную обзвонит 200 номеров из свежей базы (в основном мобильные номера собственников), проведёт краткую презентацию по скрипту и соберёт имя и email заинтересованных, минимум 10 лидов. Это ручная работа по обзвону, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли какая-то разработка, например автоматизация набора или CRM для учёта лидов, или требуется только ручной обзвон?",
-    "Какой формат презентации и скрипта вы ожидаете и будет ли у меня доступ к телефонии для звонков?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "kwork:3274490",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3274490",
-  "title": "Разработка стратегии продвижения услуг парсинга",
-  "description": "Мы занимаемся автоматическим сбором данных с сайтов и сбором данных для бизнеса. \nИщем маркетинговое агентство, которое поможет выстроить стратегию развития этого направления. Важно: нам нужна не просто настройка SEO или рекламы, а комплексный маркетинг. Подробно расскажем о продукте, текущей ситуации и задачах после подписания NDA. \nЧто хотим получить — стратегию и конкретный план действий. Нужно определить, на каких сегментах клиентов сосредоточиться, какие услуги им предлагать, через какие каналы привлекать клиентов и в каком порядке проверять эти гипотезы. В плане хотим видеть приоритеты, первые шаги, ориентиры по бюджету и критерии, по которым сможем оценить результат. \nОсобенно ценим практический опыт продаж парсинга или смежных B2B IT-услуг. \nНа первом этапе нужна разработка стратегии. Участие в реализации обсудим отдельно. \nВ отклике пришлите один-два релевантных кейса. Расскажите, кому и что вы продавали, за какую часть работы отвечали и каких результатов добились. Также укажите ориентировочные сроки и стоимость подготовки стратегии.",
-  "budget": 100000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 10:36:44",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 1,
-   "summary_ru": "Компания, которая занимается парсингом и сбором данных для бизнеса, ищет маркетинговое агентство для разработки комплексной стратегии продвижения: сегменты клиентов, услуги, каналы и план действий. Это маркетинговая работа, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли вам также техническая разработка, например, сервиса или личного кабинета для парсинга, или задача только в стратегии и маркетинге?"
    ]
   },
   "found_at": "2026-11-26T08:11:17+00:00"
