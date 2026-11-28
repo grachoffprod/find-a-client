@@ -1,7 +1,7 @@
 {
  "flru": {
   "fails": 0,
-  "last_count": 59
+  "last_count": 60
  },
  "kwork": {
   "fails": 0,
@@ -17,14 +17,14 @@
  },
  "telegram": {
   "fails": 0,
-  "last_count": 204
+  "last_count": 203
  },
  "freelance_ru": {
   "fails": 0,
   "last_count": 25
  },
  "pph": {
-  "fails": 12,
+  "fails": 13,
   "last_count": 20
  },
  "guru": {
