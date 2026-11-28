@@ -1,5 +1,124 @@
 [
  {
+  "id": "freelancer:40839605",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/Forensic-Image-Analysis-Report-EOD",
+  "title": "Forensic Shadow Analysis & Report by EOD Sunday, 29th November.",
+  "description": "I am preparing expert evidence for an upcoming matter in New South Wales, Australia and need a forensic-imagery specialist for a very simple ask that relates to a small subset of frames extracted from a short .MOV. \n\nYour brief is to determine: \n•whether the shadow length of a garbage bin in the object is consistent with the recorded time and GPS location.\n\nYou will receive the original .MOV and the example frame - but will be expected to hash the MOV and create the frames yourself, documenting your steps such that repetition is allowed. Complete metadata and binary examinations have already been performed, so no repeat work is required there.\n\nDeliverable 1: assesment of each of the frames and assessment of capture timing as outlaid below\nDeliverable 2 (dependent on deliverable 1): If your findings show a capturer v .MOV metadata mismatach you can stand by by explaining how you came to your result (and how any findings re your shadow assessment can be assured as being distinct from encoding), I will require court-ready expert report that meets NSW evidentiary standards, that clearly sets out methodology, findings, and your professional opinion on each of the above points including the professional tools used (e.g., Amped FIVE, Photoshop Forensics, MATLAB, Sun-position calculators), and any assumptions that must be documented for the court.\n\nIndex of checks required and 'Opinion' on whether the observations could be naturally occurring in a live.photo to MOV re-endcode. \nframe_0004.jpg, Opinion: next to the approaching white sedan, to the rear of the white parked white van, there is a green wheelie bin / large green trash bin. Assess if the shadow appears to be symmetrical to the bin itself. Assess the shadow's length (at the point of truncation by the approaching VW) for the February date and time in the MOV's metadata. \n\nTrigonometry capability is also advantageous given the calculation of the shadow lengths observed and expected would require it. \n\nI am happy to pay a premium if certifications or qualifications that would strengthen the report are held. If you do not hold such qualifications / certifications, I will remain at the lower end of the budget window.",
+  "budget": 300.0,
+  "budget_min": 100.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T05:24:59+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "calculator"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "calculator",
+   "score": 1,
+   "summary_ru": "Клиент ищет судебного эксперта по forensic-анализу изображений: проверить, соответствует ли длина тени от мусорного бака времени и GPS-координатам съёмки, и подготовить экспертное заключение для суда в Новом Южном Уэльсе. Это экспертная работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь разработка программного инструмента для расчёта длины тени, или заказчику требуется именно экспертное заключение специалиста по forensic-изображениям?"
+   ]
+  },
+  "found_at": "2026-11-28T05:28:58+00:00"
+ },
+ {
+  "id": "freelancer:40839606",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/customer-service/Phone-Call-Sales-Representative",
+  "title": "Phone Call Sales Representative",
+  "description": "I run a growing company that sells directly to individual consumers and I’d like a reliable partner who can pick up the phone, introduce our offer with confidence, and convert curious prospects into satisfied buyers. Your core focus will be outbound and follow-up calls to individuals who have shown interest or match our target profile. \n\nHere’s what success looks like for me: \n• You quickly learn our product benefits, objections you’re likely to hear, and the basic call flow I already use. \n• You maintain clear notes on every conversation so we always know where each prospect stands. \n• You hit agreed-upon daily call volumes and share concise updates at the end of each day so we can adjust strategy together. \n\nI’ll provide the lead lists, a proven script outline, and access to our preferred CRM; you bring a friendly phone presence, solid persuasion skills, and the discipline to keep dialing. If you’ve closed consumer sales over the phone before, I’d love to hear about your results and the tools you’re comfortable with. \n\nLet’s connect and see how we can turn more prospects into happy customers.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T05:23:49+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Клиент ищет исполнителя для исходящих продаж по телефону частным покупателям: звонки, работа со скриптом, ведение заметок и ежедневная отчётность. Это работа телемаркетолога, а не разработка, поэтому проект не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли клиенту разработка или настройка CRM, которой будут пользоваться менеджеры, или ему нужен только человек для звонков?",
+    "Требуется ли интеграция CRM с телефонией или скриптами для звонков?"
+   ]
+  },
+  "found_at": "2026-11-28T05:28:58+00:00"
+ },
+ {
+  "id": "freelancer:40839596",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-apis/Google-CASA-Verification-Support",
+  "title": "Google CASA Verification Support",
+  "description": "I have a working web app (PHP + MySQL, hosted on Hostinger, live at portal.blindforward.in). Clients sign in with Google and approve the gmail.readonly scope. The server then forwards selected emails to their accountant. The app does not store any email content.\n\nThe app is already built and working. I only need help with Google's verification and the CASA (Cloud Application Security Assessment) Tier 2 step. I do not need a new build.\n\nWhat I need:\n1. Review my app against the CASA Tier checklist and tell me what will fail.\n2. Fix any security findings in the PHP code and server setup (HTTPS/headers, session and cookie security, input validation, token encryption, secrets handling).\n3. Guide me through the scan with a Google-authorized CASA assessor (such as TAC Security or NetSentries), fix the scan findings, and get the final validation letter.\n4. Help me submit correctly in Google Cloud Console (scope justification, demo video, privacy policy) until restricted-scope verification is approved.\n\nPlease bid only if you have done Google OAuth verification or CASA before. Share a short example of a similar project.\n\nPayment: fixed price in milestones: (1) gap review and fix list, (2) fixes done and scan passed, (3) Google verification approved.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T05:09:42+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 4,
+   "summary_ru": "Клиент просит проверить существующее PHP/MySQL-приложение с доступом к gmail.readonly, исправить проблемы безопасности и помочь пройти Google CASA Tier 2 и верификацию ограниченных scope. Новая разработка не нужна. Требование клиента: исполнитель уже должен был проходить Google OAuth-верификацию или CASA.",
+   "reply": "Hi, you have a PHP/MySQL app on Hostinger that reads Gmail through gmail.readonly and needs to pass Google's restricted-scope review with a CASA Tier 2 scan. I'd start with a written gap review against the CASA checklist so you know what will fail before the assessor sees it. Then I'd fix the code and server issues you listed: HTTPS and security headers, session and cookie flags, input validation, encryption of stored OAuth tokens, and moving secrets out of the codebase. I expect the gap review and fix list in about 3–5 days.\n\nTo be clear, I haven't gone through Google OAuth verification or a CASA assessment myself, so I'd only take the technical hardening and leave the assessor and submission steps to you or a specialist you trust. Could you share read access to the codebase? Have you already booked an assessor?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! У вас PHP/MySQL-приложение на Hostinger, которое читает Gmail через gmail.readonly и должно пройти проверку Google для ограниченных scope с CASA Tier 2. Я бы начал с письменного анализа разрыва по чек-листу CASA, чтобы вы заранее знали, что не пройдёт проверку. Затем я исправил бы замечания по коду и серверу из вашего описания: HTTPS и заголовки безопасности, флаги сессий и cookie, валидацию входных данных, шифрование сохранённых OAuth-токенов и вынос секретов из кодовой базы. Ориентировочный срок на анализ и список исправлений — 3–5 дней.\n\nВажно: сам я не проходил верификацию Google OAuth и оценку CASA, поэтому взялся бы только за техническое усиление безопасности, а шаги с оценщиком и подачей оставил бы вам или специалисту, которому вы доверяете. Можете открыть доступ на чтение к кодовой базе? Вы уже забронировали оценщика?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можете открыть доступ на чтение к кодовой базе, чтобы я смог сделать анализ разрыва?",
+    "Вы уже забронировали оценщика CASA или ещё выбираете?"
+   ]
+  },
+  "found_at": "2026-11-28T05:28:58+00:00"
+ },
+ {
+  "id": "freelancer:40839581",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/aws-lambda/Informational-Lead-Generation-Website",
+  "title": "Informational Lead-Generation Website Build",
+  "description": "I’m ready to commission a clean, modern website that showcases my business and turns visitors into genuine enquiries. The site’s core purpose is to present who we are, what we do and—most importantly—make it effortless for potential customers to reach out.\n\nHere’s what I have in mind:\n• A polished, mobile-responsive layout that quickly communicates our value. \n• Clear calls-to-action on every page—prominent contact details, enquiry form and clickable phone/email links. \n• Key sections: homepage, services or portfolio overview, about us, testimonials and a dedicated contact page. \n• Fast loading, SEO-friendly structure and Google Analytics set-up so I can track enquiry sources. \n• Simple content management (WordPress, Webflow or another intuitive CMS) so I can update text and images myself after launch.\n\nI’ll supply branding assets and copy; you’ll handle the build, basic on-page optimisation and make sure everything works smoothly across devices and browsers. Once the site is live and tested, a brief walkthrough video or call showing me how to edit content will complete the project.\n\nIf this sounds like a fit, let’s discuss timeline and get started.",
+  "budget": 1250.0,
+  "budget_min": 750.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T05:08:26+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Заказчику нужен современный адаптивный сайт-визитка с главной, услугами, разделом «О нас», отзывами и контактами, формой заявки, ссылками для звонка и email, настройкой Google Analytics и простой CMS для самостоятельного редактирования. Бюджет низкий, 1250 INR.",
+   "reply": "You need a clean, mobile-responsive business website with a homepage, services, about, testimonials and a contact page, plus a visible enquiry form, click-to-call and email links, Google Analytics, and an easy CMS for editing after launch. I would build it on a modern stack with AI-assisted development, which keeps delivery fast. The work covers the responsive layout, basic on-page SEO, analytics setup, cross-browser testing, and a walkthrough of editing. Once I have your branding and copy, I can deliver the site in about 5–7 days. Which CMS do you prefer, WordPress or Webflow? And how many pages do you need beyond the five listed? Live demos are at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен аккуратный адаптивный сайт-визитка с главной страницей, услугами, разделом «О нас», отзывами и контактами, а также заметной формой заявки, ссылками для звонка и email, Google Analytics и простой CMS для редактирования после запуска. Я бы сделал его на современном стеке с ИИ-ассистентами в разработке, что ускоряет работу. В задачу входят адаптивная верстка, базовая SEO-оптимизация страниц, настройка аналитики, проверка в разных браузерах и инструкция по редактированию. Когда получу брендинг и тексты, смогу сдать сайт примерно за 5–7 дней. Какую CMS вы предпочитаете: WordPress или Webflow? И сколько страниц нужно помимо пяти перечисленных? Живые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какую CMS вы предпочитаете: WordPress или Webflow?",
+    "Сколько страниц нужно помимо главной, услуг, «О нас», отзывов и контактов?"
+   ]
+  },
+  "found_at": "2026-11-28T05:28:58+00:00"
+ },
+ {
   "id": "freelancer:40839562",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/user-interface-ia/Vedic-Astrology-Kundli-Android-App",
@@ -15017,129 +15136,6 @@
    "questions": [
     "Бюджет 75 000 INR относится ко всему объему работ или только к первому этапу?",
     "Есть ли у вас готовый UI/UX-дизайн или его нужно включить в работу?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836607",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-content-creation/Long-Term-Collaboration-Partner",
-  "title": "Long-Term AI Collaboration Partner",
-  "description": "I’d like to team up with someone dependable and curious so we can learn and test AI ideas together. We’ll start by creating a small tool that generates or improves written content—think of a lightweight writing assistant that taps an API such as OpenAI or Claude, takes a prompt, and returns polished copy.\n\nFirst milestone \n• A working prototype (CLI, web, or plugin—your choice) that accepts text, calls an AI model, and returns an improved version. \n• Clean, well-commented code with a brief README explaining setup, usage, and possible next tweaks.\n\nFrom there we can iterate on new experiments, explore additional AI tools, and gradually build out a suite of mini-projects. What matters to me is clear, timely communication, honesty about any blockers, and a genuine interest in growing skill-sets together—not deep expertise from day one.\n\nIf this sounds like the kind of collaborative learning environment you’d enjoy, drop me a short message telling me a bit about yourself, your time zone, and one AI idea you’re excited to try. Looking forward to meeting you!",
-  "budget": 50.0,
-  "budget_min": 25.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T07:43:01+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 4,
-   "summary_ru": "Клиент ищет долгосрочного партнёра для совместных AI-экспериментов. Первый этап: прототип инструмента для улучшения текста, который принимает текст, отправляет его в API OpenAI или Claude и возвращает отредактированную версию, с понятным кодом и README. Бюджет небольшой (50 USD), а часть описания касается общения, а не конкретного результата.",
-   "reply": "You're looking for a lightweight writing assistant: a prototype that takes text, sends it to an AI model like OpenAI or Claude, and returns a polished version, with clean code and a short README. I'd build it as a small web app or CLI on a modern stack, keep the API key server-side, add a simple prompt template with tone options, and comment the code throughout. With AI-assisted development I can usually get a working first version within 2–3 days, then move on to your next experiments. Two quick questions: do you prefer a web page or a CLI for the first version, and which model provider do you already have access to? You can see my work with live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен лёгкий ассистент для написания текстов: прототип, который принимает текст, отправляет его в AI-модель вроде OpenAI или Claude и возвращает отредактированную версию, с чистым кодом и коротким README. Я бы сделал небольшое веб-приложение или CLI на современном стеке, хранил API-ключ на сервере, добавил простой шаблон промпта с вариантами тона и подробно прокомментировал код. С помощью AI-ассистентов в разработке первую рабочую версию обычно получается сделать за 2–3 дня, после чего можно переходить к следующим экспериментам. Два быстрых вопроса: что вы предпочитаете для первой версии, веб-страницу или CLI, и к какому провайдеру модели у вас уже есть доступ? Мои работы с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Что вы предпочитаете для первой версии: веб-страницу или CLI?",
-    "К какому провайдеру AI-модели (OpenAI, Claude или другой) у вас уже есть доступ?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836604",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/automation/PEB-STAAD-Pro-Model-Validation",
-  "title": "PEB STAAD.Pro Model Validation Expert",
-  "description": "# Freelance PEB Structural Design Engineer – STAAD.Pro Model Validation\n\n**About NirmanIQ**\n\nNirmanIQ is building an AI-powered engineering automation platform for the construction industry. We are developing automation workflows for Pre-Engineered Buildings (PEB), covering parametric inputs, structural model generation, STAAD.Pro analysis and design optimisation, and proposal-stage engineering outputs.\n\n**What we need**\n\nWe are looking for an experienced freelance PEB structural engineer to help validate generated engineering models and outputs, identify gaps, and provide practical guidance to improve our automation workflows.\n\n**Scope of work**\n- Review STAAD.Pro models generated by our platform against approved project baselines.\n- Validate structural modelling assumptions, loading, load combinations, bracing and member design.\n- Review steel design outputs with reference to IS 800 and relevant applicable design standards.\n- Identify discrepancies and explain the engineering reasons behind them.\n- Recommend corrections to structural modelling and automation logic.\n- Provide technical guidance to our development team when engineering questions arise.\n\n**Required experience**\n- 8+ years of hands-on PEB / industrial steel structure design experience.\n- Strong working knowledge of STAAD.Pro.\n- Practical experience with IS 800 steel design.\n- Experience with portal frames, bracing systems, purlins, girts and industrial buildings.\n- Ability to independently review engineering outputs and explain design decisions.\n\n**Engagement model**\n- Freelance, assignment-based engagement.\n- Initial paid evaluation assignment using one completed PEB project.\n- Potential for continued technical consulting and validation assignments based on mutual fit.\n\n**To apply, please share**\n- Relevant PEB project experience.\n- Your experience with STAAD.Pro and IS 800.\n- Types of structures you have designed.\n- Your expected hourly or project-based rate.",
-  "budget": 250000.0,
-  "budget_min": 150000.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:40:05+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 2,
-   "summary_ru": "Клиент ищет фрилансера-инженера-конструктора PEB с 8+ годами опыта в STAAD.Pro и IS 800 для валидации моделей, которые генерирует их платформа автоматизации. Задача требует инженерной экспертизы в строительном проектировании, а не разработки ПО.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли вам разработка или доработка самой платформы автоматизации (например, интеграция с STAAD.Pro через API или скрипты генерации моделей), или только инженерная экспертиза?",
-    "Есть ли у вас техническое задание на интерфейс обмена данными между вашей платформой и STAAD.Pro?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836601",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/unreal-engine/Fighter-Teaser-Prototype",
-  "title": "UE5 1v1 Fighter Teaser Prototype",
-  "description": "I need a short-run Unreal Engine 5 prototype that can carry a trailer on its own. Think Bloody Roar: two default mannequins—Wolf and Lion—duking it out in a dark, gritty underground arena until a filled power meter lets each one erupt into beast form. The most polish must go into those dramatic transformations and the supporting visual effects; every particle, shader flash, camera shake and light flicker should scream “fund this game” when cut into the teaser.\n\nScope and timeframe \n• One arena styled like an illicit fight pit: grimy materials, harsh spotlights, smoky atmosphere \n• Core combat loop in local 1 v 1: combos, throws, guard, health bars, and a simple CPU opponent \n• Mid-match power-meter system that, once full, triggers the cinematic human-to-beast transformation (no meter, no morph) \n• Strong cinematic camera scripting so hits read powerfully and the arena feels alive \n• All animation and rigging may stay on the stock UE5 mannequins—this is a teaser, not final art\n\nDeliverable package \n1. Playable Windows build and the complete UE 5 project \n2. Short capture sequence (or instructions) showing off beast transformations for the trailer \n3. Basic documentation on controls, blueprints/C++ modules, and how to swap assets if we decide to move beyond mannequins\n\nAcceptance criteria \n– Transformations fire only when the meter is full and always complete without clipping \n– Visual effects layer cleanly across Epic’s base mannequin materials \n– 60 fps on a mid-range PC at 1080p \n– No critical crashes in a five-round test loop\n\nWhen you reply, please link any UE 5 action or fighting prototypes you’ve built and confirm you are comfortable working entirely with mannequins for this teaser phase.",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T07:36:59+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "mvp",
-   "score": 2,
-   "summary_ru": "Заказчик ищет прототип файтинга на Unreal Engine 5 (1 на 1, Wolf и Lion на стандартных манекенах) для тизер-трейлера с акцентом на трансформации в зверей и визуальные эффекты. Игровой движок UE5 не входит в услуги Yakov.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли у вас опыт работы с Unreal Engine 5 или хотя бы демо-проекты на нём?",
-    "Нужна ли сборка под Windows как единственный формат поставки, или допускаются веб-версии?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836599",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/website-design/commerce-Website-Development-40836599",
-  "title": "E-commerce Website Development",
-  "description": "#MAGITHI – Complete E-commerce Website Development\n\nWe are looking for an experienced Full-Stack Developer to develop a professional, secure and mobile-responsive E-commerce website for our organic and traditional food products brand, MAGITHI.\n\n**Project Budget:** ₹8,000 Maximum (Fixed Budget)\n\n### 1. Technology Requirements\n- Frontend: React.js / Next.js\n- Backend: Next.js API / Node.js\n- Database: MySQL (Preferred) / SQL Server (Acceptable)\n- Mobile, Tablet and Desktop Responsive.\n\n### 2. Website Design & UI/UX\n- Premium, clean and professional organic brand design.\n- White/Cream background with Forest Green and Black theme.\n- Use our existing MAGITHI logo without modification.\n- Professional homepage, banners, product categories and product suggestions.\n- Responsive product listing and detailed product pages.\n\n### 3. Product & Inventory Management\n- Initially 20 products, expandable to 50+.\n- Product categories and multiple images.\n- Pack-size variations (50g, 100g, 250g, 500g, 1kg).\n- Individual pricing, SKU and stock management.\n- Product descriptions, ingredients and details.\n- Discounted pricing and stock availability.\n\n### 4. Customer Features\n- Registration, login and guest checkout.\n- Customer profile and delivery addresses.\n- Shopping cart and Buy Now.\n- Order history and order tracking.\n\n### 5. Online Payment Integration\n- UPI, Debit/Credit Cards and Net Banking.\n- Razorpay / Cashfree or suitable Indian payment gateway.\n- Secure server-side payment verification.\n- Payment confirmation and failure handling.\n- **ONLINE PAYMENT ONLY – COD NOT AVAILABLE.**\n\n### 6. Shipping & Free Shipping\n- India-wide shipping support.\n- Configurable shipping charges.\n- Initial Free Shipping offer: Orders above ₹800.\n- Green FREE SHIPPING badges on eligible product pages.\n- Dynamic cart message: \"Add ₹XXX more to unlock FREE SHIPPING!\"\n- Automatic shipping charge calculation.\n- Free Shipping message and ₹0 shipping at checkout.\n- Admin control to manually change shipping charges and free-shipping threshold.\n- PIN code checking only if required.\n\n### 7. Admin Dashboard\n- Product, category and inventory management.\n- Order and customer management.\n- Payment status and transaction details.\n- Shipping charge and Free Shipping configuration.\n- Coupons and promotional offers.\n- Sales and inventory reports.\n\n### 8. Other Important Features\n- WhatsApp customer support and order notifications.\n- Email notifications where feasible.\n- Order receipts and PDF invoices.\n- Future GST compatibility.\n- SEO-friendly website.\n- Google Analytics, Search Console and Meta Pixel.\n- SSL security, database backup and customer data protection.\n\n### 9. Source Code & Ownership\n- Complete frontend and backend source code.\n- Complete database and backup.\n- Deployment on our hosting.\n- Admin credentials and documentation.\n- Post-launch bug-fix support.\n- Complete project ownership and handover.\n\n### 10. Budget & Important Conditions\n\nMaximum development budget: **₹8,000 Fixed.**\n\n- Prefer MySQL and open-source technologies to minimize recurring costs.\n- Domain and hosting will be provided by us.\n- No unnecessary paid plugins or subscriptions.\n- All additional and recurring costs must be disclosed before development.\n- No extra development charges without our prior written approval.\n\n### IMPORTANT – READ BEFORE SUBMITTING YOUR PROPOSAL\n\n**A detailed PDF containing the complete website development requirements, technical specifications, functional features, design guidelines, shipping rules, payment requirements, deliverables, testing criteria and commercial conditions is attached to this project.**\n\nPlease download and carefully review the attached PDF before submitting your quotation.\n\nYour proposal must clearly mention:\n1. Which features are fully included.\n2. Which features are partially included or excluded.\n3. Any additional or recurring costs.\n4. Estimated delivery time and milestones.\n5. Post-launch support period.\n6. Confirmation that complete source code and database will be handed over.\n\n**Important:** All requirements in the attached PDF must be reviewed and agreed upon before development begins. Features already specified in the PDF must not later be treated as additional scope. Any extra charges or scope changes require our written approval before implementation.\n\nWe are looking for a reliable developer who can deliver quality work with transparent pricing and proper communication.\n\n**MAGITHI – Grow Naturally Everyday.**",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:35:52+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 3,
-   "summary_ru": "Нужен адаптивный интернет-магазин для бренда органических продуктов MAGITHI: каталог с фасовками, личные кабинеты, корзина и оформление заказа, админ-панель, правила доставки с бесплатной доставкой от порога, уведомления в WhatsApp и на email. Стек: React/Next.js и MySQL. Бюджет заявлен как 8 000 ₹ (в объявлении также указано 12 500 ₹), а объём работ большой.",
-   "reply": "You need a responsive online store for MAGITHI: a catalog with pack-size variants and stock tracking, customer accounts, cart and checkout, an admin panel, shipping rules with a free-shipping threshold, and WhatsApp and email notifications, built on Next.js with a MySQL database. I would start with the catalog, cart and admin panel, then add checkout, notifications and reports, using open-source components to keep recurring costs low. The core store should fit the budget. Extras from the PDF, such as full analytics setup, coupons or GST-ready invoicing, may need to be marked partial or excluded, and I would list every recurring cost in the quote. My estimate is about 3 weeks for the first version, with milestones after each stage and a short post-launch bug-fix period. Live demos are at https://grachoffprod.github.io/portfolio/\n\nCould you confirm whether the 8,000 or 12,500 figure is the final budget? Also, will the PDF scope be shared before I submit the quote?\n\nYakov",
-   "reply_ru": "Вам нужен адаптивный интернет-магазин для MAGITHI: каталог с фасовками и учётом остатков, личные кабинеты, корзина и оформление заказа, админ-панель, правила доставки с порогом бесплатной доставки, уведомления в WhatsApp и на email. Фронтенд и бэкенд — на Next.js, база — MySQL. Я бы начал с каталога, корзины и админ-панели, затем добавил оформление заказа, уведомления и отчёты, используя open-source компоненты, чтобы снизить регулярные расходы. Основной функционал магазина должен уложиться в бюджет. Дополнительные пункты из PDF, например полная настройка аналитики, купоны или счета с учётом GST, возможно, придётся отметить как частично включённые или исключённые, а все регулярные расходы я бы перечислил в смете. Оценка: примерно 3 недели на первую версию, с контрольными точками после каждого этапа и коротким периодом исправления ошибок после запуска. Живые демо: https://grachoffprod.github.io/portfolio/\n\nПодскажите, 8 000 или 12 500 ₹ — итоговый бюджет? И пришлёте ли вы PDF с описанием объёма работ до подачи сметы?\n\nYakov",
-   "questions": [
-    "Какой бюджет окончательный: 8 000 ₹ (как в описании) или 12 500 ₹ (как указано в карточке проекта)?",
-    "Будет ли PDF с техническим заданием доступен до подачи предложения?",
-    "Какой хостинг и база MySQL будут использоваться для развёртывания?"
    ]
   },
   "found_at": "2026-11-26T08:11:17+00:00"
