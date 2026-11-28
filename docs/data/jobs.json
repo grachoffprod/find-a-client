@@ -1,5 +1,95 @@
 [
  {
+  "id": "freelancer:40839413",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/appointment-setting/Copier-Sales-Appointment-Setter",
+  "title": "Copier Sales Appointment Setter",
+  "description": "I need an experienced caller to set appointments for our sales representatives. You will be reaching out to small offices with 10–50 employees in the U.S. \n\nKey Tasks:\n- Call prospects to set appointments for sales reps\n- Focus on small offices (10-50 employees)\n- Gather information on decision-makers\n\nIdeal Skills and Experience:\n- Proven telemarketing or sales experience\n- Strong communication and persuasion skills\n- Ability to manage rejection and stay motivated\n\nPlease include your relevant experience in your application.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T00:41:52+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Нужен живой телемаркетолог, который будет обзванивать небольшие офисы в США и назначать встречи для торговых представителей копировальной техники. Это холодные звонки, а не разработка, поэтому проект не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-28T00:49:19+00:00"
+ },
+ {
+  "id": "freelancer:40839411",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/google-sheets/Inspection-BPO-Tracking-Sheet",
+  "title": "Inspection & BPO Tracking Sheet",
+  "description": "Our three-person inspection and BPO crew needs one Google Sheet that keeps every assignment, payment, photo shoot, and profit figure in plain sight.\n\nWorkflow \n• A single dispatcher records each new inspection or BPO and assigns it to the proper inspector and photographer. \n• All of us can edit the same sheet to log progress, mark tasks complete, and enter actual income and expenses—so numbers stay current without separate files or emails.\n\nWhat the sheet must do \n1. House a master table for every job: client, address, assignment & due dates, status drop-down, fee, expected expense, and an automatic profit/loss column. \n2. Offer a linked view for photographer appointments that highlights missing photos. \n3. Track invoices: amount, payment due date, date received, and roll those figures into overall profit/loss. \n4. Trigger automatic alerts: \n • Upcoming or overdue assignment due dates. \n • Payments that are due or overdue. \n • Photographer appointments that are missing photos. \n Alerts can be color-coded on the sheet and/or emailed via Google Apps Script.\n\nTech notes \nEverything lives in Google Sheets. If Apps Script is required for alerts or dashboards, include well-commented code so we can tweak it later.\n\nDeliverables \n• Fully built Google Sheet (shared for editing). \n• Attached Apps Script for automated alerts. \n• Quick-start guide showing how to add a job, update status, and adjust alert timing.\n\nAcceptance criteria \nWhen sample data is entered, the sheet must assign work in under a minute, send/flag the specified alerts, and calculate accurate profit or loss per assignment and in total.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T00:39:00+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 6,
+   "summary_ru": "Нужна общая Google-таблица для трёхчеловечной команды инспекций и BPO: учёт заданий, назначений фотографов, счетов и прибыли/убытков, а также оповещения о сроках, неоплаченных счетах и отсутствующих фото. Оповещения можно выделять цветом и отправлять по email через Google Apps Script.",
+   "reply": "You need one shared Google Sheet covering assignments, photographer appointments, invoices and profit, with alerts for due dates, unpaid invoices and missing photos. I would build a master job table with a status dropdown and automatic profit/loss, a linked photographer view that flags missing photos, and invoice tracking that rolls into totals. Dispatch would be a single-row entry with dropdowns for inspector and photographer, so assignment takes well under a minute. Alerts would use conditional formatting plus a commented Apps Script for email notifications with adjustable timing. Expect a working version with sample data in about 4 days, plus the quick-start guide.\n\nDo you want alert emails going to everyone or only the dispatcher? And should photographer assignments be fixed per inspector or chosen per job?\n\nLive demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужна общая Google-таблица, которая охватывает задания, назначения фотографов, счета и прибыль, с оповещениями о сроках, неоплаченных счетах и отсутствующих фото. Я бы сделал главную таблицу заданий с выпадающим списком статусов и автоматическим расчётом прибыли/убытков, связанное представление для фотографов, которое отмечает отсутствующие фото, и учёт счетов, который суммируется в итоги. Назначение работы делается одной строкой с выпадающими списками инспектора и фотографа, поэтому занимает меньше минуты. Оповещения будут реализованы условным форматированием и откомментированным скриптом Apps Script для email-уведомлений с настраиваемым временем. Рабочая версия с тестовыми данными будет готова примерно за 4 дня, плюс краткое руководство по быстрому старту.\n\nНужно ли отправлять письма всем или только диспетчеру? И должны ли фотографы закрепляться за инспекторами или выбираться для каждого задания?\n\nЖивые демо есть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Нужно ли отправлять email-оповещения всем трём участникам команды или только диспетчеру?",
+    "Фотографы должны закрепляться за инспекторами или выбираться для каждого задания отдельно?"
+   ]
+  },
+  "found_at": "2026-11-28T00:49:19+00:00"
+ },
+ {
+  "id": "freelancer:40839410",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/git/Laravel-Bug-Fixes-Enhancements",
+  "title": "Laravel Bug Fixes & Enhancements",
+  "description": "I'm looking for an experienced Laravel developer to review an existing Laravel web application, identify issues and fix bugs to improve its stability and functionality.\n\nScope of Work:\n- Investigate and fix existing Laravel application errors and bugs.\n- Resolve issues in controllers, models, routes and database queries.\n- Fix frontend issues involving Blade, JavaScript, HTML and CSS.\n- Troubleshoot API and form submission problems.\n- Identify and fix database-related issues.\n- Improve application performance where necessary.\n- Test the affected features and ensure existing functionality remains intact.\n\nTechnical Requirements:\n- Strong experience with PHP and Laravel.\n- Good knowledge of MySQL.\n- Experience with REST APIs, JavaScript and frontend debugging.\n- Familiarity with Git and debugging tools.\n- Ability to understand and work with an existing codebase.\n\nDeliverables:\n- All agreed bugs fixed.\n- Tested and working application.\n- Updated source code.\n- Brief summary of changes made.\n\nAdditional Information:\nGit access and application details will be provided to the selected freelancer. Please explain your Laravel experience and your approach to debugging existing applications when submitting your bid.\n\nI'm looking for someone reliable who can communicate clearly and deliver quality work.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T00:35:15+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 4,
+   "summary_ru": "Клиент ищет Laravel-разработчика для аудита существующего веб-приложения: нужно найти и исправить баги в контроллерах, моделях, маршрутах, запросах к MySQL, Blade/JS/CSS и API, а также улучшить производительность без поломки текущего функционала. Бюджет низкий (1500 INR), но задача понятная и подходящая.",
+   "reply": "From your brief, you need an existing Laravel app reviewed and its bugs fixed across controllers, models, routes, database queries, Blade/JS front-end, and API/form submissions, without breaking what already works. My approach: get Git access, reproduce each reported issue, fix them in small, clearly described commits, then test the affected features before handing the code back with a summary of changes. I'd start with a quick audit to confirm the list of issues and scope against the budget. For a clearly defined list of bugs, I can start right away and give you a timeline once I've reviewed the codebase. Two questions: roughly how many bugs are on your list, and is there a staging environment I can test against? You can see my work with live demos at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Судя по описанию, нужно проверить существующее Laravel-приложение и исправить баги в контроллерах, моделях, маршрутах, запросах к базе данных, Blade/JS на фронтенде и в отправке форм и API, не сломав уже работающий функционал. Мой подход: получить доступ к Git, воспроизвести каждую проблему, исправить их небольшими понятными коммитами, затем протестировать затронутые функции и передать код вместе с описанием изменений. Я бы начал с быстрого аудита, чтобы подтвердить список проблем и объём работ относительно бюджета. Для чётко описанного списка багов могу начать сразу и назвать сроки после изучения кодовой базы. Два вопроса: примерно сколько багов в списке и есть ли staging-окружение, на котором можно тестировать? Посмотреть мои работы с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Примерно сколько багов в вашем списке и есть ли уже приоритеты?",
+    "Есть ли staging-окружение или тестовая база, на которой можно проверять исправления?"
+   ]
+  },
+  "found_at": "2026-11-28T00:49:19+00:00"
+ },
+ {
   "id": "freelancer:40839376",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/customer-service/Real-Estate-Appointment-Setter-Calls",
@@ -15036,97 +15126,6 @@
    "reply_ru": "",
    "questions": [
     "Нужна ли здесь разработка, например автоматизация импорта банковских выписок в Google Sheets через скрипты или интеграция с банком, или нужен только бухгалтерский специалист?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836533",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Urgent-PHP-Payment-Layout-Fixes",
-  "title": "Urgent PHP Payment and Layout Fixes -- 2",
-  "description": "Urgent PHP Developer Required – 2 Bug Fixes (5–6 Hours)\n\nBudget: Maximum ₹1,000 (Fixed Price)\nDeadline: 5–6 Hours – Urgent\n\nWe urgently require an experienced PHP/MySQL developer to fix two issues on our live website https://svcsm.org.\n\nIssue 1: Student Registration & Payment Gateway\n\nThe Student Registration form on our Franchise Portal is not properly redirecting to the Payment Gateway after form submission. Registration fee payment is not being completed.\n\n- The registration and payment process was working earlier.\n- The issue appeared after recent updates related to the State Coordinator Panel.\n- Relevant files include \"student.php\" and \"std_payment_process.php\".\n- Error logs have already been checked, but no relevant recent error was found.\n\nRequired: Identify the root cause and restore the complete Student Registration → Order ID → Payment Gateway flow.\n\nIssue 2: Certificate & Marksheet Layout\n\nThere is an issue with the layout/design of the generated marksheet and certificate.\n\nRequired: Fix the existing certificate/marksheet layout issue without disturbing previously generated certificates or marksheets. Any changes must apply only where required and must not affect existing records/templates unnecessarily.\n\nRequirements\n\n- Fix both issues within 5–6 hours.\n- Work only on the specific bugs mentioned above.\n- No website redevelopment is required.\n- Maintain backup before modifying files.\n- Test Student Registration and Payment Gateway flow.\n- Verify certificate/marksheet layout after correction.\n- Provide a brief report of files modified and the fixes applied.\n\nBudget\n\nMaximum Fixed Budget: ₹1,000 for both issues.\n\nOnly experienced PHP/MySQL developers who can start immediately and complete the work within the required time should apply.\n\nImmediate availability is required.",
-  "budget": 400.0,
-  "budget_min": 100.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T06:50:50+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "fixes",
-   "score": 3,
-   "summary_ru": "Нужно исправить два бага на живом PHP/MySQL-сайте svcsm.org: регистрация студентов перестала перенаправлять на платёжный шлюз после обновления панели координатора, и есть проблема с версткой генерируемых сертификатов и табелей. Бюджет очень низкий (до 1000 INR), срок 5–6 часов.",
-   "reply": "You need the student registration flow on svcsm.org to reach the payment gateway again after the State Coordinator Panel update, plus a layout fix for the generated marksheet and certificate without touching existing records. I would start by taking a backup, then trace the path from student.php to Order ID creation and std_payment_process.php to find where the redirect breaks, since the logs did not show it. Once the root cause is clear, I would patch only the affected code, test the full registration-to-gateway flow, and check the document layout against an existing record. I can start right away and aim to finish within your 5–6 hour window, with a short report of the modified files.\n\nTwo quick questions: do you have a staging copy or can I test on a duplicate of the site? Did the redirect stop for all students or only for some?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужно, чтобы регистрация студентов на svcsm.org снова доводила до платёжного шлюза после обновления панели координатора штата, и чтобы сгенерированные табели и сертификаты отображались корректно, без изменения уже созданных записей. Я бы начал с резервной копии, затем проследил путь от student.php до создания Order ID и std_payment_process.php, чтобы найти место, где ломается перенаправление, так как логи этого не показали. Когда станет ясна первопричина, я исправил бы только затронутый код, проверил полный путь от регистрации до шлюза и сверил вёрстку документа с существующей записью. Могу начать сразу и уложиться в ваше окно 5–6 часов, с кратким отчётом по изменённым файлам.\n\nДва быстрых вопроса: есть ли у вас тестовая копия сайта или можно тестировать на дубликате? Перенаправление перестало работать для всех студентов или только для части?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли у вас тестовая копия сайта или можно тестировать на дубликате?",
-    "Перенаправление перестало работать для всех студентов или только для части?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836519",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-design/Corporate-Website-Full-Modern-Redesign",
-  "title": "Corporate Website Full Modern Redesign",
-  "description": "I’m ready to give our entire business website a fresh start. The current layout feels dated, so the primary objective is to transform every page into a sleek, polished experience that reflects a professional brand image from the first click to the final call-to-action.\n\nScope of work \n• Redesign the whole site—every template, page, and navigation element. \n• Apply a clean, contemporary UI/UX that works flawlessly on desktop, tablet, and mobile. \n• Preserve our existing content and functionality while elevating typography, imagery, colour palette, and overall brand consistency. \n• Set up intuitive site architecture so visitors can move effortlessly between sections such as services, about, and contact. \n\nDeliverables \n1. Wireframes or mock-ups for all key pages. \n2. Fully developed responsive website uploaded to our host or CMS (WordPress, Webflow, or a framework you recommend). \n3. Handover package with design assets, source files, and basic documentation on updating content.\n\nAcceptance criteria \n• Pages render correctly across major browsers and devices. \n• All existing links, forms, and contact points function post-launch. \n• Visual style is cohesive and unmistakably modern.\n\nIf you’ve turned dated corporate sites into polished, conversion-friendly platforms before, this project should feel familiar. Let’s bring our brand up to date and make a striking first impression together.",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T06:39:34+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "site_template",
-   "score": 5,
-   "summary_ru": "Полный редизайн корпоративного сайта: обновить все шаблоны и страницы, сделать адаптивную современную верстку и сохранить существующий контент, ссылки и формы. Сдача на хостинг или CMS (WordPress, Webflow или фреймворк) с документацией.",
-   "reply": "You want the whole corporate site rebuilt with a modern look while keeping your current content, links and forms working. I'd start by auditing the existing pages and navigation, then propose a layout for the key pages (home, services, about, contact) and a shared component system for colours, typography and imagery, so the site stays consistent on desktop, tablet and mobile. I build with a modern stack and AI-assisted tooling, so the work moves quickly: roughly 2–3 weeks for a site of this size, with a preview before the full build. Two questions to pin down the estimate: which platform is the site on now, and roughly how many pages does it have? Do you also have brand guidelines or logo files I should use?\n\nLive demos are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите полностью обновить корпоративный сайт в современном стиле, сохранив работу существующего контента, ссылок и форм. Я бы начал с аудита текущих страниц и навигации, затем предложил бы структуру ключевых страниц (главная, услуги, о компании, контакты) и общую систему компонентов для цветов, типографики и изображений, чтобы сайт выглядел единообразно на десктопе, планшете и телефоне. Я работаю с современным стеком и использую ИИ-инструменты в разработке, поэтому работа идёт быстро: ориентировочно 2–3 недели для сайта такого размера, с предварительным превью перед полной сборкой. Чтобы уточнить оценку: на какой платформе сейчас стоит сайт и примерно сколько в нём страниц? Есть ли у вас брендбук или файлы логотипа, которые нужно использовать?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "На какой платформе сейчас работает сайт (WordPress, Webflow, самописный или другой)?",
-    "Примерно сколько страниц и шаблонов нужно переработать?",
-    "Есть ли брендбук, логотип и фирменные цвета, которые нужно сохранить?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836516",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/business-development/Specialty-Chemical-Sales-Introductions",
-  "title": "Specialty Chemical Sales Introductions",
-  "description": "I need an experienced business introducer who can open doors for my line of specialty chemicals across Europe, South-East Asia, Africa and the USA. Your focus will be on placing high-value formulations into coatings, paints, adhesives, oil and gas treatment, water treatment, pharmaceutical, food and personal-care markets—as well as core commodities such as acids and solvents when a customer requires them. \n\nWhat I expect you to do \n• Leverage your existing network to identify qualified buyers and decision-makers. \n• Arrange introductory calls or meetings and brief both sides so conversations start productively. \n• Feed back market intelligence (pricing trends, competitor activity, regulatory hurdles) that could shape our commercial strategy. \n\nDeliverables I will use to gauge success \n1. A vetted contact list with company name, buyer name, role, email/phone and segment served. \n2. Confirmation of at least three scheduled meetings or calls per region within the first month. \n3. A concise report summarising discussions, next steps and any technical or compliance questions raised. \n\nPlease keep your proposal short and centred on your relevant experience: the industries and regions where you have already brokered specialty chemical deals, notable brands you have introduced and any measurable sales or partnerships you initiated. Tools such as LinkedIn Sales Navigator, Salesforce, HubSpot or similar CRM platforms are a plus but not mandatory if your personal network is strong. \n\nFluency in English is required; additional languages that help break into local markets will be advantageous. I plan to start immediately and will break the engagement into clear milestones once I identify the right partner.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T06:38:15+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "crm"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "crm",
-   "score": 1,
-   "summary_ru": "Клиент ищет бизнес-интроудсера, который будет открывать двери для продажи специализированной химии в Европе, Юго-Восточной Азии, Африке и США и находить покупателей через личные связи. Это работа по продажам и развитию бизнеса, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли здесь разработка, например CRM-система для ведения контактов и отчётности, или требуется только поиск покупателей и организация встреч?"
    ]
   },
   "found_at": "2026-11-26T07:14:13+00:00"
