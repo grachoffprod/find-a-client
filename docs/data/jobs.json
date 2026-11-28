@@ -1,5 +1,218 @@
 [
  {
+  "id": "freelancer:40840024",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/website-development/WordPress-WooCommerce-Store-Migration",
+  "title": "WordPress WooCommerce Store Migration Expert",
+  "description": "RELIABLE. FAST, AND TECHNICALLY PROFICIENT, WordPress and WooCommerce developer needed.\n\nI am about to buy the Soxa WooCommerce theme to use as the template from which I would like to have the existing health and wellness \ne-commerce website: infinitehealthstore.com rebuilt. The site is currently down because it was built on a legacy GoDaddy e-commerce platform that they are no longer supporting. However, I have the product database attached below as a Microsoft Excel spreadsheet. The website has approximately 1150 pages: \n\nINFINITE HEALTH STORE\n88 Shop All Product Gallery Pages\n1056 Product Detail Pages\n6 other pages - top Navigation\n----------------------------------------\n1150 Ecommerce webpages\n\nI will work with you and handle art direction and the visual look of the site. However, \n1. I am looking for a quote on the technical WordPress development and 1150-page product migration, using the Microsoft Excel database spreadsheet.\n\n2. The client would like the site to go live and be ready for business by December 10, 2026.\n3. The site will be hosted on GoDaddy. You will be expected to upload the site to GoDaddy and test it to make sure it is secure and everything is working well as it should be, before the final milestone is paid.\n\nTEMPLATE THEME\nhttps://themeforest.net/item/soxa-natural-product-landing-page-woocommerce-theme/64423795 \n\nTEMPLATE PREVIEW\nhttps://preview.themeforest.net/item/soxa-natural-product-landing-page-woocommerce-theme/full_screen_preview/64423795",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T11:47:48+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "shop",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 5,
+   "summary_ru": "Нужно перенести интернет-магазин добавок и товаров для здоровья (около 1150 страниц, включая 1056 карточек товаров) на WordPress и WooCommerce с темой Soxa, загрузить каталог из Excel и запустить сайт на GoDaddy к 10 декабря 2026. Дизайн заказчик ведет сам, исполнителю нужна техническая часть и миграция данных.",
+   "reply": "You need the health store at infinitehealthstore.com rebuilt on the Soxa WooCommerce theme, with about 1,150 pages (88 gallery pages and 1,056 product pages) loaded from your Excel catalog and live on GoDaddy by December 10, 2026. I would handle the technical side: install and configure the theme, clean up and map the spreadsheet into WooCommerce product imports (titles, prices, variations, categories, stock), set up the gallery and navigation, then test checkout, basic security, and page speed on GoDaddy before handover. Since you are handling the art direction, I would build to your design notes from the start. Rough timeline: about 2 weeks for setup and data mapping, 2 weeks for import and build-out, and 1 week for testing and launch, which leaves some buffer before the deadline. Could you share a sample of the spreadsheet and tell me whether product images are included or need to be pulled from the old site? For the portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно пересобрать магазин здоровья infinitehealthstore.com на теме Soxa для WooCommerce: около 1150 страниц (88 страниц галерей и 1056 карточек товаров), загрузить каталог из Excel и запустить сайт на GoDaddy к 10 декабря 2026. Я займусь технической частью: установлю и настрою тему, очищу таблицу и сопоставлю поля с импортом товаров WooCommerce (названия, цены, вариации, категории, остатки), настрою галерею и навигацию, а затем проверю оформление заказа, базовую безопасность и скорость загрузки на GoDaddy перед сдачей. Так как арт-дирекцией занимаетесь вы, буду работать по вашим дизайн-материалам с самого начала. Примерные сроки: около 2 недель на настройку и сопоставление данных, 2 недели на импорт и доработку, 1 неделя на тестирование и запуск, так что до дедлайна останется запас. Можете прислать образец таблицы и сказать, есть ли фото товаров в файле или их нужно забрать со старого сайта? Для портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можете прислать образец таблицы с товарами: есть ли в ней вариации, категории и ссылки на фото?",
+    "Фото товаров уже есть в файле или их нужно забрать со старого сайта, который сейчас не работает?",
+    "Есть ли у вас доступ к хостингу GoDaddy и план, на котором можно установить WordPress?"
+   ]
+  },
+  "found_at": "2026-11-28T12:06:14+00:00"
+ },
+ {
+  "id": "freelancer:40840017",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Platform-Sewa-WhatsApp-Promosi",
+  "title": "Platform Sewa WhatsApp Promosi",
+  "description": "Saya berencana membuka layanan penyewaan nomor WhatsApp khusus promosi dan membutuhkan solusi lengkap agar semuanya berjalan otomatis, aman, dan mudah dipakai oleh penyewa. \n\nYang saya harapkan: \n• Aplikasi web berbasis cloud yang memungkinkan saya mendaftarkan beberapa nomor WhatsApp Business API, kemudian menawarkannya sebagai paket sewa harian, mingguan, atau bulanan. \n• Dashboard admin untuk memantau status setiap nomor, mengatur paket harga, serta mengaktifkan/menonaktifkan pelanggan. \n• Antarmuka penyewa di mana mereka dapat: \n – membeli atau memperpanjang paket, \n – mengunggah daftar kontak mereka, \n – menulis pesan promosi, \n – menjadwalkan waktu pengiriman, dan \n – melihat statistik pengiriman & respons. \n• Mekanisme pembayaran terintegrasi (transfer bank & e-wallet populer di Indonesia) dengan konfirmasi otomatis. \n• Fitur keamanan dasar: pembatasan spam, log aktivitas, dan kepatuhan terhadap kebijakan WhatsApp. \n• Dokumentasi teknis, panduan pengguna berbahasa Indonesia, serta paket instalasi sehingga saya bisa menskalakan ke server berbeda bila diperlukan. \n\nTeknologi backend dan frontend saya serahkan kepada Anda sepanjang stabil, mudah dipelihara, dan kompatibel dengan penyedia VPS umum. Sertakan contoh proyek serupa, perkiraan waktu pembangunan, dan tahapan milestone saat mengajukan penawaran.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T11:42:20+00:00",
+  "lang": "id",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик хочет создать платформу для аренды номеров WhatsApp Business API под массовые промо-рассылки: с оплатой, панелью администратора и планировщиком сообщений для арендаторов. Основная функция связана с рассылкой спама и перепродажей доступа к номерам, что противоречит условиям WhatsApp.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у вас статус WhatsApp Solution Provider или официальное разрешение Meta на перепродажу доступа к номерам арендаторам?",
+    "Как платформа будет проверять, что арендаторы отправляют только сообщения с явного согласия получателей?"
+   ]
+  },
+  "found_at": "2026-11-28T12:06:14+00:00"
+ },
+ {
+  "id": "freelancer:40840009",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40840009",
+  "title": "Desktop Thermometer App Field Trial(only from Uk",
+  "description": "Join CoolRater’s winter 2026–27 field trial of a Windows app that measures the Heat-Transfer Coefficient of your home, a statistic used to support heat-pump sizing. Participants will install the app, connect an Octopus Energy account, provide half-hourly smart-meter data, and collect overnight temperatures using four Elitech RC-5+ loggers, which will be provided. Applicants must heat their home with a gas boiler and avoid using energy outside the home during trial sessions. Basic computer skills are sufficient; CSV editing and installing unsigned trial software are required. Five participants are sought each month from November 2026 to February 2027. \n\nCoolRater is a desktop app which will measure the heat transfer coefficient HTC for a building, a function that has become increasingly important in recent years for use in sizing heat pumps. A field trial is being run this winter with these objectives: \n\n1. To obtain temperature and energy data for a range of properties. Currently CoolRater has only been used for the author’s own property. \n\n2. to obtain data from properties where the temperature varies between locations due to variations in insulation or heat distribution. For example close to a solid floor with no insulation, or in rooms which do not have double glazing. \n\n3. To find out if users have any problems in using the app, or have any dislikes or need for additional features or improvements. \n\nThere are some specific requirements for participants: \n\n1. The app only supports Windows (10 or 11); \n2. heating must be with a gas boiler; \n3. your energy supplier must be Octopus Energy, and you must be able to connect to the Octopus API, which means that you will have to live in the UK. \n4. you must have a smart meter, configured to record energy use every 30 minutes. As a quick check that the smart meter and API is working correctly, there is a feature on the Octopus website where you can download smart meter data. Log in to your Octopus account, click your name top right, click My Energy, scroll down to \"Get your energy geek on\" you can download files of energy usage. Please download two days of energy data and attach it to your proposal, so that I can see that you have a working smart meter. \n5. during the trial, which is only active at night, you will not be able to use energy for anything outside the house, like charging EVs. \n\nTo collect the temperature data you will be provided with four Elitech RC-5+ logging thermometers. To send you these, I will need your address. Exchanging contact details is discouraged by PPH rules, but is allowed after a proposal has been accepted if it is necessary to mail equipment. Note that a similar project is also posted which differs only in that participants buy their own thermometers, receive a higher amount as a result, and do not therefore need to provide their address. \n\nA high level of computer expertise is not required but you will need to copy your API key from your Octopus account to the app, you may need to edit CSV files with Excel or LibraOffice, and install the app. As trial software it has not been possible to digitally sign it and it has had few downloads. Therefore the operating system will treat it with suspicion and advise you not to run it. You can run it against this advice by clicking “More Information” and “Run Anyway”. \n\nThe video https://youtu.be/HryknL9LGqQ gives instructions on using the app and shows what you will need to do as a participant in the field trial. \n\nCriteria for Job Completion \n\nAs trial software its difficult to be certain of how well it will work. The app calculates the HTC for each inside thermometer by three different methods. If for any one of the thermometers the results agree to within 10%, then jobs a good’un. If they don’t, then this often indicates a problem with the thermometer being close to a heating source. So I would like you to repeat the test one or two times to get a better result. Return either one project file with the results agreeing to within 10%, or three project files from three separate attempts. \n\nIt is intended that there will be five participants in each of the months November 2026 to February 2027.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T11:26:32+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик набирает участников полевого испытания программы для Windows, которая измеряет коэффициент теплопередачи дома. Участник должен жить в Великобритании, отапливать дом газовым котлом, иметь счётчик Octopus Energy и выполнять ночные замеры температуры. Это участие в исследовании, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли заказчику разработка или доработка программы, или он ищет только участников испытания?"
+   ]
+  },
+  "found_at": "2026-11-28T12:06:14+00:00"
+ },
+ {
+  "id": "flru:5530844",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530844/-razrabotka-telegram-bota-dlya-monitoringa-biletov-na-meropriyatiya.html",
+  "title": "Разработка Telegram-бота для мониторинга билетов на мероприятия",
+  "description": "Необходимо разработать Telegram-бота, который будет автоматически мониторить развлекательные мероприятия в Минске: театры, цирк, концерты, детские представления, шоу и другие...",
+  "budget": 1000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "Sat, 28 Nov 2026 11:53:11 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "tg_bot"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "tg_bot",
+   "score": 3,
+   "summary_ru": "Нужен Telegram-бот, который автоматически отслеживает появление билетов на театры, цирк, концерты и детские представления в Минске и присылает уведомления. Бюджет 1000 руб.",
+   "reply": "Вам нужен бот, который сам следит за появлением билетов на театральные, цирковые и концертные мероприятия в Минске и сразу сообщает о новых предложениях. Я бы сделал парсер нужных сайтов или API площадок, который проверяет их по расписанию и фильтрует события по категории, дате и цене. Когда появляется что-то подходящее, бот отправляет сообщение со ссылкой. Для 2–3 источников базовая версия займёт около 3–5 дней.\n\nКакие площадки нужно отслеживать и готовы ли вы обсудить объём работы при бюджете 1000 руб., например, начать с одного источника?\n\nМои работы с живыми демо смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен бот, который сам следит за появлением билетов на театральные, цирковые и концертные мероприятия в Минске и сразу сообщает о новых предложениях. Я бы сделал парсер нужных сайтов или API площадок, который проверяет их по расписанию и фильтрует события по категории, дате и цене. Когда появляется что-то подходящее, бот отправляет сообщение со ссылкой. Для 2–3 источников базовая версия займёт около 3–5 дней.\n\nКакие площадки нужно отслеживать и готовы ли вы обсудить объём работы при бюджете 1000 руб., например, начать с одного источника?\n\nМои работы с живыми демо смотрите здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие конкретно площадки или сайты с билетами нужно отслеживать?",
+    "Нужны ли фильтры по типу мероприятия, дате и цене, или достаточно уведомлений о любых новых билетах?",
+    "Бюджет 1000 руб. — готовы ли вы начать с одного источника и базовой версии бота?"
+   ]
+  },
+  "found_at": "2026-11-28T12:06:14+00:00"
+ },
+ {
+  "id": "kwork:3276088",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3276088",
+  "title": "Спарсить онлайн школы",
+  "description": "Нужно спарсить онлайн школы по программированию AI , дизайну и маркетингу \nНужны контакты телефоны и email \nСразу назовите пожалуйста объем базы по сегментам и насколько это возможно + каким методом будет парсинг",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-28 14:09:15",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 3,
+   "summary_ru": "Заказчик хочет спарсить онлайн-школы по программированию/AI, дизайну и маркетингу и получить их телефоны и email. Бюджет 500 рублей, объем базы и метод парсинга он хочет узнать заранее.",
+   "reply": "Здравствуйте! Нужно собрать базу онлайн-школ по программированию и AI, дизайну и маркетингу с телефонами и email. Точный объем по сегментам пока назвать не могу: сначала нужно посмотреть, сколько школ публикуют контакты на сайтах и в открытых каталогах. Подход такой: сначала собираю список площадок через поиск и открытые каталоги, затем скриптом на Python (requests и BeautifulSoup, а для сайтов на JavaScript Playwright) обхожу страницы с контактами и извлекаю телефоны и email. После этого убираю дубли, проверяю форматы и сохраняю результат в CSV или Excel с разбивкой по сегментам. Первая выборка из нескольких сотен записей займет около 1–2 дней. Берем только контакты, опубликованные в открытом доступе.\n\nКакие сегменты важнее всего и нужны ли школы только из России и СНГ?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! Нужно собрать базу онлайн-школ по программированию и AI, дизайну и маркетингу с телефонами и email. Точный объем по сегментам пока назвать не могу: сначала нужно посмотреть, сколько школ публикуют контакты на сайтах и в открытых каталогах. Подход такой: сначала собираю список площадок через поиск и открытые каталоги, затем скриптом на Python (requests и BeautifulSoup, а для сайтов на JavaScript Playwright) обхожу страницы с контактами и извлекаю телефоны и email. После этого убираю дубли, проверяю форматы и сохраняю результат в CSV или Excel с разбивкой по сегментам. Первая выборка из нескольких сотен записей займет около 1–2 дней. Берем только контакты, опубликованные в открытом доступе.\n\nКакие сегменты важнее всего и нужны ли школы только из России и СНГ?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие сегменты важнее всего (программирование/AI, дизайн, маркетинг) и нужна ли полная база или достаточно выборки для проверки?",
+    "Нужны ли школы только из России и СНГ или по всему миру, и в каком формате вы хотите получить результат (CSV, Excel, Google Sheets)?"
+   ]
+  },
+  "found_at": "2026-11-28T12:06:14+00:00"
+ },
+ {
+  "id": "freelance_ru:16648",
+  "source": "freelance_ru",
+  "url": "https://freelance.ru/task/view/16648",
+  "title": "Работа с 3д моделью, задача на сегодня",
+  "description": "Работа в 3d max 2021, требуется доработать сегодня модель. Оплата 6000 рублей, работа БЕЗ авансов, показываете рендеры, далее оплата после передача исходников, выполнить требуется сегодня в течении вечера. Желательно оставляйте МАКС для связи",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "28.11.2026 14:55",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "fixes",
+   "score": 1,
+   "summary_ru": "Нужно доработать 3D-модель в 3ds Max 2021 сегодня вечером за 6000 рублей без аванса, с оплатой после передачи исходников. Заказчик просит оставить Макс для связи.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какие именно изменения нужно внести в модель?",
+    "Какой формат результата нужен: только исходный файл или ещё рендеры?"
+   ]
+  },
+  "found_at": "2026-11-28T12:06:14+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910916",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910916",
+  "title": "Повышение рейтинга магазина на",
+  "description": "Повышение рейтинга магазина на \nProm.ua\n💰\n 700 UAH\n🛠\n#сопровождение_сайтов\nИщу специалиста с опытом работы на маркетплейсе \nProm.ua\n для улучшения показателей интернет-магазина.\nНеобходимо:  Увеличить количество успешно выполненных заказов.  Организовать получение отзывов от реальных покупателей.  Повысить рейтинг продавца.  Улучшить показатели успешности заказов…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-28T11:39:19+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчик ищет специалиста по работе с маркетплейсом Prom.ua, чтобы повысить рейтинг магазина, увеличить число успешных заказов и получить отзывы покупателей. Бюджет 700 UAH. Это задача по продвижению и ведению аккаунта на площадке, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какие конкретно действия подразумеваются для получения отзывов: отзывы будут от реальных покупателей, которые сами купили товар?",
+    "Нужна ли разработка или доработка самого сайта или интеграции с Prom.ua, или задача только в ведении магазина на площадке?"
+   ]
+  },
+  "found_at": "2026-11-28T12:06:14+00:00"
+ },
+ {
   "id": "freelancer:40839972",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/web-development/Custom-Service-Booking-Platform-Build",
@@ -14941,221 +15154,6 @@
    "questions": [
     "50 CAD — это полная фиксированная стоимость Milestone 1 или что-то другое? Оценка 60–85 часов с такой суммой не сходится.",
     "Можно ли увидеть фрагмент спецификации для оплачиваемого пробного задания до подписания NDA?"
-   ]
-  },
-  "found_at": "2026-11-26T14:49:30+00:00"
- },
- {
-  "id": "freelancer:40837185",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/flutter/iOS-Android-Burrito-App",
-  "title": "iOS & Android Burrito App",
-  "description": "I need a full-featured mobile application, built once and released on both iOS and Android, for my burrito store that also sells ice cream and shakes. The core of the project is an intuitive ordering flow:\n\n• Customers create an account or sign in, browse our complete food menu with photos and prices, and build their perfect burrito by choosing protein, size, toppings, and sauces. \n• They can add sides, shakes, or ice cream to the same cart, then choose either pickup or delivery. \n• Payment happens strictly in-app—credit card, Apple Pay, Google Pay, or similar—so no cash handling at the counter. \n• For delivery, the app must route orders only to our own drivers; no third-party services will be involved. \n• At checkout, customers select a pickup or delivery time slot and immediately see their loyalty points balance and any rewards they can redeem.\n\nFrom my side I need a web-based admin panel that receives orders in real time, lets staff update status (preparing, ready, out for delivery, completed), and manages menu items, pricing, promos, and loyalty rules. Push notifications should automatically confirm the order, alert customers when it’s ready or on the way, and announce new promotions.\n\nI’m open to frameworks such as Flutter or React Native as long as the final build is smooth, fast, and accepted by both app stores. Clean, well-documented code and full hand-off of source, plus assistance through the publishing process, will be the key deliverables.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "CAD",
-  "posted_at": "2026-11-26T14:26:45+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "crm"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "crm",
-   "score": 4,
-   "summary_ru": "Заказчик хочет кроссплатформенное мобильное приложение для заказа буррито, мороженого и коктейлей с оплатой в приложении, доставкой собственными курьерами, слотами времени, бонусной программой и push-уведомлениями. Также нужна веб-админка для приёма заказов в реальном времени, управления статусами, меню, акциями и правилами лояльности. Бюджет 750 CAD для такого объёма низкий.",
-   "reply": "You're looking for one cross-platform app for ordering burritos, ice cream and shakes, with pickup or delivery time slots, loyalty points and push notifications, plus a web admin panel where staff receive orders in real time and manage statuses, menu, promos and loyalty rules. I'd build the app in Flutter or React Native so one codebase ships to both stores, and make the admin panel a web app with live order updates. Using a modern stack with AI-assisted development, I'd expect the admin panel and core ordering flow to take about 3–4 weeks, followed by help with store submission. Since the budget is tight for this scope, I'd suggest agreeing on a must-have first release and moving the rest to a second phase.\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nWhich features must be in the first release? Do you already have the menu and loyalty rules defined, and do you have Apple Developer and Google Play accounts?\n\nYakov",
-   "reply_ru": "Вам нужно одно кроссплатформенное приложение для заказа буррито, мороженого и коктейлей с выбором слота времени для самовывоза или доставки, бонусами и push-уведомлениями, а также веб-админка, где персонал получает заказы в реальном времени и управляет статусами, меню, акциями и правилами лояльности. Я бы сделал приложение на Flutter или React Native, чтобы одна кодовая база подходила для обоих магазинов, а админку — веб-приложением с живым обновлением заказов. При современном стеке и разработке с ИИ-ассистентами админка и основной сценарий заказа займут примерно 3–4 недели, затем помогу с публикацией в магазинах. Так как бюджет для такого объёма ограничен, предлагаю согласовать обязательные функции первого релиза и перенести остальное на второй этап.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакие функции должны быть в первом релизе? Есть ли у вас уже готовое меню и правила лояльности, а также аккаунты Apple Developer и Google Play?\n\nYakov",
-   "questions": [
-    "Какие функции обязательны для первого релиза, а какие можно вынести на второй этап при бюджете 750 CAD?",
-    "Есть ли у вас готовое меню с фото и ценами и согласованные правила бонусной программы?",
-    "Есть ли у вас аккаунты Apple Developer и Google Play или их нужно будет оформить?"
-   ]
-  },
-  "found_at": "2026-11-26T14:49:30+00:00"
- },
- {
-  "id": "freelancer:40837164",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/blog-writing/SEO-Health-Blog-Writer-Needed-40837164",
-  "title": "SEO Health Blog Writer Needed",
-  "description": "I run a health-focused site and want to publish fresh, well-researched blog posts that bring in organic traffic from Google. The core topics you’ll tackle include general wellness, fitness tips, nutrition guidance, and the latest evidence-based health trends. Every piece should be structured around solid on-page SEO practices—compelling headlines, naturally placed keywords, internal links, and clear calls to action that keep readers moving through the site.\n\nFor each article I’ll share a working title, target keyword, and any must-cite sources. I need you to handle the rest: in-depth research, engaging copy in a conversational tone, and final delivery ready for WordPress (sub-headings, meta description, and one royalty-free image credited correctly).\n\nTo make sure we’re on the same page, please send a brief sample paragraph on a recent wellness trend you find interesting along with the keyword you’d optimise for. If everything aligns, we can move to a steady schedule of posts.",
-  "budget": 37500.0,
-  "budget_min": 12500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T14:08:57+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "site_template",
-   "score": 1,
-   "summary_ru": "Заказчик ищет автора для регулярных SEO-статей о здоровье, фитнесе и питании с исследованием, метаописаниями и подбором изображений для WordPress. Это написание контента, а не разработка, поэтому проект не подходит.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли какая-либо техническая работа с сайтом WordPress, например настройка шаблона или SEO-плагина, или только написание текстов?",
-    "Планируется ли интеграция блога с внешними сервисами, например с автоматической публикацией через API?"
-   ]
-  },
-  "found_at": "2026-11-26T14:49:30+00:00"
- },
- {
-  "id": "freelancer:40837163",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/full-stack-development/Full-Stack-SaaS-ERP-Development",
-  "title": "Full-Stack SaaS ERP Development",
-  "description": "I am looking for an experienced full-stack developer to develop a comprehensive cloud-based SaaS ERP platform.\n\nRequired skills:\n- Next.js, React, and TypeScript.\n- C# and ASP.NET Core.\n- PostgreSQL and REST APIs.\n- SaaS architecture and cybersecurity.\n- Arabic and English interface development.\n\nPrevious experience in developing ERP and SaaS platforms is required.\n\nFull project details will be shared privately with selected candidates after signing a Non-Disclosure Agreement (NDA).\n\nFull source code and ownership transfer are required.\n\nPlease provide your portfolio and relevant previous experience.\n\nThe budget and payment terms are negotiable after discussing the full project requirements.",
-  "budget": 1250.0,
-  "budget_min": 800.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T14:08:43+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "saas",
-   "score": 3,
-   "summary_ru": "Нужен fullstack-разработчик для облачной SaaS ERP-платформы: Next.js/React/TypeScript, C#/ASP.NET Core, PostgreSQL, REST API, интерфейсы на арабском и английском, требования к безопасности. Бюджет 1250 USD для проекта такого масштаба низкий, требования неполные, нужен опыт ERP и передача полного исходного кода.",
-   "reply": "You're looking for a full-stack developer to build a cloud ERP platform with Next.js and TypeScript on the front end, C#/ASP.NET Core and PostgreSQL on the back end, plus Arabic and English interfaces and a solid security baseline. My closest work is SaaS web apps, CRM systems and admin panels built with Next.js, React, TypeScript and PostgreSQL, and I use modern tooling and AI assistants to move quickly. I haven't built a full ERP, and I'm less hands-on with ASP.NET Core, so I'd be upfront about where a specialist is needed. With this budget, I'd suggest a first phase: multi-tenant setup, auth and roles, one core ERP module, and RTL-ready localization. That would be about 3–4 weeks once the requirements are shared. Which modules are must-haves for the first release, and is a Node-based backend acceptable instead of C#? More examples are at https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы ищете fullstack-разработчика для создания облачной ERP-платформы: фронтенд на Next.js и TypeScript, бэкенд на C#/ASP.NET Core и PostgreSQL, интерфейсы на арабском и английском, а также базовая безопасность. Мой ближайший опыт — SaaS-приложения, CRM-системы и админ-панели на Next.js, React, TypeScript и PostgreSQL. Я использую современные инструменты и ИИ-ассистентов, поэтому работаю быстро. Полноценную ERP я раньше не создавал, а с ASP.NET Core работаю меньше, поэтому честно скажу, где нужен специалист. При этом бюджете я предлагаю первый этап: мультиарендная архитектура, авторизация и роли, один основной модуль ERP и локализация с поддержкой RTL. По срокам это примерно 3–4 недели после получения требований. Какие модули обязательны для первого релиза и подойдёт ли бэкенд на Node вместо C#? Больше примеров: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какие модули ERP обязательны для первого релиза?",
-    "Подойдёт ли бэкенд на Node.js вместо C#/ASP.NET Core?",
-    "Ожидаете ли вы передачу исходного кода и прав сразу после каждого этапа или только в конце?"
-   ]
-  },
-  "found_at": "2026-11-26T14:49:30+00:00"
- },
- {
-  "id": "pph:4532452",
-  "source": "pph",
-  "url": "https://www.peopleperhour.com/freelance-jobs/artificial-intelligence/artificial-intelligence-data-services/web-scraping-and-data-analysis-4532452",
-  "title": "Web scraping and data analysis",
-  "description": "I need to be able to take or create a list of stocks and do analysis going back in time to record what percentage of those stocks are above their 20 day moving average and 50 day moving average.\n\nThere are different groups of stocks called ETFs and I want to be able to track them and also create my own lists.\n\nThe prompt I was given for chatgpt was the following\n\nCreate a Python code script for GPT Code Interpreter to calculate historical market breadth: for every trading date, compute the PERCENTAGE of ETF constituent stocks that are trading ABOVE their own 20‑day simple moving average. Use adjusted closing prices, handle rebalancing by reading a CSV of historical ETF holdings snapshots, handle missing stock data, and export the final percentage time series to a CSV file. Include simple instructions for me to use the script.\n\nHopefully this makes more sense to you\n\nKind regards\n\nSelect response type\nSend Message\nClick here to reply...\nAttach files\nI acknowledge that all b",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": null,
-  "lang": "en",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "automation",
-   "score": 7,
-   "summary_ru": "Клиенту нужен Python-скрипт, который по историческим данным ETF считает, какая доля его акций на каждую торговую дату закрывается выше своей 20-дневной скользящей средней. Скрипт должен учитывать ребалансировки по CSV со снимками состава, обрабатывать пропуски данных и выгружать итоговый ряд процентов в CSV.",
-   "reply": "You want a script that, for each trading day, measures what share of an ETF's constituents trade above their own 20-day SMA, using adjusted closes and the holdings that were actually in the fund on that date, so rebalances are respected. I'd build it in Python with pandas: load the holdings snapshots, align each date to the constituents active then, pull adjusted prices, compute rolling averages, and count the percentage above the line while flagging missing tickers instead of silently dropping them. I'd also add a simple config file for custom stock lists, the 50-day option you mentioned, and a short README with run instructions. Estimated timeline: 3–4 days for the core script, plus one day for testing on real data.\n\nWhere should the price data come from, for example yfinance or your own files? And how many ETFs and how many years of history do you need?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен скрипт, который для каждой торговой даты считает, какая доля акций ETF торгуется выше своей 20-дневной скользящей средней, используя скорректированные цены закрытия и состав фонда, actually действовавший на эту дату, чтобы учитывались ребалансировки. Я бы написал это на Python с pandas: загрузил бы снимки состава, сопоставил каждую дату с активными на тот момент бумагами, подтянул скорректированные цены, посчитал скользящие средние и вычислил процент бумаг выше линии, помечая отсутствующие тикеры, а не молча их отбрасывая. Также добавил бы простой конфиг для собственных списков акций, опцию на 50 дней, которую вы упоминали, и короткий README с инструкцией по запуску. Оценка сроков: 3–4 дня на основной скрипт и ещё один день на тестирование на реальных данных.\n\nОткуда брать ценовые данные, например через yfinance или из ваших файлов? И сколько ETF и сколько лет истории нужно?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Откуда брать ценовые данные: через yfinance или у вас есть свои файлы?",
-    "Сколько ETF и какой период истории нужно анализировать?"
-   ]
-  },
-  "found_at": "2026-11-26T14:49:30+00:00"
- },
- {
-  "id": "kwork:3275760",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275760",
-  "title": "Подключить ЮKassa, Paddle и ArCa к сайту на Node.js",
-  "description": "Нужен специалист по интеграции платежей. Сайт самописный (Node.js, не WordPress). Задача: подключить ДВЕ платёжные системы. \nЮKassa — для клиентов из России (карты, СБП). \nPaddle — для клиентов из Европы и США (Paddle работает как Merchant of Record, сам считает налоги). Опыт с Paddle обязателен. \nНастроить вебхуки для автоматического включения тарифа после оплаты. Провести тестовые платежи в обеих системах.` \nПочему Paddle, а не Stripe? \nStripe официально не работает с Арменией, а Paddle — работает. И для международных продаж Paddle удобнее: он сам берёт на себя все налоги (VAT) и юридические вопросы, а не мы . Комиссия у него около 5% + 50 центов, но зато без головной боли с налоговыми декларациями в каждой стране.",
-  "budget": 5000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 17:10:44",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 4,
-   "summary_ru": "Нужно подключить ЮKassa (для клиентов из России) и Paddle (для Европы и США) к самописному сайту на Node.js, настроить вебхуки для автоматической активации тарифа после оплаты и провести тестовые платежи в обеих системах. Бюджет 5000 ₽ низкий для такого объёма, а опыт с Paddle обязателен.",
-   "reply": "Вам нужно подключить к самописному сайту на Node.js две платёжные системы: ЮKassa для клиентов из России и Paddle для Европы и США. Вебхуки должны автоматически включать тариф после оплаты, а тестовые платежи нужно провести в обеих системах. Сначала я бы разобрал текущую модель тарифов и пользователей, затем сделал отдельные модули для каждой системы с единым обработчиком вебхуков, чтобы статусы подписок обновлялись в одном месте и сохранялись в базе. Тесты провёл бы в песочницах обеих систем. По срокам оцениваю работу примерно в 5–7 рабочих дней. Есть ли в проекте уже логика тарифов и база пользователей? Будет ли нужна обработка возвратов и отмены подписок?\n\nПримеры живых демо смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужно подключить к самописному сайту на Node.js две платёжные системы: ЮKassa для клиентов из России и Paddle для Европы и США. Вебхуки должны автоматически включать тариф после оплаты, а тестовые платежи нужно провести в обеих системах. Сначала я бы разобрал текущую модель тарифов и пользователей, затем сделал отдельные модули для каждой системы с единым обработчиком вебхуков, чтобы статусы подписок обновлялись в одном месте и сохранялись в базе. Тесты провёл бы в песочницах обеих систем. По срокам оцениваю работу примерно в 5–7 рабочих дней. Есть ли в проекте уже логика тарифов и база пользователей? Будет ли нужна обработка возвратов и отмены подписок?\n\nПримеры живых демо смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли в проекте уже логика тарифов и база пользователей, или их нужно создавать с нуля?",
-    "Будет ли у меня доступ к песочницам (тестовым аккаунтам) ЮKassa и Paddle для тестовых платежей?",
-    "Нужны ли обработка возвратов и отмена подписок, или только первичная оплата и активация тарифа?"
-   ]
-  },
-  "found_at": "2026-11-26T14:49:30+00:00"
- },
- {
-  "id": "freelance_ru:16502",
-  "source": "freelance_ru",
-  "url": "https://freelance.ru/task/view/16502",
-  "title": "Нужен дизайнер сайтов",
-  "description": "Мы агентство интернет-маркетинга и нам нужен дизайнер для наших проектов.Как строиться работы:1. Мы скинем вам задачку (прототипы сайта), вам нужно будет их просмотреть и примерно оценить (можно вилкой стоимости и времени на работу), нужна примерная оценка.2. Далее обсудим ус...",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "26.11.2026 17:40",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "mvp",
-   "score": 2,
-   "summary_ru": "Маркетинговое агентство ищет дизайнера для регулярных задач: нужно просматривать прототипы сайтов и давать примерную оценку по стоимости и срокам. Это дизайнерская работа, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли также разработка (верстка, сборка сайтов), или задача только в дизайне и оценке прототипов?",
-    "Какой объём работы в месяц и есть ли постоянная занятость?"
-   ]
-  },
-  "found_at": "2026-11-26T14:49:30+00:00"
- },
- {
-  "id": "telegram:FreelancehuntProjects/910834",
-  "source": "telegram",
-  "url": "https://t.me/FreelancehuntProjects/910834",
-  "title": "Фото для карток товарів Shopify: головне фото зверху + lifestyle (інструменти для піци)",
-  "description": "Фото для карток товарів Shopify: головне фото зверху + lifestyle (інструменти для піци)\n🛠\n#3d_моделирование_и_визуализация\n#обработка_фото\nМи KitchenStar — бренд інструментів для піци, продаємо на Amazon і у власному магазині на Shopify. Оновлюємо фото в каталозі сайту й шукаємо дизайнера, який зробить реалістичні фото товарів в єдиному стилі. Якщо перша партія вийде вдалою, далі буде постійна робота: решта каталогу, банери для…",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "2026-11-26T14:36:07+00:00",
-  "lang": "ru",
-  "project_type": null,
-  "direct": true,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 2,
-   "summary_ru": "Бренд инструментов для пиццы (KitchenStar) с магазином на Shopify ищет дизайнера для реалистичных фото товаров в едином стиле: главное фото и lifestyle-снимки для карточек, с возможным продолжением по каталогу и баннерам. Это работа с фото и дизайном, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужны ли вам 3D-рендеры товаров или достаточно фотообработки реальных снимков?",
-    "Какой объём работ в первой партии (сколько товаров и кадров на каждый)?"
    ]
   },
   "found_at": "2026-11-26T14:49:30+00:00"
