@@ -1,5 +1,95 @@
 [
  {
+  "id": "freelancer:40839437",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Secure-Data-Migration-Enhancements",
+  "title": "Secure Data Migration & Enhancements",
+  "description": "I am relocating our one application to a new server and need a full-stack developer who can take charge of the process end-to-end while communicating comfortably in Bahasa with both me and the client.\n\nPhase 1 – Data Migration \nThe immediate priority is moving only the data we explicitly approve. Before anything is copied you will sit with me, review the documented whitelist, and prepare a detailed migration script or tool chain that guarantees nothing outside that list is touched. I will sign off on the final checklist, then you will supervise the live transfer and run post-migration validation to confirm integrity.\n\nPhase 2 – System Implementation \nOnce the data is safely in place you will configure the different application stack on the existing server, ensure every standard function works, and guide the client through first-time use until they feel confident. Clear Bahasa explanations, screen-sharing, and concise how-to notes are expected.\n\nPhase 3 – Ongoing Enhancements \nAfter cut-over we will move into incremental feature work. You will analyse requested changes, update both front-end and back-end components, and push tested releases without disrupting production.\n\nDeliverables \n• Migration plan, script, and validation report \n• Working deployment on new server with user acceptance sign-off \n• Short user guide (Bahasa) for standard functions \n• Source-controlled code updates for each approved enhancement\n\nAcceptance Criteria \n– Only items on the signed whitelist exist on the new server \n– All standard features run error-free for the client \n– Enhancements pass code review and regression tests\n\nThe Application using :\nFrontend framework : Next.js\nUI library : React\nBundler/runtime : Next.js dengan Turbopack \nSource language : JavaScript atau TypeScript\n\nAnd typical LAMP/LEMP setups, REST APIs, Git, and basic CI/CD. If you thrive on ownership, communicate clearly in Bahasa, and enjoy improving live systems, let’s talk.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T01:24:35+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Клиент переносит приложение на Next.js/React на новый сервер и просит мигрировать только данные из утверждённого списка, настроить стек, провести обучение (на бахасе) и затем вносить регулярные доработки. Бюджет 750 USD на все три этапа, поэтому объём велик относительно бюджета.",
+   "reply": "You're moving a Next.js/React app to a new server and need the data transfer locked to an approved whitelist, followed by stack setup, a short user guide, and incremental releases after cut-over. I'd start with a call to review the whitelist, then build a migration script with a dry run and checksum validation so nothing outside the list is touched, and deliver a validation report for your sign-off. Phase 2 would cover configuring the stack (Next.js with Turbopack, Git-based CI/CD) and a walkthrough, with enhancements shipped through tested branches. For a rough estimate, Phase 1 would take about one to two weeks, and the rest depends on the enhancement backlog.\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nWhat does the current server setup look like (LAMP or LEMP, database type, approximate data volume)? And is English workable for day-to-day communication, or do you need Bahasa for the walkthrough sessions?\n\nYakov",
+   "reply_ru": "Вы переносите приложение на Next.js/React на новый сервер и хотите, чтобы перенос данных был строго ограничен утверждённым списком, затем шли настройка стека, короткое руководство пользователя и поэтапные релизы после переключения. Я бы начал с созвона для проверки списка, затем написал скрипт миграции с пробным запуском и проверкой контрольных сумм, чтобы ничего вне списка не затрагивалось, и подготовил отчёт о валидации для вашего подтверждения. Второй этап включает настройку стека (Next.js с Turbopack, CI/CD на основе Git) и обучение, а доработки выкатываются через протестированные ветки. Ориентировочно первый этап займёт одну–две недели, остальное зависит от объёма доработок.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая у вас сейчас серверная конфигурация (LAMP или LEMP, тип базы данных, примерный объём данных)? И подойдёт ли английский для ежедневного общения, или для сессий обучения нужен бахаса?\n\nYakov",
+   "questions": [
+    "Какая сейчас серверная конфигурация (LAMP или LEMP), какая база данных и каков примерный объём данных для переноса?",
+    "Подойдёт ли английский для ежедневного общения, или на сессиях обучения обязательно нужен бахаса?"
+   ]
+  },
+  "found_at": "2026-11-28T01:45:20+00:00"
+ },
+ {
+  "id": "freelancer:40839424",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/contract-management/Comprehensive-Music-Contract-Review",
+  "title": "Comprehensive Music Contract Review -- 2",
+  "description": "I have a Google Drive folder containing 150+ music industry agreements—and Messenger from Funk Master Flex (Funk Flex) recording, publishing, or distribution deals, management, booking, or performance agreements, and collaboration, licensing, or producer agreements—most of them signed with U.S. parties during the pandemic. \n\nYour job is to go through every document and pinpoint which contracts need attention. Specifically, I want you to flag:\n\n• anything that should be renegotiated or amended \n• potential legal claims or disputes worth pursuing \n• deadlines, payments, or rights that require immediate follow-up \n\nFor each flagged contract, deliver a concise summary explaining the issue, why it matters, and the recommended next step. An annotated PDF or tracked-changes Word version plus a master spreadsheet of findings will be ideal.\n\nAll files are already organised in Google Drive, and I can grant you view or edit access as soon as we agree on confidentiality terms. Because of the project’s size, I’m open to structuring a staged payment plan once you’ve scoped the workload—perhaps milestone billing by contract batch or percentage of completed review.\n\nIf you are a licensed music lawyer with solid experience in U.S. recording and publishing law and can start soon, let’s talk and set up access.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-28T00:59:19+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "booking"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Клиент просит юридически проверить более 150 музыкальных контрактов (записи, издательство, букинг, лицензии, продюсерские соглашения) из Google Drive, выявить спорные пункты и подготовить аннотированный PDF и таблицу выводов. Бюджет 25 AUD. Это юридическая экспертиза, а не разработка, и требуется лицензированный юрист.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Является ли лицензия юриста в США обязательным условием для выполнения этого проекта?",
+    "Есть ли у заказчика какие-то технические требования к таблице или PDF-отчёту, которые связаны с разработкой?"
+   ]
+  },
+  "found_at": "2026-11-28T01:45:20+00:00"
+ },
+ {
+  "id": "freelancer:40839408",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/data-analysis/project-40839408",
+  "title": "إدخال بيانات بدقة وسرعة",
+  "description": "أحتاج إلى متخصص إدخال بيانات قادر على تحويل ملفات المصدر التي أزوّدك بها إلى صيغة منظمة وخالية من الأخطاء، مع الالتزام الكامل بالسرعة والدقة في آنٍ واحد. كلما شاركتُك تفاصيل أكثر عن الحقول المطلوبة وطبيعة البيانات سيساعد ذلك في تسليم الخدمة بأقصر وقت ممكن، لذلك سأكون على اتصال مستمر لتوضيح أي جزء أو إرسال نماذج توضيحية عند الحاجة. \n\nالمخرجات المتوقعة هي ملف رقمي منظم وجاهز للاستخدام (سأحدد الصيغة النهائية—سواء Excel، Google Sheets أو نظام إلكتروني—بعد أول تواصل بيننا)، مع مراجعة نهائية تضمن تطابق الحضـور الرقمي مع المعلومات الأصلية حرفياً. سأعتمد على مهارتك في التدقيق، استخدام الاختصارات المناسبة، والتأكد من اتساق التنسيق قبل التسليم النهائي. \n\nإن كنت مرتاحاً للعمل على مهام تدقيق وتنسيق مكثّفة وتستطيع الالتزام بالمواعيد المتفق عليها، تواصل معي مباشرة لنبدأ العمل.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T00:56:03+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Клиент ищет исполнителя для ручного ввода данных: перенос информации из исходных файлов в структурированный Excel, Google Sheets или другую систему с проверкой и форматированием. Это ручная работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в задаче повторяющийся процесс, который можно автоматизировать скриптом или парсером вместо ручного ввода?",
+    "Какой формат у исходных файлов (PDF, изображения, сканы, выгрузки из системы)?"
+   ]
+  },
+  "found_at": "2026-11-28T01:45:20+00:00"
+ },
+ {
   "id": "freelancer:40839413",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/appointment-setting/Copier-Sales-Appointment-Setter",
@@ -15037,95 +15127,6 @@
    "questions": [
     "Какая именно проверка или ограничение должны быть обойдены: лицензионный ключ, аутентификация устройства или ограничение API?",
     "Есть ли у вас права на изменение этого ПО и разрешение правообладателя внешней системы или производителя устройства?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836557",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/seo/Highly-experienced-shopify-lister-40836557",
-  "title": "Highly experienced shopify lister no mistakes AUD $1/listing -- 2",
-  "description": "I need a seasoned Shopify hand who can upload Clothing & Accessories items with absolute accuracy. Every listing must follow the product-description template I provide and be ready to publish without further edits—titles, variants, pricing, tags, collections, SEO fields, everything polished in one pass. \n\nYou’ll receive the SKU sheet and my format guide up front. From there I’m counting on you to: \n\n• Build each product page inside Shopify exactly to spec \n• Add all relevant size/colour variants and ensure stock levels match the sheet \n• Fill out meta-fields and alt text so the store’s SEO stays on point \n• Proofread as you go; I don’t want to correct typos or mismatched images later \n\nTurnaround matters. Submit a daily batch so I can spot-check and approve as we go. The rate is locked at AUD $1 per approved listing, so speed only counts if accuracy stays at 100 %. If this sounds routine to you because you’ve done it hundreds of times before, let’s get started—tell me how many listings you can comfortably deliver each day and share a link to a Shopify store you’ve populated recently.",
-  "budget": 8.0,
-  "budget_min": 2.0,
-  "currency": "AUD",
-  "posted_at": "2026-11-26T07:05:26+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 2,
-   "summary_ru": "Клиент ищет исполнителя для ручного заведения товаров (клothing и аксессуары) в Shopify по готовой таблице SKU и шаблону описаний, с оплатой 1 AUD за листинг. Это контентная работа по вводу данных, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли только загрузка товаров в готовый магазин или также настройка темы, интеграций и логики каталога?",
-    "Какой общий объём листингов планируется и есть ли фиксированный срок сдачи?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836546",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/blog-writing/Music-School-Blog-Content",
-  "title": "Music School Blog Content",
-  "description": "I run a community-oriented music academy that teaches piano, keyboard, guitar, tabla, flute, vocals and even dance. My priority now is steady, parent-friendly blog content that turns curious mums and dads into fresh lesson enquiries.\n\nHere’s what I need:\n• 4 well-researched blog posts each month (600–800 words) written in clear, encouraging language that speaks directly to parents of children aged 4–14. \n• Topics that highlight how music training boosts creativity, confidence and academic skills, while subtly showcasing our range of instruments and dance options. \n• Basic on-page SEO: sensible keyword use, compelling meta titles/descriptions and internal links pointing readers to our enrolment page or free-trial form. \n• A warm, actionable closing section in every post inviting parents to book a trial class or phone for details. \n• Copy must be original, grammatically flawless and ready to publish in WordPress (I’ll provide login). A royalty-free image suggestion for each article would be a bonus.\n\nIf you already write for education, parenting or performing-arts brands, that experience will help you hit the right tone quickly. Send a short pitch plus two links to comparable articles, and let’s start filling our calendar with content that fills our classrooms.",
-  "budget": 1500.0,
-  "budget_min": 600.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:00:27+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "site_template",
-   "score": 1,
-   "summary_ru": "Клиент ищет автора для написания 4 SEO-статей в месяц (600–800 слов) для блога музыкальной школы с ориентацией на родителей детей 4–14 лет. Нужны оригинальный текст, базовая on-page оптимизация, мета-теги и публикация в WordPress. Это контентный заказ, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли публикация статей в WordPress самим исполнителем или достаточно готовых текстов?",
-    "Требуется ли ведение блога на постоянной основе или разовое написание первой партии статей?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836544",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/excel/Part-Time-Remote-Bookkeeper",
-  "title": "Part-Time Remote Bookkeeper",
-  "description": "I’m looking for a reliable accountant who can take over our day-to-day bookkeeping and monthly bank reconciliation on a part-time, fully remote basis.\n\nWhat I need most:\n• Bookkeeping and bank reconciliation that keeps every account accurate and up-to-date.\n\nKey tasks:\n• Record all income and expense entries as they occur.\n• Reconcile bank and credit-card statements each month to spot and resolve discrepancies quickly.\n\nCurrent setup:\nAll transactions are tracked in spreadsheets—mostly Google Sheets, sometimes Excel—so you must be comfortable working in both. If you’ve moved clients from spreadsheets into QuickBooks or Xero before, let me know; that experience could be useful later even though our immediate need is to maintain the existing sheets.\n\nDeliverables each month:\n1. Clean, reconciled transaction log that ties to bank totals.\n2. A brief reconciliation summary highlighting any outstanding items requiring my approval.\n3. Updated cash-flow snapshot derived from the spreadsheet data.\n\nIdeal skills:\n• Solid understanding of double-entry bookkeeping.\n• Proven spreadsheet expertise, including formulas, pivot tables, and data validation.\n• Attention to detail and the discipline to follow a consistent naming and filing convention in Google Drive.\n\nCommunication:\nWe’ll collaborate through email and Slack, with a quick video check-in once per month. I’ll share view-only bank access plus statement downloads; you’ll update the files, flag questions, and return them on schedule.\n\nIf you’re organized, responsive, and ready to own this process, I’d love to hear from you.",
-  "budget": 400.0,
-  "budget_min": 100.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T06:58:32+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 1,
-   "summary_ru": "Нужен удалённый бухгалтер на неполную занятость для ведения учёта в Google Sheets и Excel, ежемесячной сверки банковских выписок и подготовки отчётов о движении денег. Это бухгалтерская работа, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли здесь разработка, например автоматизация импорта банковских выписок в Google Sheets через скрипты или интеграция с банком, или нужен только бухгалтерский специалист?"
    ]
   },
   "found_at": "2026-11-26T07:14:13+00:00"
