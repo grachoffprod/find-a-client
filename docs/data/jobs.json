@@ -1,5 +1,283 @@
 [
  {
+  "id": "freelancer:40839932",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/full-stack-development/Recommendation-SaaS-Platform-Build",
+  "title": "AI Recommendation SaaS Platform Build",
+  "description": "I’m ready to move from concept to working product on a full-stack AI SaaS platform aimed squarely at individual consumers who want personalized advice and recommendations. The core idea is simple: a clean, intuitive web app where any user can log in, describe a goal or question, and receive actionable, AI-generated guidance in real time.\n\nWhat I need from you is end-to-end expertise—front-end, back-end, and the AI layer itself. I’m technology-agnostic as long as the stack is modern, scalable, and cost-efficient; React or Next.js on the front end and Python (FastAPI, Django, or similar) or Node on the back end all make sense to me. You’ll also help wire up the recommendation engine, whether that means fine-tuning an existing large language model, chaining calls through LangChain, or integrating external APIs for richer context.\n\nKey deliverables:\n• Functional web app with secure user accounts, billing hooks, and a responsive dashboard \n• Deployed, documented recommendation engine that returns tailored advice with explainable outputs \n• CI/CD pipeline plus basic analytics so I can track usage and iterate quickly\n\nIf you’ve built consumer-facing SaaS tools that lean on AI—especially anything involving personalized insights—let’s talk.",
+  "budget": 3000.0,
+  "budget_min": 1500.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T10:04:02+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 5,
+   "summary_ru": "Клиент хочет создать SaaS-платформу с ИИ для персональных рекомендаций конечным пользователям: регистрация, описание цели, советы в реальном времени, дашборд, биллинг, CI/CD и аналитика. Бюджет 3000 USD, при этом объём работ большой, поэтому нужно согласовать MVP.",
+   "reply": "You're looking to build a consumer-facing AI advisor: users log in, describe a goal, and get tailored, explainable recommendations in real time, with a dashboard, billing hooks, and analytics on top. I'd start with a Next.js front end and a FastAPI back end, and build the recommendation layer as chained LLM calls with LangChain over an existing model. That keeps costs down and holds off on fine-tuning until you have usage data to justify it. The first phase would cover auth, the core advice flow, and a basic dashboard, followed by CI/CD, analytics, and billing hooks. For an MVP within this budget, I estimate 3–4 weeks. Two questions to narrow the scope: which 2–3 advice categories should the MVP cover, and will users provide personal data (preferences, history) that the engine should draw on?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите создать ориентированного на потребителя ИИ-советника: пользователи входят в систему, описывают цель и получают персональные, объяснимые рекомендации в реальном времени, плюс дашборд, биллинг и аналитика. Я бы начал с фронтенда на Next.js и бэкенда на FastAPI, а слой рекомендаций построил бы как цепочку вызовов LLM через LangChain поверх существующей модели. Это снижает затраты, а дообучение откладывается до появления данных об использовании, которые его оправдают. Первый этап включал бы авторизацию, основной поток советов и базовый дашборд, затем CI/CD, аналитику и подключение биллинга. Для MVP в рамках этого бюджета я оцениваю срок в 3–4 недели. Два вопроса, которые помогут уточнить объём: какие 2–3 категории советов должен покрывать MVP и будут ли пользователи предоставлять персональные данные (предпочтения, историю), которые движок должен учитывать?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие 2–3 категории советов должен покрывать MVP?",
+    "Будут ли пользователи передавать персональные данные (предпочтения, историю), которые движок должен учитывать?"
+   ]
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
+  "id": "freelancer:40839916",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/php/Long-Term-Investment-Platform-Technical",
+  "title": "Long-Term Investment Platform Technical Support -- 2",
+  "description": "Nigerian Web Developer Needed for Long-Term Technical Support & Maintenance of Existing Investment Platform\n\nI am looking for an experienced and reliable web developer, preferably based in Nigeria, to provide ongoing technical support and maintenance for an existing investment website.\n\nThe website has already been developed and but not currently operational yet. I need a competent programmer who can become familiar with the existing system and provide consistent technical assistance as the platform continues to grow.\n\nScope of Work:\n\n- General website maintenance and technical support.\n- Troubleshooting and fixing bugs or technical issues.\n- Monitoring website performance and resolving downtime issues.\n- Database management, optimization, and maintenance.\n- Security checks, updates, and vulnerability fixes.\n- Payment gateway and API integration support.\n- Modifications to existing website features when necessary.\n- Development and implementation of new features.\n- Dashboard improvements and functionality adjustments.\n- Server, hosting, and domain-related technical assistance.\n- Regular updates and general system optimization.\n\nWho I Am Looking For:\n\n- An experienced web developer with a good understanding of investment platforms, or complex web applications.\n- Someone comfortable working with an existing codebase and understanding previously developed systems.\n- Strong troubleshooting and problem-solving skills.\n- Someone reliable, responsive, and available when technical assistance is required.\n- A developer interested in a long-term working relationship rather than a one-off assignment.\n\nLocation Preference:\n\nNigerian developers or programmers currently residing in Nigeria are strongly preferred. Working within a similar time zone and having easier communication will make the ongoing collaboration much easier.\n\nWorking Arrangement:\n\nI am looking to establish a long-term working relationship with the selected developer. We will begin with an initial technical assessment and a first assignment through Freelancer to understand the existing system, assess compatibility, and establish a smooth working process.\n\nFollowing the initial engagement, there will be continuous technical support requirements, periodic improvements, additional development tasks, and other responsibilities as the platform evolves.\n\nI am particularly interested in someone who can become familiar with the website's structure and serve as a dependable technical partner over time.\n\nTo Apply, Please Include:\n\n1. Your web development experience and technical background.\n2. The programming languages, frameworks, and technologies you work with.\n3. Examples of websites or platforms you have maintained or supported.\n4. Your experience troubleshooting existing websites rather than just developing new ones.\n5. Your availability for ongoing technical support.\n\nI value reliability, good communication, confidentiality, technical competence, and consistency. I am looking for someone I can build a lasting professional working relationship with.",
+  "budget": 120.0,
+  "budget_min": 50.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T10:00:04+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "saas"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "saas",
+   "score": 4,
+   "summary_ru": "Заказчик ищет разработчика для долгосрочной поддержки и доработки уже созданной, но ещё не запущенной инвестиционной платформы: исправление багов, безопасность, интеграции с платежами, база данных и новые функции. Бюджет 120 USD, а предпочтение отдано разработчикам из Нигерии.",
+   "reply": "You need someone to take over an investment platform that is already built but not live yet, and to handle maintenance, bug fixes, and new features on an ongoing basis. My approach would be to start with a short audit of the codebase, database structure, and payment/API integrations, then list the risks, such as security gaps and bugs blocking launch. I would fix the critical items first and agree on a regular support schedule after that. The audit and first set of fixes could take about a week, depending on the size of the codebase. I work with a modern stack and AI-assisted development, which keeps turnaround fast. Could you share the tech stack and whether I would get repository and server access? Also, what is the scope of the first assignment, and what response time do you expect for urgent issues?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен разработчик, который возьмёт на себя уже созданную, но ещё не запущенную инвестиционную платформу и будет вести её поддержку, исправлять ошибки и добавлять новые функции на постоянной основе. Я бы начал с короткого аудита кодовой базы, структуры базы данных и интеграций с платежами и API, затем составил список рисков, например пробелов в безопасности и багов, которые мешают запуску. Сначала я бы исправил критичные места и после этого согласовал регулярный график поддержки. Аудит и первый пакет исправлений могут занять около недели, в зависимости от объёма кода. Я работаю с современным стеком и использую ИИ-ассистенты в разработке, что помогает быстро делать задачи. Могли бы вы рассказать, какой стек используется и будет ли у меня доступ к репозиторию и серверу? Также подскажите, какой объём первого задания и какое время реакции вы ожидаете на срочные проблемы?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой стек используется в существующем проекте и будет ли у меня доступ к репозиторию, базе данных и серверу?",
+    "Какой объём первого задания (аудит, исправления, интеграции) и какое время реакции нужно на срочные инциденты?"
+   ]
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
+  "id": "freelancer:40839467",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android/Cross-Platform-MVP-Mobile-App",
+  "title": "Cross-Platform MVP Mobile App",
+  "description": "I’m ready to move my startup idea from sketches to a working MVP that runs smoothly on both iPhone and Android phones. The very first thing a new user should see is an intuitive onboarding flow that lets them create an account and complete a basic profile—email or social login, profile photo, and a few custom fields. Once signed in, the app will guide them to the main feature set, which we’ll refine together while the core architecture is being built.\n\nHere’s what I need from you:\n• A single codebase targeting iOS and Android (React Native, Flutter, or another modern cross-platform stack you’re comfortable with). \n• Secure authentication and profile management, wired to a scalable backend (Firebase, Supabase, or a lightweight custom REST/GraphQL API—open to your recommendation). \n• Clean, maintainable project structure that lets us plug in new screens as the product evolves. \n• Pixel-perfect UI that follows native guidelines, plus a design system we can extend in later sprints. \n• Basic analytics, crash reporting, and push-notification hooks so we can measure engagement from day one. \n• App Store and Google Play test builds with clear release notes and documentation.\n\nAcceptance criteria:\n1. A user can create an account, verify it, edit their profile, and log back in without errors. \n2. The same codebase compiles and passes basic QA on an iPhone and an Android phone. \n3. Source code is lint-clean, commented, and delivered in a private Git repository with a short README outlining setup and build steps. \n4. A short hand-off call or video walkthrough showing the architecture, key components, and how to extend them.\n\nIf you’re passionate about crafting polished mobile experiences and can help shape an MVP that’s ready for investor demos, let’s talk.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T09:56:42+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Клиент хочет кроссплатформенное мобильное приложение (iOS и Android) для стартапа: онбординг, регистрация по email или соцсети, верификация, редактирование профиля, а также аналитика, краш-репорты, push-уведомления и тестовые сборки. Бюджет 25 USD явно не соответствует объёму работ.",
+   "reply": "You want a cross-platform MVP with onboarding, email or social sign-in, account verification, profile editing, and a base architecture that can take new screens as the product grows, all from one codebase for iOS and Android. I'd build it with React Native (Expo) and Supabase for auth, profile storage, and the backend, with a small reusable component set for the design system. Analytics, crash reporting, and push hooks would be wired in from the start. The scope is larger than the $25 budget, so I'd suggest a first phase covering sign-up, verification, login, and profile editing, with test builds for both platforms. I estimate about 2–3 weeks for that phase. Which social login providers do you need, and do you have a preference between Supabase and Firebase? You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен кроссплатформенный MVP с онбордингом, входом по email или через соцсеть, верификацией аккаунта, редактированием профиля и базовой архитектурой, в которую можно будет добавлять новые экраны по мере развития продукта. Всё из одной кодовой базы для iOS и Android. Я бы сделал это на React Native (Expo) с Supabase для авторизации, хранения профилей и бэкенда, плюс небольшой набор переиспользуемых компонентов для дизайн-системы. Аналитика, отчёты о сбоях и push-уведомления были бы подключены с самого начала. Объём работ больше бюджета в 25 USD, поэтому предлагаю первую фазу: регистрация, верификация, вход и редактирование профиля, с тестовыми сборками для обеих платформ. Оценка по срокам — около 2–3 недель на эту фазу. Какие провайдеры соцсетей вам нужны и предпочитаете ли вы Supabase или Firebase? Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие провайдеры соцсетей для входа нужны (Google, Apple, другие) или достаточно только email?",
+    "Есть ли предпочтение между Supabase и Firebase, или выбор бэкенда полностью за мной?",
+    "Согласны ли вы начать с первой фазы (регистрация, верификация, вход, профиль) в рамках текущего бюджета?"
+   ]
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
+  "id": "freelancer:40839922",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/contract-management/Medico-Legal-Consultant-Healthcare",
+  "title": "Medico-Legal Consultant (Healthcare Compliance, India)",
+  "description": "Medico-Legal Consultant\n\nLocation: India / Remote\nEngagement: Part-time consultant or retainer, with scope to expand\nCompensation: Based on experience and agreed scope\n\nAbout the role\n\nWe are building a healthcare technology platform connecting patients with doctors, hospitals, clinics and diagnostic centres.\n\nWe need a medico-legal consultant to lead healthcare compliance, legal documentation and risk management, and manage hospital/clinic partnership agreements from initial drafting through negotiations, revisions and signing coordination.\n\nYou will work with the founders, healthcare partners, technology teams and specialist advisers.\n\nKey responsibilities\n\n- Healthcare compliance: Identify applicable Indian healthcare, consumer, privacy and digital-health requirements. Define the company's responsibilities and those of healthcare providers.\n- Hospital and clinic agreements: Act as the primary contact for legal documents and queries. Draft/review agreements, handle revisions and negotiations, track outstanding issues and coordinate execution. Escalate significant terms to the founders for approval.\n- Provider verification: Define documentation and verification requirements for doctors, hospitals, clinics and diagnostic centres.\n- Patient documentation: Prepare terms of use, privacy notices, consent documents and policies covering family bookings, minors, reports and insurance information.\n- Data protection: Advise on patient-data sharing, confidentiality, access, retention, deletion and incident response, including hospital-software connections.\n- Payments and complaints: Review fees, cancellations, refunds, settlements, grievance handling and responsibility for failed bookings or provider cancellations.\n- Advertising and reviews: Review provider claims, patient reviews, sponsored listings, rankings and promotional content.\n- AI safeguards: Define appropriate boundaries, disclosures, human review and escalation for Kiro and future healthcare AI features.\n- Ongoing contracts: Maintain signed agreements, amendments, renewal dates and contractual obligations. Support disputes, suspensions and terminations.\n- Future services: Assess insurance processing, concierge, ambulance, medical tourism and Indian digital-health integrations before introduction.\n\nInitial deliverables\n\n- Prioritised medico-legal risk assessment and pre-launch action plan.\n- Provider agreement templates and verification checklist.\n- Patient terms, privacy notices and consent documents.\n- Cancellation, refund, complaint and incident-response policies.\n- Guidance on advertising, sponsored listings, reviews and AI.\n- Contract tracker and a clear process for partner negotiations and approvals.\n\nCandidate profile\n\n- Strong experience in Indian healthcare law, medico-legal practice or healthcare compliance.\n- Demonstrated ability to draft, review and negotiate healthcare agreements.\n- Experience working with hospitals, clinics, diagnostic providers or digital-health companies.\n- Clear communication, practical judgement and reliable follow-through.\n- Ability to identify matters requiring specialist legal, clinical or regulatory advice.\n\nApplicants should state their qualifications, professional registration where applicable and scope of practice. Candidates from medical or compliance backgrounds must demonstrate contract-management experience and explain how qualified legal counsel will support legal work where required.\n\nHow to apply\n\nShare your CV, relevant healthcare and contract-negotiation experience, availability, proposed fees and approach to the initial assessment. Please disclose conflicts of interest and any specialist support you would require.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T09:56:40+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "booking",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "booking",
+   "score": 1,
+   "summary_ru": "Вакансия на удалённую часть-временную позицию медико-правового консультанта для healthcare-платформы в Индии: юридическое сопровождение, договоры с клиниками, комплаенс и политики. Это не разработка, поэтому не подходит под услуги.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
+  "id": "freelancer:40839913",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/seo-writing/JioMart-Product-Descriptions-Articles",
+  "title": "JioMart Product Descriptions & Articles",
+  "description": "I run a growing catalogue on JioMart and I’m ready to refresh the copy so shoppers instantly understand the value of each item and feel confident about adding them to the cart. I need two tightly connected deliverables for every SKU:\n\n• A short, search-friendly product description that fits JioMart’s character limits, highlights the top benefits, and reads naturally on mobile. \n• A longer promotion article (300–400 words) that can double as a blog or social-post landing page, weaving in simple, helpful advice to make everyday shopping easier.\n\nScope of items \nThe first batch covers groceries and daily essentials, beauty/personal-care and health products, plus a selection of home, kitchen and small electronics. Expect a mix of staples (e.g., rice, lentils), branded cosmetics, and popular kitchen gadgets. Accuracy on specs, pack sizes and usage tips is crucial.\n\nTone & style \nKeep everything friendly, clear and genuinely useful—think “helpful neighbour” rather than hard-sell. Plain language that answers common questions and highlights real-life benefits wins over jargon or hype.\n\nWorkflow & expectations \nI’ll supply product names, basic specs, images and any manufacturer notes in a spreadsheet. You research any missing details, craft the copy, and return the sheet ready for upload. Each description should pass Copyscape and meet JioMart’s formatting rules. Articles should include a SEO-aware headline, sub-headings and a gentle call-to-action pointing back to the listing.\n\nDeliverables per SKU \n1. Listing description (80–120 words) \n2. Promotion article (300–400 words) in .docx or Google Doc \n\nI plan to start with 50 SKUs; if we click, the pipeline expands into the hundreds. Please share two or three live links or samples of similar e-commerce copy you’ve written, along with your turnaround time for the first batch.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T09:50:42+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "landing",
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 2,
+   "summary_ru": "Заказчик с каталогом на JioMart просит написать для 50 товаров описания для карточек (80–120 слов) и статьи для продвижения (300–400 слов). Это копирайтинг и контент, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь какая-либо разработка, например интеграция с JioMart или автоматизация выгрузки описаний, или только написание текстов?"
+   ]
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
+  "id": "freelancer:40839903",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/postgresql/Excel-Import-PostgreSQL-Table",
+  "title": "Excel Import to PostgreSQL Table",
+  "description": "I’m holding an Excel workbook that sits on a single sheet with clear column headers and roughly ten-thousand rows of data. I need every row moved into PostgreSQL by creating a fresh table whose structure mirrors the spreadsheet exactly—same column names, same data types where practical, and no additional primary key or sequence column. \n\nSend back a repeatable solution (SQL, Python script, or psql commands using COPY) that I can run on my end and, if possible, a quick note showing the final row count so I can confirm nothing was missed. \n\nDeliverables \n• Table-creation statement matching the Excel headers \n• Import script or command set \n• Simple verification step (row total) \n\nTools such as pandas, psycopg2, pgAdmin, or pure psql are fine—use what gets the job done cleanly and reliably.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T09:41:00+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 6,
+   "summary_ru": "Нужно перенести около 10 000 строк из одного листа Excel в новую таблицу PostgreSQL с такими же названиями и типами колонок, без лишнего первичного ключа. Требуется повторяемый скрипт или команды COPY и проверка количества строк.",
+   "reply": "You need a repeatable way to load a sheet of about 10,000 rows from Excel into a new PostgreSQL table that mirrors its headers and data types, with no extra key, and a row count check to confirm nothing was lost. I would read the workbook with pandas, infer column types from the data (with overrides where you need them), generate the CREATE TABLE statement from the headers, and load the rows with psycopg2 using COPY for speed. The result is a single script you run with your connection string. It prints the final row count and compares it with the sheet's row count. A working version can be ready within a day.\n\nTwo questions: do the column types need to be exact (for example, dates as timestamp and amounts as numeric), and should the table name be fixed or passed as an argument?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен повторяемый способ загрузить лист примерно на 10 000 строк из Excel в новую таблицу PostgreSQL с теми же заголовками и типами данных, без лишнего ключа, и проверку количества строк, чтобы убедиться, что ничего не потерялось. Я бы прочитал книгу через pandas, определил типы колонок по данным (с возможностью переопределить их там, где нужно), сгенерировал CREATE TABLE по заголовкам и загрузил строки через psycopg2 с COPY для скорости. На выходе будет один скрипт, который вы запускаете со своей строкой подключения. Он выводит итоговое количество строк и сверяет его с числом строк на листе. Рабочая версия может быть готова в течение дня.\n\nДва вопроса: нужны ли точные типы колонок (например, даты как timestamp, суммы как numeric) и должно ли имя таблицы быть фиксированным или передаваться в скрипт параметром?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Нужны ли точные типы колонок (даты как timestamp, суммы как numeric) или достаточно автоматического определения?",
+    "Имя таблицы должно быть фиксированным или скрипт должен принимать его как параметр?"
+   ]
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
+  "id": "freelancer:40839895",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-development/Android-Web-Finance-Portal",
+  "title": "Android & Web Finance Portal",
+  "description": "I need a unified Android app and responsive web portal for our financial-services institution. The system will be used mainly by our channel partners and in-house staff, while customers will interact through referral links that partners generate.\n\nCore partner functions \n• Submit new customer referrals in two ways: a quick form that captures basic KYC data or a shareable referral link the customer can complete on their own. Every referral must first pass an owner-level approval step before it is activated. \n• Track individual and team business volumes, view real-time commission or payout figures, and download detailed statements. \n• See account details, status of each referred application, and a consolidated dashboard of earnings.\n\nStaff functions \n• End-to-end management of incoming applications and partner records from a secure, role-based back office. \n• Manual override and approval controls for referral empanelment, commissions, and product disbursement stages. \n• Built-in support inbox to manage appointment requests and customer service inquiries booked through the app.\n\nShared customer-facing tools \n• Product catalogue with a guided application journey for loans, investments, and insurance products. \n• Appointment booking and chat/call support requests that route to the correct team automatically.\n\nTechnical notes \nThe app must run smoothly on current Android versions; the web portal should be fully responsive and optimised for low-bandwidth users. A single backend (REST or GraphQL API) with JWT/OAuth security is preferred so data stays perfectly in sync across both fronts. Please factor in standard compliance items such as encrypted data at rest, audit logging, and role-based access control.\n\nDeliverables \n1. Android APK + Play-ready bundle \n2. Responsive web application (source + deployable build) \n3. Admin panel with multi-role access \n4. Database schema & API documentation \n5. Handover of full source code, build scripts, and one round of post-launch bug fixes\n\nIf any of these details need clarification, let me know—otherwise please share your approach and timeline so we can move forward quickly.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T09:33:23+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking",
+   "api_integration",
+   "saas",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 3,
+   "summary_ru": "Заказчик финансовой организации хочет единую систему: Android-приложение и адаптивный веб-портал для партнёров с рефералами, одобрением владельцем, дашбордом комиссий, а также back office с ролями, каталогом продуктов и записью на консультации. Бюджет (37 500 INR) явно не соответствует объёму работ.",
+   "reply": "You need one backend serving an Android app and a responsive web portal, covering partner referrals with owner approval, a role-based back office, commission dashboards, and an appointment and support inbox. I would start with the shared REST API with JWT auth, RBAC, and audit logging, then build the partner web portal and admin panel, and finish with the Android app on the same endpoints so the data stays in sync. Given the scope and budget, I'd suggest a phased MVP: referrals with approval, the partner dashboard, and the back office first, with booking and the Android app in the next phase. A realistic first milestone is around 3–4 weeks, and the full scope would need a longer timeline.\n\nWhich part should go first, and do you have a preferred stack or hosting?\n\nSee my work with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен один бэкенд для Android-приложения и адаптивного веб-портала: рефералы партнёров с одобрением владельцем, back office с ролями, дашборд комиссий и inbox для записей и обращений. Я бы начал с общего REST API с JWT-авторизацией, RBAC и аудит-логированием, затем сделал веб-портал партнёров и админ-панель, а Android-приложение завершил бы на тех же эндпоинтах, чтобы данные оставались синхронизированными. С учётом объёма и бюджета предлагаю поэтапный MVP: сначала рефералы с одобрением, дашборд партнёров и back office, а запись и Android-приложение в следующем этапе. Реалистичный первый milestone — около 3–4 недель, полный объём потребует больше времени.\n\nКакая часть должна быть готова первой и есть ли предпочтения по стеку или хостингу?\n\nПосмотреть мои работы с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какая часть системы должна быть готова первой: партнёрский веб-портал с бэкендом или Android-приложение?",
+    "Есть ли предпочтения по стеку, хостингу и ожидаемому числу партнёров и клиентов?"
+   ]
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
+  "id": "freelancer:40836380",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/business-development/Software-Sales-Partnership-Opportunities",
+  "title": "Software Sales Partnership Opportunities",
+  "description": "BUSINESS DEVELOPMENT & SALES PARTNERSHIP OPPORTUNITY\n\nAarya Infosolutions\n\nExpanding Business Together | Performance-Based Margin Sharing Model\n\nAarya Infosolutions is inviting experienced Sales & Marketing Professionals, Business Development Associates and Independent Business Partners to collaborate with us and expand our software business across India and international markets.\n\nWe are looking for business-oriented professionals with strong networking skills, customer relationships and the ability to identify and convert business opportunities.\n\nOur Product Portfolio\n\n1. Solar Business Manager ERP\n2. POS Billing & Management Software\n3. Document Management System (DMS)\n4. E-Office Management Solutions\n5. School Management Software\n6. E-commerce Solutions\n7. Billing & Stock Management Software\n8. Custom Software & Mobile Application Development\n9. AI Solutions & Intelligent Automation\n\nPartnership Responsibilities\n\n- Identify and generate potential business leads.\n- Promote our software products and services.\n- Connect with businesses, institutions, industries and potential clients.\n- Arrange client meetings and product demonstrations.\n- Manage sales discussions, negotiations and business closures.\n- Develop long-term customer relationships.\n\nCommercial Model – Margin Sharing\n\nWe offer a performance-driven business partnership model.\n\n- Attractive margins on every successfully converted deal.\n- Revenue sharing based on project value and mutually agreed commercial terms.\n- Product-wise sales commission or margin structure.\n- Additional earning opportunities through AMC, renewals and recurring business, wherever applicable.\n- Long-term collaboration with opportunities to grow together.\n\nMargin Structure: Negotiable based on the product, project value and scope of business involvement.\n\nWho Can Partner With Us?\n\n- Sales & Marketing Professionals\n- IT Sales and Business Development Executives\n- Independent Business Consultants\n- Entrepreneurs and Business Owners\n- Professionals with corporate and institutional networks\n- Individuals interested in building a long-term IT business partnership\n\nLet's Grow Together!\n\nIf you have the ability to connect with customers, generate business opportunities and build relationships, let's collaborate and create mutual business growth.\n\nGet in Touch\n\nWebsite: https://aaryainfosolutions.com/\n\nYour Network + Our Technology = Mutual Business Growth",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-26T05:28:10+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Компания Aarya Infosolutions ищет агентов по продажам и бизнес-партнёров, которые будут продвигать их ПО (ERP, POS, DMS и др.) за процент от сделок. Это предложение о комиссионной продаже, а не заказ на разработку.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в этом предложении конкретный проект разработки или интеграции, или речь только о партнёрстве по продажам?",
+    "Какой объём работ и какие технические требования подразумеваются, если они вообще есть?"
+   ]
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
+  "id": "telegram:FreelancehuntProjects/910911",
+  "source": "telegram",
+  "url": "https://t.me/FreelancehuntProjects/910911",
+  "title": "Доработка парсер системы",
+  "description": "Доработка парсер системы\n💰\n 8200 UAH\n🛠\n#базы_данных_и_sql\n#парсинг_данных\n1. -кнопка в парсере: по типу \"обнулить склад поставщики\". Какая цена реализации?\nнужно, чтобы там стало 0 и мы поняли наши реальные финансовые остатки по складам другим.\n2. - выгрузка складов/киентов/заказов в файлы с КЕЙ автоматически, условно раз в сутки например. Это, чтобы был какой то…",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-28T09:40:11+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 6,
+   "summary_ru": "Нужно доработать парсер-систему: добавить кнопку, которая обнуляет остатки по складу поставщика, чтобы видеть реальные финансовые остатки, и настроить автоматическую выгрузку складов, клиентов и заказов в файлы (например, раз в сутки). Бюджет 8200 UAH, требования описаны не полностью.",
+   "reply": "Здравствуйте! Правильно ли я понял задачу: в парсер нужно добавить кнопку, которая обнуляет остатки по выбранному поставщику или складу, чтобы видеть реальные финансовые остатки, и настроить автоматическую выгрузку складов, клиентов и заказов в файлы, например раз в сутки? Сделаю это скриптом с планировщиком и понятной кнопкой в интерфейсе. Ориентировочный срок на обе части — 3–5 дней. Оплату могу принять в USDT (TRC20 / TON) или другим удобным способом, обсудим. Подскажите, пожалуйста: на каком стеке написана система и где хранятся данные? И в каком формате и куда должны уходить файлы: в Telegram, на почту или в облако?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! Правильно ли я понял задачу: в парсер нужно добавить кнопку, которая обнуляет остатки по выбранному поставщику или складу, чтобы видеть реальные финансовые остатки, и настроить автоматическую выгрузку складов, клиентов и заказов в файлы, например раз в сутки? Сделаю это скриптом с планировщиком и понятной кнопкой в интерфейсе. Ориентировочный срок на обе части — 3–5 дней. Оплату могу принять в USDT (TRC20 / TON) или другим удобным способом, обсудим. Подскажите, пожалуйста: на каком стеке написана система и где хранятся данные? И в каком формате и куда должны уходить файлы: в Telegram, на почту или в облако?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На каком стеке написана парсер-система и где хранятся данные (БД, файлы)? Есть ли доступ к коду?",
+    "Что именно должна делать кнопка «обнулить склад»: списывать остатки в базе или только скрывать их в отчётах?",
+    "В каком формате (Excel, CSV) и куда должны уходить выгрузки: в Telegram, на почту или в облачное хранилище?"
+   ]
+  },
+  "found_at": "2026-11-28T10:12:18+00:00"
+ },
+ {
   "id": "freelancer:40839873",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/google-sheets/Convert-Scanned-Notes-into-Spreadsheet",
@@ -14866,287 +15144,6 @@
    "reply_ru": "",
    "questions": [
     "Нужна ли клиенту какая-либо разработка или техническая интеграция, или ему требуется только публикация контента вручную?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40837047",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/payment-gateway-integration/India-UPI-IMPS-Payment-Test",
-  "title": "India UPI and IMPS Payment Test",
-  "description": "UPI Payment Tester Needed – India\n\nWe are looking for a reliable person based in India to help us conduct a live test of our payment gateway integration.\n\nScope of work:\n\nHave an active Indian bank account with UPI support (PhonePe, Paytm, Google Pay, etc.).\n\nMake one real UPI payment of 1,000 INR using the payment link or details we provide.\n\nSubmit the UTR (transaction reference number) and payment receipt.\n\nReceive a test payout via IMPS to your Indian bank account.\n\nConfirm receipt of the payout and provide a screenshot or transaction confirmation.\n\nPayment and compensation:\n\nTest amount: 1,000 INR (approximately $11), fully covered by us.\n\nCompensation: $25 for completing the test.\n\nEstimated duration: 15–30 minutes, depending on transaction processing.\n\nTesting will be coordinated with our technical team.\n\nRequirements:\n\nMust be located in India.\n\nMust have a working UPI-enabled Indian bank account.\n\nMust be available for a coordinated live test.\n\nMust use their own bank account and be comfortable testing a payment flow intended for iGaming.\n\nPlease confirm your availability and ability to complete both the UPI pay-in and IMPS payout tests.",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T12:46:14+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "api_integration",
-   "score": 1,
-   "summary_ru": "Заказчик ищет человека в Индии, который выполнит реальный платёж через UPI и получит выплату IMPS на свой банковский счёт для тестирования платёжного шлюза, связанного с iGaming. По сути это роль посредника по приёму платежей через личный счёт, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Кто конечный владелец платёжного шлюза и на каком основании он работает с гемблингом в Индии?",
-    "Почему для тестирования нужен именно личный банковский счёт исполнителя, а не тестовая среда или sandbox платёжного провайдера?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40836994",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/api/Multi-Channel-Bulk-Order-Confirmations",
-  "title": "Multi-Channel Bulk Order Confirmations",
-  "description": "I need an automated workflow that fires a confirmation message every time a bulk order’s payment clears. The same core message must go out simultaneously via Email, Text message (SMS), and WhatsApp so customers receive identical information no matter which channel they prefer. \n\nThe payload is simple but mandatory: just the payment status and the total amount for the order—nothing else is required at this stage. Messages must be dispatched strictly after the payment‐confirmed event, not at cart submission and not on a daily scheduler. \n\nMy ecommerce platform already exposes webhooks for payment status, so you can catch that event and pipe it into your solution. I am open to common tools such as Twilio, WhatsApp Business API, SendGrid, or a lightweight Node/Python microservice—whatever you are fastest and most confident with—as long as it can be handed over in a way that I can maintain. \n\nDeliverables \n• Message templates for all three channels, formatted with dynamic placeholders for payment status and total amount \n• Integration code or middleware that listens for the payment‐confirmed webhook and triggers the outbound messages \n• Clear setup instructions and a quick test run proving all channels fire correctly \n\nAcceptance criteria: messages must arrive within 60 seconds of the payment confirmation event, show identical content across the three channels, and log a success or failure status for each dispatch.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T12:44:30+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 8,
-   "summary_ru": "Нужен автоматический сервис, который после подтверждения оплаты массового заказа отправляет одно и то же сообщение (статус оплаты и сумма) по Email, SMS и WhatsApp одновременно, с логированием результата по каждому каналу. Срок доставки не более 60 секунд.",
-   "reply": "You need a webhook-triggered dispatcher: when a bulk order's payment clears, one shared message (payment status and total) goes out via Email, SMS and WhatsApp at the same time, with a success or failure log for each channel. I would build a small Node.js service that receives the payment-confirmed webhook, validates it, renders one template with the placeholders, and sends to SendGrid, Twilio (SMS) and the WhatsApp Business API in parallel. Every dispatch gets logged, so identical content and the 60-second delivery window are easy to verify in the test run. You would receive the code, the three templates, a short setup guide, and a recorded test run covering all channels. Estimated timeline: 5–7 days. Which ecommerce platform sends the webhook, and do you already have a WhatsApp Business API account with approved message templates?\n\nSee my live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен сервис, который запускается вебхуком: когда оплата массового заказа подтверждена, одно общее сообщение (статус оплаты и сумма) уходит по Email, SMS и WhatsApp одновременно, а по каждому каналу ведётся лог успеха или ошибки. Я бы написал небольшой сервис на Node.js: он принимает вебхук об подтверждённой оплате, проверяет его, формирует сообщение по одному шаблону с подстановками и параллельно отправляет через SendGrid, Twilio (SMS) и WhatsApp Business API. Каждая отправка логируется, поэтому одинаковое содержимое и окно доставки до 60 секунд легко проверить на тестовом запуске. Вы получите код, три шаблона, короткую инструкцию по настройке и демонстрацию тестового запуска по всем каналам. Оценочный срок: 5–7 дней. Какую платформу электронной коммерции вы используете для вебхуков и есть ли у вас аккаунт WhatsApp Business API с одобренными шаблонами сообщений?\n\nСмотрите мои живые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какая платформа электронной коммерции отправляет вебхук о подтверждении оплаты?",
-    "Есть ли у вас аккаунт WhatsApp Business API и одобренные шаблоны сообщений?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40837046",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/One-Page-Team-Introduction-Website",
-  "title": "One-Page Team Introduction Website",
-  "description": "I want a clean, single-page site that quickly introduces our company and lets visitors dive straight into learning about each team member. The flow I have in mind is straightforward: a fixed top bar for quick navigation, a bold hero section that states who we are, a short introduction block, an engaging teammates section, and a concise footer with basic info and links.\n\nKey deliverables:\n• Responsive HTML/CSS (or a lightweight framework you prefer) covering the five sections above \n• Smooth in-page navigation from the top bar to each section \n• A teammate area that highlights photos, roles, and short bios in an accessible, mobile-friendly layout \n• Clear, commented code so my in-house designer can tweak colors and text later\n\nAfter hand-off I should be able to drop the files on our server, change copy or images in seconds, and go live without extra setup. If you can add a touch of subtle animation or micro-interactions without bloating the page weight, that will be a bonus.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T12:43:24+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "landing",
-   "score": 7,
-   "summary_ru": "Одностраничный сайт-представление команды с фиксированным меню, главным экраном, блоком о компании, адаптивной секцией сотрудников с фото, ролями и биографиями и простым футером. Код должен быть понятным, чтобы дизайнер мог легко менять цвета и тексты.",
-   "reply": "You're looking for a single-page team site: a fixed top navigation with smooth scrolling, a bold hero, a short intro, a mobile-friendly teammate grid with photos, roles and bios, and a simple footer. I'd build it with semantic HTML and CSS (or a light framework if you prefer), keep the code commented, and put copy and images in clearly marked spots so your designer can change colors and text without touching the layout. Subtle animations would be CSS-only to keep the page light. I can deliver a first version within about 4 days, followed by one round of revisions. Two quick questions: do you already have the teammate photos and bios, and do you have a preferred framework or brand colors? Live demos of similar layouts are at https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен одностраничный сайт о команде: фиксированное верхнее меню с плавной прокруткой, яркий главный экран, короткий блок о компании, адаптивная сетка сотрудников с фото, ролями и биографиями и простой футер. Я бы сделал его на семантическом HTML и CSS (или на легком фреймворке, если вы предпочитаете), написал бы понятные комментарии в коде и вынес тексты и изображения в явно помеченные места, чтобы дизайнер мог менять цвета и тексты, не трогая верстку. Легкие анимации были бы только на CSS, чтобы страница оставалась быстрой. Первую версию могу сдать примерно за 4 дня, затем один раунд правок. Два быстрых вопроса: есть ли у вас уже фото сотрудников и биографии, и есть ли предпочтительный фреймворк или фирменные цвета? Живые демо похожих макетов: https://grachoffprod.github.io/portfolio/\n\nЯков",
-   "questions": [
-    "Есть ли у вас готовые фото сотрудников и тексты биографий?",
-    "Есть ли предпочтительный фреймворк или фирменные цвета и шрифты?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40837035",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/Build-Multi-Purpose-Online-Platform",
-  "title": "Build Multi-Purpose Online Platform",
-  "description": "The project involves delivering a fully working online solution—this could manifest as a responsive website, a progressive web app, or a cloud-hosted tool, depending on the technical approach that best matches my goals. I will share the objectives, core features, and any existing assets during our first exchange; from there, you can propose the most suitable stack (React, Vue, Angular, Laravel, Django, Node, or another framework you are confident will scale and remain easy to maintain).\n\nKey priorities are:\n\n• Smooth user authentication and role management \n• Fast performance and clean, modern UX across desktop and mobile \n• Clear, well-documented code with Git version control \n• Deployment assistance to my chosen hosting environment (AWS, DigitalOcean, or similar)\n\nDeliverables at hand-off:\n\n• Production-ready platform live on the server \n• Full source code in a private repository \n• Concise deployment & maintenance guide \n• A brief hand-over session to walk through the build\n\nThe timeline and milestones are flexible; quality and open communication come first. If you have examples of comparable work, that context will help refine the scope quickly so we can move straight into development.",
-  "budget": 25.0,
-  "budget_min": 15.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T12:35:01+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "saas",
-   "score": 3,
-   "summary_ru": "Клиент хочет получить готовую многофункциональную онлайн-платформу (сайт, PWA или облачный инструмент) с авторизацией, управлением ролями, адаптивным интерфейсом, Git-репозиторием и деплоем на AWS или DigitalOcean. Объём пока не определён, а бюджет в 25 USD слишком мал для такой задачи.",
-   "reply": "You want a full working platform with user authentication, role management, a fast responsive UI, and deployment to AWS or DigitalOcean. Since the scope isn't defined yet, I'd start with a short discovery call to pin down the core features, then split the work into milestones: first auth, roles, and the main workflow, then UX polish and deployment. I'd build on a modern stack (React or Vue on the front, Node or Django on the back), keep everything in Git from day one, and hand over a short deployment guide. A first working milestone realistically takes 1–2 weeks, so with a $25 budget we'd need to limit the first phase to a very small MVP. Which core feature matters most for the first release, and what budget do you have in mind for the full build? You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужна полноценная платформа с авторизацией пользователей, управлением ролями, быстрым адаптивным интерфейсом и деплоем на AWS или DigitalOcean. Так как объём пока не определён, я бы начал с короткого созвона, чтобы зафиксировать ключевые функции, а затем разбил работу на этапы: сначала авторизация, роли и основной сценарий, потом доработка UX и деплой. Я бы использовал современный стек (React или Vue на фронтенде, Node или Django на бэкенде), с первого дня вёл код в Git и передал короткое руководство по деплою. Первый рабочий этап реалистично занимает 1–2 недели, поэтому при бюджете в 25 USD первую фазу придётся ограничить очень простым MVP. Какая основная функция важнее всего для первого релиза и какой бюджет вы закладываете на полную разработку? Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какая основная функция важнее всего для первого релиза?",
-    "Какой бюджет вы закладываете на полную разработку платформы?",
-    "Есть ли уже готовые материалы, дизайн или код, которые можно использовать?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40837034",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ios-development/Design-Build-Wellness-Tracker",
-  "title": "Design and Build Wellness Tracker",
-  "description": "Title: iOS App Design and Native Swift Build for a Habit & Wellness Tracker (iPhone)\n\nDescription:\n\nWe’re looking for an experienced iOS designer-developer to design and build a native iPhone app from scratch. You’ll own the whole job, from information architecture through to high-fidelity UI and a working SwiftUI build ready for TestFlight.\n\nAbout the app\nIt’s a personal habit and wellness tracker. Users set daily habits, log their progress in one tap, see streaks and weekly trends, and get gentle reminders. The app should feel calm, quick and premium, and it should be easy to use one-handed.\n\nScope of work\n\nUX and information architecture\n\nMap the user flows: onboarding, creating a habit, daily check-in, insights, settings\nBuild the sitemap and navigation model (tab bar vs. hub)\nMake low-fidelity wireframes for every core screen\n\n2. App design (UI)\n\nHigh-fidelity designs in Figma for about 15–20 screens, in light and dark mode\nA small design system: colour tokens, type scale, spacing, and reusable components\nMicro-interactions for check-ins and streak milestones\nAn App Store icon and 5 App Store screenshots\n\n3. Swift development\n\nA native SwiftUI app targeting iOS 17+, built with MVVM\nLocal persistence with SwiftData, plus iCloud sync\nLocal notifications for reminders\nSwift Charts for the weekly and monthly trends\nA home screen widget (WidgetKit) showing today’s habits\nAccessibility: Dynamic Type, VoiceOver labels, and good contrast\nClean, documented code, delivered through a Git repository\n\nDeliverables\n\nFigma file (wireframes, UI, design system)\nXcode project and source code\nTestFlight build\nShort handover document\n\nMilestones\n\nIA and wireframes approved\nUI design and design system approved\nCore app build (habits, check-ins, persistence)\nInsights, widget, notifications and polish\nTestFlight delivery and bug fixes\n\nIdeal freelancer\n\nA portfolio that shows both iOS app design and shipped Swift/SwiftUI apps\nStrong grounding in Apple’s Human Interface Guidelines\nClear communication and regular progress updates\n\nWhen you bid, please include links to 2–3 iOS apps you’ve designed and built, and say which parts you did yourself.\n\nSkills: App Design, Swift, User Interface / IA, iOS Development, Mobile App Development",
-  "budget": 37500.0,
-  "budget_min": 12500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T12:33:50+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "fixes",
-   "score": 2,
-   "summary_ru": "Нужно спроектировать и разработать нативное iOS-приложение трекера привычек на SwiftUI (iOS 17+): UX-схемы, 15–20 экранов в Figma, SwiftData с iCloud, уведомления, виджет и сборка для TestFlight. Бюджет 37 500 INR. Задача в основном про дизайн и нативную iOS-разработку, а это не входит в услуги Якова.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли только разработка по готовым макетам, или дизайн-часть (Figma, иконка, скриншоты для App Store) тоже входит в объём?",
-    "Есть ли у вас требования к Android или веб-версии, или приложение нужно только для iPhone?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40837012",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/google-ads/Google-Ads-WooCommerce-Conversion",
-  "title": "Google Ads & WooCommerce Conversion Optimization Specialist",
-  "description": "Looking for a Google Ads specialist to manage and optimize campaigns targeting European markets for our WooCommerce store. Responsibilities include conversion tracking setup, GA4/GTM integration, performance monitoring, and ongoing optimization to improve conversions, reduce CPA, and maximize ROAS.",
-  "budget": 1500.0,
-  "budget_min": 600.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T12:22:16+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 2,
-   "summary_ru": "Заказчику нужен специалист по Google Ads для ведения и оптимизации рекламных кампаний на европейский рынок для магазина на WooCommerce, включая настройку трекинга конверсий, интеграцию GA4/GTM и постоянную оптимизацию CPA и ROAS. Это маркетинговая работа по рекламе, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли также техническая доработка сайта WooCommerce, например, настройка событий или подключение GTM на стороне кода?",
-    "Какой объем работ по настройке трекинга ожидается и есть ли доступ к текущему аккаунту Google Ads и GA4?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40837002",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/New-Commerce-Business-Website",
-  "title": "New E-Commerce Business Website -- 2",
-  "description": "I’m launching a brand-new business site where visitors can browse a catalogue of physical products, add items to a cart, and complete a secure checkout on any device. I need you to handle the full build—from setting up the platform (Shopify, WooCommerce, or another solution you recommend) through to a polished, mobile-responsive front-end that reflects our brand. \n\nKey things I expect: \n• Product listings with images, variants, and inventory controls \n• Seamless shopping-cart flow and payment-gateway integration \n• SSL, GDPR-friendly privacy pages, and basic on-page SEO \n• An admin dashboard that lets my team update products without touching code \n\nWhen you hand it over, the site should be live on our domain, tested end-to-end, and ready for customers to start buying.",
-  "budget": 25.0,
-  "budget_min": 15.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T12:21:37+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 3,
-   "summary_ru": "Нужен полноценный интернет-магазин физических товаров с каталогом, вариантами и остатками, корзиной и оформлением заказа на любых устройствах, SEO-основами, страницами конфиденциальности и админ-панелью для команды. Бюджет 25 USD очень мал для такого объёма работ.",
-   "reply": "You need a complete online store: a product catalogue with variants and stock levels, a cart and checkout that works on any device, SEO basics, privacy pages, and an admin panel your team can use without code, all live on your domain. I'd build it on a ready platform such as Shopify or WooCommerce, which already covers the catalogue, cart, and admin, then customise the theme to your brand and test the full purchase flow end to end. With a modern stack and AI-assisted development, a first version could be ready in about 2–3 weeks. The budget is well below what this scope usually requires, so I'd suggest starting with a core store and adding the rest in stages. How many products will you launch with, and do you already have a logo and brand guidelines?\n\nSee my portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен полноценный интернет-магазин: каталог товаров с вариантами и остатками, корзина и оформление заказа, которые работают на любых устройствах, базовое SEO, страницы конфиденциальности и админ-панель, которой команда сможет пользоваться без кода, а всё это на вашем домене. Я бы собрал его на готовой платформе, например Shopify или WooCommerce, которые уже покрывают каталог, корзину и админку. Затем я настроил бы тему под ваш бренд и протестировал весь путь покупки от начала до конца. С современным стеком и разработкой с помощью ИИ первая версия могла бы быть готова примерно за 2–3 недели. Бюджет заметно ниже того, что обычно требует такой объём, поэтому я бы предложил начать с базового магазина и добавлять остальное поэтапно. Сколько товаров вы планируете запустить и есть ли у вас логотип и брендбук?\n\nПосмотреть мое портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "С какого количества товаров вы планируете запуск?",
-    "Есть ли у вас логотип и брендбук или их нужно разработать?",
-    "Какие страницы помимо каталога и корзины нужны на сайте?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40837008",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/frontend-development/Custom-WordPress-Package-Builder",
-  "title": "Custom WordPress Package Builder",
-  "description": "DO NOT BID UNLESS YOU HAVE READ THE PROJECT IN FULL.\n\nI need a fully-integrated package-builder added to my existing WordPress site (no e-commerce). The goal is to let visitors mix and match options, see one combined preview image update in real time, and watch the total price refresh alongside it. \n\nWhen they’re happy with their selection, the builder should: \n• display the final price and the live preview; \n• collect their name, email address and an open message field; \n• automatically email the full summary (options chosen, price, preview image) to both the customer and me. \n\nI’ll supply a screenshot plus private links to two competitor sites that already offer almost exactly what I want. Your job is to replicate the same smooth functionality while adapting the visuals, option list and pricing so we are clearly distinct. \n\nKey points to cover: \n• Works seamlessly inside WordPress—use a custom plugin, React/JS overlay, or another robust method you’re confident supporting. \n• Clean, responsive front-end that inherits my theme styling but can be tweaked easily in CSS. \n• Admin panel where I can add or edit option names, prices and the images used for the layered preview. \n• Instant image compositing—no page reloads. \n• Reliable email dispatch using WP Mail, SMTP or a service you recommend. \n\nPlease quote your final, all-inclusive price; I’m not open to mid-project increases. Confirm you’ve built a similar dynamic configurator before and outline the tools or libraries you plan to use so I know the approach is solid.",
-  "budget": 250.0,
-  "budget_min": 20.0,
-  "currency": "GBP",
-  "posted_at": "2026-11-26T12:19:36+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop",
-   "crm",
-   "calculator",
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "calculator",
-   "score": 4,
-   "summary_ru": "Заказчик хочет встроить в свой WordPress-сайт конфигуратор пакетов: посетители выбирают опции, превью и итоговая цена обновляются сразу, а после заявки сводка уходит на почту клиенту и заказчику. Нужны админка для опций, цен и слоёв изображений и надёжная отправка писем. Бюджет 250 GBP при таком объёме работ низкий, а задача копировать функциональность конкурентов требует уточнения.",
-   "reply": "You need a configurator for your existing WordPress site: visitors pick options, a layered preview and the total price update instantly, then they submit their name, email and a message, and the summary (choices, price, preview image) goes to them and to you. I'd build it as a small custom plugin with a React or vanilla JS front end, a settings page in wp-admin for option names, prices and layer images, client-side canvas compositing so there are no page reloads, and email sent through wp_mail with an SMTP service for reliable delivery. The front end will inherit your theme styling, with its CSS in a separate file for easy tweaks. Since the visuals, option list and pricing will be yours rather than copied from the competitors, I'd suggest we define the option structure first. Estimated timeline is about 2–3 weeks for a first working version, followed by a round of fixes. Two questions: roughly how many option groups and layer images do you expect, and do you have a preferred email or SMTP service? You can see live demos at https://grachoffprod.github.io/portfolio/",
-   "reply_ru": "Вам нужен конфигуратор для существующего сайта на WordPress: посетители выбирают опции, слоистое превью и итоговая цена обновляются мгновенно, затем они отправляют имя, email и сообщение, а сводка (выбор, цена, изображение превью) уходит им и вам. Я бы сделал небольшой кастомный плагин с фронтендом на React или чистом JS, страницу настроек в wp-admin для названий опций, цен и изображений слоёв, композицию изображений на canvas в браузере без перезагрузки страницы и отправку писем через wp_mail с SMTP-сервисом для надёжной доставки. Фронтенд будет наследовать стили вашей темы, а CSS будет вынесен в отдельный файл для простой правки. Поскольку визуал, список опций и цены будут вашими, а не скопированными у конкурентов, предлагаю сначала согласовать структуру опций. Ориентировочный срок: 2–3 недели на первую рабочую версию, затем раунд правок. Два вопроса: примерно сколько групп опций и изображений слоёв вы ожидаете и есть ли предпочтительный email- или SMTP-сервис? Живые демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/",
-   "questions": [
-    "Сколько групп опций и слоёв изображений примерно планируется?",
-    "Есть ли предпочтительный email- или SMTP-сервис для отправки писем?",
-    "Насколько бюджет 250 GBP жёсткий и какие функции важнее всего, если придётся расставить приоритеты?"
-   ]
-  },
-  "found_at": "2026-11-26T12:55:34+00:00"
- },
- {
-  "id": "freelancer:40837006",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control",
-  "title": "Node.js Role-Based Access Control",
-  "description": "We are an established full-stack software development agency. We build websites, web apps, mobile apps, custom software, booking and management systems, and AI automation for clients worldwide. We are looking for a commission-based sales partner who can bring us real software projects and close them. This is a long-term revenue-share partnership, not a one-off gig.\n\nWHAT YOU DO\n- Find businesses that need software built (web, mobile, custom software, AI, automation).\n- Open the conversation, learn what they need, and introduce us.\n- Stay involved through to the close. You own the relationship and the deal.\n\nWHAT WE DO\n- All the technical work: requirement scoping, a free audit or demo for the prospect, the proposal, the pricing, and the full build and delivery.\n- We join the technical and closing calls with you whenever you want us there.\n- We hand you our portfolio, case studies and sales material, so you are never selling blind.\n\nYou do not write code. You do not manage the project. You bring the client and help close; we deliver the rest.\n\nWHAT YOU EARN\n- 20% of the first invoice we collect on any project you bring and close.\n- Plus 10% of all recurring or retainer revenue from that client for 12 months.\n- Uncapped, and paid on cash collected as the client pays us.\n\nOur projects usually run from USD 1,000 to 15,000 and up, so one closed deal can pay you USD 200 to 3,000, and good clients come back for more work.\n\nWHO THIS IS FOR\n- People who already have business relationships, a network, or a genuine way to reach the decision-makers who buy software.\n- Anyone comfortable selling B2B software or digital services.\n- Agencies or individuals who want a reliable technical partner to deliver, so they can focus on selling.\n\nNOT A FIT\n- Cold-call lead lists, scraped contacts, or bulk email blasts. We do not pay for leads, intros, or meetings. We pay commission only on signed, paid contracts.\n- Anyone who wants a fixed salary or hourly rate. This is pure commission with real upside.\n\nHOW TO APPLY\nIn a few lines, tell us: which industries or regions you can sell into, how you plan to reach clients, and any B2B or software sales you have closed before. Keep it short and specific.\nTo show you actually read this, start your proposal with the word CLOSER.\n\nWe reply to serious applicants and can start right away.",
-  "budget": 16000.0,
-  "budget_min": 10000.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T12:19:08+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "booking",
-   "automation",
-   "saas"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "saas",
-   "score": 2,
-   "summary_ru": "Агентство ищет комиссионного партнёра по продажам, который будет приводить клиентов на разработку ПО и закрывать сделки за процент от оплаты. Это не проект разработки: кода писать не нужно, а оплата только за подписанные контракты, без фиксированного дохода. Заголовок про Node.js RBAC не соответствует описанию.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Есть ли в этом объявлении отдельное техническое задание на Node.js RBAC, или это только набор для поиска партнёра по продажам?",
-    "Предполагается ли оплата фиксированной суммой или только комиссией с закрытых сделок?"
    ]
   },
   "found_at": "2026-11-26T12:55:34+00:00"
