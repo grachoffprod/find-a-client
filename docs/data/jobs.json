@@ -1,5 +1,431 @@
 [
  {
+  "id": "freelancer:40839739",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839739",
+  "title": "Desktop Thermometer App Field Trial(only from Uk) -- 2",
+  "description": "Join CoolRater’s winter 2026–27 field trial of a Windows app that measures the Heat-Transfer Coefficient of your home, a statistic used to support heat-pump sizing. Participants will install the app, connect an Octopus Energy account, provide half-hourly smart-meter data, and collect overnight temperatures using four Elitech RC-5+ loggers, which will be provided. Applicants must heat their home with a gas boiler and avoid using energy outside the home during trial sessions. Basic computer skills are sufficient; CSV editing and installing unsigned trial software are required. Five participants are sought each month from November 2026 to February 2027. \n\nCoolRater is a desktop app which will measure the heat transfer coefficient HTC for a building, a function that has become increasingly important in recent years for use in sizing heat pumps. A field trial is being run this winter with these objectives: \n\n1. To obtain temperature and energy data for a range of properties. Currently CoolRater has only been used for the author’s own property. \n\n2. to obtain data from properties where the temperature varies between locations due to variations in insulation or heat distribution. For example close to a solid floor with no insulation, or in rooms which do not have double glazing. \n\n3. To find out if users have any problems in using the app, or have any dislikes or need for additional features or improvements. \n\nThere are some specific requirements for participants: \n\n1. The app only supports Windows (10 or 11); \n2. heating must be with a gas boiler; \n3. your energy supplier must be Octopus Energy, and you must be able to connect to the Octopus API, which means that you will have to live in the UK. \n4. you must have a smart meter, configured to record energy use every 30 minutes. As a quick check that the smart meter and API is working correctly, there is a feature on the Octopus website where you can download smart meter data. Log in to your Octopus account, click your name top right, click My Energy, scroll down to \"Get your energy geek on\" you can download files of energy usage. Please download two days of energy data and attach it to your proposal, so that I can see that you have a working smart meter. \n5. during the trial, which is only active at night, you will not be able to use energy for anything outside the house, like charging EVs. \n\nTo collect the temperature data you will be provided with four Elitech RC-5+ logging thermometers. To send you these, I will need your address. Exchanging contact details is discouraged by PPH rules, but is allowed after a proposal has been accepted if it is necessary to mail equipment. Note that a similar project is also posted which differs only in that participants buy their own thermometers, receive a higher amount as a result, and do not therefore need to provide their address. \n\nA high level of computer expertise is not required but you will need to copy your API key from your Octopus account to the app, you may need to edit CSV files with Excel or LibraOffice, and install the app. As trial software it has not been possible to digitally sign it and it has had few downloads. Therefore the operating system will treat it with suspicion and advise you not to run it. You can run it against this advice by clicking “More Information” and “Run Anyway”. \n\nThe video https://youtu.be/HryknL9LGqQ gives instructions on using the app and shows what you will need to do as a participant in the field trial. \n\nCriteria for Job Completion \n\nAs trial software its difficult to be certain of how well it will work. The app calculates the HTC for each inside thermometer by three different methods. If for any one of the thermometers the results agree to within 10%, then jobs a good’un. If they don’t, then this often indicates a problem with the thermometer being close to a heating source. So I would like you to repeat the test one or two times to get a better result. Return either one project file with the results agreeing to within 10%, or three project files from three separate attempts. \n\nIt is intended that there will be five participants in each of the months November 2026 to February 2027.",
+  "budget": 25.0,
+  "budget_min": 15.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T07:14:42+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Приглашение участвовать в зимнем полевом испытании Windows-приложения CoolRater для измерения коэффициента теплопередачи дома. Нужны участники из Великобритании с газовым котлом, смart-счётчиком и Octopus Energy, а также ручная работа с логгерами и CSV-файлами. Это не разработка, а участие в исследовании.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Оплата и условия участия в исследовании: предусмотрен ли какой-либо проект разработки или интеграции, а не только участие в тесте?",
+    "Требуется ли программирование или доработка приложения, или нужен только тестировщик с домашним оборудованием?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839735",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/python/Batch-Quiz-Question-Generator",
+  "title": "Batch Quiz Question Generator",
+  "description": "I need an automated workflow that takes a list of topics and sub-topics I will supply and produces roughly 2,000–2,500 multiple-choice questions through a batch API call. Every item must contain the prompt, four answer options, the single correct answer, and a concise explanation (one or two sentences) to justify the correct choice.\n\nMy ideal solution is a script or small application that reads a structured input file (CSV, JSON, or Google Sheet—whichever you find most efficient), feeds each row into the API, and then writes the returned questions to an export format I can easily review and import into my LMS. The system has to respect rate limits, handle retries gracefully, and keep the topic hierarchy intact so I can trace each generated question back to its parent sub-topic.\n\nI will provide:\n\n• A master list of topics and sub-topics, each tagged with a unique ID. \n• Style guidelines for wording and difficulty. \n• API credentials for the chosen model.\n\nDeliverables:\n\n1. Well-documented code (Python preferred, but I’m open) that performs batch generation and export. \n2. A README with setup instructions and an example input file. \n3. One sample run that shows at least 25 questions covering different sub-topics, confirming formatting and explanation length.\n\nAcceptance criteria:\n\n• Questions strictly follow the four-option MCQ structure with one correct answer and an explanation. \n• Output passes a quick duplication check (no identical or near-identical questions). \n• Script completes a full 2,000-question batch without unhandled errors.\n\nIf you have experience with OpenAI, Azure OpenAI, or similar large-scale text generation via API and can turn this around efficiently, let’s talk.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T07:10:08+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration",
+   "calculator"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Нужен скрипт для пакетной генерации около 2000–2500 тестовых вопросов с четырьмя вариантами ответа и пояснением по списку тем и подтем через API языковой модели. Скрипт должен учитывать rate limits, повторять неудачные запросы, проверять дубликаты и экспортировать результат для импорта в LMS. Бюджет низкий (1500 INR) при большом объёме работы.",
+   "reply": "You need a batch pipeline that turns your topic tree into about 2,000 four-option MCQs with short explanations, with retries, rate limiting and an export you can trace back to each sub-topic. I'd build it in Python: read topics from CSV or JSON with their IDs, send requests concurrently under a rate limiter with exponential backoff, validate each response against a strict schema (four options, one correct answer, a one-to-two sentence explanation), and run a normalized-text similarity check to catch near-duplicates before writing the CSV/JSON output with the parent sub-topic ID. Using a modern stack and AI-assisted development, I can deliver the script, README and a sample run of 25+ questions within about 3–4 days. Which model provider will you use, and what import format does your LMS expect? Portfolio with live demos: https://grachoffprod.github.io/portfolio/\nYakov",
+   "reply_ru": "Вам нужен пакетный конвейер, который превращает дерево тем в примерно 2000 тестовых вопросов с четырьмя вариантами ответа и коротким пояснением. Он должен учитывать rate limits, повторять неудачные запросы и выгружать результат так, чтобы каждый вопрос можно было проследить до своей подтемы. Я бы сделал это на Python: читал бы темы из CSV или JSON с их ID, отправлял запросы параллельно с ограничением частоты и экспоненциальной задержкой при повторах, проверял каждый ответ по строгой схеме (четыре варианта, один правильный, пояснение в одно-два предложения) и делал проверку на почти идентичные вопросы по нормализованному тексту перед записью в CSV/JSON с ID родительской подтемы. Используя современный стек и разработку с ИИ-ассистентами, я могу сдать скрипт, README и пример запуска из 25+ вопросов примерно за 3–4 дня. Какого провайдера модели вы планируете использовать и какой формат импорта ожидает ваша LMS? Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\nYakov",
+   "questions": [
+    "Какую модель и провайдера API вы планируете использовать (OpenAI, Azure OpenAI или другой)?",
+    "В каком формате LMS ожидает импорт вопросов: CSV, JSON, GIFT или другой?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839733",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-integration/Build-IDX-Real-Estate-Platform",
+  "title": "Build IDX Real Estate Platform",
+  "description": "We are looking for an experienced website developer to build a modern, professional, mobile-responsive 10-page real estate website with advanced features and third-party integrations.\n\nKey Requirements:\n\nCustom, SEO-friendly website design\n\nIDX/MLS property search and listings integration\n\nBuyer, seller, property, and neighborhood pages\n\nZillow, Realtor.com, Google, and other real estate portal integrations\n\nGoogle Maps, Google Reviews, and social media integration\n\nLead capture forms, home valuation, and appointment booking\n\nGoHighLevel CRM integration and automated lead follow-ups\n\nGoogle Analytics, Meta Pixel, and conversion tracking\n\nAPI, webhook, and third-party integrations\n\nFast loading, mobile optimization, and security\n\nPreferred Skills: WordPress, IDX/MLS, GoHighLevel, API integrations, SEO, UI/UX design, and real estate website development.\n\nImportant: Applicants must have prior experience developing real estate websites with IDX/MLS functionality.\n\nPlease share your portfolio, similar projects, estimated timeline, and total project cost.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T07:09:56+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "booking",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 4,
+   "summary_ru": "Нужен сайт на 10 страниц для агентства недвижимости с адаптивной версткой, IDX/MLS-выдачей объектов, страницами покупателей, продавцов и районов, интеграциями с порталами, Google Maps и отзывами, формами заявок с оценкой жилья и записью, а также автоматическими follow-up в GoHighLevel CRM. Бюджет низкий (37 500 INR) для такого объёма, а заказчик требует опыт работы с IDX/MLS, которого в моём профиле нет.",
+   "reply": "You need a 10-page, mobile-first real estate site with IDX/MLS listings, buyer, seller and neighborhood pages, integrations with portals, Google Maps and reviews, lead forms with home valuation and booking, and automated follow-ups in GoHighLevel. I'd suggest building it on a modern stack rather than WordPress, with custom SEO-friendly templates, a listings module fed by your IDX/MLS provider, and webhooks that push leads into GoHighLevel. I use AI-assisted development, so a first version could be ready in about 2–3 weeks, though the IDX feed access will be the main variable. I should be upfront that I don't have prior IDX/MLS project experience, so I'd rather not guess at MLS compliance details. Live demos are at https://grachoffprod.github.io/portfolio/\n\nWhich IDX provider do you use, and do you already have API credentials? Is the 10-page scope fixed, and are the portal integrations read-only feeds or full syndication?\n\nYakov",
+   "reply_ru": "Вам нужен адаптивный сайт на 10 страниц для агентства недвижимости с IDX/MLS-выдачей объектов, страницами покупателей, продавцов и районов, интеграциями с порталами, Google Maps и отзывами, формами заявок с оценкой жилья и записью, а также автоматическими follow-up в GoHighLevel. Я бы предложил сделать его на современном стеке, а не на WordPress: с собственными SEO-friendly шаблонами, модулем объектов, который получает данные от вашего IDX/MLS-провайдера, и вебхуками, которые передают заявки в GoHighLevel. Я использую разработку с ИИ-ассистентами, поэтому первую версию можно подготовить примерно за 2–3 недели, хотя главным фактором будет доступ к IDX-фиду. Важно честно сказать: у меня нет предыдущего опыта проектов с IDX/MLS, поэтому я не хочу гадать о юридических требованиях MLS. Живые демо: https://grachoffprod.github.io/portfolio/\n\nКакой IDX-провайдер вы используете и есть ли у вас API-доступ? Объём в 10 страниц фиксированный? И интеграции с порталами предполагают только чтение данных или полную синдикацию?\n\nYakov",
+   "questions": [
+    "Какой IDX/MLS-провайдер вы используете и есть ли у вас уже API-доступ?",
+    "Объём в 10 страниц фиксированный или его можно обсудить?",
+    "Интеграции с Zillow и Realtor.com предполагают только чтение данных или полную синдикацию объявлений?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839732",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/3d-design/Interactive-Event-Booth-Design",
+  "title": "Interactive 3D Event Booth Design",
+  "description": "I’m planning a high-impact corporate product launch and need a 3D designer who can translate our concept into a photogenic, technically-sound experience. The booth must build brand buzz and invite shareable moments, so every angle should feel Instagram-ready while remaining practical for fabrication and on-site installation.\n\nHere’s what I’m after:\n• A complete 3D environment for a corporate event booth that seamlessly integrates LED screens and digital displays, interactive touchscreens or games, plus a virtual/augmented-reality layer visitors can explore.\n• Attention to real-world constraints—accurate structure, materials, lighting, cabling paths, and safety clearances—so the design moves smoothly from render to production.\n• High-resolution stills and a short animated walkthrough for stakeholder sign-off, followed by detailed dimensioned drawings and a materials/spec sheet for the builder.\n• Source files in the native software you use (3ds Max, SketchUp, Cinema 4D or similar) alongside exportable formats such as FBX/OBJ for the AR component.\n\nAcceptance criteria\n- Renders clearly show all technology elements powered on and actively engaging guests. \n- Floor plan, elevations, and exploded views match venue limits and local regulations. \n- Final files delivered ready for print, digital hand-off, and AR integration.\n\nIf you have a portfolio of corporate launches that combine immersive tech with clean, buildable design, let’s talk details and timelines.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T07:09:50+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет 3D-дизайнера для проектирования интерактивного стенда на корпоративном мероприятии: рендеры, анимированный обход, чертежи, спецификация материалов и исходники в 3ds Max/SketchUp/Cinema 4D с экспортом FBX/OBJ для AR. Это 3D-дизайн и моделирование, а не разработка ПО, поэтому под услуги не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли в проекте программная часть, например разработка интерактивных экранов или AR-приложения, или речь только о 3D-моделировании и визуализации?",
+    "Кто будет отвечать за техническую реализацию AR-слоя и интеграцию с экранами: ваша команда или подрядчик?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839722",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/unity/Android-Coin-Toss-Game",
+  "title": "Android Coin Toss Game Rs15000",
+  "description": "I want a lightweight, Android-only game where users bet virtual coins on a simple Heads-or-Tails toss. Every new account—whether created with mobile-OTP or Google sign-in—should automatically start with 100 free coins. \n\nCore game flow \n• Player selects Head or Tail, the animated coin flips, and the result appears instantly. \n• Winnings follow a custom payout I’ll set in the admin panel; losses remove the staked coins. \n• Toss outcomes stay fair yet profitable because I’ll be able to define a global win-percentage rather than deciding each toss manually. \n\nPlayer features \n• Real-time coin balance updates. \n• History screen showing the last ten tosses. \n• Leaderboard displaying the top coin holders. \n\nAdmin panel \nFrom a web or in-app console I need to: \n• Adjust any user’s coin balance. \n• Set or tweak the overall win percentage. \n• Change the payout multiplier. \n• View all registered players, their histories, and basic analytics. \n\nDeliverables \n1. Production-ready APK. \n2. Full, well-commented source code that opens in Android Studio. \n3. Simple admin panel (web or mobile) with the controls listed above. \n4. Short setup guide so I can rebuild, publish, and maintain the project myself. \n\nTimeline is 7–10 days, fixed budget ₹15,000. Please include at least one previous game APK in your bid so I can check animation quality and performance.",
+  "budget": 12000.0,
+  "budget_min": 8000.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T06:56:49+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Заказчик хочет нативную Android-игру «орёл или решка» на виртуальные монеты с админ-панелью, где можно задавать глобальный процент выигрышей и множитель выплат. Проект требует APK и исходники для Android Studio, а не веб-разработки из списка услуг, и предполагает скрытое управление исходами игры.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839717",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/chatbot/Implementasi-WhatsApp-API-Pelatihan",
+  "title": "Implementasi WhatsApp API & Pelatihan",
+  "description": "Saya membutuhkan solusi WhatsApp Business API lengkap yang langsung siap dipakai di perusahaan saya. Fokusnya adalah:\n\n• Menjawab pertanyaan pelanggan secara otomatis melalui chatbot atau aturan pesan. \n• Mendukung tim customer service agar bisa mengambil alih percakapan dengan mulus. \n• Mengirim notifikasi, pengingat, dan informasi promo secara terjadwal kepada pelanggan. \n• Melatih tim internal hingga mereka benar-benar paham cara mengoperasikan sistem dan menyesuaikan alur kerja ke depannya.\n-bisa bikin laporan harian dari sales dan auto chat untuk customer yang telah di canvassing sama sales sales perushaan\n- mencegah risiko kejadian yang tidak di inginkan untuk customer maupun perusahaan dari sales yang telah mengundurkan diri \n- auto update ke data base\n\nSaya mencari freelancer yang:\n– Sudah pernah membangun integrasi WhatsApp API untuk bisnis, termasuk provisioning nomor resmi. \n– Memiliki pengalaman membuat chatbot atau agen AI yang responsif. \n– Terbiasa melatih pengguna non-teknis dan mampu menjelaskan konsep teknis dengan bahasa sederhana.\n\nHarap lampirkan contoh proyek sejenis yang pernah Anda tangani, beserta penjelasan singkat peran Anda di dalamnya. Jika Anda punya demo atau repositori kode relevan, sertakan juga. Saya akan memilih kandidat yang bisa menunjukkan pemahaman menyeluruh tentang arsitektur WhatsApp API, keamanan data pelanggan, serta metode terbaik untuk pelatihan tim.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T06:53:30+00:00",
+  "lang": "id",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "tg_bot",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 6,
+   "summary_ru": "Заказчик из Индонезии хочет внедрить WhatsApp Business API: автоответы через чатбота, передачу чатов сотрудникам CS, плановые уведомления и промо, ежедневные отчёты по продажам, автоматические сообщения клиентам и синхронизацию с базой данных, а также обучение команды. Бюджет 1500 USD.",
+   "reply": "Anda butuh sistem WhatsApp Business API yang menjawab pertanyaan pelanggan lewat chatbot, memungkinkan tim CS mengambil alih percakapan, mengirim notifikasi dan promo terjadwal, membuat laporan harian dari aktivitas sales, dan memperbarui database otomatis. Saya akan mulai dari arsitektur: webhook untuk pesan masuk, bot berbasis aturan dengan opsi AI untuk jawaban otomatis, panel handover untuk CS, scheduler untuk broadcast, serta koneksi ke database dengan kontrol akses data pelanggan. Pelatihan tim saya siapkan dalam bentuk panduan singkat dan sesi praktik langsung. Perkiraan waktu: MVP inti sekitar 3–4 minggu, lalu pelatihan dan penyesuaian alur kerja. Apakah Anda sudah memiliki penyedia WhatsApp API (Cloud API atau BSP) dan nomor resmi? Dan data sales serta pelanggan saat ini disimpan di sistem apa?\n\nContoh demo dan karya saya bisa dilihat di: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужна система WhatsApp Business API, которая отвечает клиентам через чатбота, позволяет сотрудникам CS перехватывать диалоги, отправляет уведомления и промо по расписанию, формирует ежедневные отчёты по активности продаж и автоматически обновляет базу данных. Я начну с архитектуры: webhook для входящих сообщений, бот на основе правил с возможностью подключения ИИ для автоответов, панель передачи диалога для CS, планировщик рассылок и подключение к базе данных с контролем доступа к данным клиентов. Обучение команды подготовлю в виде короткого руководства и практических сессий. Ориентировочные сроки: базовая версия (MVP) около 3–4 недель, затем обучение и настройка рабочих процессов. Уже есть провайдер WhatsApp API (Cloud API или BSP) и официальный номер? И в какой системе сейчас хранятся данные по продажам и клиентам?\n\nПримеры демо и моих работ можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже провайдер WhatsApp API (Cloud API или BSP) и подтверждённый номер для бизнеса?",
+    "В какой системе сейчас хранятся данные о продажах и клиентах (CRM, таблицы, своя база)?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839711",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/microsoft-word/Scraped-Data-Proofing-Fixes",
+  "title": "Scraped Data Proofing & Fixes",
+  "description": "I have a Word document that was populated by scraping content from various files, and the result includes the usual extraction errors—misplaced characters, garbled line breaks, and the occasional missing value. I will supply the original source material as PDFs and spreadsheets so you can compare every entry directly against the authentic data and overwrite the faulty portions in the Word file.\n\nThe job calls for meticulous data-level proofreading rather than creative rewriting. Your task is to make the Word document mirror the source files exactly, preserving all existing styles while correcting any inaccuracies introduced during the scrape. Please use Track Changes so I can review every adjustment quickly, then deliver a clean final version once we have signed off.\n\nI’ll share the document and its source files immediately after we start; from there, accuracy and a sharp eye for inconsistencies are the priorities.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T06:53:05+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Клиент просит вручную сверить Word-документ с исходными PDF и таблицами, исправить ошибки после парсинга и вести правки через Track Changes. Это корректорская работа с данными, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Сколько страниц или записей в документе и каков общий объём исходных файлов?",
+    "Нужна ли автоматизация сверки или только ручная правка по исходникам?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839718",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/api-integration/Claude-Agents-for-CRM-Automation",
+  "title": "Claude AI Agents for CRM Automation",
+  "description": "We are a Sydney-based digital marketing agency \nWe are looking for an experienced and cost-effective Claude AI specialist to develop AI agents and integrate them with our existing custom-built PHP/MySQL CRM.\n\nThe project includes developing AI agents for:\n\nSEO, keyword rankings and Google Search Console indexing issues.\n\nGoogle Business Profile and local SEO optimisation.\n\nWordPress website monitoring, WPForms and SMTP functionality.\n\nGoogle Ads and Facebook Ads optimisation.\n\nBlog, article and SEO content generation.\n\nSocial media and graphic quality control.\n\nOutlook email and administrative automation.\n\nThe AI agents must identify issues, recommend actual solutions, automatically create and assign tasks within our existing CRM, implement approved changes, verify completion and escalate outstanding issues.\n\nRequired technical experience:\n\nClaude AI, Anthropic API and Claude Agent SDK.\n\nMCP and multi-agent AI development.\n\nPHP, MySQL, Python and API integration.\n\nWordPress automation.\n\nGoogle, Meta and Microsoft APIs.\n\nCloud infrastructure and workflow automation.\n\nWe already have an internal CRM and WordPress development team to assist with implementation.\n\nWe are looking for a long-term, cost-effective freelancer, preferably based in India. Development will be completed in stages, starting with a small paid SEO and CRM integration pilot.\n\nPlease provide examples of similar AI projects, your technical experience, cost and availability.\n\nA detailed project specification and visual development roadmap will be shared with shortlisted candidates.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-28T06:52:32+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "automation",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "crm",
+   "score": 5,
+   "summary_ru": "Австралийское маркетинговое агентство ищет фрилансера, который интегрирует ИИ-агентов на базе Claude в их CRM на PHP/MySQL. Агенты должны отслеживать SEO, WordPress, рекламу и email, создавать и назначать задачи в CRM, применять одобренные изменения и эскалировать нерешенные проблемы. Работа пойдет поэтапно, начиная с небольшого пилота по SEO и CRM. Бюджет 1500 AUD, при этом объем задач большой, поэтому оценка средняя.",
+   "reply": "You want AI agents added to your PHP/MySQL CRM that watch SEO, WordPress, ads and email, turn findings into tasks, apply approved fixes and escalate what stays open. I'd start with the SEO and CRM pilot: a Claude-based agent that reads Search Console and ranking data, proposes fixes, and creates and assigns CRM tasks through a small API layer, with a human approval step before any change goes live. Once that pattern works, I'd reuse it for the other agents. For the pilot I'd estimate 2–3 weeks, depending on how easily the CRM exposes its data. Two questions: do you have API access or a database schema I can build against, and what Search Console and WordPress access would the agent need? Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите добавить в вашу CRM на PHP/MySQL ИИ-агентов, которые следят за SEO, WordPress, рекламой и email, превращают находки в задачи, применяют одобренные исправления и передают нерешенные проблемы дальше. Я бы начал с пилота по SEO и CRM: агент на базе Claude читает данные Search Console и позиций, предлагает исправления и создает и назначает задачи в CRM через небольшой API-слой, а любое изменение сначала проходит через подтверждение человеком. Когда этот подход заработает, я бы использовал его и для остальных агентов. На пилот я оцениваю 2–3 недели, в зависимости от того, насколько легко CRM отдает свои данные. Два вопроса: есть ли у вас API или схема базы данных, с которыми я смогу работать, и какой доступ к Search Console и WordPress понадобится агенту? Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас API или схема базы данных CRM, с которыми можно работать напрямую?",
+    "Какой доступ к Google Search Console и WordPress нужен агенту на этапе пилота?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839714",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/git/Custom-Website-Product-Content-Updates",
+  "title": "Custom Website Product & Content Updates",
+  "description": "I manage a custom-built website and need its product listings, prices, and a few content sections brought up to date. All new copy and numbers are ready; they simply have to be inserted, double-checked in the front end, and pushed live.\n\nThe site runs on bespoke PHP/HTML templates with a MySQL back-end and is version-controlled through Git. You’ll work in a separate branch, commit cleanly, and merge once everything renders perfectly in the browser.\n\nDeliverables\n• Every supplied product, price, and text change visible on the live site with layouts intact \n• No broken links, missing images, or console errors after deployment \n• Brief change log summarising each modification and the files touched\n\nWhile you’re inside the code, please correct any minor formatting or typos you notice. Accuracy is critical; quick turnaround is valued. Let me know when you can start and how long you’ll need to wrap this up.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T06:52:16+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 4,
+   "summary_ru": "Нужно обновить товары, цены и несколько текстовых блоков на готовом сайте на PHP/HTML с MySQL. Новые данные уже готовы, их нужно вставить, проверить в браузере и выкатить через отдельную ветку Git. Бюджет низкий (1500 INR), но задача понятная и подходящая.",
+   "reply": "You need the supplied products, prices and text blocks inserted into a PHP/HTML site backed by MySQL, checked in the browser, and merged to live through a separate Git branch with a change log. I would start by mapping where each item lives in the templates and database tables, then load the data in a feature branch and test layouts, links, images and the console on desktop and mobile before merging. Typo fixes can go in as separate commits so they are easy to review. For a job of this size I expect to finish within 1–2 days after I get repository and database access. Could you share the new content as a CSV or spreadsheet? Also, should the typo fixes apply to every page or only the sections you list? My recent work with live demos is at https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно вставить предоставленные товары, цены и текстовые блоки в сайт на PHP/HTML с MySQL, проверить в браузере и выкатить через отдельную ветку Git с журналом изменений. Я начну с того, чтобы найти, где каждый элемент хранится в шаблонах и таблицах базы данных, затем загружу данные в отдельную ветку и проверю верстку, ссылки, изображения и консоль на десктопе и мобильных устройствах перед слиянием. Исправления опечаток можно сделать отдельными коммитами, чтобы их было легко просмотреть. Для задачи такого объёма ожидаю завершить работу в течение 1–2 дней после получения доступа к репозиторию и базе данных. Не могли бы вы прислать новый контент в виде CSV или таблицы? И нужно ли применять исправления опечаток ко всем страницам или только к перечисленным разделам? Мои последние работы с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Можете прислать новый контент в виде CSV или таблицы?",
+    "Нужно ли исправлять опечатки на всех страницах или только в перечисленных разделах?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839712",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/foley/Short-Film-Sound-Foley-Design",
+  "title": "Short Film Sound & Foley Design",
+  "description": "My short film is picture-locked and ready for its sonic identity. I need a seasoned sound designer who can build a tense, dramatic atmosphere from the ground up, layering bespoke Foley with impactful transitions and music cues so every moment feels immediate and alive.\n\nThe priority is crafting those heart-pounding stings, swells, and impact sounds that drive the narrative forward. Foley should match on-screen action with precision, but the real spotlight is on music integration and dramatic accents that heighten suspense without ever drowning out dialogue.\n\nI’m editing in Premiere but can supply an AAF/OMF along with reference tracks and a detailed spotting sheet. Feel free to work in Pro Tools, Reaper, or your preferred DAW—as long as the final stems line up perfectly when I drop them back into the timeline.\n\nDeliverables (acceptance criteria) \n• Separate, fully-mixed stems: \n – Dialogue \n – Music \n – Sound effects / Foley \n• All stems synced frame-accurately to the locked picture (24 fps). \n• Session file or full track-lay for future revisions. \n• Peak-legal mix that translates to cinema, web, and social without additional limiting.\n\nIf this sounds like your wheelhouse, let’s discuss turnaround and any creative ideas you’d like to bring to the project.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T06:52:01+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "api_integration",
+   "score": 1,
+   "summary_ru": "Заказчик ищет звукорежиссёра для короткометражного фильма: Foley, саунд-дизайн, музыкальные акценты и сведение стемов под монтаж в Premiere. Это творческая звуковая работа, а не разработка.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли в этом заказе задача, связанная с разработкой ПО, например интеграция или автоматизация, которую можно было бы выделить?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40839700",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/lead-generation/Lead-Qualification-Telecaller",
+  "title": "B2B Lead Qualification Telecaller",
+  "description": "For a software development and IT consulting company, looking for affordable, part-time freelance telecallers in India for B2B lead qualification.\n\n**What you need to do:**\n- Call business leads provided by us.\n- Speak with business owners or decision-makers.\n- Identify genuine requirements for websites, mobile apps, custom software, CRM, ERP, AI, or automation.\n- Ask about project budget and expected timeline.\n- Record call outcomes in Google Sheets.\n- Forward interested prospects to our team.\n\n**No selling, negotiation, or deal closing required.** Our team handles proposals and project discussions.\n\n**Requirements:**\n- Good Hindi communication and basic English.\n- Previous telecalling experience preferred.\n- Own mobile phone.\n- Available for part-time remote work.\n- Individual freelancers preferred, not agencies.\n\n**Budget:** ₹3,000–₹6,000/month, depending on experience and availability, with additional incentives for genuinely qualified leads.\n\nWe will start with a small paid trial and may offer ongoing work to reliable performers.\n\n**When applying, please mention your experience, daily calling capacity, expected charges, and availability.**",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T06:38:53+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Вакансия на удалённую работу телемаркетолога (part-time, ₹3000–6000/мес): обзвон бизнес-лидов, выявление потребностей в разработке и фиксация результатов в Google Sheets. Это не проект разработки, а телефонные продажи/квалификация.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли у заказчика проект разработки, который нужно реализовать, или это только обзвон лидов?",
+    "Нужна ли работа по разработке (например, настройка Google Sheets или автоматизация записи результатов звонков)?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40715458",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Shopify-Website-Design-Rebrand",
+  "title": "Shopify Website Design Rebrand",
+  "description": "I’m refreshing the look and feel of my existing Shopify store and want a designer-developer who can overhaul the site’s visual design while keeping all current products, pages, and functionality in place. \n\nScope \nThe focus is the front-end only—logo and product photography stay as they are. I already have a defined color palette and will share the HEX values once we get started. Your job is to weave those colors into a cohesive redesign, update the typography for better readability and brand consistency, and restructure the layout so the store feels fresh, modern, and conversion-friendly. \n\nWhat I’m expecting \n• A polished mock-up (Figma, Adobe XD, or similar) showing new color scheme, type hierarchy, and revised page sections for Home, Collection, Product, Cart, and Checkout. \n• Implementation of the approved design directly in Shopify using theme customization, Liquid, CSS, and any lightweight JavaScript where necessary. \n• Mobile responsiveness tested across major devices and browsers. \n• Handoff with documentation covering any new templates, snippets, or settings you create so I can maintain the look long-term. \n\nI’ll supply the palette and existing brand guidelines as soon as we kick off. Let’s make the store look as premium as the products it sells.",
+  "budget": 30.0,
+  "budget_min": 10.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T06:33:18+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 4,
+   "summary_ru": "Редизайн существующего Shopify-магазина: новая цветовая палитра, типографика и структура страниц (главная, коллекция, товар, корзина, оформление заказа) при сохранении товаров и функционала. Нужны макет в Figma, внедрение в теме и документация. Бюджет 30 USD, что мало для такого объёма.",
+   "reply": "You want the Shopify store restyled on the front end: a new palette, typography, and layout across Home, Collection, Product, Cart and Checkout, with products, pages and functionality left untouched. I'd build it directly in your theme using Liquid, CSS and light JavaScript, and package the custom sections and snippets with documented settings so the look is easy to maintain. I'd start with a quick visual direction based on your HEX values, then implement template by template and test on mobile and desktop browsers. For this scope I'd estimate about 5–7 days. Two things to confirm: which theme you're on now, and whether you need a full Figma mock-up approved before coding, or whether screenshots and a short style guide would be enough to fit the budget?\n\nLive demos of my work: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите обновить внешний вид магазина на Shopify на уровне фронтенда: новая палитра, типографика и структура страниц для главной, коллекции, товара, корзины и оформления заказа. Товары, страницы и функционал остаются без изменений. Я бы реализовал дизайн прямо в вашей теме на Liquid, CSS и небольшом JavaScript и оформил новые секции и сниппеты с документацией по настройкам, чтобы стиль было легко поддерживать. Сначала я бы предложил визуальное направление на основе ваших HEX-значений, затем внедрял бы шаблон за шаблоном и тестировал на мобильных устройствах и десктопных браузерах. По такому объёму я оцениваю срок примерно в 5–7 дней. Два вопроса: на какой теме вы сейчас работаете и нужен ли утверждённый макет в Figma до начала вёрстки, или хватит скриншотов и краткого гайда по стилю, чтобы уложиться в бюджет?\n\nЖивые демо моих работ: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "На какой теме Shopify сейчас работает магазин и есть ли доступ к коду темы?",
+    "Нужен ли утверждённый макет в Figma до начала разработки или достаточно скриншотов и краткого гайда по стилю, чтобы уложиться в бюджет 30 USD?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "freelancer:40715404",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/branding/Modern-Facebook-Page-Rebrand-Graphics",
+  "title": "Modern Facebook Page Rebrand & Graphics",
+  "description": "I’m ready to give my Shopify-driven e-commerce brand a fresh, cohesive look on Facebook and need your creative expertise to make it happen. The goal is simple: overhaul every visual and tonal touchpoint so new visitors instantly recognize the brand and existing followers feel the upgrade—ultimately lifting overall awareness.\n\nHere’s what I need from you:\n\n• A clean, modern, minimalistic profile image and matching cover that translate well across desktop and mobile \n• A refreshed page theme and layout guide (fonts, color palette, post styling) that aligns with our Shopify storefront branding \n• A small batch of post templates or sample posts demonstrating the new look, so my team can keep the style consistent after hand-off \n\nBecause the brand centers on e-commerce, please keep conversion-friendly design principles in mind—clear CTAs, uncluttered visuals, and product-forward imagery. Final artwork should come in layered/source files (PSD or AI) plus ready-to-upload PNG/JPEG versions. \n\nI’ll share current brand assets, products, and page analytics once we kick off. If you have a portfolio of Facebook or Shopify-related rebrands, that will help me decide quickly.",
+  "budget": 250.0,
+  "budget_min": 30.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T06:33:18+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "shop",
+   "score": 1,
+   "summary_ru": "Заказчику нужен редизайн Facebook-страницы интернет-магазина на Shopify: аватар и обложка, гайд по стилю (шрифты, палитра, оформление постов) и шаблоны постов. Это дизайнерская работа, а не разработка, поэтому проект не подходит.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли какая-либо техническая часть, например интеграция страницы с Shopify или автоматизация публикаций?",
+    "Планируется ли регулярная публикация постов через внешний инструмент, который потребует настройки?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
+  "id": "telegram:theyseeku/40868",
+  "source": "telegram",
+  "url": "https://t.me/theyseeku/40868",
+  "title": "Ищут 14 человек, чтобы создавали ИИ-контент-заводы по шаблону, как конструктор.",
+  "description": "Ищут 14 человек, чтобы создавали ИИ-контент-заводы по шаблону, как конструктор.\nЗП: от 60 000₽ за проект.\nЗанятость: 3–4 часа в день.\nОпыт: не нужен.\nКак мы работаем:\n- \nПроходишь обучение пару недель\n;\n- Получаешь реальный заказ от меня;\n- Собираешь ИИ-контент-завод по формуле;\n- Сдаёшь проект — я перевожу деньги на карту.\nВесь процесс — до 2 недель с нуля до первых денег.\nСветлана из Мытищ, домохозяйка, собрала ИИ-нутрициолога прямо во время учёбы и заработала 30 000₽, не выходя из дома. А Екатерина из Таджикистана вышла на 100 000₽ уже в первый месяц.\nСредний доход тех, кто работает со мной по этой схеме — 92 852 ₽/мес. Сейчас в поиске висит более 5500 запросов от компаний, которым нужна автоматизация контента.\nЗаказов больше, чем рук. Опыт не требуется.\n Регистрируйся на бесплатный интенсив\n, там пошаговый план как стартануть.\n👉\n fabrikaklonov\nОсталось 14 мест в команде.\nРеклама. ООО \"АИМ\" ИНН 9723249701",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-28T07:03:13+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 1,
+   "summary_ru": "Реклама набора людей в «команду» для создания ИИ-контент-заводов по шаблону с обещанием дохода от 60 000 ₽ за проект. По сути это предложение работы и вербовки, а не заказ на разработку с понятным техзаданием.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Есть ли конкретное техническое задание или описание итогового продукта, которое нужно разработать?",
+    "Кто заказчик и какие системы или интеграции должны быть в результате?"
+   ]
+  },
+  "found_at": "2026-11-28T07:21:28+00:00"
+ },
+ {
   "id": "freelancer:40839673",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/cms/Website-Content-Image-Revamp",
@@ -14719,421 +15145,5 @@
    ]
   },
   "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "freelancer:40836787",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/data-analysis/Analysis-Top-Revenue-Products",
-  "title": "AI Analysis: Top Revenue Products",
-  "description": "I need a data-driven breakdown of which of our products and services bring in the most money. You’ll receive three raw inputs from me—detailed sales records, invoice/payment files, and monthly accounting income reports. Your task is to consolidate these sources, clean any inconsistencies, and run an AI-assisted aggregation so every product or service is credited with its full revenue, even when it shows up under slightly different names across the files.\n\nOnce the numbers are reconciled, present the outcome in a single, easy-to-navigate spreadsheet. The sheet must rank each product or service by total income and include percentage contribution and grand totals. A cover tab with a short explanation of your method and any data gaps you found will help us follow your logic.\n\nFeel free to use Python (pandas, NumPy), Power Query, or any other analytics tool you prefer—the only non-negotiable is that the final deliverable is the ranked spreadsheet (Excel or Google Sheets). Let me know your estimated turnaround time and any clarifying questions you have so we can get started right away.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T09:46:07+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "automation",
-   "score": 7,
-   "summary_ru": "Клиенту нужна сводка, которая объединит данные о продажах, инвойсах и месячных бухгалтерских отчетах, приведет названия продуктов к единому виду и покажет рейтинг по выручке с процентами и итогами в одной таблице Excel или Google Sheets.",
-   "reply": "You need the three sources (sales records, invoices/payments, and monthly accounting reports) merged into one view, with product names normalized so each item gets its full revenue, then ranked in a clean spreadsheet with percentages and totals. I would handle this with a Python pipeline (pandas): load and validate each file, run a name-matching step that groups near-duplicate product names and flags uncertain matches for your review, reconcile totals against the accounting reports, and export an Excel workbook with a cover tab covering method and data gaps, plus a ranked sheet using formulas for shares and grand totals. Estimated turnaround is about 3–5 working days after I receive the files. Could you share sample rows from each source? Also, do the accounting reports break revenue down by product, or only by month?\n\nSee the portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Нужно объединить три источника (записи о продажах, инвойсы/платежи и месячные бухгалтерские отчеты) в единое представление, привести названия продуктов к единому виду, чтобы каждый получил полную выручку, и затем свести всё в аккуратную таблицу с рейтингом, процентами и итогами. Я бы сделал это на Python (pandas): загрузка и проверка каждого файла, сопоставление названий с группировкой похожих вариантов и пометкой спорных совпадений для вашей проверки, сверка итогов с бухгалтерскими отчетами, и экспорт в Excel: вкладка с описанием метода и пробелами в данных, а также лист с рейтингом, где доли и итоги считаются формулами. Ориентировочный срок составляет 3–5 рабочих дней после получения файлов. Не могли бы вы прислать примеры строк из каждого источника? И еще: разбивают ли бухгалтерские отчеты выручку по продуктам или только по месяцам?\n\nПосмотреть портфолио с живыми демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Можете прислать примеры строк из каждого источника (продажи, инвойсы, бухгалтерские отчеты)?",
-    "Бухгалтерские отчеты разбивают выручку по продуктам или только по месяцам?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "freelancer:40836734",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/digital-marketing/Digital-Marketing-Agency-for-SaaS",
-  "title": "Digital Marketing Agency for AI SaaS Product",
-  "description": "We are looking for an experienced digital marketing agency to manage and grow our AI-SaaS Product.\n\nScope of Work:\n- SEO and organic growth\n- Google Ads, Meta Ads and LinkedIn Ads\n- Content and social media marketing",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T09:32:37+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "saas"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "saas",
-   "score": 1,
-   "summary_ru": "Клиент ищет digital-маркетинговое агентство для продвижения AI SaaS-продукта: SEO, рекламные кампании в Google, Meta и LinkedIn, контент и SMM. Это маркетинговая работа, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "freelancer:40836765",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/cpanel/Zero-Downtime-WordPress-Host-Migration",
-  "title": "Zero-Downtime WordPress Host Migration",
-  "description": "I need my entire WordPress environment moved to a new hosting account without visitors noticing the change. That means every file, database table, theme, plugin, upload, and setting must be cloned, spun up on the new server, fully tested, and then put live only when we both agree everything works. \n\nEmail is part of the job: every mailbox, message, folder, contact and existing configuration has to come over intact so users open their clients on Monday and see the same inbox they closed on Friday. \n\nThe current host uses cPanel and gives SSH access; the destination host offers the same. Feel free to use WP-CLI, phpMyAdmin, rsync, imapsync or any other tool you trust, as long as the result is reliable. \n\nKey steps I expect: \n• Create a temporary/staging copy on the new host and replicate the database and file system. \n• Copy all email accounts and historical mail, preserving folder structure and passwords. \n• Verify SSL, permalinks, forms, cron jobs and any third-party API calls. \n• Perform the final DNS cut-over during a low-traffic window once we agree the staging site passes tests. \n\nDeliverables accepted when: \n1. The site loads from the new server with no broken links, images or 404s. \n2. Admin login, plugin pages, and the front-end all function normally. \n3. All mailboxes authenticate and display historical mail on both webmail and IMAP clients. \n4. A brief hand-off note lists any credentials changed and points any residual DNS TTLs. \n\nIf you have a proven process for zero-downtime WordPress migrations and email transfers, I’m ready to get this scheduled right away.",
-  "budget": 37500.0,
-  "budget_min": 12500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T09:29:33+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "site_template",
-   "score": 2,
-   "summary_ru": "Клиент просит перенести WordPress-сайт на новый хостинг без простоя вместе с почтовыми ящиками и историей писем (IMAP, webmail), с тестированием и переключением DNS. По сути это работа системного администрирования и миграции хостинга, а не разработка, поэтому под услуги Yakov она плохо подходит.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Какой объём почты и писем нужно перенести, и есть ли ограничения по времени переключения?",
-    "Есть ли на сайте кастомные плагины или интеграции, которые потребуют доработки после переноса?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "freelancer:40836764",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/reddit-marketing/Reddit-Comment-Posting-Specialist",
-  "title": "Reddit Comment Posting Specialist",
-  "description": "I run IMP Marketing, an eCommerce-focused agency, and I regularly need approved comments placed on carefully chosen Reddit threads. I’ll supply everything—subreddit links, the exact copy to paste, and the wording that transparently discloses your connection to IMP Marketing—so your task is pure execution.\n\nUsing your own well-established Reddit account, you’ll post the comment in the right spot, double-checking that you stay within Reddit’s overall rules as well as any subreddit-specific guidelines. Right after you hit “comment,” send me the direct URL so I can verify it’s live. That link is the only proof I need.\n\nThe flow is simple:\n• I send you a batch of threads plus text. \n• You post, confirm compliance, and share the live links. \n• I release payment—starting at $3 per successful comment. \n\nThere are dozens of comments to be placed every month, and I’m interested in keeping the collaboration going as long as you deliver promptly and communicate quickly (email or Discord work best).\n\nWhen you respond, include:\n• The age and karma level of your Reddit account \n• One or two public comment examples, if possible \n• Your preferred per-comment rate if different from the starting figure \n\nIf you’re an experienced Redditor who understands the platform’s culture and can deliver on tight timelines, let’s get started.",
-  "budget": 30.0,
-  "budget_min": 10.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T09:26:14+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 1,
-   "summary_ru": "Заказчик ищет исполнителя, который будет публиковать оплачиваемые комментарии с его текстом на Reddit от собственного аккаунта, по $3 за комментарий. Это не разработка, поэтому под услуги Yakov не подходит.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "freelancer:40836763",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/power-automate/Power-Apps-Form-Word-Automation",
-  "title": "Power Apps Form-to-Word Automation",
-  "description": "I'm looking for an experienced Microsoft Power Apps / Power Automate developer to build a simple, user-friendly electronic form that automatically generates a professionally formatted Microsoft Word document.\n\nThe application is intended to streamline the preparation of standardised assessment reports in an administrative environment.\n\nCurrently, staff manually complete Word templates. I want to replace this with an electronic form where users enter the required information into designated fields, select relevant options and click Generate to produce a completed, editable Word document.\n\nRequired Features\n\n1. Electronic Form\n\nText fields for name, address, employee number, position, school, dates and reference numbers.\n\nDropdown menus and checkboxes for notifications and assessment categories.\n\nOptional fields for relevant demographic information.\n\nLarger text boxes for Summary, Allegations, Witnesses, Intelligence, Physical Material and Conclusion/Recommendation.\n\nAbility to add multiple witnesses and document reference numbers.\n\nConditional fields depending on selected options.\n\n2. Word Document Generation\n\nGenerate an editable Microsoft Word document (.docx) from the completed form.\n\nAutomatically populate an existing professional Word template.\n\nMaintain consistent headings, tables, fonts, margins and page numbering.\n\nAutomatically handle longer text without disrupting the formatting.\n\nAllow users to save, edit and print the generated document.\n\n3. Two Document Types\n\nThe application should generate either:\n\nFull Assessment Report, including all sections.\n\nCondensed Notification Record, for matters requiring only limited documentation.\n\nThe appropriate fields should appear depending on the document type selected.\n\nPreferred Technology\n\nMicrosoft Power Apps, Power Automate and Word templates, or an equivalent solution compatible with Microsoft 365 and SharePoint.\n\nThe application should be straightforward to maintain, with the ability to update fields or Word templates without requiring extensive programming knowledge.\n\nDeliverables\n\nFully functioning prototype using fictional information.\n\nUser-friendly electronic form.\n\nTwo professionally formatted Word document outputs.\n\nAll editable source files and templates.\n\nBasic instructions for modifying and maintaining the application.\n\nDemonstration of the complete process from entering information to generating the document.\n\nImportant\n\nThis is initially a standalone proof of concept. No connection to government systems, confidential records or external databases is required.\n\nThe developer must use fictional test information only.\n\nPlease provide examples of similar projects, your recommended approach, anticipated completion time, any ongoing Microsoft licensing requirements and a fixed-price quote.",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "AUD",
-  "posted_at": "2026-11-26T09:25:01+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation",
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "automation",
-   "score": 4,
-   "summary_ru": "Клиент хочет электронную форму (Power Apps / Power Automate или аналог в экосистеме Microsoft 365), которая заполняет существующий шаблон Word и создаёт два типа отчётов: полный отчёт об оценке и краткую запись об уведомлении. Это прототип на тестовых данных с повторяемыми полями, условными полями и инструкцией по поддержке. Бюджет 250 AUD заметно ниже объёма работ, а Power Apps не входит в мой стек.",
-   "reply": "You need a form that fills your existing Word assessment template, producing either a full report or a condensed notification record from fictional test data. It should support repeatable witness entries, conditional fields, and long text that wraps cleanly without breaking headings, tables, or page numbering. I'd build a lightweight browser-based form that populates a .docx template, so layout changes stay in Word and don't require code. The prototype would include both document types, editable source files, and a short maintenance guide. Power Apps isn't my main stack, so I'd propose an equivalent solution that works alongside Microsoft 365. I estimate about 5–7 days for the prototype.\n\nTwo questions:\n- Would a browser-based app that outputs .docx work instead of Power Apps?\n- Can you share the current Word template so I can check its structure?\n\nSee live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужна форма, которая заполняет существующий шаблон Word и создаёт либо полный отчёт, либо краткую запись об уведомлении, используя вымышленные тестовые данные. Она должна поддерживать повторяемые записи свидетелей, условные поля и длинный текст, который переносится без нарушения заголовков, таблиц и нумерации страниц. Я бы сделал лёгкое веб-приложение, которое заполняет шаблон .docx, чтобы изменения макета вносились в Word и не требовали программирования. Прототип включал бы оба типа документов, редактируемые исходники и короткое руководство по поддержке. Power Apps не является моим основным стеком, поэтому я предлагаю эквивалентное решение, которое работает вместе с Microsoft 365. Оценка срока для прототипа: примерно 5–7 дней.\n\nДва вопроса:\n- Подойдёт ли вместо Power Apps браузерное приложение, которое формирует .docx?\n- Можете ли вы прислать текущий шаблон Word, чтобы я проверил его структуру?\n\nЖивые демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Подойдёт ли вместо Power Apps браузерное приложение, которое формирует .docx?",
-    "Можете ли вы прислать текущий шаблон Word, чтобы проверить его структуру?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "freelancer:40836749",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ai-workflow-automation/Automate-Routine-Business-Tasks",
-  "title": "Automate Routine Business Tasks",
-  "description": "I need an AI-driven workflow that removes as much manual effort as possible from my day-to-day operations. The first priority is to automate the repeated tasks I currently juggle between Google Sheets, Gmail, and Google Drive.\n\nHere’s what the system must accomplish:\n• Move data seamlessly between my Google Sheets and any connected Drive folders so every record stays in sync. \n• Trigger and send reminder, update, or follow-up emails from Gmail when specific sheet events or dates occur. \n• Generate clear, shareable reports from the business data stored in those sheets and deliver them automatically to a designated Drive location—or straight to my inbox.\n\nI’m open to the best approach—whether that’s Apps Script, Zapier, Make, Python, or a combination—so long as the final result is reliable, easy for me to extend, and requires minimal ongoing upkeep.\n\nAcceptance criteria:\n• End-to-end demo showing data moving, emails sending, and reports generating with no manual intervention. \n• Well-commented code or well-documented no-code workflows handed over in a shared Drive folder. \n• Quick reference guide so I can adjust triggers, email templates, and report parameters myself.\n\nIf you’ve built similar Google-centric automations, I’d love to see a brief example and hear your proposed timeline.",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T09:15:40+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "automation",
-   "score": 5,
-   "summary_ru": "Нужна автоматизация рутинных задач на базе Google Sheets, Gmail и Drive: синхронизация данных между таблицами и папками, письма по событиям и датам, автоматические отчёты в Drive или на почту. Бюджет небольшой для такого объёма работ.",
-   "reply": "You need a Google Sheets, Gmail and Drive workflow that keeps records in sync, sends emails when dates or statuses change, and delivers scheduled reports to Drive or your inbox, with no manual steps in between. I'd build it mainly in Google Apps Script, since it runs natively in your Google account and needs no extra subscriptions. Sheets stays the source of truth, triggers are time-based or edit-based, email templates live in a config sheet you can edit, and reports are generated as Google Docs or PDFs and saved to your chosen Drive folder. The code will be commented, and I'll include a short guide for changing triggers, templates and report parameters. With AI-assisted development, I expect a first working version with an end-to-end demo in about 1–2 weeks. For live demos, see https://grachoffprod.github.io/portfolio/\n\nWhich sheets and Drive folders are involved, and roughly how many records do you process per day?\n\nYakov",
-   "reply_ru": "Вам нужен рабочий процесс на базе Google Sheets, Gmail и Drive, который будет синхронизировать записи, отправлять письма при изменении дат или статусов и доставлять плановые отчёты в Drive или на почту без ручных шагов. Я бы построил его в основном на Google Apps Script: он работает прямо в вашем аккаунте Google и не требует дополнительных подписок. Таблица остаётся источником данных, триггеры настраиваются по времени или по изменениям, шаблоны писем хранятся в редактируемом листе настроек, а отчёты формируются в Google Docs или PDF и сохраняются в выбранную папку Drive. Код будет с комментариями, а также я добавлю краткое руководство по изменению триггеров, шаблонов и параметров отчётов. С помощью ИИ-ассистентов в разработке я ожидаю первую рабочую версию с демонстрацией от начала до конца примерно через 1–2 недели. Живые демо: https://grachoffprod.github.io/portfolio/\n\nКакие таблицы и папки Drive задействованы и сколько записей вы обрабатываете примерно в день?\n\nYakov",
-   "questions": [
-    "Какие именно таблицы Google Sheets и папки Drive участвуют в процессе?",
-    "Сколько записей примерно обрабатывается в день и как часто нужны отчёты?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "freelancer:40836753",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/financial-analysis/Craft-Investor-Package-for-Travel",
-  "title": "Craft Investor Package for Travel Company seeking funding",
-  "description": "I’m the founder of Home To Africa Tours and Travel. We already operate with regular sales and an established team, and now I’m gearing up to court external investors. To do that convincingly, I need a seasoned partner who can shape our story and numbers into a complete, polished investment package.\n\nThe support I’m looking for spans three core areas: \n• Creating a compelling pitch deck and refreshed company profile that captures our traction, market positioning, and growth vision. \n• Preparing detailed financial forecasts that outline funding needs, revenue drivers, and realistic returns. \n• Organizing all company, legal, and KYC documentation so due-diligence is smooth and fast.\n\nMy expectation is a collaborative process—sharing existing data, refining narrative and design in PowerPoint or Google Slides, stress-testing assumptions in Excel or Google Sheets, and packaging everything into files we can circulate with confidence. If you’ve guided travel or consumer-service businesses through fundraising before, that experience will be a plus.\n\nOnce we agree on scope and timeline, I’ll provide our current financials, operational metrics, and brand assets so we can move quickly toward an investor-ready suite of documents. I’m eager to hear how you would approach this journey with us.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T09:15:19+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 1,
-   "summary_ru": "Клиент, основатель туристической компании Home To Africa Tours and Travel, ищет партнёра для подготовки инвестиционного пакета: питч-дека, финансовых прогнозов в Excel или Google Sheets и комплекта юридических и KYC-документов. Это консалтинг и подготовка презентаций, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": []
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "kwork:3275709",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275709",
-  "title": "Выгрузка информации из CRM на сайт через API",
-  "description": "На сайте есть карточки врачей с информацией (ФИО, стаж и тд), в CRM есть график работы каждого врача. Необходимо настроить через API, чтобы на сайте, в информации о враче, отображалось ближайшее свободное время для записи к нему и филиалы в которых он работает.",
-  "budget": 10000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 12:56:21",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "crm",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 6,
-   "summary_ru": "Нужно настроить выгрузку данных из CRM через API на сайт, чтобы в карточках врачей отображались ближайшее свободное время для записи и филиалы, где работает каждый врач. Бюджет 10 000 ₽.",
-   "reply": "Вам нужно связать карточки врачей на сайте с графиком работы в CRM: показывать ближайшие свободные слоты для записи и филиалы, где работает каждый врач. Сделаю это через API CRM: сайт будет получать расписание и список филиалов, я учту занятость и часовые пояса и выведу данные в карточку врача. Чтобы не нагружать CRM, добавлю кеширование с периодическим обновлением. По срокам ориентировочно 3–5 дней после получения доступа к API и тестовой среде. Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая CRM используется и есть ли документация API или тестовый доступ? Нужно ли показывать слоты только на ближайшие 7 дней?\n\nYakov",
-   "reply_ru": "Вам нужно связать карточки врачей на сайте с графиком работы в CRM: показывать ближайшие свободные слоты для записи и филиалы, где работает каждый врач. Сделаю это через API CRM: сайт будет получать расписание и список филиалов, я учту занятость и часовые пояса и выведу данные в карточку врача. Чтобы не нагружать CRM, добавлю кеширование с периодическим обновлением. По срокам ориентировочно 3–5 дней после получения доступа к API и тестовой среде. Примеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая CRM используется и есть ли документация API или тестовый доступ? Нужно ли показывать слоты только на ближайшие 7 дней?\n\nYakov",
-   "questions": [
-    "Какая CRM используется и есть ли документация API или тестовый доступ?",
-    "Нужно ли показывать слоты только на ближайшие 7 дней или на более длительный период?",
-    "Как часто должны обновляться свободные слоты на сайте: в реальном времени или достаточно раз в несколько минут?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "kwork:3275704",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3275704",
-  "title": "Исправление ошибки в WordPress",
-  "description": "Сейчас сайт работает на PHP 7.4, при обновлении версии PHP на более новую на сайте возникает критическая ошибка и он перестает работать. При сканировании плагином PHP Compatibility Scanner выявлено несколько элементов не поддерживающих более новые версии PHP. Необходимо исправить данные элементы для работы сайта на PHP 8+",
-  "budget": 10000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 12:53:21",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "site_template",
-   "score": 6,
-   "summary_ru": "Сайт на WordPress перестаёт работать при переходе с PHP 7.4 на PHP 8+. Сканер PHP Compatibility нашёл несколько несовместимых элементов, которые нужно исправить.",
-   "reply": "Сайт на WordPress падает после перехода с PHP 7.4 на 8+, а сканер совместимости нашёл несколько проблемных мест. Я бы сначала воспроизвёл ошибку на копии сайта, сверил лог ошибок с отчётом сканера и поправил конкретные конструкции: устаревшие функции, deprecated-вызовы, несовместимые типы и обращения к несуществующим индексам. Затем проверю основные страницы и админку на PHP 8.x, чтобы убедиться, что ничего не сломалось. На такую задачу обычно уходит 1–2 дня, точнее станет ясно после изучения логов.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Сайт на WordPress падает после перехода с PHP 7.4 на 8+, а сканер совместимости нашёл несколько проблемных мест. Я бы сначала воспроизвёл ошибку на копии сайта, сверил лог ошибок с отчётом сканера и поправил конкретные конструкции: устаревшие функции, deprecated-вызовы, несовместимые типы и обращения к несуществующим индексам. Затем проверю основные страницы и админку на PHP 8.x, чтобы убедиться, что ничего не сломалось. На такую задачу обычно уходит 1–2 дня, точнее станет ясно после изучения логов.\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Есть ли доступ к хостингу или копии сайта для тестов и какую версию PHP 8 нужно использовать?",
-    "Проблемные элементы находятся в основной теме или в сторонних плагинах?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "kwork:3267934",
-  "source": "kwork",
-  "url": "https://kwork.ru/projects/3267934",
-  "title": "Разработка сложного парсера",
-  "description": "Требуется разработать скрипт для Парсинга данных с сайта который использует Cloudflare и hCaptcha. \nСкрипт должен работать только на HTTP запросах, поддерживать многопоточную работу с прокси, txt списками. \nПредоставлю все необходимые материалы для работы. Ищу исполнителя только с опытом работы с похожими задачами и пониманием, как работать с парсингом сайта на запросах, который стоит за Cloudflare. С аккаунтами с 0 заказов не работаю.",
-  "budget": 15000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "2026-11-26 12:42:58",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "automation",
-   "score": 5,
-   "summary_ru": "Нужен скрипт для сбора данных с сайта под защитой Cloudflare и hCaptcha. Он должен работать только на HTTP-запросах и поддерживать многопоточность с прокси из txt-списков. Заказчик просит исполнителя с опытом похожих задач.",
-   "reply": "Вы хотите получить скрипт, который собирает данные с сайта за Cloudflare и hCaptcha, работает только на HTTP-запросах и ведёт многопоточную работу через прокси из txt-списков. Я бы начал с анализа сетевых запросов и структуры ответов, затем сделал бы модуль прокси и пул потоков, а после них сбор и сохранение данных с логированием ошибок. Для защиты от ботов нужно понять, как именно она настроена и какие решения допустимы. Ориентировочный срок базовой версии — 5–7 дней после получения материалов.\n\nКакие данные нужно собирать и с какой частотой? Есть ли у вас разрешение владельца сайта на сбор данных?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите получить скрипт, который собирает данные с сайта за Cloudflare и hCaptcha, работает только на HTTP-запросах и ведёт многопоточную работу через прокси из txt-списков. Я бы начал с анализа сетевых запросов и структуры ответов, затем сделал бы модуль прокси и пул потоков, а после них сбор и сохранение данных с логированием ошибок. Для защиты от ботов нужно понять, как именно она настроена и какие решения допустимы. Ориентировочный срок базовой версии — 5–7 дней после получения материалов.\n\nКакие данные нужно собирать и с какой частотой? Есть ли у вас разрешение владельца сайта на сбор данных?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какие именно данные нужно собирать и с какой частотой?",
-    "Есть ли у вас разрешение владельца сайта на сбор данных?",
-    "Какие материалы вы предоставите: примеры запросов, список прокси, структуру результата?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "telegram:FreelancehuntProjects/910806",
-  "source": "telegram",
-  "url": "https://t.me/FreelancehuntProjects/910806",
-  "title": "Шукаємо партнерів для онлайн-школи Skillity | До 2000 грн за клієнта",
-  "description": "Шукаємо партнерів для онлайн-школи Skillity | До 2000 грн за клієнта\n💰\n 10 000 UAH\n🛠\n#продажи_и_генерация_лидов\n#управление_клиентами_и_crm\nВітаємо! \nМи — Skillity, українська онлайн-школа програмування для дітей та підлітків віком від 10 до 18 років.\n Наш сайт: \nhttps://skillity.com.ua/\nЗараз активно розвиваємо школу та шукаємо партнерів для довгострокової співпраці.\n Кого шукаємо?\nРозглядаємо різні варіанти співпраці:  Блогерів та…",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "2026-11-26T09:23:06+00:00",
-  "lang": "ru",
-  "project_type": null,
-  "direct": true,
-  "topics": [
-   "crm"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "crm",
-   "score": 1,
-   "summary_ru": "Онлайн-школа программирования Skillity для детей 10–18 лет ищет партнёров (блогеров и других) для долгосрочного сотрудничества с оплатой до 2000 грн за клиента. Это партнёрские продажи и генерация лидов, а не разработка.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли вам какая-либо разработка (сайт, CRM, интеграции), или речь только о партнёрской программе?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "telegram:FreelancehuntProjects/910807",
-  "source": "telegram",
-  "url": "https://t.me/FreelancehuntProjects/910807",
-  "title": "Відновлення сайту.На сервері Netx. Cайт на  Opencart",
-  "description": "Відновлення сайту.На сервері Netx. Cайт на  Opencart\n🛠\n#веб_программирование\n#сопровождение_сайтов\nВідновлення сайту.\nНа сервері сайт на Opencart\nПісля обістрілів сервер ліг, і після відновлення серверів сайт не відновився.\nНа фото є відповідь",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "2026-11-26T09:28:32+00:00",
-  "lang": "ru",
-  "project_type": null,
-  "direct": true,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 7,
-   "summary_ru": "Клиент просит восстановить интернет-магазин на OpenCart, который не поднялся после отключения сервера на хостинге Netx. Нужно найти причину сбоя и вернуть сайт в рабочее состояние. Бюджет не указан.",
-   "reply": "Вітаю! Розумію задачу так: після відключення сервера на Netx сайт на OpenCart не піднімається, потрібно знайти причину і повернути магазин у робочий стан. Спочатку перевірю логи, config.php, підключення до бази та права на файли, потім відновлю файли й базу з бекапу або виправлю пошкодження. Орієнтовно діагностика займе день, відновлення ще 1–2 дні залежно від обсягу. Оплату можна зробити в USDT (TRC20/TON) або іншим зручним способом. Щоб оцінити точніше, уточніть, будь ласка: що зараз показує сайт (помилка, біла сторінка, помилка бази) і чи є у вас доступ до хостингу та актуальний бекап файлів і бази?\n\nПортфоліо з живими демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Здравствуйте! Понимаю задачу так: после отключения сервера на Netx сайт на OpenCart не поднимается, нужно найти причину и вернуть магазин в рабочее состояние. Сначала проверю логи, config.php, подключение к базе и права на файлы, затем восстановлю файлы и базу из бекапа или исправлю повреждения. Ориентировочно диагностика займёт день, восстановление ещё 1–2 дня в зависимости от объёма. Оплату можно сделать в USDT (TRC20/TON) или другим удобным способом. Чтобы оценить точнее, уточните, пожалуйста: что сейчас показывает сайт (ошибка, белая страница, ошибка базы) и есть ли у вас доступ к хостингу и актуальный бекап файлов и базы?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Что сейчас показывает сайт: текст ошибки, белую страницу или ошибку подключения к базе данных?",
-    "Есть ли у вас доступ к хостингу Netx и актуальный бекап файлов и базы данных магазина?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "telegram:FreelancehuntProjects/910809",
-  "source": "telegram",
-  "url": "https://t.me/FreelancehuntProjects/910809",
-  "title": "Налаштувати моніторинг цін конкурентів і навчити (разово)",
-  "description": "Налаштувати моніторинг цін конкурентів і навчити (разово)\n💰\n 2000 UAH\n🛠\n#bi_и_аналитика_данных\n#парсинг_данных\nІнтернет-магазин \nсантехнікиPlasmir.com.ua\n, на етапі запуску проєкту потрібно знати реальні ціни в Україні (Google Shopping та інтернет-магазини) на той самий товар: та сама модель, колір і комплектація. 5 постачальників загальна кількість близька 40000 тис товарів Що зробити: Підібрати інструмент…",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "2026-11-26T09:51:44+00:00",
-  "lang": "ru",
-  "project_type": null,
-  "direct": true,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "automation",
-   "score": 4,
-   "summary_ru": "Нужно настроить регулярный мониторинг цен конкурентов в Украине (Google Shopping и интернет-магазины) на одинаковые товары примерно по 40 000 позиям от 5 поставщиков для интернет-магазина сантехники, плюс разовое обучение. Бюджет 2000 UAH.",
-   "reply": "Потрібно налаштувати систему, яка регулярно збирає ціни на однакові товари (та сама модель, колір, комплектація) з Google Shopping та інтернет-магазинів України і порівнює їх із вашими постачальниками, приблизно 40 000 позицій. Я б пройшов такі етапи: спочатку вибрати інструмент (парсер на Python із розкладом або готовий сервіс, якщо він покриває ваші джерела), потім налаштувати збір даних із нормалізацією назв і зіставленням моделей, вивести результат у таблицю або простий дашборд і провести навчання. Орієнтовно 5–7 робочих днів на перший варіант, залежно від того, наскільки стабільно сайти віддають дані. Оплату можна провести через USDT (TRC20 / TON) або інший зручний спосіб, обговоримо.\n\nПитання: які постачальники та магазини для вас у пріоритеті і в якому форматі зручніше бачити результат, у Google Таблиці чи в окремому сервісі?\n\nПортфоліо з живими демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Нужно настроить систему, которая регулярно собирает цены на одинаковые товары (та же модель, цвет, комплектация) с Google Shopping и интернет-магазинов Украины и сравнивает их с вашими поставщиками, примерно 40 000 позиций. Я бы прошел такие этапы: сначала выбрать инструмент (парсер на Python с расписанием или готовый сервис, если он покрывает ваши источники), затем настроить сбор данных с нормализацией названий и сопоставлением моделей, вывести результат в таблицу или простой дашборд и провести обучение. Ориентировочно 5–7 рабочих дней на первый вариант, в зависимости от того, насколько стабильно сайты отдают данные. Оплату можно провести через USDT (TRC20 / TON) или другой удобный способ, обсудим.\n\nВопрос: какие поставщики и магазины для вас в приоритете и в каком формате удобнее видеть результат, в Google Таблице или в отдельном сервисе?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какие поставщики и магазины для вас в приоритете, и нужно ли мониторить все 5 поставщиков сразу?",
-    "В каком формате удобнее получать результат: Google Таблица, отдельный веб-интерфейс или уведомления в Telegram?"
-   ]
-  },
-  "found_at": "2026-11-26T10:05:17+00:00"
- },
- {
-  "id": "freelancer:40836706",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/blockchain/Blockchain-Integration-Architect-Needed",
-  "title": "Blockchain Integration Architect Needed",
-  "description": "I’m ready to take one of my existing business systems and connect it to a blockchain layer so that every transaction is verifiable, secure, and tamper-evident. The goal is integration, not building a chain from scratch, so I need someone who can study the current stack, map out the best-fit protocol (Ethereum, Hyperledger, Polygon, or a comparable option), and design the bridge between the two environments.\n\nYou will analyse our workflows, identify the touchpoints where blockchain brings the most value, then architect and prototype the full solution—smart contracts, APIs, data models, and security measures included. A strong grasp of consensus mechanisms, token standards, gas optimisation, and on-chain/off-chain data handling will be essential.\n\nFor clarity, here’s what I expect as concrete outputs:\n\n• High-level and detailed architecture diagrams \n• A technical integration roadmap with milestones \n• At least one working proof-of-concept smart contract linked to our staging environment \n• Documentation that lets my in-house developers maintain and extend the solution\n\nI’ll be available throughout for quick iterations and feedback. If you have a portfolio showing similar integrations—whether for payments, supply-chain visibility, or secure record-keeping—point me to it when you respond. Let’s make our data trustworthy and our processes auditable from day one.",
-  "budget": 50.0,
-  "budget_min": 25.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T08:47:12+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 2,
-   "summary_ru": "Клиент хочет подключить существующую бизнес-систему к блокчейн-слою, чтобы транзакции были проверяемыми и защищёнными от подмены. Запрошены архитектурные схемы, roadmap, рабочий PoC-смарт-контракт с привязкой к staging и документация, но бюджет всего 50 USD.",
-   "reply": "You want to make transactions in your existing system verifiable and tamper-evident by anchoring them to a blockchain, without building a chain from scratch. I would start with a short review of your current stack and the transactions that most need an audit trail, then choose a fit-for-purpose network. For record-keeping like this, an Ethereum L2 such as Polygon is usually the most practical option. The core deliverable would be a focused proof of concept: one smart contract that stores transaction hashes, plus a small API service that writes to it from your staging environment and verifies records on demand, with a short README for your developers. Given the budget, I would keep this phase to the PoC; the full architecture diagrams and roadmap could follow as a separate stage. I estimate about one week for the PoC.\n\nWhich transaction types should be anchored first, and can I get access to a staging API or database?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите сделать транзакции в вашей существующей системе проверяемыми и защищёнными от подмены, привязав их к блокчейну, без создания собственной сети. Я бы начал с короткого анализа вашего стека и транзакций, которым больше всего нужен журнал аудита, затем выбрал бы подходящую сеть. Для такого учёта обычно практичнее всего Ethereum L2, например Polygon. Основной результат — сфокусированный proof of concept: один смарт-контракт, который хранит хеши транзакций, и небольшой API-сервис, который записывает данные из вашего staging-окружения и проверяет записи по запросу, плюс короткий README для ваших разработчиков. С учётом бюджета я бы ограничился этим этапом PoC; полные архитектурные схемы и roadmap могут быть отдельным этапом. Оценка по срокам для PoC — около недели.\n\nКакие типы транзакций стоит привязать в первую очередь и могу ли я получить доступ к staging API или базе данных?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какие типы транзакций нужно закрепить в блокчейне в первую очередь?",
-    "Есть ли доступ к staging API или базе данных, к которым можно подключиться для PoC?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
  }
 ]
