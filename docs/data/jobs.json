@@ -1,5 +1,400 @@
 [
  {
+  "id": "freelancer:40839673",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/cms/Website-Content-Image-Revamp",
+  "title": "Website Content and Image Revamp",
+  "description": "I'm seeking an experienced web developer to update my existing website. The task involves modifying text, images, and banners.\n\nIdeal Skills and Experience:\n- Proficiency in HTML/CSS and website management\n- Experience with content management systems (CMS) like WordPress or Joomla\n- Strong eye for design and layout\n- Ability to work efficiently and meet deadlines",
+  "budget": 15.0,
+  "budget_min": 8.0,
+  "currency": "AUD",
+  "posted_at": "2026-11-28T06:23:52+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "site_template",
+   "score": 2,
+   "summary_ru": "Клиент просит обновить существующий сайт (WordPress/Joomla или HTML/CSS): поменять тексты, изображения и баннеры. Бюджет очень низкий, 15 AUD, а основная работа связана с контентом и дизайном, а не с разработкой.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Какая именно CMS используется сейчас: WordPress, Joomla или статический сайт на HTML/CSS?",
+    "Сколько страниц и баннеров нужно обновить и готовы ли вы предоставить тексты и изображения?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "freelancer:40839678",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/web-design/Urgent-School-Information-Website",
+  "title": "Urgent School Information Website",
+  "description": "Our school needs a clean, modern website built as soon as possible so we can share news, events, and key announcements with our community. The core of the site will be an easy-to-update content management system—WordPress, Joomla, or another comparable platform is fine as long as staff with basic tech skills can add posts, images, and calendar items without calling a developer every time.\n\nKey sections we have in mind are an “About Us” overview, dedicated pages for news, events, staff profiles, a gallery, and a contact page with a simple enquiry form. Responsive design is non-negotiable because many parents use their phones first; accessibility best practices matter too.\n\nI’m inviting detailed project proposals that outline:\n• your recommended tech stack or theme,\n• a realistic, fast-track timeline (remember, I need this ASAP),\n• any design approach or wireframes you can sketch quickly,\n• post-launch support you include.\n\nDeliverables must be a fully functioning live site, placeholder content swapped for our final copy, and a short admin guide so staff can handle routine updates. If you need further information on branding assets or hosting credentials, let me know and I’ll provide them right away. I’m ready to move forward immediately once I see a solid, time-bound plan.",
+  "budget": 1500.0,
+  "budget_min": 600.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T06:23:09+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "site_template",
+   "score": 3,
+   "summary_ru": "Нужен срочный современный сайт школы с простой CMS для новостей, мероприятий, галереи и сотрудников, адаптивный и доступный. Бюджет очень низкий (1500 INR), но задача хорошо подходит под быструю сборку на готовом шаблоне.",
+   "reply": "You need a fast, mobile-first school website where non-technical staff can publish news, events and gallery items on their own. I would build it on a proven CMS theme (WordPress or a similar platform) with About, News, Events, Staff, Gallery and Contact pages, then adapt it to your branding and cover accessibility basics such as contrast, alt text and keyboard navigation. Once I have your copy, images and hosting access, I can deliver a live staging version in about 2-3 days and the final site with a short admin guide in roughly 4-5 days. Do you already have a domain and hosting, and how many staff members will need editing access? You can see similar live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вам нужен быстрый сайт школы, который в первую очередь отлично работает на телефонах, и в котором сотрудники без технических навыков смогут сами публиковать новости, мероприятия и фото в галерею. Я бы собрал его на проверенной теме для CMS (WordPress или аналогичной платформе) с разделами «О нас», «Новости», «Мероприятия», «Сотрудники», «Галерея» и «Контакты», затем адаптировал бы под ваш брендинг и учёл базовые требования доступности: контрастность, альтернативный текст для изображений и навигацию с клавиатуры. Как только получу ваши тексты, изображения и доступ к хостингу, могу показать рабочую тестовую версию примерно через 2-3 дня, а финальный сайт с короткой инструкцией для администраторов — примерно за 4-5 дней. Есть ли у вас уже домен и хостинг, и сколько сотрудников будут нуждаться в доступе для редактирования? Примеры похожих живых демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у вас уже домен и хостинг, или их нужно подобрать и настроить?",
+    "Сколько сотрудников будут добавлять новости и мероприятия и нужны ли им разные уровни доступа?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "freelancer:40839629",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/data-analysis/lisis-NOM-Excel",
+  "title": "Análisis NOM-035 en Excel -- 2 MEXICO ESPAÑOL",
+  "description": "Necesito apoyo para procesar 120 respuestas de mis cuestionarios NOM-035 (Guía I y Guía III). Te compartiré acceso directo a la hoja de respuestas en Google Forms; desde allí deberás:\n\n• Exportar, organizar y limpiar toda la información. \n• Calcular puntajes por dominio y asignar niveles de riesgo para cada persona. \n• Entregarme ambos: Excel completo y reporte resumido. \n\nPara el reporte necesito exactamente lo siguiente: Tablas y gráficas y resumen ejecutivo con hallzgos. Incluye recomendaciones generales que ayuden a interpretar los niveles de riesgo.\n\nOtros detalles importantes: \n– Mantén absoluta confidencialidad de los datos individuales. \n– El archivo final en Excel debe quedar listo para filtrar y segmentar por dominio, nivel de riesgo y área. \n– Las gráficas pueden elaborarse en Excel o Google Sheets, siempre que sean claras y se actualicen con los datos. \n– En el resumen ejecutivo destaca patrones relevantes y posibles acciones de mejora.\n\nBusco a alguien con manejo sólido de Excel avanzado (tablas dinámicas, fórmulas, formato condicional) y familiaridad con Google Forms/Sheets. Si ya has trabajado con NOM-035 o encuestas de clima laboral, menciónalo: sumarás puntos.\n\nAdjunta un ejemplo breve de reporte similar o describe tu metodología para validar que dominas el proceso.",
+  "budget": 750.0,
+  "budget_min": 250.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T05:54:22+00:00",
+  "lang": "es",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "automation",
+   "score": 2,
+   "summary_ru": "Клиент просит обработать 120 ответов из Google Forms по опросникам NOM-035, посчитать баллы и уровни риска, а также подготовить таблицы, графики и резюме. По сути это ручная аналитика и подготовка отчёта в Excel, а не разработка программного продукта или автоматизации.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужен ли постоянный повторяемый процесс (например, автоматическое обновление отчёта при новых ответах), или достаточно разового расчёта?",
+    "Какой объём работы по написанию резюме и рекомендаций ожидается, и кто будет отвечать за интерпретацию результатов?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "freelancer:40839628",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/shopify-site/Build-BumpBan-Shopify-Commerce-Store",
+  "title": "Build BumpBan Shopify E-Commerce Store",
+  "description": "BumpBan {www.getbumpban.com} Current site is a grooming brand focused on helping customers prevent and\nmanage razor bumps and ingrown hairs. We are seeking an experienced web\ndeveloper to build a professional, mobile-friendly e-commerce store that\nprovides an excellent shopping experience and supports future business\ngrowth.\nScope of Work\nThe selected developer will:\n Build a complete e-commerce website\n Create a clean, modern, professional design\n Configure product catalog and product pages\n Set up secure payment processing\n Configure shipping and tax settings\n Optimize the site for mobile devices\n Implement basic SEO best practices\n Integrate Google Analytics and conversion tracking\n Configure customer contact forms\n Create essential store pages\n Test and launch the website\nRequired Pages\n Home Page\n Shop Page\n Product Pages\n About Us\n Contact Us\n\n FAQ\n Shipping Policy\n Refund Policy\n Privacy Policy\n Razor Bump Education/Blog Section\nPreferred Qualifications\n Proven experience building e-commerce websites\n Experience with Shopify preferred\n Strong understanding of user experience (UX)\n Knowledge of SEO best practices\n Experience integrating payment gateways\n Experience setting up analytics and conversion tracking\n Strong communication skills\nDeliverables\n Fully operational online store\n Mobile-responsive website\n Secure checkout process\n Product collection organization\n Search functionality\n Analytics integration\n Documentation and training for store administration\n Transfer of all website ownership and administrative access upon\ncompletion\nTo Apply\nPlease provide:\n1. Links to at least three e-commerce websites you have built.\n2. A brief description of your role in each project.",
+  "budget": 1500.0,
+  "budget_min": 750.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T05:49:21+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "shop",
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "shop",
+   "score": 5,
+   "summary_ru": "Заказчик ищет разработчика для создания адаптивного интернет-магазина BumpBan (Shopify предпочтительно) с каталогом товаров, безопасной оплатой, настройкой доставки и налогов, аналитикой, SEO и обязательными юридическими страницами, а также разделом блога о вросших волосах. Бюджет 1500 USD на довольно широкий объём работ.",
+   "reply": "Hi, you need a mobile-friendly online store for BumpBan with a product catalog, secure checkout, shipping and tax setup, analytics, SEO, legal pages, and a razor bump education blog. I'd start with the store structure and catalog, then move to design and mobile optimization, followed by payments, shipping and tax rules, analytics and SEO, and finally testing, launch, and an admin handover with documentation. Modern tooling and AI-assisted development let me move quickly, and I estimate about 2–3 weeks for the full scope. Two questions: do you already have product data, photos, and brand assets, and is Shopify a must or are you open to other platforms? You can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте, вам нужен адаптивный интернет-магазин для BumpBan с каталогом товаров, безопасным оформлением заказа, настройкой доставки и налогов, аналитикой, SEO, юридическими страницами и блогом о бритвенных порезах и вросших волосах. Я бы начал со структуры магазина и каталога, затем перешёл к дизайну и адаптации под мобильные устройства, после чего настроил бы оплату, правила доставки и налогов, аналитику и SEO, а в конце провёл бы тестирование, запуск и передачу админки с документацией. Современный стек и разработка с ИИ-ассистентами позволяют работать быстро, и на весь объём я оцениваю срок примерно в 2–3 недели. Два вопроса: есть ли у вас уже данные о товарах, фото и брендинг, и обязателен ли Shopify или вы открыты к другим платформам? Живые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Есть ли у заказчика готовые данные о товарах, фотографии и брендинг, или их нужно подготовить?",
+    "Обязателен ли именно Shopify, или допустима другая платформа для интернет-магазина?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "freelancer:40839625",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/lead-generation/Telecaller-for-Leads",
+  "title": "B2B Telecaller for IT Leads",
+  "description": "We are software development and IT consulting company, looking for affordable, part-time freelance telecallers in India for B2B lead qualification.\n\nWhat you need to do:\n\n- Call business leads provided by us.\n- Speak with business owners or decision-makers.\n- Identify genuine requirements for websites, mobile apps, custom software, CRM, ERP, AI, or automation.\n- Ask about project budget and expected timeline.\n- Record call outcomes in Google Sheets.\n- Forward interested prospects to our team.\n\nNo selling, negotiation, or deal closing required. Our team handles proposals and project discussions.\n\nRequirements:\n\n- Good Hindi communication and basic English.\n- Previous telecalling experience preferred.\n- Own mobile phone.\n- Available for part-time remote work.\n- Individual freelancers preferred, not agencies.\n\nBudget: ₹3,000–₹6,000/month, depending on experience and availability, with additional incentives for genuinely qualified leads.\n\nWe will start with a small paid trial and may offer ongoing work to reliable performers.\n\nWhen applying, please mention your experience, daily calling capacity, expected charges, and availability.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T05:48:12+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 1,
+   "summary_ru": "Вакансия на удалённую работу телеколлером в Индии: звонки B2B-лидам, квалификация потребностей в сайтах, ПО и автоматизации, оплата 3000–6000 ₹ в месяц. Это не разработка, поэтому отклик не нужен.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "freelancer:40839615",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/content-writing/High-Impact-SaaS-Blog-Articles",
+  "title": "High-Impact SaaS Blog Articles",
+  "description": "I need a talented writer to create persuasive blog posts that spotlight and promote my online software service. The goal is to turn curious readers into motivated users, so every article should combine clear, helpful information with subtle, well-placed calls to action that encourage sign-ups or free-trial clicks.\n\nI’ll provide the core product details, target audience insights, and a short list of proposed topics. Your job is to craft engaging pieces that read naturally, address real pain points, and present the software as the obvious solution. Solid research, a conversational tone, and on-page SEO best practices—smart keyword use, compelling headlines, meta description suggestions—are expected, but conversion remains the top priority.\n\nFinished articles must arrive fully proofread, ready to publish, and formatted with subheadings for easy skimming. Let me know your turnaround time and per-article rate, and include links to two or three blog posts you’ve written that successfully promote an online service.",
+  "budget": 8.0,
+  "budget_min": 2.0,
+  "currency": "USD",
+  "posted_at": "2026-11-28T05:32:28+00:00",
+  "lang": "en",
+  "project_type": "hourly",
+  "direct": false,
+  "topics": [
+   "saas"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "saas",
+   "score": 1,
+   "summary_ru": "Заказчик ищет копирайтера для написания SEO-статей в блог о его SaaS-сервисе с призывами к регистрации. Это задача на контент и маркетинг, а не разработка, и бюджет всего 8 USD за проект.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли здесь именно разработка или только написание текстов для блога?",
+    "Предусмотрен ли бюджет выше 8 USD, учитывая объём и требования к SEO?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "flru:5530824",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530824/ischu-python-razrabotchika-dlya-sozdaniya-prostogo-ai-agenta-uchebnyiy-mvp.html",
+  "title": "Ищу Python-разработчика для создания простого AI-агента (учебный MVP)",
+  "description": "Ищу Python-разработчика для создания простого AI-агента (учебный MVP)\n\nДедлайн: 29 ноября 2026 года, до конца дня.\n\nОписание задачи\n\nНеобходимо разработать простой AI-агент для...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Sat, 28 Nov 2026 06:13:19 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 5,
+   "summary_ru": "Нужен Python-разработчик для создания простого учебного MVP AI-агента с дедлайном 29 ноября 2026 года. Описание задачи обрывается, поэтому функции агента пока неясны.",
+   "reply": "Здравствуйте! Правильно понимаю, что нужен учебный MVP AI-агента на Python, который решает одну понятную задачу и демонстрирует работу от начала до конца? Описание в объявлении обрывается, поэтому хочу уточнить детали.\n\nПодход такой: сначала зафиксирую сценарий работы агента и формат входных и выходных данных. Затем реализую базовую версию на Python с подключением LLM через API и простым интерфейсом или CLI. В конце добавлю инструкцию по запуску и комментарии к коду, чтобы материал было удобно использовать в обучении. Ориентировочный срок при таком объёме — 3–5 дней. Какую именно задачу должен решать агент и есть ли предпочтения по модели или API? Нужен ли интерфейс и что именно вы хотите получить в конце?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Здравствуйте! Правильно понимаю, что нужен учебный MVP AI-агента на Python, который решает одну понятную задачу и демонстрирует работу от начала до конца? Описание в объявлении обрывается, поэтому хочу уточнить детали.\n\nПодход такой: сначала зафиксирую сценарий работы агента и формат входных и выходных данных. Затем реализую базовую версию на Python с подключением LLM через API и простым интерфейсом или CLI. В конце добавлю инструкцию по запуску и комментарии к коду, чтобы материал было удобно использовать в обучении. Ориентировочный срок при таком объёме — 3–5 дней. Какую именно задачу должен решать агент и есть ли предпочтения по модели или API? Нужен ли интерфейс и что именно вы хотите получить в конце?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какую конкретную задачу должен решать AI-агент и какой результат ожидается на выходе?",
+    "Есть ли предпочтения по LLM или API (например, OpenAI, Anthropic, открытые модели)?",
+    "Нужен ли интерфейс (Telegram, веб, CLI) и что входит в сдачу: только код или ещё документация и пояснения для обучения?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "flru:5530806",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530806/redizayn-i-dorabotka-deystvuyuschego-sayta-ukajite-tematiku-naprimer-internet-magazina---lendinga.html",
+  "title": "Редизайн и доработка действующего сайта [укажите тематику, например: интернет-магазина / лендинга]",
+  "description": "Привет! Ищу специалиста (или команду) для обновления дизайна и функциональной доработки существующего сайта: [вставьте ссылку на сайт или напишите «ссылку отправлю в личные...",
+  "budget": 300.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "Sat, 28 Nov 2026 06:12:51 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "landing",
+   "shop",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 2,
+   "summary_ru": "Клиент ищет исполнителя или команду для обновления дизайна и функциональной доработки существующего сайта (тематика и ссылка не указаны в тексте объявления). Бюджет 300 ₽ очень низкий, а объём работ неясен.",
+   "reply": "Обновить дизайн и доработать функционал уже работающего сайта — задача понятная, но без ссылки и списка правок сложно оценить объём. Я бы начал с короткого аудита: посмотрел бы текущий сайт, выписал, что нужно поправить в функционале и что обновить в визуале, и согласовал с вами план. Дальше дорабатываю код на современном стеке с помощью ИИ-ассистентов, поэтому сроки обычно короткие: ориентировочно от 1 до 3 дней на небольшой объём, точнее скажу после аудита. Какой сайт нужно доработать и какие функции должны работать после обновления?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Обновить дизайн и доработать функционал уже работающего сайта — задача понятная, но без ссылки и списка правок сложно оценить объём. Я бы начал с короткого аудита: посмотрел бы текущий сайт, выписал, что нужно поправить в функционале и что обновить в визуале, и согласовал с вами план. Дальше дорабатываю код на современном стеке с помощью ИИ-ассистентов, поэтому сроки обычно короткие: ориентировочно от 1 до 3 дней на небольшой объём, точнее скажу после аудита. Какой сайт нужно доработать и какие функции должны работать после обновления?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой именно сайт нужно доработать и можете ли вы прислать ссылку?",
+    "Какие функции должны работать после обновления и что сейчас не работает или мешает?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "flru:5530825",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530825/dorabotat-skriptyi-sayt-na-php.html",
+  "title": "Доработать скрипты сайт на php",
+  "description": "сделать пару мелочей",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "Sat, 28 Nov 2026 06:09:35 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation",
+   "fixes"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "fixes",
+   "score": 3,
+   "summary_ru": "Заказчику нужно внести несколько мелких правок в PHP-скрипты существующего сайта. Задача описана очень расплывчато, бюджет 500 ₽.",
+   "reply": "Вы хотите доработать пару небольших моментов в PHP-скриптах сайта. Задача пока без деталей, поэтому сначала посмотрю код и список правок, а потом сразу назову объём и сроки. Такие мелкие доработки обычно делаю быстро: поправлю нужное, проверю, что ничего не сломалось в остальной части сайта. Чтобы оценить точнее, подскажите, какие именно пункты нужно поменять и что сейчас работает некорректно? Есть ли доступ к файлам сайта или репозиторию?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите доработать пару небольших моментов в PHP-скриптах сайта. Задача пока без деталей, поэтому сначала посмотрю код и список правок, а потом сразу назову объём и сроки. Такие мелкие доработки обычно делаю быстро: поправлю нужное, проверю, что ничего не сломалось в остальной части сайта. Чтобы оценить точнее, подскажите, какие именно пункты нужно поменять и что сейчас работает некорректно? Есть ли доступ к файлам сайта или репозиторию?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какие именно пункты нужно доработать и что сейчас работает некорректно?",
+    "Есть ли доступ к файлам сайта (хостинг, FTP или репозиторий)?",
+    "Какой срок вам нужен для выполнения работ?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "flru:5530809",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530809/sozdat-skript-dlya-avtomaticheskogo-bronirovaniya-vremeni-propuska-cherez-granitsu-na-sayte-gis-epd.html",
+  "title": "Создать скрипт для автоматического бронирования времени пропуска через границу на сайте ГИС ЭПД",
+  "description": "Необходимо разработать автоматизированный скрипт, который быстро (до 10 сек) с или без участия пользователя сможет забронировать талон на любое возможное время на желаемую дату...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Sat, 28 Nov 2026 06:07:02 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "booking",
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "booking",
+   "score": 5,
+   "summary_ru": "Нужен скрипт, который за несколько секунд находит свободный талон на пропуск через границу на нужную дату в ГИС ЭПД и бронирует его, с участием пользователя или без него. Бюджет не указан.",
+   "reply": "Нужно написать скрипт, который за несколько секунд находит свободный талон на нужную дату в ГИС ЭПД и бронирует его, с участием пользователя или без него. Я бы начал с разбора того, как сайт отдаёт список слотов и какие запросы уходят при бронировании. Затем собрал бы скрипт на Python: он опрашивает доступное время, бронирует первый подходящий вариант и при необходимости даёт простой интерфейс для выбора даты и времени. Ориентировочно рабочая версия займёт 3–5 рабочих дней, после этого доработаю по результатам тестов. Какой формат вам нужен: консольная утилита или веб-интерфейс? И есть ли у вас возможность проверить работу на тестовом аккаунте?\n\nПримеры моих живых демо-проектов: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Нужно написать скрипт, который за несколько секунд находит свободный талон на нужную дату в ГИС ЭПД и бронирует его, с участием пользователя или без него. Я бы начал с разбора того, как сайт отдаёт список слотов и какие запросы уходят при бронировании. Затем собрал бы скрипт на Python: он опрашивает доступное время, бронирует первый подходящий вариант и при необходимости даёт простой интерфейс для выбора даты и времени. Ориентировочно рабочая версия займёт 3–5 рабочих дней, после этого доработаю по результатам тестов. Какой формат вам нужен: консольная утилита или веб-интерфейс? И есть ли у вас возможность проверить работу на тестовом аккаунте?\n\nПримеры моих живых демо-проектов: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой формат нужен: консольная утилита или веб-интерфейс с выбором даты и времени?",
+    "Есть ли у вас доступ к личному кабинету ГИС ЭПД для тестирования бронирования?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "flru:5530796",
+  "source": "flru",
+  "url": "https://www.fl.ru/projects/5530796/dizayn-glavnoy-stranitsyi-korporativnogo-sayta-s-avtorskoy-animatsiey.html",
+  "title": "Дизайн главной страницы корпоративного сайта с авторской анимацией",
+  "description": "Ищем дизайнера для разработки главной страницы сайта производителя геосинтетических материалов. Есть прототип в PDF с настольной и мобильной версиями — он будет основой для...",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "Sat, 28 Nov 2026 06:00:51 GMT",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 2,
+   "summary_ru": "Нужен дизайнер для создания главной страницы корпоративного сайта производителя геосинтетики с авторской анимацией. Основа есть в виде PDF-прототипа с десктопной и мобильной версиями. Задача в основном дизайнерская, разработка не описана.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна ли только дизайн-работа в макете, или также верстка и вывод страницы в рабочий сайт с анимацией?",
+    "На какой CMS или стек будет работать сайт, если предполагается разработка?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "kwork:3181035",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3181035",
+  "title": "Подключить парсер через API к сайту WordPress",
+  "description": "нужно подключить 4 парсера через API к сайту WordPress, импорт по расписанию, соотнести поля и настроить отображение собранной информации, пример выдачи парсеров в приложении",
+  "budget": 3000.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-28 08:35:47",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation",
+   "api_integration",
+   "site_template"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Нужно подключить четыре парсера по API к сайту на WordPress: импорт по расписанию, сопоставление полей и вывод собранных данных на сайте. Бюджет 3000 ₽ невысокий для четырёх интеграций.",
+   "reply": "Вы хотите подключить четыре парсера по API к WordPress: данные должны импортироваться по расписанию, поля нужно сопоставить между собой, а результаты вывести на сайте. Сделаю это через небольшой плагин: cron-задачи будут забирать данные от каждого парсера, приводить их к единой структуре и сохранять как записи или произвольные поля, а для отображения добавлю шорткоды или шаблоны. Оценочно первый парсер с полным циклом займёт 1–2 дня, остальные быстрее, общий срок около 4–6 дней. Живые демо смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nЕсть ли у парсеров документация API и пример ответа? Нужен ли доступ к админке WordPress или достаточно описания структуры данных?",
+   "reply_ru": "Вы хотите подключить четыре парсера по API к WordPress: данные должны импортироваться по расписанию, поля нужно сопоставить между собой, а результаты вывести на сайте. Сделаю это через небольшой плагин: cron-задачи будут забирать данные от каждого парсера, приводить их к единой структуре и сохранять как записи или произвольные поля, а для отображения добавлю шорткоды или шаблоны. Оценочно первый парсер с полным циклом займёт 1–2 дня, остальные быстрее, общий срок около 4–6 дней. Живые демо смотрите в портфолио: https://grachoffprod.github.io/portfolio/\n\nЕсть ли у парсеров документация API и пример ответа? Нужен ли доступ к админке WordPress или достаточно описания структуры данных?",
+   "questions": [
+    "Есть ли у парсеров документация API и пример ответа?",
+    "Нужен ли доступ к админке WordPress или достаточно описания структуры данных?",
+    "Как часто должен выполняться импорт и где вы хотите выводить данные: отдельная страница, каталог или виджеты?"
+   ]
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
+  "id": "telegram:freelancce/16907",
+  "source": "telegram",
+  "url": "https://t.me/freelancce/16907",
+  "title": "Middle+ продуктовый дизайнер банковского приложения",
+  "description": "Middle+ продуктовый дизайнер банковского приложения\nИщем продуктового дизайнера, готового влиять на развитие продукта и создавать удобный пользовательский опыт в развивающемся финтех-проекте Узбекистана.\n🎯\n Задачи:\n— Вести BAU и Top Line инициативы в мобильном приложении банка.\n— Проектировать пользовательские сценарии, экраны и end-to-end флоу в рамках редизайна и развития продукта.\n— Создавать интерфейсы, прототипы и концепты с использованием AI-driven дизайн-пайплайна.\n— Работать вместе с Product Manager, Business Analyst и разработчиками над запуском и развитием продуктовых решений.\n— Контролировать реализацию дизайн-концепций и соответствие дизайн-системе.\n— Участвовать в продуктовых исследованиях, юзабилити-тестированиях и анализе обратной связи.\n— Развивать дизайн-систему, предлагать новые компоненты, паттерны и UX-улучшения.\n✅\n Требования:\n— Опыт продуктового дизайна от 3 лет, обязательно с мобильными приложениями.\n— Уверенное владение дизайн-системами и компонентным подходом.\n— Практический опыт AI-инструментов для проектирования интерфейсов и прототипирования.\n— Понимание продуктового подхода, ключевых метрик и влияния дизайна на бизнес-результаты.\n— Опыт кросс-функциональных команд.\n— Сильные навыки UX-проектирования, системное мышление и внимание к деталям.\n— Умение аргументировать решения на основе данных, пользовательских инсайтов и целей продукта.\nБудет преимуществом:\n— Опыт финтеха, банковской сферы или других сложных digital-продуктов.\n— Motion Design, анимация и микроинтеракции.\n— Опыт развития дизайн-систем и дизайн-процессов на уровне продукта или компании.\n💼\n Условия:\n— Возможность работать удалённо или помощь с релокацией в Ташкент.\n— Официальное трудоустройство по ТК Республики Узбекистан.\n— Работа с сильной командой профессионалов и возможности роста.\n— Интересные задачи в развивающемся финтех-проекте.\n— Конкурентная зарплата: готовы обсуждать ожидания.\n— Пятидневная рабочая неделя.\n📩\n Контакт:\nОтправляйте резюме и обязательно прикладывайте портфолио в сопроводительном письме.\n➡️\n@maftunahr_avo",
+  "budget": null,
+  "budget_min": null,
+  "currency": null,
+  "posted_at": "2026-11-28T06:00:12+00:00",
+  "lang": "ru",
+  "project_type": null,
+  "direct": true,
+  "topics": [
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "mvp",
+   "score": 1,
+   "summary_ru": "Вакансия на позицию Middle+ продуктового дизайнера в банковское приложение в Узбекистане с официальным трудоустройством; это найм сотрудника, а не разработочный проект.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": []
+  },
+  "found_at": "2026-11-28T06:24:51+00:00"
+ },
+ {
   "id": "freelancer:40839605",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/Forensic-Image-Analysis-Report-EOD",
@@ -14740,404 +15135,5 @@
    ]
   },
   "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "freelancer:40836694",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/ui-design/Comprehensive-Home-Services-App",
-  "title": "Comprehensive Home Services App Development",
-  "description": "I need a cross-functional platform app similar to \"Urban Clap\" for home services. The app should be able to book a variety of services. \n\nKey Services:\n- Home cleaning and repairs\n- Beauty and wellness at home\n- Electrical, plumbing, and appliance repair\n- Gardening\n- Old parents care\n- Child care\n\nUser Types:\n- Customers booking services\n- Service professionals offering services\n\nPlatforms:\n- Android phones\n- iPhones\n\nIdeal Skills and Experience:\n- Mobile app development for Android and iOS\n- Experience in building service booking platforms\n- Strong UI/UX design skills\n- Backend development expertise to handle multiple user types and services\n- Familiarity with payment integration and security protocols\n\nPlease provide examples of similar work done and an estimated timeline.",
-  "budget": 75000.0,
-  "budget_min": 37500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T08:41:24+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "booking",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "booking",
-   "score": 3,
-   "summary_ru": "Клиент хочет мобильное приложение для бронирования услуг на дому (уборка, ремонт, красота, садоводство, уход за пожилыми и детьми) с двумя ролями: клиенты и исполнители, для Android и iOS. Объём большой, а бюджет (75 000 INR) ограничен, поэтому реалистичен только первый этап.",
-   "reply": "You're building a home services marketplace with two sides: customers who book cleaning, repairs, beauty, gardening, and elderly or child care, and professionals who accept and manage those bookings on Android and iOS. The scope is large for the budget, so I'd propose a focused first release: one backend with customer and professional roles, a service catalog, a booking flow with statuses, and an admin panel. I'd build the backend and admin first, then the mobile apps on a cross-platform stack, with authentication, role permissions, and data protection built in from the start. For a first release of this size, I'd estimate 8 to 12 weeks, with milestones agreed up front. For live demos of recent work, see https://grachoffprod.github.io/portfolio/\n\nWhich platform should launch first, and which services are most important in that first release?\n\nYakov",
-   "reply_ru": "Вы создаёте маркетплейс бытовых услуг с двумя сторонами: клиенты, которые бронируют уборку, ремонт, красоту, садоводство и уход за пожилыми или детьми, и исполнители, которые принимают и ведут эти заказы на Android и iOS. Объём велик для бюджета, поэтому я предлагаю сфокусированный первый релиз: единый бэкенд с ролями клиента и исполнителя, каталог услуг, процесс бронирования с статусами и админ-панель. Сначала я бы сделал бэкенд и админку, затем мобильные приложения на кроссплатформенном стеке, с аутентификацией, разграничением прав и защитой данных с самого начала. Для первого релиза такого объёма оцениваю срок в 8–12 недель, с согласованными заранее этапами. Живые демо моих работ: https://grachoffprod.github.io/portfolio/\n\nКакую платформу запускать первой и какие услуги важнее всего в первом релизе?\n\nYakov",
-   "questions": [
-    "С какой платформы вы хотите запустить приложение первым: Android или iOS?",
-    "Какие услуги должны войти в первый релиз, а какие можно добавить позже?",
-    "Нужна ли верификация исполнителей и управление их расписанием уже на первом этапе?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "freelancer:40836696",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/javascript/Website-Redesign-SEO-Upgrade",
-  "title": "Website Redesign & SEO Upgrade -- 2",
-  "description": "My current site promotes and sells our own software, but its design and search visibility are holding us back. I need the whole website refreshed with a modern, responsive theme that instantly signals a credible SaaS brand and guides visitors smoothly from landing page to checkout. \n\nHere is what I’m after: \n• A complete visual overhaul—new theme, colour palette, typography and layouts—implemented without breaking existing content or download links. \n• Streamlined navigation that highlights product features, pricing, support and a clear “Download / Buy” call-to-action. \n• Performance-minded development: lightweight code, image optimisation and fast load times. \n• On-page SEO baked in from the ground up—clean URL structure, properly nested headings, meta titles and descriptions, schema where appropriate, internal-link logic and an SEO-friendly blog section for future content marketing. \n• Smooth mobile experience across major devices and browsers. \n• Handover of any design files, theme customisations and a brief walkthrough so my team can add pages or tweak copy later. \n\nPlease factor in a short discovery call to review the existing site, then present a staging link before we go live.",
-  "budget": 250.0,
-  "budget_min": 30.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T08:40:52+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "landing",
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "landing",
-   "score": 5,
-   "summary_ru": "Клиент хочет полностью обновить сайт, который продаёт его ПО: новая адаптивная тема, навигация с ценами и кнопкой покупки, оптимизация скорости, SEO-структура и блог, при этом существующий контент и ссылки на скачивание должны сохраниться. Бюджет 250 USD для такого объёма низкий.",
-   "reply": "You want the marketing site for your software rebuilt with a modern, responsive look that feels like a credible SaaS brand, while keeping your existing content and download links intact. The SEO structure and blog section need to be ready for future content. I'd start with the discovery call to audit the current pages, URLs and links so nothing breaks during the move. Then I'd build the new theme with lightweight code, optimized images, clean heading hierarchy, meta tags, schema and internal linking, and deliver a staging link for your review. Using modern tools and AI-assisted development, I can have the staging version ready in about 1–2 weeks, followed by handover files and a short walkthrough for your team.\n\nTwo questions: What platform is the site currently on (WordPress, Webflow, custom code)? Is checkout handled on the site itself or on an external page?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите, чтобы маркетинговый сайт вашего ПО был переделан в современном адаптивном дизайне, который выглядит как надёжный SaaS-бренд, при этом существующий контент и ссылки на скачивание сохранятся. Структура для SEO и раздел блога должны быть готовы для будущего контента. Я бы начал с созвона для обзора: проверил бы текущие страницы, URL и ссылки, чтобы ничего не сломалось при переносе. Затем я бы собрал новую тему с лёгким кодом, оптимизированными изображениями, правильной иерархией заголовков, мета-тегами, разметкой schema и внутренней перелинковкой, и передал бы staging-ссылку на проверку. С современными инструментами и разработкой с помощью ИИ-ассистентов я могу подготовить staging-версию примерно за 1–2 недели, после чего передать файлы и короткое обучение для вашей команды.\n\nДва вопроса: на какой платформе сейчас работает сайт (WordPress, Webflow, самописный код)? Оформляется ли оплата на самом сайте или на внешней странице?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "На какой платформе сейчас работает сайт (WordPress, Webflow, самописный код)?",
-    "Оформляется ли оплата на самом сайте или на внешней странице?",
-    "Где размещены файлы для скачивания и нужно ли менять их адреса?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "freelancer:40836675",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-design/Interactive-Parent-Company-Brand-Website",
-  "title": "Interactive Parent Company Brand Website",
-  "description": "Project Title\nNeed to build a parent Company Website which has Subsidiaries showcasing it’s Journey (US aesthetics but for Indian consumer) \n\nProject Description\n\nWe are looking to build a modern, premium website for a parent company that showcases its journey, vision, growth, and subsidiaries/brands under its umbrella.\n\nThe website should not feel like a traditional corporate website with static pages. We want the parent company's story and journey to be presented in a creative, interactive, and visually engaging way, allowing visitors to explore the company’s evolution and discover its subsidiaries through a well-designed digital experience.\n\nWe are particularly interested in freelancers who have experience creating modern corporate websites, interactive storytelling experiences, creative animations, and premium UI/UX designs.\n\nImportant: We will only consider freelancers who include relevant website references, templates, or design concepts in their proposal. Bids without design references or examples of the proposed direction will not be shortlisted.\n\nProject Requirements\n\n1. Parent Company Website\n- Modern, premium, and professional website for a parent company.\n- Clearly communicate the company's vision, story, identity, journey, and overall ecosystem.\n- Strong visual presentation with a clean and intuitive user experience.\n- The website should feel global, credible, and contemporary.\n\n2. Interactive Company Journey\n- Present the parent company's journey, milestones, evolution, and growth in an engaging way.\n- The journey should be visually interactive rather than just a standard timeline.\n- Explore creative ways to show milestones, growth, expansion, and important events.\n- Smooth transitions, scroll-based storytelling, animations, or interactive elements can be proposed where appropriate.\n\n3. Subsidiaries / Brands Ecosystem\n- Showcase all subsidiaries, brands, or businesses associated with the parent company.\n- Clearly communicate how each subsidiary is connected to the parent company.\n- Visitors should be able to explore individual subsidiaries through interactive cards, sections, animations, or other creative layouts.\n- Each subsidiary should have its own overview, description, identity, and relevant information.\n- The overall experience should make the parent company and its ecosystem easy to understand.\n\n4. UI/UX & Visual Design\n- Premium, modern, and visually impactful design.\n- Strong typography, layouts, imagery, and visual storytelling.\n- Creative interactions without compromising usability.\n- Smooth animations and transitions where they add value.\n- Fully responsive across desktop, tablet, and mobile.\n- We do not want a generic corporate template with only colors and text changed.\n\n5. Website Structure & Navigation\nThe website may include sections such as:\n\n- Home\n- About the Parent Company\n- Company Journey / Timeline\n- Subsidiaries / Brands\n- Individual Subsidiary Details\n- Our Vision / Mission\n- Achievements / Milestones\n- Contact / Inquiry\n- Careers (if required)\n\nThe freelancer can suggest an improved sitemap and creative ways to structure the experience.\n\n6. CMS / Admin Panel\n- Easy-to-use backend to manage website content.\n- Ability to add or edit subsidiaries and their information.\n- Update company milestones and journey content.\n- Change images, text, profiles, and other content without developer involvement.\n- The admin panel should be simple for a non-technical team.\n\n7. SEO & Performance\n- SEO-friendly website structure.\n- Editable meta titles, descriptions, and page content.\n- Optimized performance and loading speed.\n- Clean implementation and maintainable code.\n- Analytics and future integrations should be possible.\n\nWhat We Expect From the Freelancer\n\nWe are looking for someone who can contribute creatively, not just execute instructions.\n\nThe selected freelancer should:\n\n- Understand the concept of a parent company and its brand ecosystem.\n- Suggest a unique design direction and user journey.\n- Have experience building interactive, storytelling-based websites.\n- Be capable of handling UI/UX and development, or clearly explain their design and development process.\n- Recommend the right technology stack based on the requirements.\n- Deliver a responsive, polished, and production-ready website.\n\nMandatory Requirement for Applying\n\nPlease include the following in your proposal:\n\n1. At least 2–3 relevant website references that match the style or experience you would propose for this project.\n2. Links to websites you have personally designed or developed.\n3. Your proposed approach for making the parent company journey and subsidiaries interactive.\n4. Recommended technology stack.\n5. Estimated timeline.\n6. Fixed project quotation.\n\nProposals without relevant website references, template examples, or a clear design direction will not be considered.\n\nProject Goal\n\nWe want to create a website that tells the story of a parent company, visually represents its growth and journey, and allows visitors to explore its subsidiaries in an engaging and memorable way.\n\nWe are looking for the right creative partner who can bring ideas to the table and build something beyond an ordinary corporate website.",
-  "budget": 20000.0,
-  "budget_min": 15000.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T08:26:26+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "crm",
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "crm",
-   "score": 5,
-   "summary_ru": "Заказчик ищет разработку премиального корпоративного сайта для холдинга с интерактивной историей компании, карточками дочерних брендов и простой админ-панелью для управления контентом без участия разработчика. Бюджет небольшой (20 000 INR), а требования к креативному дизайну и анимациям высокие.",
-   "reply": "You need a premium parent-company site that turns the group's history into a scroll-driven story, with each subsidiary getting its own detailed page, all managed from an admin panel your non-technical team can use without a developer. I'd build it on a modern stack with a content model for milestones and subsidiaries, a simple admin for text, images, and SEO meta fields, and lightweight scroll animations so mobile performance stays solid. With AI-assisted tooling, I can deliver a first working version with the core sections in about 2–3 weeks, then refine the animations and admin. You asked for design references, so here are my interactive layouts and animated sections: https://grachoffprod.github.io/portfolio/\n\nTwo questions: how many subsidiaries and milestones do you expect at launch, and do you already have brand assets and copy, or should content be prepared alongside the design?\n\nYakov",
-   "reply_ru": "Вам нужен премиальный сайт для холдинга, который превращает историю группы в историю, раскрывающуюся при прокрутке, с отдельной подробной страницей для каждой дочерней компании. Всем этим управляет админ-панель, которой команда без технических знаний сможет пользоваться без разработчика. Я бы собрал его на современном стеке с моделью контента для этапов развития и дочерних брендов, простой админкой для текстов, изображений и SEO-полей и облегчёнными анимациями при прокрутке, чтобы сайт быстро работал на мобильных. С помощью ИИ-инструментов я могу сделать первую рабочую версию с основными разделами примерно за 2–3 недели, а затем доработать анимации и админку. Вы просили референсы дизайна, поэтому вот мои интерактивные макеты и анимированные секции: https://grachoffprod.github.io/portfolio/\n\nДва вопроса: сколько дочерних компаний и этапов развития вы ожидаете к запуску, и есть ли у вас готовые брендбук и тексты или их нужно подготовить параллельно с дизайном?\n\nYakov",
-   "questions": [
-    "Сколько дочерних компаний и этапов развития (milestones) планируется показать к запуску?",
-    "Есть ли у вас готовые брендбук, логотипы и тексты, или контент нужно подготовить параллельно с дизайном?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "freelancer:40836648",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/project-management/Marketplace-Project-Tracking-Enhancement",
-  "title": "Marketplace Project Tracking Enhancement",
-  "description": "I already run a freelancer marketplace and now want to sharpen the experience inside each project room. The priority is the workspace where clients and freelancers message, handle payments, and track work.  \nMy focus is on richer project-tracking tools—think task lists attached to every milestone, automatic progress updates that show at a glance, and friendly deadline reminders that prompt both sides before dates slip. These additions must fit cleanly into the current messaging thread and payment flow so users never feel they have left the platform.\n\nYou will analyse the existing codebase, propose the best way to slot these features in without disrupting live traffic, and then build, test, and deploy them. Clean UI, responsive behaviour, and clear database migrations are essential. \n\nDeliverables: \n• Technical plan outlining integration points and data models \n• Working task-list component with create, assign, reorder, and complete actions \n• Progress-update system that logs percent complete or checklist state automatically \n• Configurable deadline reminder service (email, in-app, or push) \n• Final hand-off docs: setup notes, commented code, and test coverage summary \n\nI’m happy to hear your thoughts on future layers such as real-time chat or enhanced escrow, but the above tracking tools are the immediate scope. Let me know how you would tackle this and any similar modules you have shipped before.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T08:12:41+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 5,
-   "summary_ru": "Доработка существующего фриланс-маркетплейса: трекинг задач по этапам проекта, автоматическое обновление прогресса и настраиваемые напоминания о дедлайнах (email, in-app, push) с встраиванием в чат и текущий процесс оплаты без нарушения работы платформы.",
-   "reply": "You want to add per-milestone task lists, automatic progress tracking, and configurable deadline reminders (email, in-app, or push) inside the existing project room, without disrupting the live messaging thread. I'd start by reviewing the codebase and mapping the integration points, then send you a short technical plan with data models and a migration strategy before building anything. The core would be a task-list component with create, assign, reorder, and complete actions, progress derived from checklist state, and a reminder service on a scheduler with per-user channel preferences. Rough timeline: 2–3 days for the plan, 2–3 weeks for the core features, then tests, docs, and deployment. Two questions: what stack and hosting are you on, and should reminders apply to every milestone or only to ones with due dates?\n\nSee the portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите добавить списки задач по этапам, автоматический трекинг прогресса и настраиваемые напоминания о дедлайнах (email, in-app или push) внутри существующей комнаты проекта, не нарушая работу живого чата. Я бы начал с изучения кодовой базы и определения точек интеграции, затем отправил бы краткий технический план с моделями данных и стратегией миграций, прежде чем что-либо строить. Основа — компонент списка задач с действиями создания, назначения, сортировки и завершения, прогресс, вычисляемый по состоянию чек-листа, и сервис напоминаний на планировщике с настройками каналов для каждого пользователя. Примерные сроки: 2–3 дня на план, 2–3 недели на основной функционал, затем тесты, документация и деплой. Два вопроса: какой у вас стек и хостинг и должны ли напоминания касаться каждого этапа или только тех, у которых есть срок?\n\nПосмотреть портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "На каком стеке и хостинге работает платформа?",
-    "Напоминания должны касаться каждого этапа или только тех, у которых указан срок?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "freelancer:40836649",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/project-management/Marketplace-Project-Tracking-Enhancement-40836649",
-  "title": "Marketplace Project Tracking Enhancement -- 2",
-  "description": "I already run a freelancer marketplace and now want to sharpen the experience inside each project room. The priority is the workspace where clients and freelancers message, handle payments, and track work.  \nMy focus is on richer project-tracking tools—think task lists attached to every milestone, automatic progress updates that show at a glance, and friendly deadline reminders that prompt both sides before dates slip. These additions must fit cleanly into the current messaging thread and payment flow so users never feel they have left the platform.\n\nYou will analyse the existing codebase, propose the best way to slot these features in without disrupting live traffic, and then build, test, and deploy them. Clean UI, responsive behaviour, and clear database migrations are essential. \n\nDeliverables: \n• Technical plan outlining integration points and data models \n• Working task-list component with create, assign, reorder, and complete actions \n• Progress-update system that logs percent complete or checklist state automatically \n• Configurable deadline reminder service (email, in-app, or push) \n• Final hand-off docs: setup notes, commented code, and test coverage summary \n\nI’m happy to hear your thoughts on future layers such as real-time chat or enhanced escrow, but the above tracking tools are the immediate scope. Let me know how you would tackle this and any similar modules you have shipped before.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T08:12:40+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "api_integration",
-   "score": 6,
-   "summary_ru": "Заказчик хочет доработать существующий фриланс-маркетплейс: добавить в чат проекта списки задач по этапам, автоматический учёт прогресса и напоминания о дедлайнах (email, in-app или push) без выхода пользователей из платформы. Включает техплан, миграции БД, компоненты и документацию. Бюджет 750 USD при широком объёме работ.",
-   "reply": "You want each project room to stay the single place for chat, payments and tracking: task lists per milestone, progress that updates automatically and reads at a glance, and reminders that nudge both sides before a deadline slips. I'd start with a short audit of the current codebase to find safe integration points, then write the technical plan with data models and migrations so live traffic isn't disrupted. Delivery would go in phases behind feature flags: task lists and progress first (about two weeks), then the reminder service. Given the budget, we can agree on the exact scope of each phase up front. Two questions: what stack is the marketplace built on, and do reminders need push notifications, or are email and in-app enough for now? Live demos of my work are in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы хотите, чтобы комната проекта оставалась единым местом для чата, оплаты и отслеживания работы: списки задач по этапам, прогресс, который обновляется автоматически и читается с первого взгляда, и напоминания, которые подталкивают обе стороны до того, как дедлайн будет сорван. Я бы начал с короткого аудита текущей кодовой базы, чтобы найти безопасные точки интеграции, затем написал технический план с моделями данных и миграциями, чтобы не нарушать работу действующего трафика. Поставка пойдёт фазами за feature-флагами: сначала списки задач и прогресс (примерно две недели), затем сервис напоминаний. С учётом бюджета мы заранее согласуем точный объём каждой фазы. Два вопроса: на каком стеке построен маркетплейс и нужны ли напоминания через push-уведомления, или на данном этапе достаточно email и in-app? Живые демо моих работ есть в портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "На каком стеке построен маркетплейс (бэкенд, фронтенд, база данных)?",
-    "Нужны ли напоминания через push-уведомления, или на первом этапе достаточно email и in-app?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "flru:5530621",
-  "source": "flru",
-  "url": "https://www.fl.ru/projects/5530621/dorabotka-sistemyi-moderatsii-obyyavleniy-na-php.html",
-  "title": "Доработка системы модерации объявлений на PHP",
-  "description": "Необходимо внести ряд изменений в действующую систему модерации объявлений на сайте (чистый PHP). Требуется автоматизировать исправление мелких нарушений, проверку критических...",
-  "budget": 1000.0,
-  "budget_min": null,
-  "currency": "RUB",
-  "posted_at": "Thu, 26 Nov 2026 08:14:33 GMT",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "fixes",
-   "score": 3,
-   "summary_ru": "Нужно доработать действующую систему модерации объявлений на чистом PHP: автоматически исправлять мелкие нарушения и проверять критичные. Бюджет низкий для такого объёма, поэтому отклик стоит оценивать осторожно.",
-   "reply": "Вы описываете доработку существующей модерации объявлений на чистом PHP: автоматическое исправление мелких нарушений и проверку критичных. Я бы сначала разобрал текущую логику и структуру кода, затем добавил недостающие правила и автоматизацию поверх них, не ломая уже работающий функционал. Ориентировочно это 2–3 рабочих дня, точнее скажу после просмотра кода.\n\nПодскажите, какие именно нарушения должны исправляться автоматически и что считается критичным? Есть ли доступ к коду и тестовой среде?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nЯков",
-   "reply_ru": "Вы описываете доработку существующей модерации объявлений на чистом PHP: автоматическое исправление мелких нарушений и проверку критичных. Я бы сначала разобрал текущую логику и структуру кода, затем добавил недостающие правила и автоматизацию поверх них, не ломая уже работающий функционал. Ориентировочно это 2–3 рабочих дня, точнее скажу после просмотра кода.\n\nПодскажите, какие именно нарушения должны исправляться автоматически и что считается критичным? Есть ли доступ к коду и тестовой среде?\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nЯков",
-   "questions": [
-    "Какие именно мелкие нарушения должны исправляться автоматически, и какие случаи считаются критичными?",
-    "Есть ли доступ к текущему коду и тестовой среде?",
-    "Нужна ли интеграция с внешними сервисами проверки или всё должно работать внутри существующей системы?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "flru:5530608",
-  "source": "flru",
-  "url": "https://www.fl.ru/projects/5530608/sozdat-i-oformit-akkauntyi-vk-telegram-dzen-dlya-sayta-byuti-gadjetov.html",
-  "title": "Создать и оформить аккаунты VK, Telegram, Дзен для сайта бьюти-гаджетов",
-  "description": "Нужен специалист для разовой упаковки соцсетей интернет-магазина бьюти-гаджетов.\nКонтент в дальнейшем будет вести наш сотрудник, поэтому нужны только создание, оформление и...",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "Thu, 26 Nov 2026 06:21:05 GMT",
-  "lang": "ru",
-  "project_type": null,
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 2,
-   "summary_ru": "Разовая настройка и оформление аккаунтов VK, Telegram и Дзен для интернет-магазина бьюти-гаджетов. Работа в основном связана с созданием и визуальным оформлением соцсетей, а не с разработкой.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли какая-либо техническая интеграция между магазином и этими площадками, например автопостинг или выгрузка товаров?",
-    "Есть ли готовый сайт магазина, и нужно ли связать его с аккаунтами?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "telegram:FreelancehuntProjects/910804",
-  "source": "telegram",
-  "url": "https://t.me/FreelancehuntProjects/910804",
-  "title": "Оптимізація сайту на WP/Заміна блоків",
-  "description": "Оптимізація сайту на WP/Заміна блоків\n🛠\n#html_и_css_верстка\n#веб_программирование\nНеобхідно оптимізувати швидкість сайту на WP\nПоказчик швидкості має знаходитись у зеленій зоні 90+\nНе підключати різноманітні плагіни, а попрацювати з кодом, та видалити усе не потрібне.\nТакож треба додати sitemap, shema розмітку.\nВидалити непотрібні карти товарів, та замінити старі на нові.",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "2026-11-26T08:38:57+00:00",
-  "lang": "ru",
-  "project_type": null,
-  "direct": true,
-  "topics": [
-   "site_template"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "site_template",
-   "score": 6,
-   "summary_ru": "Нужно ускорить сайт на WordPress до 90+ в PageSpeed без новых плагинов, очистив код и удалив лишнее. Также нужно добавить sitemap и schema-разметку и заменить старые карточки товаров на новые.",
-   "reply": "Вам нужно поднять скорость сайта на WordPress до зелёной зоны 90+, почистив код и убрав ненужное без новых плагинов, а также добавить sitemap и schema-разметку и заменить старые карточки товаров. Я начну с аудита: замерю текущие метрики, найду тяжёлые скрипты, стили и запросы, затем оптимизирую изображения, шрифты и загрузку CSS/JS напрямую в теме и коде. Sitemap и разметку Product/Organization сделаю вручную. По срокам ориентировочно 3–5 рабочих дней на оптимизацию и аудит, замену карточек оценю после уточнения объёма. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая тема и сборка сейчас используются и есть ли доступ к хостингу и админке? Сколько карточек нужно заменить и откуда брать новые данные?\n\nYakov",
-   "reply_ru": "Вам нужно поднять скорость сайта на WordPress до зелёной зоны 90+, почистив код и убрав ненужное без новых плагинов, а также добавить sitemap и schema-разметку и заменить старые карточки товаров. Я начну с аудита: замерю текущие метрики, найду тяжёлые скрипты, стили и запросы, затем оптимизирую изображения, шрифты и загрузку CSS/JS напрямую в теме и коде. Sitemap и разметку Product/Organization сделаю вручную. По срокам ориентировочно 3–5 рабочих дней на оптимизацию и аудит, замену карточек оценю после уточнения объёма. Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКакая тема и сборка сейчас используются и есть ли доступ к хостингу и админке? Сколько карточек нужно заменить и откуда брать новые данные?\n\nYakov",
-   "questions": [
-    "Какая тема и какие плагины сейчас установлены на сайте?",
-    "Есть ли доступ к хостингу и админке WordPress?",
-    "Сколько карточек товаров нужно заменить и откуда взять новые данные?"
-   ]
-  },
-  "found_at": "2026-11-26T09:08:35+00:00"
- },
- {
-  "id": "freelancer:40836637",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/telemarketing/Student-Reminder-Telecalling-Support",
-  "title": "Student Reminder Telecalling Support Needed",
-  "description": "I have a list of enrolled students that must be contacted daily to keep them on track. Your job is to place short, friendly reminder calls that cover three points: \n• Upcoming classes or sessions they are scheduled to attend \n• Any pending document submission or application update they still owe us \n• A quick confirmation of their location so we know they can reach the venue on time \n\nAfter each call you will open our shared spreadsheet (Google Sheet) and log the outcome. For every student, I need two fields completed: \n1. Call status with a clear “confirmed / not confirmed / no answer” note \n2. If they are not attending or did not pick up, the reason they gave (or “no response” if silent)\n\nAccuracy in the sheet is critical because we rely on it for daily attendance figures, so please double-check entries before you move to the next number. All numbers, sheet access, and a short calling script will be provided once we start. \n\nFluency in clear spoken English (Hindi is a plus), a calm phone manner, and the ability to finish calls within the agreed slot each day will make this run smoothly. If you have experience with Google Sheets or similar CRMs, mention it when you reply so we can get you started right away.",
-  "budget": 750.0,
-  "budget_min": 250.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T08:02:25+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "automation"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "automation",
-   "score": 1,
-   "summary_ru": "Клиент ищет исполнителя для ежедневных звонков студентам с напоминаниями о занятиях и документах и для занесения результатов в Google Sheets. Это телефонная работа, а не разработка, поэтому проект не подходит.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли здесь какая-либо разработка, например автоматизация записи звонков или синхронизация с таблицей, или требуется только ручная работа по телефону?",
-    "Предусмотрен ли вариант с автоматическими голосовыми напоминаниями и выгрузкой статусов в таблицу?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836633",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/flutter/Build-Paid-Voice-Video-Calling",
-  "title": "Build Paid Voice Video Calling MVP",
-  "description": "Hiring: Freelance App Developer / Small Development Team\n\nI'm looking for an experienced freelance developer or a small development team to build an Android-based Paid Voice & Video Calling Platform, similar to a host-based voice/video calling application.\n\nI have a reference document outlining the required platform and features. The goal is to develop a functional MVP with all essential features while keeping the development process as cost-effective as possible.\n\n1. Customer Android App\n\nUser registration and login\n\nUser profiles\n\nHost listing and profile viewing\n\nOnline/offline host availability\n\nWallet balance and recharge\n\nPaid voice and video calling\n\nCall history and transaction history\n\nRatings and reporting system\n\n2. Host App / Interface\n\nHost login with assigned credentials\n\nHost profile management\n\nOnline/offline/busy status\n\nIncoming voice/video call notifications\n\nAccept/reject calls\n\nCall history\n\nEarnings and wallet details\n\n3. Admin Web Dashboard\n\nCustomer and host management\n\nHost verification and approval\n\nWallet and transaction management\n\nCall rate and commission management\n\nHost payout management\n\nReports and analytics\n\nComplaints and user management\n\n4. Preferred Technology Stack\n\nMobile App: Flutter\n\nBackend: ASP.NET Core Web API (.NET)\n\nDatabase: MongoDB\n\nAdmin Dashboard: React.js\n\nVoice/Video Calling: Agora SDK or LiveKit\n\nReal-time Communication: SignalR\n\nPush Notifications: Firebase FCM\n\nPayment Gateway: Razorpay\n\nCloud Hosting: Google Cloud Platform (GCP)\n\nDevelopers can also suggest alternative technologies if they can deliver the same functionality with lower development and maintenance costs.\n\n5. Important Requirements\n\nAndroid application only for the initial phase.\n\nFocus on essential MVP features.\n\nCost-effective development approach.\n\nClean, simple and user-friendly UI.\n\nSecure wallet and payment processing.\n\nProper server-side call duration and billing calculation.\n\nScalable backend architecture.\n\nComplete source code and ownership handover.\n\nDeployment and basic technical documentation.\n\n6. What I'm Looking For\n\nPlease share the following details:\n\nYour previous app development experience.\n\nPortfolio or links to previously developed applications.\n\nExperience with Flutter, .NET and voice/video calling SDKs.\n\nYour suggested technology stack.\n\nYour lowest possible quotation with a feature-wise cost breakdown.\n\nEstimated development timeline.\n\nPost-development support details.\n\nPreference: Individual freelancers or small development teams who can deliver a reliable, fully functional product with minimum development and maintenance costs.\n\nPlease apply only if you have relevant experience in mobile app development and real-time voice/video calling integration.",
-  "budget": 75000.0,
-  "budget_min": 37500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:59:15+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration",
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "mvp",
-   "score": 4,
-   "summary_ru": "Нужен MVP платформы платных голосовых и видеозвонков с хостами: Android-приложение для клиентов, приложение для хостов, админ-панель, кошелёк, серверный биллинг и звонки через Agora или LiveKit. Бюджет 75 000 INR при таком объёме функций ограничен.",
-   "reply": "You want a paid host-based voice and video calling MVP: a customer Android app, a host app, and an admin dashboard, with wallet top-ups, server-side call billing, and real-time calls through Agora or LiveKit. To fit the budget, I would build the core flow first: registration, host listing, online status, wallet, and per-minute billing calculated on the backend. The admin dashboard would start as a basic version. I would use ASP.NET Core with SignalR for presence and call signalling, MongoDB for data, and FCM for incoming call alerts. A first working build could be ready in about 6 to 8 weeks, with the remaining features in later phases. Which features must be in the launch version, and do you need host verification in the MVP or can it be handled manually at first?\n\nPortfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен MVP платформы платных голосовых и видеозвонков с хостами: Android-приложение для клиентов, приложение для хостов и админ-панель, с пополнением кошелька, серверным биллингом звонков и звонками через Agora или LiveKit. Чтобы уложиться в бюджет, я бы сначала сделал основной сценарий: регистрацию, список хостов, статус онлайн, кошелёк и поминутный биллинг, который считается на бэкенде. Админ-панель начнётся с базовой версии. Для бэкенда я бы использовал ASP.NET Core с SignalR для статусов и сигнализации звонков, MongoDB для данных и FCM для уведомлений о входящих звонках. Первая рабочая версия может быть готова примерно за 6–8 недель, остальные функции пойдут в следующих этапах. Какие функции обязательны для первого релиза и нужна ли верификация хостов в MVP или на старте её можно делать вручную?\n\nПортфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какие функции обязательны для первого релиза, а какие можно отложить на следующие этапы?",
-    "Нужна ли верификация хостов в MVP или на старте её можно делать вручную через админ-панель?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836618",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/web-development/PHP-Bug-Fixing-Screenshare-Collaboration",
-  "title": "PHP Bug Fixing Screenshare Collaboration",
-  "description": "Looking for strong Php developer who will work with me to resolve bugs and work with me while doing screenshare.\nlooking for freelancer developer only and companies/ manager please excuse me",
-  "budget": 1500.0,
-  "budget_min": 600.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:51:12+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "fixes"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "fixes",
-   "score": 4,
-   "summary_ru": "Клиент ищет PHP-разработчика, который исправит набор багов в его проекте и будет работать вместе с ним через демонстрацию экрана. Описание краткое, детали проекта не указаны, бюджет небольшой (1500 INR).",
-   "reply": "You need a PHP developer to fix a set of bugs in your project while working together over a screen share, so you can see each fix as it happens. I work with a modern stack and AI-assisted development, so I can move through issues quickly and explain each change as we go. My plan: we start with the bug list and reproduce the issues on a live call, then I fix them one by one, test each fix, and commit the changes with short notes. For a small batch of bugs, I'd expect to start the same day and finish within a few days, depending on how many issues there are and how complex they are. Could you share the bug list or repository access, and tell me which PHP version and framework you're using? You can see examples of my work with live demos at https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вам нужен PHP-разработчик, который исправит набор багов в вашем проекте и будет работать вместе с вами через демонстрацию экрана, чтобы вы видели каждое исправление в процессе. Я работаю с современным стеком и использую ИИ-ассистенты в разработке, поэтому могу быстро проходить задачи и объяснять каждое изменение по ходу работы. План такой: сначала разбираем список багов и воспроизводим их на живом созвоне, затем я исправляю их по одному, тестирую каждое исправление и сохраняю изменения с короткими комментариями. Для небольшого набора багов я бы начал в тот же день и закончил в течение нескольких дней, в зависимости от количества и сложности проблем. Не могли бы вы прислать список багов или доступ к репозиторию и сказать, какую версию PHP и какой фреймворк вы используете? Примеры моих работ с живыми демо можно посмотреть здесь: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какой у вас проект (фреймворк, версия PHP) и есть ли доступ к репозиторию?",
-    "Сколько примерно багов нужно исправить и есть ли их список?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836396",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/air-conditioning/Mosquito-proof-Cooler-Retrofit",
-  "title": "Mosquito-proof Cooler Retrofit",
-  "description": "I need a retrofit extension for my portable evaporative air cooler to prevent mosquito breeding. The solution should stop mosquitoes from entering the water tank.\n\nCurrent entry points:\n- Water-filling opening\n- Air vents or cooling pads\n\nIdeal Skills and Experience:\n- Experience with HVAC or cooler modifications\n- Knowledge of mosquito prevention methods\n- Problem-solving skills to seal entry points effectively\nThe design logic\n\nThere are two ways to stop the mosquito. Keep her out of the tank, and make the tank useless if she gets in anyway. Then go one step further and use the cooler to remove mosquitoes from the area. Each part covers one of these jobs, and all of them follow your five rules: block egg-laying, fit any cooler as a retrofit, keep cooling the same, use no chemicals, and keep refilling easy.\n\n1. Seal tray\n\nWhy: In a desert cooler, the tank is an open box under the pads. Mosquitoes fly in through the gaps around the pads and land on the wet walls. To keep them out, you have to close the tank without blocking the airflow, and the airflow is in the pad area, not the tank. So the seal goes between the two.\n\nDesign:\n\nIt's a flat panel that rests on the tank rim, with a soft foam strip around the edge. An adult Aedes is only a few millimetres long, so even a small gap lets her in. The foam presses into uneven rims and fills those gaps.\nIt slopes slightly toward the U-bend. This matters a lot. If water sat in puddles on the tray, the tray itself would become a new place to breed. With the slope, every drop drains away.\nIt's cut-to-fit, in 2–3 standard sizes, which is what makes it work across cooler brands.\nFor the prototype it's acrylic, because a laser cutter makes it quick and accurate. A real product would be injection-moulded polypropylene, which is cheap, survives sunlight and won't crack.\n\nTrade-off: it needs about 1–1.5 cm of space between the tank rim and the pad frame. Some very compact coolers may not have that room.\n\n2. U-bend drain\n\nWhy: The water that drips off the pads has to get back into the tank, so the tank can never be fully closed. The question is how to let water through without letting insects through. Sinks solved this a long time ago with a trap: a bend that always holds some water. Water can flow through it, but air and insects can't get past the water.\n\nDesign:\n\nIt's made from ½\" PVC elbows, which are cheap and available at any hardware shop, and wide enough for the amount of water dripping off the pads.\nThe water in the bend should be 3–4 cm deep, so a mosquito can't simply cross it.\nThe outlet points straight down into the tank, so the drip doesn't splash onto the tank walls and wet them.\n\nTrade-off: if the cooler sits switched off for weeks, the water in the bend can evaporate and leave the path open. In your testing, measure how long the water stays in the bend. For the final version, a small floating ball valve could close it automatically.\n\n3. Refill funnel with flap\n\nWhy: People refill coolers with a bucket every day. If refilling gets harder, they'll take the lid off and leave it off, and the whole design fails. So the opening has to be easy to use and still close by itself.\n\nDesign:\n\nA rubber flap hangs under the funnel. The weight of the water pushes it open, and it falls shut by gravity when you stop pouring. No springs, and nothing for the user to remember.\nWhy not just a mesh over the opening? A wet mesh holds a thin film of water, which is exactly the kind of damp surface Aedes like to lay eggs on. A flap has no such surface.\nThe funnel's sides are steep, so no water is left sitting in it.\n\nTrade-off: dirt can stop the flap from closing fully. It needs a quick wipe now and then.\n\n4. Pipe grommet\n\nWhy: The pump pipe has to pass through the tray. Any loose hole there would be a way in.\n\nDesign: a rubber grommet, which is a ring with a cut in it. It grips the pipe tightly and still fits slightly different pipe sizes.\n\n5. Hex float tiles\n\nWhy: This is the backup layer. If a mosquito gets in through a gap or while the lid is open, she still shouldn't be able to breed. Aedes need two things: a wet edge just above the water to lay eggs on, and a calm, open surface where the larvae can breathe. Covering the water takes away both.\n\nDesign:\n\nWhy hexagons rather than balls? Round balls always leave gaps between them. Hexagons fit together edge to edge, the same way honeycomb does, so they cover far more of the surface.\nThey float. As water evaporates or gets refilled, the cover rises and falls with it, so the waterline is always covered. A fixed cover can't do this.\nThey're about 6 cm across: big enough to stay away from the pump, and small enough to pour in through the funnel.\nTo make them float, print them in PETG with closed top and bottom layers so air stays trapped inside. Test a few in a bucket before printing the full set.\nBonus: covering the water reduces evaporation from the tank, so it needs refilling less often. Cooling isn't affected, because the cooling comes from the pads, not the tank.\n\nTrade-off: water splashing off the drain can push tiles out of place. Pointing the U-bend outlet straight down keeps the surface calm.\n\n6. Pump mesh basket\n\nWhy: If a tile gets sucked onto the pump's intake, the pump runs without water and the cooling stops.\n\nDesign: a coarse steel or nylon mesh around the pump. The holes are much smaller than a tile but large enough that water flows freely. It also keeps leaves and dust out of the pump.\n\n7. Decoy trap cup\n\nWhy: Sealing the tank only stops the cooler from becoming a breeding site. The mosquito still lays her eggs somewhere else. The trap gives her a place to lay them that kills her offspring, so every cooler with the kit helps reduce the mosquito population nearby. This is what makes the project more than just \"a lid\".\n\nDesign:\n\nDark felt strip at the waterline: Aedes prefer dark, rough, damp surfaces for laying eggs, so the cup is made to be more attractive than anywhere else around.\nMesh funnel inside: larvae swim down through the funnel. When they turn into adults, they can't find the narrow opening to get back up, so they drown.\nFed by a drip line from the pump: the water keeps getting topped up and stays fresh, so the cup never dries out and doesn't need the user to fill it.\nAn overflow hole covered with fine mesh: extra water can drain out, but larvae can't escape.\nIt's on the outside of the cooler: the cup stays visible and easy to remove, and nothing in it is near the tank.\n\nTrade-off: if the mesh tears, the trap becomes a breeding site itself. The fix is to empty and check the cup once a week. It's a ten-second job and much easier than cleaning the whole tank.\n\nHow it all fits the brief\nPrevent egg-laying: the tray, U-bend and flap keep mosquitoes out, and the tiles make the water useless to them if they do get in.\nRetrofit: the tray is cut-to-fit with a foam edge, the U-bend and funnel are standard parts, and the tiles fit any tank.\nCooling preserved: none of the parts touch the pads, the fan or the airflow.\nNo chemicals: everything works physically, by using mosquito behaviour against them.\nEasy to use: you refill the same way as before, and the only upkeep is emptying the trap cup once a week.",
-  "budget": 12500.0,
-  "budget_min": 1500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:47:52+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "mvp"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "mvp",
-   "score": 1,
-   "summary_ru": "Клиент хочет физическую доработку переносного испарительного кулера, чтобы комары не попадали в бак: уплотнение крышки, U-образный слив, клапан для заливки и сетчатый барьер. Это проектирование и изготовление оборудования, а не разработка программного продукта.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли в этом проекте какая-либо программная часть, например датчик уровня воды с уведомлениями или приложение?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836611",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/full-stack-development/Build-Community-Group-Buying-Marketplace",
-  "title": "Build Community Group Buying Marketplace",
-  "description": "Project: CommunityBuy – Community Group Buying Marketplace\n\nWe are looking for an experienced full-stack developer or development team to build CommunityBuy, a community-based group purchasing e-commerce platform.\n\nBusiness Objective\n\nBuild a scalable marketplace that allows customers in residential communities, apartments and neighbourhoods to purchase household products together and receive volume-based discounts.\n\nPlatforms\n\n* Android application\n* iOS application\n* Responsive web application\n* Super Admin dashboard\n* Vendor dashboard\n* Community Admin dashboard\n\nCore Features\n\n* Customer registration and authentication\n* Community creation and joining\n* Product catalogue and search\n* Group purchasing functionality\n* Quantity-based discount engine\n* Order and payment management\n* Vendor onboarding and product management\n* Delivery tracking\n* Notifications and referral system\n* Admin reporting and analytics\n\nPreferred Technology\n\nReact Native, Next.js, Node.js/NestJS, PostgreSQL, Redis and AWS.\n\nTarget Markets\n\nIndia initially, with Malaysia support and multi-country scalability.\n\nExpected Deliverables\n\nComplete UI/UX design, application source code, backend APIs, database, dashboards, payment integrations, deployment and technical documentation.\n\nFreelancer Proposal Requirements\n\nPlease provide:\n\n1. Previous e-commerce or marketplace projects.\n2. Proposed architecture and technology stack.\n3. Estimated development cost.\n4. Project delivery timeline.\n5. Team composition.\n6. Maintenance and support charges.\n7. Source-code ownership confirmation.\n\nWe prefer milestone-based development with complete source-code ownership and project access.\n\nPlease share your detailed proposal and quotation.",
-  "budget": 75000.0,
-  "budget_min": 37500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:46:07+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "shop",
-   "api_integration",
-   "saas"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "shop",
-   "score": 3,
-   "summary_ru": "Заказчик ищет команду для создания маркетплейса групповых закупок для жителей ЖК и районов с объемными скидками: приложения для Android и iOS, адаптивный веб, а также три админ-панели (супер-админ, продавец, админ сообщества). Бюджет 75 000 INR явно не покрывает такой объем работ.",
-   "reply": "You're looking for a group-buying marketplace where residents pool orders to unlock volume discounts, with Android and iOS apps, a responsive web app, and three admin dashboards. That's a large scope for the budget, so I'd suggest starting with a first milestone: the responsive web app covering registration, communities, catalogue, group purchasing with quantity-based discounts, and the community admin panel. I'd build it with Next.js, NestJS, PostgreSQL and Redis, using a modern stack and AI-assisted development to keep delivery fast. The mobile apps and the vendor and super admin dashboards could follow in later milestones. I'd estimate about 5–6 weeks for the first milestone. Two questions: Is the 75,000 INR budget for the full scope or just the first milestone? Do you already have UI/UX designs, or should design be included?\n\nSee my live demos here: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Вы ищете маркетплейс групповых закупок, где жители объединяют заказы, чтобы получить объемные скидки, с приложениями для Android и iOS, адаптивным веб-сайтом и тремя админ-панелями. Это большой объем работ для указанного бюджета, поэтому я предлагаю начать с первого этапа: адаптивное веб-приложение с регистрацией, сообществами, каталогом, групповыми закупками со скидками за количество и панелью администратора сообщества. Я бы разрабатывал его на Next.js, NestJS, PostgreSQL и Redis, используя современный стек и ИИ-ассистенты в разработке, чтобы сохранить быстрые сроки. Мобильные приложения и панели продавца и супер-админа можно сделать на следующих этапах. Оценочный срок первого этапа — около 5–6 недель. Два вопроса: бюджет 75 000 INR относится ко всему объему или только к первому этапу? Есть ли у вас готовый UI/UX-дизайн, или его нужно включить в работу?\n\nПосмотреть рабочие демо можно здесь: https://grachoffprod.github.io/portfolio/\n\nЯков",
-   "questions": [
-    "Бюджет 75 000 INR относится ко всему объему работ или только к первому этапу?",
-    "Есть ли у вас готовый UI/UX-дизайн или его нужно включить в работу?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
  }
 ]
