@@ -1,5 +1,126 @@
 [
  {
+  "id": "freelancer:40839479",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/android-app-development/Android-Vedic-Astrology-App",
+  "title": "Android Vedic Astrology App",
+  "description": "I’m looking to release a lightweight Android application that lets users request Vedic astrology (Kundli) consultations and pay dakshina directly inside the app. Within the limited budget I have set aside for this first version, I want to focus on the features that matter most to the experience while keeping the codebase clean enough for future expansion.\n\nCore user flow \n• Visitor installs the app, registers with mobile OTP and accepts Privacy Policy / T&C. \n• On the home screen the two service options are shown: ₹501 for a general or all-question analysis and ₹1999 for a full birth-chart reading. \n• The client taps their choice, fills the intake form (name, date, time & place of birth, plus an open question box) and scans a UPI QR displayed on the next screen. \n• They enter the UTR / transaction ID and tap “Submit”. \n• Once payment is verified, a private chat window opens. In that chat they can send text, photos and voice notes; I can reply in the same way. No video or live call is needed for this MVP. \n• Users can review previous consultations from a simple “My Sessions” tab.\n\nAdmin side \nA lightweight web-based (or in-app) admin panel is enough. It should list new inquiries, indicate which ones have paid, and let me answer directly inside the chat thread. A dashboard counter for “New”, “In Progress”, “Closed” would help me stay organised.\n\nSecurity & compliance \nOTP login, Firebase or similar secure auth, and local encryption of the birth-detail form data are essential. I will provide final wording for Privacy Policy and Terms so they appear during sign-up.\n\nDeliverables (MVP) \n1. Android APK + source code structured for future Play Store release. \n2. Intake form with validation and UPI payment screen. \n3. Real-time chat (text, image, voice note) between user and admin. \n4. Simple admin panel with status filters and reply capability. \n5. Basic notification setup (FCM) so I see new messages instantly. \n6. Installation guide and short hand-off call.\n\nKindly outline: \n• Which ready-made chat or backend service you’ll use (e.g., Firebase Realtime DB, Firestore, or your own Node.js server) to stay within budget. \n• Approximate timeline for an install-ready APK. \n• Any third-party costs aside from my Play Console fee.\n\nI’m happy to clarify edge cases, but if you can hit the above scope within the stated budget and timeframe, let’s move ahead quickly.",
+  "budget": 12500.0,
+  "budget_min": 1500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T02:34:49+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "crm",
+   "mvp"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "mvp",
+   "score": 3,
+   "summary_ru": "Заказчик хочет лёгкое Android-приложение для консультаций по ведической астрологии (Кундли): регистрация по OTP, форма с данными рождения, оплата через UPI QR, приватный чат с текстом, фото и голосовыми, простая админ-панель и FCM-уведомления. Бюджет 12 500 INR заметно ниже объёма работ.",
+   "reply": "You want a lightweight Android app where users sign up with mobile OTP, fill in birth details for one of two Kundli services, pay via UPI QR, and then get a private chat with you that supports text, photos, and voice notes. You also need a simple admin panel to track inquiries, mark paid ones, and reply in the thread, with FCM alerts for new messages. I'd build it in Kotlin with Jetpack Compose, using Firebase Auth for phone OTP, Firestore for sessions and chat, Cloud Storage for media, FCM for notifications, and a small web admin on Firebase Hosting. The scope is large for the stated budget, so I'd suggest phasing it: core intake, payment screen, and chat first, then admin filters and notifications. An install-ready APK would take roughly 3–4 weeks. Two questions: is the 12,500 INR budget firm or can we phase it? Will UTR verification be done manually by you in the admin panel?\n\nYou can see live demos in my portfolio: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите лёгкое Android-приложение, где пользователи регистрируются по OTP на телефон, заполняют данные рождения для одной из двух услуг Кундли, оплачивают через UPI QR и затем получают приватный чат с вами с поддержкой текста, фото и голосовых сообщений. Также нужна простая админ-панель для учёта обращений, отметки оплативших и ответов в чате, плюс уведомления FCM о новых сообщениях. Я бы сделал это на Kotlin с Jetpack Compose: Firebase Auth для входа по OTP, Firestore для сессий и чата, Cloud Storage для медиа, FCM для уведомлений и небольшая веб-админка на Firebase Hosting. Объём работ велик для заявленного бюджета, поэтому предлагаю поэтапную сдачу: сначала форма, экран оплаты и чат, затем фильтры админки и уведомления. Готовый к установке APK займёт примерно 3–4 недели. Два вопроса: бюджет 12 500 INR фиксированный или работы можно разбить на этапы? Будете ли вы проверять UTR вручную в админ-панели?\n\nЖивые демо можно посмотреть в моём портфолио: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Бюджет 12 500 INR фиксированный или можно разбить работы на этапы?",
+    "Кто будет проверять UTR: вы вручную в админ-панели или нужна автоматическая проверка?"
+   ]
+  },
+  "found_at": "2026-11-28T02:41:03+00:00"
+ },
+ {
+  "id": "freelancer:40839472",
+  "source": "freelancer",
+  "url": "https://www.freelancer.com/projects/database-administration/Backend-Enhancement-AWS-Optimization",
+  "title": "Backend Enhancement & AWS Optimization",
+  "description": "I already have a working backend, but it needs some love. Your focus will be on adding new functionality while tightening up the data layer and modernising the AWS side of things.\n\nThe first priority is the database: indexes, schema tweaks, or even swapping engines if we agree it makes sense. I need cleaner data-handling code and faster queries so the API feels snappier for end-users.\n\nIn parallel, we will lean on AWS. I want data stored securely (think S3, KMS, or an encrypted RDS setup), plus an architecture that can scale smoothly when traffic spikes. Reliability matters, so automated backups, CloudWatch monitoring, and alerting need to be in place from day one.\n\nDeliverables I will use to sign off the project: \n• Updated database design and migration scripts \n• Refactored or extended backend code that plugs into the new data layer \n• AWS configuration (Terraform or CloudFormation preferred) covering storage, scaling, backups, monitoring, and alerts \n• A concise hand-off document explaining how to deploy and maintain the new setup\n\nIf you are comfortable profiling SQL, tweaking ORMs, setting up IAM policies, and writing infrastructure-as-code, let’s get started.",
+  "budget": 37500.0,
+  "budget_min": 12500.0,
+  "currency": "INR",
+  "posted_at": "2026-11-28T02:24:02+00:00",
+  "lang": "en",
+  "project_type": "fixed",
+  "direct": false,
+  "topics": [
+   "api_integration"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "api_integration",
+   "score": 5,
+   "summary_ru": "Клиент хочет доработать существующий бэкенд: оптимизировать базу данных (индексы, схема, возможна смена движка), улучшить код работы с данными и настроить AWS с шифрованием, резервным копированием, масштабированием и мониторингом через Terraform или CloudFormation. Бюджет около 37 500 INR, сроки не указаны.",
+   "reply": "You want the existing backend to stay as it is while the data layer gets tighter: indexes and schema changes for faster queries, a possible engine swap if it pays off, and an AWS setup with encrypted storage, automated backups, scaling and CloudWatch alerts, all in infrastructure-as-code. I would start by profiling the slowest endpoints and the current schema, so the index and migration changes are based on real query data. In parallel I would write the Terraform for storage, KMS, backups and monitoring, then refactor the data access code to use the new layer and finish with a hand-off document. My rough estimate is 2 to 3 weeks, depending on codebase size. Could you tell me the current stack (framework, ORM, database engine) and the approximate traffic level? Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "reply_ru": "Вы хотите сохранить текущий бэкенд, но сделать работу с данными стабильнее: индексы и изменения схемы для более быстрых запросов, возможная смена движка БД, если это окупится, и настройка AWS с шифрованием, автоматическими бэкапами, масштабированием и алертами CloudWatch, всё в виде инфраструктуры как кода. Я бы начал с профилирования самых медленных эндпоинтов и текущей схемы, чтобы изменения индексов и миграций опирались на реальные данные по запросам. Параллельно написал бы Terraform для хранилища, KMS, бэкапов и мониторинга, затем переработал бы код доступа к данным под новый слой и закончил документом для передачи. Ориентировочная оценка: 2–3 недели, в зависимости от объёма кодовой базы. Не могли бы вы рассказать о текущем стеке (фреймворк, ORM, движок БД) и примерной нагрузке? Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
+   "questions": [
+    "Какой стек используется сейчас (фреймворк, ORM, движок базы данных) и есть ли миграции?",
+    "Какая примерная нагрузка и сколько запросов в секунду в пиковые часы, а также есть ли уже AWS-аккаунт и что в нём развёрнуто?"
+   ]
+  },
+  "found_at": "2026-11-28T02:41:03+00:00"
+ },
+ {
+  "id": "kwork:3276043",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3276043",
+  "title": "Автоматизация в Гугл-таблицах",
+  "description": "Нужно автоматизировать распознавание № счета по которому пришли деньги в банк \nТаблица содержит 3 листа с исходными данными: \n1. Банковская выписка \n2. Список счетов \n3. Список клиентов \nМетод решения: \nФормулами или скриптами гугл",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-28 05:08:50",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "automation"
+  ],
+  "analysis": {
+   "relevant": true,
+   "topic": "automation",
+   "score": 5,
+   "summary_ru": "Нужно автоматизировать в Google Таблицах сопоставление поступлений из банковской выписки с номерами счетов и клиентами из двух отдельных листов. Решение может быть на формулах или на скрипте Google Apps Script. Бюджет небольшой (500 ₽).",
+   "reply": "You want the spreadsheet to find the invoice number in each bank statement entry and match the payment to the right client from the accounts and clients sheets, without manual lookup. Apps Script fits this well: it can read the statement rows, pull the account number out of the payment description with a pattern, check it against the accounts list, and write the client name and status back to the sheet. If the descriptions are messy, I can add a fallback with QUERY and MATCH formulas. I would estimate 1 to 2 days, and I'd send the file for your review when it's ready.\n\nExamples of my work with live demos: https://grachoffprod.github.io/portfolio/\n\nWhat do the payment descriptions in the statement look like, and do you have a few sample rows? Should unmatched payments be marked in a separate column or listed on their own sheet?\n\nYakov",
+   "reply_ru": "Вам нужно, чтобы таблица сама находила номер счёта в каждой строке банковской выписки и сопоставляла платёж с нужным клиентом из листов «Список счетов» и «Список клиентов», без ручного поиска. Для этого хорошо подходит Google Apps Script: он прочитает строки выписки, выделит номер счёта из назначения платежа по шаблону, проверит его по списку счетов и запишет в таблицу имя клиента и статус. Если назначения написаны неаккуратно, добавлю запасной вариант на формулах QUERY и ПОИСКПОЗ. Оцениваю работу в 1–2 дня и пришлю файл на проверку по готовности.\n\nПримеры моих работ с живыми демо: https://grachoffprod.github.io/portfolio/\n\nКак выглядят назначения платежей в выписке и можете прислать несколько строк для примера? Несопоставленные платежи нужно отмечать отдельным столбцом или выносить на отдельный лист?\n\nYakov",
+   "questions": [
+    "Как выглядят назначения платежей в выписке и можете прислать несколько строк для примера?",
+    "Несопоставленные платежи нужно отмечать отдельным столбцом или выносить на отдельный лист?"
+   ]
+  },
+  "found_at": "2026-11-28T02:41:03+00:00"
+ },
+ {
+  "id": "kwork:3276042",
+  "source": "kwork",
+  "url": "https://kwork.ru/projects/3276042",
+  "title": "Дизайн ЕРП / СРМ",
+  "description": "Предложить идею дизайна для кастомной ЕРП \nГлавное - минимально перегруженная рабочая страница (не как в 1С) для любого исполнителя \nНесколько разделов, 30+ сотрудников \n1. СРМ - воронка, \n2. Счет, УПД, акты \n3. Календарь \n4. Монитор руководителя на 1 страницу",
+  "budget": 500.0,
+  "budget_min": null,
+  "currency": "RUB",
+  "posted_at": "2026-11-28 05:05:34",
+  "lang": "ru",
+  "project_type": null,
+  "direct": false,
+  "topics": [
+   "crm"
+  ],
+  "analysis": {
+   "relevant": false,
+   "topic": "crm",
+   "score": 2,
+   "summary_ru": "Нужна дизайн-концепция минималистичного интерфейса кастомной ERP/CRM для 30+ сотрудников: воронка продаж, счета/УПД/акты, календарь и монитор руководителя на одной странице. Бюджет 500 ₽, задача касается дизайна, а не разработки.",
+   "reply": "",
+   "reply_ru": "",
+   "questions": [
+    "Нужна только визуальная концепция (макеты) или также техническая реализация интерфейса?",
+    "Есть ли готовые требования к функционалу воронки, документов и календаря или их нужно определить в процессе?"
+   ]
+  },
+  "found_at": "2026-11-28T02:41:03+00:00"
+ },
+ {
   "id": "freelancer:40839437",
   "source": "freelancer",
   "url": "https://www.freelancer.com/projects/full-stack-development/Secure-Data-Migration-Enhancements",
@@ -15011,124 +15132,5 @@
    ]
   },
   "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "telegram:itfreelancers/5356",
-  "source": "telegram",
-  "url": "https://t.me/itfreelancers/5356",
-  "title": "ProxyZen — Персональные прокси-серверы HTTPS / SOCKS5",
-  "description": "⚡️\n ProxyZen — Персональные прокси-серверы HTTPS / SOCKS5\n🌐\n IPv4 — личный IP в одни руки, 50+ стран · от $0.60\n🌍\n IPv6 — дёшево и много · от $0.05\n🏠\n Резидентские — 90M+ IP, 140+ стран · $1.59/ГБ\n📱\n Мобильные 4G/5G · $2.40/ГБ\n▪️\n 90M+ IP в 140+ странах\n▪️\n 99.9% успешных подключений, выдача сразу после оплаты\n▪️\n HTTP(S) + SOCKS5 одновременно, логин и пароль\n▪️\n Ротация на каждом запросе или один IP на нужное время\n▪️\n Страна, город и оператор прямо в логине\n▪️\n Продление того же IP в 1 клик, трафик не сгорает\n🛠\n Для разработчиков и реселлеров: REST API и бесплатный open-source бот-магазин для Telegram. Запустите свой прокси-шоп за 5 минут и зарабатывайте на наценке.\n🎁\n Партнёрка 25% пожизненно\n👉\nproxyzen.net\n · \n🤖\n@proxyzen_app\n · \n💬\n@proxyzen_agent",
-  "budget": null,
-  "budget_min": null,
-  "currency": null,
-  "posted_at": "2026-11-26T07:27:40+00:00",
-  "lang": "ru",
-  "project_type": null,
-  "direct": true,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "api_integration",
-   "score": 1,
-   "summary_ru": "Рекламное сообщение сервиса ProxyZen, который продаёт прокси-серверы (IPv4, IPv6, резидентские и мобильные) и предлагает REST API и бот-магазин для перепродажи. Это не заказ на разработку, а реклама готового продукта.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли вам разработка интеграции с их REST API или это просто реклама готового сервиса?"
-   ]
-  },
-  "found_at": "2026-11-26T08:11:17+00:00"
- },
- {
-  "id": "freelancer:40836564",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/dns/Urgent-Website-Proxy-Error-Fix",
-  "title": "Urgent Website Proxy Error Fix",
-  "description": "My site still loads, but every attempt to navigate triggers a proxy-block error instead of the normal pages. I need someone to jump on a live session with me, diagnose the root cause, clear the block, and leave the site fully functional before we wrap up the call.\n\nHere’s what will make the engagement a success:\n\n• During our scheduled appointment you pinpoint the reason the proxy block appears (server rules, firewall, DNS, mis-configured plugin, or anything similar) and remove it. \n• All public pages must open normally—no more error screens. \n• You recommend and, if practical, implement the best long-term proxy or alternative solution so the problem doesn’t return. \n• A brief note of the changes you made is handed over at the end.\n\nI’ll provide hosting panel and CMS credentials on the call. Let me know your earliest availability for a screen-share and how long you expect the fix to take.",
-  "budget": 30.0,
-  "budget_min": 10.0,
-  "currency": "USD",
-  "posted_at": "2026-11-26T07:10:27+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "booking"
-  ],
-  "analysis": {
-   "relevant": true,
-   "topic": "booking",
-   "score": 4,
-   "summary_ru": "Клиенту нужно срочно устранить ошибку прокси-блокировки, которая появляется при переходе между страницами сайта, хотя сам сайт открывается. Требуется живая сессия, диагностика причины, исправление и краткая справка об изменениях; бюджет небольшой (30 USD).",
-   "reply": "From your description, the homepage loads but every navigation is replaced by a proxy-block error. That usually comes from a redirect or rewrite rule, a firewall/WAF rule, a CDN or caching layer, or a plugin intercepting requests. I'd start by tracing the request chain on a few failing URLs and checking server and CMS logs, so we find the actual source instead of guessing. Once it's identified, I'd remove the block, check all public pages, and give you a short change note. For a lasting fix, I'd also suggest a proper rule set that survives updates. The screen-share can fit into a 60–90 minute window if access goes smoothly. Which hosting provider and CMS do you use, and did the error start after a specific change? Portfolio with live demos: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "reply_ru": "Судя по описанию, главная страница загружается, но при каждом переходе вместо нужной страницы появляется ошибка прокси-блокировки. Обычно это связано с правилом редиректа или переписывания, правилом файрвола/WAF, слоем CDN или кеширования либо плагином, который перехватывает запросы. Я бы начал с отслеживания цепочки запросов на нескольких проблемных URL и проверки логов сервера и CMS, чтобы найти реальную причину, а не гадать. Найдя её, я уберу блокировку, проверю все публичные страницы и передам вам краткую справку об изменениях. Для стабильного результата также предложу корректный набор правил, который не слетит при обновлениях. Созвон на демонстрацию экрана может уложиться в окно 60–90 минут, если доступы пройдут без проблем. Какой у вас хостинг и CMS и не появилась ли ошибка после каких-то конкретных изменений? Портфолио с живыми демо: https://grachoffprod.github.io/portfolio/\n\nYakov",
-   "questions": [
-    "Какой у вас хостинг и CMS?",
-    "Появилась ли ошибка после какого-то конкретного изменения (обновление плагина, смена DNS, настройка файрвола)?",
-    "В какое время вам удобно провести созвон с демонстрацией экрана?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836563",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/seo/Highly-experienced-shopify-lister-40836563",
-  "title": "Highly experienced shopify lister no mistakes AUD $1/listing -- 3",
-  "description": "I need a seasoned Shopify hand who can upload Clothing & Accessories items with absolute accuracy. Every listing must follow the product-description template I provide and be ready to publish without further edits—titles, variants, pricing, tags, collections, SEO fields, everything polished in one pass. \n\nYou’ll receive the SKU sheet and my format guide up front. From there I’m counting on you to: \n\n• Build each product page inside Shopify exactly to spec \n• Add all relevant size/colour variants and ensure stock levels match the sheet \n• Fill out meta-fields and alt text so the store’s SEO stays on point \n• Proofread as you go; I don’t want to correct typos or mismatched images later \n\nTurnaround matters. Submit a daily batch so I can spot-check and approve as we go. The rate is locked at AUD $1 per approved listing, so speed only counts if accuracy stays at 100 %. If this sounds routine to you because you’ve done it hundreds of times before, let’s get started—tell me how many listings you can comfortably deliver each day and share a link to a Shopify store you’ve populated recently.",
-  "budget": 8.0,
-  "budget_min": 2.0,
-  "currency": "AUD",
-  "posted_at": "2026-11-26T07:09:54+00:00",
-  "lang": "en",
-  "project_type": "hourly",
-  "direct": false,
-  "topics": [
-   "shop"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "shop",
-   "score": 2,
-   "summary_ru": "Клиент ищет исполнителя для ручного заполнения карточек товаров в Shopify (одежда и аксессуары) по готовому шаблону с оплатой 1 AUD за листинг. Это рутинная работа по вводу данных, а не разработка, и бюджет очень мал.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Нужна ли здесь разработка или настройка магазина, или только ручное заполнение карточек товаров?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
- },
- {
-  "id": "freelancer:40836562",
-  "source": "freelancer",
-  "url": "https://www.freelancer.com/projects/desktop-application/Desktop-Connector-Upgrade-Needed",
-  "title": "Desktop Connector Upgrade Needed",
-  "description": "I already have a working desktop program that links our product to an external system/device, but a specific “bypass” feature is still missing. I will walk you through exactly what the current build does, the point at which it fails, and the behaviour I need to see once the bypass is in place.\n\nYour first task is to review the existing source code, identify the check or restriction that must be bypassed, and deliver a clean, compiled update that connects flawlessly every time. The codebase is in active use, so stability, clear commenting and version-controlled commits are essential.\n\nOnce this milestone is finished, I would like to keep collaborating with you for ongoing enhancements and maintenance. If you are comfortable digging into someone else’s code, working closely through chat to clarify edge cases, and you have solid experience with desktop connectivity (API calls, device drivers, sockets—whatever tools apply), let’s talk.",
-  "budget": 75000.0,
-  "budget_min": 37500.0,
-  "currency": "INR",
-  "posted_at": "2026-11-26T07:09:28+00:00",
-  "lang": "en",
-  "project_type": "fixed",
-  "direct": false,
-  "topics": [
-   "api_integration"
-  ],
-  "analysis": {
-   "relevant": false,
-   "topic": "api_integration",
-   "score": 1,
-   "summary_ru": "Клиент просит найти и обойти проверку или ограничение в существующей десктопной программе, которая подключает его продукт к внешней системе или устройству, и выпустить обновлённую сборку. Суть задачи — обход защитного механизма, поэтому проект не подходит.",
-   "reply": "",
-   "reply_ru": "",
-   "questions": [
-    "Какая именно проверка или ограничение должны быть обойдены: лицензионный ключ, аутентификация устройства или ограничение API?",
-    "Есть ли у вас права на изменение этого ПО и разрешение правообладателя внешней системы или производителя устройства?"
-   ]
-  },
-  "found_at": "2026-11-26T07:14:13+00:00"
  }
 ]
